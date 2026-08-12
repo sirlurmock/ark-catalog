@@ -1,0 +1,272 @@
+{
+  "_source": "Borrador de scrape-workshop-configs.mjs, revisado a mano contra la descripción del Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=778345456",
+  "_scope": "Las 15 claves repartidas en DOS secciones del mismo .ini: [BoostedFab] (12) y [TranqGuns] (3). El `section` por setting es el mismo mecanismo que necesitó Weapons+.",
+  "_defaults": "El autor titula el bloque 'GameUserSetting.ini options (with default)', así que los valores publicados son los defaults.",
+  "_nota": "Advertencia textual del autor sobre las velocidades de fabricación: 'Careful when changing craft speed settings, making the speed too high may break the server'. Está dicha en la descripción de cada una.",
+  "modId": "BoostedFab",
+  "name": "Boosted Fabricator+",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=778345456",
+  "prefix": "boosted_fab",
+  "settings": [
+    {
+      "key": "SmithyCraftSpeed",
+      "kind": "integer",
+      "tier": "basic",
+      "default": 10,
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "es": {
+        "label": "Velocidad de la herrería",
+        "description": "Multiplica la velocidad de fabricación de la herrería del mod. El autor avisa: subir mucho las velocidades de fabricación puede romper el servidor."
+      },
+      "en": {
+        "label": "Smithy crafting speed",
+        "description": "Multiplies the crafting speed of the mod's smithy. The author warns that pushing crafting speeds too high can break the server."
+      }
+    },
+    {
+      "key": "FabCraftSpeed",
+      "kind": "integer",
+      "tier": "basic",
+      "default": 10,
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "es": {
+        "label": "Velocidad del fabricador",
+        "description": "Multiplica la velocidad del fabricador, que es la estación principal del mod. El autor avisa: subir mucho las velocidades puede romper el servidor."
+      },
+      "en": {
+        "label": "Fabricator crafting speed",
+        "description": "Multiplies the fabricator's speed, the mod's main station. The author warns that pushing speeds too high can break the server."
+      }
+    },
+    {
+      "key": "AutoFabCraftSpeed",
+      "kind": "integer",
+      "tier": "basic",
+      "default": 4,
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "es": {
+        "label": "Velocidad del fabricador automático",
+        "description": "Multiplica la velocidad del fabricador automático. Viene más bajo que el normal a propósito, porque fabrica sin que estés presente."
+      },
+      "en": {
+        "label": "Auto-fabricator crafting speed",
+        "description": "Multiplies the auto-fabricator's speed. It ships lower than the regular one on purpose, since it crafts without you being there."
+      }
+    },
+    {
+      "key": "ChemBenchCraftSpeed",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 3,
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "es": {
+        "label": "Velocidad del banco químico",
+        "description": "Multiplica la velocidad del banco químico del mod."
+      },
+      "en": {
+        "label": "Chemistry bench crafting speed",
+        "description": "Multiplies the speed of the mod's chemistry bench."
+      }
+    },
+    {
+      "key": "ForgeCraftSpeed",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 3,
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "es": {
+        "label": "Velocidad de la fundición",
+        "description": "Multiplica la velocidad de fundido de metal de la forja del mod."
+      },
+      "en": {
+        "label": "Forge smelting speed",
+        "description": "Multiplies the metal smelting speed of the mod's forge."
+      }
+    },
+    {
+      "key": "ExplosiveFabCraftSpeed",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 1,
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "es": {
+        "label": "Velocidad de fabricación de explosivos",
+        "description": "Multiplica la velocidad con que se fabrican explosivos. Es el único que viene sin acelerar (×1): en PvP, fabricar C4 rápido cambia el ritmo de los raids."
+      },
+      "en": {
+        "label": "Explosive crafting speed",
+        "description": "Multiplies how fast explosives are crafted. The only one that ships un-boosted (×1): in PvP, fast C4 crafting changes the pace of raids."
+      }
+    },
+    {
+      "key": "GrillCraftSpeed",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 3,
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "es": {
+        "label": "Velocidad de la parrilla",
+        "description": "Multiplica la velocidad de cocción de la parrilla del mod."
+      },
+      "en": {
+        "label": "Grill cooking speed",
+        "description": "Multiplies the cooking speed of the mod's grill."
+      }
+    },
+    {
+      "key": "CookerCraftSpeed",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 16,
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "es": {
+        "label": "Velocidad de la olla de cocina",
+        "description": "Multiplica la velocidad de la olla, que es donde se hacen kibbles y tintas. Viene alta porque cocinar en cantidad es de lo más tedioso del juego."
+      },
+      "en": {
+        "label": "Cooking pot speed",
+        "description": "Multiplies the cooking pot's speed, where kibble and dyes are made. It ships high because bulk cooking is one of the game's biggest time sinks."
+      }
+    },
+    {
+      "key": "BeerCraftSpeed",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 30,
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "es": {
+        "label": "Velocidad del barril de cerveza",
+        "description": "Multiplica la velocidad del barril de cerveza. Es la más alta de todas por default, porque la cerveza vanilla tarda muchísimo."
+      },
+      "en": {
+        "label": "Beer barrel speed",
+        "description": "Multiplies the beer barrel's speed. The highest default of them all, because vanilla beer takes an age."
+      }
+    },
+    {
+      "key": "TurretBaseDamage",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 70,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Daño base de la torreta",
+        "description": "Daño por disparo de la torreta del mod. Es el número que define el balance defensivo de una base en PvP, así que conviene tocarlo con cuidado."
+      },
+      "en": {
+        "label": "Turret base damage",
+        "description": "Per-shot damage of the mod's turret. It's the number that sets a base's defensive balance in PvP, so change it carefully."
+      }
+    },
+    {
+      "key": "HeavyTurretBaseDamage",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 300,
+      "min": 1,
+      "max": 5000,
+      "step": 10,
+      "es": {
+        "label": "Daño base de la torreta pesada",
+        "description": "Daño por disparo de la torreta pesada, que por default pega más de 4 veces que la normal."
+      },
+      "en": {
+        "label": "Heavy turret base damage",
+        "description": "Per-shot damage of the heavy turret, which by default hits over 4× harder than the regular one."
+      }
+    },
+    {
+      "key": "SiegeShellDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 1200,
+      "min": 1,
+      "max": 20000,
+      "step": 50,
+      "es": {
+        "label": "Daño del proyectil de asedio",
+        "description": "Daño del proyectil de asedio. Es el arma más pesada del mod y con la que se rompen estructuras en un raid."
+      },
+      "en": {
+        "label": "Siege shell damage",
+        "description": "Damage of the siege shell. The mod's heaviest weapon and what breaks structures during a raid."
+      }
+    },
+    {
+      "key": "RifleDamage",
+      "section": "TranqGuns",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 10,
+      "min": 1,
+      "max": 200,
+      "step": 1,
+      "es": {
+        "label": "Torpor del rifle tranquilizante",
+        "description": "El torpor real es este número × 50, así que el default de 10 son 500 de torpor por disparo. Va en la sección [TranqGuns] del mismo archivo."
+      },
+      "en": {
+        "label": "Tranq rifle torpor",
+        "description": "Actual torpor is this number × 50, so the default of 10 means 500 torpor per shot. Lives in the [TranqGuns] section of the same file."
+      }
+    },
+    {
+      "key": "SniperDamage",
+      "section": "TranqGuns",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 7,
+      "min": 1,
+      "max": 200,
+      "step": 1,
+      "es": {
+        "label": "Torpor del francotirador tranquilizante",
+        "description": "El torpor real es este número × 50: el default de 7 son 350 por disparo. Pega menos torpor que el rifle pero llega mucho más lejos."
+      },
+      "en": {
+        "label": "Tranq sniper torpor",
+        "description": "Actual torpor is this number × 50: the default of 7 means 350 per shot. Less torpor than the rifle but far longer range."
+      }
+    },
+    {
+      "key": "MissileDamage",
+      "section": "TranqGuns",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 16,
+      "min": 1,
+      "max": 200,
+      "step": 1,
+      "es": {
+        "label": "Torpor del misil tranquilizante",
+        "description": "El torpor real es este número × 50: el default de 16 son 800 por disparo. La mitad del daño es directa y la otra mitad en área durante 1,5 s, más una nube de gas."
+      },
+      "en": {
+        "label": "Tranq missile torpor",
+        "description": "Actual torpor is this number × 50: the default of 16 means 800 per shot. Half the damage is direct and half is AoE over 1.5s, plus a gas cloud."
+      }
+    }
+  ]
+}

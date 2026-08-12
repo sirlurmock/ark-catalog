@@ -1,0 +1,2586 @@
+{
+  "modId": "WeaponsPlus",
+  "name": "Weapons+",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=812639416",
+  "settings": [
+    {
+      "id": "weapons_plus_boomerang_damage",
+      "key": "BoomerangDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 60,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.boomerang_damage"
+    },
+    {
+      "id": "weapons_plus_boomerang_flame_damage",
+      "key": "BoomerangFlameDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 60,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.boomerang_flame_damage"
+    },
+    {
+      "id": "weapons_plus_bow_arrow_damage",
+      "key": "BowArrowDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 55,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.bow_arrow_damage"
+    },
+    {
+      "id": "weapons_plus_bow_flame_arrow_damage",
+      "key": "BowFlameArrowDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 60,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.bow_flame_arrow_damage"
+    },
+    {
+      "id": "weapons_plus_bow_tranq_arrow_torper",
+      "key": "BowTranqArrowTorper",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 40,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.bow_tranq_arrow_torper"
+    },
+    {
+      "id": "weapons_plus_bow_detox_arrow",
+      "key": "BowDetoxArrow",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 20,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.bow_detox_arrow"
+    },
+    {
+      "id": "weapons_plus_bolt_action_bullet_damage",
+      "key": "BoltActionBulletDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 280,
+        "min": 0,
+        "max": 1400,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.bolt_action_bullet_damage"
+    },
+    {
+      "id": "weapons_plus_bolt_action_apbullet_damage",
+      "key": "BoltActionAPBulletDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 280,
+        "min": 0,
+        "max": 1400,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.bolt_action_apbullet_damage"
+    },
+    {
+      "id": "weapons_plus_bolt_action_tranq_bullet_torper",
+      "key": "BoltActionTranqBulletTorper",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 25,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.bolt_action_tranq_bullet_torper"
+    },
+    {
+      "id": "weapons_plus_bolt_action_aggro_dart",
+      "key": "BoltActionAggroDart",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.bolt_action_aggro_dart"
+    },
+    {
+      "id": "weapons_plus_bolt_action_shock_tranq_dart",
+      "key": "BoltActionShockTranqDart",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 26,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.bolt_action_shock_tranq_dart"
+    },
+    {
+      "id": "weapons_plus_c4_damage",
+      "key": "C4Damage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1000,
+        "min": 0,
+        "max": 5000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.c4_damage"
+    },
+    {
+      "id": "weapons_plus_cannon_damage",
+      "key": "CannonDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1800,
+        "min": 0,
+        "max": 9000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.cannon_damage"
+    },
+    {
+      "id": "weapons_plus_chain_saw_damage",
+      "key": "ChainSawDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 40,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.chain_saw_damage"
+    },
+    {
+      "id": "weapons_plus_compound_bolt_damage",
+      "key": "CompoundBoltDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 130,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.compound_bolt_damage"
+    },
+    {
+      "id": "weapons_plus_compound_explosive_damage",
+      "key": "CompoundExplosiveDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 130,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.compound_explosive_damage"
+    },
+    {
+      "id": "weapons_plus_compound_flame_damage",
+      "key": "CompoundFlameDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 130,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.compound_flame_damage"
+    },
+    {
+      "id": "weapons_plus_compound_shock_damage",
+      "key": "CompoundShockDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 130,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.compound_shock_damage"
+    },
+    {
+      "id": "weapons_plus_compound_tranq_torper",
+      "key": "CompoundTranqTorper",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 130,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.compound_tranq_torper"
+    },
+    {
+      "id": "weapons_plus_cross_bolt_damage",
+      "key": "CrossBoltDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 65,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.cross_bolt_damage"
+    },
+    {
+      "id": "weapons_plus_cross_bolt_flame_damage",
+      "key": "CrossBoltFlameDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 65,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.cross_bolt_flame_damage"
+    },
+    {
+      "id": "weapons_plus_cross_bolt_tranq_torper",
+      "key": "CrossBoltTranqTorper",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 30,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.cross_bolt_tranq_torper"
+    },
+    {
+      "id": "weapons_plus_cross_bolt_detox_arrow",
+      "key": "CrossBoltDetoxArrow",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 30,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.cross_bolt_detox_arrow"
+    },
+    {
+      "id": "weapons_plus_fab_sniper_bullet_damage",
+      "key": "FabSniperBulletDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 142,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.fab_sniper_bullet_damage"
+    },
+    {
+      "id": "weapons_plus_fab_sniper_apbullet_damage",
+      "key": "FabSniperAPBulletDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 142,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.fab_sniper_apbullet_damage"
+    },
+    {
+      "id": "weapons_plus_fab_sniper_tranq_bullet_torper",
+      "key": "FabSniperTranqBulletTorper",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.fab_sniper_tranq_bullet_torper"
+    },
+    {
+      "id": "weapons_plus_fab_pistol_bullet_damage",
+      "key": "FabPistolBulletDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 50,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.fab_pistol_bullet_damage"
+    },
+    {
+      "id": "weapons_plus_fab_pistol_apbullet_damage",
+      "key": "FabPistolAPBulletDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 50,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.fab_pistol_apbullet_damage"
+    },
+    {
+      "id": "weapons_plus_fab_pistol_electric_bullet_damage",
+      "key": "FabPistolElectricBulletDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 25,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.fab_pistol_electric_bullet_damage"
+    },
+    {
+      "id": "weapons_plus_flame_thrower_damage",
+      "key": "FlameThrowerDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 20,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.flame_thrower_damage"
+    },
+    {
+      "id": "weapons_plus_flame_thrower_min_damage_per_second",
+      "key": "FlameThrowerMinDamagePerSecond",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 20,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.flame_thrower_min_damage_per_second"
+    },
+    {
+      "id": "weapons_plus_grenade_damage",
+      "key": "GrenadeDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 175,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.grenade_damage"
+    },
+    {
+      "id": "weapons_plus_gas_grenade_damage",
+      "key": "GasGrenadeDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 2,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.gas_grenade_damage"
+    },
+    {
+      "id": "weapons_plus_cluster_grenade_damage",
+      "key": "ClusterGrenadeDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 60,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.cluster_grenade_damage"
+    },
+    {
+      "id": "weapons_plus_cluster_fragment_grenade_damage",
+      "key": "ClusterFragmentGrenadeDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 150,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.cluster_fragment_grenade_damage"
+    },
+    {
+      "id": "weapons_plus_tek_grenade_damage",
+      "key": "TekGrenadeDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 925,
+        "min": 0,
+        "max": 4625,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.tek_grenade_damage"
+    },
+    {
+      "id": "weapons_plus_harpoon_damage",
+      "key": "HarpoonDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 140,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.harpoon_damage"
+    },
+    {
+      "id": "weapons_plus_harpoon_tranq_torper",
+      "key": "HarpoonTranqTorper",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 46,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.harpoon_tranq_torper"
+    },
+    {
+      "id": "weapons_plus_machined_rifle_bullet_damage",
+      "key": "MachinedRifleBulletDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 52,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.machined_rifle_bullet_damage"
+    },
+    {
+      "id": "weapons_plus_machined_rifle_apbullet_damage",
+      "key": "MachinedRifleAPBulletDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 52,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.machined_rifle_apbullet_damage"
+    },
+    {
+      "id": "weapons_plus_machined_rifle_electric_bullet_damage",
+      "key": "MachinedRifleElectricBulletDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 28,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.machined_rifle_electric_bullet_damage"
+    },
+    {
+      "id": "weapons_plus_net_gun_tranq_damage",
+      "key": "NetGunTranqDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 5,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.net_gun_tranq_damage"
+    },
+    {
+      "id": "weapons_plus_pike_damage",
+      "key": "PikeDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 50,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.pike_damage"
+    },
+    {
+      "id": "weapons_plus_sword_damage",
+      "key": "SwordDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.sword_damage"
+    },
+    {
+      "id": "weapons_plus_electric_prob_damage",
+      "key": "ElectricProbDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 2,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.electric_prob_damage"
+    },
+    {
+      "id": "weapons_plus_tek_sword_damage",
+      "key": "TekSwordDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 200,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.tek_sword_damage"
+    },
+    {
+      "id": "weapons_plus_magnum_bullet_damage",
+      "key": "MagnumBulletDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.magnum_bullet_damage"
+    },
+    {
+      "id": "weapons_plus_shotgun_ammo_damage",
+      "key": "ShotgunAmmoDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 46,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.shotgun_ammo_damage"
+    },
+    {
+      "id": "weapons_plus_shotgun_apammo_damage",
+      "key": "ShotgunAPAmmoDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 46,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.shotgun_apammo_damage"
+    },
+    {
+      "id": "weapons_plus_shotgun_explosive_ammo_damage",
+      "key": "ShotgunExplosiveAmmoDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 35,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.shotgun_explosive_ammo_damage"
+    },
+    {
+      "id": "weapons_plus_slingshot_damage",
+      "key": "SlingshotDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 20,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.slingshot_damage"
+    },
+    {
+      "id": "weapons_plus_spear_damage",
+      "key": "SpearDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 60,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.spear_damage"
+    },
+    {
+      "id": "weapons_plus_spike_damage",
+      "key": "SpikeDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 50,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.spike_damage"
+    },
+    {
+      "id": "weapons_plus_wooden_club_damage",
+      "key": "WoodenClubDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.wooden_club_damage"
+    },
+    {
+      "id": "weapons_plus_rocket_launcher_damage",
+      "key": "RocketLauncherDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 250,
+        "min": 0,
+        "max": 1250,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.rocket_launcher_damage"
+    },
+    {
+      "id": "weapons_plus_rocket_launcher_explosion",
+      "key": "RocketLauncherExplosion",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1150,
+        "min": 0,
+        "max": 5750,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.rocket_launcher_explosion"
+    },
+    {
+      "id": "weapons_plus_fire_work_rocket_launcher_damage",
+      "key": "FireWorkRocketLauncherDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 250,
+        "min": 0,
+        "max": 1250,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.fire_work_rocket_launcher_damage"
+    },
+    {
+      "id": "weapons_plus_fire_work_rocket_launcher_explosion",
+      "key": "FireWorkRocketLauncherExplosion",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1150,
+        "min": 0,
+        "max": 5750,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.fire_work_rocket_launcher_explosion"
+    },
+    {
+      "id": "weapons_plus_homing_missile_damage",
+      "key": "HomingMissileDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 250,
+        "min": 0,
+        "max": 1250,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.homing_missile_damage"
+    },
+    {
+      "id": "weapons_plus_homing_missile_explosion",
+      "key": "HomingMissileExplosion",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1150,
+        "min": 0,
+        "max": 5750,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.homing_missile_explosion"
+    },
+    {
+      "id": "weapons_plus_rocket_tranq_torper",
+      "key": "RocketTranqTorper",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.rocket_tranq_torper"
+    },
+    {
+      "id": "weapons_plus_rocket_tranq_torper_explosion",
+      "key": "RocketTranqTorperExplosion",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 250,
+        "min": 0,
+        "max": 1250,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.rocket_tranq_torper_explosion"
+    },
+    {
+      "id": "weapons_plus_rocket_turret_damage",
+      "key": "RocketTurretDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 200,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.rocket_turret_damage"
+    },
+    {
+      "id": "weapons_plus_rocket_turret_explosion",
+      "key": "RocketTurretExplosion",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 800,
+        "min": 0,
+        "max": 4000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.rocket_turret_explosion"
+    },
+    {
+      "id": "weapons_plus_mini_gun_turret_damage",
+      "key": "MiniGunTurretDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 150,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.mini_gun_turret_damage"
+    },
+    {
+      "id": "weapons_plus_apturret_damage",
+      "key": "APTurretDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 154,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.apturret_damage"
+    },
+    {
+      "id": "weapons_plus_t2_turret_damage",
+      "key": "T2TurretDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 154,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.t2_turret_damage"
+    },
+    {
+      "id": "weapons_plus_tek_turret_damage",
+      "key": "TekTurretDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 750,
+        "min": 0,
+        "max": 3750,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.tek_turret_damage"
+    },
+    {
+      "id": "weapons_plus_tek_turret_explosion",
+      "key": "TekTurretExplosion",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 600,
+        "min": 0,
+        "max": 3000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.tek_turret_explosion"
+    },
+    {
+      "id": "weapons_plus_mount_turret_damage",
+      "key": "MountTurretDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 77,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.mount_turret_damage"
+    },
+    {
+      "id": "weapons_plus_tek_rail_gun_damage",
+      "key": "TekRailGunDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 850,
+        "min": 0,
+        "max": 4250,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.tek_rail_gun_damage"
+    },
+    {
+      "id": "weapons_plus_tek_rifle_damage",
+      "key": "TekRifleDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 240,
+        "min": 0,
+        "max": 1200,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.tek_rifle_damage"
+    },
+    {
+      "id": "weapons_plus_tek_claws_damage",
+      "key": "TekClawsDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 15,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.tek_claws_damage"
+    },
+    {
+      "id": "weapons_plus_tek_bow_damage",
+      "key": "TekBowDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 200,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.tek_bow_damage"
+    },
+    {
+      "id": "weapons_plus_tek_bow_explosive_damage",
+      "key": "TekBowExplosiveDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 150,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.tek_bow_explosive_damage"
+    },
+    {
+      "id": "weapons_plus_tek_bow_flame_damage",
+      "key": "TekBowFlameDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.tek_bow_flame_damage"
+    },
+    {
+      "id": "weapons_plus_tek_bow_tranq_damage",
+      "key": "TekBowTranqDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 40,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.tek_bow_tranq_damage"
+    },
+    {
+      "id": "weapons_plus_tek_pistol_damage",
+      "key": "TekPistolDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 80,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.tek_pistol_damage"
+    },
+    {
+      "id": "weapons_plus_tek_pistol_heal_amount",
+      "key": "TekPistolHealAmount",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.tek_pistol_heal_amount"
+    },
+    {
+      "id": "weapons_plus_shoulder_cannon_damage",
+      "key": "ShoulderCannonDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 250,
+        "min": 0,
+        "max": 1250,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.shoulder_cannon_damage"
+    },
+    {
+      "id": "weapons_plus_shoulder_cannon_rapid_damage",
+      "key": "ShoulderCannonRapidDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 80,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.shoulder_cannon_rapid_damage"
+    },
+    {
+      "id": "weapons_plus_shoulder_cannon_overcharge_damage",
+      "key": "ShoulderCannonOverchargeDamage",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 600,
+        "min": 0,
+        "max": 3000,
+        "step": 1
+      },
+      "i18nKey": "mods.weapons_plus.shoulder_cannon_overcharge_damage"
+    },
+    {
+      "id": "weapons_plus_chain_saw_harvest_multiplier",
+      "key": "ChainSawHarvestMultiplier",
+      "category": "mod_weapons_plus",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlusSettings",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 50,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.weapons_plus.chain_saw_harvest_multiplier"
+    },
+    {
+      "id": "weapons_plus_mining_drill_harvest_multiplier",
+      "key": "MiningDrillHarvestMultiplier",
+      "category": "mod_weapons_plus",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlusSettings",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 2,
+        "min": 0,
+        "max": 50,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.weapons_plus.mining_drill_harvest_multiplier"
+    },
+    {
+      "id": "weapons_plus_metal_pick_harvest_multiplier",
+      "key": "MetalPickHarvestMultiplier",
+      "category": "mod_weapons_plus",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlusSettings",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 2,
+        "min": 0,
+        "max": 50,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.weapons_plus.metal_pick_harvest_multiplier"
+    },
+    {
+      "id": "weapons_plus_metal_hatchet_harvest_multiplier",
+      "key": "MetalHatchetHarvestMultiplier",
+      "category": "mod_weapons_plus",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlusSettings",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 2,
+        "min": 0,
+        "max": 50,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.weapons_plus.metal_hatchet_harvest_multiplier"
+    },
+    {
+      "id": "weapons_plus_metal_sickle_harvest_multiplier",
+      "key": "MetalSickleHarvestMultiplier",
+      "category": "mod_weapons_plus",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlusSettings",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 2,
+        "min": 0,
+        "max": 50,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.weapons_plus.metal_sickle_harvest_multiplier"
+    },
+    {
+      "id": "weapons_plus_weapons_bench_crafting_speed",
+      "key": "WeaponsBenchCraftingSpeed",
+      "category": "mod_weapons_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlusSettings",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 50,
+        "min": 1,
+        "max": 500,
+        "step": 5
+      },
+      "i18nKey": "mods.weapons_plus.weapons_bench_crafting_speed"
+    },
+    {
+      "id": "weapons_plus_weapons_bench_max_inventry_slots",
+      "key": "WeaponsBenchMaxInventrySlots",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlusSettings",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 400,
+        "min": 1,
+        "max": 1000,
+        "step": 10
+      },
+      "i18nKey": "mods.weapons_plus.weapons_bench_max_inventry_slots"
+    },
+    {
+      "id": "weapons_plus_tek_no_struct_dmg",
+      "key": "TekNoStructDmg",
+      "category": "mod_weapons_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlusSettings",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.weapons_plus.tek_no_struct_dmg"
+    },
+    {
+      "id": "weapons_plus_homing_missile_lock_on_distance",
+      "key": "HomingMissileLockOnDistance",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlusSettings",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 14000,
+        "min": 0,
+        "max": 100000,
+        "step": 1000
+      },
+      "i18nKey": "mods.weapons_plus.homing_missile_lock_on_distance"
+    },
+    {
+      "id": "weapons_plus_apturret_damage_multiplier",
+      "key": "APTurretDamageMultiplier",
+      "category": "mod_weapons_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlusSettings",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 20,
+        "step": 0.1,
+        "presets": [
+          0.5,
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.weapons_plus.apturret_damage_multiplier"
+    },
+    {
+      "id": "weapons_plus_t2_turret_damage_multiplier",
+      "key": "T2TurretDamageMultiplier",
+      "category": "mod_weapons_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlusSettings",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 20,
+        "step": 0.1,
+        "presets": [
+          0.5,
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.weapons_plus.t2_turret_damage_multiplier"
+    },
+    {
+      "id": "weapons_plus_apturret_targeting_speed",
+      "key": "APTurretTargetingSpeed",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlusSettings",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 140,
+        "min": 1,
+        "max": 1000,
+        "step": 10
+      },
+      "i18nKey": "mods.weapons_plus.apturret_targeting_speed"
+    },
+    {
+      "id": "weapons_plus_apturret_fire_interval",
+      "key": "APTurretFireInterval",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlusSettings",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.2,
+        "min": 0.01,
+        "max": 10,
+        "step": 0.05,
+        "presets": [
+          0.1,
+          0.2,
+          0.5,
+          1
+        ]
+      },
+      "i18nKey": "mods.weapons_plus.apturret_fire_interval"
+    },
+    {
+      "id": "weapons_plus_t2_turret_targeting_speed",
+      "key": "T2TurretTargetingSpeed",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlusSettings",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 140,
+        "min": 1,
+        "max": 1000,
+        "step": 10
+      },
+      "i18nKey": "mods.weapons_plus.t2_turret_targeting_speed"
+    },
+    {
+      "id": "weapons_plus_t2_turret_fire_interval",
+      "key": "T2TurretFireInterval",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlusSettings",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.2,
+        "min": 0.01,
+        "max": 10,
+        "step": 0.05,
+        "presets": [
+          0.1,
+          0.2,
+          0.5,
+          1
+        ]
+      },
+      "i18nKey": "mods.weapons_plus.t2_turret_fire_interval"
+    },
+    {
+      "id": "weapons_plus_tek_turret_targeting_speed",
+      "key": "TekTurretTargetingSpeed",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlusSettings",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 180,
+        "min": 1,
+        "max": 1000,
+        "step": 10
+      },
+      "i18nKey": "mods.weapons_plus.tek_turret_targeting_speed"
+    },
+    {
+      "id": "weapons_plus_tek_turret_fire_interval",
+      "key": "TekTurretFireInterval",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsPlusSettings",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.2,
+        "min": 0.01,
+        "max": 10,
+        "step": 0.05,
+        "presets": [
+          0.1,
+          0.2,
+          0.5,
+          1
+        ]
+      },
+      "i18nKey": "mods.weapons_plus.tek_turret_fire_interval"
+    },
+    {
+      "id": "weapons_plus_event_fab_pistol",
+      "key": "EventFabPistol",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsEventPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 500,
+        "min": 0,
+        "max": 5000,
+        "step": 10
+      },
+      "i18nKey": "mods.weapons_plus.event_fab_pistol"
+    },
+    {
+      "id": "weapons_plus_event_fab_sniper",
+      "key": "EventFabSniper",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsEventPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 500,
+        "min": 0,
+        "max": 5000,
+        "step": 10
+      },
+      "i18nKey": "mods.weapons_plus.event_fab_sniper"
+    },
+    {
+      "id": "weapons_plus_event_golden_gun",
+      "key": "EventGoldenGun",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsEventPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 500,
+        "min": 0,
+        "max": 5000,
+        "step": 10
+      },
+      "i18nKey": "mods.weapons_plus.event_golden_gun"
+    },
+    {
+      "id": "weapons_plus_event_bolt_action",
+      "key": "EventBoltAction",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsEventPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 500,
+        "min": 0,
+        "max": 5000,
+        "step": 10
+      },
+      "i18nKey": "mods.weapons_plus.event_bolt_action"
+    },
+    {
+      "id": "weapons_plus_event_machined_rifle",
+      "key": "EventMachinedRifle",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsEventPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 500,
+        "min": 0,
+        "max": 5000,
+        "step": 10
+      },
+      "i18nKey": "mods.weapons_plus.event_machined_rifle"
+    },
+    {
+      "id": "weapons_plus_event_shotgun",
+      "key": "EventShotgun",
+      "category": "mod_weapons_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "WeaponsEventPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 500,
+        "min": 0,
+        "max": 5000,
+        "step": 10
+      },
+      "i18nKey": "mods.weapons_plus.event_shotgun"
+    }
+  ]
+}

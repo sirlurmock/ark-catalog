@@ -1,0 +1,135 @@
+{
+  "_source": "Borrador de scrape-workshop-configs.mjs, revisado a mano contra la descripción del Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=751991809",
+  "_scope": "Las 8 claves escalares que documenta el autor. Queda afuera ExclusionList (lista de classnames separada por comas, con comodín '.'): necesita un ControlKind de lista de strings que el catálogo todavía no tiene.",
+  "_defaults": "OJO: el bloque de ejemplo del Workshop NO son los defaults — el autor lo aclara en mayúsculas ('The following settings are NOT default. They are examples of what you MIGHT do with them'). Los defaults de acá salen de la prosa: el cooldown base es 30 s, y el resto de los toggles vienen apagados porque son opt-in.",
+  "modId": "DeathRecovery",
+  "name": "Death Recovery Mod",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=751991809",
+  "prefix": "death_recovery",
+  "settings": [
+    {
+      "key": "DelayTimer",
+      "kind": "integer",
+      "tier": "basic",
+      "default": 30,
+      "min": 0,
+      "max": 86400,
+      "step": 30,
+      "es": {
+        "label": "Espera entre usos (segundos)",
+        "description": "Cuánto hay que esperar para volver a usar la lápida. El default son 30 s, pensado solo para evitar spam. Referencias: 300 = 5 min, 1800 = 30 min, 3600 = 1 hora, 86400 = 1 día. Si activás \"Destruir la lápida al usarla\", este tiempo pasa a ser lo que tarda en destruirse."
+      },
+      "en": {
+        "label": "Delay between uses (seconds)",
+        "description": "How long before the gravestone can be used again. The default 30s only exists to prevent spam. Reference: 300 = 5 min, 1800 = 30 min, 3600 = 1 hour, 86400 = 1 day. If \"Destroy the gravestone after use\" is on, this becomes how long it takes to be destroyed."
+      }
+    },
+    {
+      "key": "UseOnce",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Destruir la lápida al usarla",
+        "description": "La lápida se destruye después de recuperar los items una vez. Hay que fabricar una nueva para el próximo muerte. Es la forma más común de que el mod no elimine el costo de morir."
+      },
+      "en": {
+        "label": "Destroy the gravestone after use",
+        "description": "The gravestone is destroyed after recovering items once, so a new one must be crafted for the next death. The most common way to keep dying from being consequence-free."
+      }
+    },
+    {
+      "key": "ThereCanOnlyBeOne",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Una sola lápida por jugador",
+        "description": "Impide colocar más de una lápida por jugador. No afecta a las que ya estén puestas."
+      },
+      "en": {
+        "label": "One gravestone per player",
+        "description": "Prevents a player from placing more than one gravestone. Does not affect stones already placed."
+      }
+    },
+    {
+      "key": "DecayMultiplier",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0.1,
+      "max": 5,
+      "step": 0.05,
+      "presets": [0.142857, 0.428571, 1, 2],
+      "es": {
+        "label": "Multiplicador de tiempo de decaimiento",
+        "description": "Escala cuánto tarda la lápida en decaer. Con 1 (default) dura unos 7 días reales; 0,142857 la hace decaer en 1 día y 0,428571 en 3. El autor no recomienda bajar de 3 días."
+      },
+      "en": {
+        "label": "Decay time multiplier",
+        "description": "Scales how long the gravestone takes to decay. At 1 (default) it lasts about 7 real days; 0.142857 makes it decay in 1 day and 0.428571 in 3. The author does not recommend going below 3 days."
+      }
+    },
+    {
+      "key": "DisableDecay",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Desactivar el decaimiento",
+        "description": "La lápida deja de recibir daño con el tiempo y no hace falta repararla. Anula el multiplicador de decaimiento."
+      },
+      "en": {
+        "label": "Disable decay",
+        "description": "The gravestone stops taking damage over time and needs no maintenance. Overrides the decay multiplier."
+      }
+    },
+    {
+      "key": "DisablePickup",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "No permitir recoger la lápida",
+        "description": "Saca la opción de levantar la lápida una vez colocada. De base tampoco se puede recoger mientras el temporizador corre o si está dañada."
+      },
+      "en": {
+        "label": "Disallow picking the gravestone up",
+        "description": "Removes the pick-up option once placed. By default it already can't be picked up while the timer is running or while it is damaged."
+      }
+    },
+    {
+      "key": "useGlobalTimer",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Temporizador global compartido",
+        "description": "Todas las lápidas del servidor comparten un único temporizador: si un jugador usa la suya, el resto tiene que esperar. Es un freno duro y afecta a todo el mundo por igual."
+      },
+      "en": {
+        "label": "Shared global timer",
+        "description": "Every gravestone on the server shares a single cooldown: if one player uses theirs, everyone else has to wait. A hard brake that hits all players equally."
+      }
+    },
+    {
+      "key": "MaxLifeSpan",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 604800,
+      "step": 3600,
+      "es": {
+        "label": "Vida máxima de la lápida (segundos)",
+        "description": "Segundos que puede existir una lápida antes de destruirse sola, sin importar el decaimiento. 0 la deja sin límite. Es la vía rápida para limpiar lápidas viejas de un servidor."
+      },
+      "en": {
+        "label": "Gravestone max lifespan (seconds)",
+        "description": "Seconds a gravestone can exist before destroying itself, regardless of decay. 0 means no limit. The quick way to clear old gravestones off a server."
+      }
+    }
+  ]
+}

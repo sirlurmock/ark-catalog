@@ -1,0 +1,240 @@
+{
+  "modId": "AwesomeSpyGlass",
+  "name": "Awesome SpyGlass!",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1404697612",
+  "settings": [
+    {
+      "id": "awesome_spyglass_allow_gps",
+      "key": "AllowGPS",
+      "category": "mod_awesome_spyglass",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeSpyGlass",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.awesome_spyglass.allow_gps"
+    },
+    {
+      "id": "awesome_spyglass_allow_crosshair",
+      "key": "AllowCrosshair",
+      "category": "mod_awesome_spyglass",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeSpyGlass",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.awesome_spyglass.allow_crosshair"
+    },
+    {
+      "id": "awesome_spyglass_allow_outline",
+      "key": "AllowOutline",
+      "category": "mod_awesome_spyglass",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeSpyGlass",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.awesome_spyglass.allow_outline"
+    },
+    {
+      "id": "awesome_spyglass_allow_food_list",
+      "key": "AllowFoodList",
+      "category": "mod_awesome_spyglass",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeSpyGlass",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.awesome_spyglass.allow_food_list"
+    },
+    {
+      "id": "awesome_spyglass_allow_buff_list",
+      "key": "AllowBuffList",
+      "category": "mod_awesome_spyglass",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeSpyGlass",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.awesome_spyglass.allow_buff_list"
+    },
+    {
+      "id": "awesome_spyglass_allow_item_list",
+      "key": "AllowItemList",
+      "category": "mod_awesome_spyglass",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeSpyGlass",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.awesome_spyglass.allow_item_list"
+    },
+    {
+      "id": "awesome_spyglass_allow_player_targeting",
+      "key": "AllowPlayerTargeting",
+      "category": "mod_awesome_spyglass",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeSpyGlass",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.awesome_spyglass.allow_player_targeting"
+    },
+    {
+      "id": "awesome_spyglass_allow_structure_targeting",
+      "key": "AllowStructureTargeting",
+      "category": "mod_awesome_spyglass",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeSpyGlass",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.awesome_spyglass.allow_structure_targeting"
+    },
+    {
+      "id": "awesome_spyglass_allow_crate_targeting",
+      "key": "AllowCrateTargeting",
+      "category": "mod_awesome_spyglass",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeSpyGlass",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.awesome_spyglass.allow_crate_targeting"
+    },
+    {
+      "id": "awesome_spyglass_allow_loot_targeting",
+      "key": "AllowLootTargeting",
+      "category": "mod_awesome_spyglass",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeSpyGlass",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.awesome_spyglass.allow_loot_targeting"
+    },
+    {
+      "id": "awesome_spyglass_allow_egg_targeting",
+      "key": "AllowEggTargeting",
+      "category": "mod_awesome_spyglass",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeSpyGlass",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.awesome_spyglass.allow_egg_targeting"
+    }
+  ]
+}

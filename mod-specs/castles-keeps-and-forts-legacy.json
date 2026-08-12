@@ -1,0 +1,132 @@
+{
+  "_source": "Hilo de documentación fijado por el equipo de CKF en el Workshop (última edición 25/07/2019 por eNc | Henrik): https://steamcommunity.com/workshop/filedetails/discussion/764755314/1326718197206196093 — no la descripción de la mod, que solo muestra el bloque de ejemplo sin explicar nada.",
+  "_scope": "Las 7 claves. Las 4 de tier estuvieron pendientes hasta el 2026-08-11 porque son enums de texto y la descripción de la mod no lista las opciones válidas: solo muestra `wood` y `stone` como ejemplo. El hilo del autor confirma que aceptan wood, stone y metal — no tek.",
+  "_palisade": "OJO: `Palisade` aparece en el bloque de ejemplo de la descripción con valor `stone`, pero NO figura en la lista oficial de settings del hilo. Se cataloga con las mismas tres opciones que los otros tiers porque es evidentemente la misma familia, y queda dicho en su descripción que el autor no la documenta. El riesgo es acotado: si aceptara otro set, lo peor que pasa es que el juego ignore el valor.",
+  "_defaults": "El hilo titula el bloque 'The default settings' y además repite el default en la explicación de cada clave.",
+  "modId": "CastleModifiers",
+  "name": "Castles, Keeps and Forts (Legacy)",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=764755314",
+  "prefix": "ckf_legacy",
+  "settings": [
+    {
+      "key": "IsPrimitive",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Tier Castle con resistencia de piedra",
+        "description": "Con esto activado, las piezas del tier Castle pasan a tener las propiedades de daño de la piedra en vez de las del metal. Es el ajuste que baja el techo defensivo de la mod: apagado, una base de CKF aguanta como metal."
+      },
+      "en": {
+        "label": "Castle tier with stone resistance",
+        "description": "With this on, Castle tier pieces take on stone's damage properties instead of metal's. It's the setting that lowers the mod's defensive ceiling: with it off, a CKF base tanks like metal."
+      }
+    },
+    {
+      "key": "CeilingIsFoundation",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Los techos cuentan como cimiento",
+        "description": "Los techos se registran como cimiento al colocarse, así que se puede construir un puente largo sin que salga \"requiere soporte de cimiento\". Ojo con el detalle que aclara el autor: se aplica al colocar, así que volver a apagarlo NO afecta a los techos ya puestos — siguen contando como cimiento hasta que los saques o decaigan."
+      },
+      "en": {
+        "label": "Ceilings count as foundations",
+        "description": "Ceilings register as foundations on placement, so you can build a long bridge without the \"requires foundation support\" error. Note the author's caveat: it applies at placement time, so turning it back off does NOT affect ceilings already placed — they keep counting as foundations until removed or decayed."
+      }
+    },
+    {
+      "key": "DisableAutoDoors",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Desactivar las puertas automáticas",
+        "description": "Apaga por defecto la apertura y el cierre automáticos de las puertas. No es definitivo: cada jugador puede volver a activarlos puerta por puerta manteniendo E sobre ella."
+      },
+      "en": {
+        "label": "Disable automatic doors",
+        "description": "Turns auto-open and auto-close off by default. It isn't final: each player can re-enable them door by door by long-holding E on it."
+      }
+    },
+    {
+      "key": "ScaffoldTier",
+      "kind": "enum",
+      "tier": "advanced",
+      "default": "wood",
+      "options": [
+        { "value": "wood", "es": "Madera (default)", "en": "Wood (default)" },
+        { "value": "stone", "es": "Piedra", "en": "Stone" },
+        { "value": "metal", "es": "Metal", "en": "Metal" }
+      ],
+      "es": {
+        "label": "Resistencia de los andamios",
+        "description": "Qué material determina las propiedades de daño de las piezas de andamio. Subirlo a piedra o metal las vuelve estructuras defensivas de verdad; en madera son lo que su nombre dice, algo temporal."
+      },
+      "en": {
+        "label": "Scaffold resistance",
+        "description": "Which material sets the damage properties of scaffold parts. Raising it to stone or metal turns them into real defensive structures; at wood they are what the name says, temporary."
+      }
+    },
+    {
+      "key": "SettlerTier",
+      "kind": "enum",
+      "tier": "advanced",
+      "default": "wood",
+      "options": [
+        { "value": "wood", "es": "Madera (default)", "en": "Wood (default)" },
+        { "value": "stone", "es": "Piedra", "en": "Stone" },
+        { "value": "metal", "es": "Metal", "en": "Metal" }
+      ],
+      "es": {
+        "label": "Resistencia del tier Settler",
+        "description": "Qué material determina las propiedades de daño del tier Settler, que de fábrica equivale a madera. Subirlo permite que una base de aspecto rústico aguante como piedra o metal, lo que cambia bastante el balance de raids."
+      },
+      "en": {
+        "label": "Settler tier resistance",
+        "description": "Which material sets the damage properties of the Settler tier, wood-equivalent out of the box. Raising it lets a rustic-looking base tank like stone or metal, which noticeably shifts raid balance."
+      }
+    },
+    {
+      "key": "VillagerTier",
+      "kind": "enum",
+      "tier": "advanced",
+      "default": "stone",
+      "options": [
+        { "value": "wood", "es": "Madera", "en": "Wood" },
+        { "value": "stone", "es": "Piedra (default)", "en": "Stone (default)" },
+        { "value": "metal", "es": "Metal", "en": "Metal" }
+      ],
+      "es": {
+        "label": "Resistencia del tier Villager",
+        "description": "Qué material determina las propiedades de daño del tier Villager, que de fábrica equivale a piedra. Bajarlo a madera es lo que se hace en servidores donde las estructuras bonitas no deberían ser también las más duras."
+      },
+      "en": {
+        "label": "Villager tier resistance",
+        "description": "Which material sets the damage properties of the Villager tier, stone-equivalent out of the box. Dropping it to wood is what servers do when the pretty structures shouldn't also be the toughest."
+      }
+    },
+    {
+      "key": "Palisade",
+      "kind": "enum",
+      "tier": "expert",
+      "default": "stone",
+      "options": [
+        { "value": "wood", "es": "Madera", "en": "Wood" },
+        { "value": "stone", "es": "Piedra (default)", "en": "Stone (default)" },
+        { "value": "metal", "es": "Metal", "en": "Metal" }
+      ],
+      "es": {
+        "label": "Resistencia de las empalizadas",
+        "description": "Qué material determina las propiedades de daño de las empalizadas. El autor la incluye en su bloque de ejemplo con valor `stone` pero no la explica en su documentación, así que las opciones son las mismas que los otros tiers por analogía: si aceptara otras, el juego simplemente ignoraría el valor."
+      },
+      "en": {
+        "label": "Palisade resistance",
+        "description": "Which material sets the damage properties of palisades. The author includes it in the example block with the value `stone` but never documents it, so the options mirror the other tiers by analogy: if it accepted a different set, the game would simply ignore the value."
+      }
+    }
+  ]
+}

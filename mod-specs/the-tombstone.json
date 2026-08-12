@@ -1,0 +1,72 @@
+{
+  "_source": "Borrador de scrape-workshop-configs.mjs, revisado a mano contra la descripción del Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=1139981401",
+  "_scope": "Las 4 claves que documenta el autor, cada una con su default explícito escrito al lado.",
+  "_defaults": "El autor escribe 'default: X' debajo de cada opción, así que no hay que deducir nada. Ojo: KeepInventoryOnDeath viene en `true`, o sea que es la única de la tanda cuyo default no es el valor apagado.",
+  "modId": "TheTombstone",
+  "name": "The Tombstone",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1139981401",
+  "prefix": "tombstone",
+  "settings": [
+    {
+      "key": "KeepInventoryOnDeath",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": true,
+      "es": {
+        "label": "Devolver el inventario al reaparecer",
+        "description": "Al respawnear, el inventario guardado en la lápida vuelve solo al jugador. Apagarlo deja la lápida como un cofre que hay que ir a buscar a donde moriste, que es el término medio entre este mod y el juego base."
+      },
+      "en": {
+        "label": "Return inventory on respawn",
+        "description": "On respawn, the inventory stored in the tombstone is handed back automatically. Turning it off leaves the tombstone as a chest you have to walk to, which is the middle ground between this mod and vanilla."
+      }
+    },
+    {
+      "key": "OneTombstonePerPlayer",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Una sola lápida por jugador",
+        "description": "Solo sobrevive la última lápida de cada jugador; las anteriores se destruyen solas. Es el freno al spam de lápidas en servidores donde se muere seguido."
+      },
+      "en": {
+        "label": "One tombstone per player",
+        "description": "Only each player's most recent tombstone survives; earlier ones are destroyed automatically. The brake on tombstone spam on servers where people die often."
+      }
+    },
+    {
+      "key": "DestroyGravestoneWhenEmpty",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Destruir la lápida al vaciarla",
+        "description": "La lápida desaparece cuando le sacás todo. No se destruye si moriste sin llevar nada encima. Ayuda a que el mapa no se llene de lápidas vacías."
+      },
+      "en": {
+        "label": "Destroy the tombstone when emptied",
+        "description": "The tombstone vanishes once you take everything out of it. It is not destroyed if you died carrying nothing. Keeps the map from filling up with empty tombstones."
+      }
+    },
+    {
+      "key": "AutoDestroyAfterSeconds",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 0,
+      "min": 0,
+      "max": 2592000,
+      "step": 3600,
+      "es": {
+        "label": "Destruir la lápida después de (segundos)",
+        "description": "Con 0 (el default) la lápida se queda para siempre. Cualquier valor mayor la destruye pasado ese tiempo: 345600 son 4 días reales (4×60×60×24), 86400 es un día."
+      },
+      "en": {
+        "label": "Auto-destroy the tombstone after (seconds)",
+        "description": "At 0 (the default) the tombstone stays forever. Any higher value destroys it after that time: 345600 is 4 real days (4×60×60×24), 86400 is one day."
+      }
+    }
+  ]
+}

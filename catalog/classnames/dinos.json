@@ -1,0 +1,703 @@
+[
+  {
+    "value": "Achatina_Character_BP_C",
+    "label": "Achatina"
+  },
+  {
+    "value": "Acrocanthosaurus_Character_BP_C",
+    "label": "Acrocanthosaurus",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Allo_Character_BP_C",
+    "label": "Allosaurus"
+  },
+  {
+    "value": "MegaCarno_Character_BP_C",
+    "label": "Alpha Carno"
+  },
+  {
+    "value": "Alpha_Leedsichthys_Character_BP_C",
+    "label": "Alpha Leedsichthys"
+  },
+  {
+    "value": "MegaMegalodon_Character_BP_C",
+    "label": "Alpha Megalodon"
+  },
+  {
+    "value": "Mosa_Character_BP_Mega_C",
+    "label": "Alpha Mosasaur"
+  },
+  {
+    "value": "MegaRaptor_Character_BP_C",
+    "label": "Alpha Raptor"
+  },
+  {
+    "value": "MegaRex_Character_BP_C",
+    "label": "Alpha T-Rex"
+  },
+  {
+    "value": "Mega_Tusoteuthis_Character_BP_C",
+    "label": "Alpha Tusoteuthis"
+  },
+  {
+    "value": "Ammonite_Character_C",
+    "label": "Ammonite"
+  },
+  {
+    "value": "Angler_Character_BP_C",
+    "label": "Anglerfish"
+  },
+  {
+    "value": "Ankylo_Character_BP_C",
+    "label": "Ankylosaurus"
+  },
+  {
+    "value": "SpiderS_Character_BP_C",
+    "label": "Araneo"
+  },
+  {
+    "value": "Archa_Character_BP_C",
+    "label": "Archaeopteryx"
+  },
+  {
+    "value": "Archelon_Character_BP_ASA_C",
+    "label": "Archelon",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Argent_Character_BP_C",
+    "label": "Argentavis"
+  },
+  {
+    "value": "Arthro_Character_BP_C",
+    "label": "Arthropluera"
+  },
+  {
+    "value": "Baryonyx_Character_BP_C",
+    "label": "Baryonyx"
+  },
+  {
+    "value": "Basilisk_Character_BP_C",
+    "label": "Basilisk"
+  },
+  {
+    "value": "Basilosaurus_Character_BP_C",
+    "label": "Basilosaurus"
+  },
+  {
+    "value": "Toad_Character_BP_C",
+    "label": "Beelzebufo"
+  },
+  {
+    "value": "Bison_Character_BP_C",
+    "label": "Bison"
+  },
+  {
+    "value": "Sauropod_Character_BP_C",
+    "label": "Brontosaurus"
+  },
+  {
+    "value": "SpiderL_Character_BP_C",
+    "label": "Broodmother Lysrix"
+  },
+  {
+    "value": "LanternPug_Character_BP_C",
+    "label": "Bulbdog"
+  },
+  {
+    "value": "Turtle_Character_BP_C",
+    "label": "Carbonemys"
+  },
+  {
+    "value": "Carcha_Character_BP_C",
+    "label": "Carcharodontosaurus"
+  },
+  {
+    "value": "Carno_Character_BP_C",
+    "label": "Carnotaurus"
+  },
+  {
+    "value": "Beaver_Character_BP_C",
+    "label": "Castoroides"
+  },
+  {
+    "value": "Cat_Character_BP_C",
+    "label": "Cat"
+  },
+  {
+    "value": "Ceratosaurus_Character_BP_ASA_C",
+    "label": "Ceratosaurus",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Chalico_Character_BP_C",
+    "label": "Chalicotherium"
+  },
+  {
+    "value": "Cnidaria_Character_BP_C",
+    "label": "Cnidaria"
+  },
+  {
+    "value": "Coel_Character_BP_C",
+    "label": "Coelacanth"
+  },
+  {
+    "value": "Compy_Character_BP_C",
+    "label": "Compy"
+  },
+  {
+    "value": "JumpingSpider_Character_BP_C",
+    "label": "Cosmo"
+  },
+  {
+    "value": "Daeodon_Character_BP_C",
+    "label": "Daeodon"
+  },
+  {
+    "value": "Deathworm_Character_BP_C",
+    "label": "Deathworm"
+  },
+  {
+    "value": "Deinosuchusasa_Character_BP_C",
+    "label": "Deinosuchus",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "DeinotheriumASA_Character_BP_C",
+    "label": "Deinotherium",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Dilo_Character_BP_C",
+    "label": "Dilophosaur"
+  },
+  {
+    "value": "Dimetro_Character_BP_C",
+    "label": "Dimetrodon"
+  },
+  {
+    "value": "Dimorph_Character_BP_C",
+    "label": "Dimorphodon"
+  },
+  {
+    "value": "Diplocaulus_Character_BP_C",
+    "label": "Diplocaulus"
+  },
+  {
+    "value": "Diplodocus_Character_BP_C",
+    "label": "Diplodocus"
+  },
+  {
+    "value": "Direbear_Character_BP_C",
+    "label": "Dire Bear"
+  },
+  {
+    "value": "Direwolf_Character_BP_C",
+    "label": "Direwolf"
+  },
+  {
+    "value": "Dodo_Character_BP_C",
+    "label": "Dodo"
+  },
+  {
+    "value": "DodoRex_Character_BP_C",
+    "label": "DodoRex"
+  },
+  {
+    "value": "Doed_Character_BP_C",
+    "label": "Doedicurus"
+  },
+  {
+    "value": "Dragon_Character_BP_Boss_Easy_C",
+    "label": "Dragon (Boss)"
+  },
+  {
+    "value": "DungBeetle_Character_BP_C",
+    "label": "Dung Beetle"
+  },
+  {
+    "value": "Dunkle_Character_BP_C",
+    "label": "Dunkleosteus"
+  },
+  {
+    "value": "Eel_Character_BP_C",
+    "label": "Electrophorus"
+  },
+  {
+    "value": "Equus_Character_BP_C",
+    "label": "Equus"
+  },
+  {
+    "value": "Euryp_Character_C",
+    "label": "Eurypterid"
+  },
+  {
+    "value": "Fasola_Character_BP_C",
+    "label": "Fasolasuchus",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "LanternBird_Character_BP_C",
+    "label": "Featherlight"
+  },
+  {
+    "value": "Wyvern_Character_BP_Fire_C",
+    "label": "Fire Wyvern"
+  },
+  {
+    "value": "Galli_Character_BP_C",
+    "label": "Gallimimus"
+  },
+  {
+    "value": "Bee_Character_BP_C",
+    "label": "Giant Bee"
+  },
+  {
+    "value": "Gigant_Character_BP_C",
+    "label": "Giganotosaurus"
+  },
+  {
+    "value": "Bigfoot_Character_BP_C",
+    "label": "Gigantopithecus"
+  },
+  {
+    "value": "Gigantoraptor_Character_BP_C",
+    "label": "Gigantoraptor",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Lightbug_Character_BaseBP_C",
+    "label": "Glowbug"
+  },
+  {
+    "value": "LanternLizard_Character_BP_C",
+    "label": "Glowtail"
+  },
+  {
+    "value": "Griffin_Character_BP_C",
+    "label": "Griffin"
+  },
+  {
+    "value": "Helicoprion_Character_BP_C",
+    "label": "Helicoprion"
+  },
+  {
+    "value": "Hesperornis_Character_BP_C",
+    "label": "Hesperornis"
+  },
+  {
+    "value": "Hyaenodon_Character_BP_C",
+    "label": "Hyaenodon"
+  },
+  {
+    "value": "Wyvern_Character_BP_Ice_C",
+    "label": "Ice Wyvern"
+  },
+  {
+    "value": "Ichthyornis_Character_BP_C",
+    "label": "Ichthyornis"
+  },
+  {
+    "value": "Dolphin_Character_BP_C",
+    "label": "Ichthyosaurus"
+  },
+  {
+    "value": "Iguanodon_Character_BP_C",
+    "label": "Iguanodon"
+  },
+  {
+    "value": "Jerboa_Character_BP_C",
+    "label": "Jerboa"
+  },
+  {
+    "value": "Jugbug_Character_BaseBP_C",
+    "label": "Jug Bug"
+  },
+  {
+    "value": "Kairuku_Character_BP_C",
+    "label": "Kairuku"
+  },
+  {
+    "value": "Kaprosuchus_Character_BP_C",
+    "label": "Kaprosuchus"
+  },
+  {
+    "value": "Crab_Character_BP_C",
+    "label": "Karkinos"
+  },
+  {
+    "value": "Kentro_Character_BP_C",
+    "label": "Kentrosaurus"
+  },
+  {
+    "value": "Lamprey_Character_C",
+    "label": "Lamprey"
+  },
+  {
+    "value": "Leech_Character_C",
+    "label": "Leech"
+  },
+  {
+    "value": "Leedsichthys_Character_BP_C",
+    "label": "Leedsichthys"
+  },
+  {
+    "value": "Wyvern_Character_BP_Lightning_C",
+    "label": "Lightning Wyvern"
+  },
+  {
+    "value": "Liopleurodon_Character_BP_C",
+    "label": "Liopleurodon"
+  },
+  {
+    "value": "Moth_Character_BP_C",
+    "label": "Lymantria"
+  },
+  {
+    "value": "Lystro_Character_BP_C",
+    "label": "Lystrosaurus"
+  },
+  {
+    "value": "Mammoth_Character_BP_C",
+    "label": "Mammoth"
+  },
+  {
+    "value": "Manta_Character_BP_C",
+    "label": "Manta"
+  },
+  {
+    "value": "Manticore_Character_BP_Easy_C",
+    "label": "Manticore (Boss)"
+  },
+  {
+    "value": "Mantis_Character_BP_C",
+    "label": "Mantis"
+  },
+  {
+    "value": "Megalania_Character_BP_C",
+    "label": "Megalania"
+  },
+  {
+    "value": "Stag_Character_BP_C",
+    "label": "Megaloceros"
+  },
+  {
+    "value": "Megalodon_Character_BP_C",
+    "label": "Megalodon"
+  },
+  {
+    "value": "Megalosaurus_Character_BP_C",
+    "label": "Megalosaurus"
+  },
+  {
+    "value": "Dragonfly_Character_BP_C",
+    "label": "Meganeura"
+  },
+  {
+    "value": "Gorilla_Character_BP_C",
+    "label": "Megapithecus (Boss)"
+  },
+  {
+    "value": "Megatherium_Character_BP_C",
+    "label": "Megatherium"
+  },
+  {
+    "value": "Monkey_Character_BP_C",
+    "label": "Mesopithecus"
+  },
+  {
+    "value": "Microraptor_Character_BP_C",
+    "label": "Microraptor"
+  },
+  {
+    "value": "camelsaurus_Character_BP_C",
+    "label": "Morellatops"
+  },
+  {
+    "value": "Mosa_Character_BP_C",
+    "label": "Mosasaurus"
+  },
+  {
+    "value": "Moschops_Character_BP_C",
+    "label": "Moschops"
+  },
+  {
+    "value": "ChupaCabra_Character_BP_C",
+    "label": "Nameless"
+  },
+  {
+    "value": "Oasisaur_Character_BP_C",
+    "label": "Oasisaur",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Bat_Character_BP_C",
+    "label": "Onyc"
+  },
+  {
+    "value": "Otter_Character_BP_C",
+    "label": "Otter"
+  },
+  {
+    "value": "EndBoss_Character_C",
+    "label": "Overseer (Boss)"
+  },
+  {
+    "value": "Oviraptor_Character_BP_C",
+    "label": "Oviraptor"
+  },
+  {
+    "value": "Sheep_Character_BP_C",
+    "label": "Ovis"
+  },
+  {
+    "value": "Pachy_Character_BP_C",
+    "label": "Pachy"
+  },
+  {
+    "value": "Pachyrhino_Character_BP_C",
+    "label": "Pachyrhinosaurus",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Paracer_Character_BP_C",
+    "label": "Paraceratherium"
+  },
+  {
+    "value": "Para_Character_BP_C",
+    "label": "Parasaur"
+  },
+  {
+    "value": "Pegomastax_Character_BP_C",
+    "label": "Pegomastax"
+  },
+  {
+    "value": "Pela_Character_BP_C",
+    "label": "Pelagornis"
+  },
+  {
+    "value": "Phiomia_Character_BP_C",
+    "label": "Phiomia"
+  },
+  {
+    "value": "Phoenix_Character_BP_C",
+    "label": "Phoenix"
+  },
+  {
+    "value": "Piranha_Character_BP_C",
+    "label": "Piranha"
+  },
+  {
+    "value": "Plesiosaur_Character_BP_C",
+    "label": "Plesiosaur"
+  },
+  {
+    "value": "Wyvern_Character_BP_Poison_C",
+    "label": "Poison Wyvern"
+  },
+  {
+    "value": "Procoptodon_Character_BP_C",
+    "label": "Procoptodon"
+  },
+  {
+    "value": "Ptero_Character_BP_C",
+    "label": "Pteranodon"
+  },
+  {
+    "value": "Scorpion_Character_BP_C",
+    "label": "Pulmonoscorpius"
+  },
+  {
+    "value": "Purlovia_Character_BP_C",
+    "label": "Purlovia"
+  },
+  {
+    "value": "Quetz_Character_BP_C",
+    "label": "Quetzal"
+  },
+  {
+    "value": "Raptor_Character_BP_C",
+    "label": "Raptor"
+  },
+  {
+    "value": "CaveWolf_Character_BP_C",
+    "label": "Ravager"
+  },
+  {
+    "value": "Xenomorph_Character_BP_Male_C",
+    "label": "Reaper King"
+  },
+  {
+    "value": "Xenomorph_Character_BP_Female_C",
+    "label": "Reaper Queen"
+  },
+  {
+    "value": "Rex_Character_BP_C",
+    "label": "Rex"
+  },
+  {
+    "value": "Rhynio_Character_BP_C",
+    "label": "Rhyniognatha",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "RockDrake_Character_BP_C",
+    "label": "Rock Drake"
+  },
+  {
+    "value": "RockGolem_Character_BP_C",
+    "label": "Rock Elemental"
+  },
+  {
+    "value": "Rockwell_Character_BP_C",
+    "label": "Rockwell (Boss)"
+  },
+  {
+    "value": "RubbleGolem_Character_BP_C",
+    "label": "Rubble Golem"
+  },
+  {
+    "value": "Saber_Character_BP_C",
+    "label": "Sabertooth"
+  },
+  {
+    "value": "Salmon_Character_BP_C",
+    "label": "Sabertooth Salmon"
+  },
+  {
+    "value": "Sarco_Character_BP_C",
+    "label": "Sarco"
+  },
+  {
+    "value": "Shastasaurus_Character_BP_C",
+    "label": "Shastasaurus"
+  },
+  {
+    "value": "Spino_Character_BP_C",
+    "label": "Spino"
+  },
+  {
+    "value": "Stego_Character_BP_C",
+    "label": "Stegosaurus"
+  },
+  {
+    "value": "Tapejara_Character_BP_C",
+    "label": "Tapejara"
+  },
+  {
+    "value": "BionicPara_Character_BP_C",
+    "label": "Tek Parasaur"
+  },
+  {
+    "value": "BionicQuetz_Character_BP_C",
+    "label": "Tek Quetzal"
+  },
+  {
+    "value": "BionicRaptor_Character_BP_C",
+    "label": "Tek Raptor"
+  },
+  {
+    "value": "BionicRex_Character_BP_C",
+    "label": "Tek Rex"
+  },
+  {
+    "value": "BionicStego_Character_BP_C",
+    "label": "Tek Stegosaurus"
+  },
+  {
+    "value": "TerrorBird_Character_BP_C",
+    "label": "Terror Bird"
+  },
+  {
+    "value": "Therizino_Character_BP_C",
+    "label": "Therizinosaur"
+  },
+  {
+    "value": "SpineyLizard_Character_BP_C",
+    "label": "Thorny Dragon"
+  },
+  {
+    "value": "Thylacoleo_Character_BP_C",
+    "label": "Thylacoleo"
+  },
+  {
+    "value": "BoaFrill_Character_BP_C",
+    "label": "Titanoboa"
+  },
+  {
+    "value": "Ant_Character_BP_C",
+    "label": "Titanomyrma"
+  },
+  {
+    "value": "Titanosaur_Character_BP_C",
+    "label": "Titanosaur"
+  },
+  {
+    "value": "Trike_Character_BP_C",
+    "label": "Triceratops"
+  },
+  {
+    "value": "Trilobite_Character_C",
+    "label": "Trilobite"
+  },
+  {
+    "value": "Troodon_Character_BP_C",
+    "label": "Troodon"
+  },
+  {
+    "value": "Tusoteuthis_Character_BP_C",
+    "label": "Tusoteuthis"
+  },
+  {
+    "value": "Equus_Character_BP_Unicorn_C",
+    "label": "Unicorn"
+  },
+  {
+    "value": "Vulture_Character_BP_C",
+    "label": "Vulture"
+  },
+  {
+    "value": "Rhino_Character_BP_C",
+    "label": "Woolly Rhino"
+  },
+  {
+    "value": "Wyvern_Character_BP_Base_C",
+    "label": "Wyvern (Base)"
+  },
+  {
+    "value": "Xiphactinus_Character_BP_ASA_C",
+    "label": "Xiphactinus",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Yeti_Character_BP_C",
+    "label": "Yeti"
+  },
+  {
+    "value": "Yutyrannus_Character_BP_C",
+    "label": "Yutyrannus"
+  }
+]

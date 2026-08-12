@@ -1,0 +1,369 @@
+{
+  "modId": "BoostedFab",
+  "name": "Boosted Fabricator+",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=778345456",
+  "settings": [
+    {
+      "id": "boosted_fab_smithy_craft_speed",
+      "key": "SmithyCraftSpeed",
+      "category": "mod_boosted_fab",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "BoostedFab",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10,
+        "min": 1,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.boosted_fab.smithy_craft_speed"
+    },
+    {
+      "id": "boosted_fab_fab_craft_speed",
+      "key": "FabCraftSpeed",
+      "category": "mod_boosted_fab",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "BoostedFab",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10,
+        "min": 1,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.boosted_fab.fab_craft_speed"
+    },
+    {
+      "id": "boosted_fab_auto_fab_craft_speed",
+      "key": "AutoFabCraftSpeed",
+      "category": "mod_boosted_fab",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "BoostedFab",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 4,
+        "min": 1,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.boosted_fab.auto_fab_craft_speed"
+    },
+    {
+      "id": "boosted_fab_chem_bench_craft_speed",
+      "key": "ChemBenchCraftSpeed",
+      "category": "mod_boosted_fab",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BoostedFab",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 3,
+        "min": 1,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.boosted_fab.chem_bench_craft_speed"
+    },
+    {
+      "id": "boosted_fab_forge_craft_speed",
+      "key": "ForgeCraftSpeed",
+      "category": "mod_boosted_fab",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BoostedFab",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 3,
+        "min": 1,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.boosted_fab.forge_craft_speed"
+    },
+    {
+      "id": "boosted_fab_explosive_fab_craft_speed",
+      "key": "ExplosiveFabCraftSpeed",
+      "category": "mod_boosted_fab",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BoostedFab",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1,
+        "min": 1,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.boosted_fab.explosive_fab_craft_speed"
+    },
+    {
+      "id": "boosted_fab_grill_craft_speed",
+      "key": "GrillCraftSpeed",
+      "category": "mod_boosted_fab",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BoostedFab",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 3,
+        "min": 1,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.boosted_fab.grill_craft_speed"
+    },
+    {
+      "id": "boosted_fab_cooker_craft_speed",
+      "key": "CookerCraftSpeed",
+      "category": "mod_boosted_fab",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BoostedFab",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 16,
+        "min": 1,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.boosted_fab.cooker_craft_speed"
+    },
+    {
+      "id": "boosted_fab_beer_craft_speed",
+      "key": "BeerCraftSpeed",
+      "category": "mod_boosted_fab",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BoostedFab",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 30,
+        "min": 1,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.boosted_fab.beer_craft_speed"
+    },
+    {
+      "id": "boosted_fab_turret_base_damage",
+      "key": "TurretBaseDamage",
+      "category": "mod_boosted_fab",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BoostedFab",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 70,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.boosted_fab.turret_base_damage"
+    },
+    {
+      "id": "boosted_fab_heavy_turret_base_damage",
+      "key": "HeavyTurretBaseDamage",
+      "category": "mod_boosted_fab",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BoostedFab",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 1,
+        "max": 5000,
+        "step": 10
+      },
+      "i18nKey": "mods.boosted_fab.heavy_turret_base_damage"
+    },
+    {
+      "id": "boosted_fab_siege_shell_damage",
+      "key": "SiegeShellDamage",
+      "category": "mod_boosted_fab",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BoostedFab",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1200,
+        "min": 1,
+        "max": 20000,
+        "step": 50
+      },
+      "i18nKey": "mods.boosted_fab.siege_shell_damage"
+    },
+    {
+      "id": "boosted_fab_rifle_damage",
+      "key": "RifleDamage",
+      "category": "mod_boosted_fab",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "TranqGuns",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10,
+        "min": 1,
+        "max": 200,
+        "step": 1
+      },
+      "i18nKey": "mods.boosted_fab.rifle_damage"
+    },
+    {
+      "id": "boosted_fab_sniper_damage",
+      "key": "SniperDamage",
+      "category": "mod_boosted_fab",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "TranqGuns",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 7,
+        "min": 1,
+        "max": 200,
+        "step": 1
+      },
+      "i18nKey": "mods.boosted_fab.sniper_damage"
+    },
+    {
+      "id": "boosted_fab_missile_damage",
+      "key": "MissileDamage",
+      "category": "mod_boosted_fab",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "TranqGuns",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 16,
+        "min": 1,
+        "max": 200,
+        "step": 1
+      },
+      "i18nKey": "mods.boosted_fab.missile_damage"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "modId": "ResourceGatherers",
+  "name": "Resource Gatherers",
+  "game": "asa",
+  "source": "community",
+  "settings": [
+    {
+      "id": "rg_require_online_player",
+      "key": "GatherersRequireOnlinePlayer",
+      "category": "mod_resource_gatherers",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "ResourceGatherers",
+      "games": ["asa"],
+      "validIn": ["single_player", "host_local", "dedicated"],
+      "control": { "kind": "boolean", "default": false },
+      "i18nKey": "mods.resource_gatherers.require_online_player"
+    },
+    {
+      "id": "rg_use_dedicated_storage",
+      "key": "GatherersUseDedicatedStorage",
+      "category": "mod_resource_gatherers",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "ResourceGatherers",
+      "games": ["asa"],
+      "validIn": ["single_player", "host_local", "dedicated"],
+      "control": { "kind": "boolean", "default": true },
+      "i18nKey": "mods.resource_gatherers.use_dedicated_storage"
+    },
+    {
+      "id": "rg_dedicated_storage_range",
+      "key": "GathererDedicatedStorageRange",
+      "category": "mod_resource_gatherers",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "ResourceGatherers",
+      "games": ["asa"],
+      "validIn": ["single_player", "host_local", "dedicated"],
+      "control": { "kind": "integer", "default": 3000, "min": 100, "max": 50000, "step": 100 },
+      "i18nKey": "mods.resource_gatherers.dedicated_storage_range"
+    },
+    {
+      "id": "rg_templates_can_be_uploaded",
+      "key": "TemplatesCanBeUploaded",
+      "category": "mod_resource_gatherers",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "ResourceGatherers",
+      "games": ["asa"],
+      "validIn": ["single_player", "host_local", "dedicated"],
+      "control": { "kind": "boolean", "default": true },
+      "i18nKey": "mods.resource_gatherers.templates_can_be_uploaded"
+    },
+    {
+      "id": "rg_play_audio",
+      "key": "GatherersPlayAudio",
+      "category": "mod_resource_gatherers",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "ResourceGatherers",
+      "games": ["asa"],
+      "validIn": ["single_player", "host_local", "dedicated"],
+      "control": { "kind": "boolean", "default": false },
+      "i18nKey": "mods.resource_gatherers.play_audio"
+    },
+    {
+      "id": "rg_use_experimental_dedi_compat",
+      "key": "UseExperimentalDediCompatibility",
+      "category": "mod_resource_gatherers",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "ResourceGatherers",
+      "games": ["asa"],
+      "validIn": ["single_player", "host_local", "dedicated"],
+      "control": { "kind": "boolean", "default": false },
+      "i18nKey": "mods.resource_gatherers.use_experimental_dedi_compat"
+    },
+    {
+      "id": "rg_send_data_metrics",
+      "key": "SendDataMetrics",
+      "category": "mod_resource_gatherers",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "ResourceGatherers",
+      "games": ["asa"],
+      "validIn": ["single_player", "host_local", "dedicated"],
+      "control": { "kind": "boolean", "default": true },
+      "i18nKey": "mods.resource_gatherers.send_data_metrics"
+    },
+    {
+      "id": "rg_auto_enable_dedicated_sending",
+      "key": "AutoEnableDedicatedStorageSending",
+      "category": "mod_resource_gatherers",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "ResourceGatherers",
+      "games": ["asa"],
+      "validIn": ["single_player", "host_local", "dedicated"],
+      "control": { "kind": "boolean", "default": false },
+      "i18nKey": "mods.resource_gatherers.auto_enable_dedicated_sending"
+    },
+    {
+      "id": "rg_new_templates_disabled_by_default",
+      "key": "NewTemplatesAreDisabledByDefault",
+      "category": "mod_resource_gatherers",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "ResourceGatherers",
+      "games": ["asa"],
+      "validIn": ["single_player", "host_local", "dedicated"],
+      "control": { "kind": "boolean", "default": false },
+      "i18nKey": "mods.resource_gatherers.new_templates_disabled_by_default"
+    },
+    {
+      "id": "rg_global_production_multiplier",
+      "key": "GlobalResourceProductionMultiplier",
+      "category": "mod_resource_gatherers",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "ResourceGatherers",
+      "games": ["asa"],
+      "validIn": ["single_player", "host_local", "dedicated"],
+      "control": { "kind": "float_multiplier", "default": 1.0, "min": 0.0, "max": 100, "presets": [1, 2, 5, 10, 20] },
+      "i18nKey": "mods.resource_gatherers.global_production_multiplier"
+    }
+  ]
+}

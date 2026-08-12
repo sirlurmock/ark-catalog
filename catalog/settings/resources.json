@@ -1,0 +1,21 @@
+[
+  {
+    "id": "harvest_resource_class_multipliers",
+    "key": "HarvestResourceItemAmountClassMultipliers",
+    "category": "resources",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "struct_collection",
+      "default": [],
+      "fields": [
+        { "name": "ClassName", "type": "string", "required": true, "suggestions": "resources" },
+        { "name": "Multiplier", "type": "float", "default": 1.0 }
+      ]
+    },
+    "i18nKey": "settings.resources.harvest_resource_class"
+  }
+]

@@ -1,0 +1,243 @@
+{
+  "modId": "B2kBinocular",
+  "name": "Bitou2k's Binocular",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1136125765",
+  "settings": [
+    {
+      "id": "b2k_binocular_prevent_enemy_stats",
+      "key": "PreventEnemyStats",
+      "category": "mod_b2k_binocular",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "B2kBinocular",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.b2k_binocular.prevent_enemy_stats"
+    },
+    {
+      "id": "b2k_binocular_disable_radar_esp",
+      "key": "DisableRadarESP",
+      "category": "mod_b2k_binocular",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "B2kBinocular",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.b2k_binocular.disable_radar_esp"
+    },
+    {
+      "id": "b2k_binocular_no_aim_targeting",
+      "key": "NoAimTargeting",
+      "category": "mod_b2k_binocular",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "B2kBinocular",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.b2k_binocular.no_aim_targeting"
+    },
+    {
+      "id": "b2k_binocular_always_show_points_column",
+      "key": "AlwaysShowPointsColumn",
+      "category": "mod_b2k_binocular",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "B2kBinocular",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.b2k_binocular.always_show_points_column"
+    },
+    {
+      "id": "b2k_binocular_always_show_foods_column",
+      "key": "AlwaysShowFoodsColumn",
+      "category": "mod_b2k_binocular",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "B2kBinocular",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.b2k_binocular.always_show_foods_column"
+    },
+    {
+      "id": "b2k_binocular_stats_delay",
+      "key": "StatsDelay",
+      "category": "mod_b2k_binocular",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "B2kBinocular",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 10,
+        "step": 1
+      },
+      "i18nKey": "mods.b2k_binocular.stats_delay"
+    },
+    {
+      "id": "b2k_binocular_prevent_enemy_dino_points",
+      "key": "PreventEnemyDinoPoints",
+      "category": "mod_b2k_binocular",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "B2kBinocular",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.b2k_binocular.prevent_enemy_dino_points"
+    },
+    {
+      "id": "b2k_binocular_disable_dino_points",
+      "key": "DisableDinoPoints",
+      "category": "mod_b2k_binocular",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "B2kBinocular",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.b2k_binocular.disable_dino_points"
+    },
+    {
+      "id": "b2k_binocular_disable_dino_foods",
+      "key": "DisableDinoFoods",
+      "category": "mod_b2k_binocular",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "B2kBinocular",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.b2k_binocular.disable_dino_foods"
+    },
+    {
+      "id": "b2k_binocular_disable_night_vision",
+      "key": "DisableNightVision",
+      "category": "mod_b2k_binocular",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "B2kBinocular",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.b2k_binocular.disable_night_vision"
+    },
+    {
+      "id": "b2k_binocular_disable_trace_floating_hud",
+      "key": "DisableTraceFloatingHUD",
+      "category": "mod_b2k_binocular",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "B2kBinocular",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.b2k_binocular.disable_trace_floating_hud"
+    }
+  ]
+}

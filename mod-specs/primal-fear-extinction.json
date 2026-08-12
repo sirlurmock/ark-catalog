@@ -1,0 +1,55 @@
+{
+  "_source": "Borrador de scrape-workshop-configs.mjs, revisado a mano contra la descripción del Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=1681125667",
+  "_scope": "Las 3 claves que publica el autor bajo 'INI CODES BELOW'. Es una expansión de Primal Fear (839162288), que es una mod aparte y con su propia configuración.",
+  "_defaults": "Los tres vienen en `false` en el bloque publicado, que es coherente con lo que hacen: son opt-in para sacar los dinos vanilla y dejar solo los de la expansión.",
+  "modId": "PrimalFearExtinctionExpansion",
+  "name": "Primal Fear Extinction Expansion",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1681125667",
+  "prefix": "pf_extinction",
+  "settings": [
+    {
+      "key": "DisableVanillaExtinctionDinos",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Quitar los dinos vanilla de Extinction",
+        "description": "Saca del spawn a las criaturas normales de Extinction para que aparezcan solo las versiones de Primal Fear. Es lo que se activa cuando querés que el mapa se sienta enteramente de la expansión."
+      },
+      "en": {
+        "label": "Remove vanilla Extinction dinos",
+        "description": "Takes Extinction's normal creatures out of the spawn pool so only the Primal Fear versions appear. What you turn on when you want the map to feel entirely like the expansion."
+      }
+    },
+    {
+      "key": "DisableVanillaCorruptedDinos",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Quitar los dinos corruptos vanilla",
+        "description": "Saca del spawn a los corruptos del juego base, dejando solo los corruptos de la expansión (que ya vienen en versión Fabled)."
+      },
+      "en": {
+        "label": "Remove vanilla corrupted dinos",
+        "description": "Takes the base game's corrupted creatures out of the spawn pool, leaving only the expansion's (which already come in Fabled form)."
+      }
+    },
+    {
+      "key": "DisableVanillaTitans",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Quitar los Titanes vanilla",
+        "description": "Saca los Titanes del juego base. Ojo: los Titanes son contenido de fin de partida en Extinction, así que esto cambia bastante el objetivo final del mapa."
+      },
+      "en": {
+        "label": "Remove vanilla Titans",
+        "description": "Removes the base game's Titans. Note Titans are Extinction's endgame content, so this meaningfully changes what the map builds towards."
+      }
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+[
+  {
+    "id": "rename_tribe",
+    "category": "tribe",
+    "i18nKey": "commands.tribe.rename_tribe.label",
+    "descriptionI18nKey": "commands.tribe.rename_tribe.description",
+    "template": "RenameTribe \"{oldName}\" {newName}",
+    "params": [
+      {
+        "name": "oldName",
+        "type": "string",
+        "default": "",
+        "i18nKey": "commands.params.old_name"
+      },
+      {
+        "name": "newName",
+        "type": "string",
+        "default": "",
+        "i18nKey": "commands.params.new_name"
+      }
+    ]
+  },
+  {
+    "id": "take_all_dino",
+    "category": "tribe",
+    "i18nKey": "commands.tribe.take_all_dino.label",
+    "descriptionI18nKey": "commands.tribe.take_all_dino.description",
+    "template": "TakeAllDino",
+    "params": [],
+    "risk": "caution"
+  },
+  {
+    "id": "take_all_structure",
+    "category": "tribe",
+    "i18nKey": "commands.tribe.take_all_structure.label",
+    "descriptionI18nKey": "commands.tribe.take_all_structure.description",
+    "template": "TakeAllStructure",
+    "params": [],
+    "risk": "caution"
+  },
+  {
+    "id": "force_player_to_join_tribe",
+    "category": "tribe",
+    "i18nKey": "commands.tribe.force_player_to_join_tribe.label",
+    "descriptionI18nKey": "commands.tribe.force_player_to_join_tribe.description",
+    "template": "ForcePlayerToJoinTribe {playerId}",
+    "params": [
+      {
+        "name": "playerId",
+        "type": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 999999999,
+        "i18nKey": "commands.params.player_id"
+      }
+    ]
+  },
+  {
+    "id": "get_tribe_id_player_list",
+    "category": "tribe",
+    "i18nKey": "commands.tribe.get_tribe_id_player_list.label",
+    "descriptionI18nKey": "commands.tribe.get_tribe_id_player_list.description",
+    "template": "GetTribeIdPlayerList {tribeId}",
+    "params": [
+      {
+        "name": "tribeId",
+        "type": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 999999999,
+        "i18nKey": "commands.params.tribe_id"
+      }
+    ]
+  },
+  {
+    "id": "destroy_tribe_dinos",
+    "category": "tribe",
+    "i18nKey": "commands.tribe.destroy_tribe_dinos.label",
+    "descriptionI18nKey": "commands.tribe.destroy_tribe_dinos.description",
+    "template": "DestroyTribeDinos",
+    "params": [],
+    "risk": "destructive"
+  },
+  {
+    "id": "destroy_tribe_structures",
+    "category": "tribe",
+    "i18nKey": "commands.tribe.destroy_tribe_structures.label",
+    "descriptionI18nKey": "commands.tribe.destroy_tribe_structures.description",
+    "template": "DestroyTribeStructures",
+    "params": [],
+    "risk": "destructive"
+  },
+  {
+    "id": "destroy_tribe_id",
+    "category": "tribe",
+    "i18nKey": "commands.tribe.destroy_tribe_id.label",
+    "descriptionI18nKey": "commands.tribe.destroy_tribe_id.description",
+    "template": "DestroyTribeId {tribeId}",
+    "params": [
+      {
+        "name": "tribeId",
+        "type": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 999999999,
+        "i18nKey": "commands.params.tribe_id"
+      }
+    ],
+    "risk": "destructive"
+  }
+]

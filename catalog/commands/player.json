@@ -1,0 +1,263 @@
+[
+  {
+    "id": "god",
+    "category": "player",
+    "i18nKey": "commands.player.god.label",
+    "descriptionI18nKey": "commands.player.god.description",
+    "template": "god",
+    "params": []
+  },
+  {
+    "id": "fly",
+    "category": "player",
+    "i18nKey": "commands.player.fly.label",
+    "descriptionI18nKey": "commands.player.fly.description",
+    "template": "fly",
+    "params": []
+  },
+  {
+    "id": "walk",
+    "category": "player",
+    "i18nKey": "commands.player.walk.label",
+    "descriptionI18nKey": "commands.player.walk.description",
+    "template": "walk",
+    "params": []
+  },
+  {
+    "id": "ghost",
+    "category": "player",
+    "i18nKey": "commands.player.ghost.label",
+    "descriptionI18nKey": "commands.player.ghost.description",
+    "template": "ghost",
+    "params": []
+  },
+  {
+    "id": "infinite_stats",
+    "category": "player",
+    "i18nKey": "commands.player.infinite_stats.label",
+    "descriptionI18nKey": "commands.player.infinite_stats.description",
+    "template": "infinitestats",
+    "params": []
+  },
+  {
+    "id": "teleport",
+    "category": "player",
+    "i18nKey": "commands.player.teleport.label",
+    "descriptionI18nKey": "commands.player.teleport.description",
+    "template": "Teleport",
+    "params": []
+  },
+  {
+    "id": "toggle_infinite_ammo",
+    "category": "player",
+    "i18nKey": "commands.player.toggle_infinite_ammo.label",
+    "descriptionI18nKey": "commands.player.toggle_infinite_ammo.description",
+    "template": "ToggleInfiniteAmmo",
+    "params": []
+  },
+  {
+    "id": "hurt_me",
+    "category": "player",
+    "i18nKey": "commands.player.hurt_me.label",
+    "descriptionI18nKey": "commands.player.hurt_me.description",
+    "template": "HurtMe {amount}",
+    "params": [
+      {
+        "name": "amount",
+        "type": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 100000,
+        "i18nKey": "commands.params.hurt_amount"
+      }
+    ]
+  },
+  {
+    "id": "make_tribe_admin",
+    "category": "player",
+    "i18nKey": "commands.player.make_tribe_admin.label",
+    "descriptionI18nKey": "commands.player.make_tribe_admin.description",
+    "template": "MakeTribeAdmin",
+    "params": []
+  },
+  {
+    "id": "kick_player",
+    "category": "player",
+    "i18nKey": "commands.player.kick_player.label",
+    "descriptionI18nKey": "commands.player.kick_player.description",
+    "template": "KickPlayer {steamId}",
+    "params": [
+      {
+        "name": "steamId",
+        "type": "string",
+        "default": "",
+        "i18nKey": "commands.params.steam_id"
+      }
+    ]
+  },
+  {
+    "id": "give_engrams",
+    "category": "player",
+    "i18nKey": "commands.player.give_engrams.label",
+    "descriptionI18nKey": "commands.player.give_engrams.description",
+    "template": "GiveEngrams",
+    "params": []
+  },
+  {
+    "id": "give_creative_mode",
+    "category": "player",
+    "i18nKey": "commands.player.give_creative_mode.label",
+    "descriptionI18nKey": "commands.player.give_creative_mode.description",
+    "template": "GiveCreativeMode",
+    "params": []
+  },
+  {
+    "id": "give_creative_mode_to_player",
+    "category": "player",
+    "i18nKey": "commands.player.give_creative_mode_to_player.label",
+    "descriptionI18nKey": "commands.player.give_creative_mode_to_player.description",
+    "template": "GiveCreativeModeToPlayer {playerId}",
+    "params": [
+      {
+        "name": "playerId",
+        "type": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 999999999,
+        "i18nKey": "commands.params.player_id"
+      }
+    ]
+  },
+  {
+    "id": "level_up",
+    "category": "player",
+    "i18nKey": "commands.player.level_up.label",
+    "descriptionI18nKey": "commands.player.level_up.description",
+    "template": "LevelUp {stat} {levels}",
+    "params": [
+      {
+        "name": "stat",
+        "type": "string",
+        "default": "Health",
+        "i18nKey": "commands.params.stat_name"
+      },
+      {
+        "name": "levels",
+        "type": "integer",
+        "default": 1,
+        "min": 1,
+        "max": 100,
+        "i18nKey": "commands.params.levels"
+      }
+    ]
+  },
+  {
+    "id": "refill_stats",
+    "category": "player",
+    "i18nKey": "commands.player.refill_stats.label",
+    "descriptionI18nKey": "commands.player.refill_stats.description",
+    "template": "RefillStats",
+    "params": []
+  },
+  {
+    "id": "clear_my_buffs",
+    "category": "player",
+    "i18nKey": "commands.player.clear_my_buffs.label",
+    "descriptionI18nKey": "commands.player.clear_my_buffs.description",
+    "template": "ClearMyBuffs",
+    "params": []
+  },
+  {
+    "id": "suicide",
+    "category": "player",
+    "i18nKey": "commands.player.suicide.label",
+    "descriptionI18nKey": "commands.player.suicide.description",
+    "template": "Suicide",
+    "params": []
+  },
+  {
+    "id": "rename_player",
+    "category": "player",
+    "i18nKey": "commands.player.rename_player.label",
+    "descriptionI18nKey": "commands.player.rename_player.description",
+    "template": "RenamePlayer \"{oldName}\" {newName}",
+    "params": [
+      {
+        "name": "oldName",
+        "type": "string",
+        "default": "",
+        "i18nKey": "commands.params.old_name"
+      },
+      {
+        "name": "newName",
+        "type": "string",
+        "default": "",
+        "i18nKey": "commands.params.new_name"
+      }
+    ]
+  },
+  {
+    "id": "give_all_explorer_notes",
+    "category": "player",
+    "i18nKey": "commands.player.give_all_explorer_notes.label",
+    "descriptionI18nKey": "commands.player.give_all_explorer_notes.description",
+    "template": "GiveAllExplorerNotes",
+    "params": []
+  },
+  {
+    "id": "max_ascend",
+    "category": "player",
+    "i18nKey": "commands.player.max_ascend.label",
+    "descriptionI18nKey": "commands.player.max_ascend.description",
+    "template": "MaxAscend",
+    "params": []
+  },
+  {
+    "id": "ban_player",
+    "category": "player",
+    "i18nKey": "commands.player.ban_player.label",
+    "descriptionI18nKey": "commands.player.ban_player.description",
+    "template": "BanPlayer {steamId}",
+    "params": [
+      {
+        "name": "steamId",
+        "type": "string",
+        "default": "",
+        "i18nKey": "commands.params.steam_id"
+      }
+    ],
+    "risk": "caution"
+  },
+  {
+    "id": "unban_player",
+    "category": "player",
+    "i18nKey": "commands.player.unban_player.label",
+    "descriptionI18nKey": "commands.player.unban_player.description",
+    "template": "UnbanPlayer {steamId}",
+    "params": [
+      {
+        "name": "steamId",
+        "type": "string",
+        "default": "",
+        "i18nKey": "commands.params.steam_id"
+      }
+    ]
+  },
+  {
+    "id": "teleport_to_player",
+    "category": "player",
+    "i18nKey": "commands.player.teleport_to_player.label",
+    "descriptionI18nKey": "commands.player.teleport_to_player.description",
+    "template": "TeleportToPlayer {playerId}",
+    "params": [
+      {
+        "name": "playerId",
+        "type": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 999999999,
+        "i18nKey": "commands.params.player_id"
+      }
+    ]
+  }
+]

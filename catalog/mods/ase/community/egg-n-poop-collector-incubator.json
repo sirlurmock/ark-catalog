@@ -1,0 +1,204 @@
+{
+  "modId": "JoanCollector",
+  "name": "Egg N Poop Collector / Incubator",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=554678442",
+  "settings": [
+    {
+      "id": "egg_n_poop_max_poop_stacks",
+      "key": "MaxPoopStacks",
+      "category": "mod_egg_n_poop",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "JoanCollector",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 15,
+        "min": -1,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.egg_n_poop.max_poop_stacks"
+    },
+    {
+      "id": "egg_n_poop_collect_interval",
+      "key": "CollectInterval",
+      "category": "mod_egg_n_poop",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "JoanCollector",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 40,
+        "min": 25,
+        "max": 45,
+        "step": 1
+      },
+      "i18nKey": "mods.egg_n_poop.collect_interval"
+    },
+    {
+      "id": "egg_n_poop_incubate_boost_multiplier",
+      "key": "IncubateBoostMultiplier",
+      "category": "mod_egg_n_poop",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "JoanCollector",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.5,
+        "min": 0.1,
+        "max": 20,
+        "step": 0.1,
+        "presets": [
+          1,
+          1.5,
+          3,
+          5
+        ]
+      },
+      "i18nKey": "mods.egg_n_poop.incubate_boost_multiplier"
+    },
+    {
+      "id": "egg_n_poop_incubate_distance",
+      "key": "IncubateDistance",
+      "category": "mod_egg_n_poop",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "JoanCollector",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1500,
+        "min": -1,
+        "max": 20000,
+        "step": 100
+      },
+      "i18nKey": "mods.egg_n_poop.incubate_distance"
+    },
+    {
+      "id": "egg_n_poop_collect_distance",
+      "key": "CollectDistance",
+      "category": "mod_egg_n_poop",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "JoanCollector",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 20000,
+        "min": 1000,
+        "max": 100000,
+        "step": 1000
+      },
+      "i18nKey": "mods.egg_n_poop.collect_distance"
+    },
+    {
+      "id": "egg_n_poop_silo_distance",
+      "key": "SiloDistance",
+      "category": "mod_egg_n_poop",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "JoanCollector",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 20000,
+        "min": 1000,
+        "max": 100000,
+        "step": 1000
+      },
+      "i18nKey": "mods.egg_n_poop.silo_distance"
+    },
+    {
+      "id": "egg_n_poop_max_acha_poop_stacks",
+      "key": "MaxAchaPoopStacks",
+      "category": "mod_egg_n_poop",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "JoanCollector",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": -1,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.egg_n_poop.max_acha_poop_stacks"
+    },
+    {
+      "id": "egg_n_poop_block_auto_compost_bins",
+      "key": "BlockAutoCompostBins",
+      "category": "mod_egg_n_poop",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "JoanCollector",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.egg_n_poop.block_auto_compost_bins"
+    }
+  ]
+}

@@ -1,0 +1,4599 @@
+{
+  "modId": "DinoStorage2",
+  "name": "Dino Storage v2",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1609138312",
+  "settings": [
+    {
+      "id": "dino_storage_v2_baby_growth_multiplier",
+      "key": "BabyGrowthMultiplier",
+      "category": "mod_dino_storage_v2",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          0,
+          1,
+          10,
+          50
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.baby_growth_multiplier"
+    },
+    {
+      "id": "dino_storage_v2_baby_instant_growth",
+      "key": "BabyInstantGrowth",
+      "category": "mod_dino_storage_v2",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.baby_instant_growth"
+    },
+    {
+      "id": "dino_storage_v2_remove_mating_cooldown",
+      "key": "RemoveMatingCooldown",
+      "category": "mod_dino_storage_v2",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.remove_mating_cooldown"
+    },
+    {
+      "id": "dino_storage_v2_keep_cuddle_type",
+      "key": "KeepCuddleType",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.keep_cuddle_type"
+    },
+    {
+      "id": "dino_storage_v2_incubation_multiplier",
+      "key": "IncubationMultiplier",
+      "category": "mod_dino_storage_v2",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 2,
+        "min": 0,
+        "max": 50,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.incubation_multiplier"
+    },
+    {
+      "id": "dino_storage_v2_enable_incubation",
+      "key": "EnableIncubation",
+      "category": "mod_dino_storage_v2",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.enable_incubation"
+    },
+    {
+      "id": "dino_storage_v2_enable_fert_egg_collection",
+      "key": "EnableFertEggCollection",
+      "category": "mod_dino_storage_v2",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.enable_fert_egg_collection"
+    },
+    {
+      "id": "dino_storage_v2_passive_hp",
+      "key": "PassiveHP",
+      "category": "mod_dino_storage_v2",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.05,
+        "min": 0,
+        "max": 20,
+        "step": 0.05,
+        "presets": [
+          1,
+          1.05,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.passive_hp"
+    },
+    {
+      "id": "dino_storage_v2_passive_stam",
+      "key": "PassiveStam",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.05,
+        "min": 0,
+        "max": 20,
+        "step": 0.05,
+        "presets": [
+          1,
+          1.05,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.passive_stam"
+    },
+    {
+      "id": "dino_storage_v2_passive_food",
+      "key": "PassiveFood",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0,
+        "min": 0,
+        "max": 20,
+        "step": 0.05,
+        "presets": [
+          0,
+          1,
+          2
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.passive_food"
+    },
+    {
+      "id": "dino_storage_v2_passive_xp",
+      "key": "PassiveXP",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.05,
+        "min": 0,
+        "max": 20,
+        "step": 0.05,
+        "presets": [
+          0,
+          1,
+          1.05,
+          2
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.passive_xp"
+    },
+    {
+      "id": "dino_storage_v2_passive_charge",
+      "key": "PassiveCharge",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.05,
+        "min": 0,
+        "max": 20,
+        "step": 0.05,
+        "presets": [
+          0,
+          1,
+          1.05,
+          2
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.passive_charge"
+    },
+    {
+      "id": "dino_storage_v2_passive_wool",
+      "key": "PassiveWool",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.05,
+        "min": 0,
+        "max": 20,
+        "step": 0.05,
+        "presets": [
+          0,
+          1,
+          1.05,
+          2
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.passive_wool"
+    },
+    {
+      "id": "dino_storage_v2_torp_recovery",
+      "key": "TorpRecovery",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.05,
+        "min": 0,
+        "max": 20,
+        "step": 0.05,
+        "presets": [
+          0,
+          1,
+          1.05,
+          2
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.torp_recovery"
+    },
+    {
+      "id": "dino_storage_v2_use_cryo_sickness",
+      "key": "UseCryoSickness",
+      "category": "mod_dino_storage_v2",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.use_cryo_sickness"
+    },
+    {
+      "id": "dino_storage_v2_use_cryo_nerf",
+      "key": "UseCryoNerf",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.use_cryo_nerf"
+    },
+    {
+      "id": "dino_storage_v2_soul_sickness_duration",
+      "key": "SoulSicknessDuration",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 5,
+        "min": 0,
+        "max": 60,
+        "step": 0.5,
+        "presets": [
+          0,
+          1,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.soul_sickness_duration"
+    },
+    {
+      "id": "dino_storage_v2_soul_sickness_damage",
+      "key": "SoulSicknessDamage",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 10,
+        "min": 0,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          10,
+          25
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.soul_sickness_damage"
+    },
+    {
+      "id": "dino_storage_v2_sickness_ignore_baby",
+      "key": "SicknessIgnoreBaby",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.sickness_ignore_baby"
+    },
+    {
+      "id": "dino_storage_v2_sickness_prevents_release",
+      "key": "SicknessPreventsRelease",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.sickness_prevents_release"
+    },
+    {
+      "id": "dino_storage_v2_death_auto_trap",
+      "key": "DeathAutoTrap",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.death_auto_trap"
+    },
+    {
+      "id": "dino_storage_v2_datgive_to_player",
+      "key": "DATGiveToPlayer",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.datgive_to_player"
+    },
+    {
+      "id": "dino_storage_v2_datgive_to_terminal",
+      "key": "DATGiveToTerminal",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.datgive_to_terminal"
+    },
+    {
+      "id": "dino_storage_v2_datprevent_drop",
+      "key": "DATPreventDrop",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.datprevent_drop"
+    },
+    {
+      "id": "dino_storage_v2_datrequire_trapper",
+      "key": "DATRequireTrapper",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.datrequire_trapper"
+    },
+    {
+      "id": "dino_storage_v2_enable_all_generation",
+      "key": "EnableAllGeneration",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.enable_all_generation"
+    },
+    {
+      "id": "dino_storage_v2_enable_poop_conversion",
+      "key": "EnablePoopConversion",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.enable_poop_conversion"
+    },
+    {
+      "id": "dino_storage_v2_enable_egg_generation",
+      "key": "EnableEggGeneration",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.enable_egg_generation"
+    },
+    {
+      "id": "dino_storage_v2_poop_convert_speed",
+      "key": "PoopConvertSpeed",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.05,
+        "min": 0,
+        "max": 20,
+        "step": 0.05,
+        "presets": [
+          1,
+          1.05,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.poop_convert_speed"
+    },
+    {
+      "id": "dino_storage_v2_terminal_check_interval",
+      "key": "TerminalCheckInterval",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 60,
+        "min": 5,
+        "max": 600,
+        "step": 5
+      },
+      "i18nKey": "mods.dino_storage_v2.terminal_check_interval"
+    },
+    {
+      "id": "dino_storage_v2_terminal_needs_power",
+      "key": "TerminalNeedsPower",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.terminal_needs_power"
+    },
+    {
+      "id": "dino_storage_v2_can_trap_corpse",
+      "key": "CanTrapCorpse",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.can_trap_corpse"
+    },
+    {
+      "id": "dino_storage_v2_corpse_removes_imprint",
+      "key": "CorpseRemovesImprint",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.corpse_removes_imprint"
+    },
+    {
+      "id": "dino_storage_v2_corpse_resets_level",
+      "key": "CorpseResetsLevel",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.corpse_resets_level"
+    },
+    {
+      "id": "dino_storage_v2_revival_health",
+      "key": "RevivalHealth",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "presets": [
+          0,
+          10,
+          50,
+          100
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.revival_health"
+    },
+    {
+      "id": "dino_storage_v2_no_combat_trap",
+      "key": "NoCombatTrap",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.no_combat_trap"
+    },
+    {
+      "id": "dino_storage_v2_trap_health",
+      "key": "TrapHealth",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "presets": [
+          0,
+          50,
+          90,
+          100
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.trap_health"
+    },
+    {
+      "id": "dino_storage_v2_require_ownership",
+      "key": "RequireOwnership",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.require_ownership"
+    },
+    {
+      "id": "dino_storage_v2_release_consumes_trapper",
+      "key": "ReleaseConsumesTrapper",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.release_consumes_trapper"
+    },
+    {
+      "id": "dino_storage_v2_required_release_level",
+      "key": "RequiredReleaseLevel",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 200,
+        "step": 5
+      },
+      "i18nKey": "mods.dino_storage_v2.required_release_level"
+    },
+    {
+      "id": "dino_storage_v2_prevent_cave_release",
+      "key": "PreventCaveRelease",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.prevent_cave_release"
+    },
+    {
+      "id": "dino_storage_v2_soul_trap_stack_size",
+      "key": "SoulTrapStackSize",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 1,
+        "max": 1000,
+        "step": 10
+      },
+      "i18nKey": "mods.dino_storage_v2.soul_trap_stack_size"
+    },
+    {
+      "id": "dino_storage_v2_terminal_slots",
+      "key": "TerminalSlots",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 1,
+        "max": 300,
+        "step": 10
+      },
+      "i18nKey": "mods.dino_storage_v2.terminal_slots"
+    },
+    {
+      "id": "dino_storage_v2_prevent_upload",
+      "key": "PreventUpload",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.prevent_upload"
+    },
+    {
+      "id": "dino_storage_v2_drop_costume",
+      "key": "DropCostume",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.drop_costume"
+    },
+    {
+      "id": "dino_storage_v2_drop_equipment",
+      "key": "DropEquipment",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.drop_equipment"
+    },
+    {
+      "id": "dino_storage_v2_drop_helmet",
+      "key": "DropHelmet",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.drop_helmet"
+    },
+    {
+      "id": "dino_storage_v2_drop_saddle",
+      "key": "DropSaddle",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.drop_saddle"
+    },
+    {
+      "id": "dino_storage_v2_drop_weapon",
+      "key": "DropWeapon",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.drop_weapon"
+    },
+    {
+      "id": "dino_storage_v2_exclude_amphibious",
+      "key": "ExcludeAmphibious",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.exclude_amphibious"
+    },
+    {
+      "id": "dino_storage_v2_exclude_baby",
+      "key": "ExcludeBaby",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.exclude_baby"
+    },
+    {
+      "id": "dino_storage_v2_exclude_big",
+      "key": "ExcludeBig",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.exclude_big"
+    },
+    {
+      "id": "dino_storage_v2_exclude_boss",
+      "key": "ExcludeBoss",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.exclude_boss"
+    },
+    {
+      "id": "dino_storage_v2_exclude_corrupted",
+      "key": "ExcludeCorrupted",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.exclude_corrupted"
+    },
+    {
+      "id": "dino_storage_v2_exclude_flyer",
+      "key": "ExcludeFlyer",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.exclude_flyer"
+    },
+    {
+      "id": "dino_storage_v2_exclude_raid",
+      "key": "ExcludeRaid",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.exclude_raid"
+    },
+    {
+      "id": "dino_storage_v2_exclude_robot",
+      "key": "ExcludeRobot",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.exclude_robot"
+    },
+    {
+      "id": "dino_storage_v2_exclude_water",
+      "key": "ExcludeWater",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.exclude_water"
+    },
+    {
+      "id": "dino_storage_v2_exclude_enraged_giga",
+      "key": "ExcludeEnragedGiga",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.exclude_enraged_giga"
+    },
+    {
+      "id": "dino_storage_v2_exclude_immobile",
+      "key": "ExcludeImmobile",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.exclude_immobile"
+    },
+    {
+      "id": "dino_storage_v2_exclude_torped",
+      "key": "ExcludeTorped",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.exclude_torped"
+    },
+    {
+      "id": "dino_storage_v2_exclude_unclaimed",
+      "key": "ExcludeUnclaimed",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.exclude_unclaimed"
+    },
+    {
+      "id": "dino_storage_v2_exclude_foreign_pure",
+      "key": "ExcludeForeignPure",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.exclude_foreign_pure"
+    },
+    {
+      "id": "dino_storage_v2_include_foreign",
+      "key": "IncludeForeign",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.include_foreign"
+    },
+    {
+      "id": "dino_storage_v2_keep_ally_looking_status",
+      "key": "KeepAllyLookingStatus",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.keep_ally_looking_status"
+    },
+    {
+      "id": "dino_storage_v2_keep_enabled_mating_status",
+      "key": "KeepEnabledMatingStatus",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.keep_enabled_mating_status"
+    },
+    {
+      "id": "dino_storage_v2_keep_enabled_wander_status",
+      "key": "KeepEnabledWanderStatus",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.keep_enabled_wander_status"
+    },
+    {
+      "id": "dino_storage_v2_keep_force_tamed_status",
+      "key": "KeepForceTamedStatus",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.keep_force_tamed_status"
+    },
+    {
+      "id": "dino_storage_v2_keep_ignore_whistle_status",
+      "key": "KeepIgnoreWhistleStatus",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.keep_ignore_whistle_status"
+    },
+    {
+      "id": "dino_storage_v2_lock_imprinter",
+      "key": "LockImprinter",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.lock_imprinter"
+    },
+    {
+      "id": "dino_storage_v2_release_use_defaults",
+      "key": "ReleaseUseDefaults",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.release_use_defaults"
+    },
+    {
+      "id": "dino_storage_v2_release_ignore_type",
+      "key": "ReleaseIgnoreType",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.release_ignore_type"
+    },
+    {
+      "id": "dino_storage_v2_remove_all_buffs",
+      "key": "RemoveAllBuffs",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.remove_all_buffs"
+    },
+    {
+      "id": "dino_storage_v2_remove_clone_tags",
+      "key": "RemoveCloneTags",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.remove_clone_tags"
+    },
+    {
+      "id": "dino_storage_v2_remove_titan_load",
+      "key": "RemoveTitanLoad",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.remove_titan_load"
+    },
+    {
+      "id": "dino_storage_v2_trap_tames_fish",
+      "key": "TrapTamesFish",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.trap_tames_fish"
+    },
+    {
+      "id": "dino_storage_v2_remove_passive_hp",
+      "key": "RemovePassiveHP",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.remove_passive_hp"
+    },
+    {
+      "id": "dino_storage_v2_remove_passive_stam",
+      "key": "RemovePassiveStam",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.remove_passive_stam"
+    },
+    {
+      "id": "dino_storage_v2_remove_passive_xp",
+      "key": "RemovePassiveXP",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.remove_passive_xp"
+    },
+    {
+      "id": "dino_storage_v2_remove_passive_charge",
+      "key": "RemovePassiveCharge",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.remove_passive_charge"
+    },
+    {
+      "id": "dino_storage_v2_remove_passive_wool",
+      "key": "RemovePassiveWool",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.remove_passive_wool"
+    },
+    {
+      "id": "dino_storage_v2_remove_torp_recovery",
+      "key": "RemoveTorpRecovery",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.remove_torp_recovery"
+    },
+    {
+      "id": "dino_storage_v2_trap_tamed_time",
+      "key": "TrapTamedTime",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0,
+        "min": 0,
+        "max": 120,
+        "step": 1,
+        "presets": [
+          0,
+          5,
+          30,
+          60
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.trap_tamed_time"
+    },
+    {
+      "id": "dino_storage_v2_trap_hurt_time",
+      "key": "TrapHurtTime",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0,
+        "min": 0,
+        "max": 120,
+        "step": 1,
+        "presets": [
+          0,
+          5,
+          15,
+          30
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.trap_hurt_time"
+    },
+    {
+      "id": "dino_storage_v2_trap_near_base",
+      "key": "TrapNearBase",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0,
+        "min": 0,
+        "max": 200,
+        "step": 5,
+        "presets": [
+          0,
+          10,
+          50
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.trap_near_base"
+    },
+    {
+      "id": "dino_storage_v2_trap_near_terminal",
+      "key": "TrapNearTerminal",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0,
+        "min": 0,
+        "max": 200,
+        "step": 5,
+        "presets": [
+          0,
+          10,
+          50
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.trap_near_terminal"
+    },
+    {
+      "id": "dino_storage_v2_platform_structure_grace",
+      "key": "PlatformStructureGrace",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.dino_storage_v2.platform_structure_grace"
+    },
+    {
+      "id": "dino_storage_v2_trapping_tribe_logs",
+      "key": "TrappingTribeLogs",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.trapping_tribe_logs"
+    },
+    {
+      "id": "dino_storage_v2_release_near_base",
+      "key": "ReleaseNearBase",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0,
+        "min": 0,
+        "max": 200,
+        "step": 5,
+        "presets": [
+          0,
+          10,
+          50
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.release_near_base"
+    },
+    {
+      "id": "dino_storage_v2_release_near_terminal",
+      "key": "ReleaseNearTerminal",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0,
+        "min": 0,
+        "max": 200,
+        "step": 5,
+        "presets": [
+          0,
+          10,
+          50
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.release_near_terminal"
+    },
+    {
+      "id": "dino_storage_v2_release_prevent_dupe_id",
+      "key": "ReleasePreventDupeID",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.release_prevent_dupe_id"
+    },
+    {
+      "id": "dino_storage_v2_release_tribe_logs",
+      "key": "ReleaseTribeLogs",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.release_tribe_logs"
+    },
+    {
+      "id": "dino_storage_v2_require_tribe_ranks",
+      "key": "RequireTribeRanks",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.require_tribe_ranks"
+    },
+    {
+      "id": "dino_storage_v2_keep_trapper_equipped",
+      "key": "KeepTrapperEquipped",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.keep_trapper_equipped"
+    },
+    {
+      "id": "dino_storage_v2_loot_bag_life_span",
+      "key": "LootBagLifeSpan",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 30,
+        "min": 0,
+        "max": 240,
+        "step": 5,
+        "presets": [
+          5,
+          30,
+          60
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.loot_bag_life_span"
+    },
+    {
+      "id": "dino_storage_v2_ignore_spatial_check",
+      "key": "IgnoreSpatialCheck",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.ignore_spatial_check"
+    },
+    {
+      "id": "dino_storage_v2_ignore_enemy_structures",
+      "key": "IgnoreEnemyStructures",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.ignore_enemy_structures"
+    },
+    {
+      "id": "dino_storage_v2_enemy_structure_range",
+      "key": "EnemyStructureRange",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 10,
+        "min": 0,
+        "max": 200,
+        "step": 5,
+        "presets": [
+          0,
+          10,
+          50
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.enemy_structure_range"
+    },
+    {
+      "id": "dino_storage_v2_is_base_if_linked_structures",
+      "key": "IsBaseIfLinkedStructures",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 50,
+        "min": 1,
+        "max": 500,
+        "step": 5
+      },
+      "i18nKey": "mods.dino_storage_v2.is_base_if_linked_structures"
+    },
+    {
+      "id": "dino_storage_v2_prevent_all_cave_release",
+      "key": "PreventAllCaveRelease",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.prevent_all_cave_release"
+    },
+    {
+      "id": "dino_storage_v2_allow_boss_arena_release",
+      "key": "AllowBossArenaRelease",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.allow_boss_arena_release"
+    },
+    {
+      "id": "dino_storage_v2_allow_boss_cave_release",
+      "key": "AllowBossCaveRelease",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.allow_boss_cave_release"
+    },
+    {
+      "id": "dino_storage_v2_allow_mission_area_release",
+      "key": "AllowMissionAreaRelease",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.allow_mission_area_release"
+    },
+    {
+      "id": "dino_storage_v2_no_boss_arena_trap",
+      "key": "NoBossArenaTrap",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.no_boss_arena_trap"
+    },
+    {
+      "id": "dino_storage_v2_mutator_allow_mek",
+      "key": "MutatorAllowMek",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.mutator_allow_mek"
+    },
+    {
+      "id": "dino_storage_v2_mutator_allow_xeno",
+      "key": "MutatorAllowXeno",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.mutator_allow_xeno"
+    },
+    {
+      "id": "dino_storage_v2_sickness_from_base",
+      "key": "SicknessFromBase",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0,
+        "min": 0,
+        "max": 200,
+        "step": 5,
+        "presets": [
+          0,
+          10,
+          50
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.sickness_from_base"
+    },
+    {
+      "id": "dino_storage_v2_sickness_from_terminal",
+      "key": "SicknessFromTerminal",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0,
+        "min": 0,
+        "max": 200,
+        "step": 5,
+        "presets": [
+          0,
+          10,
+          50
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.sickness_from_terminal"
+    },
+    {
+      "id": "dino_storage_v2_soul_sickness_cooldown",
+      "key": "SoulSicknessCooldown",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0,
+        "min": 0,
+        "max": 120,
+        "step": 1,
+        "presets": [
+          0,
+          5,
+          15
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.soul_sickness_cooldown"
+    },
+    {
+      "id": "dino_storage_v2_datadult_only",
+      "key": "DATAdultOnly",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.datadult_only"
+    },
+    {
+      "id": "dino_storage_v2_datbaby_only",
+      "key": "DATBabyOnly",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.datbaby_only"
+    },
+    {
+      "id": "dino_storage_v2_datbabifies_adult",
+      "key": "DATBabifiesAdult",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.datbabifies_adult"
+    },
+    {
+      "id": "dino_storage_v2_datdefaults_inactive",
+      "key": "DATDefaultsInactive",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.datdefaults_inactive"
+    },
+    {
+      "id": "dino_storage_v2_datdo_tdeath_only",
+      "key": "DATDoTDeathOnly",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.datdo_tdeath_only"
+    },
+    {
+      "id": "dino_storage_v2_datpassive_only",
+      "key": "DATPassiveOnly",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.datpassive_only"
+    },
+    {
+      "id": "dino_storage_v2_datstarved_only",
+      "key": "DATStarvedOnly",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.datstarved_only"
+    },
+    {
+      "id": "dino_storage_v2_enable_poop_generation",
+      "key": "EnablePoopGeneration",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.enable_poop_generation"
+    },
+    {
+      "id": "dino_storage_v2_enable_misc_poop_generation",
+      "key": "EnableMiscPoopGeneration",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.enable_misc_poop_generation"
+    },
+    {
+      "id": "dino_storage_v2_enable_honey_generation",
+      "key": "EnableHoneyGeneration",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.enable_honey_generation"
+    },
+    {
+      "id": "dino_storage_v2_enable_wool_generation",
+      "key": "EnableWoolGeneration",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.enable_wool_generation"
+    },
+    {
+      "id": "dino_storage_v2_enable_fruit_seeding",
+      "key": "EnableFruitSeeding",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.enable_fruit_seeding"
+    },
+    {
+      "id": "dino_storage_v2_enable_passive_generation",
+      "key": "EnablePassiveGeneration",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.enable_passive_generation"
+    },
+    {
+      "id": "dino_storage_v2_terminal_poop_multiplier",
+      "key": "TerminalPoopMultiplier",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.05,
+        "min": 0,
+        "max": 20,
+        "step": 0.05,
+        "presets": [
+          1,
+          1.05,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.terminal_poop_multiplier"
+    },
+    {
+      "id": "dino_storage_v2_terminal_misc_poop_multiplier",
+      "key": "TerminalMiscPoopMultiplier",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.05,
+        "min": 0,
+        "max": 20,
+        "step": 0.05,
+        "presets": [
+          1,
+          1.05,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.terminal_misc_poop_multiplier"
+    },
+    {
+      "id": "dino_storage_v2_terminal_egg_multiplier",
+      "key": "TerminalEggMultiplier",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.05,
+        "min": 0,
+        "max": 20,
+        "step": 0.05,
+        "presets": [
+          1,
+          1.05,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.terminal_egg_multiplier"
+    },
+    {
+      "id": "dino_storage_v2_terminal_honey_multiplier",
+      "key": "TerminalHoneyMultiplier",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.05,
+        "min": 0,
+        "max": 20,
+        "step": 0.05,
+        "presets": [
+          1,
+          1.05,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.terminal_honey_multiplier"
+    },
+    {
+      "id": "dino_storage_v2_terminal_wool_multiplier",
+      "key": "TerminalWoolMultiplier",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.05,
+        "min": 0,
+        "max": 20,
+        "step": 0.05,
+        "presets": [
+          1,
+          1.05,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.terminal_wool_multiplier"
+    },
+    {
+      "id": "dino_storage_v2_terminal_passive_multiplier",
+      "key": "TerminalPassiveMultiplier",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.05,
+        "min": 0,
+        "max": 20,
+        "step": 0.05,
+        "presets": [
+          1,
+          1.05,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.terminal_passive_multiplier"
+    },
+    {
+      "id": "dino_storage_v2_ovi_bonus_multiplier",
+      "key": "OviBonusMultiplier",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.5,
+        "min": 0,
+        "max": 20,
+        "step": 0.1,
+        "presets": [
+          1,
+          1.5,
+          3
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.ovi_bonus_multiplier"
+    },
+    {
+      "id": "dino_storage_v2_pick_upable_eggs_only",
+      "key": "PickUpableEggsOnly",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.pick_upable_eggs_only"
+    },
+    {
+      "id": "dino_storage_v2_automation_fuel_counter",
+      "key": "AutomationFuelCounter",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.dino_storage_v2.automation_fuel_counter"
+    },
+    {
+      "id": "dino_storage_v2_distribute_fertilizer_range",
+      "key": "DistributeFertilizerRange",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 30,
+        "min": 0,
+        "max": 200,
+        "step": 5,
+        "presets": [
+          0,
+          30,
+          100
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.distribute_fertilizer_range"
+    },
+    {
+      "id": "dino_storage_v2_distribute_pellet_range",
+      "key": "DistributePelletRange",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 30,
+        "min": 0,
+        "max": 200,
+        "step": 5,
+        "presets": [
+          0,
+          30,
+          100
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.distribute_pellet_range"
+    },
+    {
+      "id": "dino_storage_v2_soul_trap_delay",
+      "key": "SoulTrapDelay",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.25,
+        "min": 0,
+        "max": 30,
+        "step": 0.25,
+        "presets": [
+          0,
+          0.25,
+          1,
+          5
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.soul_trap_delay"
+    },
+    {
+      "id": "dino_storage_v2_soul_trap_weight",
+      "key": "SoulTrapWeight",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          0,
+          1,
+          10
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.soul_trap_weight"
+    },
+    {
+      "id": "dino_storage_v2_soul_trap_throw_range",
+      "key": "SoulTrapThrowRange",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 10,
+        "step": 0.25,
+        "presets": [
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.soul_trap_throw_range"
+    },
+    {
+      "id": "dino_storage_v2_soul_drag_weight",
+      "key": "SoulDragWeight",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0,
+        "min": 0,
+        "max": 10,
+        "step": 0.1,
+        "presets": [
+          0,
+          1,
+          2
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.soul_drag_weight"
+    },
+    {
+      "id": "dino_storage_v2_soul_min_weight",
+      "key": "SoulMinWeight",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0,
+        "min": 0,
+        "max": 500,
+        "step": 1,
+        "presets": [
+          0,
+          1,
+          10
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.soul_min_weight"
+    },
+    {
+      "id": "dino_storage_v2_soul_max_weight",
+      "key": "SoulMaxWeight",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 5,
+        "presets": [
+          0,
+          50,
+          200
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.soul_max_weight"
+    },
+    {
+      "id": "dino_storage_v2_soul_decay_time",
+      "key": "SoulDecayTime",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0,
+        "min": 0,
+        "max": 365,
+        "step": 1,
+        "presets": [
+          0,
+          7,
+          30
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.soul_decay_time"
+    },
+    {
+      "id": "dino_storage_v2_soul_charge_rate",
+      "key": "SoulChargeRate",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0,
+        "min": 0,
+        "max": 600,
+        "step": 5,
+        "presets": [
+          0,
+          30,
+          120
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.soul_charge_rate"
+    },
+    {
+      "id": "dino_storage_v2_destroy_xp",
+      "key": "DestroyXP",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.05,
+        "min": 0,
+        "max": 20,
+        "step": 0.05,
+        "presets": [
+          0,
+          1,
+          1.05,
+          5
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.destroy_xp"
+    },
+    {
+      "id": "dino_storage_v2_remove_destroy_xp",
+      "key": "RemoveDestroyXP",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.remove_destroy_xp"
+    },
+    {
+      "id": "dino_storage_v2_prevent_soul_trap_riding_equip",
+      "key": "PreventSoulTrapRidingEquip",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.prevent_soul_trap_riding_equip"
+    },
+    {
+      "id": "dino_storage_v2_soul_terminal_stack_size",
+      "key": "SoulTerminalStackSize",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 1000,
+        "step": 10
+      },
+      "i18nKey": "mods.dino_storage_v2.soul_terminal_stack_size"
+    },
+    {
+      "id": "dino_storage_v2_soul_terminal_weight",
+      "key": "SoulTerminalWeight",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 20,
+        "min": 0,
+        "max": 500,
+        "step": 1,
+        "presets": [
+          1,
+          20,
+          50
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.soul_terminal_weight"
+    },
+    {
+      "id": "dino_storage_v2_terminal_health",
+      "key": "TerminalHealth",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 50000,
+        "min": 1,
+        "max": 500000,
+        "step": 1000,
+        "presets": [
+          10000,
+          50000,
+          100000
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.terminal_health"
+    },
+    {
+      "id": "dino_storage_v2_terminal_tribe_limit",
+      "key": "TerminalTribeLimit",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.dino_storage_v2.terminal_tribe_limit"
+    },
+    {
+      "id": "dino_storage_v2_terminal_proximity_limit",
+      "key": "TerminalProximityLimit",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1,
+        "min": 0,
+        "max": 50,
+        "step": 1
+      },
+      "i18nKey": "mods.dino_storage_v2.terminal_proximity_limit"
+    },
+    {
+      "id": "dino_storage_v2_terminal_proximity_range",
+      "key": "TerminalProximityRange",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0,
+        "min": 0,
+        "max": 200,
+        "step": 5,
+        "presets": [
+          0,
+          10,
+          50
+        ]
+      },
+      "i18nKey": "mods.dino_storage_v2.terminal_proximity_range"
+    },
+    {
+      "id": "dino_storage_v2_disable_terminal_pickup",
+      "key": "DisableTerminalPickup",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.disable_terminal_pickup"
+    },
+    {
+      "id": "dino_storage_v2_disable_terminal_pin_codes",
+      "key": "DisableTerminalPinCodes",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.disable_terminal_pin_codes"
+    },
+    {
+      "id": "dino_storage_v2_disable_terminal_transfer",
+      "key": "DisableTerminalTransfer",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.disable_terminal_transfer"
+    },
+    {
+      "id": "dino_storage_v2_terminal_raid_purge",
+      "key": "TerminalRaidPurge",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.terminal_raid_purge"
+    },
+    {
+      "id": "dino_storage_v2_godly_terminal",
+      "key": "GodlyTerminal",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.godly_terminal"
+    },
+    {
+      "id": "dino_storage_v2_ghost_terminal",
+      "key": "GhostTerminal",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.ghost_terminal"
+    },
+    {
+      "id": "dino_storage_v2_unlock_ghost_terminal",
+      "key": "UnlockGhostTerminal",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.unlock_ghost_terminal"
+    },
+    {
+      "id": "dino_storage_v2_unlock_tribute_terminal",
+      "key": "UnlockTributeTerminal",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.unlock_tribute_terminal"
+    },
+    {
+      "id": "dino_storage_v2_vault_terminal",
+      "key": "VaultTerminal",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.vault_terminal"
+    },
+    {
+      "id": "dino_storage_v2_basic_terminal",
+      "key": "BasicTerminal",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.basic_terminal"
+    },
+    {
+      "id": "dino_storage_v2_primitive_terminal",
+      "key": "PrimitiveTerminal",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.primitive_terminal"
+    },
+    {
+      "id": "dino_storage_v2_lock_terminal_mesh",
+      "key": "LockTerminalMesh",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.lock_terminal_mesh"
+    },
+    {
+      "id": "dino_storage_v2_disable_bug_zap",
+      "key": "DisableBugZap",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.disable_bug_zap"
+    },
+    {
+      "id": "dino_storage_v2_cherufe_lava",
+      "key": "CherufeLava",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.cherufe_lava"
+    },
+    {
+      "id": "dino_storage_v2_terminal_exclude_ground",
+      "key": "TerminalExcludeGround",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.terminal_exclude_ground"
+    },
+    {
+      "id": "dino_storage_v2_terminal_exclude_all_platforms",
+      "key": "TerminalExcludeAllPlatforms",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.terminal_exclude_all_platforms"
+    },
+    {
+      "id": "dino_storage_v2_terminal_exclude_dino_platforms",
+      "key": "TerminalExcludeDinoPlatforms",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.terminal_exclude_dino_platforms"
+    },
+    {
+      "id": "dino_storage_v2_terminal_exclude_flyer_platforms",
+      "key": "TerminalExcludeFlyerPlatforms",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.terminal_exclude_flyer_platforms"
+    },
+    {
+      "id": "dino_storage_v2_terminal_exclude_non_flyer_platforms",
+      "key": "TerminalExcludeNonFlyerPlatforms",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.terminal_exclude_non_flyer_platforms"
+    },
+    {
+      "id": "dino_storage_v2_terminal_exclude_vehicle_platforms",
+      "key": "TerminalExcludeVehiclePlatforms",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.terminal_exclude_vehicle_platforms"
+    },
+    {
+      "id": "dino_storage_v2_disable_newborn_auto_trap",
+      "key": "DisableNewbornAutoTrap",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.disable_newborn_auto_trap"
+    },
+    {
+      "id": "dino_storage_v2_ammoless_newborn_auto_trap",
+      "key": "AmmolessNewbornAutoTrap",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.ammoless_newborn_auto_trap"
+    },
+    {
+      "id": "dino_storage_v2_natstop_when_full",
+      "key": "NATStopWhenFull",
+      "category": "mod_dino_storage_v2",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.natstop_when_full"
+    },
+    {
+      "id": "dino_storage_v2_newborn_auto_trap_recovery",
+      "key": "NewbornAutoTrapRecovery",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_storage_v2.newborn_auto_trap_recovery"
+    },
+    {
+      "id": "dino_storage_v2_newborn_auto_trap_tribe_limit",
+      "key": "NewbornAutoTrapTribeLimit",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 500,
+        "step": 5
+      },
+      "i18nKey": "mods.dino_storage_v2.newborn_auto_trap_tribe_limit"
+    },
+    {
+      "id": "dino_storage_v2_recovery_file_limit",
+      "key": "RecoveryFileLimit",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1800,
+        "min": 0,
+        "max": 20000,
+        "step": 100
+      },
+      "i18nKey": "mods.dino_storage_v2.recovery_file_limit"
+    },
+    {
+      "id": "dino_storage_v2_exclude_class",
+      "key": "ExcludeClass",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "dinos"
+      },
+      "i18nKey": "mods.dino_storage_v2.exclude_class"
+    },
+    {
+      "id": "dino_storage_v2_include_class",
+      "key": "IncludeClass",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "dinos"
+      },
+      "i18nKey": "mods.dino_storage_v2.include_class"
+    },
+    {
+      "id": "dino_storage_v2_exclude_source",
+      "key": "ExcludeSource",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.dino_storage_v2.exclude_source"
+    },
+    {
+      "id": "dino_storage_v2_include_source",
+      "key": "IncludeSource",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.dino_storage_v2.include_source"
+    },
+    {
+      "id": "dino_storage_v2_exclude_tag",
+      "key": "ExcludeTag",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "dino_name_tags"
+      },
+      "i18nKey": "mods.dino_storage_v2.exclude_tag"
+    },
+    {
+      "id": "dino_storage_v2_include_tag",
+      "key": "IncludeTag",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "dino_name_tags"
+      },
+      "i18nKey": "mods.dino_storage_v2.include_tag"
+    },
+    {
+      "id": "dino_storage_v2_convert_class",
+      "key": "ConvertClass",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "dinos"
+      },
+      "i18nKey": "mods.dino_storage_v2.convert_class"
+    },
+    {
+      "id": "dino_storage_v2_equipment_blacklist",
+      "key": "EquipmentBlacklist",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.dino_storage_v2.equipment_blacklist"
+    },
+    {
+      "id": "dino_storage_v2_items_prevent_trapping",
+      "key": "ItemsPreventTrapping",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.dino_storage_v2.items_prevent_trapping"
+    },
+    {
+      "id": "dino_storage_v2_buffs_prevent_trapping",
+      "key": "BuffsPreventTrapping",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.dino_storage_v2.buffs_prevent_trapping"
+    },
+    {
+      "id": "dino_storage_v2_exclude_buff_class",
+      "key": "ExcludeBuffClass",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.dino_storage_v2.exclude_buff_class"
+    },
+    {
+      "id": "dino_storage_v2_include_buff_class",
+      "key": "IncludeBuffClass",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.dino_storage_v2.include_buff_class"
+    },
+    {
+      "id": "dino_storage_v2_exclude_buff_source",
+      "key": "ExcludeBuffSource",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.dino_storage_v2.exclude_buff_source"
+    },
+    {
+      "id": "dino_storage_v2_include_buff_source",
+      "key": "IncludeBuffSource",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.dino_storage_v2.include_buff_source"
+    },
+    {
+      "id": "dino_storage_v2_aaexclude_class",
+      "key": "AAExcludeClass",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "dinos"
+      },
+      "i18nKey": "mods.dino_storage_v2.aaexclude_class"
+    },
+    {
+      "id": "dino_storage_v2_aaexclude_source",
+      "key": "AAExcludeSource",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.dino_storage_v2.aaexclude_source"
+    },
+    {
+      "id": "dino_storage_v2_terminal_only_allow_items",
+      "key": "TerminalOnlyAllowItems",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.dino_storage_v2.terminal_only_allow_items"
+    },
+    {
+      "id": "dino_storage_v2_terminal_exclude_items",
+      "key": "TerminalExcludeItems",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.dino_storage_v2.terminal_exclude_items"
+    },
+    {
+      "id": "dino_storage_v2_terminal_exclude_platforms",
+      "key": "TerminalExcludePlatforms",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.dino_storage_v2.terminal_exclude_platforms"
+    },
+    {
+      "id": "dino_storage_v2_terminal_include_platforms",
+      "key": "TerminalIncludePlatforms",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.dino_storage_v2.terminal_include_platforms"
+    },
+    {
+      "id": "dino_storage_v2_automation_item_blacklist",
+      "key": "AutomationItemBlacklist",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.dino_storage_v2.automation_item_blacklist"
+    },
+    {
+      "id": "dino_storage_v2_terminal_automation_fuel",
+      "key": "TerminalAutomationFuel",
+      "category": "mod_dino_storage_v2",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DinoStorage2",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.dino_storage_v2.terminal_automation_fuel"
+    }
+  ]
+}

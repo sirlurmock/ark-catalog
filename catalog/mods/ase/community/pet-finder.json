@@ -1,0 +1,33 @@
+{
+  "modId": "JoanPetFind",
+  "name": "Pet Finder",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=566887000",
+  "settings": [
+    {
+      "id": "pet_finder_bed_prevent_range",
+      "key": "BedPreventRange",
+      "category": "mod_pet_finder",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "JoanPetFind",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10000,
+        "min": 0,
+        "max": 50000,
+        "step": 500
+      },
+      "i18nKey": "mods.pet_finder.bed_prevent_range"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "modId": "PrimalFearExtinctionExpansion",
+  "name": "Primal Fear Extinction Expansion",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1681125667",
+  "settings": [
+    {
+      "id": "pf_extinction_disable_vanilla_extinction_dinos",
+      "key": "DisableVanillaExtinctionDinos",
+      "category": "mod_pf_extinction",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "PrimalFearExtinctionExpansion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.pf_extinction.disable_vanilla_extinction_dinos"
+    },
+    {
+      "id": "pf_extinction_disable_vanilla_corrupted_dinos",
+      "key": "DisableVanillaCorruptedDinos",
+      "category": "mod_pf_extinction",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "PrimalFearExtinctionExpansion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.pf_extinction.disable_vanilla_corrupted_dinos"
+    },
+    {
+      "id": "pf_extinction_disable_vanilla_titans",
+      "key": "DisableVanillaTitans",
+      "category": "mod_pf_extinction",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "PrimalFearExtinctionExpansion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.pf_extinction.disable_vanilla_titans"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "rain_dinos",
+    "category": "cinematic",
+    "i18nKey": "commands.cinematic.rain_dinos.label",
+    "descriptionI18nKey": "commands.cinematic.rain_dinos.description",
+    "template": "RainDinos",
+    "params": []
+  },
+  {
+    "id": "rain_critters",
+    "category": "cinematic",
+    "i18nKey": "commands.cinematic.rain_critters.label",
+    "descriptionI18nKey": "commands.cinematic.rain_critters.description",
+    "template": "RainCritters",
+    "params": []
+  },
+  {
+    "id": "rain_danger",
+    "category": "cinematic",
+    "i18nKey": "commands.cinematic.rain_danger.label",
+    "descriptionI18nKey": "commands.cinematic.rain_danger.description",
+    "template": "RainDanger",
+    "params": []
+  },
+  {
+    "id": "enable_spectator",
+    "category": "cinematic",
+    "i18nKey": "commands.cinematic.enable_spectator.label",
+    "descriptionI18nKey": "commands.cinematic.enable_spectator.description",
+    "template": "EnableSpectator",
+    "params": []
+  },
+  {
+    "id": "stop_spectating",
+    "category": "cinematic",
+    "i18nKey": "commands.cinematic.stop_spectating.label",
+    "descriptionI18nKey": "commands.cinematic.stop_spectating.description",
+    "template": "StopSpectating",
+    "params": []
+  },
+  {
+    "id": "toggle_gun",
+    "category": "cinematic",
+    "i18nKey": "commands.cinematic.toggle_gun.label",
+    "descriptionI18nKey": "commands.cinematic.toggle_gun.description",
+    "template": "ToggleGun",
+    "params": []
+  }
+]

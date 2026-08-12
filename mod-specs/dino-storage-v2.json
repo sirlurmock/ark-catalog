@@ -1,0 +1,3217 @@
+{
+  "_source": "https://ark.wiki.gg/wiki/Mod:Dino_Storage — tabla de configuracion oficial",
+  "_scope": "Subconjunto curado de las ~180 claves que documenta la wiki, mas las 22 de tipo lista que estuvieron bloqueadas hasta el ControlKind `string_list`. Lo que sigue afuera y por que esta en el README de scripts/mod-specs/.",
+  "modId": "DinoStorage2",
+  "name": "Dino Storage v2",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1609138312",
+  "prefix": "dino_storage_v2",
+  "settings": [
+    {
+      "key": "BabyGrowthMultiplier",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        0,
+        1,
+        10,
+        50
+      ],
+      "es": {
+        "label": "Crecimiento de bebés guardados",
+        "description": "Los bebés siguen creciendo dentro del alma a esta tasa. 0 = no crecen; 1 = igual que en el mundo."
+      },
+      "en": {
+        "label": "Baby growth while stored",
+        "description": "Babies keep growing inside the soul at this rate. 0 = frozen; 1 = same as the world rate."
+      }
+    },
+    {
+      "key": "BabyInstantGrowth",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Bebés salen adultos al 100% de imprint",
+        "description": "Al liberarlos se vuelven adultos con el imprint completo. Atajo fuerte: saltea toda la crianza."
+      },
+      "en": {
+        "label": "Babies release as adults with 100% imprint",
+        "description": "On release they become adults with full imprint. A big shortcut: it skips raising entirely."
+      }
+    },
+    {
+      "key": "RemoveMatingCooldown",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Quitar cooldown de apareamiento al guardar",
+        "description": "Guardar y sacar a la hembra borra su espera de apareamiento. Acelera muchísimo la cría en serie."
+      },
+      "en": {
+        "label": "Clear mating cooldown on trap",
+        "description": "Storing and releasing a female wipes her mating cooldown. Speeds up mass breeding a lot."
+      }
+    },
+    {
+      "key": "KeepCuddleType",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Conservar el tipo de mimo pedido",
+        "description": "El bebé mantiene qué mimo y qué comida pedía antes de guardarlo, en vez de sortearlo de nuevo."
+      },
+      "en": {
+        "label": "Keep the requested cuddle type",
+        "description": "The baby keeps which cuddle and food it was asking for instead of rerolling on release."
+      }
+    },
+    {
+      "key": "IncubationMultiplier",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 2,
+      "min": 0,
+      "max": 50,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Velocidad de incubación en la terminal",
+        "description": "Multiplica la tasa del servidor para incubar huevos fertilizados dentro de la terminal."
+      },
+      "en": {
+        "label": "Terminal incubation speed",
+        "description": "Multiplies the server rate for incubating fertilised eggs inside the terminal."
+      }
+    },
+    {
+      "key": "EnableIncubation",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Incubar huevos en la terminal",
+        "description": "Habilita que la terminal incube los huevos fertilizados que tenga adentro."
+      },
+      "en": {
+        "label": "Incubate eggs in the terminal",
+        "description": "Lets the terminal incubate the fertilised eggs stored inside it."
+      }
+    },
+    {
+      "key": "EnableFertEggCollection",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Recolectar huevos fertilizados",
+        "description": "La terminal junta sola los huevos fertilizados que pongan los dinos cercanos."
+      },
+      "en": {
+        "label": "Collect fertilised eggs",
+        "description": "The terminal automatically picks up fertilised eggs laid by nearby dinos."
+      }
+    },
+    {
+      "key": "PassiveHP",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 1.05,
+      "min": 0,
+      "max": 20,
+      "step": 0.05,
+      "presets": [
+        1,
+        1.05,
+        2,
+        5
+      ],
+      "es": {
+        "label": "Regeneración de vida guardado",
+        "description": "Multiplica la vida que recupera el dino mientras está dentro del alma."
+      },
+      "en": {
+        "label": "Health regen while stored",
+        "description": "Multiplies the health the dino recovers while inside the soul."
+      }
+    },
+    {
+      "key": "PassiveStam",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1.05,
+      "min": 0,
+      "max": 20,
+      "step": 0.05,
+      "presets": [
+        1,
+        1.05,
+        2,
+        5
+      ],
+      "es": {
+        "label": "Recuperación de estamina guardado",
+        "description": "Multiplica la estamina que recupera el dino mientras está guardado."
+      },
+      "en": {
+        "label": "Stamina recovery while stored",
+        "description": "Multiplies the stamina the dino recovers while stored."
+      }
+    },
+    {
+      "key": "PassiveFood",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 0,
+      "min": 0,
+      "max": 20,
+      "step": 0.05,
+      "presets": [
+        0,
+        1,
+        2
+      ],
+      "es": {
+        "label": "Regeneración de comida guardado",
+        "description": "Multiplica la comida que recupera el dino guardado. En 0 no come, que es el default."
+      },
+      "en": {
+        "label": "Food regen while stored",
+        "description": "Multiplies the food the stored dino regenerates. At 0 it does not eat, which is the default."
+      }
+    },
+    {
+      "key": "PassiveXP",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1.05,
+      "min": 0,
+      "max": 20,
+      "step": 0.05,
+      "presets": [
+        0,
+        1,
+        1.05,
+        2
+      ],
+      "es": {
+        "label": "Experiencia ganada guardado",
+        "description": "Multiplica la experiencia que acumula el dino mientras está dentro del alma."
+      },
+      "en": {
+        "label": "Experience gained while stored",
+        "description": "Multiplies the experience the dino accrues while inside the soul."
+      }
+    },
+    {
+      "key": "PassiveCharge",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1.05,
+      "min": 0,
+      "max": 20,
+      "step": 0.05,
+      "presets": [
+        0,
+        1,
+        1.05,
+        2
+      ],
+      "es": {
+        "label": "Recarga de mascotas de luz guardadas",
+        "description": "Multiplica la recarga de las mascotas de luz (Shinehorn, Bulbdog, Featherlight) mientras están guardadas."
+      },
+      "en": {
+        "label": "Light pet recharge while stored",
+        "description": "Multiplies charge recovery for light pets (Shinehorn, Bulbdog, Featherlight) while stored."
+      }
+    },
+    {
+      "key": "PassiveWool",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1.05,
+      "min": 0,
+      "max": 20,
+      "step": 0.05,
+      "presets": [
+        0,
+        1,
+        1.05,
+        2
+      ],
+      "es": {
+        "label": "Crecimiento de lana guardado",
+        "description": "Multiplica el crecimiento de lana de las ovejas mientras están dentro del alma."
+      },
+      "en": {
+        "label": "Wool growth while stored",
+        "description": "Multiplies sheep wool growth while inside the soul."
+      }
+    },
+    {
+      "key": "TorpRecovery",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1.05,
+      "min": 0,
+      "max": 20,
+      "step": 0.05,
+      "presets": [
+        0,
+        1,
+        1.05,
+        2
+      ],
+      "es": {
+        "label": "Recuperación de torpor guardado",
+        "description": "Multiplica la velocidad a la que baja el torpor mientras el dino está guardado."
+      },
+      "en": {
+        "label": "Torpor recovery while stored",
+        "description": "Multiplies how fast torpor drains while the dino is stored."
+      }
+    },
+    {
+      "key": "UseCryoSickness",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Aplicar enfermedad al liberar",
+        "description": "Los dinos salen enfermos, como con las criopods vanilla. Apagado por default: es la razón principal por la que se usa esta mod."
+      },
+      "en": {
+        "label": "Apply sickness on release",
+        "description": "Released dinos come out sick, like vanilla cryopods. Off by default — it is the main reason people use this mod."
+      }
+    },
+    {
+      "key": "UseCryoNerf",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Usar el nerf de criopods de Wildcard",
+        "description": "Replica las restricciones oficiales de criopods en vez de las de la mod."
+      },
+      "en": {
+        "label": "Use Wildcard's cryopod nerf",
+        "description": "Mirrors the official cryopod restrictions instead of the mod's own rules."
+      }
+    },
+    {
+      "key": "SoulSicknessDuration",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 5,
+      "min": 0,
+      "max": 60,
+      "step": 0.5,
+      "presets": [
+        0,
+        1,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Duración de la enfermedad (minutos)",
+        "description": "Cuántos minutos queda enfermo el dino después de liberarlo. Solo aplica si la enfermedad está activada."
+      },
+      "en": {
+        "label": "Sickness duration (minutes)",
+        "description": "How many minutes the dino stays sick after release. Only applies when sickness is enabled."
+      }
+    },
+    {
+      "key": "SoulSicknessDamage",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 10,
+      "min": 0,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        1,
+        10,
+        25
+      ],
+      "es": {
+        "label": "Multiplicador de daño recibido enfermo",
+        "description": "Cuánto más daño recibe un dino mientras está enfermo por haber sido liberado."
+      },
+      "en": {
+        "label": "Damage multiplier while sick",
+        "description": "How much extra damage a dino takes while sick from being released."
+      }
+    },
+    {
+      "key": "SicknessIgnoreBaby",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Los bebés no se enferman",
+        "description": "Exime a las crías del debuff de enfermedad al liberarlas."
+      },
+      "en": {
+        "label": "Babies are immune to sickness",
+        "description": "Exempts babies from the sickness debuff on release."
+      }
+    },
+    {
+      "key": "SicknessPreventsRelease",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "La enfermedad impide liberar",
+        "description": "En vez de aplicar el debuff, directamente bloquea la liberación mientras dure el cooldown."
+      },
+      "en": {
+        "label": "Sickness blocks release",
+        "description": "Instead of applying the debuff, it blocks release outright while the cooldown lasts."
+      }
+    },
+    {
+      "key": "DeathAutoTrap",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Guardar al dino justo antes de morir",
+        "description": "Atrapa al dino automáticamente un instante antes de que muera. Red de seguridad para dinos valiosos."
+      },
+      "en": {
+        "label": "Auto-trap the dino right before death",
+        "description": "Traps the dino automatically a moment before it dies. A safety net for valuable dinos."
+      }
+    },
+    {
+      "key": "DATGiveToPlayer",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Mandar el alma al jugador más cercano",
+        "description": "Con el autoguardado por muerte activo, intenta poner el alma en el inventario del jugador más cercano."
+      },
+      "en": {
+        "label": "Send the soul to the nearest player",
+        "description": "With death auto-trap on, it tries to put the soul in the nearest player's inventory."
+      }
+    },
+    {
+      "key": "DATGiveToTerminal",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Mandar el alma a la terminal más cercana",
+        "description": "Con el autoguardado por muerte activo, intenta depositar el alma en la terminal más cercana."
+      },
+      "en": {
+        "label": "Send the soul to the nearest terminal",
+        "description": "With death auto-trap on, it tries to deposit the soul in the nearest terminal."
+      }
+    },
+    {
+      "key": "DATPreventDrop",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "No tirar el alma al piso",
+        "description": "Si no hay jugador ni terminal donde dejarla, el alma no cae al suelo (y el dino se pierde)."
+      },
+      "en": {
+        "label": "Never drop the soul on the ground",
+        "description": "If there is no player or terminal to receive it, the soul is not dropped (and the dino is lost)."
+      }
+    },
+    {
+      "key": "DATRequireTrapper",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Exigir un alma vacía en el destino",
+        "description": "El autoguardado por muerte solo funciona si hay un alma vacía disponible donde va a guardarse."
+      },
+      "en": {
+        "label": "Require an empty soul trap at the destination",
+        "description": "Death auto-trap only works if an empty soul trap is available where it would be stored."
+      }
+    },
+    {
+      "key": "EnableAllGeneration",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Activar toda la automatización",
+        "description": "Enciende de una todas las generaciones automáticas de la terminal (huevos, caca, miel, lana, etc.)."
+      },
+      "en": {
+        "label": "Enable all automation",
+        "description": "Turns on every automated generation in the terminal at once (eggs, poop, honey, wool, and so on)."
+      }
+    },
+    {
+      "key": "EnablePoopConversion",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Convertir caca en fertilizante",
+        "description": "Los escarabajos peloteros guardados convierten caca en fertilizante dentro de la terminal."
+      },
+      "en": {
+        "label": "Convert poop into fertiliser",
+        "description": "Stored dung beetles turn poop into fertiliser inside the terminal."
+      }
+    },
+    {
+      "key": "EnableEggGeneration",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Generar huevos sin fertilizar",
+        "description": "Los dinos guardados producen huevos comunes dentro de la terminal."
+      },
+      "en": {
+        "label": "Generate unfertilised eggs",
+        "description": "Stored dinos produce regular eggs inside the terminal."
+      }
+    },
+    {
+      "key": "PoopConvertSpeed",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 1.05,
+      "min": 0,
+      "max": 20,
+      "step": 0.05,
+      "presets": [
+        1,
+        1.05,
+        2,
+        5
+      ],
+      "es": {
+        "label": "Velocidad de conversión del escarabajo",
+        "description": "Multiplica lo rápido que el escarabajo pelotero convierte caca en fertilizante."
+      },
+      "en": {
+        "label": "Dung beetle conversion speed",
+        "description": "Multiplies how fast the dung beetle turns poop into fertiliser."
+      }
+    },
+    {
+      "key": "TerminalCheckInterval",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 60,
+      "min": 5,
+      "max": 600,
+      "step": 5,
+      "es": {
+        "label": "Intervalo de chequeo de la terminal (segundos)",
+        "description": "Cada cuánto la terminal revisa generación e incubación. Bajarlo mucho carga el servidor."
+      },
+      "en": {
+        "label": "Terminal check interval (seconds)",
+        "description": "How often the terminal runs its generation and incubation pass. Very low values load the server."
+      }
+    },
+    {
+      "key": "TerminalNeedsPower",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "La automatización necesita energía tek",
+        "description": "La terminal solo automatiza si está dentro del radio de un generador tek encendido."
+      },
+      "en": {
+        "label": "Automation requires tek power",
+        "description": "The terminal only automates while inside the radius of a powered tek generator."
+      }
+    },
+    {
+      "key": "CanTrapCorpse",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Permitir atrapar cadáveres",
+        "description": "Deja guardar dinos muertos para revivirlos después. Cambia mucho el peso de perder un dino."
+      },
+      "en": {
+        "label": "Allow trapping corpses",
+        "description": "Lets you store dead dinos to revive them later. Changes how costly losing a dino is."
+      }
+    },
+    {
+      "key": "CorpseRemovesImprint",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Revivir borra el imprint",
+        "description": "El dino revivido pierde su porcentaje de imprint. Costo típico para balancear la revivida."
+      },
+      "en": {
+        "label": "Reviving clears imprint",
+        "description": "The revived dino loses its imprint percentage. A common cost to balance revival."
+      }
+    },
+    {
+      "key": "CorpseResetsLevel",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Revivir resetea los niveles subidos",
+        "description": "El dino revivido pierde todos los niveles que le subió el jugador y vuelve a su nivel de doma."
+      },
+      "en": {
+        "label": "Reviving resets player-gained levels",
+        "description": "The revived dino loses every level the player added and returns to its tamed level."
+      }
+    },
+    {
+      "key": "RevivalHealth",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "presets": [
+        0,
+        10,
+        50,
+        100
+      ],
+      "es": {
+        "label": "Vida con la que revive (%)",
+        "description": "Porcentaje de vida con el que sale un dino revivido desde su cadáver."
+      },
+      "en": {
+        "label": "Revival health (%)",
+        "description": "Health percentage a dino revived from its corpse comes back with."
+      }
+    },
+    {
+      "key": "NoCombatTrap",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "No permitir guardar en combate",
+        "description": "Bloquea atrapar dinos mientras suena la música de combate. Anti-abuso típico de PvP."
+      },
+      "en": {
+        "label": "Block trapping during combat",
+        "description": "Prevents trapping while combat music is playing. A common PvP anti-abuse rule."
+      }
+    },
+    {
+      "key": "TrapHealth",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "presets": [
+        0,
+        50,
+        90,
+        100
+      ],
+      "es": {
+        "label": "Vida mínima para poder guardar (%)",
+        "description": "Exige que el dino tenga al menos este porcentaje de vida para poder atraparlo. 0 = sin requisito."
+      },
+      "en": {
+        "label": "Minimum health to trap (%)",
+        "description": "Requires the dino to have at least this health percentage before it can be trapped. 0 = no requirement."
+      }
+    },
+    {
+      "key": "RequireOwnership",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Solo el dueño puede guardar o liberar",
+        "description": "Exige ser el dueño del dino para atraparlo o liberarlo, en vez de bastar con la tribu."
+      },
+      "en": {
+        "label": "Only the owner can trap or release",
+        "description": "Requires being the dino's owner to trap or release it, rather than just being in the tribe."
+      }
+    },
+    {
+      "key": "ReleaseConsumesTrapper",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Liberar consume el alma",
+        "description": "El alma se destruye al liberar al dino, así que hay que fabricar una nueva cada vez."
+      },
+      "en": {
+        "label": "Releasing consumes the soul trap",
+        "description": "The soul is destroyed on release, so a new one must be crafted every time."
+      }
+    },
+    {
+      "key": "RequiredReleaseLevel",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "es": {
+        "label": "Nivel de jugador para poder liberar",
+        "description": "Nivel mínimo del jugador para desbloquear la liberación de dinos. 0 = sin restricción."
+      },
+      "en": {
+        "label": "Player level required to release",
+        "description": "Minimum player level to unlock releasing dinos. 0 = no restriction."
+      }
+    },
+    {
+      "key": "PreventCaveRelease",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "No liberar en cuevas sin construcción",
+        "description": "Bloquea liberar dinos en cuevas donde no se puede construir. Evita meter dinos grandes donde no corresponde."
+      },
+      "en": {
+        "label": "Block release in no-build caves",
+        "description": "Prevents releasing dinos in caves where building is disabled, keeping big dinos out of them."
+      }
+    },
+    {
+      "key": "SoulTrapStackSize",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 300,
+      "min": 1,
+      "max": 1000,
+      "step": 10,
+      "es": {
+        "label": "Tamaño de stack de almas vacías",
+        "description": "Cuántas almas vacías entran en un solo slot de inventario."
+      },
+      "en": {
+        "label": "Empty soul trap stack size",
+        "description": "How many empty soul traps fit in a single inventory slot."
+      }
+    },
+    {
+      "key": "TerminalSlots",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 300,
+      "min": 1,
+      "max": 300,
+      "step": 10,
+      "es": {
+        "label": "Slots de la terminal",
+        "description": "Cantidad de slots de inventario de la terminal de almas. El máximo que soporta la mod es 300."
+      },
+      "en": {
+        "label": "Terminal inventory slots",
+        "description": "Inventory slot count for the soul terminal. The mod caps this at 300."
+      }
+    },
+    {
+      "key": "PreventUpload",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Impedir subir o transferir almas",
+        "description": "Bloquea subir almas al obelisco o transferirlas entre servidores."
+      },
+      "en": {
+        "label": "Prevent uploading or transferring souls",
+        "description": "Blocks uploading souls to obelisks or transferring them between servers."
+      }
+    },
+    {
+      "key": "DropCostume",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Tirar el disfraz al guardar",
+        "description": "En vez de guardarse con el dino, el disfraz cae al piso."
+      },
+      "en": {
+        "label": "Drop costume on trap",
+        "description": "The costume drops on the ground instead of being stored with the dino."
+      }
+    },
+    {
+      "key": "DropEquipment",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Tirar todo el equipo al guardar",
+        "description": "Todo lo equipado cae al piso en vez de guardarse con el dino."
+      },
+      "en": {
+        "label": "Drop all equipment on trap",
+        "description": "Everything equipped drops on the ground instead of being stored."
+      }
+    },
+    {
+      "key": "DropHelmet",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Tirar el casco al guardar",
+        "description": "El casco cae al piso en vez de guardarse con el dino."
+      },
+      "en": {
+        "label": "Drop helmet on trap",
+        "description": "The helmet drops on the ground instead of being stored."
+      }
+    },
+    {
+      "key": "DropSaddle",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Tirar la silla al guardar",
+        "description": "La silla cae al piso en vez de guardarse con el dino."
+      },
+      "en": {
+        "label": "Drop saddle on trap",
+        "description": "The saddle drops on the ground instead of being stored."
+      }
+    },
+    {
+      "key": "DropWeapon",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Tirar el arma al guardar",
+        "description": "El arma equipada cae al piso en vez de guardarse con el dino."
+      },
+      "en": {
+        "label": "Drop weapon on trap",
+        "description": "The equipped weapon drops on the ground instead of being stored."
+      }
+    },
+    {
+      "key": "ExcludeAmphibious",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Excluir anfibios",
+        "description": "Impide guardar y liberar anfibios."
+      },
+      "en": {
+        "label": "Exclude amphibious dinos",
+        "description": "Prevents trapping and releasing amphibious dinos."
+      }
+    },
+    {
+      "key": "ExcludeBaby",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Excluir bebés",
+        "description": "Impide guardar y liberar bebés."
+      },
+      "en": {
+        "label": "Exclude babies",
+        "description": "Prevents trapping and releasing babies."
+      }
+    },
+    {
+      "key": "ExcludeBig",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Excluir dinos grandes",
+        "description": "Impide guardar y liberar dinos grandes."
+      },
+      "en": {
+        "label": "Exclude big dinos",
+        "description": "Prevents trapping and releasing big dinos."
+      }
+    },
+    {
+      "key": "ExcludeBoss",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Excluir jefes",
+        "description": "Impide guardar y liberar jefes."
+      },
+      "en": {
+        "label": "Exclude bosses",
+        "description": "Prevents trapping and releasing bosses."
+      }
+    },
+    {
+      "key": "ExcludeCorrupted",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Excluir dinos corruptos",
+        "description": "Impide guardar y liberar dinos corruptos."
+      },
+      "en": {
+        "label": "Exclude corrupted dinos",
+        "description": "Prevents trapping and releasing corrupted dinos."
+      }
+    },
+    {
+      "key": "ExcludeFlyer",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Excluir voladores montables",
+        "description": "Impide guardar y liberar voladores montables."
+      },
+      "en": {
+        "label": "Exclude rideable flyers",
+        "description": "Prevents trapping and releasing rideable flyers."
+      }
+    },
+    {
+      "key": "ExcludeRaid",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Excluir dinos de raid",
+        "description": "Impide guardar y liberar dinos de raid."
+      },
+      "en": {
+        "label": "Exclude raid dinos",
+        "description": "Prevents trapping and releasing raid dinos."
+      }
+    },
+    {
+      "key": "ExcludeRobot",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Excluir robots",
+        "description": "Impide guardar y liberar robots."
+      },
+      "en": {
+        "label": "Exclude robots",
+        "description": "Prevents trapping and releasing robots."
+      }
+    },
+    {
+      "key": "ExcludeWater",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Excluir acuáticos",
+        "description": "Impide guardar y liberar acuáticos."
+      },
+      "en": {
+        "label": "Exclude water dinos",
+        "description": "Prevents trapping and releasing water dinos."
+      }
+    },
+    {
+      "key": "ExcludeEnragedGiga",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Excluir Gigas enfurecidos",
+        "description": "Impide guardar un Giga mientras está enfurecido."
+      },
+      "en": {
+        "label": "Exclude enraged Gigas",
+        "description": "Prevents trapping a Giga while it is enraged."
+      }
+    },
+    {
+      "key": "ExcludeImmobile",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Excluir dinos inmovilizados",
+        "description": "Impide guardar dinos atrapados en redes, trampas o similares."
+      },
+      "en": {
+        "label": "Exclude immobilised dinos",
+        "description": "Prevents trapping dinos held by nets, traps or similar."
+      }
+    },
+    {
+      "key": "ExcludeTorped",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Excluir dinos inconscientes",
+        "description": "Impide guardar dinos noqueados. Evita el atajo de domar y guardar al instante."
+      },
+      "en": {
+        "label": "Exclude unconscious dinos",
+        "description": "Prevents trapping knocked-out dinos, closing the tame-and-store shortcut."
+      }
+    },
+    {
+      "key": "ExcludeUnclaimed",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Excluir dinos sin dueño",
+        "description": "Impide guardar dinos que quedaron sin reclamar."
+      },
+      "en": {
+        "label": "Exclude unclaimed dinos",
+        "description": "Prevents trapping dinos that have been left unclaimed."
+      }
+    },
+    {
+      "key": "ExcludeForeignPure",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Excluir liberación de dinos ajenos",
+        "description": "Impide liberar dinos que fueron guardados por otra tribu."
+      },
+      "en": {
+        "label": "Exclude releasing foreign dinos",
+        "description": "Prevents releasing dinos that were trapped by another tribe."
+      }
+    },
+    {
+      "key": "IncludeForeign",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Forzar liberación de dinos ajenos",
+        "description": "Permite liberar dinos ajenos aunque la config del servidor lo prohíba."
+      },
+      "en": {
+        "label": "Force allow foreign dino release",
+        "description": "Allows releasing foreign dinos even when the server config forbids it."
+      }
+    },
+    {
+      "key": "KeepAllyLookingStatus",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "es": {
+        "label": "Conservar el modo de mirar aliados",
+        "description": "El dino mantiene el modo de mirar aliados al salir, en vez de volver al default."
+      },
+      "en": {
+        "label": "Keep the ally-looking toggle",
+        "description": "The dino keeps the ally-looking toggle on release instead of resetting to default."
+      }
+    },
+    {
+      "key": "KeepEnabledMatingStatus",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "es": {
+        "label": "Conservar el apareamiento habilitado",
+        "description": "El dino mantiene el apareamiento habilitado al salir, en vez de volver al default."
+      },
+      "en": {
+        "label": "Keep the enable-mating toggle",
+        "description": "The dino keeps the enable-mating toggle on release instead of resetting to default."
+      }
+    },
+    {
+      "key": "KeepEnabledWanderStatus",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "es": {
+        "label": "Conservar el deambular habilitado",
+        "description": "El dino mantiene el deambular habilitado al salir, en vez de volver al default."
+      },
+      "en": {
+        "label": "Keep the enable-wandering toggle",
+        "description": "The dino keeps the enable-wandering toggle on release instead of resetting to default."
+      }
+    },
+    {
+      "key": "KeepForceTamedStatus",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "es": {
+        "label": "Conservar el estado de domado forzado",
+        "description": "El dino mantiene el estado de domado forzado al salir, en vez de volver al default."
+      },
+      "en": {
+        "label": "Keep the force-tamed status",
+        "description": "The dino keeps the force-tamed status on release instead of resetting to default."
+      }
+    },
+    {
+      "key": "KeepIgnoreWhistleStatus",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "es": {
+        "label": "Conservar el ignorar silbatos",
+        "description": "El dino mantiene el ignorar silbatos al salir, en vez de volver al default."
+      },
+      "en": {
+        "label": "Keep the ignore-whistle toggle",
+        "description": "The dino keeps the ignore-whistle toggle on release instead of resetting to default."
+      }
+    },
+    {
+      "key": "LockImprinter",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "No transferir el imprint al liberar",
+        "description": "Impide que el imprint cambie de dueño cuando otro jugador libera al dino."
+      },
+      "en": {
+        "label": "Lock imprinter on release",
+        "description": "Prevents the imprint owner changing when another player releases the dino."
+      }
+    },
+    {
+      "key": "ReleaseUseDefaults",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Liberar con la configuración por defecto",
+        "description": "El dino sale con todos sus toggles en el default del juego."
+      },
+      "en": {
+        "label": "Release with default settings",
+        "description": "The dino comes out with every toggle at the game default."
+      }
+    },
+    {
+      "key": "ReleaseIgnoreType",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Ignorar las exclusiones al liberar",
+        "description": "Invierte las exclusiones: fuerza permitir la liberación de cualquier dino."
+      },
+      "en": {
+        "label": "Ignore exclusions on release",
+        "description": "Flips the exclusion rules and force-allows releasing any dino."
+      }
+    },
+    {
+      "key": "RemoveAllBuffs",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Quitar todos los buffs al liberar",
+        "description": "El dino sale sin ninguno de los buffs que tenía al guardarlo."
+      },
+      "en": {
+        "label": "Strip all buffs on release",
+        "description": "The dino comes out without any of the buffs it had when stored."
+      }
+    },
+    {
+      "key": "RemoveCloneTags",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Quitar la marca de clon",
+        "description": "El dino liberado pierde la etiqueta de clonado."
+      },
+      "en": {
+        "label": "Remove clone tags",
+        "description": "The released dino loses its cloned marker."
+      }
+    },
+    {
+      "key": "RemoveTitanLoad",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "es": {
+        "label": "Sacar la espera de 15 minutos de los Titanes",
+        "description": "Elimina el tiempo de carga obligatorio al liberar un Titán."
+      },
+      "en": {
+        "label": "Skip the Titan 15-minute load",
+        "description": "Removes the mandatory wait when releasing a Titan."
+      }
+    },
+    {
+      "key": "TrapTamesFish",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Guardar peces los doma",
+        "description": "Atrapar ciertos peces los doma, como hacen las canastas."
+      },
+      "en": {
+        "label": "Trapping tames fish",
+        "description": "Trapping certain fish tames them, like fish baskets do."
+      }
+    },
+    {
+      "key": "RemovePassiveHP",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "es": {
+        "label": "Cortar la regeneración de vida guardado",
+        "description": "Desactiva la regeneración de vida mientras el dino está dentro del alma, ignorando su multiplicador."
+      },
+      "en": {
+        "label": "Disable health regen while stored",
+        "description": "Turns off health regen while the dino is inside the soul, ignoring its multiplier."
+      }
+    },
+    {
+      "key": "RemovePassiveStam",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "es": {
+        "label": "Cortar la recuperación de estamina guardado",
+        "description": "Desactiva la recuperación de estamina mientras el dino está dentro del alma, ignorando su multiplicador."
+      },
+      "en": {
+        "label": "Disable stamina recovery while stored",
+        "description": "Turns off stamina recovery while the dino is inside the soul, ignoring its multiplier."
+      }
+    },
+    {
+      "key": "RemovePassiveXP",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "es": {
+        "label": "Cortar la ganancia de experiencia guardado",
+        "description": "Desactiva la ganancia de experiencia mientras el dino está dentro del alma, ignorando su multiplicador."
+      },
+      "en": {
+        "label": "Disable experience gain while stored",
+        "description": "Turns off experience gain while the dino is inside the soul, ignoring its multiplier."
+      }
+    },
+    {
+      "key": "RemovePassiveCharge",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "es": {
+        "label": "Cortar la recarga de mascotas de luz guardado",
+        "description": "Desactiva la recarga de mascotas de luz mientras el dino está dentro del alma, ignorando su multiplicador."
+      },
+      "en": {
+        "label": "Disable light pet recharge while stored",
+        "description": "Turns off light pet recharge while the dino is inside the soul, ignoring its multiplier."
+      }
+    },
+    {
+      "key": "RemovePassiveWool",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "es": {
+        "label": "Cortar el crecimiento de lana guardado",
+        "description": "Desactiva el crecimiento de lana mientras el dino está dentro del alma, ignorando su multiplicador."
+      },
+      "en": {
+        "label": "Disable wool growth while stored",
+        "description": "Turns off wool growth while the dino is inside the soul, ignoring its multiplier."
+      }
+    },
+    {
+      "key": "RemoveTorpRecovery",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "es": {
+        "label": "Cortar la recuperación de torpor guardado",
+        "description": "Desactiva la recuperación de torpor mientras el dino está dentro del alma, ignorando su multiplicador."
+      },
+      "en": {
+        "label": "Disable torpor recovery while stored",
+        "description": "Turns off torpor recovery while the dino is inside the soul, ignoring its multiplier."
+      }
+    },
+    {
+      "key": "TrapTamedTime",
+      "kind": "float_multiplier",
+      "default": 0,
+      "min": 0,
+      "max": 120,
+      "step": 1,
+      "presets": [
+        0,
+        5,
+        30,
+        60
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Espera tras domar para poder guardar (minutos)",
+        "description": "Minutos que hay que esperar después de domar antes de poder guardar al dino. 0 = sin espera."
+      },
+      "en": {
+        "label": "Wait after taming before trapping (minutes)",
+        "description": "Minutes to wait after taming before the dino can be trapped. 0 = no wait."
+      }
+    },
+    {
+      "key": "TrapHurtTime",
+      "kind": "float_multiplier",
+      "default": 0,
+      "min": 0,
+      "max": 120,
+      "step": 1,
+      "presets": [
+        0,
+        5,
+        15,
+        30
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Espera tras recibir daño para guardar (minutos)",
+        "description": "Minutos que hay que esperar después de que el dino reciba daño. Anti-abuso de PvP."
+      },
+      "en": {
+        "label": "Wait after damage before trapping (minutes)",
+        "description": "Minutes to wait after the dino takes damage. A PvP anti-abuse rule."
+      }
+    },
+    {
+      "key": "TrapNearBase",
+      "kind": "float_multiplier",
+      "default": 0,
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "presets": [
+        0,
+        10,
+        50
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Guardar solo cerca de la base (fundaciones)",
+        "description": "Exige estar a esta distancia de estructuras amigas para poder guardar. 0 = sin requisito."
+      },
+      "en": {
+        "label": "Trap only near base (foundations)",
+        "description": "Requires being within this distance of friendly structures to trap. 0 = no requirement."
+      }
+    },
+    {
+      "key": "TrapNearTerminal",
+      "kind": "float_multiplier",
+      "default": 0,
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "presets": [
+        0,
+        10,
+        50
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Guardar solo cerca de una terminal (fundaciones)",
+        "description": "Exige estar a esta distancia de una terminal amiga para poder guardar. 0 = sin requisito."
+      },
+      "en": {
+        "label": "Trap only near a terminal (foundations)",
+        "description": "Requires being within this distance of a friendly terminal to trap. 0 = no requirement."
+      }
+    },
+    {
+      "key": "PlatformStructureGrace",
+      "kind": "integer",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "tier": "expert",
+      "es": {
+        "label": "Estructuras toleradas en la plataforma",
+        "description": "Cuántas estructuras puede tener la silla y aun así permitir guardarlo."
+      },
+      "en": {
+        "label": "Structures allowed on platform",
+        "description": "How many structures the saddle may carry and still allow trapping."
+      }
+    },
+    {
+      "key": "TrappingTribeLogs",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "es": {
+        "label": "Registrar en el log de tribu al guardar",
+        "description": "Cada dino guardado deja una entrada en el log de la tribu."
+      },
+      "en": {
+        "label": "Log trapping to the tribe log",
+        "description": "Every trapped dino adds an entry to the tribe log."
+      }
+    },
+    {
+      "key": "ReleaseNearBase",
+      "kind": "float_multiplier",
+      "default": 0,
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "presets": [
+        0,
+        10,
+        50
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Liberar solo cerca de la base (fundaciones)",
+        "description": "Exige estar a esta distancia de estructuras amigas para liberar. 0 = sin requisito."
+      },
+      "en": {
+        "label": "Release only near base (foundations)",
+        "description": "Requires being within this distance of friendly structures to release. 0 = no requirement."
+      }
+    },
+    {
+      "key": "ReleaseNearTerminal",
+      "kind": "float_multiplier",
+      "default": 0,
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "presets": [
+        0,
+        10,
+        50
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Liberar solo cerca de una terminal (fundaciones)",
+        "description": "Exige estar a esta distancia de una terminal amiga para liberar. 0 = sin requisito."
+      },
+      "en": {
+        "label": "Release only near a terminal (foundations)",
+        "description": "Requires being within this distance of a friendly terminal to release. 0 = no requirement."
+      }
+    },
+    {
+      "key": "ReleasePreventDupeID",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "es": {
+        "label": "Evitar duplicados al liberar",
+        "description": "Verifica que no exista ya un dino con el mismo ID antes de liberar. Red contra el duping."
+      },
+      "en": {
+        "label": "Prevent duplicates on release",
+        "description": "Checks that no dino with the same ID already exists before releasing. Anti-duping."
+      }
+    },
+    {
+      "key": "ReleaseTribeLogs",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "es": {
+        "label": "Registrar en el log de tribu al liberar",
+        "description": "Cada dino liberado deja una entrada en el log de la tribu."
+      },
+      "en": {
+        "label": "Log releasing to the tribe log",
+        "description": "Every released dino adds an entry to the tribe log."
+      }
+    },
+    {
+      "key": "RequireTribeRanks",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Respetar los rangos de tribu",
+        "description": "Exige tener permiso de montar el dino para poder liberarlo."
+      },
+      "en": {
+        "label": "Respect tribe ranks",
+        "description": "Requires permission to ride the dino in order to release it."
+      }
+    },
+    {
+      "key": "KeepTrapperEquipped",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "es": {
+        "label": "Quedarse con el alma vacía en la mano",
+        "description": "Después de liberar, el alma vacía queda equipada en vez de irse al inventario."
+      },
+      "en": {
+        "label": "Keep the empty trap equipped",
+        "description": "After releasing, the empty soul stays in hand instead of going to the inventory."
+      }
+    },
+    {
+      "key": "LootBagLifeSpan",
+      "kind": "float_multiplier",
+      "default": 30,
+      "min": 0,
+      "max": 240,
+      "step": 5,
+      "presets": [
+        5,
+        30,
+        60
+      ],
+      "tier": "advanced",
+      "es": {
+        "label": "Duración de la bolsa de loot (minutos)",
+        "description": "Minutos que dura en el piso la bolsa con lo que el dino no pudo guardar."
+      },
+      "en": {
+        "label": "Loot bag lifespan (minutes)",
+        "description": "Minutes the bag with whatever could not be stored lasts on the ground."
+      }
+    },
+    {
+      "key": "IgnoreSpatialCheck",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "No verificar si hay espacio",
+        "description": "Desactiva el chequeo de lugar libre antes de liberar. Puede meter dinos dentro de estructuras."
+      },
+      "en": {
+        "label": "Skip the room check",
+        "description": "Disables the has-room check before releasing. Can drop dinos inside structures."
+      }
+    },
+    {
+      "key": "IgnoreEnemyStructures",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "No verificar estructuras enemigas",
+        "description": "Desactiva el chequeo de estructuras enemigas cercanas al liberar."
+      },
+      "en": {
+        "label": "Skip the enemy structure check",
+        "description": "Disables the nearby enemy structure check on release."
+      }
+    },
+    {
+      "key": "EnemyStructureRange",
+      "kind": "float_multiplier",
+      "default": 10,
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "presets": [
+        0,
+        10,
+        50
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Distancia mínima a estructuras enemigas (fundaciones)",
+        "description": "Impide liberar dentro de este radio de estructuras enemigas."
+      },
+      "en": {
+        "label": "Minimum distance to enemy structures (foundations)",
+        "description": "Prevents releasing within this radius of enemy structures."
+      }
+    },
+    {
+      "key": "IsBaseIfLinkedStructures",
+      "kind": "integer",
+      "default": 50,
+      "min": 1,
+      "max": 500,
+      "step": 5,
+      "tier": "expert",
+      "es": {
+        "label": "Estructuras enlazadas que definen una base",
+        "description": "Cuántas estructuras conectadas hacen que un lugar cuente como base."
+      },
+      "en": {
+        "label": "Linked structures that define a base",
+        "description": "How many connected structures make a location count as a base."
+      }
+    },
+    {
+      "key": "PreventAllCaveRelease",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "No liberar en ninguna cueva",
+        "description": "Bloquea la liberación en cualquier cueva, se pueda construir o no."
+      },
+      "en": {
+        "label": "Block release in every cave",
+        "description": "Blocks releasing in any cave, buildable or not."
+      }
+    },
+    {
+      "key": "AllowBossArenaRelease",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Permitir liberar en arenas de jefe",
+        "description": "Habilita sacar dinos del alma dentro de las arenas de jefe."
+      },
+      "en": {
+        "label": "Allow release in boss arenas",
+        "description": "Lets you release dinos inside boss arenas."
+      }
+    },
+    {
+      "key": "AllowBossCaveRelease",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Permitir liberar en cuevas de jefe",
+        "description": "Habilita sacar dinos del alma dentro de las cuevas de jefe."
+      },
+      "en": {
+        "label": "Allow release in boss caves",
+        "description": "Lets you release dinos inside boss caves."
+      }
+    },
+    {
+      "key": "AllowMissionAreaRelease",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Permitir liberar en misiones",
+        "description": "Fuerza permitir la liberación dentro de las áreas de misión de Genesis."
+      },
+      "en": {
+        "label": "Allow release in missions",
+        "description": "Force-allows releasing inside Genesis mission areas."
+      }
+    },
+    {
+      "key": "NoBossArenaTrap",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "No guardar dentro de arenas de jefe",
+        "description": "Bloquea atrapar dinos mientras estás en una arena de jefe."
+      },
+      "en": {
+        "label": "Block trapping in boss arenas",
+        "description": "Prevents trapping dinos while inside a boss arena."
+      }
+    },
+    {
+      "key": "MutatorAllowMek",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Bypass de mutador para Mek",
+        "description": "Liberar un Mek le agrega el bypass del mutador de S+."
+      },
+      "en": {
+        "label": "Mutator bypass for Mek",
+        "description": "Releasing a Mek adds the S+ mutator bypass."
+      }
+    },
+    {
+      "key": "MutatorAllowXeno",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Bypass de mutador para Reaper",
+        "description": "Liberar un Reaper le agrega el bypass del mutador de S+."
+      },
+      "en": {
+        "label": "Mutator bypass for Reaper",
+        "description": "Releasing a Reaper adds the S+ mutator bypass."
+      }
+    },
+    {
+      "key": "SicknessFromBase",
+      "kind": "float_multiplier",
+      "default": 0,
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "presets": [
+        0,
+        10,
+        50
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Sin enfermedad cerca de la base (fundaciones)",
+        "description": "Dentro de este radio de estructuras amigas no se aplica la enfermedad."
+      },
+      "en": {
+        "label": "No sickness near base (foundations)",
+        "description": "Within this radius of friendly structures the sickness is not applied."
+      }
+    },
+    {
+      "key": "SicknessFromTerminal",
+      "kind": "float_multiplier",
+      "default": 0,
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "presets": [
+        0,
+        10,
+        50
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Sin enfermedad cerca de una terminal (fundaciones)",
+        "description": "Dentro de este radio de una terminal amiga no se aplica la enfermedad."
+      },
+      "en": {
+        "label": "No sickness near a terminal (foundations)",
+        "description": "Within this radius of a friendly terminal the sickness is not applied."
+      }
+    },
+    {
+      "key": "SoulSicknessCooldown",
+      "kind": "float_multiplier",
+      "default": 0,
+      "min": 0,
+      "max": 120,
+      "step": 1,
+      "presets": [
+        0,
+        5,
+        15
+      ],
+      "tier": "advanced",
+      "es": {
+        "label": "Cooldown del jugador tras liberar (minutos)",
+        "description": "Minutos que el jugador queda en espera después de liberar un dino. 0 = sin cooldown."
+      },
+      "en": {
+        "label": "Player cooldown after release (minutes)",
+        "description": "Minutes the player must wait after releasing a dino. 0 = no cooldown."
+      }
+    },
+    {
+      "key": "DATAdultOnly",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Autotrap solo para adultos",
+        "description": "El autoguardado por muerte solo actúa con dinos adultos."
+      },
+      "en": {
+        "label": "Death auto-trap for adults only",
+        "description": "Death auto-trap only fires for adult dinos."
+      }
+    },
+    {
+      "key": "DATBabyOnly",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Autotrap solo para bebés",
+        "description": "El autoguardado por muerte solo actúa con crías."
+      },
+      "en": {
+        "label": "Death auto-trap for babies only",
+        "description": "Death auto-trap only fires for babies."
+      }
+    },
+    {
+      "key": "DATBabifiesAdult",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Autotrap convierte adultos en recién nacidos",
+        "description": "El adulto guardado al morir vuelve a nacer como bebé."
+      },
+      "en": {
+        "label": "Death auto-trap babifies adults",
+        "description": "An adult stored on death comes back as a newborn."
+      }
+    },
+    {
+      "key": "DATDefaultsInactive",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Autotrap apagado al liberar",
+        "description": "Los dinos salen del alma con el autoguardado por muerte desactivado."
+      },
+      "en": {
+        "label": "Death auto-trap off on release",
+        "description": "Dinos come out of the soul with death auto-trap switched off."
+      }
+    },
+    {
+      "key": "DATDoTDeathOnly",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Autotrap solo por daño indirecto",
+        "description": "Solo actúa cuando el dino muere por daño en el tiempo, no por golpes."
+      },
+      "en": {
+        "label": "Death auto-trap on indirect deaths only",
+        "description": "Only fires when the dino dies from damage over time, not from hits."
+      }
+    },
+    {
+      "key": "DATPassiveOnly",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Autotrap solo para dinos pasivos",
+        "description": "Solo actúa con dinos en pasivo que ignoran silbatos."
+      },
+      "en": {
+        "label": "Death auto-trap for passive dinos only",
+        "description": "Only fires for passive dinos that ignore whistles."
+      }
+    },
+    {
+      "key": "DATStarvedOnly",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Autotrap solo por hambre",
+        "description": "Solo actúa si el dino murió de hambre."
+      },
+      "en": {
+        "label": "Death auto-trap on starvation only",
+        "description": "Only fires if the dino starved to death."
+      }
+    },
+    {
+      "key": "EnablePoopGeneration",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "es": {
+        "label": "Activar generación de caca fertilizante",
+        "description": "Habilita la generación de caca fertilizante en la terminal."
+      },
+      "en": {
+        "label": "Enable fertiliser poop generation",
+        "description": "Enables fertiliser poop generation in the terminal."
+      }
+    },
+    {
+      "key": "EnableMiscPoopGeneration",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "es": {
+        "label": "Activar generación de caca no fertilizante",
+        "description": "Habilita la generación de caca no fertilizante en la terminal."
+      },
+      "en": {
+        "label": "Enable non-fertiliser poop generation",
+        "description": "Enables non-fertiliser poop generation in the terminal."
+      }
+    },
+    {
+      "key": "EnableHoneyGeneration",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "es": {
+        "label": "Activar generación de miel con la Abeja Reina",
+        "description": "Habilita la generación de miel con la Abeja Reina en la terminal."
+      },
+      "en": {
+        "label": "Enable honey generation with the Queen Bee",
+        "description": "Enables honey generation with the Queen Bee in the terminal."
+      }
+    },
+    {
+      "key": "EnableWoolGeneration",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "es": {
+        "label": "Activar generación de lana con ovejas",
+        "description": "Habilita la generación de lana con ovejas en la terminal."
+      },
+      "en": {
+        "label": "Enable wool generation with sheep",
+        "description": "Enables wool generation with sheep in the terminal."
+      }
+    },
+    {
+      "key": "EnableFruitSeeding",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "es": {
+        "label": "Activar siembra de frutas con el Iguanodon",
+        "description": "Habilita la siembra de frutas con el Iguanodon en la terminal."
+      },
+      "en": {
+        "label": "Enable fruit seeding with the Iguanodon",
+        "description": "Enables fruit seeding with the Iguanodon in the terminal."
+      }
+    },
+    {
+      "key": "EnablePassiveGeneration",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "es": {
+        "label": "Activar generación pasiva como el aceite de calamar",
+        "description": "Habilita la generación pasiva como el aceite de calamar en la terminal."
+      },
+      "en": {
+        "label": "Enable passive generation such as squid oil",
+        "description": "Enables passive generation such as squid oil in the terminal."
+      }
+    },
+    {
+      "key": "TerminalPoopMultiplier",
+      "kind": "float_multiplier",
+      "default": 1.05,
+      "min": 0,
+      "max": 20,
+      "step": 0.05,
+      "presets": [
+        1,
+        1.05,
+        2,
+        5
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Multiplicador de caca fertilizante",
+        "description": "Multiplica la tasa del servidor para la generación de caca fertilizante en la terminal."
+      },
+      "en": {
+        "label": "Fertiliser poop multiplier",
+        "description": "Multiplies the server rate for fertiliser poop generation in the terminal."
+      }
+    },
+    {
+      "key": "TerminalMiscPoopMultiplier",
+      "kind": "float_multiplier",
+      "default": 1.05,
+      "min": 0,
+      "max": 20,
+      "step": 0.05,
+      "presets": [
+        1,
+        1.05,
+        2,
+        5
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Multiplicador de caca no fertilizante",
+        "description": "Multiplica la tasa del servidor para la generación de caca no fertilizante en la terminal."
+      },
+      "en": {
+        "label": "Non-fertiliser poop multiplier",
+        "description": "Multiplies the server rate for non-fertiliser poop generation in the terminal."
+      }
+    },
+    {
+      "key": "TerminalEggMultiplier",
+      "kind": "float_multiplier",
+      "default": 1.05,
+      "min": 0,
+      "max": 20,
+      "step": 0.05,
+      "presets": [
+        1,
+        1.05,
+        2,
+        5
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Multiplicador de huevos",
+        "description": "Multiplica la tasa del servidor para la generación de huevos en la terminal."
+      },
+      "en": {
+        "label": "Eggs multiplier",
+        "description": "Multiplies the server rate for eggs generation in the terminal."
+      }
+    },
+    {
+      "key": "TerminalHoneyMultiplier",
+      "kind": "float_multiplier",
+      "default": 1.05,
+      "min": 0,
+      "max": 20,
+      "step": 0.05,
+      "presets": [
+        1,
+        1.05,
+        2,
+        5
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Multiplicador de miel",
+        "description": "Multiplica la tasa del servidor para la generación de miel en la terminal."
+      },
+      "en": {
+        "label": "Honey multiplier",
+        "description": "Multiplies the server rate for honey generation in the terminal."
+      }
+    },
+    {
+      "key": "TerminalWoolMultiplier",
+      "kind": "float_multiplier",
+      "default": 1.05,
+      "min": 0,
+      "max": 20,
+      "step": 0.05,
+      "presets": [
+        1,
+        1.05,
+        2,
+        5
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Multiplicador de lana",
+        "description": "Multiplica la tasa del servidor para la generación de lana en la terminal."
+      },
+      "en": {
+        "label": "Wool multiplier",
+        "description": "Multiplies the server rate for wool generation in the terminal."
+      }
+    },
+    {
+      "key": "TerminalPassiveMultiplier",
+      "kind": "float_multiplier",
+      "default": 1.05,
+      "min": 0,
+      "max": 20,
+      "step": 0.05,
+      "presets": [
+        1,
+        1.05,
+        2,
+        5
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Multiplicador de generación pasiva",
+        "description": "Multiplica la tasa del servidor para la generación de generación pasiva en la terminal."
+      },
+      "en": {
+        "label": "Passive generation multiplier",
+        "description": "Multiplies the server rate for passive generation generation in the terminal."
+      }
+    },
+    {
+      "key": "OviBonusMultiplier",
+      "kind": "float_multiplier",
+      "default": 1.5,
+      "min": 0,
+      "max": 20,
+      "step": 0.1,
+      "presets": [
+        1,
+        1.5,
+        3
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Bonus del Oviraptor",
+        "description": "Multiplica el bonus que da el Oviraptor a huevos y caca."
+      },
+      "en": {
+        "label": "Oviraptor bonus multiplier",
+        "description": "Multiplies the Oviraptor bonus to eggs and poop."
+      }
+    },
+    {
+      "key": "PickUpableEggsOnly",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Solo huevos que se puedan levantar",
+        "description": "La recolección de huevos respeta las reglas de qué huevos se pueden agarrar."
+      },
+      "en": {
+        "label": "Only pickupable eggs",
+        "description": "Egg collection respects the rules about which eggs can be picked up."
+      }
+    },
+    {
+      "key": "AutomationFuelCounter",
+      "kind": "integer",
+      "default": 1,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "tier": "expert",
+      "es": {
+        "label": "Ciclos antes de pedir combustible",
+        "description": "Cuántos ciclos de automatización pasan antes de consumir combustible."
+      },
+      "en": {
+        "label": "Cycles before requiring fuel",
+        "description": "How many automation cycles run before fuel is consumed."
+      }
+    },
+    {
+      "key": "DistributeFertilizerRange",
+      "kind": "float_multiplier",
+      "default": 30,
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "presets": [
+        0,
+        30,
+        100
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Alcance para repartir fertilizante (fundaciones)",
+        "description": "Radio en el que la terminal reparte fertilizante a las parcelas."
+      },
+      "en": {
+        "label": "Fertiliser distribution range (foundations)",
+        "description": "Radius in which the terminal distributes fertiliser to crop plots."
+      }
+    },
+    {
+      "key": "DistributePelletRange",
+      "kind": "float_multiplier",
+      "default": 30,
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "presets": [
+        0,
+        30,
+        100
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Alcance para repartir pellets (fundaciones)",
+        "description": "Radio en el que la terminal reparte pellets a los Gacha."
+      },
+      "en": {
+        "label": "Pellet distribution range (foundations)",
+        "description": "Radius in which the terminal distributes pellets to Gachas."
+      }
+    },
+    {
+      "key": "SoulTrapDelay",
+      "kind": "float_multiplier",
+      "default": 0.25,
+      "min": 0,
+      "max": 30,
+      "step": 0.25,
+      "presets": [
+        0,
+        0.25,
+        1,
+        5
+      ],
+      "tier": "advanced",
+      "es": {
+        "label": "Tiempo para atrapar (segundos)",
+        "description": "Segundos que hay que mantener apuntando para guardar un dino."
+      },
+      "en": {
+        "label": "Trap time (seconds)",
+        "description": "Seconds you must hold on the dino to trap it."
+      }
+    },
+    {
+      "key": "SoulTrapWeight",
+      "kind": "float_multiplier",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        0,
+        1,
+        10
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Peso del alma vacía",
+        "description": "Peso de inventario de cada alma vacía."
+      },
+      "en": {
+        "label": "Empty soul weight",
+        "description": "Inventory weight of each empty soul trap."
+      }
+    },
+    {
+      "key": "SoulTrapThrowRange",
+      "kind": "float_multiplier",
+      "default": 1,
+      "min": 0,
+      "max": 10,
+      "step": 0.25,
+      "presets": [
+        1,
+        2,
+        5
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Alcance al lanzar el alma",
+        "description": "Multiplica la distancia a la que se puede tirar un alma."
+      },
+      "en": {
+        "label": "Soul throw range",
+        "description": "Multiplies how far a soul can be thrown."
+      }
+    },
+    {
+      "key": "SoulDragWeight",
+      "kind": "float_multiplier",
+      "default": 0,
+      "min": 0,
+      "max": 10,
+      "step": 0.1,
+      "presets": [
+        0,
+        1,
+        2
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Peso del alma según el dino",
+        "description": "Multiplica el peso de arrastre del dino para calcular el peso del alma llena. 0 = peso fijo."
+      },
+      "en": {
+        "label": "Soul weight from dino drag",
+        "description": "Multiplies the dino drag weight to compute the filled soul's weight. 0 = fixed weight."
+      }
+    },
+    {
+      "key": "SoulMinWeight",
+      "kind": "float_multiplier",
+      "default": 0,
+      "min": 0,
+      "max": 500,
+      "step": 1,
+      "presets": [
+        0,
+        1,
+        10
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Peso mínimo del alma llena",
+        "description": "Piso absoluto para el peso de un alma con dino adentro."
+      },
+      "en": {
+        "label": "Minimum filled soul weight",
+        "description": "Absolute floor for the weight of a soul holding a dino."
+      }
+    },
+    {
+      "key": "SoulMaxWeight",
+      "kind": "float_multiplier",
+      "default": 0,
+      "min": 0,
+      "max": 1000,
+      "step": 5,
+      "presets": [
+        0,
+        50,
+        200
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Peso máximo del alma llena",
+        "description": "Techo absoluto para el peso de un alma con dino adentro."
+      },
+      "en": {
+        "label": "Maximum filled soul weight",
+        "description": "Absolute ceiling for the weight of a soul holding a dino."
+      }
+    },
+    {
+      "key": "SoulDecayTime",
+      "kind": "float_multiplier",
+      "default": 0,
+      "min": 0,
+      "max": 365,
+      "step": 1,
+      "presets": [
+        0,
+        7,
+        30
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Caducidad del alma (días)",
+        "description": "Días que dura un alma llena antes de perderse. 0 = no caduca."
+      },
+      "en": {
+        "label": "Soul decay time (days)",
+        "description": "Days a filled soul lasts before it is lost. 0 = never decays."
+      }
+    },
+    {
+      "key": "SoulChargeRate",
+      "kind": "float_multiplier",
+      "default": 0,
+      "min": 0,
+      "max": 600,
+      "step": 5,
+      "presets": [
+        0,
+        30,
+        120
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Carga en la terminal (segundos)",
+        "description": "Segundos de vida que gana el alma por cada ciclo de carga en la terminal."
+      },
+      "en": {
+        "label": "Terminal charge rate (seconds)",
+        "description": "Seconds of life the soul gains per charging cycle in the terminal."
+      }
+    },
+    {
+      "key": "DestroyXP",
+      "kind": "float_multiplier",
+      "default": 1.05,
+      "min": 0,
+      "max": 20,
+      "step": 0.05,
+      "presets": [
+        0,
+        1,
+        1.05,
+        5
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Experiencia al destruir almas",
+        "description": "Multiplica la experiencia que da destruir un alma."
+      },
+      "en": {
+        "label": "Experience from destroying souls",
+        "description": "Multiplies the experience gained from destroying a soul."
+      }
+    },
+    {
+      "key": "RemoveDestroyXP",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Sin experiencia al destruir almas",
+        "description": "Desactiva por completo la experiencia por destruir almas."
+      },
+      "en": {
+        "label": "No experience from destroying souls",
+        "description": "Disables experience from destroying souls entirely."
+      }
+    },
+    {
+      "key": "PreventSoulTrapRidingEquip",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "No equipar almas montado",
+        "description": "Impide equipar un alma mientras estás montando un dino."
+      },
+      "en": {
+        "label": "No equipping souls while riding",
+        "description": "Prevents equipping a soul while riding a dino."
+      }
+    },
+    {
+      "key": "SoulTerminalStackSize",
+      "kind": "integer",
+      "default": 100,
+      "min": 1,
+      "max": 1000,
+      "step": 10,
+      "tier": "expert",
+      "es": {
+        "label": "Stack de terminales",
+        "description": "Cuántas terminales entran en un slot de inventario."
+      },
+      "en": {
+        "label": "Terminal stack size",
+        "description": "How many terminals fit in one inventory slot."
+      }
+    },
+    {
+      "key": "SoulTerminalWeight",
+      "kind": "float_multiplier",
+      "default": 20,
+      "min": 0,
+      "max": 500,
+      "step": 1,
+      "presets": [
+        1,
+        20,
+        50
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Peso de la terminal",
+        "description": "Peso de inventario de cada terminal."
+      },
+      "en": {
+        "label": "Terminal weight",
+        "description": "Inventory weight of each terminal."
+      }
+    },
+    {
+      "key": "TerminalHealth",
+      "kind": "float_multiplier",
+      "default": 50000,
+      "min": 1,
+      "max": 500000,
+      "step": 1000,
+      "presets": [
+        10000,
+        50000,
+        100000
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Vida de la terminal",
+        "description": "Puntos de vida de cada terminal colocada."
+      },
+      "en": {
+        "label": "Terminal health",
+        "description": "Hit points of each placed terminal."
+      }
+    },
+    {
+      "key": "TerminalTribeLimit",
+      "kind": "integer",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "tier": "expert",
+      "es": {
+        "label": "Límite de terminales por tribu",
+        "description": "Máximo de terminales por tribu; al pasarse se destruyen. 0 = sin límite."
+      },
+      "en": {
+        "label": "Terminals per tribe",
+        "description": "Maximum terminals per tribe; extras are destroyed. 0 = unlimited."
+      }
+    },
+    {
+      "key": "TerminalProximityLimit",
+      "kind": "integer",
+      "default": 1,
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "tier": "expert",
+      "es": {
+        "label": "Terminales permitidas por zona",
+        "description": "Cuántas terminales pueden convivir dentro del radio de proximidad."
+      },
+      "en": {
+        "label": "Terminals allowed per area",
+        "description": "How many terminals may coexist within the proximity radius."
+      }
+    },
+    {
+      "key": "TerminalProximityRange",
+      "kind": "float_multiplier",
+      "default": 0,
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "presets": [
+        0,
+        10,
+        50
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Radio de proximidad entre terminales (fundaciones)",
+        "description": "Distancia usada para el límite de terminales por zona. 0 = sin chequeo."
+      },
+      "en": {
+        "label": "Terminal proximity radius (foundations)",
+        "description": "Distance used for the per-area terminal limit. 0 = no check."
+      }
+    },
+    {
+      "key": "DisableTerminalPickup",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "No poder levantar la terminal",
+        "description": "Una vez colocada, la terminal no se puede volver a guardar."
+      },
+      "en": {
+        "label": "Terminal cannot be picked up",
+        "description": "Once placed, the terminal cannot be picked back up."
+      }
+    },
+    {
+      "key": "DisableTerminalPinCodes",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Sin código PIN en la terminal",
+        "description": "Desactiva el bloqueo por PIN de las terminales."
+      },
+      "en": {
+        "label": "No PIN codes on terminals",
+        "description": "Disables PIN locking on terminals."
+      }
+    },
+    {
+      "key": "DisableTerminalTransfer",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Sin transferencia desde la terminal",
+        "description": "Saca la opción de transferir almas desde el inventario de la terminal."
+      },
+      "en": {
+        "label": "No transfer from the terminal",
+        "description": "Removes the soul transfer option from the terminal inventory."
+      }
+    },
+    {
+      "key": "TerminalRaidPurge",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Vaciar la terminal al destruirla",
+        "description": "Si un enemigo la destruye, el contenido se pierde en vez de caer al piso."
+      },
+      "en": {
+        "label": "Purge terminal contents on raid",
+        "description": "If an enemy destroys it, the contents are lost instead of dropping."
+      }
+    },
+    {
+      "key": "GodlyTerminal",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Terminal invulnerable",
+        "description": "La terminal no recibe daño de ninguna fuente."
+      },
+      "en": {
+        "label": "Invulnerable terminal",
+        "description": "The terminal takes no damage from any source."
+      }
+    },
+    {
+      "key": "GhostTerminal",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Terminal sin colisión",
+        "description": "La terminal deja de tener colisión y se puede atravesar."
+      },
+      "en": {
+        "label": "Terminal without collision",
+        "description": "The terminal loses collision and can be walked through."
+      }
+    },
+    {
+      "key": "UnlockGhostTerminal",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Permitir alternar la colisión",
+        "description": "Habilita un toggle para prender y apagar la colisión de la terminal."
+      },
+      "en": {
+        "label": "Allow toggling collision",
+        "description": "Enables a toggle to turn the terminal's collision on and off."
+      }
+    },
+    {
+      "key": "UnlockTributeTerminal",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Permitir el modo tributo",
+        "description": "Habilita alternar la terminal a inventario de tributo."
+      },
+      "en": {
+        "label": "Allow tribute mode",
+        "description": "Enables switching the terminal to tribute inventory mode."
+      }
+    },
+    {
+      "key": "VaultTerminal",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Terminal tipo bóveda",
+        "description": "La terminal cae al piso de abajo si se destruye el suelo, como una bóveda."
+      },
+      "en": {
+        "label": "Vault-style terminal",
+        "description": "The terminal drops to the floor below if its support is destroyed, like a vault."
+      }
+    },
+    {
+      "key": "BasicTerminal",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Ícono de bóveda",
+        "description": "Cambia el ícono de la terminal por la variante de bóveda."
+      },
+      "en": {
+        "label": "Vault icon",
+        "description": "Changes the terminal icon to the vault variant."
+      }
+    },
+    {
+      "key": "PrimitiveTerminal",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Ícono de libro",
+        "description": "Cambia el ícono de la terminal por la variante de libro."
+      },
+      "en": {
+        "label": "Book icon",
+        "description": "Changes the terminal icon to the book variant."
+      }
+    },
+    {
+      "key": "LockTerminalMesh",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Bloquear el aspecto de la terminal",
+        "description": "Impide cambiar el modelo visual de la terminal."
+      },
+      "en": {
+        "label": "Lock the terminal mesh",
+        "description": "Prevents changing the terminal's visual model."
+      }
+    },
+    {
+      "key": "DisableBugZap",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Desactivar el zapper de admin",
+        "description": "Apaga la función de zapper de bichos para administradores."
+      },
+      "en": {
+        "label": "Disable the admin bug zapper",
+        "description": "Turns off the admin bug zapper feature."
+      }
+    },
+    {
+      "key": "CherufeLava",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Sin asistencia de cría para Magmasaur",
+        "description": "Desactiva la ayuda de la mod para criar Magmasaurios."
+      },
+      "en": {
+        "label": "No Magmasaur breeding help",
+        "description": "Disables the mod's Magmasaur breeding assistance."
+      }
+    },
+    {
+      "key": "TerminalExcludeGround",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "No permitir colocar en el suelo",
+        "description": "Impide colocar la terminal en el suelo."
+      },
+      "en": {
+        "label": "Block placement on the ground",
+        "description": "Prevents placing the terminal on the ground."
+      }
+    },
+    {
+      "key": "TerminalExcludeAllPlatforms",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "No permitir colocar en balsas y plataformas de silla",
+        "description": "Impide colocar la terminal en balsas y plataformas de silla."
+      },
+      "en": {
+        "label": "Block placement on rafts and saddle platforms",
+        "description": "Prevents placing the terminal on rafts and saddle platforms."
+      }
+    },
+    {
+      "key": "TerminalExcludeDinoPlatforms",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "No permitir colocar en plataformas de silla",
+        "description": "Impide colocar la terminal en plataformas de silla."
+      },
+      "en": {
+        "label": "Block placement on saddle platforms",
+        "description": "Prevents placing the terminal on saddle platforms."
+      }
+    },
+    {
+      "key": "TerminalExcludeFlyerPlatforms",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "No permitir colocar en plataformas de voladores",
+        "description": "Impide colocar la terminal en plataformas de voladores."
+      },
+      "en": {
+        "label": "Block placement on flyer saddle platforms",
+        "description": "Prevents placing the terminal on flyer saddle platforms."
+      }
+    },
+    {
+      "key": "TerminalExcludeNonFlyerPlatforms",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "No permitir colocar en balsas y plataformas no voladoras",
+        "description": "Impide colocar la terminal en balsas y plataformas no voladoras."
+      },
+      "en": {
+        "label": "Block placement on rafts and non-flyer platforms",
+        "description": "Prevents placing the terminal on rafts and non-flyer platforms."
+      }
+    },
+    {
+      "key": "TerminalExcludeVehiclePlatforms",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "No permitir colocar en balsas",
+        "description": "Impide colocar la terminal en balsas."
+      },
+      "en": {
+        "label": "Block placement on rafts",
+        "description": "Prevents placing the terminal on rafts."
+      }
+    },
+    {
+      "key": "DisableNewbornAutoTrap",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "es": {
+        "label": "Desactivar autotrap de recién nacidos",
+        "description": "Apaga la función que guarda automáticamente a los bebés al nacer."
+      },
+      "en": {
+        "label": "Disable newborn auto-trap",
+        "description": "Turns off automatically storing babies as they are born."
+      }
+    },
+    {
+      "key": "AmmolessNewbornAutoTrap",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Autotrap de recién nacidos sin almas vacías",
+        "description": "El autotrap de bebés no consume almas vacías del inventario."
+      },
+      "en": {
+        "label": "Newborn auto-trap without empty souls",
+        "description": "Newborn auto-trap does not consume empty souls from the inventory."
+      }
+    },
+    {
+      "key": "NATStopWhenFull",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "es": {
+        "label": "Frenar el apareamiento al llenarse",
+        "description": "Desactiva el apareamiento cuando la terminal se llena o se quedan sin almas."
+      },
+      "en": {
+        "label": "Stop mating when full",
+        "description": "Disables mating when the terminal is full or out of empty souls."
+      }
+    },
+    {
+      "key": "NewbornAutoTrapRecovery",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "es": {
+        "label": "Registrar recién nacidos en recuperación",
+        "description": "El autotrap de bebés agrega entradas al archivo de recuperación."
+      },
+      "en": {
+        "label": "Log newborns to recovery",
+        "description": "Newborn auto-trap adds entries to the recovery file."
+      }
+    },
+    {
+      "key": "NewbornAutoTrapTribeLimit",
+      "kind": "integer",
+      "default": 0,
+      "min": 0,
+      "max": 500,
+      "step": 5,
+      "tier": "expert",
+      "es": {
+        "label": "Límite de autotrap de bebés por tribu",
+        "description": "Máximo de recién nacidos autoguardados por tribu. 0 = sin límite."
+      },
+      "en": {
+        "label": "Newborn auto-trap limit per tribe",
+        "description": "Maximum auto-trapped newborns per tribe. 0 = unlimited."
+      }
+    },
+    {
+      "key": "RecoveryFileLimit",
+      "kind": "integer",
+      "default": 1800,
+      "min": 0,
+      "max": 20000,
+      "step": 100,
+      "tier": "expert",
+      "es": {
+        "label": "Límite del archivo de recuperación",
+        "description": "Cuántos dinos únicos guarda el archivo de recuperación."
+      },
+      "en": {
+        "label": "Recovery file limit",
+        "description": "How many unique dinos the recovery file keeps."
+      }
+    },
+    {
+      "key": "ExcludeClass",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "suggestions": "dinos",
+      "es": {
+        "label": "Dinos que no se pueden guardar",
+        "description": "Impide atrapar o liberar estas clases de dino. Matchea si la ruta termina en lo que escribas, o exactamente si le agregás `_C` al final: escribir `Rex_Character_BP` bloquea también al Rex Tek, y `Rex_Character_BP_C` solo al Rex normal."
+      },
+      "en": {
+        "label": "Dinos that cannot be stored",
+        "description": "Prevents trapping or releasing these dino classes. Matches if the path ends with what you write, or exactly if you append `_C`: writing `Rex_Character_BP` also blocks the Tek Rex, while `Rex_Character_BP_C` blocks only the regular one."
+      }
+    },
+    {
+      "key": "IncludeClass",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "suggestions": "dinos",
+      "es": {
+        "label": "Dinos permitidos aunque estén excluidos",
+        "description": "Fuerza el permiso de atrapar y liberar estas clases, por encima de cualquier exclusión. Misma regla de matcheo que la lista de exclusión."
+      },
+      "en": {
+        "label": "Dinos allowed despite exclusions",
+        "description": "Force-allows trapping and releasing these classes, overriding any exclusion. Same matching rule as the exclude list."
+      }
+    },
+    {
+      "key": "ExcludeSource",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Mods cuyos dinos no se pueden guardar",
+        "description": "Impide atrapar o liberar dinos según de dónde vengan: matchea la carpeta que va después de `/Game/`, o de `/Mods/` si existe. Es la forma de bloquear todos los dinos de una mod entera de una sola vez."
+      },
+      "en": {
+        "label": "Mods whose dinos cannot be stored",
+        "description": "Prevents trapping or releasing dinos by where they come from: matches the folder after `/Game/`, or after `/Mods/` when present. The way to block a whole mod's dinos at once."
+      }
+    },
+    {
+      "key": "IncludeSource",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Mods permitidas aunque estén excluidas",
+        "description": "Fuerza el permiso para los dinos de estas mods, por encima de cualquier exclusión. Matchea la carpeta igual que la lista de exclusión."
+      },
+      "en": {
+        "label": "Mods allowed despite exclusions",
+        "description": "Force-allows dinos from these mods, overriding any exclusion. Matches the folder the same way as the exclude list."
+      }
+    },
+    {
+      "key": "ExcludeTag",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "suggestions": "dino_name_tags",
+      "es": {
+        "label": "Etiquetas de dino bloqueadas",
+        "description": "Impide atrapar o liberar dinos cuyo nombre contenga estas etiquetas. Busca por texto dentro del título del alma, así que sirve para bloquear por nombre y no por classname."
+      },
+      "en": {
+        "label": "Blocked dino tags",
+        "description": "Prevents trapping or releasing dinos whose name contains these tags. Searched as text inside the soul title, so it blocks by name rather than by classname."
+      }
+    },
+    {
+      "key": "IncludeTag",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "suggestions": "dino_name_tags",
+      "es": {
+        "label": "Etiquetas de dino permitidas",
+        "description": "Fuerza el permiso para los dinos cuyo nombre contenga estas etiquetas, por encima de cualquier exclusión."
+      },
+      "en": {
+        "label": "Allowed dino tags",
+        "description": "Force-allows dinos whose name contains these tags, overriding any exclusion."
+      }
+    },
+    {
+      "key": "ConvertClass",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "suggestions": "dinos",
+      "es": {
+        "label": "Conversión de dinos al liberarlos",
+        "description": "Transforma un dino en otro al sacarlo del alma. Cada entrada es un par `rutaOrigen:rutaDestino` y las entradas se separan con comas. Sirve para reemplazar dinos de una mod que sacaste del servidor por su equivalente vanilla, en vez de perderlos."
+      },
+      "en": {
+        "label": "Convert dinos on release",
+        "description": "Turns one dino into another when it leaves the soul. Each entry is a `sourcePath:targetPath` pair and entries are comma-separated. Useful to replace dinos from a mod you removed with a vanilla equivalent instead of losing them."
+      }
+    },
+    {
+      "key": "EquipmentBlacklist",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Equipo que se cae al guardar",
+        "description": "Al atrapar el dino, si lleva alguno de estos equipos se le caen en vez de guardarse con él. Matchea la ruta completa, o la clase exacta si le agregás `_C`."
+      },
+      "en": {
+        "label": "Equipment dropped when storing",
+        "description": "On trapping, if the dino carries any of this equipment it is dropped instead of stored with it. Matches the full path, or the exact class if you append `_C`."
+      }
+    },
+    {
+      "key": "ItemsPreventTrapping",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Items que impiden guardar el dino",
+        "description": "Si el dino lleva alguno de estos items en el inventario, no se lo puede atrapar. Es la forma de evitar que alguien se lleve una carga entera dentro de un alma."
+      },
+      "en": {
+        "label": "Items that prevent storing",
+        "description": "If the dino carries any of these items in its inventory it cannot be trapped. The way to stop someone hauling a full load inside a soul."
+      }
+    },
+    {
+      "key": "BuffsPreventTrapping",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Buffs que impiden guardar el dino",
+        "description": "Si el dino tiene alguno de estos efectos activos, no se lo puede atrapar. En PvP es lo que evita que se escapen del combate metiéndose en un alma."
+      },
+      "en": {
+        "label": "Buffs that prevent storing",
+        "description": "If the dino has any of these effects active it cannot be trapped. In PvP this is what stops dinos escaping a fight into a soul."
+      }
+    },
+    {
+      "key": "ExcludeBuffClass",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Buffs que no se restauran al liberar",
+        "description": "Impide que estas clases de buff se le vuelvan a aplicar al dino cuando sale del alma."
+      },
+      "en": {
+        "label": "Buffs not restored on release",
+        "description": "Prevents these buff classes from being re-applied to the dino when it leaves the soul."
+      }
+    },
+    {
+      "key": "IncludeBuffClass",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Buffs que sí se restauran al liberar",
+        "description": "Fuerza que estas clases de buff se le apliquen al dino al salir del alma, por encima de cualquier exclusión."
+      },
+      "en": {
+        "label": "Buffs restored on release",
+        "description": "Forces these buff classes onto the dino when it leaves the soul, overriding any exclusion."
+      }
+    },
+    {
+      "key": "ExcludeBuffSource",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Mods cuyos buffs no se restauran",
+        "description": "Como el anterior pero por origen: matchea la carpeta de la mod de la que viene el buff."
+      },
+      "en": {
+        "label": "Mods whose buffs are not restored",
+        "description": "Like the previous one but by source: matches the folder of the mod the buff comes from."
+      }
+    },
+    {
+      "key": "IncludeBuffSource",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Mods cuyos buffs sí se restauran",
+        "description": "Fuerza la restauración de los buffs que vengan de estas mods."
+      },
+      "en": {
+        "label": "Mods whose buffs are restored",
+        "description": "Forces restoration of buffs coming from these mods."
+      }
+    },
+    {
+      "key": "AAExcludeClass",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "suggestions": "dinos",
+      "es": {
+        "label": "Dinos exentos del chequeo Anti-Alpha",
+        "description": "Saca a estas clases del control Anti-Alpha. El autor no lo recomienda: los buffs de alpha potencian a los dinos salvajes de alrededor incluso estando domados."
+      },
+      "en": {
+        "label": "Dinos exempt from the Anti-Alpha check",
+        "description": "Removes these classes from the Anti-Alpha check. The author advises against it: alpha buffs boost nearby wild dinos even when tamed."
+      }
+    },
+    {
+      "key": "AAExcludeSource",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Mods exentas del chequeo Anti-Alpha",
+        "description": "Igual que el anterior pero por origen. Con la misma advertencia del autor."
+      },
+      "en": {
+        "label": "Mods exempt from the Anti-Alpha check",
+        "description": "Same as above but by source, with the same author warning."
+      }
+    },
+    {
+      "key": "TerminalOnlyAllowItems",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Únicos items permitidos en la terminal",
+        "description": "Si cargás algo acá, la terminal SOLO acepta esos items. Matchea la ruta completa. El ejemplo del autor deja la terminal aceptando únicamente almas y trampas de alma."
+      },
+      "en": {
+        "label": "Only items allowed in the terminal",
+        "description": "If you fill this in, the terminal accepts ONLY those items. Matches the full path. The author's example leaves the terminal accepting only souls and soul traps."
+      }
+    },
+    {
+      "key": "TerminalExcludeItems",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Items prohibidos en la terminal",
+        "description": "Items que no se pueden meter en la terminal. Matchea la ruta completa."
+      },
+      "en": {
+        "label": "Items banned from the terminal",
+        "description": "Items that cannot be put in the terminal. Matches the full path."
+      }
+    },
+    {
+      "key": "TerminalExcludePlatforms",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Plataformas donde no se puede colocar",
+        "description": "Impide colocar la terminal sobre estas plataformas. Matchea si la ruta termina en lo que escribas."
+      },
+      "en": {
+        "label": "Platforms it cannot be placed on",
+        "description": "Prevents placing the terminal on these platforms. Matches if the path ends with what you write."
+      }
+    },
+    {
+      "key": "TerminalIncludePlatforms",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Plataformas donde sí se puede colocar",
+        "description": "Permite colocar la terminal sobre estas plataformas, por encima de cualquier exclusión."
+      },
+      "en": {
+        "label": "Platforms it can be placed on",
+        "description": "Allows placing the terminal on these platforms, overriding any exclusion."
+      }
+    },
+    {
+      "key": "AutomationItemBlacklist",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Items que la automatización no genera",
+        "description": "Items que la automatización de la terminal tiene prohibido producir. Van con la ruta de blueprint completa."
+      },
+      "en": {
+        "label": "Items automation cannot generate",
+        "description": "Items the terminal's automation is forbidden to produce. Written as full blueprint paths."
+      }
+    },
+    {
+      "key": "TerminalAutomationFuel",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Combustible de la automatización",
+        "description": "Le pone un costo en items a toda la automatización. Cada entrada es `ruta:cantidad` y se separan con comas, por ejemplo `RutaDelItem:6,OtraRuta:10`. Vacío significa que la automatización es gratis."
+      },
+      "en": {
+        "label": "Automation fuel cost",
+        "description": "Puts an item cost on all automation. Each entry is `path:quantity`, comma-separated, e.g. `ItemPath:6,OtherPath:10`. Empty means automation is free."
+      }
+    }
+  ],
+  "_listas": "Formato confirmado en la guia oficial del autor (https://steamcommunity.com/sharedfiles/filedetails/?id=1822824970, seccion Array Building): 'Use commas for additional entries', una sola clave con los valores separados por coma. Mismo formato que Structures Plus, no clave repetida."
+}

@@ -1,0 +1,176 @@
+[
+  {
+    "id": "the_island",
+    "internalName": "TheIsland",
+    "i18nKey": "maps.the_island",
+    "games": ["ase", "asa"],
+    "isOfficial": true,
+    "isFree": true,
+    "releaseYear": 2015,
+    "features": {
+      "underwater": true,
+      "caveBuilding": false
+    }
+  },
+  {
+    "id": "the_center",
+    "internalName": "TheCenter",
+    "i18nKey": "maps.the_center",
+    "games": ["ase", "asa"],
+    "isOfficial": true,
+    "isFree": true,
+    "releaseYear": 2016,
+    "features": {
+      "underwater": true,
+      "caveBuilding": true
+    }
+  },
+  {
+    "id": "scorched_earth",
+    "internalName": "ScorchedEarth_P",
+    "i18nKey": "maps.scorched_earth",
+    "games": ["ase", "asa"],
+    "isOfficial": true,
+    "isFree": false,
+    "releaseYear": 2016,
+    "features": {
+      "sandstorms": true,
+      "underwater": false,
+      "caveBuilding": false
+    }
+  },
+  {
+    "id": "ragnarok",
+    "internalName": "Ragnarok",
+    "i18nKey": "maps.ragnarok",
+    "games": ["ase", "asa"],
+    "isOfficial": true,
+    "isFree": true,
+    "releaseYear": 2017,
+    "features": {
+      "underwater": true,
+      "caveBuilding": true
+    }
+  },
+  {
+    "id": "aberration",
+    "internalName": "Aberration_P",
+    "i18nKey": "maps.aberration",
+    "games": ["ase", "asa"],
+    "isOfficial": true,
+    "isFree": false,
+    "releaseYear": 2017,
+    "features": {
+      "radiation": true,
+      "underwater": true,
+      "caveBuilding": true
+    }
+  },
+  {
+    "id": "extinction",
+    "internalName": "Extinction",
+    "i18nKey": "maps.extinction",
+    "games": ["ase", "asa"],
+    "isOfficial": true,
+    "isFree": false,
+    "releaseYear": 2018,
+    "features": {
+      "titans": true,
+      "underwater": false,
+      "caveBuilding": true
+    }
+  },
+  {
+    "id": "valguero",
+    "internalName": "Valguero_P",
+    "i18nKey": "maps.valguero",
+    "games": ["ase"],
+    "isOfficial": true,
+    "isFree": true,
+    "releaseYear": 2019,
+    "features": {
+      "underwater": true,
+      "caveBuilding": true
+    }
+  },
+  {
+    "id": "genesis_part1",
+    "internalName": "Genesis",
+    "i18nKey": "maps.genesis_part1",
+    "games": ["ase"],
+    "isOfficial": true,
+    "isFree": false,
+    "releaseYear": 2020,
+    "features": {
+      "missions": true,
+      "hexagons": true,
+      "underwater": true
+    }
+  },
+  {
+    "id": "crystal_isles",
+    "internalName": "CrystalIsles",
+    "i18nKey": "maps.crystal_isles",
+    "games": ["ase"],
+    "isOfficial": true,
+    "isFree": true,
+    "releaseYear": 2020,
+    "features": {
+      "underwater": true,
+      "caveBuilding": true
+    }
+  },
+  {
+    "id": "genesis_part2",
+    "internalName": "Gen2",
+    "i18nKey": "maps.genesis_part2",
+    "games": ["ase"],
+    "isOfficial": true,
+    "isFree": false,
+    "releaseYear": 2021,
+    "features": {
+      "missions": true,
+      "hexagons": true,
+      "underwater": true
+    }
+  },
+  {
+    "id": "lost_island",
+    "internalName": "LostIsland",
+    "i18nKey": "maps.lost_island",
+    "games": ["ase"],
+    "isOfficial": true,
+    "isFree": true,
+    "releaseYear": 2021,
+    "features": {
+      "underwater": true,
+      "caveBuilding": true
+    }
+  },
+  {
+    "id": "fjordur",
+    "internalName": "Fjordur",
+    "i18nKey": "maps.fjordur",
+    "games": ["ase"],
+    "isOfficial": true,
+    "isFree": true,
+    "releaseYear": 2022,
+    "features": {
+      "underwater": true,
+      "caveBuilding": true
+    }
+  },
+  {
+    "id": "astraeos",
+    "internalName": "Astraeos",
+    "i18nKey": "maps.astraeos",
+    "games": ["asa"],
+    "isOfficial": true,
+    "isFree": true,
+    "releaseYear": 2025,
+    "features": {
+      "underwater": true,
+      "caveBuilding": true
+    }
+  }
+]

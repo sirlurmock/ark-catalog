@@ -1,0 +1,327 @@
+[
+  {
+    "id": "gmsummon",
+    "category": "dinos",
+    "i18nKey": "commands.dinos.gmsummon.label",
+    "descriptionI18nKey": "commands.dinos.gmsummon.description",
+    "template": "GMSummon \"{className}\" {level}",
+    "params": [
+      {
+        "name": "className",
+        "type": "classname-dinos",
+        "default": "Rex_Character_BP_C",
+        "i18nKey": "commands.params.className"
+      },
+      {
+        "name": "level",
+        "type": "integer",
+        "default": 150,
+        "min": 1,
+        "max": 1000,
+        "i18nKey": "commands.params.level"
+      }
+    ]
+  },
+  {
+    "id": "force_tame",
+    "category": "dinos",
+    "i18nKey": "commands.dinos.force_tame.label",
+    "descriptionI18nKey": "commands.dinos.force_tame.description",
+    "template": "ForceTame",
+    "params": []
+  },
+  {
+    "id": "set_baby_age",
+    "category": "dinos",
+    "i18nKey": "commands.dinos.set_baby_age.label",
+    "descriptionI18nKey": "commands.dinos.set_baby_age.description",
+    "template": "SetBabyAge {age}",
+    "params": [
+      {
+        "name": "age",
+        "type": "float",
+        "default": 1.0,
+        "min": 0.0,
+        "max": 1.0,
+        "step": 0.1,
+        "i18nKey": "commands.params.baby_age"
+      }
+    ]
+  },
+  {
+    "id": "destroy_wild_dinos",
+    "category": "dinos",
+    "i18nKey": "commands.dinos.destroy_wild_dinos.label",
+    "descriptionI18nKey": "commands.dinos.destroy_wild_dinos.description",
+    "template": "DestroyWildDinos",
+    "params": []
+  },
+  {
+    "id": "destroy_all",
+    "category": "dinos",
+    "i18nKey": "commands.dinos.destroy_all.label",
+    "descriptionI18nKey": "commands.dinos.destroy_all.description",
+    "template": "DestroyAll {className}",
+    "params": [
+      {
+        "name": "className",
+        "type": "classname-dinos",
+        "default": "Rex_Character_BP_C",
+        "i18nKey": "commands.params.className"
+      }
+    ]
+  },
+  {
+    "id": "enemy_invisible",
+    "category": "dinos",
+    "i18nKey": "commands.dinos.enemy_invisible.label",
+    "descriptionI18nKey": "commands.dinos.enemy_invisible.description",
+    "template": "EnemyInvisible {enabled}",
+    "params": [
+      {
+        "name": "enabled",
+        "type": "boolean",
+        "default": true,
+        "i18nKey": "commands.params.enabled"
+      }
+    ]
+  },
+  {
+    "id": "summon",
+    "category": "dinos",
+    "i18nKey": "commands.dinos.summon.label",
+    "descriptionI18nKey": "commands.dinos.summon.description",
+    "template": "Summon {className}",
+    "params": [
+      {
+        "name": "className",
+        "type": "classname-dinos",
+        "default": "Rex_Character_BP_C",
+        "i18nKey": "commands.params.className"
+      }
+    ]
+  },
+  {
+    "id": "summon_tamed",
+    "category": "dinos",
+    "i18nKey": "commands.dinos.summon_tamed.label",
+    "descriptionI18nKey": "commands.dinos.summon_tamed.description",
+    "template": "SummonTamed {className}",
+    "params": [
+      {
+        "name": "className",
+        "type": "classname-dinos",
+        "default": "Rex_Character_BP_C",
+        "i18nKey": "commands.params.className"
+      }
+    ]
+  },
+  {
+    "id": "do_tame",
+    "category": "dinos",
+    "i18nKey": "commands.dinos.do_tame.label",
+    "descriptionI18nKey": "commands.dinos.do_tame.description",
+    "template": "DoTame",
+    "params": []
+  },
+  {
+    "id": "force_tame_aoe",
+    "category": "dinos",
+    "i18nKey": "commands.dinos.force_tame_aoe.label",
+    "descriptionI18nKey": "commands.dinos.force_tame_aoe.description",
+    "template": "ForceTameAOE {radius}",
+    "params": [
+      {
+        "name": "radius",
+        "type": "integer",
+        "default": 1000,
+        "min": 100,
+        "max": 100000,
+        "step": 100,
+        "i18nKey": "commands.params.radius"
+      }
+    ]
+  },
+  {
+    "id": "set_baby_age_aoe",
+    "category": "dinos",
+    "i18nKey": "commands.dinos.set_baby_age_aoe.label",
+    "descriptionI18nKey": "commands.dinos.set_baby_age_aoe.description",
+    "template": "SetBabyAgeAOE {age} {radius}",
+    "params": [
+      {
+        "name": "age",
+        "type": "float",
+        "default": 1.0,
+        "min": 0.0,
+        "max": 1.0,
+        "step": 0.1,
+        "i18nKey": "commands.params.baby_age"
+      },
+      {
+        "name": "radius",
+        "type": "integer",
+        "default": 1000,
+        "min": 100,
+        "max": 50000,
+        "step": 100,
+        "i18nKey": "commands.params.radius"
+      }
+    ]
+  },
+  {
+    "id": "set_imprint_quality",
+    "category": "dinos",
+    "i18nKey": "commands.dinos.set_imprint_quality.label",
+    "descriptionI18nKey": "commands.dinos.set_imprint_quality.description",
+    "template": "SetImprintQuality {quality}",
+    "params": [
+      {
+        "name": "quality",
+        "type": "float",
+        "default": 1.0,
+        "min": 0.0,
+        "max": 1.0,
+        "step": 0.05,
+        "i18nKey": "commands.params.imprint_quality"
+      }
+    ]
+  },
+  {
+    "id": "add_mutations",
+    "category": "dinos",
+    "i18nKey": "commands.dinos.add_mutations.label",
+    "descriptionI18nKey": "commands.dinos.add_mutations.description",
+    "template": "AddMutations {statType} {count}",
+    "params": [
+      {
+        "name": "statType",
+        "type": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 7,
+        "step": 1,
+        "i18nKey": "commands.params.stat_type"
+      },
+      {
+        "name": "count",
+        "type": "integer",
+        "default": 1,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "i18nKey": "commands.params.count"
+      }
+    ],
+    "games": ["asa"]
+  },
+  {
+    "id": "set_target_dino_color",
+    "category": "dinos",
+    "i18nKey": "commands.dinos.set_target_dino_color.label",
+    "descriptionI18nKey": "commands.dinos.set_target_dino_color.description",
+    "template": "SetTargetDinoColor {region} {colorId}",
+    "params": [
+      {
+        "name": "region",
+        "type": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 5,
+        "step": 1,
+        "i18nKey": "commands.params.color_region"
+      },
+      {
+        "name": "colorId",
+        "type": "integer",
+        "default": 1,
+        "min": 0,
+        "max": 200,
+        "step": 1,
+        "i18nKey": "commands.params.color_id"
+      }
+    ]
+  },
+  {
+    "id": "change_size",
+    "category": "dinos",
+    "i18nKey": "commands.dinos.change_size.label",
+    "descriptionI18nKey": "commands.dinos.change_size.description",
+    "template": "ChangeSize {multiplier}",
+    "params": [
+      {
+        "name": "multiplier",
+        "type": "float",
+        "default": 1.0,
+        "min": 0.1,
+        "max": 10,
+        "step": 0.1,
+        "i18nKey": "commands.params.size_multiplier"
+      }
+    ]
+  },
+  {
+    "id": "clear_cryo_sickness",
+    "category": "dinos",
+    "i18nKey": "commands.dinos.clear_cryo_sickness.label",
+    "descriptionI18nKey": "commands.dinos.clear_cryo_sickness.description",
+    "template": "ClearCryoSickness",
+    "params": []
+  },
+  {
+    "id": "cryo_my_target",
+    "category": "dinos",
+    "i18nKey": "commands.dinos.cryo_my_target.label",
+    "descriptionI18nKey": "commands.dinos.cryo_my_target.description",
+    "template": "CryoMyTarget",
+    "params": []
+  },
+  {
+    "id": "force_poop",
+    "category": "dinos",
+    "i18nKey": "commands.dinos.force_poop.label",
+    "descriptionI18nKey": "commands.dinos.force_poop.description",
+    "template": "ForcePoop",
+    "params": []
+  },
+  {
+    "id": "give_colors",
+    "category": "dinos",
+    "i18nKey": "commands.dinos.give_colors.label",
+    "descriptionI18nKey": "commands.dinos.give_colors.description",
+    "template": "GiveColors",
+    "params": []
+  },
+  {
+    "id": "hatch_egg",
+    "category": "dinos",
+    "i18nKey": "commands.dinos.hatch_egg.label",
+    "descriptionI18nKey": "commands.dinos.hatch_egg.description",
+    "template": "HatchEgg",
+    "params": []
+  },
+  {
+    "id": "level_up_target",
+    "category": "dinos",
+    "i18nKey": "commands.dinos.level_up_target.label",
+    "descriptionI18nKey": "commands.dinos.level_up_target.description",
+    "template": "LevelUpTarget {stat} {levels}",
+    "params": [
+      {
+        "name": "stat",
+        "type": "string",
+        "default": "Health",
+        "i18nKey": "commands.params.stat_name"
+      },
+      {
+        "name": "levels",
+        "type": "integer",
+        "default": 1,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "i18nKey": "commands.params.levels"
+      }
+    ]
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "_source": "Borrador de scrape-workshop-configs.mjs, revisado a mano contra la descripción del Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=510590313",
+  "_scope": "Las 3 claves de la mod, que son las componentes R/G/B del color por defecto del vidrio. No expone nada de gameplay: las estructuras tienen la durabilidad del metal y eso no se configura.",
+  "_defaults": "Único caso ambiguo de la tanda: el autor titula el bloque 'How to Change Default Glass Color' y dice 'write the color you like', así que los valores mostrados podrían ser un ejemplo y no el color de fábrica. Se toman como default igual porque el riesgo es nulo: si estuvieran mal, lo único que pasa es que el exporter escribe una línea de color que no hacía falta. No hay efecto de gameplay.",
+  "_nota": "El propio autor avisa que esto 'only works if the mod is in the top of the load order'. Está dicho en la descripción de cada ajuste.",
+  "modId": "GlassMetal",
+  "name": "GlassMetal",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=510590313",
+  "prefix": "glass_metal",
+  "settings": [
+    {
+      "key": "GlassMetalR",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 0.003502,
+      "min": 0,
+      "max": 1,
+      "step": 0.01,
+      "es": {
+        "label": "Color del vidrio — componente rojo",
+        "description": "Componente rojo (0 a 1) del color por defecto del vidrio de las estructuras. Solo tiene efecto si la mod está primera en el orden de carga del servidor."
+      },
+      "en": {
+        "label": "Glass colour — red channel",
+        "description": "Red channel (0 to 1) of the structures' default glass colour. Only takes effect if the mod is first in the server's load order."
+      }
+    },
+    {
+      "key": "GlassMetalG",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 0.14,
+      "min": 0,
+      "max": 1,
+      "step": 0.01,
+      "es": {
+        "label": "Color del vidrio — componente verde",
+        "description": "Componente verde (0 a 1) del color por defecto del vidrio. Solo tiene efecto si la mod está primera en el orden de carga del servidor."
+      },
+      "en": {
+        "label": "Glass colour — green channel",
+        "description": "Green channel (0 to 1) of the default glass colour. Only takes effect if the mod is first in the server's load order."
+      }
+    },
+    {
+      "key": "GlassMetalB",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 0.09214,
+      "min": 0,
+      "max": 1,
+      "step": 0.01,
+      "es": {
+        "label": "Color del vidrio — componente azul",
+        "description": "Componente azul (0 a 1) del color por defecto del vidrio. Solo tiene efecto si la mod está primera en el orden de carga del servidor."
+      },
+      "en": {
+        "label": "Glass colour — blue channel",
+        "description": "Blue channel (0 to 1) of the default glass colour. Only takes effect if the mod is first in the server's load order."
+      }
+    }
+  ]
+}

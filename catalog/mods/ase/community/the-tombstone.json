@@ -1,0 +1,96 @@
+{
+  "modId": "TheTombstone",
+  "name": "The Tombstone",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1139981401",
+  "settings": [
+    {
+      "id": "tombstone_keep_inventory_on_death",
+      "key": "KeepInventoryOnDeath",
+      "category": "mod_tombstone",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "TheTombstone",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.tombstone.keep_inventory_on_death"
+    },
+    {
+      "id": "tombstone_one_tombstone_per_player",
+      "key": "OneTombstonePerPlayer",
+      "category": "mod_tombstone",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "TheTombstone",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.tombstone.one_tombstone_per_player"
+    },
+    {
+      "id": "tombstone_destroy_gravestone_when_empty",
+      "key": "DestroyGravestoneWhenEmpty",
+      "category": "mod_tombstone",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "TheTombstone",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.tombstone.destroy_gravestone_when_empty"
+    },
+    {
+      "id": "tombstone_auto_destroy_after_seconds",
+      "key": "AutoDestroyAfterSeconds",
+      "category": "mod_tombstone",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "TheTombstone",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 2592000,
+        "step": 3600
+      },
+      "i18nKey": "mods.tombstone.auto_destroy_after_seconds"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "modId": "DinoTracker",
+  "name": "Dino Tracker",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=924933745",
+  "settings": [
+    {
+      "id": "dino_tracker_disable_wild_tracking",
+      "key": "DisableWildTracking",
+      "category": "mod_dino_tracker",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "DinoTracker",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_tracker.disable_wild_tracking"
+    },
+    {
+      "id": "dino_tracker_disable_tribemember_tracking",
+      "key": "DisableTribememberTracking",
+      "category": "mod_dino_tracker",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "DinoTracker",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_tracker.disable_tribemember_tracking"
+    },
+    {
+      "id": "dino_tracker_disable_ally_tracking",
+      "key": "DisableAllyTracking",
+      "category": "mod_dino_tracker",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "DinoTracker",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_tracker.disable_ally_tracking"
+    },
+    {
+      "id": "dino_tracker_disable_death_tracking",
+      "key": "DisableDeathTracking",
+      "category": "mod_dino_tracker",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoTracker",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_tracker.disable_death_tracking"
+    },
+    {
+      "id": "dino_tracker_disable_wild_find_button",
+      "key": "DisableWildFindButton",
+      "category": "mod_dino_tracker",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoTracker",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_tracker.disable_wild_find_button"
+    },
+    {
+      "id": "dino_tracker_disable_wild_coordinates",
+      "key": "DisableWildCoordinates",
+      "category": "mod_dino_tracker",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DinoTracker",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.dino_tracker.disable_wild_coordinates"
+    }
+  ]
+}

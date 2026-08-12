@@ -1,0 +1,11 @@
+{
+  "id": "focal-no-grind",
+  "i18nKey": "presets.focal_no_grind",
+  "kind": "focal",
+  "order": 210,
+  "settingValues": {
+    "player_water_drain_multiplier": 0.2,
+    "player_food_drain_multiplier": 0.2,
+    "player_stamina_drain_multiplier": 0.3
+  }
+}

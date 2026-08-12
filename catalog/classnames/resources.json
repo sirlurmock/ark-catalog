@@ -1,0 +1,334 @@
+[
+  {
+    "value": "PrimalItemResource_SubstrateAbsorbent_C",
+    "label": "Absorbent Substrate"
+  },
+  {
+    "value": "PrimalItemResource_SnailPaste_C",
+    "label": "Achatina Paste"
+  },
+  {
+    "value": "PrimalItemResource_Ambergris_C",
+    "label": "Ambergris"
+  },
+  {
+    "value": "PrimalItemResource_AmmoniteBlood_C",
+    "label": "Ammonite Bile"
+  },
+  {
+    "value": "PrimalItemResource_AnglerGel_C",
+    "label": "AnglerGel"
+  },
+  {
+    "value": "PrimalItemResource_BlackPearl_C",
+    "label": "Black Pearl"
+  },
+  {
+    "value": "PrimalItemConsumable_BloodPack_C",
+    "label": "Blood Pack"
+  },
+  {
+    "value": "PrimalItemResource_BlueSap_C",
+    "label": "Blue Crystalized Sap"
+  },
+  {
+    "value": "PrimalItemResource_Gem_BioLum_C",
+    "label": "Blue Gem"
+  },
+  {
+    "value": "PrimalItemResource_ChitinPaste_C",
+    "label": "Cementing Paste"
+  },
+  {
+    "value": "PrimalItemResource_Charcoal_C",
+    "label": "Charcoal"
+  },
+  {
+    "value": "PrimalItem_ChargeBattery_C",
+    "label": "Charge Battery"
+  },
+  {
+    "value": "PrimalItemResource_Chitin_C",
+    "label": "Chitin"
+  },
+  {
+    "value": "PrimalItemResource_ChitinOrKeratin_C",
+    "label": "Chitin or Keratin"
+  },
+  {
+    "value": "PrimalItemResource_Clay_C",
+    "label": "Clay"
+  },
+  {
+    "value": "PrimalItemResource_CondensedGas_C",
+    "label": "Condensed Gas"
+  },
+  {
+    "value": "PrimalItemResource_Gas_C",
+    "label": "Congealed Gas Ball"
+  },
+  {
+    "value": "PrimalItemResource_CorruptedPolymer_C",
+    "label": "Corrupted Nodule"
+  },
+  {
+    "value": "PrimalItemResource_CorruptedWood_C",
+    "label": "Corrupted Wood"
+  },
+  {
+    "value": "PrimalItemResource_ElementDustFromShards_C",
+    "label": "Crafted Element Dust"
+  },
+  {
+    "value": "PrimalItemResource_Crystal_C",
+    "label": "Crystal"
+  },
+  {
+    "value": "PrimalItemResource_KeratinSpike_C",
+    "label": "Deathworm Horn"
+  },
+  {
+    "value": "PrimalItem_TaxidermyDermis_C",
+    "label": "Dermis"
+  },
+  {
+    "value": "PrimalItemResource_ARKBone_C",
+    "label": "Dinosaur Bone"
+  },
+  {
+    "value": "PrimalItemResource_Electronics_C",
+    "label": "Electronics"
+  },
+  {
+    "value": "PrimalItemResource_Element_C",
+    "label": "Element"
+  },
+  {
+    "value": "PrimalItemResource_ElementDust_C",
+    "label": "Element Dust"
+  },
+  {
+    "value": "PrimalItemResource_ElementOre_C",
+    "label": "Element Ore"
+  },
+  {
+    "value": "PrimalItemResource_ElementShard_C",
+    "label": "Element Shard"
+  },
+  {
+    "value": "PrimalItemConsumable_Fertilizer_Compost_C",
+    "label": "Fertilizer"
+  },
+  {
+    "value": "PrimalItemResource_Fibers_C",
+    "label": "Fiber"
+  },
+  {
+    "value": "PrimalItemResource_Flint_C",
+    "label": "Flint"
+  },
+  {
+    "value": "PrimalItemResource_FracturedGem_C",
+    "label": "Fragmented Green Gem"
+  },
+  {
+    "value": "PrimalItemResource_FungalWood_C",
+    "label": "Fungal Wood"
+  },
+  {
+    "value": "PrimalItemResource_Gasoline_C",
+    "label": "Gasoline"
+  },
+  {
+    "value": "PrimalItemResource_GoldenNugget_C",
+    "label": "Golden Nugget"
+  },
+  {
+    "value": "PrimalItemResource_Gem_Fertile_C",
+    "label": "Green Gem"
+  },
+  {
+    "value": "PrimalItemResource_Gunpowder_C",
+    "label": "Gunpowder"
+  },
+  {
+    "value": "PrimalItemResource_Hide_C",
+    "label": "Hide"
+  },
+  {
+    "value": "PrimalItemResource_HighQualityPollen_C",
+    "label": "High Quality Pollen"
+  },
+  {
+    "value": "PrimalItemResource_Hair_C",
+    "label": "Human Hair"
+  },
+  {
+    "value": "PrimalItemResource_Keratin_C",
+    "label": "Keratin"
+  },
+  {
+    "value": "PrimalItemResource_LeechBlood_C",
+    "label": "Leech Blood"
+  },
+  {
+    "value": "PrimalItemResourceGeneric_Curing_C",
+    "label": "Leech Blood or Horns"
+  },
+  {
+    "value": "PrimalItemResource_Metal_C",
+    "label": "Metal"
+  },
+  {
+    "value": "PrimalItemResource_MetalIngot_C",
+    "label": "Metal Ingot"
+  },
+  {
+    "value": "PrimalItemConsumable_Mutagel_C",
+    "label": "Mutagel"
+  },
+  {
+    "value": "PrimalItemConsumable_Mutagen_C",
+    "label": "Mutagen"
+  },
+  {
+    "value": "PrimalItemConsumable_Narcotic_C",
+    "label": "Narcotic"
+  },
+  {
+    "value": "PrimalItemResource_Obsidian_C",
+    "label": "Obsidian"
+  },
+  {
+    "value": "PrimalItemResource_Oil_C",
+    "label": "Oil"
+  },
+  {
+    "value": "PrimalItemResource_SquidOil_C",
+    "label": "Oil (Tusoteuthis)"
+  },
+  {
+    "value": "PrimalItemResource_Polymer_Organic_C",
+    "label": "Organic Polymer"
+  },
+  {
+    "value": "PrimalItemResource_Pelt_C",
+    "label": "Pelt"
+  },
+  {
+    "value": "PrimalItemResource_PeltOrHair_C",
+    "label": "Pelt, Hair, or Wool"
+  },
+  {
+    "value": "PrimalItemResource_Polymer_C",
+    "label": "Polymer"
+  },
+  {
+    "value": "PrimalItemResource_PreservingSalt_C",
+    "label": "Preserving Salt"
+  },
+  {
+    "value": "PrimalItemResource_Crystal_IslesPrimal_C",
+    "label": "Primal Crystal"
+  },
+  {
+    "value": "PrimalItemResource_Propellant_C",
+    "label": "Propellant"
+  },
+  {
+    "value": "PrimalItemResource_RareFlower_C",
+    "label": "Rare Flower"
+  },
+  {
+    "value": "PrimalItemResource_RareMushroom_C",
+    "label": "Rare Mushroom"
+  },
+  {
+    "value": "PrimalItemResource_RawSalt_C",
+    "label": "Raw Salt"
+  },
+  {
+    "value": "PrimalItemConsumableMiracleGro_C",
+    "label": "Re-Fertilizer"
+  },
+  {
+    "value": "PrimalItemResource_RedSap_C",
+    "label": "Red Crystalized Sap"
+  },
+  {
+    "value": "PrimalItemResource_Gem_Element_C",
+    "label": "Red Gem"
+  },
+  {
+    "value": "PrimalItemResource_Sand_C",
+    "label": "Sand"
+  },
+  {
+    "value": "PrimalItemResource_Sap_C",
+    "label": "Sap"
+  },
+  {
+    "value": "PrimalItemResource_ScrapMetal_C",
+    "label": "Scrap Metal"
+  },
+  {
+    "value": "PrimalItemResource_ScrapMetalIngot_C",
+    "label": "Scrap Metal Ingot"
+  },
+  {
+    "value": "PrimalItemResource_TurtleShell_C",
+    "label": "Shell Fragment"
+  },
+  {
+    "value": "PrimalItemResource_Silicon_C",
+    "label": "Silica Pearls"
+  },
+  {
+    "value": "PrimalItemResource_Silicate_C",
+    "label": "Silicate"
+  },
+  {
+    "value": "PrimalItemResource_Silk_C",
+    "label": "Silk"
+  },
+  {
+    "value": "PrimalItemResource_Sparkpowder_C",
+    "label": "Sparkpowder"
+  },
+  {
+    "value": "PrimalItemConsumable_Stimulant_C",
+    "label": "Stimulant"
+  },
+  {
+    "value": "PrimalItemResource_Stone_C",
+    "label": "Stone"
+  },
+  {
+    "value": "PrimalItemResource_Sulfur_C",
+    "label": "Sulfur"
+  },
+  {
+    "value": "PrimalItemResource_Thatch_C",
+    "label": "Thatch"
+  },
+  {
+    "value": "PrimalItemResource_ElementRefined_C",
+    "label": "Unstable Element"
+  },
+  {
+    "value": "PrimalItemResource_ShardRefined_C",
+    "label": "Unstable Element Shard"
+  },
+  {
+    "value": "PrimalItemResource_Wood_C",
+    "label": "Wood"
+  },
+  {
+    "value": "PrimalItemResource_Wool_C",
+    "label": "Wool"
+  },
+  {
+    "value": "PrimalItemResource_Horn_C",
+    "label": "Woolly Rhino Horn"
+  }
+]

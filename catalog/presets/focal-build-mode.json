@@ -1,0 +1,16 @@
+{
+  "id": "focal-build-mode",
+  "i18nKey": "presets.focal_build_mode",
+  "kind": "focal",
+  "order": 220,
+  "settingValues": {
+    "harvest_amount_multiplier": 10.0,
+    "harvest_health_multiplier": 0.3,
+    "resources_respawn_period_multiplier": 0.2,
+    "structure_damage_multiplier": 0.0,
+    "structure_resistance_multiplier": 5.0,
+    "enable_structure_decay_pvp": false,
+    "max_structures_in_range": 30000,
+    "allow_cave_building_pve": true
+  }
+}

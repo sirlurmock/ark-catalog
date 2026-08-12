@@ -1,0 +1,94 @@
+[
+  {
+    "id": "list_players",
+    "category": "debug",
+    "i18nKey": "commands.debug.list_players.label",
+    "descriptionI18nKey": "commands.debug.list_players.description",
+    "template": "ListPlayers",
+    "params": []
+  },
+  {
+    "id": "dump_dino_stats",
+    "category": "debug",
+    "i18nKey": "commands.debug.dump_dino_stats.label",
+    "descriptionI18nKey": "commands.debug.dump_dino_stats.description",
+    "template": "DumpDinoStats",
+    "params": []
+  },
+  {
+    "id": "tribe_structure_audit",
+    "category": "debug",
+    "i18nKey": "commands.debug.tribe_structure_audit.label",
+    "descriptionI18nKey": "commands.debug.tribe_structure_audit.description",
+    "template": "TribeStructureAudit {tribeId}",
+    "params": [
+      {
+        "name": "tribeId",
+        "type": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 999999999,
+        "i18nKey": "commands.params.tribe_id"
+      }
+    ]
+  },
+  {
+    "id": "tribe_dino_audit",
+    "category": "debug",
+    "i18nKey": "commands.debug.tribe_dino_audit.label",
+    "descriptionI18nKey": "commands.debug.tribe_dino_audit.description",
+    "template": "TribeDinoAudit {tribeId}",
+    "params": [
+      {
+        "name": "tribeId",
+        "type": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 999999999,
+        "i18nKey": "commands.params.tribe_id"
+      }
+    ]
+  },
+  {
+    "id": "save_backup",
+    "category": "debug",
+    "i18nKey": "commands.debug.save_backup.label",
+    "descriptionI18nKey": "commands.debug.save_backup.description",
+    "template": "SaveBackup",
+    "params": [],
+    "games": ["asa"]
+  },
+  {
+    "id": "show_my_admin_manager",
+    "category": "debug",
+    "i18nKey": "commands.debug.show_my_admin_manager.label",
+    "descriptionI18nKey": "commands.debug.show_my_admin_manager.description",
+    "template": "ShowMyAdminManager",
+    "params": [],
+    "games": ["ase"]
+  },
+  {
+    "id": "copy_coords_to_clipboard",
+    "category": "debug",
+    "i18nKey": "commands.debug.copy_coords_to_clipboard.label",
+    "descriptionI18nKey": "commands.debug.copy_coords_to_clipboard.description",
+    "template": "ccc",
+    "params": []
+  },
+  {
+    "id": "stat_fps",
+    "category": "debug",
+    "i18nKey": "commands.debug.stat_fps.label",
+    "descriptionI18nKey": "commands.debug.stat_fps.description",
+    "template": "stat fps",
+    "params": []
+  },
+  {
+    "id": "stat_unit",
+    "category": "debug",
+    "i18nKey": "commands.debug.stat_unit.label",
+    "descriptionI18nKey": "commands.debug.stat_unit.description",
+    "template": "stat unit",
+    "params": []
+  }
+]

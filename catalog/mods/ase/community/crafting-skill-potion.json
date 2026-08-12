@@ -1,0 +1,579 @@
+{
+  "modId": "CraftingSkillPotion",
+  "name": "Crafting Skill Potion",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2307661303",
+  "settings": [
+    {
+      "id": "crafting_potion_crafting_skill_duration",
+      "key": "CraftingSkillDuration",
+      "category": "mod_crafting_potion",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "CraftingSkillPotion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 120,
+        "min": 1,
+        "max": 3600,
+        "step": 10
+      },
+      "i18nKey": "mods.crafting_potion.crafting_skill_duration"
+    },
+    {
+      "id": "crafting_potion_enable_potion_cooldown",
+      "key": "EnablePotionCooldown",
+      "category": "mod_crafting_potion",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "CraftingSkillPotion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.crafting_potion.enable_potion_cooldown"
+    },
+    {
+      "id": "crafting_potion_enable_cheat_weight",
+      "key": "EnableCheatWeight",
+      "category": "mod_crafting_potion",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "CraftingSkillPotion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.crafting_potion.enable_cheat_weight"
+    },
+    {
+      "id": "crafting_potion_enable_manual_deactivation",
+      "key": "EnableManualDeactivation",
+      "category": "mod_crafting_potion",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "CraftingSkillPotion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.crafting_potion.enable_manual_deactivation"
+    },
+    {
+      "id": "crafting_potion_crafting_skill_cooldown_duration",
+      "key": "CraftingSkillCooldownDuration",
+      "category": "mod_crafting_potion",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "CraftingSkillPotion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 60,
+        "min": 1,
+        "max": 3600,
+        "step": 10
+      },
+      "i18nKey": "mods.crafting_potion.crafting_skill_cooldown_duration"
+    },
+    {
+      "id": "crafting_potion_crafting_skill_cheat_weight",
+      "key": "CraftingSkillCheatWeight",
+      "category": "mod_crafting_potion",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "CraftingSkillPotion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1000,
+        "min": 1,
+        "max": 10000,
+        "step": 50
+      },
+      "i18nKey": "mods.crafting_potion.crafting_skill_cheat_weight"
+    },
+    {
+      "id": "crafting_potion_enable_extend_buff_time",
+      "key": "EnableExtendBuffTime",
+      "category": "mod_crafting_potion",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "CraftingSkillPotion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.crafting_potion.enable_extend_buff_time"
+    },
+    {
+      "id": "crafting_potion_enable_combat_check",
+      "key": "EnableCombatCheck",
+      "category": "mod_crafting_potion",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "CraftingSkillPotion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.crafting_potion.enable_combat_check"
+    },
+    {
+      "id": "crafting_potion_combat_duration",
+      "key": "CombatDuration",
+      "category": "mod_crafting_potion",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "CraftingSkillPotion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 30,
+        "min": 1,
+        "max": 600,
+        "step": 5
+      },
+      "i18nKey": "mods.crafting_potion.combat_duration"
+    },
+    {
+      "id": "crafting_potion_display_activation_message",
+      "key": "DisplayActivationMessage",
+      "category": "mod_crafting_potion",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "CraftingSkillPotion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.crafting_potion.display_activation_message"
+    },
+    {
+      "id": "crafting_potion_display_deactivation_message",
+      "key": "DisplayDeactivationMessage",
+      "category": "mod_crafting_potion",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "CraftingSkillPotion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.crafting_potion.display_deactivation_message"
+    },
+    {
+      "id": "crafting_potion_activation_message_display_time",
+      "key": "ActivationMessageDisplayTime",
+      "category": "mod_crafting_potion",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CraftingSkillPotion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 5,
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      "i18nKey": "mods.crafting_potion.activation_message_display_time"
+    },
+    {
+      "id": "crafting_potion_deactivation_message_display_time",
+      "key": "DeactivationMessageDisplayTime",
+      "category": "mod_crafting_potion",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CraftingSkillPotion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 5,
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      "i18nKey": "mods.crafting_potion.deactivation_message_display_time"
+    },
+    {
+      "id": "crafting_potion_enable_restore_health",
+      "key": "EnableRestoreHealth",
+      "category": "mod_crafting_potion",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "CraftingSkillPotion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.crafting_potion.enable_restore_health"
+    },
+    {
+      "id": "crafting_potion_enable_restore_stamina",
+      "key": "EnableRestoreStamina",
+      "category": "mod_crafting_potion",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "CraftingSkillPotion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.crafting_potion.enable_restore_stamina"
+    },
+    {
+      "id": "crafting_potion_enable_restore_oxygen",
+      "key": "EnableRestoreOxygen",
+      "category": "mod_crafting_potion",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CraftingSkillPotion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.crafting_potion.enable_restore_oxygen"
+    },
+    {
+      "id": "crafting_potion_enable_restore_food",
+      "key": "EnableRestoreFood",
+      "category": "mod_crafting_potion",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CraftingSkillPotion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.crafting_potion.enable_restore_food"
+    },
+    {
+      "id": "crafting_potion_enable_restore_water",
+      "key": "EnableRestoreWater",
+      "category": "mod_crafting_potion",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CraftingSkillPotion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.crafting_potion.enable_restore_water"
+    },
+    {
+      "id": "crafting_potion_base_stat_multiplier_health",
+      "key": "BaseStatMultiplierHealth",
+      "category": "mod_crafting_potion",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CraftingSkillPotion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 20,
+        "step": 0.1,
+        "presets": [
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.crafting_potion.base_stat_multiplier_health"
+    },
+    {
+      "id": "crafting_potion_base_stat_multiplier_stamina",
+      "key": "BaseStatMultiplierStamina",
+      "category": "mod_crafting_potion",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CraftingSkillPotion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 20,
+        "step": 0.1,
+        "presets": [
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.crafting_potion.base_stat_multiplier_stamina"
+    },
+    {
+      "id": "crafting_potion_base_stat_multiplier_oxygen",
+      "key": "BaseStatMultiplierOxygen",
+      "category": "mod_crafting_potion",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CraftingSkillPotion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 20,
+        "step": 0.1,
+        "presets": [
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.crafting_potion.base_stat_multiplier_oxygen"
+    },
+    {
+      "id": "crafting_potion_base_stat_multiplier_food",
+      "key": "BaseStatMultiplierFood",
+      "category": "mod_crafting_potion",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CraftingSkillPotion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 20,
+        "step": 0.1,
+        "presets": [
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.crafting_potion.base_stat_multiplier_food"
+    },
+    {
+      "id": "crafting_potion_base_stat_multiplier_water",
+      "key": "BaseStatMultiplierWater",
+      "category": "mod_crafting_potion",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CraftingSkillPotion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 20,
+        "step": 0.1,
+        "presets": [
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.crafting_potion.base_stat_multiplier_water"
+    },
+    {
+      "id": "crafting_potion_base_stat_multiplier_weight",
+      "key": "BaseStatMultiplierWeight",
+      "category": "mod_crafting_potion",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CraftingSkillPotion",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 20,
+        "step": 0.1,
+        "presets": [
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.crafting_potion.base_stat_multiplier_weight"
+    }
+  ]
+}

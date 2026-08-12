@@ -1,0 +1,77 @@
+name: Sugerir una mod
+description: Pedir que se agregue una mod al catálogo de ARK Config Studio
+title: "[Mod] "
+labels: ["mod-suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **¿Sabías que la app puede llenar esto sola?** En el panel de mods, el
+        botón de sugerir abre un issue con todo el formato puesto, incluido un
+        borrador listo para procesar.
+
+        Si preferís hacerlo a mano, seguí acá. No hace falta que completes todo:
+        con el nombre y el link ya es útil.
+
+  - type: input
+    id: nombre
+    attributes:
+      label: Nombre de la mod
+      placeholder: Structures Plus
+    validations:
+      required: true
+
+  - type: input
+    id: link
+    attributes:
+      label: Link al Workshop o a CurseForge
+      placeholder: https://steamcommunity.com/sharedfiles/filedetails/?id=731604991
+    validations:
+      required: true
+
+  - type: dropdown
+    id: juego
+    attributes:
+      label: ¿Para qué juego?
+      options:
+        - ARK Survival Evolved (ASE)
+        - ARK Survival Ascended (ASA)
+        - Las dos, con versiones distintas
+    validations:
+      required: true
+
+  - type: textarea
+    id: documentacion
+    attributes:
+      label: ¿Dónde está su documentación de configuración?
+      description: |
+        Esto es lo que más ayuda y lo que más cuesta encontrar. Puede ser un link
+        a una guía, una wiki, una hoja de cálculo, o el bloque de config pegado
+        en la descripción del Workshop.
+
+        **Ojo con una trampa**: muchos autores publican un bloque de ejemplo que
+        NO son los defaults. Si el autor no dice literalmente que lo son, no lo
+        son — avisanos si notás eso.
+      placeholder: |
+        La descripción linkea una guía aparte:
+        https://steamcommunity.com/sharedfiles/filedetails/?id=2184441067
+
+  - type: textarea
+    id: seccion
+    attributes:
+      label: Sección del `.ini` y claves que conozcas
+      description: Si tenés su bloque de configuración a mano, pegalo tal cual.
+      render: ini
+      placeholder: |
+        [StructuresPlus]
+        NoFoundationsRequired=false
+        DisableFoundationStacking=false
+
+  - type: textarea
+    id: notas
+    attributes:
+      label: Algo más que convenga saber
+      description: |
+        Por ejemplo: si la mod lee su config de una sección con otro nombre, si
+        hay claves que solo funcionan en ciertos mapas, o si comparte sección
+        con otra mod.

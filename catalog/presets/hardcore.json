@@ -1,0 +1,33 @@
+{
+  "id": "hardcore",
+  "i18nKey": "presets.hardcore",
+  "kind": "macro_speed",
+  "order": 40,
+  "settingValues": {
+    "xp_multiplier": 0.7,
+    "harvest_amount_multiplier": 0.7,
+    "harvest_health_multiplier": 1.5,
+    "taming_speed_multiplier": 0.5,
+    "weapon_damage_multiplier": 1.0,
+    "resources_respawn_period_multiplier": 2.0,
+    "egg_hatch_speed_multiplier": 0.5,
+    "baby_mature_speed_multiplier": 0.5,
+    "baby_cuddle_interval_multiplier": 2.0,
+    "baby_imprint_amount_multiplier": 0.5,
+    "mating_interval_multiplier": 2.0,
+    "lay_egg_interval_multiplier": 2.0,
+    "player_water_drain_multiplier": 1.5,
+    "player_food_drain_multiplier": 1.5,
+    "player_stamina_drain_multiplier": 1.5,
+    "day_time_speed_scale": 1.0,
+    "night_time_speed_scale": 0.7,
+    "crop_growth_speed_multiplier": 0.5,
+    "dino_count_multiplier": 1.0,
+    "dino_damage_multiplier": 1.5,
+    "dino_resistance_multiplier": 1.3,
+    "structure_damage_multiplier": 1.0,
+    "structure_resistance_multiplier": 1.0,
+    "difficulty_offset": 1.0,
+    "override_official_difficulty": 8.0
+  }
+}

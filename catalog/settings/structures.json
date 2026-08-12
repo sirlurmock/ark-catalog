@@ -1,0 +1,552 @@
+[
+  {
+    "id": "structure_damage_multiplier",
+    "key": "StructureDamageMultiplier",
+    "category": "structures",
+    "tier": "basic",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.0,
+      "max": 5,
+      "presets": [1, 0.5, 0, 2]
+    },
+    "i18nKey": "settings.structures.structure_damage"
+  },
+  {
+    "id": "structure_resistance_multiplier",
+    "key": "StructureResistanceMultiplier",
+    "category": "structures",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.01,
+      "max": 2.0,
+      "presets": [1, 0.75, 0.5, 0.25],
+      "inverseSemantics": true
+    },
+    "i18nKey": "settings.structures.structure_resistance"
+  },
+  {
+    "id": "max_structures_in_range",
+    "key": "MaxStructuresInRange",
+    "category": "structures",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["host_local", "dedicated"],
+    "control": {
+      "kind": "integer",
+      "default": 6000,
+      "min": 100,
+      "max": 20000,
+      "step": 100
+    },
+    "i18nKey": "settings.structures.max_structures"
+  },
+  {
+    "id": "enable_structure_decay_pvp",
+    "key": "EnableStructureDecayPvP",
+    "category": "structures",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.structures.enable_decay_pvp"
+  },
+  {
+    "id": "pvp_structure_decay",
+    "key": "PvPStructureDecay",
+    "category": "structures",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.structures.pvp_structure_decay"
+  },
+  {
+    "id": "only_decay_unsnapped_core_structures",
+    "key": "OnlyDecayUnsnappedCoreStructures",
+    "category": "structures",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.structures.only_decay_unsnapped_core"
+  },
+  {
+    "id": "always_allow_structure_pickup",
+    "key": "AlwaysAllowStructurePickup",
+    "category": "structures",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.structures.always_allow_structure_pickup"
+  },
+  {
+    "id": "structure_pickup_time_after_placement",
+    "key": "StructurePickupTimeAfterPlacement",
+    "category": "structures",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 30.0,
+      "min": 0.0,
+      "max": 600,
+      "presets": [30, 0, 60, 120, 300]
+    },
+    "i18nKey": "settings.structures.structure_pickup_time_after_placement"
+  },
+  {
+    "id": "structure_pickup_hold_duration",
+    "key": "StructurePickupHoldDuration",
+    "category": "structures",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 0.5,
+      "min": 0.0,
+      "max": 5,
+      "presets": [0.5, 0, 1, 2]
+    },
+    "i18nKey": "settings.structures.structure_pickup_hold_duration"
+  },
+  {
+    "id": "limit_bunkers_per_tribe",
+    "key": "LimitBunkersPerTribe",
+    "category": "structures",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["asa"],
+    "validIn": ["dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": true
+    },
+    "i18nKey": "settings.structures.limit_bunkers_per_tribe",
+    "warnings": [
+      {
+        "condition": {
+          "and": [
+            { "userModified": true },
+            { "mapId": { "notIn": ["aberration"] } }
+          ]
+        },
+        "severity": "info",
+        "i18nKey": "warnings.structures.bunkers_only_aberration"
+      }
+    ]
+  },
+  {
+    "id": "limit_bunkers_per_tribe_num",
+    "key": "LimitBunkersPerTribeNum",
+    "category": "structures",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["asa"],
+    "validIn": ["dedicated"],
+    "control": {
+      "kind": "integer",
+      "default": 3,
+      "min": 1,
+      "max": 50,
+      "step": 1
+    },
+    "i18nKey": "settings.structures.limit_bunkers_per_tribe_num"
+  },
+  {
+    "id": "allow_riding_dinos_inside_bunkers",
+    "key": "AllowRidingDinosInsideBunkers",
+    "category": "structures",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["asa"],
+    "validIn": ["dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": true
+    },
+    "i18nKey": "settings.structures.allow_riding_dinos_inside_bunkers"
+  },
+  {
+    "id": "allow_dino_ai_inside_bunkers",
+    "key": "AllowDinoAIInsideBunkers",
+    "category": "structures",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["asa"],
+    "validIn": ["dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": true
+    },
+    "i18nKey": "settings.structures.allow_dino_ai_inside_bunkers"
+  },
+  {
+    "id": "min_distance_between_bunkers",
+    "key": "MinDistanceBetweenBunkers",
+    "category": "structures",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["asa"],
+    "validIn": ["dedicated"],
+    "control": {
+      "kind": "integer",
+      "default": 3000,
+      "min": 0,
+      "max": 50000,
+      "step": 100
+    },
+    "i18nKey": "settings.structures.min_distance_between_bunkers"
+  },
+  {
+    "id": "enemy_access_bunker_hp_threshold",
+    "key": "EnemyAccessBunkerHPThreshold",
+    "category": "structures",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["asa"],
+    "validIn": ["dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 0.25,
+      "min": 0.0,
+      "max": 1.0,
+      "presets": [0.25, 0.1, 0.5, 0.75]
+    },
+    "i18nKey": "settings.structures.enemy_access_bunker_hp_threshold"
+  },
+  {
+    "id": "bunker_under_hp_threshold_dmg_multiplier",
+    "key": "BunkerUnderHPThresholdDmgMultiplier",
+    "category": "structures",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["asa"],
+    "validIn": ["dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 0.05,
+      "min": 0.0,
+      "max": 5.0,
+      "presets": [0.05, 0.1, 0.5, 1, 2]
+    },
+    "i18nKey": "settings.structures.bunker_under_hp_threshold_dmg_multiplier"
+  },
+  {
+    "id": "cryo_hospital_hours_to_regen_hp",
+    "key": "CryoHospitalHoursToRegenHP",
+    "category": "structures",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 24,
+      "presets": [1, 0.5, 2, 6]
+    },
+    "i18nKey": "settings.structures.cryo_hospital_hours_to_regen_hp",
+    "warnings": [
+      {
+        "condition": {
+          "and": [
+            { "userModified": true },
+            { "mapId": { "notIn": ["aberration"] } }
+          ]
+        },
+        "severity": "info",
+        "i18nKey": "warnings.structures.cryo_hospital_only_aberration"
+      }
+    ]
+  },
+  {
+    "id": "cryo_hospital_hours_to_regen_food",
+    "key": "CryoHospitalHoursToRegenFood",
+    "category": "structures",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 24.0,
+      "min": 0.1,
+      "max": 168,
+      "presets": [24, 6, 12, 48]
+    },
+    "i18nKey": "settings.structures.cryo_hospital_hours_to_regen_food"
+  },
+  {
+    "id": "cryo_hospital_hours_to_drain_torpor",
+    "key": "CryoHospitalHoursToDrainTorpor",
+    "category": "structures",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 24,
+      "presets": [1, 0.5, 2, 6]
+    },
+    "i18nKey": "settings.structures.cryo_hospital_hours_to_drain_torpor"
+  },
+  {
+    "id": "cryo_hospital_mating_cooldown_reduction",
+    "key": "CryoHospitalMatingCooldownReduction",
+    "category": "structures",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 2.0,
+      "min": 1.0,
+      "max": 20,
+      "presets": [2, 1, 5, 10]
+    },
+    "i18nKey": "settings.structures.cryo_hospital_mating_cooldown_reduction"
+  },
+  {
+    "id": "bloodforge_reinforce_extra_durability",
+    "key": "BloodforgeReinforceExtraDurability",
+    "category": "structures",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 0.3,
+      "min": 0.0,
+      "max": 5.0,
+      "presets": [0.3, 0.1, 0.5, 1, 2]
+    },
+    "i18nKey": "settings.structures.bloodforge_reinforce_extra_durability",
+    "warnings": [
+      {
+        "condition": {
+          "and": [
+            { "userModified": true },
+            { "mapId": { "notIn": ["aberration"] } }
+          ]
+        },
+        "severity": "info",
+        "i18nKey": "warnings.structures.bloodforge_only_aberration"
+      }
+    ]
+  },
+  {
+    "id": "bloodforge_reinforce_resource_cost_multiplier",
+    "key": "BloodforgeReinforceResourceCostMultiplier",
+    "category": "structures",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 3.0,
+      "min": 0.1,
+      "max": 20,
+      "presets": [3, 1, 2, 5, 10]
+    },
+    "i18nKey": "settings.structures.bloodforge_reinforce_resource_cost_multiplier"
+  },
+  {
+    "id": "bloodforge_reinforce_speed_multiplier",
+    "key": "BloodforgeReinforceSpeedMultiplier",
+    "category": "structures",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 0.1,
+      "min": 0.01,
+      "max": 5.0,
+      "presets": [0.1, 0.5, 1, 2]
+    },
+    "i18nKey": "settings.structures.bloodforge_reinforce_speed_multiplier"
+  },
+  {
+    "id": "max_active_outposts",
+    "key": "MaxActiveOutposts",
+    "category": "structures",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["asa"],
+    "validIn": ["dedicated"],
+    "control": {
+      "kind": "integer",
+      "default": 6,
+      "min": 0,
+      "max": 100,
+      "step": 1
+    },
+    "i18nKey": "settings.structures.max_active_outposts",
+    "warnings": [
+      {
+        "condition": {
+          "and": [
+            { "userModified": true },
+            { "mapId": { "notIn": ["extinction"] } }
+          ]
+        },
+        "severity": "info",
+        "i18nKey": "warnings.structures.outposts_only_extinction"
+      }
+    ]
+  },
+  {
+    "id": "max_active_resource_caches",
+    "key": "MaxActiveResourceCaches",
+    "category": "structures",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["asa"],
+    "validIn": ["dedicated"],
+    "control": {
+      "kind": "integer",
+      "default": 6,
+      "min": 0,
+      "max": 100,
+      "step": 1
+    },
+    "i18nKey": "settings.structures.max_active_resource_caches"
+  },
+  {
+    "id": "max_active_city_outposts",
+    "key": "MaxActiveCityOutposts",
+    "category": "structures",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["asa"],
+    "validIn": ["dedicated"],
+    "control": {
+      "kind": "integer",
+      "default": 6,
+      "min": 0,
+      "max": 100,
+      "step": 1
+    },
+    "i18nKey": "settings.structures.max_active_city_outposts"
+  },
+  {
+    "id": "max_active_outposts_sp",
+    "key": "MaxActiveOutpostsSP",
+    "category": "structures",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "integer",
+      "default": 1,
+      "min": 0,
+      "max": 100,
+      "step": 1
+    },
+    "i18nKey": "settings.structures.max_active_outposts_sp"
+  },
+  {
+    "id": "max_active_resource_caches_sp",
+    "key": "MaxActiveResourceCachesSP",
+    "category": "structures",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "integer",
+      "default": 6,
+      "min": 0,
+      "max": 100,
+      "step": 1
+    },
+    "i18nKey": "settings.structures.max_active_resource_caches_sp"
+  },
+  {
+    "id": "max_active_city_outposts_sp",
+    "key": "MaxActiveCityOutpostsSP",
+    "category": "structures",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "integer",
+      "default": 1,
+      "min": 0,
+      "max": 100,
+      "step": 1
+    },
+    "i18nKey": "settings.structures.max_active_city_outposts_sp"
+  }
+]

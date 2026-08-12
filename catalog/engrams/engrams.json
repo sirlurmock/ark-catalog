@@ -1,0 +1,2682 @@
+[
+  {
+    "value": "EngramEntry_AdvancedBullet_C",
+    "label": "Advanced Bullet",
+    "category": "ammo"
+  },
+  {
+    "value": "EngramEntry_AdvancedRifleBullet_C",
+    "label": "Advanced Rifle Bullet",
+    "category": "ammo"
+  },
+  {
+    "value": "EngramEntry_AdvancedSniperBullet_C",
+    "label": "Advanced Sniper Bullet",
+    "category": "ammo"
+  },
+  {
+    "value": "EngramEntry_C4Ammo_C",
+    "label": "C4 Charge",
+    "category": "ammo"
+  },
+  {
+    "value": "EngramEntry_CannonBall_C",
+    "label": "Cannon Ball",
+    "category": "ammo"
+  },
+  {
+    "value": "EngramEntry_MekCannonShell_C",
+    "label": "Cannon Shell",
+    "category": "ammo"
+  },
+  {
+    "value": "EngramEntry_CruiseMissile_C",
+    "label": "Cruise Missile",
+    "category": "ammo"
+  },
+  {
+    "value": "EngramEntry_FlameArrow_C",
+    "label": "Flame Arrow",
+    "category": "ammo"
+  },
+  {
+    "value": "EngramEntry_FlamethrowerAmmo_C",
+    "label": "Flamethrower Ammo",
+    "category": "ammo"
+  },
+  {
+    "value": "EngramEntry_SeaMine_C",
+    "label": "Homing Underwater Mine",
+    "category": "ammo"
+  },
+  {
+    "value": "EngramEntry_CompoundArrow_C",
+    "label": "Metal Arrow",
+    "category": "ammo"
+  },
+  {
+    "value": "EngramEntry_NetGun_Ammo_C",
+    "label": "Net Projectile",
+    "category": "ammo"
+  },
+  {
+    "value": "EngramEntry_AggroTranqDart_C",
+    "label": "Pheromone Dart",
+    "category": "ammo"
+  },
+  {
+    "value": "EngramEntry_RocketHommingAmmo_C",
+    "label": "Rocket Homing Missile",
+    "category": "ammo"
+  },
+  {
+    "value": "EngramEntry_RocketAmmo_C",
+    "label": "Rocket Propelled Grenade",
+    "category": "ammo"
+  },
+  {
+    "value": "EngramEntry_RefinedTranqDart_C",
+    "label": "Shocking Tranquilizer Dart",
+    "category": "ammo"
+  },
+  {
+    "value": "EngramEntry_SimpleBullet_C",
+    "label": "Simple Bullet",
+    "category": "ammo"
+  },
+  {
+    "value": "EngramEntry_SimpleRifleBullet_C",
+    "label": "Simple Rifle Ammo",
+    "category": "ammo"
+  },
+  {
+    "value": "EngramEntry_SimpleShotgunBullet_C",
+    "label": "Simple Shotgun Ammo",
+    "category": "ammo"
+  },
+  {
+    "value": "EngramEntry_StoneArrow_C",
+    "label": "Stone Arrow",
+    "category": "ammo"
+  },
+  {
+    "value": "EngramEntry_TranqArrow_C",
+    "label": "Tranq Arrow",
+    "category": "ammo"
+  },
+  {
+    "value": "EngramEntry_TranqDart_C",
+    "label": "Tranquilizer Dart",
+    "category": "ammo"
+  },
+  {
+    "value": "EngramEntry_ChitinBoots_C",
+    "label": "Chitin Boots",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_ChitinShirt_C",
+    "label": "Chitin Chestpiece",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_ChitinGloves_C",
+    "label": "Chitin Gauntlets",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_ChitinHelmet_C",
+    "label": "Chitin Helmet",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_ChitinPants_C",
+    "label": "Chitin Leggings",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_ClothBoots_C",
+    "label": "Cloth Boots",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_ClothGloves_C",
+    "label": "Cloth Gloves",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_ClothHelmet_C",
+    "label": "Cloth Hat",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_ClothPants_C",
+    "label": "Cloth Pants",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_ClothShirt_C",
+    "label": "Cloth Shirt",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_DesertClothBoots_C",
+    "label": "Desert Cloth Boots",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_DesertClothGloves_C",
+    "label": "Desert Cloth Gloves",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_DesertClothPants_C",
+    "label": "Desert Cloth Pants",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_DesertClothShirt_C",
+    "label": "Desert Cloth Shirt",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_DesertClothGooglesHelmet_C",
+    "label": "Desert Goggles and Hat",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_MetalBoots_C",
+    "label": "Flak Boots",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_MetalShirt_C",
+    "label": "Flak Chestpiece",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_MetalGloves_C",
+    "label": "Flak Gauntlets",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_MetalHelmet_C",
+    "label": "Flak Helmet",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_MetalPants_C",
+    "label": "Flak Leggings",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_FurBoots_C",
+    "label": "Fur Boots",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_FurHelmet_C",
+    "label": "Fur Cap",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_FurShirt_C",
+    "label": "Fur Chestpiece",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_FurGloves_C",
+    "label": "Fur Gauntlets",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_FurPants_C",
+    "label": "Fur Leggings",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_GasMask_C",
+    "label": "Gas Mask",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_GhillieBoots_C",
+    "label": "Ghillie Boots",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_GhillieShirt_C",
+    "label": "Ghillie Chestpiece",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_GhillieGloves_C",
+    "label": "Ghillie Gauntlets",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_GhilliePants_C",
+    "label": "Ghillie Leggings",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_GhillieHelmet_C",
+    "label": "Ghillie Mask",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_HazardSuit_Boots_C",
+    "label": "Hazard Suit Boots",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_HazardSuit_Gloves_C",
+    "label": "Hazard Suit Gloves",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_HazardSuit_Helmet_C",
+    "label": "Hazard Suit Hat",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_HazardSuit_Pants_C",
+    "label": "Hazard Suit Pants",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_HazardSuit_Chest_C",
+    "label": "Hazard Suit Shirt",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_HideBoots_C",
+    "label": "Hide Boots",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_HideGloves_C",
+    "label": "Hide Gloves",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_HideHelmet_C",
+    "label": "Hide Hat",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_HidePants_C",
+    "label": "Hide Pants",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_HideShirt_C",
+    "label": "Hide Shirt",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_MetalShield_C",
+    "label": "Metal Shield",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_RiotBoots_C",
+    "label": "Riot Boots",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_RiotShirt_C",
+    "label": "Riot Chestpiece",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_RiotGloves_C",
+    "label": "Riot Gauntlets",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_RiotHelmet_C",
+    "label": "Riot Helmet",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_RiotPants_C",
+    "label": "Riot Leggings",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_RiotShield_C",
+    "label": "Riot Shield",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_ScubaBoots_Flippers_C",
+    "label": "SCUBA Flippers",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_ScubaPants_C",
+    "label": "SCUBA Leggings",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_ScubaHelmet_Goggles_C",
+    "label": "SCUBA Mask",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_ScubaShirt_SuitWithTank_C",
+    "label": "SCUBA Tank",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_WoodShield_C",
+    "label": "Wooden Shield",
+    "category": "armor"
+  },
+  {
+    "value": "EngramEntry_AirConditioner_C",
+    "label": "Air Conditioner",
+    "category": "electronics"
+  },
+  {
+    "value": "EngramEntry_Turret_C",
+    "label": "Auto Turret",
+    "category": "electronics"
+  },
+  {
+    "value": "EngramEntry_BallistaTurret_C",
+    "label": "Ballista Turret",
+    "category": "electronics"
+  },
+  {
+    "value": "EngramEntry_CatapultTurret_C",
+    "label": "Catapult Turret",
+    "category": "electronics"
+  },
+  {
+    "value": "EngramEntry_ChargeBattery_C",
+    "label": "Charge Battery",
+    "category": "electronics"
+  },
+  {
+    "value": "EngramEntry_PowerCableIntersection_C",
+    "label": "Electrical Cable Intersection",
+    "category": "electronics"
+  },
+  {
+    "value": "EngramEntry_PowerGenerator_C",
+    "label": "Electrical Generator",
+    "category": "electronics"
+  },
+  {
+    "value": "EngramEntry_PowerOutlet_C",
+    "label": "Electrical Outlet",
+    "category": "electronics"
+  },
+  {
+    "value": "EngramEntry_Electronics_C",
+    "label": "Electronics",
+    "category": "electronics"
+  },
+  {
+    "value": "EngramEntry_Wire_Flex_C",
+    "label": "Flexible Electrical Cable",
+    "category": "electronics"
+  },
+  {
+    "value": "EngramEntry_GasCollector_C",
+    "label": "Gas Collector",
+    "category": "electronics"
+  },
+  {
+    "value": "EngramEntry_HeavyTurret_C",
+    "label": "Heavy Auto Turret",
+    "category": "electronics"
+  },
+  {
+    "value": "EngramEntry_PowerCableIncline_C",
+    "label": "Inclined Electrical Cable",
+    "category": "electronics"
+  },
+  {
+    "value": "EngramEntry_Lamppost_C",
+    "label": "Lamppost",
+    "category": "electronics"
+  },
+  {
+    "value": "EngramEntry_MinigunTurret_C",
+    "label": "Minigun Turret",
+    "category": "electronics"
+  },
+  {
+    "value": "EngramEntry_OilPump_C",
+    "label": "Oil Pump",
+    "category": "electronics"
+  },
+  {
+    "value": "EngramEntry_LamppostOmni_C",
+    "label": "Omnidirectional Lamppost",
+    "category": "electronics"
+  },
+  {
+    "value": "EngramEntry_PressurePlate_C",
+    "label": "Pressure Plate",
+    "category": "electronics"
+  },
+  {
+    "value": "EngramEntry_Radio_C",
+    "label": "Radio",
+    "category": "electronics"
+  },
+  {
+    "value": "EngramEntry_Keypad_C",
+    "label": "Remote Keypad",
+    "category": "electronics"
+  },
+  {
+    "value": "EngramEntry_RocketTurret_C",
+    "label": "Rocket Turret",
+    "category": "electronics"
+  },
+  {
+    "value": "EngramEntry_WoodSpikeWall_C",
+    "label": "Spike Wall (Wood)",
+    "category": "electronics"
+  },
+  {
+    "value": "EngramEntry_StandingTorch_C",
+    "label": "Standing Torch",
+    "category": "electronics"
+  },
+  {
+    "value": "EngramEntry_StoneFireplace_C",
+    "label": "Stone Fireplace",
+    "category": "electronics"
+  },
+  {
+    "value": "EngramEntry_WallTorch_C",
+    "label": "Wall Torch",
+    "category": "electronics"
+  },
+  {
+    "value": "EngramEntry_SubstrateAbsorbent_C",
+    "label": "Absorbent Substrate",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_TrophyBase_C",
+    "label": "Artifact Pedestal",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_BugRepel_C",
+    "label": "Bug Repellant",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_Campfire_C",
+    "label": "Campfire",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_ChitinPaste_C",
+    "label": "Cementing Paste",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_ChemBench_C",
+    "label": "Chemistry Bench",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_Clay_C",
+    "label": "Clay",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_CompostBin_C",
+    "label": "Compost Bin",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_CookingPot_C",
+    "label": "Cooking Pot",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_EggIncubator_C",
+    "label": "Egg Incubator",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_Fabricator_C",
+    "label": "Fabricator",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_FeedingTrough_C",
+    "label": "Feeding Trough",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_Gravestone_C",
+    "label": "Gravestone",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_Gunpowder_C",
+    "label": "Gunpowder",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_IndustrialCookingPot_C",
+    "label": "Industrial Cooker",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_IndustrialForge_C",
+    "label": "Industrial Forge",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_Grill_C",
+    "label": "Industrial Grill",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_Grinder_C",
+    "label": "Industrial Grinder",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_Boulder_Fire_C",
+    "label": "Jar of Pitch",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_CropPlot_Large_C",
+    "label": "Large Crop Plot",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_TaxidermyBase_Large_C",
+    "label": "Large Taxidermy Base",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_CureLow_C",
+    "label": "Lesser Antidote",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_LoadoutMannequin_C",
+    "label": "Loadout Mannequin",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_CropPlot_Medium_C",
+    "label": "Medium Crop Plot",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_TaxidermyBase_Medium_C",
+    "label": "Medium Taxidermy Base",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_MortarAndPestle_C",
+    "label": "Mortar and Pestle",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_Flag_C",
+    "label": "Multi-Panel Flag",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_Narcotic_C",
+    "label": "Narcotic",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_NotePaper_C",
+    "label": "Note",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_PaintingCanvas_C",
+    "label": "Painting Canvas",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_Polymer_C",
+    "label": "Polymer",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_PreservingSalt_C",
+    "label": "Preserving Salt",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_Propellant_C",
+    "label": "Propellant",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_MiracleGro_C",
+    "label": "Re-Fertilizer",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_Forge_C",
+    "label": "Refining Forge",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_ShagRug_C",
+    "label": "Shag Rug",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_FlagSingle_C",
+    "label": "Single Panel Flag",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_CropPlot_Small_C",
+    "label": "Small Crop Plot",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_TaxidermyBase_Small_C",
+    "label": "Small Taxidermy Base",
+    "category": "other"
+  },
+  {
+    "value": "EngramEntry_Saddle_Allo_C",
+    "label": "Allosaurus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Amarga_C",
+    "label": "Amargasaurus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Andrewsarchus_C",
+    "label": "Andrewsarchus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Ankylo_C",
+    "label": "Ankylo Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Spider_C",
+    "label": "Araneo Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Argentavis_C",
+    "label": "Argentavis Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Arthro_C",
+    "label": "Arthropluera Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_SpaceDolphin_Saddle_C",
+    "label": "Astrodelphis Starwing Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Baryonyx_C",
+    "label": "Baryonyx Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_BasiliskSaddle_C",
+    "label": "Basilisk Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Basilosaurus_C",
+    "label": "Basilosaurus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Toad_C",
+    "label": "Beelzebufo Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Sauro_Platform_C",
+    "label": "Bronto Platform Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Sauro_C",
+    "label": "Bronto Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Turtle_C",
+    "label": "Carbonemys Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Carcha_C",
+    "label": "Carcharo Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Carno_C",
+    "label": "Carno Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Beaver_C",
+    "label": "Castoroides Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Chalico_C",
+    "label": "Chalicotherium Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Daeodon_C",
+    "label": "Daeodon Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Deinonychus_C",
+    "label": "Deinonychus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Desmodus_C",
+    "label": "Desmodus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Diplodocus_C",
+    "label": "Diplodocus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Direbear_C",
+    "label": "Dire Bear Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Doed_C",
+    "label": "Doedicurus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Dunkle_C",
+    "label": "Dunkleosteus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Equus_C",
+    "label": "Equus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_GachaSaddle_C",
+    "label": "Gacha Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Galli_C",
+    "label": "Gallimimus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_GasBagsSaddle_C",
+    "label": "Gasbags Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Gigant_C",
+    "label": "Giganotosaurus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Hyaenodon_C",
+    "label": "Hyaenodon Meatpack",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Dolphin_C",
+    "label": "Ichthyosaurus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Iguanodon_C",
+    "label": "Iguanodon Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Kaprosuchus_C",
+    "label": "Kaprosuchus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_KarkinoSaddle_C",
+    "label": "Karkinos Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Moth_C",
+    "label": "Lymantria Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Milkglider_Saddle_C",
+    "label": "Maewing Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_CherufeSaddle_C",
+    "label": "Magmasaur Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Mammoth_C",
+    "label": "Mammoth Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_IceJumperSaddle_C",
+    "label": "Managarmr Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Manta_C",
+    "label": "Manta Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Mantis_C",
+    "label": "Mantis Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_GiantTurtleSaddle_C",
+    "label": "Megachelon Platform Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Megalania_C",
+    "label": "Megalania Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Stag_C",
+    "label": "Megaloceros Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Megalodon_C",
+    "label": "Megalodon Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Megalosaurus_C",
+    "label": "Megalosaurus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Megatherium_C",
+    "label": "Megatherium Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Camelsaurus_C",
+    "label": "Morellatops Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Mosa_Platform_C",
+    "label": "Mosasaur Platform Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Mosa_C",
+    "label": "Mosasaur Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Pachy_C",
+    "label": "Pachy Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_PachyRhino_C",
+    "label": "Pachyrhinosaurus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Paracer_Platform_C",
+    "label": "Paracer Platform Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Paracer_C",
+    "label": "Paracer Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Para_C",
+    "label": "Parasaur Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Pela_C",
+    "label": "Pelagornis Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Phiomia_C",
+    "label": "Phiomia Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Plesio_Platform_C",
+    "label": "Plesiosaur Platform Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Plesia_C",
+    "label": "Plesiosaur Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Procop_C",
+    "label": "Procoptodon Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Ptero_C",
+    "label": "Pteranodon Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Scorpion_C",
+    "label": "Pulmonoscorpius Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Quetz_Platform_C",
+    "label": "Quetz Platform Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Quetz_C",
+    "label": "Quetz Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Raptor_C",
+    "label": "Raptor Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_RavagerSaddle_C",
+    "label": "Ravager Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Rex_C",
+    "label": "Rex Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Rhynio_C",
+    "label": "Rhyniognatha Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_ShadowDrakeSaddle_C",
+    "label": "Rock Drake Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_RockGolem_C",
+    "label": "Rock Golem Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_RollratSaddle_C",
+    "label": "Roll Rat Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Saber_C",
+    "label": "Sabertooth Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Sarco_C",
+    "label": "Sarco Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Spino_C",
+    "label": "Spino Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Stego_C",
+    "label": "Stegosaurus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Tapejara_C",
+    "label": "Tapejara Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Therizino_C",
+    "label": "Therizinosaur Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Thylacoleo_C",
+    "label": "Thylacoleo Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Titan_Platform_C",
+    "label": "Titanosaur Platform Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Trike_C",
+    "label": "Triceratops Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_TropeSaddle_C",
+    "label": "Tropeognathus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Tusoteuthis_C",
+    "label": "Tusoteuthis Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_SpindlesSaddle_C",
+    "label": "Velonasaur Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Rhino_C",
+    "label": "Woolly Rhino Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_Saddle_Yutyrannus_C",
+    "label": "Yutyrannus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "EngramEntry_AmmoBox_C",
+    "label": "Ammo Box",
+    "category": "storage"
+  },
+  {
+    "value": "EngramEntry_BeerBarrel_C",
+    "label": "Beer Barrel",
+    "category": "storage"
+  },
+  {
+    "value": "EngramEntry_Bookshelf_C",
+    "label": "Bookshelf",
+    "category": "storage"
+  },
+  {
+    "value": "EngramEntry_ModernBed_C",
+    "label": "Bunk Bed",
+    "category": "storage"
+  },
+  {
+    "value": "EngramEntry_CryoFridge_C",
+    "label": "Cryofridge",
+    "category": "storage"
+  },
+  {
+    "value": "EngramEntry_EmptyCryopod_C",
+    "label": "Cryopod",
+    "category": "storage"
+  },
+  {
+    "value": "EngramEntry_StorageBox_Balloon_C",
+    "label": "Delivery Crate",
+    "category": "storage"
+  },
+  {
+    "value": "EngramEntry_Fishbasket_C",
+    "label": "Fish Basket",
+    "category": "storage"
+  },
+  {
+    "value": "EngramEntry_HideSleepingBag_C",
+    "label": "Hide Sleeping Bag",
+    "category": "storage"
+  },
+  {
+    "value": "EngramEntry_StorageBox_Large_C",
+    "label": "Large Storage Box",
+    "category": "storage"
+  },
+  {
+    "value": "EngramEntry_OilJar_C",
+    "label": "Oil Jar",
+    "category": "storage"
+  },
+  {
+    "value": "EngramEntry_PreservingBin_C",
+    "label": "Preserving Bin",
+    "category": "storage"
+  },
+  {
+    "value": "EngramEntry_IceBox_C",
+    "label": "Refrigerator",
+    "category": "storage"
+  },
+  {
+    "value": "EngramEntry_SimpleBed_C",
+    "label": "Simple Bed",
+    "category": "storage"
+  },
+  {
+    "value": "EngramEntry_StorageBox_Small_C",
+    "label": "Storage Box",
+    "category": "storage"
+  },
+  {
+    "value": "EngramEntry_TekCloningChamberStorage_C",
+    "label": "Tek Cloning Chamber (Storage)",
+    "category": "storage"
+  },
+  {
+    "value": "EngramEntry_Vault_C",
+    "label": "Vault",
+    "category": "storage"
+  },
+  {
+    "value": "EngramEntry_WaterJar_C",
+    "label": "Water Jar",
+    "category": "storage"
+  },
+  {
+    "value": "EngramEntry_AdobeCeiling_C",
+    "label": "Adobe Ceiling",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_AdobeGateway_C",
+    "label": "Adobe Dinosaur Gate",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_AdobeGate_C",
+    "label": "Adobe Dinosaur Gateway",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_AdobeDoor_C",
+    "label": "Adobe Door",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_AdobeWallWithDoor_C",
+    "label": "Adobe Doorframe",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_DoubleDoor_Adobe_C",
+    "label": "Adobe Double Door",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_DoubleDoorframe_Adobe_C",
+    "label": "Adobe Double Doorframe",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_AdobeFenceFoundation_C",
+    "label": "Adobe Fence Foundation",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_FenceSupport_Adobe_C",
+    "label": "Adobe Fence Support",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_AdobeFloor_C",
+    "label": "Adobe Foundation",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_AdobeCeilingWithTrapdoor_C",
+    "label": "Adobe Hatchframe",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_AdobeLadder_C",
+    "label": "Adobe Ladder",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_AdobePillar_C",
+    "label": "Adobe Pillar",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_AdobeRailing_C",
+    "label": "Adobe Railing",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_AdobeRamp_C",
+    "label": "Adobe Ramp",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_AdobeStairs_C",
+    "label": "Adobe Staircase",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_Ramp_Adobe_C",
+    "label": "Adobe Stairs",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_AdobeTrapdoor_C",
+    "label": "Adobe Trapdoor",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_TriCeiling_Adobe_C",
+    "label": "Adobe Triangle Ceiling",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_TriFoundation_Adobe_C",
+    "label": "Adobe Triangle Foundation",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_TriRoof_Adobe_C",
+    "label": "Adobe Triangle Roof",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_AdobeWall_C",
+    "label": "Adobe Wall",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_AdobeWindow_C",
+    "label": "Adobe Window",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_AdobeWallWithWindow_C",
+    "label": "Adobe Windowframe",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_AdobeGate_Large_C",
+    "label": "Behemoth Adobe Dinosaur Gate",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_AdobeGateway_Large_C",
+    "label": "Behemoth Adobe Dinosaur Gateway",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_AdobeCeilingWithDoorWay_Giant_C",
+    "label": "Giant Adobe Hatchframe",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_AdobeCeilingDoorGiant_C",
+    "label": "Giant Adobe Trapdoor",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_LargeWall_Adobe_C",
+    "label": "Large Adobe Wall",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_AdobeRoof_C",
+    "label": "Sloped Adobe Roof",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_AdobeSlopedWall_Left_C",
+    "label": "Sloped Adobe Wall Left",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_AdobeSlopedWall_Right_C",
+    "label": "Sloped Adobe Wall Right",
+    "category": "structures_adobe"
+  },
+  {
+    "value": "EngramEntry_GreenhouseCeiling_C",
+    "label": "Greenhouse Ceiling",
+    "category": "structures_greenhouse"
+  },
+  {
+    "value": "EngramEntry_GreenhouseDoor_C",
+    "label": "Greenhouse Door",
+    "category": "structures_greenhouse"
+  },
+  {
+    "value": "EngramEntry_GreenhouseWallWithDoor_C",
+    "label": "Greenhouse Doorframe",
+    "category": "structures_greenhouse"
+  },
+  {
+    "value": "EngramEntry_DoubleDoor_Greenhouse_C",
+    "label": "Greenhouse Double Door",
+    "category": "structures_greenhouse"
+  },
+  {
+    "value": "EngramEntry_DoubleDoorframe_Greenhouse_C",
+    "label": "Greenhouse Double Doorframe",
+    "category": "structures_greenhouse"
+  },
+  {
+    "value": "EngramEntry_TriCeiling_Greenhouse_C",
+    "label": "Greenhouse Triangle Ceiling",
+    "category": "structures_greenhouse"
+  },
+  {
+    "value": "EngramEntry_TriRoof_Greenhouse_C",
+    "label": "Greenhouse Triangle Roof",
+    "category": "structures_greenhouse"
+  },
+  {
+    "value": "EngramEntry_GreenhouseWall_C",
+    "label": "Greenhouse Wall",
+    "category": "structures_greenhouse"
+  },
+  {
+    "value": "EngramEntry_GreenhouseWindow_C",
+    "label": "Greenhouse Window",
+    "category": "structures_greenhouse"
+  },
+  {
+    "value": "EngramEntry_GreenhouseRoof_C",
+    "label": "Sloped Greenhouse Roof",
+    "category": "structures_greenhouse"
+  },
+  {
+    "value": "EngramEntry_GreenhouseSlopedWall_Left_C",
+    "label": "Sloped Greenhouse Wall Left",
+    "category": "structures_greenhouse"
+  },
+  {
+    "value": "EngramEntry_GreenhouseSlopedWall_Right_C",
+    "label": "Sloped Greenhouse Wall Right",
+    "category": "structures_greenhouse"
+  },
+  {
+    "value": "EngramEntry_MetalGate_Large_C",
+    "label": "Behemoth Gate",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalGateway_Large_C",
+    "label": "Behemoth Gateway",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_ElevatorTrack_C",
+    "label": "Elevator Track",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalCeilingWithTrapdoorGiant_C",
+    "label": "Giant Metal Hatchframe",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalTrapdoorGiant_C",
+    "label": "Giant Metal Trapdoor",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_ElevatorPlatformLarge_C",
+    "label": "Large Elevator Platform",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_LargeWall_Metal_C",
+    "label": "Large Metal Wall",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_ElevatorPlatformMedium_C",
+    "label": "Medium Elevator Platform",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalSign_Large_C",
+    "label": "Metal Billboard",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalCatwalk_C",
+    "label": "Metal Catwalk",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalCeiling_C",
+    "label": "Metal Ceiling",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalCliffPlatform_C",
+    "label": "Metal Cliff Platform",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalGate_C",
+    "label": "Metal Dinosaur Gate",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalGateway_C",
+    "label": "Metal Dinosaur Gateway",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalDoor_C",
+    "label": "Metal Door",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalWallWithDoor_C",
+    "label": "Metal Doorframe",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_DoubleDoor_Metal_C",
+    "label": "Metal Double Door",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_DoubleDoorframe_Metal_C",
+    "label": "Metal Double Doorframe",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalFenceFoundation_C",
+    "label": "Metal Fence Foundation",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_FenceSupport_Metal_C",
+    "label": "Metal Fence Support",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalFloor_C",
+    "label": "Metal Foundation",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalCeilingWithTrapdoor_C",
+    "label": "Metal Hatchframe",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_PipeFlex_Metal_C",
+    "label": "Metal Irrigation Pipe - Flexible",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalPipeIncline_C",
+    "label": "Metal Irrigation Pipe - Inclined",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalPipeIntake_C",
+    "label": "Metal Irrigation Pipe - Intake",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalPipeIntersection_C",
+    "label": "Metal Irrigation Pipe - Intersection",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalPipeStraight_C",
+    "label": "Metal Irrigation Pipe - Straight",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalPipeTap_C",
+    "label": "Metal Irrigation Pipe - Tap",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalPipeVertical_C",
+    "label": "Metal Irrigation Pipe - Vertical",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalLadder_C",
+    "label": "Metal Ladder",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_OceanPlatformMetal_C",
+    "label": "Metal Ocean Platform",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalPillar_C",
+    "label": "Metal Pillar",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalRailing_C",
+    "label": "Metal Railing",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalRamp_C",
+    "label": "Metal Ramp",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalSign_C",
+    "label": "Metal Sign",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalSpikeWall_C",
+    "label": "Metal Spike Wall",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalStairs_C",
+    "label": "Metal Staircase",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_Ramp_Metal_C",
+    "label": "Metal Stairs",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalTrapdoor_C",
+    "label": "Metal Trapdoor",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_TreePlatformMetal_C",
+    "label": "Metal Tree Platform",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_TriCeiling_Metal_C",
+    "label": "Metal Triangle Ceiling",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_TriFoundation_Metal_C",
+    "label": "Metal Triangle Foundation",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_TriRoof_Metal_C",
+    "label": "Metal Triangle Roof",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalWall_C",
+    "label": "Metal Wall",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalSign_Wall_C",
+    "label": "Metal Wall Sign",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_WaterTankMetal_C",
+    "label": "Metal Water Reservoir",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalWindow_C",
+    "label": "Metal Window",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalWallWithWindow_C",
+    "label": "Metal Windowframe",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_Mirror_C",
+    "label": "Mirror",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalRoof_C",
+    "label": "Sloped Metal Roof",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalSlopedWall_Left_C",
+    "label": "Sloped Metal Wall Left",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_MetalSlopedWall_Right_C",
+    "label": "Sloped Metal Wall Right",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_ElevatorPlatformSmall_C",
+    "label": "Small Elevator Platform",
+    "category": "structures_metal"
+  },
+  {
+    "value": "EngramEntry_StoneGateLarge_C",
+    "label": "Behemoth Reinforced Dinosaur Gate",
+    "category": "structures_stone"
+  },
+  {
+    "value": "EngramEntry_StoneGateway_Large_C",
+    "label": "Behemoth Stone Dinosaur Gateway",
+    "category": "structures_stone"
+  },
+  {
+    "value": "EngramEntry_StoneTrapdoorGiant_C",
+    "label": "Giant Reinforced Trapdoor",
+    "category": "structures_stone"
+  },
+  {
+    "value": "EngramEntry_StoneCeilingWithTrapdoorGiant_C",
+    "label": "Giant Stone Hatchframe",
+    "category": "structures_stone"
+  },
+  {
+    "value": "EngramEntry_LargeWall_Stone_C",
+    "label": "Large Stone Wall",
+    "category": "structures_stone"
+  },
+  {
+    "value": "EngramEntry_StoneGate_C",
+    "label": "Reinforced Dinosaur Gate",
+    "category": "structures_stone"
+  },
+  {
+    "value": "EngramEntry_DoubleDoor_Stone_C",
+    "label": "Reinforced Double Door",
+    "category": "structures_stone"
+  },
+  {
+    "value": "EngramEntry_StoneTrapdoor_C",
+    "label": "Reinforced Trapdoor",
+    "category": "structures_stone"
+  },
+  {
+    "value": "EngramEntry_StoneWindow_C",
+    "label": "Reinforced Window",
+    "category": "structures_stone"
+  },
+  {
+    "value": "EngramEntry_StoneDoor_C",
+    "label": "Reinforced Wooden Door",
+    "category": "structures_stone"
+  },
+  {
+    "value": "EngramEntry_StoneRoof_C",
+    "label": "Sloped Stone Roof",
+    "category": "structures_stone"
+  },
+  {
+    "value": "EngramEntry_StoneSlopedWall_Left_C",
+    "label": "Sloped Stone Wall Left",
+    "category": "structures_stone"
+  },
+  {
+    "value": "EngramEntry_StoneSlopedWall_Right_C",
+    "label": "Sloped Stone Wall Right",
+    "category": "structures_stone"
+  },
+  {
+    "value": "EngramEntry_StoneCeiling_C",
+    "label": "Stone Ceiling",
+    "category": "structures_stone"
+  },
+  {
+    "value": "EngramEntry_StoneWallWithDoor_C",
+    "label": "Stone Doorframe",
+    "category": "structures_stone"
+  },
+  {
+    "value": "EngramEntry_StoneFenceFoundation_C",
+    "label": "Stone Fence Foundation",
+    "category": "structures_stone"
+  },
+  {
+    "value": "EngramEntry_FenceSupport_Stone_C",
+    "label": "Stone Fence Support",
+    "category": "structures_stone"
+  },
+  {
+    "value": "EngramEntry_StoneFloor_C",
+    "label": "Stone Foundation",
+    "category": "structures_stone"
+  },
+  {
+    "value": "EngramEntry_StonePillar_C",
+    "label": "Stone Pillar",
+    "category": "structures_stone"
+  },
+  {
+    "value": "EngramEntry_StoneRailing_C",
+    "label": "Stone Railing",
+    "category": "structures_stone"
+  },
+  {
+    "value": "EngramEntry_Ramp_Stone_C",
+    "label": "Stone Staircase",
+    "category": "structures_stone"
+  },
+  {
+    "value": "EngramEntry_TriCeiling_Stone_C",
+    "label": "Stone Triangle Ceiling",
+    "category": "structures_stone"
+  },
+  {
+    "value": "EngramEntry_TriFoundation_Stone_C",
+    "label": "Stone Triangle Foundation",
+    "category": "structures_stone"
+  },
+  {
+    "value": "EngramEntry_TriRoof_Stone_C",
+    "label": "Stone Triangle Roof",
+    "category": "structures_stone"
+  },
+  {
+    "value": "EngramEntry_StoneWall_C",
+    "label": "Stone Wall",
+    "category": "structures_stone"
+  },
+  {
+    "value": "EngramEntry_StoneWallWithWindow_C",
+    "label": "Stone Windowframe",
+    "category": "structures_stone"
+  },
+  {
+    "value": "EngramEntry_ThatchRoof_C",
+    "label": "Sloped Thatch Roof",
+    "category": "structures_thatch"
+  },
+  {
+    "value": "EngramEntry_ThatchSlopedWall_left_C",
+    "label": "Sloped Thatch Wall Left",
+    "category": "structures_thatch"
+  },
+  {
+    "value": "EngramEntry_ThatchSlopedWall_Right_C",
+    "label": "Sloped Thatch Wall Right",
+    "category": "structures_thatch"
+  },
+  {
+    "value": "EngramEntry_ThatchCeiling_C",
+    "label": "Thatch Ceiling",
+    "category": "structures_thatch"
+  },
+  {
+    "value": "EngramEntry_ThatchDoor_C",
+    "label": "Thatch Door",
+    "category": "structures_thatch"
+  },
+  {
+    "value": "EngramEntry_ThatchWallWithDoor_C",
+    "label": "Thatch Doorframe",
+    "category": "structures_thatch"
+  },
+  {
+    "value": "EngramEntry_ThatchFloor_C",
+    "label": "Thatch Foundation",
+    "category": "structures_thatch"
+  },
+  {
+    "value": "EngramEntry_ThatchWall_C",
+    "label": "Thatch Wall",
+    "category": "structures_thatch"
+  },
+  {
+    "value": "EngramEntry_WoodGate_Large_C",
+    "label": "Behemoth Wooden Gate",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_WoodGate_C",
+    "label": "Dinosaur Gate",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_WoodGateway_C",
+    "label": "Dinosaur Gateway",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_WoodElevatorPlatform_Large_C",
+    "label": "Large Wood Elevator Platform",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_LargeWall_Wood_C",
+    "label": "Large Wooden Wall",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_WoodElevatorPlatform_Medium_C",
+    "label": "Medium Wood Elevator Platform",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_PortableRopeLadder_C",
+    "label": "Portable Rope Ladder",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_RopeLadder_C",
+    "label": "Rope Ladder",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_WoodSlopedWall_Left_C",
+    "label": "Sloped Wood Wall Left",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_WoodSlopedWall_Right_C",
+    "label": "Sloped Wood Wall Right",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_WoodRoof_C",
+    "label": "Sloped Wooden Roof",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_WoodCatwalk_C",
+    "label": "Wooden Catwalk",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_WoodCeiling_C",
+    "label": "Wooden Ceiling",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_WoodDoor_C",
+    "label": "Wooden Door",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_WoodWallWithDoor_C",
+    "label": "Wooden Doorframe",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_WoodFenceFoundation_C",
+    "label": "Wooden Fence Foundation",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_FenceSupport_Wood_C",
+    "label": "Wooden Fence Support",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_WoodFloor_C",
+    "label": "Wooden Foundation",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_WoodCeilingWithTrapdoor_C",
+    "label": "Wooden Hatchframe",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_WoodLadder_C",
+    "label": "Wooden Ladder",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_WoodPillar_C",
+    "label": "Wooden Pillar",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_WoodRailing_C",
+    "label": "Wooden Railing",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_WoodRamp_C",
+    "label": "Wooden Ramp",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_WoodSign_C",
+    "label": "Wooden Sign",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_WoodStairs_C",
+    "label": "Wooden Stairs",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_WoodTrapdoor_C",
+    "label": "Wooden Trapdoor",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_TriCeiling_Wood_C",
+    "label": "Wooden Triangle Ceiling",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_TriFoundation_Wood_C",
+    "label": "Wooden Triangle Foundation",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_TriRoof_Wood_C",
+    "label": "Wooden Triangle Roof",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_WoodWall_C",
+    "label": "Wooden Wall",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_WoodWindow_C",
+    "label": "Wooden Window",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_WoodWallWithWindow_C",
+    "label": "Wooden Windowframe",
+    "category": "structures_wood"
+  },
+  {
+    "value": "EngramEntry_TekSpaceWhaleSaddle_C",
+    "label": "Astrocetus Tek Saddle",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_Tek_Gate_Large_C",
+    "label": "Behemoth Tek Gate",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_Tek_Gategrame_Large_C",
+    "label": "Behemoth Tek Gateway",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekCloningChamber_C",
+    "label": "Cloning Chamber",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_LargeWall_Tek_C",
+    "label": "Large Tek Wall",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_MekBackpack_Shield_C",
+    "label": "M.D.S.M.",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_MekBackpack_Missiles_C",
+    "label": "M.R.L.M.",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_MekBackpack_Cannon_C",
+    "label": "M.S.C.M.",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekMegalodonSaddle_C",
+    "label": "Megalodon Tek Saddle",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekMosaSaddle_C",
+    "label": "Mosasaur Tek Saddle",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekRexSaddle_C",
+    "label": "Rex Tek Saddle",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekRockDrakeSaddle_C",
+    "label": "Rock Drake Tek Saddle",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_MekRocketPod_C",
+    "label": "Rocket Pod",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekRoof_C",
+    "label": "Sloped Tek Roof",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekSlopedWall_Left_C",
+    "label": "Sloped Tek Wall Left",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekSlopedWall_Right_C",
+    "label": "Sloped Tek Wall Right",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekTapejaraSaddle_C",
+    "label": "Tapejara Tek Saddle",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekBridge_C",
+    "label": "Tek Bridge",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekCatwalk_C",
+    "label": "Tek Catwalk",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekCeiling_C",
+    "label": "Tek Ceiling",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekDoor_C",
+    "label": "Tek Door",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekWallWithDoor_C",
+    "label": "Tek Doorframe",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_DoubleDoor_Tek_C",
+    "label": "Tek Double Door",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_DoubleDoorframe_Tek_C",
+    "label": "Tek Double Doorframe",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekFenceFoundation_C",
+    "label": "Tek Fence Foundation",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_FenceSupport_Tek_C",
+    "label": "Tek Fence Support",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekShield_C",
+    "label": "Tek Forcefield",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekFloor_C",
+    "label": "Tek Foundation",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekGenerator_C",
+    "label": "Tek Generator",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekGrenade_C",
+    "label": "Tek Grenade",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekCeilingWithTrapdoor_C",
+    "label": "Tek Hatchframe",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekHelmet_C",
+    "label": "Tek Helmet",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekHoverSkiff_C",
+    "label": "Tek Hover Skiff",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekJumpPad_C",
+    "label": "Tek Jump Pad",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekLadder_C",
+    "label": "Tek Ladder",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekLight_C",
+    "label": "Tek Light",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekPillar_C",
+    "label": "Tek Pillar",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekPistol_C",
+    "label": "Tek Pistol",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekRailing_C",
+    "label": "Tek Railing",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekRamp_C",
+    "label": "Tek Ramp",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekReplicator_C",
+    "label": "Tek Replicator",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekRifle_C",
+    "label": "Tek Rifle",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekSensor_C",
+    "label": "Tek Sensor",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekSleepingPod_C",
+    "label": "Tek Sleeping Pod",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekStairs_C",
+    "label": "Tek Stairs",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekSword_C",
+    "label": "Tek Sword",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekTeleporter_C",
+    "label": "Tek Teleporter",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekTransmitter_C",
+    "label": "Tek Transmitter",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekTrapdoor_C",
+    "label": "Tek Trapdoor",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TriCeiling_Tek_C",
+    "label": "Tek Triangle Ceiling",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TriFoundation_Tek_C",
+    "label": "Tek Triangle Foundation",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TriRoof_Tek_C",
+    "label": "Tek Triangle Roof",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekTrough_C",
+    "label": "Tek Trough",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekTurret_C",
+    "label": "Tek Turret",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekWall_C",
+    "label": "Tek Wall",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekWindow_C",
+    "label": "Tek Window",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_TekWallWithWindow_C",
+    "label": "Tek Windowframe",
+    "category": "tek"
+  },
+  {
+    "value": "EngramEntry_BearTrap_C",
+    "label": "Bear Trap",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_BloodExtractor_C",
+    "label": "Blood Extraction Syringe",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_Camera_C",
+    "label": "Camera",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_Canteen_C",
+    "label": "Canteen",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_ChainSaw_C",
+    "label": "Chainsaw",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_ChargeLantern_C",
+    "label": "Charge Lantern",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_ClimbingPick_C",
+    "label": "Climbing Pick",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_Compass_C",
+    "label": "Compass",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_DinoLeash_C",
+    "label": "Dino Leash",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_FishingNet_C",
+    "label": "Fish Net",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_FishingRod_C",
+    "label": "Fishing Rod",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_Flashlight_C",
+    "label": "Flashlight Attachment",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_Glider_C",
+    "label": "Glider Suit Skin",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_Glowstick_C",
+    "label": "Glow Stick",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_GPS_C",
+    "label": "GPS",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_GrapplingHook_C",
+    "label": "Grappling Hook",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_Handcuffs_C",
+    "label": "Handcuffs",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_MinersHelmet_C",
+    "label": "Heavy Miner's Helmet",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_HoloScope_C",
+    "label": "Holo-Scope Attachment",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_BearTrap_Large_C",
+    "label": "Large Bear Trap",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_Laser_C",
+    "label": "Laser Attachment",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_MagnifyingGlass_C",
+    "label": "Magnifying Glass",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_MetalHatchet_C",
+    "label": "Metal Hatchet",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_MetalPick_C",
+    "label": "Metal Pick",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_MetalSickle_C",
+    "label": "Metal Sickle",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_MiningDrill_C",
+    "label": "Mining Drill",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_NightVisionGoggles_C",
+    "label": "Night Vision Goggles",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_Paintbrush_C",
+    "label": "Paintbrush",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_Parachute_C",
+    "label": "Parachute",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_Pliers_C",
+    "label": "Pliers",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_Scissors_C",
+    "label": "Scissors",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_Scope_C",
+    "label": "Scope Attachment",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_Silencer_C",
+    "label": "Silencer Attachment",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_Binoculars_C",
+    "label": "Spyglass",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_StoneHatchet_C",
+    "label": "Stone Hatchet",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_StonePick_C",
+    "label": "Stone Pick",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_Torch_C",
+    "label": "Torch",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_Whip_C",
+    "label": "Whip",
+    "category": "tools"
+  },
+  {
+    "value": "EngramEntry_Canoe_C",
+    "label": "Canoe",
+    "category": "vehicles"
+  },
+  {
+    "value": "EngramEntry_Motorboat_C",
+    "label": "Motorboat",
+    "category": "vehicles"
+  },
+  {
+    "value": "EngramEntry_WoodRaft_C",
+    "label": "Raft",
+    "category": "vehicles"
+  },
+  {
+    "value": "EngramEntry_MachinedRifle_C",
+    "label": "Assault Rifle",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_Bola_C",
+    "label": "Bola",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_Boomerang_C",
+    "label": "Boomerang",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_Bow_C",
+    "label": "Bow",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_WeaponC4_C",
+    "label": "C4 Remote Detonator",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_Cannon_C",
+    "label": "Cannon",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_ChainBola_C",
+    "label": "Chain Bola",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_ClusterGrenade_C",
+    "label": "Cluster Grenade",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_CompoundBow_C",
+    "label": "Compound Bow",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_Crossbow_C",
+    "label": "Crossbow",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_ElectricProd_C",
+    "label": "Electric Prod",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_MachinedPistol_C",
+    "label": "Fabricated Pistol",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_MachinedSniper_C",
+    "label": "Fabricated Sniper Rifle",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_Flamethrower_C",
+    "label": "Flamethrower",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_FlareLauncher_C",
+    "label": "Flare Gun",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_Grenade_C",
+    "label": "Grenade",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_HarpoonGun_C",
+    "label": "Harpoon Launcher",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_TripwireC4_C",
+    "label": "Improvised Explosive Device",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_Lance_C",
+    "label": "Lance",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_SimpleRifle_C",
+    "label": "Longneck Rifle",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_Minigun_C",
+    "label": "Minigun",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_Pike_C",
+    "label": "Pike",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_PoisonGrenade_C",
+    "label": "Poison Grenade",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_MachinedShotgun_C",
+    "label": "Pump-Action Shotgun",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_RocketLauncher_C",
+    "label": "Rocket Launcher",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_SimpleShotgun_C",
+    "label": "Shotgun",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_Pistol_C",
+    "label": "Simple Pistol",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_Slingshot_C",
+    "label": "Slingshot",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_Spear_C",
+    "label": "Spear",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_Sword_C",
+    "label": "Sword",
+    "category": "weapons"
+  },
+  {
+    "value": "EngramEntry_StoneClub_C",
+    "label": "Wooden Club",
+    "category": "weapons"
+  }
+]

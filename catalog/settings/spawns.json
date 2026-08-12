@@ -1,0 +1,42 @@
+[
+  {
+    "id": "dino_spawn_weight_multipliers",
+    "key": "DinoSpawnWeightMultipliers",
+    "category": "spawns",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "struct_collection",
+      "default": [],
+      "fields": [
+        { "name": "DinoNameTag", "type": "string", "required": true, "suggestions": "dino_name_tags" },
+        { "name": "SpawnWeightMultiplier", "type": "float", "default": 1.0 },
+        { "name": "OverrideSpawnLimitPercentage", "type": "boolean", "default": false },
+        { "name": "SpawnLimitPercentage", "type": "float", "default": 0.0 }
+      ]
+    },
+    "i18nKey": "settings.spawns.dino_spawn_weight"
+  },
+  {
+    "id": "npc_replacements",
+    "key": "NPCReplacements",
+    "category": "spawns",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "struct_collection",
+      "default": [],
+      "fields": [
+        { "name": "FromClassName", "type": "string", "required": true, "suggestions": "dinos" },
+        { "name": "ToClassName", "type": "string", "required": true, "suggestions": "dinos" }
+      ]
+    },
+    "i18nKey": "settings.spawns.npc_replacements"
+  }
+]

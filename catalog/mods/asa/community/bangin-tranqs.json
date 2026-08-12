@@ -1,0 +1,44 @@
+{
+  "modId": "BanginTranqs",
+  "name": "Bangin' Tranqs",
+  "game": "asa",
+  "source": "community",
+  "settings": [
+    {
+      "id": "bt_tier1_effect",
+      "key": "Tier1Effect",
+      "category": "mod_bangin_tranqs",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "BanginTranqs",
+      "games": ["asa"],
+      "validIn": ["single_player", "host_local", "dedicated"],
+      "control": { "kind": "integer", "default": 5, "min": 1, "max": 1000, "step": 1 },
+      "i18nKey": "mods.bangin_tranqs.tier1_effect"
+    },
+    {
+      "id": "bt_tier2_effect",
+      "key": "Tier2Effect",
+      "category": "mod_bangin_tranqs",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "BanginTranqs",
+      "games": ["asa"],
+      "validIn": ["single_player", "host_local", "dedicated"],
+      "control": { "kind": "integer", "default": 25, "min": 1, "max": 5000, "step": 1 },
+      "i18nKey": "mods.bangin_tranqs.tier2_effect"
+    },
+    {
+      "id": "bt_tier3_effect",
+      "key": "Tier3Effect",
+      "category": "mod_bangin_tranqs",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "BanginTranqs",
+      "games": ["asa"],
+      "validIn": ["single_player", "host_local", "dedicated"],
+      "control": { "kind": "integer", "default": 125, "min": 1, "max": 50000, "step": 1 },
+      "i18nKey": "mods.bangin_tranqs.tier3_effect"
+    }
+  ]
+}

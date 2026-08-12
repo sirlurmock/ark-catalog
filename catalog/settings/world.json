@@ -1,0 +1,250 @@
+[
+  {
+    "id": "resources_respawn_period_multiplier",
+    "key": "ResourcesRespawnPeriodMultiplier",
+    "category": "world",
+    "tier": "basic",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.01,
+      "max": 10,
+      "presets": [1, 0.5, 0.1, 0.05],
+      "inverseSemantics": true
+    },
+    "i18nKey": "settings.world.resources_respawn",
+    "summaryTemplate": "summary.world.resources_respawn"
+  },
+  {
+    "id": "harvest_health_multiplier",
+    "key": "HarvestHealthMultiplier",
+    "category": "world",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 10,
+      "presets": [1, 2, 3, 5]
+    },
+    "i18nKey": "settings.world.harvest_health"
+  },
+  {
+    "id": "day_time_speed_scale",
+    "key": "DayTimeSpeedScale",
+    "category": "world",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 10,
+      "presets": [1, 0.5, 2, 3],
+      "inverseSemantics": true
+    },
+    "i18nKey": "settings.world.day_time_speed"
+  },
+  {
+    "id": "night_time_speed_scale",
+    "key": "NightTimeSpeedScale",
+    "category": "world",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 10,
+      "presets": [1, 0.5, 2, 5, 10],
+      "inverseSemantics": true
+    },
+    "i18nKey": "settings.world.night_time_speed"
+  },
+  {
+    "id": "crop_growth_speed_multiplier",
+    "key": "CropGrowthSpeedMultiplier",
+    "category": "world",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 10,
+      "presets": [1, 2, 5]
+    },
+    "i18nKey": "settings.world.crop_growth"
+  },
+  {
+    "id": "disable_weather_fog",
+    "key": "bDisableWeatherFog",
+    "category": "world",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.world.disable_weather_fog"
+  },
+  {
+    "id": "allow_cave_building_pve",
+    "key": "AllowCaveBuildingPvE",
+    "category": "world",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.world.allow_cave_building_pve"
+  },
+  {
+    "id": "enable_extra_structure_prevention_volumes",
+    "key": "EnableExtraStructurePreventionVolumes",
+    "category": "world",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.world.enable_extra_structure_prevention_volumes"
+  },
+  {
+    "id": "force_all_structure_locking",
+    "key": "ForceAllStructureLocking",
+    "category": "world",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.world.force_all_structure_locking"
+  },
+  {
+    "id": "poop_interval_multiplier",
+    "key": "PoopIntervalMultiplier",
+    "category": "world",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 10,
+      "presets": [1, 0.5, 0.25, 2, 5],
+      "inverseSemantics": true
+    },
+    "i18nKey": "settings.world.poop_interval"
+  },
+  {
+    "id": "crop_decay_speed_multiplier",
+    "key": "CropDecaySpeedMultiplier",
+    "category": "world",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.0,
+      "max": 10,
+      "presets": [1, 0.5, 0.25, 0],
+      "inverseSemantics": true
+    },
+    "i18nKey": "settings.world.crop_decay_speed"
+  },
+  {
+    "id": "fuel_consumption_interval_multiplier",
+    "key": "FuelConsumptionIntervalMultiplier",
+    "category": "world",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 10,
+      "presets": [1, 2, 4, 10],
+      "inverseSemantics": true
+    },
+    "i18nKey": "settings.world.fuel_consumption_interval"
+  },
+  {
+    "id": "global_corpse_decomposition_time_multiplier",
+    "key": "GlobalCorpseDecompositionTimeMultiplier",
+    "category": "world",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 10,
+      "presets": [1, 2, 5, 10],
+      "inverseSemantics": true
+    },
+    "i18nKey": "settings.world.global_corpse_decomposition_time"
+  },
+  {
+    "id": "item_stack_size_multiplier",
+    "key": "ItemStackSizeMultiplier",
+    "category": "world",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 1.0,
+      "max": 100,
+      "presets": [1, 2, 5, 10, 20]
+    },
+    "i18nKey": "settings.world.item_stack_size"
+  }
+]

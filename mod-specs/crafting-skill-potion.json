@@ -1,0 +1,392 @@
+{
+  "_source": "Borrador de scrape-workshop-configs.mjs, revisado a mano contra la guía oficial del autor: https://steamcommunity.com/sharedfiles/filedetails/?id=2663125576 (linkeada desde la página de la mod, 2307661303).",
+  "_scope": "Las 24 claves, todas. Es la mod mejor documentada de las catalogadas hasta ahora: la guía trae descripción, default, mínimo y máximo de cada una.",
+  "_defaults": "La guía lo dice literal: 'if you choose to not modify these INI settings, the default settings listed below will be used'. Y además repite 'Default Value: X' por clave.",
+  "_rangos": "Los mínimos documentados son 0.0000001 en casi todos, que como tope de un slider no sirve de nada. Se usan mínimos utilizables (0.1 o 1) y se respeta el máximo del autor cuando es razonable; donde el máximo documentado es 1000 o 10000 se acota a un valor con el que el slider siga siendo usable, y el campo numérico permite el resto.",
+  "modId": "CraftingSkillPotion",
+  "name": "Crafting Skill Potion",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2307661303",
+  "prefix": "crafting_potion",
+  "settings": [
+    {
+      "key": "CraftingSkillDuration",
+      "kind": "integer",
+      "tier": "basic",
+      "default": 120,
+      "min": 1,
+      "max": 3600,
+      "step": 10,
+      "es": {
+        "label": "Duración del efecto (segundos)",
+        "description": "Cuánto dura el buff de habilidad de fabricación. Es el ajuste principal de la mod: durante ese tiempo todos tus puntos van a fabricación y no podés repartir puntos ni tomar un Mindwipe."
+      },
+      "en": {
+        "label": "Buff duration (seconds)",
+        "description": "How long the crafting skill buff lasts. The mod's main setting: for that time all your points go to crafting skill and you can't spend points or drink a Mindwipe."
+      }
+    },
+    {
+      "key": "EnablePotionCooldown",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Enfriamiento entre pociones",
+        "description": "Al terminarse el efecto, el jugador recibe un debuff que le impide tomar otra poción por un rato. Es el freno para que no se encadenen pociones sin parar."
+      },
+      "en": {
+        "label": "Potion cooldown",
+        "description": "When the buff ends the player gets a debuff preventing another potion for a while. The brake that stops potions being chained non-stop."
+      }
+    },
+    {
+      "key": "EnableCheatWeight",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Peso extra durante el efecto",
+        "description": "Mientras dura el buff el jugador recibe un bonus de peso para no quedar sobrecargado — al resetear los stats, el peso se va con ellos. La cantidad se ajusta abajo."
+      },
+      "en": {
+        "label": "Bonus weight during the buff",
+        "description": "While the buff is active the player gets a weight bonus so they don't end up encumbered — resetting stats takes weight with it. The amount is set below."
+      }
+    },
+    {
+      "key": "EnableManualDeactivation",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Permitir cancelar el efecto a mano",
+        "description": "El jugador puede sacarse el buff cuando quiera (menú radial con R) en vez de esperar a que se acabe el temporizador."
+      },
+      "en": {
+        "label": "Allow cancelling the buff manually",
+        "description": "The player can drop the buff whenever they like (radial menu with R) instead of waiting out the timer."
+      }
+    },
+    {
+      "key": "CraftingSkillCooldownDuration",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 60,
+      "min": 1,
+      "max": 3600,
+      "step": 10,
+      "es": {
+        "label": "Duración del enfriamiento (segundos)",
+        "description": "Cuánto hay que esperar antes de poder tomar otra poción. Solo tiene efecto con \"Enfriamiento entre pociones\" activado."
+      },
+      "en": {
+        "label": "Cooldown duration (seconds)",
+        "description": "How long before another potion can be drunk. Only applies with \"Potion cooldown\" enabled."
+      }
+    },
+    {
+      "key": "CraftingSkillCheatWeight",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 1000,
+      "min": 1,
+      "max": 10000,
+      "step": 50,
+      "es": {
+        "label": "Peso extra otorgado",
+        "description": "Cuánto peso recibe el jugador mientras dura el buff. Solo tiene efecto con \"Peso extra durante el efecto\" activado, y en ese caso pisa el multiplicador de peso de más abajo."
+      },
+      "en": {
+        "label": "Bonus weight granted",
+        "description": "How much weight the player gets while the buff lasts. Only applies with \"Bonus weight during the buff\" enabled, and it overrides the weight multiplier below."
+      }
+    },
+    {
+      "key": "EnableExtendBuffTime",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Permitir extender el efecto",
+        "description": "Deja tomar más pociones mientras el buff está activo, sumando tiempo al temporizador en vez de desperdiciarlas."
+      },
+      "en": {
+        "label": "Allow extending the buff",
+        "description": "Lets players drink more potions while the buff is active, adding to the timer instead of wasting them."
+      }
+    },
+    {
+      "key": "EnableCombatCheck",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "No restaurar stats en combate",
+        "description": "Al terminar el buff, los stats solo se restauran si el jugador no estuvo en combate hace poco. Cierra el hueco de usar la poción como reseteo de vida en medio de una pelea."
+      },
+      "en": {
+        "label": "Don't restore stats in combat",
+        "description": "When the buff ends, stats are only restored if the player hasn't been in combat recently. Closes the hole of using the potion as a mid-fight health reset."
+      }
+    },
+    {
+      "key": "CombatDuration",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 30,
+      "min": 1,
+      "max": 600,
+      "step": 5,
+      "es": {
+        "label": "Ventana de combate (segundos)",
+        "description": "Cuánto tiempo cuenta como \"recién estuvo en combate\". Combate es dar o recibir daño, de cualquier cantidad. Solo aplica con la comprobación de combate activada."
+      },
+      "en": {
+        "label": "Combat window (seconds)",
+        "description": "How long counts as \"was recently in combat\". Combat means dealing or taking any amount of damage. Only applies with the combat check enabled."
+      }
+    },
+    {
+      "key": "DisplayActivationMessage",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Avisar al tomar la poción",
+        "description": "Muestra una notificación arriba de la pantalla al consumir la poción, indicando cuántos puntos se aplicaron a fabricación."
+      },
+      "en": {
+        "label": "Notify when drinking the potion",
+        "description": "Shows a notification at the top of the screen on drinking, saying how many points went into crafting skill."
+      }
+    },
+    {
+      "key": "DisplayDeactivationMessage",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Avisar al terminarse el efecto",
+        "description": "Muestra una notificación cuando se acaba el buff, confirmando que tus stats originales volvieron y con cuántos niveles quedó cada uno."
+      },
+      "en": {
+        "label": "Notify when the buff expires",
+        "description": "Shows a notification when the buff ends, confirming your original stats came back and how many levels each ended up with."
+      }
+    },
+    {
+      "key": "ActivationMessageDisplayTime",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 5,
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "es": {
+        "label": "Duración del aviso de activación (segundos)",
+        "description": "Cuánto queda en pantalla la notificación de activación. Solo aplica si ese aviso está encendido. El autor lo acota entre 1 y 10."
+      },
+      "en": {
+        "label": "Activation notice duration (seconds)",
+        "description": "How long the activation notification stays on screen. Only applies if that notice is on. The author clamps it between 1 and 10."
+      }
+    },
+    {
+      "key": "DeactivationMessageDisplayTime",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 5,
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "es": {
+        "label": "Duración del aviso de fin (segundos)",
+        "description": "Cuánto queda en pantalla la notificación de que se acabó el efecto. Solo aplica si ese aviso está encendido. El autor lo acota entre 1 y 10."
+      },
+      "en": {
+        "label": "Expiry notice duration (seconds)",
+        "description": "How long the buff-expired notification stays on screen. Only applies if that notice is on. The author clamps it between 1 and 10."
+      }
+    },
+    {
+      "key": "EnableRestoreHealth",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Restaurar la vida al terminar",
+        "description": "Al acabarse el buff, la vida vuelve al valor que tenía antes de tomar la poción. Sin esto, resetear los stats puede dejarte con menos vida de la que tenías."
+      },
+      "en": {
+        "label": "Restore health when it ends",
+        "description": "When the buff ends, health returns to what it was before the potion. Without this, resetting stats can leave you with less health than you had."
+      }
+    },
+    {
+      "key": "EnableRestoreStamina",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Restaurar la estamina al terminar",
+        "description": "Al acabarse el buff, la estamina vuelve al valor que tenía antes de tomar la poción."
+      },
+      "en": {
+        "label": "Restore stamina when it ends",
+        "description": "When the buff ends, stamina returns to what it was before the potion."
+      }
+    },
+    {
+      "key": "EnableRestoreOxygen",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Restaurar el oxígeno al terminar",
+        "description": "Al acabarse el buff, el oxígeno vuelve al valor que tenía antes de tomar la poción."
+      },
+      "en": {
+        "label": "Restore oxygen when it ends",
+        "description": "When the buff ends, oxygen returns to what it was before the potion."
+      }
+    },
+    {
+      "key": "EnableRestoreFood",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Restaurar la comida al terminar",
+        "description": "Al acabarse el buff, la comida vuelve al valor que tenía antes de tomar la poción."
+      },
+      "en": {
+        "label": "Restore food when it ends",
+        "description": "When the buff ends, food returns to what it was before the potion."
+      }
+    },
+    {
+      "key": "EnableRestoreWater",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Restaurar el agua al terminar",
+        "description": "Al acabarse el buff, el agua vuelve al valor que tenía antes de tomar la poción."
+      },
+      "en": {
+        "label": "Restore water when it ends",
+        "description": "When the buff ends, water returns to what it was before the potion."
+      }
+    },
+    {
+      "key": "BaseStatMultiplierHealth",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 1,
+      "min": 0.1,
+      "max": 20,
+      "step": 0.1,
+      "presets": [1, 2, 5],
+      "es": {
+        "label": "Multiplicador de vida base durante el efecto",
+        "description": "Mientras dura el buff los stats se resetean a los valores base de ARK. Esto escala la vida base: 1 = 100 de vida, 2 = 200."
+      },
+      "en": {
+        "label": "Base health multiplier during the buff",
+        "description": "While the buff lasts stats reset to ARK's base values. This scales base health: 1 = 100 health, 2 = 200."
+      }
+    },
+    {
+      "key": "BaseStatMultiplierStamina",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 1,
+      "min": 0.1,
+      "max": 20,
+      "step": 0.1,
+      "presets": [1, 2, 5],
+      "es": {
+        "label": "Multiplicador de estamina base durante el efecto",
+        "description": "Escala la estamina base mientras dura el buff: 1 = 100 de estamina, 2 = 200."
+      },
+      "en": {
+        "label": "Base stamina multiplier during the buff",
+        "description": "Scales base stamina while the buff lasts: 1 = 100 stamina, 2 = 200."
+      }
+    },
+    {
+      "key": "BaseStatMultiplierOxygen",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 1,
+      "min": 0.1,
+      "max": 20,
+      "step": 0.1,
+      "presets": [1, 2, 5],
+      "es": {
+        "label": "Multiplicador de oxígeno base durante el efecto",
+        "description": "Escala el oxígeno base mientras dura el buff: 1 = 100 de oxígeno, 2 = 200."
+      },
+      "en": {
+        "label": "Base oxygen multiplier during the buff",
+        "description": "Scales base oxygen while the buff lasts: 1 = 100 oxygen, 2 = 200."
+      }
+    },
+    {
+      "key": "BaseStatMultiplierFood",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 1,
+      "min": 0.1,
+      "max": 20,
+      "step": 0.1,
+      "presets": [1, 2, 5],
+      "es": {
+        "label": "Multiplicador de comida base durante el efecto",
+        "description": "Escala la comida base mientras dura el buff: 1 = 100 de comida, 2 = 200."
+      },
+      "en": {
+        "label": "Base food multiplier during the buff",
+        "description": "Scales base food while the buff lasts: 1 = 100 food, 2 = 200."
+      }
+    },
+    {
+      "key": "BaseStatMultiplierWater",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 1,
+      "min": 0.1,
+      "max": 20,
+      "step": 0.1,
+      "presets": [1, 2, 5],
+      "es": {
+        "label": "Multiplicador de agua base durante el efecto",
+        "description": "Escala el agua base mientras dura el buff: 1 = 100 de agua, 2 = 200."
+      },
+      "en": {
+        "label": "Base water multiplier during the buff",
+        "description": "Scales base water while the buff lasts: 1 = 100 water, 2 = 200."
+      }
+    },
+    {
+      "key": "BaseStatMultiplierWeight",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 1,
+      "min": 0.1,
+      "max": 20,
+      "step": 0.1,
+      "presets": [1, 2, 5],
+      "es": {
+        "label": "Multiplicador de peso base durante el efecto",
+        "description": "Escala el peso base mientras dura el buff: 1 = 100 de peso, 2 = 200. Si activaste \"Peso extra durante el efecto\", ese ajuste pisa a este."
+      },
+      "en": {
+        "label": "Base weight multiplier during the buff",
+        "description": "Scales base weight while the buff lasts: 1 = 100 weight, 2 = 200. If \"Bonus weight during the buff\" is on, that setting overrides this one."
+      }
+    }
+  ]
+}

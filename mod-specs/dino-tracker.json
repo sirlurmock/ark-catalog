@@ -1,0 +1,97 @@
+{
+  "_source": "Borrador de scrape-workshop-configs.mjs, revisado a mano contra la descripción del Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=924933745",
+  "_scope": "Las 6 claves que documenta el autor. Todas son toggles para apagar funciones del rastreador; el mod no expone nada numérico.",
+  "_defaults": "OJO: el bloque de ejemplo del Workshop está TODO en true, pero es la receta de 'si solo querés encontrar tus dinos de tribu, desactivá el resto'. El default real de cada función es estar activa, o sea Disable*=false.",
+  "modId": "DinoTracker",
+  "name": "Dino Tracker",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=924933745",
+  "prefix": "dino_tracker",
+  "settings": [
+    {
+      "key": "DisableWildTracking",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Desactivar el rastreo de dinos salvajes",
+        "description": "Apaga la búsqueda de dinos salvajes, que de todos modos solo alcanza a los que están en rango de renderizado. Es lo primero que se saca en servidores donde encontrar el bicho es parte del juego."
+      },
+      "en": {
+        "label": "Disable wild dino tracking",
+        "description": "Turns off wild dino search, which only ever reaches dinos within render range anyway. The first thing to remove on servers where finding the creature is part of the game."
+      }
+    },
+    {
+      "key": "DisableTribememberTracking",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Desactivar el rastreo de miembros de tribu",
+        "description": "Apaga la flecha hacia los compañeros de tribu. De base los encuentra incluso desconectados, lo que en PvP revela dónde está la base."
+      },
+      "en": {
+        "label": "Disable tribe member tracking",
+        "description": "Turns off the pointer to tribemates. By default it finds them even while offline, which in PvP gives away where the base is."
+      }
+    },
+    {
+      "key": "DisableAllyTracking",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Desactivar el rastreo de aliados",
+        "description": "Apaga el rastreo de jugadores de tribus aliadas. Útil si las alianzas de tu servidor son de conveniencia y no querés que se conviertan en un radar mutuo."
+      },
+      "en": {
+        "label": "Disable ally tracking",
+        "description": "Turns off tracking of allied tribe players. Useful when alliances on your server are ones of convenience and shouldn't double as a shared radar."
+      }
+    },
+    {
+      "key": "DisableDeathTracking",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Desactivar el rastreo del punto de muerte",
+        "description": "Quita la marca hacia el lugar donde moriste. Sin esto, recuperar el cuerpo deja de ser automático."
+      },
+      "en": {
+        "label": "Disable death point tracking",
+        "description": "Removes the marker pointing at where you died. Without it, corpse recovery stops being automatic."
+      }
+    },
+    {
+      "key": "DisableWildFindButton",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Ocultar el botón de buscar salvajes",
+        "description": "Saca el botón de la interfaz sin tocar el resto del rastreador. Sirve para dejar la UI limpia cuando ya desactivaste el rastreo de salvajes."
+      },
+      "en": {
+        "label": "Hide the find-wild button",
+        "description": "Removes the button from the UI without touching the rest of the tracker. Handy to keep the UI clean once wild tracking is already off."
+      }
+    },
+    {
+      "key": "DisableWildCoordinates",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Ocultar las coordenadas de los salvajes",
+        "description": "El rastreador sigue apuntando al dino salvaje pero deja de mostrar sus coordenadas exactas. Término medio entre tenerlo todo y apagar el rastreo entero."
+      },
+      "en": {
+        "label": "Hide wild dino coordinates",
+        "description": "The tracker still points at the wild dino but stops showing its exact coordinates. A middle ground between full info and disabling tracking outright."
+      }
+    }
+  ]
+}

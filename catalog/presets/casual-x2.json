@@ -1,0 +1,32 @@
+{
+  "id": "casual-x2",
+  "i18nKey": "presets.casual_x2",
+  "kind": "macro_speed",
+  "order": 10,
+  "settingValues": {
+    "xp_multiplier": 2.0,
+    "harvest_amount_multiplier": 2.0,
+    "harvest_health_multiplier": 0.7,
+    "taming_speed_multiplier": 2.0,
+    "fishing_loot_quality_multiplier": 1.5,
+    "weapon_damage_multiplier": 1.0,
+    "resources_respawn_period_multiplier": 0.5,
+    "egg_hatch_speed_multiplier": 2.0,
+    "baby_mature_speed_multiplier": 2.0,
+    "baby_cuddle_interval_multiplier": 0.5,
+    "baby_imprint_amount_multiplier": 2.0,
+    "mating_interval_multiplier": 0.5,
+    "lay_egg_interval_multiplier": 0.5,
+    "player_water_drain_multiplier": 0.5,
+    "player_food_drain_multiplier": 0.5,
+    "player_stamina_drain_multiplier": 0.5,
+    "day_time_speed_scale": 1.0,
+    "night_time_speed_scale": 2.0,
+    "crop_growth_speed_multiplier": 2.0,
+    "dino_count_multiplier": 1.2,
+    "dino_damage_multiplier": 1.0,
+    "dino_resistance_multiplier": 1.0,
+    "structure_damage_multiplier": 1.0,
+    "structure_resistance_multiplier": 1.0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_source": "Borrador de scrape-workshop-configs.mjs, revisado a mano contra la descripción del Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=566887000",
+  "_scope": "La mod expone UNA sola clave. El borrador del scraper traía una segunda, `ModID`, que es un falso positivo: viene de la línea de prosa 'ModID= 566887000' de la descripción, no de la sección del .ini.",
+  "_defaults": "El autor dice 'Default or unset will be 10000 range, roughly 50 floors'.",
+  "modId": "JoanPetFind",
+  "name": "Pet Finder",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=566887000",
+  "prefix": "pet_finder",
+  "settings": [
+    {
+      "key": "BedPreventRange",
+      "kind": "integer",
+      "tier": "basic",
+      "default": 10000,
+      "min": 0,
+      "max": 50000,
+      "step": 500,
+      "es": {
+        "label": "Radio en el que no busca cerca de camas",
+        "description": "El buscador ignora a los dinos que estén a menos de esta distancia de una cama de tu tribu, para no marcarte todos los de tu base. 10000 son unos 50 cimientos. Bajarlo permite encontrar dinos más cerca de casa. El autor avisa de no tocarlo si no sabés qué estás haciendo."
+      },
+      "en": {
+        "label": "Bed exclusion radius",
+        "description": "The finder ignores dinos within this distance of one of your tribe's beds, so it doesn't flag every dino at your base. 10000 is roughly 50 foundations. Lowering it lets you find dinos closer to home. The author advises leaving it alone unless you know what you're doing."
+      }
+    }
+  ]
+}

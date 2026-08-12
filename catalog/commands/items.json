@@ -1,0 +1,242 @@
+[
+  {
+    "id": "gfi",
+    "category": "items",
+    "i18nKey": "commands.items.gfi.label",
+    "descriptionI18nKey": "commands.items.gfi.description",
+    "template": "GFI {keyword} {qty} {quality} {forceBlueprint}",
+    "params": [
+      {
+        "name": "keyword",
+        "type": "string",
+        "default": "Wood",
+        "i18nKey": "commands.params.keyword"
+      },
+      {
+        "name": "qty",
+        "type": "integer",
+        "default": 1,
+        "min": 1,
+        "max": 10000,
+        "i18nKey": "commands.params.qty"
+      },
+      {
+        "name": "quality",
+        "type": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "i18nKey": "commands.params.quality"
+      },
+      {
+        "name": "forceBlueprint",
+        "type": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "i18nKey": "commands.params.force_blueprint"
+      }
+    ]
+  },
+  {
+    "id": "give_resource",
+    "category": "items",
+    "i18nKey": "commands.items.give_resource.label",
+    "descriptionI18nKey": "commands.items.give_resource.description",
+    "template": "GiveItem \"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/{className}'\" {qty} 0 0",
+    "params": [
+      {
+        "name": "className",
+        "type": "classname-resources",
+        "default": "PrimalItemResource_Wood_C",
+        "i18nKey": "commands.params.className"
+      },
+      {
+        "name": "qty",
+        "type": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 10000,
+        "i18nKey": "commands.params.qty"
+      }
+    ]
+  },
+  {
+    "id": "give_resources_bundle",
+    "category": "items",
+    "i18nKey": "commands.items.give_resources_bundle.label",
+    "descriptionI18nKey": "commands.items.give_resources_bundle.description",
+    "template": "GiveResources",
+    "params": []
+  },
+  {
+    "id": "give_xp",
+    "category": "items",
+    "i18nKey": "commands.items.give_xp.label",
+    "descriptionI18nKey": "commands.items.give_xp.description",
+    "template": "AddExperience {amount} 0 0",
+    "params": [
+      {
+        "name": "amount",
+        "type": "integer",
+        "default": 1000,
+        "min": 1,
+        "max": 1000000,
+        "i18nKey": "commands.params.xp_amount"
+      }
+    ]
+  },
+  {
+    "id": "give_item_num",
+    "category": "items",
+    "i18nKey": "commands.items.give_item_num.label",
+    "descriptionI18nKey": "commands.items.give_item_num.description",
+    "template": "GiveItemNum {itemNum} {qty} {quality} {forceBlueprint}",
+    "params": [
+      {
+        "name": "itemNum",
+        "type": "integer",
+        "default": 1,
+        "min": 1,
+        "max": 5000,
+        "i18nKey": "commands.params.item_num"
+      },
+      {
+        "name": "qty",
+        "type": "integer",
+        "default": 1,
+        "min": 1,
+        "max": 10000,
+        "i18nKey": "commands.params.qty"
+      },
+      {
+        "name": "quality",
+        "type": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "i18nKey": "commands.params.quality"
+      },
+      {
+        "name": "forceBlueprint",
+        "type": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "i18nKey": "commands.params.force_blueprint"
+      }
+    ]
+  },
+  {
+    "id": "give_item_num_to_player",
+    "category": "items",
+    "i18nKey": "commands.items.give_item_num_to_player.label",
+    "descriptionI18nKey": "commands.items.give_item_num_to_player.description",
+    "template": "GiveItemNumToPlayer {playerId} {itemNum} {qty} {quality} {forceBlueprint}",
+    "params": [
+      {
+        "name": "playerId",
+        "type": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 999999999,
+        "i18nKey": "commands.params.player_id"
+      },
+      {
+        "name": "itemNum",
+        "type": "integer",
+        "default": 1,
+        "min": 1,
+        "max": 5000,
+        "i18nKey": "commands.params.item_num"
+      },
+      {
+        "name": "qty",
+        "type": "integer",
+        "default": 1,
+        "min": 1,
+        "max": 10000,
+        "i18nKey": "commands.params.qty"
+      },
+      {
+        "name": "quality",
+        "type": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "i18nKey": "commands.params.quality"
+      },
+      {
+        "name": "forceBlueprint",
+        "type": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "i18nKey": "commands.params.force_blueprint"
+      }
+    ]
+  },
+  {
+    "id": "give_armor_set",
+    "category": "items",
+    "i18nKey": "commands.items.give_armor_set.label",
+    "descriptionI18nKey": "commands.items.give_armor_set.description",
+    "template": "GiveArmorSet {tier} {forceBlueprint}",
+    "params": [
+      {
+        "name": "tier",
+        "type": "string",
+        "default": "Flak",
+        "i18nKey": "commands.params.armor_tier"
+      },
+      {
+        "name": "forceBlueprint",
+        "type": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "i18nKey": "commands.params.force_blueprint"
+      }
+    ]
+  },
+  {
+    "id": "give_weapon_set",
+    "category": "items",
+    "i18nKey": "commands.items.give_weapon_set.label",
+    "descriptionI18nKey": "commands.items.give_weapon_set.description",
+    "template": "GiveWeaponSet {tier} {forceBlueprint}",
+    "params": [
+      {
+        "name": "tier",
+        "type": "string",
+        "default": "Flak",
+        "i18nKey": "commands.params.weapon_tier"
+      },
+      {
+        "name": "forceBlueprint",
+        "type": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "i18nKey": "commands.params.force_blueprint"
+      }
+    ]
+  },
+  {
+    "id": "add_hexagons",
+    "category": "items",
+    "i18nKey": "commands.items.add_hexagons.label",
+    "descriptionI18nKey": "commands.items.add_hexagons.description",
+    "template": "AddHexagons {amount}",
+    "params": [
+      {
+        "name": "amount",
+        "type": "integer",
+        "default": 1000,
+        "min": 1,
+        "max": 1000000,
+        "i18nKey": "commands.params.amount"
+      }
+    ]
+  }
+]

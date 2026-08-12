@@ -1,0 +1,745 @@
+[
+  {
+    "id": "graphics_quality",
+    "key": "GraphicsQuality",
+    "category": "client",
+    "tier": "basic",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "integer",
+      "default": 4,
+      "min": 0,
+      "max": 4,
+      "step": 1
+    },
+    "i18nKey": "settings.client.graphics_quality"
+  },
+  {
+    "id": "true_sky_quality",
+    "key": "TrueSkyQuality",
+    "category": "client",
+    "tier": "basic",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "integer",
+      "default": 3,
+      "min": 0,
+      "max": 3,
+      "step": 1
+    },
+    "i18nKey": "settings.client.true_sky_quality"
+  },
+  {
+    "id": "ground_clutter_density",
+    "key": "GroundClutterDensity",
+    "category": "client",
+    "tier": "basic",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.0,
+      "max": 1.0,
+      "step": 0.05,
+      "presets": [0.25, 0.5, 0.75, 1.0]
+    },
+    "i18nKey": "settings.client.ground_clutter_density"
+  },
+  {
+    "id": "lod_scalar",
+    "key": "LODScalar",
+    "category": "client",
+    "tier": "basic",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.5,
+      "max": 1.5,
+      "step": 0.05,
+      "presets": [0.5, 0.75, 1.0, 1.25, 1.5]
+    },
+    "i18nKey": "settings.client.lod_scalar"
+  },
+  {
+    "id": "use_distance_field_ao",
+    "key": "bUseDistanceFieldAmbientOcclusion",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": { "kind": "boolean", "default": true },
+    "i18nKey": "settings.client.use_distance_field_ao"
+  },
+  {
+    "id": "use_ssao",
+    "key": "bUseSSAO",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": { "kind": "boolean", "default": true },
+    "i18nKey": "settings.client.use_ssao"
+  },
+  {
+    "id": "motion_blur",
+    "key": "bMotionBlur",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": { "kind": "boolean", "default": true },
+    "i18nKey": "settings.client.motion_blur"
+  },
+  {
+    "id": "film_grain",
+    "key": "bFilmGrain",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": { "kind": "boolean", "default": true },
+    "i18nKey": "settings.client.film_grain"
+  },
+  {
+    "id": "distance_field_shadowing",
+    "key": "bDistanceFieldShadowing",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": { "kind": "boolean", "default": true },
+    "i18nKey": "settings.client.distance_field_shadowing"
+  },
+  {
+    "id": "high_quality_materials",
+    "key": "HighQualityMaterials",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": { "kind": "boolean", "default": true },
+    "i18nKey": "settings.client.high_quality_materials"
+  },
+  {
+    "id": "high_quality_surfaces",
+    "key": "HighQualitySurfaces",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": { "kind": "boolean", "default": true },
+    "i18nKey": "settings.client.high_quality_surfaces"
+  },
+  {
+    "id": "high_quality_anisotropic_filtering",
+    "key": "bHighQualityAnisotropicFiltering",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": { "kind": "boolean", "default": true },
+    "i18nKey": "settings.client.high_quality_anisotropic_filtering"
+  },
+  {
+    "id": "high_quality_lods",
+    "key": "bHighQualityLODs",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": { "kind": "boolean", "default": true },
+    "i18nKey": "settings.client.high_quality_lods"
+  },
+  {
+    "id": "low_quality_level_streaming",
+    "key": "bUseLowQualityLevelStreaming",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": { "kind": "boolean", "default": false },
+    "i18nKey": "settings.client.low_quality_level_streaming"
+  },
+  {
+    "id": "extra_level_streaming_distance",
+    "key": "bExtraLevelStreamingDistance",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": { "kind": "boolean", "default": false },
+    "i18nKey": "settings.client.extra_level_streaming_distance"
+  },
+  {
+    "id": "enable_color_grading",
+    "key": "bEnableColorGrading",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": { "kind": "boolean", "default": true },
+    "i18nKey": "settings.client.enable_color_grading"
+  },
+  {
+    "id": "disable_bloom",
+    "key": "bDisableBloom",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": { "kind": "boolean", "default": false },
+    "i18nKey": "settings.client.disable_bloom"
+  },
+  {
+    "id": "disable_light_shafts",
+    "key": "bDisableLightShafts",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": { "kind": "boolean", "default": false },
+    "i18nKey": "settings.client.disable_light_shafts"
+  },
+  {
+    "id": "allow_animation_staggering",
+    "key": "bAllowAnimationStaggering",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": { "kind": "boolean", "default": true },
+    "i18nKey": "settings.client.allow_animation_staggering"
+  },
+  {
+    "id": "low_quality_animations",
+    "key": "bLowQualityAnimations",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": { "kind": "boolean", "default": false },
+    "i18nKey": "settings.client.low_quality_animations"
+  },
+  {
+    "id": "low_quality_vfx",
+    "key": "bLowQualityVFX",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": { "kind": "boolean", "default": false },
+    "i18nKey": "settings.client.low_quality_vfx"
+  },
+  {
+    "id": "use_vsync",
+    "key": "bUseVSync",
+    "category": "client",
+    "tier": "basic",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": { "kind": "boolean", "default": false },
+    "i18nKey": "settings.client.use_vsync"
+  },
+  {
+    "id": "fov_multiplier",
+    "key": "FOVMultiplier",
+    "category": "client",
+    "tier": "basic",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.5,
+      "max": 1.5,
+      "step": 0.05,
+      "presets": [0.8, 1.0, 1.2, 1.5]
+    },
+    "i18nKey": "settings.client.fov_multiplier"
+  },
+  {
+    "id": "ui_scaling",
+    "key": "UIScaling",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.5,
+      "max": 2.0,
+      "step": 0.05,
+      "presets": [0.65, 0.85, 1.0, 1.25, 1.5]
+    },
+    "i18nKey": "settings.client.ui_scaling"
+  },
+  {
+    "id": "gamma",
+    "key": "Gamma1",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 2.2,
+      "min": 1.0,
+      "max": 4.0,
+      "step": 0.1,
+      "presets": [1.8, 2.2, 2.6, 3.0]
+    },
+    "i18nKey": "settings.client.gamma"
+  },
+  {
+    "id": "master_audio_volume",
+    "key": "MasterAudioVolume",
+    "category": "client",
+    "tier": "basic",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.0,
+      "max": 1.0,
+      "step": 0.05,
+      "presets": [0, 0.25, 0.5, 0.75, 1.0]
+    },
+    "i18nKey": "settings.client.master_audio_volume"
+  },
+  {
+    "id": "music_audio_volume",
+    "key": "MusicAudioVolume",
+    "category": "client",
+    "tier": "basic",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.0,
+      "max": 1.0,
+      "step": 0.05,
+      "presets": [0, 0.25, 0.5, 0.75, 1.0]
+    },
+    "i18nKey": "settings.client.music_audio_volume"
+  },
+  {
+    "id": "sfx_audio_volume",
+    "key": "SFXAudioVolume",
+    "category": "client",
+    "tier": "basic",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.0,
+      "max": 1.0,
+      "step": 0.05,
+      "presets": [0, 0.25, 0.5, 0.75, 1.0]
+    },
+    "i18nKey": "settings.client.sfx_audio_volume"
+  },
+  {
+    "id": "client_net_quality",
+    "key": "ClientNetQuality",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "integer",
+      "default": 3,
+      "min": 0,
+      "max": 3,
+      "step": 1
+    },
+    "i18nKey": "settings.client.client_net_quality"
+  },
+  {
+    "id": "active_lingering_world_tiles",
+    "key": "ActiveLingeringWorldTiles",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "integer",
+      "default": 7,
+      "min": 1,
+      "max": 10,
+      "step": 1
+    },
+    "i18nKey": "settings.client.active_lingering_world_tiles"
+  },
+  {
+    "id": "enable_dlss",
+    "key": "EnableDLSS",
+    "category": "client",
+    "tier": "basic",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "integer",
+      "default": -1,
+      "min": -1,
+      "max": 1,
+      "step": 1
+    },
+    "i18nKey": "settings.client.enable_dlss"
+  },
+  {
+    "id": "enable_dlfg",
+    "key": "bEnableDLFG",
+    "category": "client",
+    "tier": "basic",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": { "kind": "boolean", "default": false },
+    "i18nKey": "settings.client.enable_dlfg"
+  },
+  {
+    "id": "frame_multiplier",
+    "key": "FrameMultiplier",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "integer",
+      "default": 2,
+      "min": 1,
+      "max": 4,
+      "step": 1
+    },
+    "i18nKey": "settings.client.frame_multiplier"
+  },
+  {
+    "id": "enable_reflex",
+    "key": "bEnableReflex",
+    "category": "client",
+    "tier": "basic",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": { "kind": "boolean", "default": false },
+    "i18nKey": "settings.client.enable_reflex"
+  },
+  {
+    "id": "super_resolution_quality_level",
+    "key": "SuperResolutionQualityLevel",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "integer",
+      "default": 0,
+      "min": 0,
+      "max": 4,
+      "step": 1
+    },
+    "i18nKey": "settings.client.super_resolution_quality_level"
+  },
+  {
+    "id": "use_dynamic_resolution",
+    "key": "bUseDynamicResolution",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": { "kind": "boolean", "default": false },
+    "i18nKey": "settings.client.use_dynamic_resolution"
+  },
+  {
+    "id": "screen_percentage",
+    "key": "ScreenPercentage",
+    "category": "client",
+    "tier": "basic",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.5,
+      "max": 2.0,
+      "step": 0.05,
+      "presets": [0.5, 0.75, 1.0, 1.25, 1.5, 2.0]
+    },
+    "i18nKey": "settings.client.screen_percentage"
+  },
+  {
+    "id": "frame_rate_limit",
+    "key": "FrameRateLimit",
+    "category": "client",
+    "tier": "basic",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "integer",
+      "default": 0,
+      "min": 0,
+      "max": 360,
+      "step": 1
+    },
+    "i18nKey": "settings.client.frame_rate_limit"
+  },
+  {
+    "id": "enable_hdr_output",
+    "key": "bEnableHDROutput",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": { "kind": "boolean", "default": false },
+    "i18nKey": "settings.client.enable_hdr_output"
+  },
+  {
+    "id": "hdr_display_min_luminance",
+    "key": "HDRDisplayMinLuminance",
+    "category": "client",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": -4.0,
+      "min": -10.0,
+      "max": 10.0,
+      "step": 0.5,
+      "presets": [-4.0, -2.0, 0.0, 2.0]
+    },
+    "i18nKey": "settings.client.hdr_display_min_luminance"
+  },
+  {
+    "id": "hdr_display_mid_luminance",
+    "key": "HDRDisplayMidLuminance",
+    "category": "client",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 20.0,
+      "min": 1.0,
+      "max": 100.0,
+      "step": 1.0,
+      "presets": [10.0, 20.0, 40.0, 80.0]
+    },
+    "i18nKey": "settings.client.hdr_display_mid_luminance"
+  },
+  {
+    "id": "hdr_display_max_luminance",
+    "key": "HDRDisplayMaxLuminance",
+    "category": "client",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/ShooterGame.ShooterGameUserSettings",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "integer",
+      "default": 1000,
+      "min": 400,
+      "max": 10000,
+      "step": 100
+    },
+    "i18nKey": "settings.client.hdr_display_max_luminance"
+  },
+  {
+    "id": "frame_generation_method",
+    "key": "FrameGenerationMethod",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "Startup",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "integer",
+      "default": 0,
+      "min": 0,
+      "max": 2,
+      "step": 1
+    },
+    "i18nKey": "settings.client.frame_generation_method"
+  },
+  {
+    "id": "frame_generation_multiplier",
+    "key": "FrameGenerationMultiplier",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "Startup",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "integer",
+      "default": 2,
+      "min": 1,
+      "max": 4,
+      "step": 1
+    },
+    "i18nKey": "settings.client.frame_generation_multiplier"
+  },
+  {
+    "id": "super_resolution_system",
+    "key": "SuperResolutionSystem",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "Startup",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "integer",
+      "default": 0,
+      "min": 0,
+      "max": 4,
+      "step": 1
+    },
+    "i18nKey": "settings.client.super_resolution_system"
+  },
+  {
+    "id": "fsr_quality_mode",
+    "key": "FSRQualityMode",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "Startup",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "integer",
+      "default": 0,
+      "min": 0,
+      "max": 4,
+      "step": 1
+    },
+    "i18nKey": "settings.client.fsr_quality_mode"
+  },
+  {
+    "id": "dlss_quality_mode",
+    "key": "DLSSQualityMode",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "Startup",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "integer",
+      "default": 0,
+      "min": 0,
+      "max": 4,
+      "step": 1
+    },
+    "i18nKey": "settings.client.dlss_quality_mode"
+  },
+  {
+    "id": "reflex_enabled",
+    "key": "ReflexEnabled",
+    "category": "client",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "Startup",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local"],
+    "control": {
+      "kind": "integer",
+      "default": -1,
+      "min": -1,
+      "max": 2,
+      "step": 1
+    },
+    "i18nKey": "settings.client.reflex_enabled"
+  }
+]

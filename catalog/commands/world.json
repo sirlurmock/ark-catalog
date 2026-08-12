@@ -1,0 +1,209 @@
+[
+  {
+    "id": "set_time_of_day",
+    "category": "world",
+    "i18nKey": "commands.world.set_time_of_day.label",
+    "descriptionI18nKey": "commands.world.set_time_of_day.description",
+    "template": "SetTimeOfDay {time}",
+    "params": [
+      {
+        "name": "time",
+        "type": "string",
+        "default": "12:00",
+        "i18nKey": "commands.params.time"
+      }
+    ]
+  },
+  {
+    "id": "slomo",
+    "category": "world",
+    "i18nKey": "commands.world.slomo.label",
+    "descriptionI18nKey": "commands.world.slomo.description",
+    "template": "slomo {factor}",
+    "params": [
+      {
+        "name": "factor",
+        "type": "float",
+        "default": 1.0,
+        "min": 0.1,
+        "max": 10.0,
+        "step": 0.1,
+        "i18nKey": "commands.params.factor"
+      }
+    ]
+  },
+  {
+    "id": "save_world",
+    "category": "world",
+    "i18nKey": "commands.world.save_world.label",
+    "descriptionI18nKey": "commands.world.save_world.description",
+    "template": "SaveWorld",
+    "params": []
+  },
+  {
+    "id": "broadcast",
+    "category": "world",
+    "i18nKey": "commands.world.broadcast.label",
+    "descriptionI18nKey": "commands.world.broadcast.description",
+    "template": "Broadcast {message}",
+    "params": [
+      {
+        "name": "message",
+        "type": "string",
+        "default": "Hola jugadores!",
+        "i18nKey": "commands.params.message"
+      }
+    ]
+  },
+  {
+    "id": "set_message_of_the_day",
+    "category": "world",
+    "i18nKey": "commands.world.set_message_of_the_day.label",
+    "descriptionI18nKey": "commands.world.set_message_of_the_day.description",
+    "template": "SetMessageOfTheDay {message}",
+    "params": [
+      {
+        "name": "message",
+        "type": "string",
+        "default": "Bienvenidos al servidor",
+        "i18nKey": "commands.params.motd"
+      }
+    ]
+  },
+  {
+    "id": "tp_coords",
+    "category": "world",
+    "i18nKey": "commands.world.tp_coords.label",
+    "descriptionI18nKey": "commands.world.tp_coords.description",
+    "template": "TPCoords {lat} {lon} {altitude}",
+    "params": [
+      {
+        "name": "lat",
+        "type": "float",
+        "default": 50.0,
+        "min": 0.0,
+        "max": 100.0,
+        "step": 0.1,
+        "i18nKey": "commands.params.lat"
+      },
+      {
+        "name": "lon",
+        "type": "float",
+        "default": 50.0,
+        "min": 0.0,
+        "max": 100.0,
+        "step": 0.1,
+        "i18nKey": "commands.params.lon"
+      },
+      {
+        "name": "altitude",
+        "type": "integer",
+        "default": 0,
+        "min": -10000,
+        "max": 100000,
+        "step": 100,
+        "i18nKey": "commands.params.altitude"
+      }
+    ]
+  },
+  {
+    "id": "set_player_pos",
+    "category": "world",
+    "i18nKey": "commands.world.set_player_pos.label",
+    "descriptionI18nKey": "commands.world.set_player_pos.description",
+    "template": "SetPlayerPos {x} {y} {z}",
+    "params": [
+      {
+        "name": "x",
+        "type": "integer",
+        "default": 0,
+        "min": -1000000,
+        "max": 1000000,
+        "i18nKey": "commands.params.x"
+      },
+      {
+        "name": "y",
+        "type": "integer",
+        "default": 0,
+        "min": -1000000,
+        "max": 1000000,
+        "i18nKey": "commands.params.y"
+      },
+      {
+        "name": "z",
+        "type": "integer",
+        "default": 0,
+        "min": -1000000,
+        "max": 1000000,
+        "i18nKey": "commands.params.z"
+      }
+    ]
+  },
+  {
+    "id": "ce_weather",
+    "category": "world",
+    "i18nKey": "commands.world.ce_weather.label",
+    "descriptionI18nKey": "commands.world.ce_weather.description",
+    "template": "CE {event}",
+    "params": [
+      {
+        "name": "event",
+        "type": "string",
+        "default": "Rain",
+        "i18nKey": "commands.params.weather_event"
+      }
+    ]
+  },
+  {
+    "id": "players_only",
+    "category": "world",
+    "i18nKey": "commands.world.players_only.label",
+    "descriptionI18nKey": "commands.world.players_only.description",
+    "template": "PlayersOnly",
+    "params": [],
+    "risk": "caution"
+  },
+  {
+    "id": "destroy_my_target",
+    "category": "world",
+    "i18nKey": "commands.world.destroy_my_target.label",
+    "descriptionI18nKey": "commands.world.destroy_my_target.description",
+    "template": "DestroyMyTarget",
+    "params": [],
+    "risk": "destructive"
+  },
+  {
+    "id": "destroy_all_enemies",
+    "category": "world",
+    "i18nKey": "commands.world.destroy_all_enemies.label",
+    "descriptionI18nKey": "commands.world.destroy_all_enemies.description",
+    "template": "DestroyAllEnemies",
+    "params": [],
+    "risk": "destructive"
+  },
+  {
+    "id": "destroy_foliage",
+    "category": "world",
+    "i18nKey": "commands.world.destroy_foliage.label",
+    "descriptionI18nKey": "commands.world.destroy_foliage.description",
+    "template": "DestroyFoliage",
+    "params": [],
+    "risk": "destructive"
+  },
+  {
+    "id": "open_map",
+    "category": "world",
+    "i18nKey": "commands.world.open_map.label",
+    "descriptionI18nKey": "commands.world.open_map.description",
+    "template": "open {mapName}",
+    "params": [
+      {
+        "name": "mapName",
+        "type": "string",
+        "default": "TheIsland",
+        "i18nKey": "commands.params.map_name"
+      }
+    ],
+    "risk": "caution"
+  }
+]

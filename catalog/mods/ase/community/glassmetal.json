@@ -1,0 +1,81 @@
+{
+  "modId": "GlassMetal",
+  "name": "GlassMetal",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=510590313",
+  "settings": [
+    {
+      "id": "glass_metal_glass_metal_r",
+      "key": "GlassMetalR",
+      "category": "mod_glass_metal",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "GlassMetal",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.003502,
+        "min": 0,
+        "max": 1,
+        "step": 0.01
+      },
+      "i18nKey": "mods.glass_metal.glass_metal_r"
+    },
+    {
+      "id": "glass_metal_glass_metal_g",
+      "key": "GlassMetalG",
+      "category": "mod_glass_metal",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "GlassMetal",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.14,
+        "min": 0,
+        "max": 1,
+        "step": 0.01
+      },
+      "i18nKey": "mods.glass_metal.glass_metal_g"
+    },
+    {
+      "id": "glass_metal_glass_metal_b",
+      "key": "GlassMetalB",
+      "category": "mod_glass_metal",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "GlassMetal",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.09214,
+        "min": 0,
+        "max": 1,
+        "step": 0.01
+      },
+      "i18nKey": "mods.glass_metal.glass_metal_b"
+    }
+  ]
+}

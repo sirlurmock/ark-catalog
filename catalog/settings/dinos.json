@@ -1,0 +1,133 @@
+[
+  {
+    "id": "dino_class_damage_multipliers",
+    "key": "DinoClassDamageMultipliers",
+    "category": "dinos",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "struct_collection",
+      "default": [],
+      "fields": [
+        { "name": "ClassName", "type": "string", "required": true, "suggestions": "dinos" },
+        { "name": "Multiplier", "type": "float", "default": 1.0 }
+      ]
+    },
+    "i18nKey": "settings.dinos.dino_class_damage"
+  },
+  {
+    "id": "dino_class_resistance_multipliers",
+    "key": "DinoClassResistanceMultipliers",
+    "category": "dinos",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "struct_collection",
+      "default": [],
+      "fields": [
+        { "name": "ClassName", "type": "string", "required": true, "suggestions": "dinos" },
+        { "name": "Multiplier", "type": "float", "default": 1.0 }
+      ]
+    },
+    "i18nKey": "settings.dinos.dino_class_resistance"
+  },
+  {
+    "id": "tamed_dino_class_damage_multipliers",
+    "key": "TamedDinoClassDamageMultipliers",
+    "category": "dinos",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "struct_collection",
+      "default": [],
+      "fields": [
+        { "name": "ClassName", "type": "string", "required": true, "suggestions": "dinos" },
+        { "name": "Multiplier", "type": "float", "default": 1.0 }
+      ]
+    },
+    "i18nKey": "settings.dinos.tamed_dino_class_damage"
+  },
+  {
+    "id": "tamed_dino_class_resistance_multipliers",
+    "key": "TamedDinoClassResistanceMultipliers",
+    "category": "dinos",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "struct_collection",
+      "default": [],
+      "fields": [
+        { "name": "ClassName", "type": "string", "required": true, "suggestions": "dinos" },
+        { "name": "Multiplier", "type": "float", "default": 1.0 }
+      ]
+    },
+    "i18nKey": "settings.dinos.tamed_dino_class_resistance"
+  },
+  {
+    "id": "dino_harvesting_damage_multiplier",
+    "key": "DinoHarvestingDamageMultiplier",
+    "category": "dinos",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 3.2,
+      "min": 0.1,
+      "max": 20,
+      "presets": [3.2, 1, 2, 5, 10]
+    },
+    "i18nKey": "settings.dinos.dino_harvesting_damage"
+  },
+  {
+    "id": "dino_turret_damage_multiplier",
+    "key": "DinoTurretDamageMultiplier",
+    "category": "dinos",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 10,
+      "presets": [1, 1.5, 2, 3]
+    },
+    "i18nKey": "settings.dinos.dino_turret_damage"
+  },
+  {
+    "id": "raid_dino_character_food_drain_multiplier",
+    "key": "RaidDinoCharacterFoodDrainMultiplier",
+    "category": "dinos",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.01,
+      "max": 5,
+      "presets": [1, 0.5, 0.25, 0.1],
+      "inverseSemantics": true
+    },
+    "i18nKey": "settings.dinos.raid_dino_food_drain"
+  }
+]

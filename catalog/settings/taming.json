@@ -1,0 +1,167 @@
+[
+  {
+    "id": "taming_speed_multiplier",
+    "key": "TamingSpeedMultiplier",
+    "category": "taming",
+    "tier": "basic",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 100,
+      "presets": [1, 2, 5, 10, 20]
+    },
+    "i18nKey": "settings.taming.taming_speed",
+    "summaryTemplate": "summary.taming.taming_speed"
+  },
+  {
+    "id": "dino_count_multiplier",
+    "key": "DinoCountMultiplier",
+    "category": "taming",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 5,
+      "presets": [1, 1.5, 2, 3]
+    },
+    "i18nKey": "settings.taming.dino_count",
+    "warnings": [
+      {
+        "condition": { "value": { "gt": 3 } },
+        "severity": "warning",
+        "i18nKey": "warnings.taming.dino_count_performance"
+      }
+    ]
+  },
+  {
+    "id": "dino_damage_multiplier",
+    "key": "DinoDamageMultiplier",
+    "category": "taming",
+    "tier": "basic",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 10,
+      "presets": [1, 0.5, 1.5, 2, 3]
+    },
+    "i18nKey": "settings.taming.dino_damage"
+  },
+  {
+    "id": "dino_resistance_multiplier",
+    "key": "DinoResistanceMultiplier",
+    "category": "taming",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.01,
+      "max": 2.0,
+      "presets": [1, 0.75, 0.5, 0.25],
+      "inverseSemantics": true
+    },
+    "i18nKey": "settings.taming.dino_resistance"
+  },
+  {
+    "id": "max_tamed_dinos",
+    "key": "MaxTamedDinos",
+    "category": "taming",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["host_local", "dedicated"],
+    "control": {
+      "kind": "integer",
+      "default": 5000,
+      "min": 100,
+      "max": 50000,
+      "step": 100
+    },
+    "i18nKey": "settings.taming.max_tamed_dinos"
+  },
+  {
+    "id": "allow_flyer_speed_leveling",
+    "key": "AllowFlyerSpeedLeveling",
+    "category": "taming",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.taming.allow_flyer_speed_leveling"
+  },
+  {
+    "id": "allow_unlimited_respecs",
+    "key": "bAllowUnlimitedRespecs",
+    "category": "taming",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.taming.allow_unlimited_respecs"
+  },
+  {
+    "id": "max_tamed_dinos_soft_tame_limit",
+    "key": "MaxTamedDinos_SoftTameLimit",
+    "category": "taming",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["asa"],
+    "validIn": ["dedicated"],
+    "control": {
+      "kind": "integer",
+      "default": 5000,
+      "min": 100,
+      "max": 50000,
+      "step": 100
+    },
+    "i18nKey": "settings.taming.max_tamed_dinos_soft_tame_limit"
+  },
+  {
+    "id": "max_tamed_dinos_soft_tame_limit_countdown",
+    "key": "MaxTamedDinos_SoftTameLimit_CountdownForDeletionDuration",
+    "category": "taming",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["asa"],
+    "validIn": ["dedicated"],
+    "control": {
+      "kind": "integer",
+      "default": 604800,
+      "min": 3600,
+      "max": 2592000,
+      "step": 3600
+    },
+    "i18nKey": "settings.taming.max_tamed_dinos_soft_tame_limit_countdown"
+  }
+]

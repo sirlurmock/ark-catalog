@@ -1,0 +1,166 @@
+{
+  "_source": "Borrador de scrape-workshop-configs.mjs, revisado a mano. Descripción del Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=1404697612",
+  "_scope": "Las 11 claves que documenta el autor. Todas son toggles para apagar partes del catalejo, pensadas para servidores que quieren limitar cuánta información da.",
+  "modId": "AwesomeSpyGlass",
+  "name": "Awesome SpyGlass!",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1404697612",
+  "prefix": "awesome_spyglass",
+  "settings": [
+    {
+      "key": "AllowGPS",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": true,
+      "es": {
+        "label": "Mostrar coordenadas GPS",
+        "description": "El catalejo muestra tu posición en el mapa. Apagarlo es lo típico en servidores PvP duros."
+      },
+      "en": {
+        "label": "Show GPS coordinates",
+        "description": "The spyglass shows your map position. Turning it off is common on hardcore PvP servers."
+      }
+    },
+    {
+      "key": "AllowCrosshair",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": true,
+      "es": {
+        "label": "Mostrar la mira",
+        "description": "Dibuja una mira en el centro del catalejo."
+      },
+      "en": {
+        "label": "Show the crosshair",
+        "description": "Draws a crosshair in the centre of the spyglass."
+      }
+    },
+    {
+      "key": "AllowOutline",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": true,
+      "es": {
+        "label": "Resaltar el contorno del objetivo",
+        "description": "Marca con un contorno lo que estás mirando. Facilita mucho encontrar dinos entre la vegetación."
+      },
+      "en": {
+        "label": "Outline the target",
+        "description": "Highlights whatever you are looking at. Makes spotting dinos in foliage far easier."
+      }
+    },
+    {
+      "key": "AllowFoodList",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": true,
+      "es": {
+        "label": "Mostrar la comida del objetivo",
+        "description": "Lista qué comida tiene el dino en el inventario."
+      },
+      "en": {
+        "label": "Show the target's food",
+        "description": "Lists the food the dino is carrying in its inventory."
+      }
+    },
+    {
+      "key": "AllowBuffList",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": true,
+      "es": {
+        "label": "Mostrar los buffs del objetivo",
+        "description": "Lista los efectos activos sobre el dino o el jugador que mirás."
+      },
+      "en": {
+        "label": "Show the target's buffs",
+        "description": "Lists the active effects on the dino or player you are looking at."
+      }
+    },
+    {
+      "key": "AllowItemList",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": true,
+      "es": {
+        "label": "Mostrar el inventario del objetivo",
+        "description": "Deja ver qué items lleva encima el objetivo. En PvP es información sensible."
+      },
+      "en": {
+        "label": "Show the target's inventory",
+        "description": "Reveals what items the target is carrying. Sensitive information in PvP."
+      }
+    },
+    {
+      "key": "AllowPlayerTargeting",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": true,
+      "es": {
+        "label": "Permitir apuntar a jugadores",
+        "description": "Habilita usar el catalejo sobre otros jugadores. Apagarlo corta el scouting en PvP."
+      },
+      "en": {
+        "label": "Allow targeting players",
+        "description": "Lets the spyglass read other players. Turning it off cuts PvP scouting."
+      }
+    },
+    {
+      "key": "AllowStructureTargeting",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": true,
+      "es": {
+        "label": "Permitir apuntar a estructuras",
+        "description": "Habilita leer estructuras con el catalejo: vida, dueño y estado."
+      },
+      "en": {
+        "label": "Allow targeting structures",
+        "description": "Lets the spyglass read structures: health, owner and status."
+      }
+    },
+    {
+      "key": "AllowCrateTargeting",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": true,
+      "es": {
+        "label": "Permitir apuntar a beacons",
+        "description": "Habilita leer las cajas de suministros a distancia."
+      },
+      "en": {
+        "label": "Allow targeting beacons",
+        "description": "Lets you read supply crates from a distance."
+      }
+    },
+    {
+      "key": "AllowLootTargeting",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": true,
+      "es": {
+        "label": "Permitir apuntar a bolsas de loot",
+        "description": "Habilita leer el contenido de las bolsas que quedan en el piso."
+      },
+      "en": {
+        "label": "Allow targeting loot bags",
+        "description": "Lets you read the contents of bags left on the ground."
+      }
+    },
+    {
+      "key": "AllowEggTargeting",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": true,
+      "es": {
+        "label": "Permitir apuntar a huevos",
+        "description": "Habilita leer los stats de un huevo fertilizado sin recogerlo."
+      },
+      "en": {
+        "label": "Allow targeting eggs",
+        "description": "Lets you read a fertilised egg's stats without picking it up."
+      }
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "_source": "Borrador de scrape-workshop-configs.mjs, revisado a mano contra las descripciones del Workshop de CKF:R (https://steamcommunity.com/sharedfiles/filedetails/?id=1814953878) y CKF:SF (https://steamcommunity.com/sharedfiles/filedetails/?id=2121156303).",
+  "_scope": "Una sola entrada para las dos mods: ambas leen la MISMA sección [CKF_Config] y el propio autor dice que 'if you are running CKF:R and CKF:SF both INI configs can be placed under the same header'. Como modId es el nombre de sección, no podrían ser dos entradas aunque quisiéramos. Son las 18 claves de Remastered más las 3 exclusivas de Sci-Fi (PartsAreFoundation, CompositeIsStone, CompositeIsTek).",
+  "_defaults": "Las dos descripciones dicen 'these are not required unless you wish to change them from the defaults listed below', así que los valores del bloque SÍ son los defaults.",
+  "modId": "CKF_Config",
+  "name": "Castles, Keeps and Forts (Remastered + Sci-Fi)",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1814953878",
+  "alsoWorkshopIds": ["2121156303"],
+  "prefix": "ckf",
+  "settings": [
+    {
+      "key": "DisablePickup",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "No permitir recoger las piezas",
+        "description": "Saca del todo la opción de levantar una pieza ya colocada. En PvP evita el truco de desarmar y rearmar defensas durante un raid."
+      },
+      "en": {
+        "label": "Disallow picking parts up",
+        "description": "Removes the option to pick a placed part back up. In PvP it blocks the trick of dismantling and re-placing defences mid-raid."
+      }
+    },
+    {
+      "key": "DisableFoundationStacking",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Desactivar el apilado de cimientos",
+        "description": "Los cimientos de CKF se apilan y escalonan para construir en terreno irregular y hacer puentes. Apagarlo los deja como los de vanilla; es lo típico en servidores que no quieren torres de cimientos."
+      },
+      "en": {
+        "label": "Disable foundation stacking",
+        "description": "CKF foundations stack and step so you can build on uneven ground and bridge gaps. Turning it off makes them behave like vanilla ones — the usual choice on servers that don't want foundation towers."
+      }
+    },
+    {
+      "key": "DisableAutomaticDoors",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Desactivar las puertas automáticas",
+        "description": "Las puertas de CKF se abren y cierran solas al acercarse. Apagarlo vuelve a la apertura manual, que además evita que una puerta te delate al pasar cerca."
+      },
+      "en": {
+        "label": "Disable automatic doors",
+        "description": "CKF doors open and close on approach. Turning it off restores manual opening, which also stops a door from giving you away as you walk past."
+      }
+    },
+    {
+      "key": "StructureCraftingSpeed",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 1,
+      "min": 0.1,
+      "max": 50,
+      "step": 0.5,
+      "presets": [1, 2, 5, 10],
+      "es": {
+        "label": "Velocidad de fabricación de las estructuras CKF",
+        "description": "Multiplica la velocidad de la mesa de cantería y demás estaciones del mod. Solo afecta a las estructuras de CKF, no a las de vanilla."
+      },
+      "en": {
+        "label": "CKF structure crafting speed",
+        "description": "Multiplies the speed of the masonry table and the mod's other stations. Only affects CKF structures, not vanilla ones."
+      }
+    },
+    {
+      "key": "PickupWhenDamaged",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Permitir recoger piezas dañadas",
+        "description": "De base una pieza dañada no se puede levantar. Activarlo lo permite, lo que agiliza reparar una base después de un ataque pero también deja desarmar estructuras a medio romper."
+      },
+      "en": {
+        "label": "Allow picking up damaged parts",
+        "description": "By default a damaged part can't be picked up. Enabling it speeds up repairing a base after an attack, but also lets half-broken structures be dismantled."
+      }
+    },
+    {
+      "key": "DisablePickupDelayTimer",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Quitar el límite de tiempo para recoger",
+        "description": "Elimina la ventana de tiempo tras colocar una pieza dentro de la cual se puede levantar. Con esto, cualquier pieza se recoge siempre (salvo que hayas desactivado recoger del todo)."
+      },
+      "en": {
+        "label": "Remove the pick-up time limit",
+        "description": "Removes the time window after placing during which a part can be picked back up. With this on, any part can always be picked up (unless pick-up is disabled outright)."
+      }
+    },
+    {
+      "key": "CeilingIsFoundation",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Los techos cuentan como cimiento",
+        "description": "Los techos pasan a dar soporte estructural como si fueran cimientos, lo que permite construir hacia arriba sin columnas. Es de CKF:R. Ojo: aumenta bastante lo que se puede construir en el aire."
+      },
+      "en": {
+        "label": "Ceilings count as foundations",
+        "description": "Ceilings provide structural support as if they were foundations, letting you build upwards without pillars. Belongs to CKF:R. Note it considerably increases what can be built in mid-air."
+      }
+    },
+    {
+      "key": "PartsAreFoundation",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Todas las piezas cuentan como cimiento",
+        "description": "Equivalente de CKF:Sci-Fi al anterior, pero más amplio: cualquier pieza da soporte estructural. Solo tiene efecto si tenés instalada la mod Sci-Fi."
+      },
+      "en": {
+        "label": "All parts count as foundations",
+        "description": "CKF:Sci-Fi's equivalent of the previous setting, but broader: any part provides structural support. Only has an effect if the Sci-Fi mod is installed."
+      }
+    },
+    {
+      "key": "StackedFoundationHasFullHP",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Los cimientos apilados conservan toda la vida",
+        "description": "De base un cimiento apilado sobre otro tiene menos vida, justamente para desalentar las torres de cimientos. Activarlo les devuelve la vida completa."
+      },
+      "en": {
+        "label": "Stacked foundations keep full HP",
+        "description": "By default a foundation stacked on another has reduced health, precisely to discourage foundation towers. Enabling this gives them full health back."
+      }
+    },
+    {
+      "key": "StructureCookingSpeed",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0.1,
+      "max": 50,
+      "step": 0.5,
+      "presets": [1, 2, 5, 10],
+      "es": {
+        "label": "Velocidad de cocción de las estructuras CKF",
+        "description": "Multiplica la velocidad de las estructuras del mod que cocinan o funden. Solo afecta a las de CKF."
+      },
+      "en": {
+        "label": "CKF structure cooking speed",
+        "description": "Multiplies the speed of the mod's cooking and smelting structures. Only affects CKF ones."
+      }
+    },
+    {
+      "key": "SettlerIsStone",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Tier Settler con resistencia de piedra",
+        "description": "El tier Settler equivale a madera por default. Esto lo sube a piedra sin cambiarle el aspecto."
+      },
+      "en": {
+        "label": "Settler tier with stone resistance",
+        "description": "The Settler tier is wood-equivalent by default. This raises it to stone without changing how it looks."
+      }
+    },
+    {
+      "key": "SettlerIsMetal",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Tier Settler con resistencia de metal",
+        "description": "Sube el tier Settler (madera por default) a resistencia de metal, manteniendo el aspecto rústico."
+      },
+      "en": {
+        "label": "Settler tier with metal resistance",
+        "description": "Raises the Settler tier (wood by default) to metal resistance while keeping its rustic look."
+      }
+    },
+    {
+      "key": "SettlerIsTek",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Tier Settler con resistencia tek",
+        "description": "Sube el tier Settler a resistencia tek. Es el salto más grande: una base de aspecto medieval aguantando como tek cambia por completo el balance de raids."
+      },
+      "en": {
+        "label": "Settler tier with tek resistance",
+        "description": "Raises the Settler tier to tek resistance. The biggest jump of them all: a medieval-looking base that tanks like tek completely changes raid balance."
+      }
+    },
+    {
+      "key": "VillagerIsWood",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Tier Villager con resistencia de madera",
+        "description": "El tier Villager equivale a piedra por default. Esto lo baja a madera, para servidores que quieren que las estructuras bonitas no sean también las más duras."
+      },
+      "en": {
+        "label": "Villager tier with wood resistance",
+        "description": "The Villager tier is stone-equivalent by default. This drops it to wood, for servers that don't want the pretty structures to also be the toughest."
+      }
+    },
+    {
+      "key": "VillagerIsMetal",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Tier Villager con resistencia de metal",
+        "description": "Sube el tier Villager (piedra por default) a resistencia de metal."
+      },
+      "en": {
+        "label": "Villager tier with metal resistance",
+        "description": "Raises the Villager tier (stone by default) to metal resistance."
+      }
+    },
+    {
+      "key": "VillagerIsTek",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Tier Villager con resistencia tek",
+        "description": "Sube el tier Villager a resistencia tek."
+      },
+      "en": {
+        "label": "Villager tier with tek resistance",
+        "description": "Raises the Villager tier to tek resistance."
+      }
+    },
+    {
+      "key": "KeepIsWood",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Tier Castle con resistencia de madera",
+        "description": "El tier Castle —el más alto, equivalente a metal— baja a madera. Sirve para servidores PvP donde nada debería aguantar como metal."
+      },
+      "en": {
+        "label": "Castle tier with wood resistance",
+        "description": "The Castle tier — the top one, metal-equivalent — drops to wood. Useful on PvP servers where nothing should tank like metal."
+      }
+    },
+    {
+      "key": "KeepIsStone",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Tier Castle con resistencia de piedra",
+        "description": "Baja el tier Castle (metal por default) a resistencia de piedra."
+      },
+      "en": {
+        "label": "Castle tier with stone resistance",
+        "description": "Drops the Castle tier (metal by default) to stone resistance."
+      }
+    },
+    {
+      "key": "KeepIsTek",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Tier Castle con resistencia tek",
+        "description": "Sube el tier Castle a resistencia tek, el máximo del juego. Solo con explosivos de alto nivel se rompe."
+      },
+      "en": {
+        "label": "Castle tier with tek resistance",
+        "description": "Raises the Castle tier to tek resistance, the highest in the game. Only high-tier explosives will break it."
+      }
+    },
+    {
+      "key": "CompositeIsStone",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Tier Composite con resistencia de piedra",
+        "description": "Cambia la resistencia del tier Composite de CKF:Sci-Fi a piedra. Solo tiene efecto si tenés instalada la mod Sci-Fi."
+      },
+      "en": {
+        "label": "Composite tier with stone resistance",
+        "description": "Changes CKF:Sci-Fi's Composite tier resistance to stone. Only has an effect if the Sci-Fi mod is installed."
+      }
+    },
+    {
+      "key": "CompositeIsTek",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Tier Composite con resistencia tek",
+        "description": "Sube el tier Composite de CKF:Sci-Fi a resistencia tek. Solo tiene efecto si tenés instalada la mod Sci-Fi."
+      },
+      "en": {
+        "label": "Composite tier with tek resistance",
+        "description": "Raises CKF:Sci-Fi's Composite tier to tek resistance. Only has an effect if the Sci-Fi mod is installed."
+      }
+    }
+  ]
+}

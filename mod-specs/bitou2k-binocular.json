@@ -1,0 +1,170 @@
+{
+  "_source": "Borrador de scrape-workshop-configs.mjs, revisado a mano contra la descripción del Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=1136125765",
+  "_scope": "Las 11 claves que documenta el autor, con su explicación línea por línea. El mod no expone nada más.",
+  "_defaults": "El autor titula el bloque 'Defaults Config Options', así que los valores del ejemplo SÍ son los defaults: StatsDelay=0 y todo lo demás en false.",
+  "modId": "B2kBinocular",
+  "name": "Bitou2k's Binocular",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1136125765",
+  "prefix": "b2k_binocular",
+  "settings": [
+    {
+      "key": "PreventEnemyStats",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Ocultar los stats de dinos enemigos",
+        "description": "Impide leer cualquier estadística de dinos de otras tribus. Es el ajuste PvP por excelencia: sin esto, el binocular deja explorar una base enemiga y elegir qué dino vale la pena robar antes de atacar."
+      },
+      "en": {
+        "label": "Hide enemy dino stats",
+        "description": "Blocks reading any stats off other tribes' dinos. The PvP setting: without it the binocular lets you scout an enemy base and pick which dino is worth stealing before attacking."
+      }
+    },
+    {
+      "key": "DisableRadarESP",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Desactivar el radar ESP",
+        "description": "Apaga el radar (tecla de recarga, 'R' por default) que marca objetivos alrededor. Es la función más cercana a un wallhack y la primera que se saca en PvP."
+      },
+      "en": {
+        "label": "Disable Radar ESP",
+        "description": "Turns off the radar (reload key, 'R' by default) that marks nearby targets. The closest thing to a wallhack in the mod and the first thing PvP servers remove."
+      }
+    },
+    {
+      "key": "NoAimTargeting",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Mostrar stats sin apuntar",
+        "description": "No hace falta entrar en modo apuntado para que aparezcan los datos del objetivo: alcanza con mirarlo. Cómodo para taming, pero elimina el gesto que delataba que alguien te está observando."
+      },
+      "en": {
+        "label": "Show stats without aiming",
+        "description": "The target's info appears just by looking at it, with no need to enter targeting mode. Convenient while taming, but removes the tell that someone is scoping you."
+      }
+    },
+    {
+      "key": "AlwaysShowPointsColumn",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Columna de puntos siempre visible",
+        "description": "Deja fija la columna de puntos por stat, en vez de tener que abrirla con la tecla de accesorio ('N' por default). Muy cómodo para criar y para revisar mutaciones."
+      },
+      "en": {
+        "label": "Always show the points column",
+        "description": "Keeps the per-stat points column pinned instead of toggling it with the attachment key ('N' by default). Very handy for breeding and checking mutations."
+      }
+    },
+    {
+      "key": "AlwaysShowFoodsColumn",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Columna de comidas siempre visible",
+        "description": "Deja fija la columna de comida preferida, en vez de abrirla con la tecla de mapa ('G' por default)."
+      },
+      "en": {
+        "label": "Always show the foods column",
+        "description": "Keeps the preferred-food column pinned instead of toggling it with the map key ('G' by default)."
+      }
+    },
+    {
+      "key": "StatsDelay",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 0,
+      "min": 0,
+      "max": 10,
+      "step": 1,
+      "es": {
+        "label": "Retardo antes de ocultar los stats (segundos)",
+        "description": "Segundos que la información del dino queda en pantalla después de dejar de mirarlo. Con 0 desaparece al instante. El autor acepta hasta 10."
+      },
+      "en": {
+        "label": "Delay before hiding stats (seconds)",
+        "description": "Seconds the dino's info stays on screen after you look away. 0 makes it vanish instantly. The author caps it at 10."
+      }
+    },
+    {
+      "key": "PreventEnemyDinoPoints",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Ocultar solo los puntos de dinos enemigos",
+        "description": "Versión suave de \"Ocultar los stats de dinos enemigos\": se ven los stats pero no el reparto de puntos por nivel, así que no se puede evaluar la calidad de la cría ajena."
+      },
+      "en": {
+        "label": "Hide only enemy dino points",
+        "description": "A softer version of \"Hide enemy dino stats\": stats stay visible but the per-level point spread doesn't, so you can't judge the quality of someone else's breeding."
+      }
+    },
+    {
+      "key": "DisableDinoPoints",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Desactivar los puntos por nivel",
+        "description": "Saca del todo la columna de puntos por stat, para tuyos y ajenos. Sin esto el binocular reemplaza a cualquier calculadora de crianza."
+      },
+      "en": {
+        "label": "Disable per-level points",
+        "description": "Removes the per-stat points column entirely, yours and everyone else's. Without it the binocular replaces any breeding calculator."
+      }
+    },
+    {
+      "key": "DisableDinoFoods",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Desactivar la comida preferida",
+        "description": "Deja de mostrar qué come el dino que estás mirando. Obliga a saberse la tabla de taming en vez de leerla en pantalla."
+      },
+      "en": {
+        "label": "Disable preferred foods",
+        "description": "Stops showing what the dino you're looking at eats. Forces knowing the taming table instead of reading it off the screen."
+      }
+    },
+    {
+      "key": "DisableNightVision",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Desactivar la visión nocturna",
+        "description": "Apaga la visión nocturna del binocular (golpe con el arma, 'Ctrl izq' por default), que solo funciona mientras apuntás."
+      },
+      "en": {
+        "label": "Disable night vision",
+        "description": "Turns off the binocular's night vision (melee/pistol whip, 'Left Ctrl' by default), which only works while targeting."
+      }
+    },
+    {
+      "key": "DisableTraceFloatingHUD",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Limitar el HUD a los dinos",
+        "description": "Deja solo los stats de dinos y quita la información de estructuras y jugadores a distancia. Útil si querés el binocular como herramienta de taming pero no como herramienta de espionaje."
+      },
+      "en": {
+        "label": "Limit the HUD to dinos",
+        "description": "Keeps only dino stats and drops structure and player info at range. Useful if you want the binocular as a taming tool but not as a scouting tool."
+      }
+    }
+  ]
+}

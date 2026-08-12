@@ -1,0 +1,147 @@
+{
+  "_source": "Borrador de scrape-workshop-configs.mjs, revisado a mano contra la descripción del Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=554678442",
+  "_scope": "Las 8 claves que documenta el autor, cada una con su explicación numerada. El mod no expone nada más.",
+  "_defaults": "Acá el bloque de ejemplo SÍ coincide con los defaults: la lista numerada de abajo confirma uno por uno (15 stacks, 0 de Achatina, 40 s, 1500, 20000, 20000). El único que se deduce es IncubateBoostMultiplier, que el autor deja en 1.5 y aclara que 1.0 es la velocidad vanilla.",
+  "modId": "JoanCollector",
+  "name": "Egg N Poop Collector / Incubator",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=554678442",
+  "prefix": "egg_n_poop",
+  "settings": [
+    {
+      "key": "MaxPoopStacks",
+      "kind": "integer",
+      "tier": "basic",
+      "default": 15,
+      "min": -1,
+      "max": 100,
+      "step": 1,
+      "es": {
+        "label": "Máximo de stacks de heces a recolectar",
+        "description": "Cuántos stacks de heces junta el recolector antes de parar; cada stack llega a 20. Con -1 deja de recolectar heces y el mod queda solo para huevos."
+      },
+      "en": {
+        "label": "Max poop stacks to collect",
+        "description": "How many stacks of poop the collector gathers before stopping; each stack holds up to 20. Set to -1 to stop collecting poop entirely and leave the mod for eggs only."
+      }
+    },
+    {
+      "key": "CollectInterval",
+      "kind": "integer",
+      "tier": "basic",
+      "default": 40,
+      "min": 25,
+      "max": 45,
+      "step": 1,
+      "es": {
+        "label": "Intervalo de recolección (segundos)",
+        "description": "Cada cuánto pasa el recolector. Bajarlo lo hace más reactivo pero es lo que más pesa en el rendimiento del servidor, por eso el autor no deja bajar de 25 ni subir de 45."
+      },
+      "en": {
+        "label": "Collection interval (seconds)",
+        "description": "How often the collector runs. Lowering it makes it more responsive but it is the biggest performance cost of the mod, which is why the author clamps it between 25 and 45."
+      }
+    },
+    {
+      "key": "IncubateBoostMultiplier",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 1.5,
+      "min": 0.1,
+      "max": 20,
+      "step": 0.1,
+      "presets": [1, 1.5, 3, 5],
+      "es": {
+        "label": "Multiplicador de velocidad de incubación",
+        "description": "Cuánto más rápido eclosionan los huevos que están dentro del radio de la incubadora. Con 1 van a la velocidad normal de ARK; el default del mod es 1,5. Se multiplica con el multiplicador de eclosión del servidor, así que ojo con acumular los dos."
+      },
+      "en": {
+        "label": "Incubation speed multiplier",
+        "description": "How much faster eggs inside the incubator's radius hatch. At 1 they run at normal ARK speed; the mod ships 1.5. It stacks with the server's hatch multiplier, so watch out for combining the two."
+      }
+    },
+    {
+      "key": "IncubateDistance",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 1500,
+      "min": -1,
+      "max": 20000,
+      "step": 100,
+      "es": {
+        "label": "Radio de la incubadora",
+        "description": "Alcance en el que la incubadora acelera y mantiene sanos los huevos fertilizados. 1500 son unos 5 cimientos. Con -1 se desactiva la incubación. Los huevos dentro de este radio no los levanta el recolector."
+      },
+      "en": {
+        "label": "Incubator radius",
+        "description": "Range within which the incubator speeds up and keeps fertilised eggs healthy. 1500 is roughly 5 foundations. Set to -1 to disable incubation. Eggs inside this radius are not picked up by the collector."
+      }
+    },
+    {
+      "key": "CollectDistance",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 20000,
+      "min": 1000,
+      "max": 100000,
+      "step": 1000,
+      "es": {
+        "label": "Radio del recolector",
+        "description": "Hasta dónde llega el recolector a juntar huevos y heces. 20000 son unos 75 cimientos en todas las direcciones. Tiene que ser mayor que el radio de la incubadora. Subirlo mucho en una base grande es la vía rápida a problemas de rendimiento."
+      },
+      "en": {
+        "label": "Collector radius",
+        "description": "How far the collector reaches for eggs and poop. 20000 is roughly 75 foundations in every direction. Must be larger than the incubator radius. Raising it a lot on a big base is the quick route to performance problems."
+      }
+    },
+    {
+      "key": "SiloDistance",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 20000,
+      "min": 1000,
+      "max": 100000,
+      "step": 1000,
+      "es": {
+        "label": "Radio del silo de paja y fertilizante",
+        "description": "Alcance en el que el silo reparte heces y paja a los compostadores cercanos y recoge el fertilizante ya hecho. Debería ser menor o igual que el radio del recolector."
+      },
+      "en": {
+        "label": "Thatch & fertilizer silo radius",
+        "description": "Range within which the silo feeds poop and thatch to nearby compost bins and collects the finished fertilizer. Should be lower than or equal to the collector radius."
+      }
+    },
+    {
+      "key": "MaxAchaPoopStacks",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 0,
+      "min": -1,
+      "max": 100,
+      "step": 1,
+      "es": {
+        "label": "Máximo de stacks de heces de Achatina",
+        "description": "Se cuenta aparte del resto de las heces porque el cemento orgánico del Achatina es un recurso valioso. Con 0 o -1 no se recoge nada; el autor recomienda entre 10 y 15 si querés automatizar la producción de cemento."
+      },
+      "en": {
+        "label": "Max Achatina poop stacks",
+        "description": "Counted separately from regular poop because Achatina organic polymer is a valuable resource. At 0 or -1 none is collected; the author recommends 10 to 15 if you want to automate cement production."
+      }
+    },
+    {
+      "key": "BlockAutoCompostBins",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "No llenar los compostadores automáticamente",
+        "description": "Corta el llenado automático de los compostadores cercanos. Importa saberlo: mientras esté apagado, los compostadores se llenan sin importar el límite de stacks de heces que hayas puesto arriba."
+      },
+      "en": {
+        "label": "Don't auto-fill compost bins",
+        "description": "Stops nearby compost bins from being filled automatically. Worth knowing: while this is off, compost bins get filled regardless of the poop stack limit set above."
+      }
+    }
+  ]
+}

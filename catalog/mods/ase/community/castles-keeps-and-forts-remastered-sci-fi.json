@@ -1,0 +1,471 @@
+{
+  "modId": "CKF_Config",
+  "name": "Castles, Keeps and Forts (Remastered + Sci-Fi)",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1814953878",
+  "alsoWorkshopIds": [
+    "2121156303"
+  ],
+  "settings": [
+    {
+      "id": "ckf_disable_pickup",
+      "key": "DisablePickup",
+      "category": "mod_ckf",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "CKF_Config",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.ckf.disable_pickup"
+    },
+    {
+      "id": "ckf_disable_foundation_stacking",
+      "key": "DisableFoundationStacking",
+      "category": "mod_ckf",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "CKF_Config",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.ckf.disable_foundation_stacking"
+    },
+    {
+      "id": "ckf_disable_automatic_doors",
+      "key": "DisableAutomaticDoors",
+      "category": "mod_ckf",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "CKF_Config",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.ckf.disable_automatic_doors"
+    },
+    {
+      "id": "ckf_structure_crafting_speed",
+      "key": "StructureCraftingSpeed",
+      "category": "mod_ckf",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "CKF_Config",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 50,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.ckf.structure_crafting_speed"
+    },
+    {
+      "id": "ckf_pickup_when_damaged",
+      "key": "PickupWhenDamaged",
+      "category": "mod_ckf",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "CKF_Config",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.ckf.pickup_when_damaged"
+    },
+    {
+      "id": "ckf_disable_pickup_delay_timer",
+      "key": "DisablePickupDelayTimer",
+      "category": "mod_ckf",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "CKF_Config",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.ckf.disable_pickup_delay_timer"
+    },
+    {
+      "id": "ckf_ceiling_is_foundation",
+      "key": "CeilingIsFoundation",
+      "category": "mod_ckf",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "CKF_Config",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.ckf.ceiling_is_foundation"
+    },
+    {
+      "id": "ckf_parts_are_foundation",
+      "key": "PartsAreFoundation",
+      "category": "mod_ckf",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "CKF_Config",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.ckf.parts_are_foundation"
+    },
+    {
+      "id": "ckf_stacked_foundation_has_full_hp",
+      "key": "StackedFoundationHasFullHP",
+      "category": "mod_ckf",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "CKF_Config",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.ckf.stacked_foundation_has_full_hp"
+    },
+    {
+      "id": "ckf_structure_cooking_speed",
+      "key": "StructureCookingSpeed",
+      "category": "mod_ckf",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "CKF_Config",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 50,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.ckf.structure_cooking_speed"
+    },
+    {
+      "id": "ckf_settler_is_stone",
+      "key": "SettlerIsStone",
+      "category": "mod_ckf",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CKF_Config",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.ckf.settler_is_stone"
+    },
+    {
+      "id": "ckf_settler_is_metal",
+      "key": "SettlerIsMetal",
+      "category": "mod_ckf",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CKF_Config",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.ckf.settler_is_metal"
+    },
+    {
+      "id": "ckf_settler_is_tek",
+      "key": "SettlerIsTek",
+      "category": "mod_ckf",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CKF_Config",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.ckf.settler_is_tek"
+    },
+    {
+      "id": "ckf_villager_is_wood",
+      "key": "VillagerIsWood",
+      "category": "mod_ckf",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CKF_Config",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.ckf.villager_is_wood"
+    },
+    {
+      "id": "ckf_villager_is_metal",
+      "key": "VillagerIsMetal",
+      "category": "mod_ckf",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CKF_Config",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.ckf.villager_is_metal"
+    },
+    {
+      "id": "ckf_villager_is_tek",
+      "key": "VillagerIsTek",
+      "category": "mod_ckf",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CKF_Config",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.ckf.villager_is_tek"
+    },
+    {
+      "id": "ckf_keep_is_wood",
+      "key": "KeepIsWood",
+      "category": "mod_ckf",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CKF_Config",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.ckf.keep_is_wood"
+    },
+    {
+      "id": "ckf_keep_is_stone",
+      "key": "KeepIsStone",
+      "category": "mod_ckf",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CKF_Config",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.ckf.keep_is_stone"
+    },
+    {
+      "id": "ckf_keep_is_tek",
+      "key": "KeepIsTek",
+      "category": "mod_ckf",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CKF_Config",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.ckf.keep_is_tek"
+    },
+    {
+      "id": "ckf_composite_is_stone",
+      "key": "CompositeIsStone",
+      "category": "mod_ckf",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CKF_Config",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.ckf.composite_is_stone"
+    },
+    {
+      "id": "ckf_composite_is_tek",
+      "key": "CompositeIsTek",
+      "category": "mod_ckf",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CKF_Config",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.ckf.composite_is_tek"
+    }
+  ]
+}

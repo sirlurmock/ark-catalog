@@ -1,0 +1,32 @@
+{
+  "modId": "ZytharianCritters",
+  "name": "Zytharian Critters",
+  "game": "asa",
+  "source": "community",
+  "settings": [
+    {
+      "id": "zc_solo_chance",
+      "key": "SoloChance",
+      "category": "mod_zytharian_critters",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "ZytharianCritters",
+      "games": ["asa"],
+      "validIn": ["single_player", "host_local", "dedicated"],
+      "control": { "kind": "integer", "default": 5, "min": 0, "max": 100, "step": 1 },
+      "i18nKey": "mods.zytharian_critters.solo_chance"
+    },
+    {
+      "id": "zc_spawn_solo",
+      "key": "SpawnSolo",
+      "category": "mod_zytharian_critters",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "ZytharianCritters",
+      "games": ["asa"],
+      "validIn": ["single_player", "host_local", "dedicated"],
+      "control": { "kind": "boolean", "default": true },
+      "i18nKey": "mods.zytharian_critters.spawn_solo"
+    }
+  ]
+}

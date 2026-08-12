@@ -1,0 +1,192 @@
+{
+  "modId": "DeathRecovery",
+  "name": "Death Recovery Mod",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=751991809",
+  "settings": [
+    {
+      "id": "death_recovery_delay_timer",
+      "key": "DelayTimer",
+      "category": "mod_death_recovery",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "DeathRecovery",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 30,
+        "min": 0,
+        "max": 86400,
+        "step": 30
+      },
+      "i18nKey": "mods.death_recovery.delay_timer"
+    },
+    {
+      "id": "death_recovery_use_once",
+      "key": "UseOnce",
+      "category": "mod_death_recovery",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "DeathRecovery",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.death_recovery.use_once"
+    },
+    {
+      "id": "death_recovery_there_can_only_be_one",
+      "key": "ThereCanOnlyBeOne",
+      "category": "mod_death_recovery",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "DeathRecovery",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.death_recovery.there_can_only_be_one"
+    },
+    {
+      "id": "death_recovery_decay_multiplier",
+      "key": "DecayMultiplier",
+      "category": "mod_death_recovery",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DeathRecovery",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 5,
+        "step": 0.05,
+        "presets": [
+          0.142857,
+          0.428571,
+          1,
+          2
+        ]
+      },
+      "i18nKey": "mods.death_recovery.decay_multiplier"
+    },
+    {
+      "id": "death_recovery_disable_decay",
+      "key": "DisableDecay",
+      "category": "mod_death_recovery",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DeathRecovery",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.death_recovery.disable_decay"
+    },
+    {
+      "id": "death_recovery_disable_pickup",
+      "key": "DisablePickup",
+      "category": "mod_death_recovery",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "DeathRecovery",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.death_recovery.disable_pickup"
+    },
+    {
+      "id": "death_recovery_use_global_timer",
+      "key": "useGlobalTimer",
+      "category": "mod_death_recovery",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DeathRecovery",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.death_recovery.use_global_timer"
+    },
+    {
+      "id": "death_recovery_max_life_span",
+      "key": "MaxLifeSpan",
+      "category": "mod_death_recovery",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "DeathRecovery",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 604800,
+        "step": 3600
+      },
+      "i18nKey": "mods.death_recovery.max_life_span"
+    }
+  ]
+}

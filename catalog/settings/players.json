@@ -1,0 +1,252 @@
+[
+  {
+    "id": "player_damage_multiplier",
+    "key": "PlayerDamageMultiplier",
+    "category": "players",
+    "tier": "basic",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 10,
+      "presets": [1, 1.5, 2, 3]
+    },
+    "i18nKey": "settings.players.player_damage"
+  },
+  {
+    "id": "player_resistance_multiplier",
+    "key": "PlayerResistanceMultiplier",
+    "category": "players",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.01,
+      "max": 2.0,
+      "presets": [1, 0.75, 0.5, 0.25],
+      "inverseSemantics": true
+    },
+    "i18nKey": "settings.players.player_resistance"
+  },
+  {
+    "id": "player_water_drain_multiplier",
+    "key": "PlayerCharacterWaterDrainMultiplier",
+    "category": "players",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.01,
+      "max": 5,
+      "presets": [1, 0.5, 0.25, 0.1],
+      "inverseSemantics": true
+    },
+    "i18nKey": "settings.players.player_water_drain"
+  },
+  {
+    "id": "player_food_drain_multiplier",
+    "key": "PlayerCharacterFoodDrainMultiplier",
+    "category": "players",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.01,
+      "max": 5,
+      "presets": [1, 0.5, 0.25, 0.1],
+      "inverseSemantics": true
+    },
+    "i18nKey": "settings.players.player_food_drain"
+  },
+  {
+    "id": "player_stamina_drain_multiplier",
+    "key": "PlayerCharacterStaminaDrainMultiplier",
+    "category": "players",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.01,
+      "max": 5,
+      "presets": [1, 0.5, 0.25, 0.1],
+      "inverseSemantics": true
+    },
+    "i18nKey": "settings.players.player_stamina_drain"
+  },
+  {
+    "id": "max_personal_tamed_dinos",
+    "key": "MaxPersonalTamedDinos",
+    "category": "players",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["host_local", "dedicated"],
+    "control": {
+      "kind": "integer",
+      "default": 0,
+      "min": 0,
+      "max": 5000,
+      "step": 10
+    },
+    "i18nKey": "settings.players.max_personal_tamed_dinos"
+  },
+  {
+    "id": "prevent_offline_pvp",
+    "key": "PreventOfflinePvP",
+    "category": "players",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.players.prevent_offline_pvp"
+  },
+  {
+    "id": "allow_hit_markers",
+    "key": "AllowHitMarkers",
+    "category": "players",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": true
+    },
+    "i18nKey": "settings.players.allow_hit_markers"
+  },
+  {
+    "id": "player_harvesting_damage_multiplier",
+    "key": "PlayerHarvestingDamageMultiplier",
+    "category": "players",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 10,
+      "presets": [1, 1.5, 2, 3, 5]
+    },
+    "i18nKey": "settings.players.player_harvesting_damage"
+  },
+  {
+    "id": "custom_recipe_effectiveness_multiplier",
+    "key": "CustomRecipeEffectivenessMultiplier",
+    "category": "players",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 10,
+      "presets": [1, 2, 3, 5]
+    },
+    "i18nKey": "settings.players.custom_recipe_effectiveness"
+  },
+  {
+    "id": "custom_recipe_skill_multiplier",
+    "key": "CustomRecipeSkillMultiplier",
+    "category": "players",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 10,
+      "presets": [1, 2, 3, 5]
+    },
+    "i18nKey": "settings.players.custom_recipe_skill"
+  },
+  {
+    "id": "crafting_skill_bonus_multiplier",
+    "key": "CraftingSkillBonusMultiplier",
+    "category": "players",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 10,
+      "presets": [1, 2, 3, 5]
+    },
+    "i18nKey": "settings.players.crafting_skill_bonus"
+  },
+  {
+    "id": "tribe_name_change_cooldown",
+    "key": "TribeNameChangeCooldown",
+    "category": "players",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["host_local", "dedicated"],
+    "control": {
+      "kind": "integer",
+      "default": 15,
+      "min": 0,
+      "max": 1440,
+      "step": 1
+    },
+    "i18nKey": "settings.players.tribe_name_change_cooldown"
+  },
+  {
+    "id": "kick_idle_players_period",
+    "key": "KickIdlePlayersPeriod",
+    "category": "players",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["dedicated"],
+    "control": {
+      "kind": "integer",
+      "default": 3600,
+      "min": 60,
+      "max": 86400,
+      "step": 60
+    },
+    "i18nKey": "settings.players.kick_idle_players_period"
+  }
+]

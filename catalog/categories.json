@@ -1,0 +1,68 @@
+[
+  {
+    "id": "general",
+    "i18nKey": "categories.general",
+    "order": 1,
+    "icon": "Settings"
+  },
+  {
+    "id": "taming",
+    "i18nKey": "categories.taming",
+    "order": 2,
+    "icon": "Crosshair"
+  },
+  {
+    "id": "breeding",
+    "i18nKey": "categories.breeding",
+    "order": 3,
+    "icon": "Egg"
+  },
+  {
+    "id": "stats",
+    "i18nKey": "categories.stats",
+    "order": 4,
+    "icon": "BarChart3"
+  },
+  {
+    "id": "players",
+    "i18nKey": "categories.players",
+    "order": 5,
+    "icon": "Users"
+  },
+  {
+    "id": "dinos",
+    "i18nKey": "categories.dinos",
+    "order": 6,
+    "icon": "PawPrint"
+  },
+  {
+    "id": "spawns",
+    "i18nKey": "categories.spawns",
+    "order": 7,
+    "icon": "MapPinned"
+  },
+  {
+    "id": "resources",
+    "i18nKey": "categories.resources",
+    "order": 8,
+    "icon": "Pickaxe"
+  },
+  {
+    "id": "world",
+    "i18nKey": "categories.world",
+    "order": 9,
+    "icon": "Sun"
+  },
+  {
+    "id": "structures",
+    "i18nKey": "categories.structures",
+    "order": 10,
+    "icon": "Building2"
+  },
+  {
+    "id": "client",
+    "i18nKey": "categories.client",
+    "order": 11,
+    "icon": "Monitor"
+  }
+]

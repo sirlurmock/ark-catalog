@@ -1,0 +1,1877 @@
+{
+  "_source": "Borrador de scrape-workshop-configs.mjs sobre https://steamcommunity.com/sharedfiles/filedetails/?id=812639416, revisado a mano.",
+  "_scope": "Las 105 claves que documenta el autor, repartidas en tres secciones del mismo GameUserSettings.ini. Los 82 valores por arma van a tier experto: son muchos y muy finos.",
+  "modId": "WeaponsPlus",
+  "name": "Weapons+",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=812639416",
+  "prefix": "weapons_plus",
+  "settings": [
+    {
+      "key": "BoomerangDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 60,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de el bumerán",
+        "description": "Daño base de el bumerán. Valor por defecto de la mod: 60."
+      },
+      "en": {
+        "label": "The boomerang damage",
+        "description": "Base damage for the boomerang. Mod default: 60."
+      }
+    },
+    {
+      "key": "BoomerangFlameDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 60,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de el bumerán incendiario",
+        "description": "Daño base de el bumerán incendiario. Valor por defecto de la mod: 60."
+      },
+      "en": {
+        "label": "The flame boomerang damage",
+        "description": "Base damage for the flame boomerang. Mod default: 60."
+      }
+    },
+    {
+      "key": "BowArrowDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 55,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la flecha del arco",
+        "description": "Daño base de la flecha del arco. Valor por defecto de la mod: 55."
+      },
+      "en": {
+        "label": "The bow arrow damage",
+        "description": "Base damage for the bow arrow. Mod default: 55."
+      }
+    },
+    {
+      "key": "BowFlameArrowDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 60,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la flecha incendiaria del arco",
+        "description": "Daño base de la flecha incendiaria del arco. Valor por defecto de la mod: 60."
+      },
+      "en": {
+        "label": "The bow flame arrow damage",
+        "description": "Base damage for the bow flame arrow. Mod default: 60."
+      }
+    },
+    {
+      "key": "BowTranqArrowTorper",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 40,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Torpor de la flecha tranquilizante del arco",
+        "description": "Torpor que aplica la flecha tranquilizante del arco. Valor por defecto de la mod: 40."
+      },
+      "en": {
+        "label": "The bow tranq arrow torpor",
+        "description": "Torpor applied by the bow tranq arrow. Mod default: 40."
+      }
+    },
+    {
+      "key": "BowDetoxArrow",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 20,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la flecha antídoto del arco",
+        "description": "Daño base de la flecha antídoto del arco. Valor por defecto de la mod: 20."
+      },
+      "en": {
+        "label": "The bow detox arrow damage",
+        "description": "Base damage for the bow detox arrow. Mod default: 20."
+      }
+    },
+    {
+      "key": "BoltActionBulletDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 280,
+      "min": 0,
+      "max": 1400,
+      "step": 1,
+      "es": {
+        "label": "Daño de la bala del rifle de cerrojo",
+        "description": "Daño base de la bala del rifle de cerrojo. Valor por defecto de la mod: 280."
+      },
+      "en": {
+        "label": "The bolt-action bullet damage",
+        "description": "Base damage for the bolt-action bullet. Mod default: 280."
+      }
+    },
+    {
+      "key": "BoltActionAPBulletDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 280,
+      "min": 0,
+      "max": 1400,
+      "step": 1,
+      "es": {
+        "label": "Daño de la bala perforante del rifle de cerrojo",
+        "description": "Daño base de la bala perforante del rifle de cerrojo. Valor por defecto de la mod: 280."
+      },
+      "en": {
+        "label": "The bolt-action AP bullet damage",
+        "description": "Base damage for the bolt-action AP bullet. Mod default: 280."
+      }
+    },
+    {
+      "key": "BoltActionTranqBulletTorper",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 25,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Torpor de la bala tranquilizante del rifle de cerrojo",
+        "description": "Torpor que aplica la bala tranquilizante del rifle de cerrojo. Valor por defecto de la mod: 25."
+      },
+      "en": {
+        "label": "The bolt-action tranq bullet torpor",
+        "description": "Torpor applied by the bolt-action tranq bullet. Mod default: 25."
+      }
+    },
+    {
+      "key": "BoltActionAggroDart",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 1,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de el dardo de aggro del rifle de cerrojo",
+        "description": "Daño base de el dardo de aggro del rifle de cerrojo. Valor por defecto de la mod: 1."
+      },
+      "en": {
+        "label": "The bolt-action aggro dart damage",
+        "description": "Base damage for the bolt-action aggro dart. Mod default: 1."
+      }
+    },
+    {
+      "key": "BoltActionShockTranqDart",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 26,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Torpor de el dardo de choque del rifle de cerrojo",
+        "description": "Torpor que aplica el dardo de choque del rifle de cerrojo. Valor por defecto de la mod: 26."
+      },
+      "en": {
+        "label": "The bolt-action shock tranq dart torpor",
+        "description": "Torpor applied by the bolt-action shock tranq dart. Mod default: 26."
+      }
+    },
+    {
+      "key": "C4Damage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 1000,
+      "min": 0,
+      "max": 5000,
+      "step": 1,
+      "es": {
+        "label": "Daño de el C4",
+        "description": "Daño base de el C4. Valor por defecto de la mod: 1000."
+      },
+      "en": {
+        "label": "C4 damage",
+        "description": "Base damage for C4. Mod default: 1000."
+      }
+    },
+    {
+      "key": "CannonDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 1800,
+      "min": 0,
+      "max": 9000,
+      "step": 1,
+      "es": {
+        "label": "Daño de el cañón",
+        "description": "Daño base de el cañón. Valor por defecto de la mod: 1800."
+      },
+      "en": {
+        "label": "The cannon damage",
+        "description": "Base damage for the cannon. Mod default: 1800."
+      }
+    },
+    {
+      "key": "ChainSawDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 40,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la motosierra",
+        "description": "Daño base de la motosierra. Valor por defecto de la mod: 40."
+      },
+      "en": {
+        "label": "The chainsaw damage",
+        "description": "Base damage for the chainsaw. Mod default: 40."
+      }
+    },
+    {
+      "key": "CompoundBoltDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 130,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de el virote del arco compuesto",
+        "description": "Daño base de el virote del arco compuesto. Valor por defecto de la mod: 130."
+      },
+      "en": {
+        "label": "The compound bolt damage",
+        "description": "Base damage for the compound bolt. Mod default: 130."
+      }
+    },
+    {
+      "key": "CompoundExplosiveDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 130,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de el virote explosivo del arco compuesto",
+        "description": "Daño base de el virote explosivo del arco compuesto. Valor por defecto de la mod: 130."
+      },
+      "en": {
+        "label": "The compound explosive bolt damage",
+        "description": "Base damage for the compound explosive bolt. Mod default: 130."
+      }
+    },
+    {
+      "key": "CompoundFlameDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 130,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de el virote incendiario del arco compuesto",
+        "description": "Daño base de el virote incendiario del arco compuesto. Valor por defecto de la mod: 130."
+      },
+      "en": {
+        "label": "The compound flame bolt damage",
+        "description": "Base damage for the compound flame bolt. Mod default: 130."
+      }
+    },
+    {
+      "key": "CompoundShockDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 130,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de el virote eléctrico del arco compuesto",
+        "description": "Daño base de el virote eléctrico del arco compuesto. Valor por defecto de la mod: 130."
+      },
+      "en": {
+        "label": "The compound shock bolt damage",
+        "description": "Base damage for the compound shock bolt. Mod default: 130."
+      }
+    },
+    {
+      "key": "CompoundTranqTorper",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 130,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Torpor de el virote tranquilizante del arco compuesto",
+        "description": "Torpor que aplica el virote tranquilizante del arco compuesto. Valor por defecto de la mod: 130."
+      },
+      "en": {
+        "label": "The compound tranq bolt torpor",
+        "description": "Torpor applied by the compound tranq bolt. Mod default: 130."
+      }
+    },
+    {
+      "key": "CrossBoltDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 65,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de el virote de la ballesta",
+        "description": "Daño base de el virote de la ballesta. Valor por defecto de la mod: 65."
+      },
+      "en": {
+        "label": "The crossbow bolt damage",
+        "description": "Base damage for the crossbow bolt. Mod default: 65."
+      }
+    },
+    {
+      "key": "CrossBoltFlameDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 65,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de el virote incendiario de la ballesta",
+        "description": "Daño base de el virote incendiario de la ballesta. Valor por defecto de la mod: 65."
+      },
+      "en": {
+        "label": "The crossbow flame bolt damage",
+        "description": "Base damage for the crossbow flame bolt. Mod default: 65."
+      }
+    },
+    {
+      "key": "CrossBoltTranqTorper",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 30,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Torpor de el virote tranquilizante de la ballesta",
+        "description": "Torpor que aplica el virote tranquilizante de la ballesta. Valor por defecto de la mod: 30."
+      },
+      "en": {
+        "label": "The crossbow tranq bolt torpor",
+        "description": "Torpor applied by the crossbow tranq bolt. Mod default: 30."
+      }
+    },
+    {
+      "key": "CrossBoltDetoxArrow",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 30,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de el virote antídoto de la ballesta",
+        "description": "Daño base de el virote antídoto de la ballesta. Valor por defecto de la mod: 30."
+      },
+      "en": {
+        "label": "The crossbow detox bolt damage",
+        "description": "Base damage for the crossbow detox bolt. Mod default: 30."
+      }
+    },
+    {
+      "key": "FabSniperBulletDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 142,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la bala del francotirador fabricado",
+        "description": "Daño base de la bala del francotirador fabricado. Valor por defecto de la mod: 142."
+      },
+      "en": {
+        "label": "The fabricated sniper bullet damage",
+        "description": "Base damage for the fabricated sniper bullet. Mod default: 142."
+      }
+    },
+    {
+      "key": "FabSniperAPBulletDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 142,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la bala perforante del francotirador fabricado",
+        "description": "Daño base de la bala perforante del francotirador fabricado. Valor por defecto de la mod: 142."
+      },
+      "en": {
+        "label": "The fabricated sniper AP bullet damage",
+        "description": "Base damage for the fabricated sniper AP bullet. Mod default: 142."
+      }
+    },
+    {
+      "key": "FabSniperTranqBulletTorper",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 100,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Torpor de la bala tranquilizante del francotirador fabricado",
+        "description": "Torpor que aplica la bala tranquilizante del francotirador fabricado. Valor por defecto de la mod: 100."
+      },
+      "en": {
+        "label": "The fabricated sniper tranq bullet torpor",
+        "description": "Torpor applied by the fabricated sniper tranq bullet. Mod default: 100."
+      }
+    },
+    {
+      "key": "FabPistolBulletDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 50,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la bala de la pistola fabricada",
+        "description": "Daño base de la bala de la pistola fabricada. Valor por defecto de la mod: 50."
+      },
+      "en": {
+        "label": "The fabricated pistol bullet damage",
+        "description": "Base damage for the fabricated pistol bullet. Mod default: 50."
+      }
+    },
+    {
+      "key": "FabPistolAPBulletDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 50,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la bala perforante de la pistola fabricada",
+        "description": "Daño base de la bala perforante de la pistola fabricada. Valor por defecto de la mod: 50."
+      },
+      "en": {
+        "label": "The fabricated pistol AP bullet damage",
+        "description": "Base damage for the fabricated pistol AP bullet. Mod default: 50."
+      }
+    },
+    {
+      "key": "FabPistolElectricBulletDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 25,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la bala eléctrica de la pistola fabricada",
+        "description": "Daño base de la bala eléctrica de la pistola fabricada. Valor por defecto de la mod: 25."
+      },
+      "en": {
+        "label": "The fabricated pistol electric bullet damage",
+        "description": "Base damage for the fabricated pistol electric bullet. Mod default: 25."
+      }
+    },
+    {
+      "key": "FlameThrowerDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 20,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de el lanzallamas",
+        "description": "Daño base de el lanzallamas. Valor por defecto de la mod: 20."
+      },
+      "en": {
+        "label": "The flamethrower damage",
+        "description": "Base damage for the flamethrower. Mod default: 20."
+      }
+    },
+    {
+      "key": "FlameThrowerMinDamagePerSecond",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 20,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de el lanzallamas por segundo (mínimo)",
+        "description": "Daño base de el lanzallamas por segundo (mínimo). Valor por defecto de la mod: 20."
+      },
+      "en": {
+        "label": "The flamethrower per second (minimum) damage",
+        "description": "Base damage for the flamethrower per second (minimum). Mod default: 20."
+      }
+    },
+    {
+      "key": "GrenadeDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 175,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la granada",
+        "description": "Daño base de la granada. Valor por defecto de la mod: 175."
+      },
+      "en": {
+        "label": "The grenade damage",
+        "description": "Base damage for the grenade. Mod default: 175."
+      }
+    },
+    {
+      "key": "GasGrenadeDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 2,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la granada de gas",
+        "description": "Daño base de la granada de gas. Valor por defecto de la mod: 2."
+      },
+      "en": {
+        "label": "The gas grenade damage",
+        "description": "Base damage for the gas grenade. Mod default: 2."
+      }
+    },
+    {
+      "key": "ClusterGrenadeDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 60,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la granada de racimo",
+        "description": "Daño base de la granada de racimo. Valor por defecto de la mod: 60."
+      },
+      "en": {
+        "label": "The cluster grenade damage",
+        "description": "Base damage for the cluster grenade. Mod default: 60."
+      }
+    },
+    {
+      "key": "ClusterFragmentGrenadeDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 150,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de cada fragmento de la granada de racimo",
+        "description": "Daño base de cada fragmento de la granada de racimo. Valor por defecto de la mod: 150."
+      },
+      "en": {
+        "label": "Each cluster grenade fragment damage",
+        "description": "Base damage for each cluster grenade fragment. Mod default: 150."
+      }
+    },
+    {
+      "key": "TekGrenadeDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 925,
+      "min": 0,
+      "max": 4625,
+      "step": 1,
+      "es": {
+        "label": "Daño de la granada tek",
+        "description": "Daño base de la granada tek. Valor por defecto de la mod: 925."
+      },
+      "en": {
+        "label": "The tek grenade damage",
+        "description": "Base damage for the tek grenade. Mod default: 925."
+      }
+    },
+    {
+      "key": "HarpoonDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 140,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de el arpón",
+        "description": "Daño base de el arpón. Valor por defecto de la mod: 140."
+      },
+      "en": {
+        "label": "The harpoon damage",
+        "description": "Base damage for the harpoon. Mod default: 140."
+      }
+    },
+    {
+      "key": "HarpoonTranqTorper",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 46,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Torpor de el arpón tranquilizante",
+        "description": "Torpor que aplica el arpón tranquilizante. Valor por defecto de la mod: 46."
+      },
+      "en": {
+        "label": "The tranq harpoon torpor",
+        "description": "Torpor applied by the tranq harpoon. Mod default: 46."
+      }
+    },
+    {
+      "key": "MachinedRifleBulletDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 52,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la bala del rifle mecanizado",
+        "description": "Daño base de la bala del rifle mecanizado. Valor por defecto de la mod: 52."
+      },
+      "en": {
+        "label": "The machined rifle bullet damage",
+        "description": "Base damage for the machined rifle bullet. Mod default: 52."
+      }
+    },
+    {
+      "key": "MachinedRifleAPBulletDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 52,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la bala perforante del rifle mecanizado",
+        "description": "Daño base de la bala perforante del rifle mecanizado. Valor por defecto de la mod: 52."
+      },
+      "en": {
+        "label": "The machined rifle AP bullet damage",
+        "description": "Base damage for the machined rifle AP bullet. Mod default: 52."
+      }
+    },
+    {
+      "key": "MachinedRifleElectricBulletDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 28,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la bala eléctrica del rifle mecanizado",
+        "description": "Daño base de la bala eléctrica del rifle mecanizado. Valor por defecto de la mod: 28."
+      },
+      "en": {
+        "label": "The machined rifle electric bullet damage",
+        "description": "Base damage for the machined rifle electric bullet. Mod default: 28."
+      }
+    },
+    {
+      "key": "NetGunTranqDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 5,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la red tranquilizante",
+        "description": "Daño base de la red tranquilizante. Valor por defecto de la mod: 5."
+      },
+      "en": {
+        "label": "The tranq net damage",
+        "description": "Base damage for the tranq net. Mod default: 5."
+      }
+    },
+    {
+      "key": "PikeDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 50,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la pica",
+        "description": "Daño base de la pica. Valor por defecto de la mod: 50."
+      },
+      "en": {
+        "label": "The pike damage",
+        "description": "Base damage for the pike. Mod default: 50."
+      }
+    },
+    {
+      "key": "SwordDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 100,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la espada",
+        "description": "Daño base de la espada. Valor por defecto de la mod: 100."
+      },
+      "en": {
+        "label": "The sword damage",
+        "description": "Base damage for the sword. Mod default: 100."
+      }
+    },
+    {
+      "key": "ElectricProbDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 2,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la picana eléctrica",
+        "description": "Daño base de la picana eléctrica. Valor por defecto de la mod: 2."
+      },
+      "en": {
+        "label": "The electric prod damage",
+        "description": "Base damage for the electric prod. Mod default: 2."
+      }
+    },
+    {
+      "key": "TekSwordDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 200,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la espada tek",
+        "description": "Daño base de la espada tek. Valor por defecto de la mod: 200."
+      },
+      "en": {
+        "label": "The tek sword damage",
+        "description": "Base damage for the tek sword. Mod default: 200."
+      }
+    },
+    {
+      "key": "MagnumBulletDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 100,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la bala del magnum",
+        "description": "Daño base de la bala del magnum. Valor por defecto de la mod: 100."
+      },
+      "en": {
+        "label": "The magnum bullet damage",
+        "description": "Base damage for the magnum bullet. Mod default: 100."
+      }
+    },
+    {
+      "key": "ShotgunAmmoDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 46,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de el cartucho de escopeta",
+        "description": "Daño base de el cartucho de escopeta. Valor por defecto de la mod: 46."
+      },
+      "en": {
+        "label": "The shotgun shell damage",
+        "description": "Base damage for the shotgun shell. Mod default: 46."
+      }
+    },
+    {
+      "key": "ShotgunAPAmmoDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 46,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de el cartucho perforante de escopeta",
+        "description": "Daño base de el cartucho perforante de escopeta. Valor por defecto de la mod: 46."
+      },
+      "en": {
+        "label": "The shotgun AP shell damage",
+        "description": "Base damage for the shotgun AP shell. Mod default: 46."
+      }
+    },
+    {
+      "key": "ShotgunExplosiveAmmoDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 35,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de el cartucho explosivo de escopeta",
+        "description": "Daño base de el cartucho explosivo de escopeta. Valor por defecto de la mod: 35."
+      },
+      "en": {
+        "label": "The shotgun explosive shell damage",
+        "description": "Base damage for the shotgun explosive shell. Mod default: 35."
+      }
+    },
+    {
+      "key": "SlingshotDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 20,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la honda",
+        "description": "Daño base de la honda. Valor por defecto de la mod: 20."
+      },
+      "en": {
+        "label": "The slingshot damage",
+        "description": "Base damage for the slingshot. Mod default: 20."
+      }
+    },
+    {
+      "key": "SpearDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 60,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la lanza",
+        "description": "Daño base de la lanza. Valor por defecto de la mod: 60."
+      },
+      "en": {
+        "label": "The spear damage",
+        "description": "Base damage for the spear. Mod default: 60."
+      }
+    },
+    {
+      "key": "SpikeDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 50,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de las púas",
+        "description": "Daño base de las púas. Valor por defecto de la mod: 50."
+      },
+      "en": {
+        "label": "Spikes damage",
+        "description": "Base damage for spikes. Mod default: 50."
+      }
+    },
+    {
+      "key": "WoodenClubDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 10,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de el garrote de madera",
+        "description": "Daño base de el garrote de madera. Valor por defecto de la mod: 10."
+      },
+      "en": {
+        "label": "The wooden club damage",
+        "description": "Base damage for the wooden club. Mod default: 10."
+      }
+    },
+    {
+      "key": "RocketLauncherDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 250,
+      "min": 0,
+      "max": 1250,
+      "step": 1,
+      "es": {
+        "label": "Daño de el impacto del lanzacohetes",
+        "description": "Daño base de el impacto del lanzacohetes. Valor por defecto de la mod: 250."
+      },
+      "en": {
+        "label": "The rocket launcher hit damage",
+        "description": "Base damage for the rocket launcher hit. Mod default: 250."
+      }
+    },
+    {
+      "key": "RocketLauncherExplosion",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 1150,
+      "min": 0,
+      "max": 5750,
+      "step": 1,
+      "es": {
+        "label": "Daño de explosión de el lanzacohetes",
+        "description": "Daño del área de explosión de el lanzacohetes, aparte del impacto directo. Valor por defecto de la mod: 1150."
+      },
+      "en": {
+        "label": "The rocket launcher explosion damage",
+        "description": "Blast damage from the rocket launcher, separate from the direct hit. Mod default: 1150."
+      }
+    },
+    {
+      "key": "FireWorkRocketLauncherDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 250,
+      "min": 0,
+      "max": 1250,
+      "step": 1,
+      "es": {
+        "label": "Daño de el impacto del lanzacohetes de fuegos artificiales",
+        "description": "Daño base de el impacto del lanzacohetes de fuegos artificiales. Valor por defecto de la mod: 250."
+      },
+      "en": {
+        "label": "The firework rocket launcher hit damage",
+        "description": "Base damage for the firework rocket launcher hit. Mod default: 250."
+      }
+    },
+    {
+      "key": "FireWorkRocketLauncherExplosion",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 1150,
+      "min": 0,
+      "max": 5750,
+      "step": 1,
+      "es": {
+        "label": "Daño de explosión de el lanzacohetes de fuegos artificiales",
+        "description": "Daño del área de explosión de el lanzacohetes de fuegos artificiales, aparte del impacto directo. Valor por defecto de la mod: 1150."
+      },
+      "en": {
+        "label": "The firework rocket launcher explosion damage",
+        "description": "Blast damage from the firework rocket launcher, separate from the direct hit. Mod default: 1150."
+      }
+    },
+    {
+      "key": "HomingMissileDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 250,
+      "min": 0,
+      "max": 1250,
+      "step": 1,
+      "es": {
+        "label": "Daño de el impacto del misil teledirigido",
+        "description": "Daño base de el impacto del misil teledirigido. Valor por defecto de la mod: 250."
+      },
+      "en": {
+        "label": "The homing missile hit damage",
+        "description": "Base damage for the homing missile hit. Mod default: 250."
+      }
+    },
+    {
+      "key": "HomingMissileExplosion",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 1150,
+      "min": 0,
+      "max": 5750,
+      "step": 1,
+      "es": {
+        "label": "Daño de explosión de el misil teledirigido",
+        "description": "Daño del área de explosión de el misil teledirigido, aparte del impacto directo. Valor por defecto de la mod: 1150."
+      },
+      "en": {
+        "label": "The homing missile explosion damage",
+        "description": "Blast damage from the homing missile, separate from the direct hit. Mod default: 1150."
+      }
+    },
+    {
+      "key": "RocketTranqTorper",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 100,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Torpor de el impacto del cohete tranquilizante",
+        "description": "Torpor que aplica el impacto del cohete tranquilizante. Valor por defecto de la mod: 100."
+      },
+      "en": {
+        "label": "The tranq rocket hit torpor",
+        "description": "Torpor applied by the tranq rocket hit. Mod default: 100."
+      }
+    },
+    {
+      "key": "RocketTranqTorperExplosion",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 250,
+      "min": 0,
+      "max": 1250,
+      "step": 1,
+      "es": {
+        "label": "Torpor de la explosión del cohete tranquilizante",
+        "description": "Torpor que aplica la explosión del cohete tranquilizante. Valor por defecto de la mod: 250."
+      },
+      "en": {
+        "label": "The tranq rocket explosion torpor",
+        "description": "Torpor applied by the tranq rocket explosion. Mod default: 250."
+      }
+    },
+    {
+      "key": "RocketTurretDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 200,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de el impacto de la torreta de cohetes",
+        "description": "Daño base de el impacto de la torreta de cohetes. Valor por defecto de la mod: 200."
+      },
+      "en": {
+        "label": "The rocket turret hit damage",
+        "description": "Base damage for the rocket turret hit. Mod default: 200."
+      }
+    },
+    {
+      "key": "RocketTurretExplosion",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 800,
+      "min": 0,
+      "max": 4000,
+      "step": 1,
+      "es": {
+        "label": "Daño de explosión de la torreta de cohetes",
+        "description": "Daño del área de explosión de la torreta de cohetes, aparte del impacto directo. Valor por defecto de la mod: 800."
+      },
+      "en": {
+        "label": "The rocket turret explosion damage",
+        "description": "Blast damage from the rocket turret, separate from the direct hit. Mod default: 800."
+      }
+    },
+    {
+      "key": "MiniGunTurretDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 150,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la torreta minigun",
+        "description": "Daño base de la torreta minigun. Valor por defecto de la mod: 150."
+      },
+      "en": {
+        "label": "The minigun turret damage",
+        "description": "Base damage for the minigun turret. Mod default: 150."
+      }
+    },
+    {
+      "key": "APTurretDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 154,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la torreta automática",
+        "description": "Daño base de la torreta automática. Valor por defecto de la mod: 154."
+      },
+      "en": {
+        "label": "The auto turret damage",
+        "description": "Base damage for the auto turret. Mod default: 154."
+      }
+    },
+    {
+      "key": "T2TurretDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 154,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la torreta pesada",
+        "description": "Daño base de la torreta pesada. Valor por defecto de la mod: 154."
+      },
+      "en": {
+        "label": "The heavy turret damage",
+        "description": "Base damage for the heavy turret. Mod default: 154."
+      }
+    },
+    {
+      "key": "TekTurretDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 750,
+      "min": 0,
+      "max": 3750,
+      "step": 1,
+      "es": {
+        "label": "Daño de el impacto de la torreta tek",
+        "description": "Daño base de el impacto de la torreta tek. Valor por defecto de la mod: 750."
+      },
+      "en": {
+        "label": "The tek turret hit damage",
+        "description": "Base damage for the tek turret hit. Mod default: 750."
+      }
+    },
+    {
+      "key": "TekTurretExplosion",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 600,
+      "min": 0,
+      "max": 3000,
+      "step": 1,
+      "es": {
+        "label": "Daño de explosión de la torreta tek",
+        "description": "Daño del área de explosión de la torreta tek, aparte del impacto directo. Valor por defecto de la mod: 600."
+      },
+      "en": {
+        "label": "The tek turret explosion damage",
+        "description": "Blast damage from the tek turret, separate from the direct hit. Mod default: 600."
+      }
+    },
+    {
+      "key": "MountTurretDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 77,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la torreta de montura",
+        "description": "Daño base de la torreta de montura. Valor por defecto de la mod: 77."
+      },
+      "en": {
+        "label": "The mounted turret damage",
+        "description": "Base damage for the mounted turret. Mod default: 77."
+      }
+    },
+    {
+      "key": "TekRailGunDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 850,
+      "min": 0,
+      "max": 4250,
+      "step": 1,
+      "es": {
+        "label": "Daño de el rifle de riel tek",
+        "description": "Daño base de el rifle de riel tek. Valor por defecto de la mod: 850."
+      },
+      "en": {
+        "label": "The tek railgun damage",
+        "description": "Base damage for the tek railgun. Mod default: 850."
+      }
+    },
+    {
+      "key": "TekRifleDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 240,
+      "min": 0,
+      "max": 1200,
+      "step": 1,
+      "es": {
+        "label": "Daño de el rifle tek",
+        "description": "Daño base de el rifle tek. Valor por defecto de la mod: 240."
+      },
+      "en": {
+        "label": "The tek rifle damage",
+        "description": "Base damage for the tek rifle. Mod default: 240."
+      }
+    },
+    {
+      "key": "TekClawsDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 15,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de las garras tek",
+        "description": "Daño base de las garras tek. Valor por defecto de la mod: 15."
+      },
+      "en": {
+        "label": "The tek claws damage",
+        "description": "Base damage for the tek claws. Mod default: 15."
+      }
+    },
+    {
+      "key": "TekBowDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 200,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la flecha del arco tek",
+        "description": "Daño base de la flecha del arco tek. Valor por defecto de la mod: 200."
+      },
+      "en": {
+        "label": "The tek bow arrow damage",
+        "description": "Base damage for the tek bow arrow. Mod default: 200."
+      }
+    },
+    {
+      "key": "TekBowExplosiveDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 150,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la flecha explosiva del arco tek",
+        "description": "Daño base de la flecha explosiva del arco tek. Valor por defecto de la mod: 150."
+      },
+      "en": {
+        "label": "The tek bow explosive arrow damage",
+        "description": "Base damage for the tek bow explosive arrow. Mod default: 150."
+      }
+    },
+    {
+      "key": "TekBowFlameDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 100,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la flecha incendiaria del arco tek",
+        "description": "Daño base de la flecha incendiaria del arco tek. Valor por defecto de la mod: 100."
+      },
+      "en": {
+        "label": "The tek bow flame arrow damage",
+        "description": "Base damage for the tek bow flame arrow. Mod default: 100."
+      }
+    },
+    {
+      "key": "TekBowTranqDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 40,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la flecha tranquilizante del arco tek",
+        "description": "Daño base de la flecha tranquilizante del arco tek. Valor por defecto de la mod: 40."
+      },
+      "en": {
+        "label": "The tek bow tranq arrow damage",
+        "description": "Base damage for the tek bow tranq arrow. Mod default: 40."
+      }
+    },
+    {
+      "key": "TekPistolDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 80,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de la pistola tek",
+        "description": "Daño base de la pistola tek. Valor por defecto de la mod: 80."
+      },
+      "en": {
+        "label": "The tek pistol damage",
+        "description": "Base damage for the tek pistol. Mod default: 80."
+      }
+    },
+    {
+      "key": "TekPistolHealAmount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 1,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Curación de la pistola tek",
+        "description": "Vida que restaura la pistola tek en modo curación. Valor por defecto de la mod: 1."
+      },
+      "en": {
+        "label": "The tek pistol healing",
+        "description": "Health restored by the tek pistol in healing mode. Mod default: 1."
+      }
+    },
+    {
+      "key": "ShoulderCannonDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 250,
+      "min": 0,
+      "max": 1250,
+      "step": 1,
+      "es": {
+        "label": "Daño de el cañón de hombro",
+        "description": "Daño base de el cañón de hombro. Valor por defecto de la mod: 250."
+      },
+      "en": {
+        "label": "The shoulder cannon damage",
+        "description": "Base damage for the shoulder cannon. Mod default: 250."
+      }
+    },
+    {
+      "key": "ShoulderCannonRapidDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 80,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Daño de el cañón de hombro en modo rápido",
+        "description": "Daño base de el cañón de hombro en modo rápido. Valor por defecto de la mod: 80."
+      },
+      "en": {
+        "label": "The shoulder cannon in rapid mode damage",
+        "description": "Base damage for the shoulder cannon in rapid mode. Mod default: 80."
+      }
+    },
+    {
+      "key": "ShoulderCannonOverchargeDamage",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 600,
+      "min": 0,
+      "max": 3000,
+      "step": 1,
+      "es": {
+        "label": "Daño de el cañón de hombro sobrecargado",
+        "description": "Daño base de el cañón de hombro sobrecargado. Valor por defecto de la mod: 600."
+      },
+      "en": {
+        "label": "The overcharged shoulder cannon damage",
+        "description": "Base damage for the overcharged shoulder cannon. Mod default: 600."
+      }
+    },
+    {
+      "key": "ChainSawHarvestMultiplier",
+      "section": "WeaponsPlusSettings",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 1,
+      "min": 0,
+      "max": 50,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Cosecha con la motosierra",
+        "description": "Multiplica lo que se recolecta con la motosierra. Valor por defecto de la mod: 1."
+      },
+      "en": {
+        "label": "The chainsaw harvest",
+        "description": "Multiplies what the chainsaw gathers. Mod default: 1."
+      }
+    },
+    {
+      "key": "MiningDrillHarvestMultiplier",
+      "section": "WeaponsPlusSettings",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 2,
+      "min": 0,
+      "max": 50,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Cosecha con el taladro minero",
+        "description": "Multiplica lo que se recolecta con el taladro minero. Valor por defecto de la mod: 2."
+      },
+      "en": {
+        "label": "The mining drill harvest",
+        "description": "Multiplies what the mining drill gathers. Mod default: 2."
+      }
+    },
+    {
+      "key": "MetalPickHarvestMultiplier",
+      "section": "WeaponsPlusSettings",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 2,
+      "min": 0,
+      "max": 50,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Cosecha con el pico de metal",
+        "description": "Multiplica lo que se recolecta con el pico de metal. Valor por defecto de la mod: 2."
+      },
+      "en": {
+        "label": "The metal pick harvest",
+        "description": "Multiplies what the metal pick gathers. Mod default: 2."
+      }
+    },
+    {
+      "key": "MetalHatchetHarvestMultiplier",
+      "section": "WeaponsPlusSettings",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 2,
+      "min": 0,
+      "max": 50,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Cosecha con el hacha de metal",
+        "description": "Multiplica lo que se recolecta con el hacha de metal. Valor por defecto de la mod: 2."
+      },
+      "en": {
+        "label": "The metal hatchet harvest",
+        "description": "Multiplies what the metal hatchet gathers. Mod default: 2."
+      }
+    },
+    {
+      "key": "MetalSickleHarvestMultiplier",
+      "section": "WeaponsPlusSettings",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 2,
+      "min": 0,
+      "max": 50,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Cosecha con la hoz de metal",
+        "description": "Multiplica lo que se recolecta con la hoz de metal. Valor por defecto de la mod: 2."
+      },
+      "en": {
+        "label": "The metal sickle harvest",
+        "description": "Multiplies what the metal sickle gathers. Mod default: 2."
+      }
+    },
+    {
+      "key": "WeaponsBenchCraftingSpeed",
+      "section": "WeaponsPlusSettings",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 50,
+      "min": 1,
+      "max": 500,
+      "step": 5,
+      "es": {
+        "label": "Velocidad de la mesa de armas",
+        "description": "Multiplica la velocidad de fabricación de la mesa de trabajo de la mod. Valor por defecto: 50."
+      },
+      "en": {
+        "label": "Weapons bench crafting speed",
+        "description": "Multiplies the crafting speed of the mod's bench. Mod default: 50."
+      }
+    },
+    {
+      "key": "WeaponsBenchMaxInventrySlots",
+      "section": "WeaponsPlusSettings",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 400,
+      "min": 1,
+      "max": 1000,
+      "step": 10,
+      "es": {
+        "label": "Slots de la mesa de armas",
+        "description": "Cantidad de slots de inventario de la mesa de trabajo. Valor por defecto: 400."
+      },
+      "en": {
+        "label": "Weapons bench inventory slots",
+        "description": "Inventory slot count for the bench. Mod default: 400."
+      }
+    },
+    {
+      "key": "TekNoStructDmg",
+      "section": "WeaponsPlusSettings",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": true,
+      "es": {
+        "label": "Las armas tek no dañan estructuras",
+        "description": "Evita que el armamento tek de la mod rompa construcciones. Valor por defecto: activado."
+      },
+      "en": {
+        "label": "Tek weapons do not damage structures",
+        "description": "Stops the mod's tek weaponry from breaking buildings. Mod default: on."
+      }
+    },
+    {
+      "key": "HomingMissileLockOnDistance",
+      "section": "WeaponsPlusSettings",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 14000,
+      "min": 0,
+      "max": 100000,
+      "step": 1000,
+      "es": {
+        "label": "Alcance de fijado del misil teledirigido",
+        "description": "Distancia máxima a la que el misil puede fijar un objetivo. Valor por defecto: 14000."
+      },
+      "en": {
+        "label": "Homing missile lock-on range",
+        "description": "Maximum distance at which the missile can lock a target. Mod default: 14000."
+      }
+    },
+    {
+      "key": "APTurretDamageMultiplier",
+      "section": "WeaponsPlusSettings",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0,
+      "max": 20,
+      "step": 0.1,
+      "presets": [
+        0.5,
+        1,
+        2,
+        5
+      ],
+      "es": {
+        "label": "Multiplicador de daño de torretas automáticas",
+        "description": "Escala el daño de todas las torretas automáticas. Valor por defecto: 1."
+      },
+      "en": {
+        "label": "Auto turret damage multiplier",
+        "description": "Scales the damage of every auto turret. Mod default: 1."
+      }
+    },
+    {
+      "key": "T2TurretDamageMultiplier",
+      "section": "WeaponsPlusSettings",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0,
+      "max": 20,
+      "step": 0.1,
+      "presets": [
+        0.5,
+        1,
+        2,
+        5
+      ],
+      "es": {
+        "label": "Multiplicador de daño de torretas pesadas",
+        "description": "Escala el daño de todas las torretas pesadas. Valor por defecto: 1."
+      },
+      "en": {
+        "label": "Heavy turret damage multiplier",
+        "description": "Scales the damage of every heavy turret. Mod default: 1."
+      }
+    },
+    {
+      "key": "APTurretTargetingSpeed",
+      "section": "WeaponsPlusSettings",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 140,
+      "min": 1,
+      "max": 1000,
+      "step": 10,
+      "es": {
+        "label": "Velocidad de apuntado de torretas automáticas",
+        "description": "Qué tan rápido gira la torreta para seguir un objetivo. Valor por defecto: 140."
+      },
+      "en": {
+        "label": "Auto turret targeting speed",
+        "description": "How fast the turret rotates to track a target. Mod default: 140."
+      }
+    },
+    {
+      "key": "APTurretFireInterval",
+      "section": "WeaponsPlusSettings",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 0.2,
+      "min": 0.01,
+      "max": 10,
+      "step": 0.05,
+      "presets": [
+        0.1,
+        0.2,
+        0.5,
+        1
+      ],
+      "es": {
+        "label": "Cadencia de las torretas automáticas (segundos)",
+        "description": "Segundos entre disparo y disparo. Más bajo dispara más rápido. Valor por defecto: 0.2."
+      },
+      "en": {
+        "label": "Auto turret fire interval (seconds)",
+        "description": "Seconds between shots. Lower fires faster. Mod default: 0.2."
+      }
+    },
+    {
+      "key": "T2TurretTargetingSpeed",
+      "section": "WeaponsPlusSettings",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 140,
+      "min": 1,
+      "max": 1000,
+      "step": 10,
+      "es": {
+        "label": "Velocidad de apuntado de torretas pesadas",
+        "description": "Qué tan rápido gira la torreta pesada para seguir un objetivo. Valor por defecto: 140."
+      },
+      "en": {
+        "label": "Heavy turret targeting speed",
+        "description": "How fast the heavy turret rotates to track a target. Mod default: 140."
+      }
+    },
+    {
+      "key": "T2TurretFireInterval",
+      "section": "WeaponsPlusSettings",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 0.2,
+      "min": 0.01,
+      "max": 10,
+      "step": 0.05,
+      "presets": [
+        0.1,
+        0.2,
+        0.5,
+        1
+      ],
+      "es": {
+        "label": "Cadencia de las torretas pesadas (segundos)",
+        "description": "Segundos entre disparo y disparo. Valor por defecto: 0.2."
+      },
+      "en": {
+        "label": "Heavy turret fire interval (seconds)",
+        "description": "Seconds between shots. Mod default: 0.2."
+      }
+    },
+    {
+      "key": "TekTurretTargetingSpeed",
+      "section": "WeaponsPlusSettings",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 180,
+      "min": 1,
+      "max": 1000,
+      "step": 10,
+      "es": {
+        "label": "Velocidad de apuntado de torretas tek",
+        "description": "Qué tan rápido gira la torreta tek para seguir un objetivo. Valor por defecto: 180."
+      },
+      "en": {
+        "label": "Tek turret targeting speed",
+        "description": "How fast the tek turret rotates to track a target. Mod default: 180."
+      }
+    },
+    {
+      "key": "TekTurretFireInterval",
+      "section": "WeaponsPlusSettings",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 0.2,
+      "min": 0.01,
+      "max": 10,
+      "step": 0.05,
+      "presets": [
+        0.1,
+        0.2,
+        0.5,
+        1
+      ],
+      "es": {
+        "label": "Cadencia de las torretas tek (segundos)",
+        "description": "Segundos entre disparo y disparo. Valor por defecto: 0.2."
+      },
+      "en": {
+        "label": "Tek turret fire interval (seconds)",
+        "description": "Seconds between shots. Mod default: 0.2."
+      }
+    },
+    {
+      "key": "EventFabPistol",
+      "section": "WeaponsEventPlus",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 500,
+      "min": 0,
+      "max": 5000,
+      "step": 10,
+      "es": {
+        "label": "Daño de la pistola fabricada de evento",
+        "description": "Daño de la variante de evento. Solo aplica si la mod tiene el evento activo. Valor por defecto: 500."
+      },
+      "en": {
+        "label": "The event fabricated pistol damage",
+        "description": "Damage for the event variant. Only applies while the mod's event is active. Mod default: 500."
+      }
+    },
+    {
+      "key": "EventFabSniper",
+      "section": "WeaponsEventPlus",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 500,
+      "min": 0,
+      "max": 5000,
+      "step": 10,
+      "es": {
+        "label": "Daño de el francotirador de evento",
+        "description": "Daño de la variante de evento. Solo aplica si la mod tiene el evento activo. Valor por defecto: 500."
+      },
+      "en": {
+        "label": "The event sniper damage",
+        "description": "Damage for the event variant. Only applies while the mod's event is active. Mod default: 500."
+      }
+    },
+    {
+      "key": "EventGoldenGun",
+      "section": "WeaponsEventPlus",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 500,
+      "min": 0,
+      "max": 5000,
+      "step": 10,
+      "es": {
+        "label": "Daño de el arma dorada de evento",
+        "description": "Daño de la variante de evento. Solo aplica si la mod tiene el evento activo. Valor por defecto: 500."
+      },
+      "en": {
+        "label": "The event golden gun damage",
+        "description": "Damage for the event variant. Only applies while the mod's event is active. Mod default: 500."
+      }
+    },
+    {
+      "key": "EventBoltAction",
+      "section": "WeaponsEventPlus",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 500,
+      "min": 0,
+      "max": 5000,
+      "step": 10,
+      "es": {
+        "label": "Daño de el rifle de cerrojo de evento",
+        "description": "Daño de la variante de evento. Solo aplica si la mod tiene el evento activo. Valor por defecto: 500."
+      },
+      "en": {
+        "label": "The event bolt-action rifle damage",
+        "description": "Damage for the event variant. Only applies while the mod's event is active. Mod default: 500."
+      }
+    },
+    {
+      "key": "EventMachinedRifle",
+      "section": "WeaponsEventPlus",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 500,
+      "min": 0,
+      "max": 5000,
+      "step": 10,
+      "es": {
+        "label": "Daño de el rifle mecanizado de evento",
+        "description": "Daño de la variante de evento. Solo aplica si la mod tiene el evento activo. Valor por defecto: 500."
+      },
+      "en": {
+        "label": "The event machined rifle damage",
+        "description": "Damage for the event variant. Only applies while the mod's event is active. Mod default: 500."
+      }
+    },
+    {
+      "key": "EventShotgun",
+      "section": "WeaponsEventPlus",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 500,
+      "min": 0,
+      "max": 5000,
+      "step": 10,
+      "es": {
+        "label": "Daño de la escopeta de evento",
+        "description": "Daño de la variante de evento. Solo aplica si la mod tiene el evento activo. Valor por defecto: 500."
+      },
+      "en": {
+        "label": "The event shotgun damage",
+        "description": "Damage for the event variant. Only applies while the mod's event is active. Mod default: 500."
+      }
+    }
+  ]
+}

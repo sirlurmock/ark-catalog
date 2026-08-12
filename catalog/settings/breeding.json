@@ -1,0 +1,233 @@
+[
+  {
+    "id": "egg_hatch_speed_multiplier",
+    "key": "EggHatchSpeedMultiplier",
+    "category": "breeding",
+    "tier": "basic",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.01,
+      "max": 100,
+      "presets": [1, 2, 5, 10, 25]
+    },
+    "i18nKey": "settings.breeding.egg_hatch_speed",
+    "summaryTemplate": "summary.breeding.egg_hatch"
+  },
+  {
+    "id": "baby_mature_speed_multiplier",
+    "key": "BabyMatureSpeedMultiplier",
+    "category": "breeding",
+    "tier": "basic",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.01,
+      "max": 100,
+      "presets": [1, 2, 5, 10, 25]
+    },
+    "i18nKey": "settings.breeding.baby_mature_speed",
+    "summaryTemplate": "summary.breeding.baby_mature"
+  },
+  {
+    "id": "baby_cuddle_interval_multiplier",
+    "key": "BabyCuddleIntervalMultiplier",
+    "category": "breeding",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.01,
+      "max": 10,
+      "presets": [1, 0.5, 0.25, 0.1],
+      "inverseSemantics": true
+    },
+    "i18nKey": "settings.breeding.baby_cuddle_interval",
+    "summaryTemplate": "summary.breeding.cuddle_interval",
+    "warnings": [
+      {
+        "condition": {
+          "and": [
+            { "value": { "gt": 5 } },
+            { "setting": "egg_hatch_speed_multiplier", "value": { "gt": 10 } }
+          ]
+        },
+        "severity": "warning",
+        "i18nKey": "warnings.breeding.imprint_combo_difficult"
+      }
+    ]
+  },
+  {
+    "id": "mating_interval_multiplier",
+    "key": "MatingIntervalMultiplier",
+    "category": "breeding",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.01,
+      "max": 5,
+      "presets": [1, 0.5, 0.25, 0.1],
+      "inverseSemantics": true
+    },
+    "i18nKey": "settings.breeding.mating_interval"
+  },
+  {
+    "id": "lay_egg_interval_multiplier",
+    "key": "LayEggIntervalMultiplier",
+    "category": "breeding",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.01,
+      "max": 5,
+      "presets": [1, 0.5, 0.25, 0.1],
+      "inverseSemantics": true
+    },
+    "i18nKey": "settings.breeding.lay_egg_interval"
+  },
+  {
+    "id": "baby_imprint_amount_multiplier",
+    "key": "BabyImprintAmountMultiplier",
+    "category": "breeding",
+    "tier": "basic",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 10,
+      "presets": [1, 2, 5, 10]
+    },
+    "i18nKey": "settings.breeding.baby_imprint_amount",
+    "summaryTemplate": "summary.breeding.imprint_amount"
+  },
+  {
+    "id": "baby_imprinting_stat_scale_multiplier",
+    "key": "BabyImprintingStatScaleMultiplier",
+    "category": "breeding",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 5,
+      "presets": [1, 1.5, 2, 5]
+    },
+    "i18nKey": "settings.breeding.baby_imprinting_stat_scale"
+  },
+  {
+    "id": "baby_cuddle_grace_period_multiplier",
+    "key": "BabyCuddleGracePeriodMultiplier",
+    "category": "breeding",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.5,
+      "max": 10,
+      "presets": [1, 2, 5, 10]
+    },
+    "i18nKey": "settings.breeding.baby_cuddle_grace_period"
+  },
+  {
+    "id": "baby_food_consumption_speed_multiplier",
+    "key": "BabyFoodConsumptionSpeedMultiplier",
+    "category": "breeding",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 10,
+      "presets": [1, 0.5, 0.25, 2, 4],
+      "inverseSemantics": true
+    },
+    "i18nKey": "settings.breeding.baby_food_consumption_speed"
+  },
+  {
+    "id": "baby_cuddle_lose_imprint_quality_speed_multiplier",
+    "key": "BabyCuddleLoseImprintQualitySpeedMultiplier",
+    "category": "breeding",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1.0,
+      "min": 0.0,
+      "max": 5,
+      "presets": [1, 0.5, 0.1, 0],
+      "inverseSemantics": true
+    },
+    "i18nKey": "settings.breeding.baby_cuddle_lose_imprint_quality_speed"
+  },
+  {
+    "id": "allow_anyone_baby_imprint_cuddle",
+    "key": "AllowAnyoneBabyImprintCuddle",
+    "category": "breeding",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.breeding.allow_anyone_baby_imprint_cuddle"
+  },
+  {
+    "id": "disable_imprint_dino_buff",
+    "key": "DisableImprintDinoBuff",
+    "category": "breeding",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.breeding.disable_imprint_dino_buff"
+  }
+]

@@ -1,0 +1,6899 @@
+{
+  "modId": "731604991",
+  "name": "Structures Plus",
+  "game": "ase",
+  "source": "verified",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=731604991",
+  "settings": [
+    {
+      "id": "structures_plus_no_foundations_required",
+      "key": "NoFoundationsRequired",
+      "category": "mod_structures_plus",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.no_foundations_required"
+    },
+    {
+      "id": "structures_plus_disable_foundation_stacking",
+      "key": "DisableFoundationStacking",
+      "category": "mod_structures_plus",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_foundation_stacking"
+    },
+    {
+      "id": "structures_plus_remove_floor_requirement_from_structure_placement",
+      "key": "RemoveFloorRequirementFromStructurePlacement",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.remove_floor_requirement_from_structure_placement"
+    },
+    {
+      "id": "structures_plus_disable_resource_pulling",
+      "key": "DisableResourcePulling",
+      "category": "mod_structures_plus",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_resource_pulling"
+    },
+    {
+      "id": "structures_plus_pulling_ignores_pin_codes",
+      "key": "PullingIgnoresPinCodes",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.pulling_ignores_pin_codes"
+    },
+    {
+      "id": "structures_plus_enable_engram_override",
+      "key": "EnableEngramOverride",
+      "category": "mod_structures_plus",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.enable_engram_override"
+    },
+    {
+      "id": "structures_plus_disable_unlocking_map_specific_engrams",
+      "key": "DisableUnlockingMapSpecificEngrams",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_unlocking_map_specific_engrams"
+    },
+    {
+      "id": "structures_plus_override_tek_engrams",
+      "key": "OverrideTekEngrams",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.override_tek_engrams"
+    },
+    {
+      "id": "structures_plus_enable_structure_sound",
+      "key": "EnableStructureSound",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.enable_structure_sound"
+    },
+    {
+      "id": "structures_plus_enable_extended_death_cache",
+      "key": "EnableExtendedDeathCache",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.enable_extended_death_cache"
+    },
+    {
+      "id": "structures_plus_disable_blueprint_install",
+      "key": "DisableBlueprintInstall",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_blueprint_install"
+    },
+    {
+      "id": "structures_plus_allow_intake_to_place_without_water",
+      "key": "AllowIntakeToPlaceWithoutWater",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.allow_intake_to_place_without_water"
+    },
+    {
+      "id": "structures_plus_enable_quick_climb",
+      "key": "EnableQuickClimb",
+      "category": "mod_structures_plus",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.enable_quick_climb"
+    },
+    {
+      "id": "structures_plus_are_platforms_immune_to_damage",
+      "key": "ArePlatformsImmuneToDamage",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.are_platforms_immune_to_damage"
+    },
+    {
+      "id": "structures_plus_disable_ability_to_hide_structures",
+      "key": "DisableAbilityToHideStructures",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_ability_to_hide_structures"
+    },
+    {
+      "id": "structures_plus_enable_generator_decay",
+      "key": "EnableGeneratorDecay",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.enable_generator_decay"
+    },
+    {
+      "id": "structures_plus_disable_generator_during_storm",
+      "key": "DisableGeneratorDuringStorm",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_generator_during_storm"
+    },
+    {
+      "id": "structures_plus_disable_electronics_during_storm",
+      "key": "DisableElectronicsDuringStorm",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_electronics_during_storm"
+    },
+    {
+      "id": "structures_plus_remove_scorched_earth_insulation_penalty",
+      "key": "RemoveScorchedEarthInsulationPenalty",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.remove_scorched_earth_insulation_penalty"
+    },
+    {
+      "id": "structures_plus_disable_door_sound",
+      "key": "DisableDoorSound",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_door_sound"
+    },
+    {
+      "id": "structures_plus_grinder_return_blocked_resources",
+      "key": "GrinderReturnBlockedResources",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.grinder_return_blocked_resources"
+    },
+    {
+      "id": "structures_plus_allow_grinding_mission_rewards",
+      "key": "AllowGrindingMissionRewards",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.allow_grinding_mission_rewards"
+    },
+    {
+      "id": "structures_plus_item_aggregator_disable_distribution",
+      "key": "ItemAggregatorDisableDistribution",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.item_aggregator_disable_distribution"
+    },
+    {
+      "id": "structures_plus_item_aggregator_disable_ammo",
+      "key": "ItemAggregatorDisableAmmo",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.item_aggregator_disable_ammo"
+    },
+    {
+      "id": "structures_plus_item_aggregator_disable_incubation",
+      "key": "ItemAggregatorDisableIncubation",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.item_aggregator_disable_incubation"
+    },
+    {
+      "id": "structures_plus_disable_hatchery_ovi_bonus",
+      "key": "DisableHatcheryOviBonus",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_hatchery_ovi_bonus"
+    },
+    {
+      "id": "structures_plus_disable_cloning_cost_maximum",
+      "key": "DisableCloningCostMaximum",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_cloning_cost_maximum"
+    },
+    {
+      "id": "structures_plus_prevent_cloning_cloned_dinos",
+      "key": "PreventCloningClonedDinos",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.prevent_cloning_cloned_dinos"
+    },
+    {
+      "id": "structures_plus_prevent_cloning_neutered_dinos",
+      "key": "PreventCloningNeuteredDinos",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.prevent_cloning_neutered_dinos"
+    },
+    {
+      "id": "structures_plus_disable_shield_placement_on_rafts_and_saddles",
+      "key": "DisableShieldPlacementOnRaftsAndSaddles",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_shield_placement_on_rafts_and_saddles"
+    },
+    {
+      "id": "structures_plus_disable_shield_radiation_protection",
+      "key": "DisableShieldRadiationProtection",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_shield_radiation_protection"
+    },
+    {
+      "id": "structures_plus_prevent_shield_pickup",
+      "key": "PreventShieldPickup",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.prevent_shield_pickup"
+    },
+    {
+      "id": "structures_plus_disable_ability_to_place_vacuum_compartments_above_water",
+      "key": "DisableAbilityToPlaceVacuumCompartmentsAboveWater",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_ability_to_place_vacuum_compartments_above_water"
+    },
+    {
+      "id": "structures_plus_disable_ability_to_place_tek_generator_on_saddles",
+      "key": "DisableAbilityToPlaceTekGeneratorOnSaddles",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_ability_to_place_tek_generator_on_saddles"
+    },
+    {
+      "id": "structures_plus_allow_catalyzer_out_of_element",
+      "key": "AllowCatalyzerOutOfElement",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.allow_catalyzer_out_of_element"
+    },
+    {
+      "id": "structures_plus_disable_hitching_post_mating_bonus",
+      "key": "DisableHitchingPostMatingBonus",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_hitching_post_mating_bonus"
+    },
+    {
+      "id": "structures_plus_disable_ability_to_place_teleporter_on_saddles",
+      "key": "DisableAbilityToPlaceTeleporterOnSaddles",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_ability_to_place_teleporter_on_saddles"
+    },
+    {
+      "id": "structures_plus_disable_cross_team_teleport",
+      "key": "DisableCrossTeamTeleport",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_cross_team_teleport"
+    },
+    {
+      "id": "structures_plus_disable_teleporter_on_abberation",
+      "key": "DisableTeleporterOnAbberation",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_teleporter_on_abberation"
+    },
+    {
+      "id": "structures_plus_disable_personal_teleporter_beacon",
+      "key": "DisablePersonalTeleporterBeacon",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_personal_teleporter_beacon"
+    },
+    {
+      "id": "structures_plus_allow_personal_teleporter_in_boss_arena",
+      "key": "AllowPersonalTeleporterInBossArena",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.allow_personal_teleporter_in_boss_arena"
+    },
+    {
+      "id": "structures_plus_prevent_teleporter_pickup_after_use",
+      "key": "PreventTeleporterPickupAfterUse",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.prevent_teleporter_pickup_after_use"
+    },
+    {
+      "id": "structures_plus_disable_transmitter_placement_on_saddles",
+      "key": "DisableTransmitterPlacementOnSaddles",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_transmitter_placement_on_saddles"
+    },
+    {
+      "id": "structures_plus_prevent_transmitter_pickup",
+      "key": "PreventTransmitterPickup",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.prevent_transmitter_pickup"
+    },
+    {
+      "id": "structures_plus_disable_dino_scan",
+      "key": "DisableDinoScan",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_dino_scan"
+    },
+    {
+      "id": "structures_plus_disable_dino_scan_details",
+      "key": "DisableDinoScanDetails",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_dino_scan_details"
+    },
+    {
+      "id": "structures_plus_disable_dino_scan_map",
+      "key": "DisableDinoScanMap",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_dino_scan_map"
+    },
+    {
+      "id": "structures_plus_disable_dino_scan_stats",
+      "key": "DisableDinoScanStats",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_dino_scan_stats"
+    },
+    {
+      "id": "structures_plus_disable_need_multiple_transmitter",
+      "key": "DisableNeedMultipleTransmitter",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_need_multiple_transmitter"
+    },
+    {
+      "id": "structures_plus_disable_transmitter_boss_summon",
+      "key": "DisableTransmitterBossSummon",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_transmitter_boss_summon"
+    },
+    {
+      "id": "structures_plus_disable_teleporter_power_requirement",
+      "key": "DisableTeleporterPowerRequirement",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_teleporter_power_requirement"
+    },
+    {
+      "id": "structures_plus_mutator_allow_breeding_neutered",
+      "key": "MutatorAllowBreedingNeutered",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.mutator_allow_breeding_neutered"
+    },
+    {
+      "id": "structures_plus_disable_nanny_imprinting",
+      "key": "DisableNannyImprinting",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_nanny_imprinting"
+    },
+    {
+      "id": "structures_plus_allow_making_weapons_and_armor_bps",
+      "key": "AllowMakingWeaponsAndArmorBPs",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.allow_making_weapons_and_armor_bps"
+    },
+    {
+      "id": "structures_plus_allow_tek_item_blueprint_creation",
+      "key": "AllowTekItemBlueprintCreation",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.allow_tek_item_blueprint_creation"
+    },
+    {
+      "id": "structures_plus_remove_learned_engram_requirement_from_converter",
+      "key": "RemoveLearnedEngramRequirementFromConverter",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.remove_learned_engram_requirement_from_converter"
+    },
+    {
+      "id": "structures_plus_allow_dynamic_pillar_non_foundation_support",
+      "key": "AllowDynamicPillarNonFoundationSupport",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.allow_dynamic_pillar_non_foundation_support"
+    },
+    {
+      "id": "structures_plus_allow_inter_dynamic_pillar_support",
+      "key": "AllowInterDynamicPillarSupport",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.allow_inter_dynamic_pillar_support"
+    },
+    {
+      "id": "structures_plus_disable_vivarium_resource_generation",
+      "key": "DisableVivariumResourceGeneration",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_vivarium_resource_generation"
+    },
+    {
+      "id": "structures_plus_disable_vivarium_adv_resources",
+      "key": "DisableVivariumAdvResources",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_vivarium_adv_resources"
+    },
+    {
+      "id": "structures_plus_charge_injector_allow_tek_gen",
+      "key": "ChargeInjectorAllowTekGen",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.charge_injector_allow_tek_gen"
+    },
+    {
+      "id": "structures_plus_prevent_flame_turret_dismount",
+      "key": "PreventFlameTurretDismount",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.prevent_flame_turret_dismount"
+    },
+    {
+      "id": "structures_plus_disable_multi_tool_dino_kill_mode",
+      "key": "DisableMultiToolDinoKillMode",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_multi_tool_dino_kill_mode"
+    },
+    {
+      "id": "structures_plus_disable_multi_tool_dino_chibi_mode",
+      "key": "DisableMultiToolDinoChibiMode",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.disable_multi_tool_dino_chibi_mode"
+    },
+    {
+      "id": "structures_plus_allow_multi_tool_neuter_all",
+      "key": "AllowMultiToolNeuterAll",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.allow_multi_tool_neuter_all"
+    },
+    {
+      "id": "structures_plus_dedicated_storage_allow_non_stackables",
+      "key": "DedicatedStorageAllowNonStackables",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.dedicated_storage_allow_non_stackables"
+    },
+    {
+      "id": "structures_plus_use_optimized_dedi_storage",
+      "key": "UseOptimizedDediStorage",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.use_optimized_dedi_storage"
+    },
+    {
+      "id": "structures_plus_allow_crop_plot_stacking",
+      "key": "AllowCropPlotStacking",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.allow_crop_plot_stacking"
+    },
+    {
+      "id": "structures_plus_incubator_disable_auto_hatch",
+      "key": "IncubatorDisableAutoHatch",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.incubator_disable_auto_hatch"
+    },
+    {
+      "id": "structures_plus_propagator_disable_dino_mods",
+      "key": "PropagatorDisableDinoMods",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.propagator_disable_dino_mods"
+    },
+    {
+      "id": "structures_plus_propagator_respect_mutation_limit",
+      "key": "PropagatorRespectMutationLimit",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.propagator_respect_mutation_limit"
+    },
+    {
+      "id": "structures_plus_propagator_disable_egg_drop",
+      "key": "PropagatorDisableEggDrop",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.propagator_disable_egg_drop"
+    },
+    {
+      "id": "structures_plus_enable_update_durability",
+      "key": "EnableUpdateDurability",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.structures_plus.enable_update_durability"
+    },
+    {
+      "id": "structures_plus_auto_crafter_slot_count",
+      "key": "AutoCrafterSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 500,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.auto_crafter_slot_count"
+    },
+    {
+      "id": "structures_plus_ammo_box_slot_count",
+      "key": "AmmoBoxSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.ammo_box_slot_count"
+    },
+    {
+      "id": "structures_plus_bee_hive_slot_count",
+      "key": "BeeHiveSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 24,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.bee_hive_slot_count"
+    },
+    {
+      "id": "structures_plus_beer_barrel_slot_count",
+      "key": "BeerBarrelSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 25,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.beer_barrel_slot_count"
+    },
+    {
+      "id": "structures_plus_bookshelf_slot_count",
+      "key": "BookshelfSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 600,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.bookshelf_slot_count"
+    },
+    {
+      "id": "structures_plus_campfire_slot_count",
+      "key": "CampfireSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.campfire_slot_count"
+    },
+    {
+      "id": "structures_plus_charge_station_slot_count",
+      "key": "ChargeStationSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 50,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.charge_station_slot_count"
+    },
+    {
+      "id": "structures_plus_chem_bench_slot_count",
+      "key": "ChemBenchSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.chem_bench_slot_count"
+    },
+    {
+      "id": "structures_plus_cloning_chamber_slot_count",
+      "key": "CloningChamberSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 600,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.cloning_chamber_slot_count"
+    },
+    {
+      "id": "structures_plus_compost_bin_slot_count",
+      "key": "CompostBinSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 25,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.compost_bin_slot_count"
+    },
+    {
+      "id": "structures_plus_cooking_pot_slot_count",
+      "key": "CookingPotSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 25,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.cooking_pot_slot_count"
+    },
+    {
+      "id": "structures_plus_crystal_cracker_slot_count",
+      "key": "CrystalCrackerSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 400,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.crystal_cracker_slot_count"
+    },
+    {
+      "id": "structures_plus_cryo_fridge_slot_count",
+      "key": "CryoFridgeSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 150,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.cryo_fridge_slot_count"
+    },
+    {
+      "id": "structures_plus_dedicated_storage_slot_count",
+      "key": "DedicatedStorageSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10000,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.dedicated_storage_slot_count"
+    },
+    {
+      "id": "structures_plus_drone_terminal_slot_count",
+      "key": "DroneTerminalSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 150,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.drone_terminal_slot_count"
+    },
+    {
+      "id": "structures_plus_dyeria_slot_count",
+      "key": "DyeriaSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 500,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.dyeria_slot_count"
+    },
+    {
+      "id": "structures_plus_fabricator_slot_count",
+      "key": "FabricatorSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.fabricator_slot_count"
+    },
+    {
+      "id": "structures_plus_farmer_slot_count",
+      "key": "FarmerSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.farmer_slot_count"
+    },
+    {
+      "id": "structures_plus_feeding_trough_slot_count",
+      "key": "FeedingTroughSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.feeding_trough_slot_count"
+    },
+    {
+      "id": "structures_plus_fireplace_slot_count",
+      "key": "FireplaceSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 25,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.fireplace_slot_count"
+    },
+    {
+      "id": "structures_plus_forge_slot_count",
+      "key": "ForgeSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 50,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.forge_slot_count"
+    },
+    {
+      "id": "structures_plus_fridge_slot_count",
+      "key": "FridgeSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.fridge_slot_count"
+    },
+    {
+      "id": "structures_plus_gardener_slot_count",
+      "key": "GardenerSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.gardener_slot_count"
+    },
+    {
+      "id": "structures_plus_gas_collector_slot_count",
+      "key": "GasCollectorSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 24,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.gas_collector_slot_count"
+    },
+    {
+      "id": "structures_plus_generator_slot_count",
+      "key": "GeneratorSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 8,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.generator_slot_count"
+    },
+    {
+      "id": "structures_plus_genomics_chamber_slot_count",
+      "key": "GenomicsChamberSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.genomics_chamber_slot_count"
+    },
+    {
+      "id": "structures_plus_grinder_slot_count",
+      "key": "GrinderSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 200,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.grinder_slot_count"
+    },
+    {
+      "id": "structures_plus_harvester_slot_count",
+      "key": "HarvesterSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 350,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.harvester_slot_count"
+    },
+    {
+      "id": "structures_plus_hatchery_slot_count",
+      "key": "HatcherySlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 50,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.hatchery_slot_count"
+    },
+    {
+      "id": "structures_plus_industrial_cooker_slot_count",
+      "key": "IndustrialCookerSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.industrial_cooker_slot_count"
+    },
+    {
+      "id": "structures_plus_industrial_forge_slot_count",
+      "key": "IndustrialForgeSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.industrial_forge_slot_count"
+    },
+    {
+      "id": "structures_plus_industrial_grill_slot_count",
+      "key": "IndustrialGrillSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.industrial_grill_slot_count"
+    },
+    {
+      "id": "structures_plus_item_aggregator_slot_count",
+      "key": "ItemAggregatorSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 500,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.item_aggregator_slot_count"
+    },
+    {
+      "id": "structures_plus_item_collector_slot_count",
+      "key": "ItemCollectorSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.item_collector_slot_count"
+    },
+    {
+      "id": "structures_plus_item_translocator_slot_count",
+      "key": "ItemTranslocatorSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 350,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.item_translocator_slot_count"
+    },
+    {
+      "id": "structures_plus_large_crop_plot_slot_count",
+      "key": "LargeCropPlotSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 30,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.large_crop_plot_slot_count"
+    },
+    {
+      "id": "structures_plus_large_storage_slot_count",
+      "key": "LargeStorageSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 90,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.large_storage_slot_count"
+    },
+    {
+      "id": "structures_plus_medium_crop_plot_slot_count",
+      "key": "MediumCropPlotSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 20,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.medium_crop_plot_slot_count"
+    },
+    {
+      "id": "structures_plus_metal_storage_slot_count",
+      "key": "MetalStorageSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.metal_storage_slot_count"
+    },
+    {
+      "id": "structures_plus_mortar_and_pestle_slot_count",
+      "key": "MortarAndPestleSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 50,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.mortar_and_pestle_slot_count"
+    },
+    {
+      "id": "structures_plus_nanny_slot_count",
+      "key": "NannySlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.nanny_slot_count"
+    },
+    {
+      "id": "structures_plus_oil_pump_slot_count",
+      "key": "OilPumpSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.oil_pump_slot_count"
+    },
+    {
+      "id": "structures_plus_preserving_bin_slot_count",
+      "key": "PreservingBinSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 50,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.preserving_bin_slot_count"
+    },
+    {
+      "id": "structures_plus_propagator_slot_count",
+      "key": "PropagatorSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.propagator_slot_count"
+    },
+    {
+      "id": "structures_plus_repair_station_slot_count",
+      "key": "RepairStationSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 500,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.repair_station_slot_count"
+    },
+    {
+      "id": "structures_plus_replicator_slot_count",
+      "key": "ReplicatorSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 600,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.replicator_slot_count"
+    },
+    {
+      "id": "structures_plus_seamless_square_plot_slot_count",
+      "key": "SeamlessSquarePlotSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 30,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.seamless_square_plot_slot_count"
+    },
+    {
+      "id": "structures_plus_seamless_triangle_plot_slot_count",
+      "key": "SeamlessTrianglePlotSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 20,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.seamless_triangle_plot_slot_count"
+    },
+    {
+      "id": "structures_plus_small_crop_plot_slot_count",
+      "key": "SmallCropPlotSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.small_crop_plot_slot_count"
+    },
+    {
+      "id": "structures_plus_small_storage_slot_count",
+      "key": "SmallStorageSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 30,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.small_storage_slot_count"
+    },
+    {
+      "id": "structures_plus_smithy_slot_count",
+      "key": "SmithySlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.smithy_slot_count"
+    },
+    {
+      "id": "structures_plus_splus_auto_turret_slot_count",
+      "key": "SPlusAutoTurretSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 75,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.splus_auto_turret_slot_count"
+    },
+    {
+      "id": "structures_plus_splus_ballista_turret_slot_count",
+      "key": "SPlusBallistaTurretSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 75,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.splus_ballista_turret_slot_count"
+    },
+    {
+      "id": "structures_plus_splus_crafting_station_slot_count",
+      "key": "SPlusCraftingStationSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.splus_crafting_station_slot_count"
+    },
+    {
+      "id": "structures_plus_splus_cannon_turret_slot_count",
+      "key": "SPlusCannonTurretSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 75,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.splus_cannon_turret_slot_count"
+    },
+    {
+      "id": "structures_plus_splus_flame_turret_slot_count",
+      "key": "SPlusFlameTurretSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 75,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.splus_flame_turret_slot_count"
+    },
+    {
+      "id": "structures_plus_splus_heavy_turret_slot_count",
+      "key": "SPlusHeavyTurretSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.splus_heavy_turret_slot_count"
+    },
+    {
+      "id": "structures_plus_splus_minigun_turret_slot_count",
+      "key": "SPlusMinigunTurretSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 75,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.splus_minigun_turret_slot_count"
+    },
+    {
+      "id": "structures_plus_splus_rocket_turret_slot_count",
+      "key": "SPlusRocketTurretSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 75,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.splus_rocket_turret_slot_count"
+    },
+    {
+      "id": "structures_plus_splus_tranq_turret_slot_count",
+      "key": "SPlusTranqTurretSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 75,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.splus_tranq_turret_slot_count"
+    },
+    {
+      "id": "structures_plus_tek_chem_bench_slot_count",
+      "key": "TekChemBenchSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 350,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.tek_chem_bench_slot_count"
+    },
+    {
+      "id": "structures_plus_tek_cooking_pot_slot_count",
+      "key": "TekCookingPotSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 350,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.tek_cooking_pot_slot_count"
+    },
+    {
+      "id": "structures_plus_tek_crop_plot_slot_count",
+      "key": "TekCropPlotSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 50,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.tek_crop_plot_slot_count"
+    },
+    {
+      "id": "structures_plus_tek_forge_slot_count",
+      "key": "TekForgeSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 350,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.tek_forge_slot_count"
+    },
+    {
+      "id": "structures_plus_tek_fridge_slot_count",
+      "key": "TekFridgeSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 250,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.tek_fridge_slot_count"
+    },
+    {
+      "id": "structures_plus_tek_generator_slot_count",
+      "key": "TekGeneratorSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 250,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.tek_generator_slot_count"
+    },
+    {
+      "id": "structures_plus_tek_storage_slot_count",
+      "key": "TekStorageSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 500,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.tek_storage_slot_count"
+    },
+    {
+      "id": "structures_plus_tek_stove_slot_count",
+      "key": "TekStoveSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 350,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.tek_stove_slot_count"
+    },
+    {
+      "id": "structures_plus_tek_tree_sap_slot_count",
+      "key": "TekTreeSapSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.tek_tree_sap_slot_count"
+    },
+    {
+      "id": "structures_plus_tek_trough_slot_count",
+      "key": "TekTroughSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.tek_trough_slot_count"
+    },
+    {
+      "id": "structures_plus_tek_turret_slot_count",
+      "key": "TekTurretSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 15,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.tek_turret_slot_count"
+    },
+    {
+      "id": "structures_plus_transmutator_slot_count",
+      "key": "TransmutatorSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.transmutator_slot_count"
+    },
+    {
+      "id": "structures_plus_tree_sap_slot_count",
+      "key": "TreeSapSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 5,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.tree_sap_slot_count"
+    },
+    {
+      "id": "structures_plus_vault_slot_count",
+      "key": "VaultSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 600,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.vault_slot_count"
+    },
+    {
+      "id": "structures_plus_vessel_slot_count",
+      "key": "VesselSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 20,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.vessel_slot_count"
+    },
+    {
+      "id": "structures_plus_vivarium_slot_count",
+      "key": "VivariumSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.vivarium_slot_count"
+    },
+    {
+      "id": "structures_plus_water_tap_slot_count",
+      "key": "WaterTapSlotCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.structures_plus.water_tap_slot_count"
+    },
+    {
+      "id": "structures_plus_beer_barrel_crafting_speed",
+      "key": "BeerBarrelCraftingSpeed",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.structures_plus.beer_barrel_crafting_speed"
+    },
+    {
+      "id": "structures_plus_campfire_crafting_speed",
+      "key": "CampfireCraftingSpeed",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.structures_plus.campfire_crafting_speed"
+    },
+    {
+      "id": "structures_plus_chemistry_bench_crafting_speed",
+      "key": "ChemistryBenchCraftingSpeed",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 4,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.structures_plus.chemistry_bench_crafting_speed"
+    },
+    {
+      "id": "structures_plus_compost_bin_crafting_speed",
+      "key": "CompostBinCraftingSpeed",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.structures_plus.compost_bin_crafting_speed"
+    },
+    {
+      "id": "structures_plus_cooking_pot_crafting_speed",
+      "key": "CookingPotCraftingSpeed",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.structures_plus.cooking_pot_crafting_speed"
+    },
+    {
+      "id": "structures_plus_drone_terminal_crafting_speed",
+      "key": "DroneTerminalCraftingSpeed",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.structures_plus.drone_terminal_crafting_speed"
+    },
+    {
+      "id": "structures_plus_dyeria_crafting_speed",
+      "key": "DyeriaCraftingSpeed",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 25,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.structures_plus.dyeria_crafting_speed"
+    },
+    {
+      "id": "structures_plus_element_catalyzer_crafting_speed",
+      "key": "ElementCatalyzerCraftingSpeed",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.structures_plus.element_catalyzer_crafting_speed"
+    },
+    {
+      "id": "structures_plus_fabricator_crafting_speed",
+      "key": "FabricatorCraftingSpeed",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.structures_plus.fabricator_crafting_speed"
+    },
+    {
+      "id": "structures_plus_forge_crafting_speed",
+      "key": "ForgeCraftingSpeed",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.structures_plus.forge_crafting_speed"
+    },
+    {
+      "id": "structures_plus_fireplace_crafting_speed",
+      "key": "FireplaceCraftingSpeed",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 2,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.structures_plus.fireplace_crafting_speed"
+    },
+    {
+      "id": "structures_plus_fridge_crafting_speed",
+      "key": "FridgeCraftingSpeed",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.structures_plus.fridge_crafting_speed"
+    },
+    {
+      "id": "structures_plus_grinder_crafting_speed",
+      "key": "GrinderCraftingSpeed",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.structures_plus.grinder_crafting_speed"
+    },
+    {
+      "id": "structures_plus_industrial_cooking_pot_crafting_speed",
+      "key": "IndustrialCookingPotCraftingSpeed",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 12,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.structures_plus.industrial_cooking_pot_crafting_speed"
+    },
+    {
+      "id": "structures_plus_industrial_forge_crafting_speed",
+      "key": "IndustrialForgeCraftingSpeed",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.structures_plus.industrial_forge_crafting_speed"
+    },
+    {
+      "id": "structures_plus_industrial_grill_crafting_speed",
+      "key": "IndustrialGrillCraftingSpeed",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.structures_plus.industrial_grill_crafting_speed"
+    },
+    {
+      "id": "structures_plus_mortar_and_pestle_crafting_speed",
+      "key": "MortarAndPestleCraftingSpeed",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.structures_plus.mortar_and_pestle_crafting_speed"
+    },
+    {
+      "id": "structures_plus_preserving_bin_crafting_speed",
+      "key": "PreservingBinCraftingSpeed",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.structures_plus.preserving_bin_crafting_speed"
+    },
+    {
+      "id": "structures_plus_replicator_crafting_speed",
+      "key": "ReplicatorCraftingSpeed",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 12,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.structures_plus.replicator_crafting_speed"
+    },
+    {
+      "id": "structures_plus_smithy_crafting_speed",
+      "key": "SmithyCraftingSpeed",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.structures_plus.smithy_crafting_speed"
+    },
+    {
+      "id": "structures_plus_splus_crafting_station_crafting_speed",
+      "key": "SPlusCraftingStationCraftingSpeed",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.structures_plus.splus_crafting_station_crafting_speed"
+    },
+    {
+      "id": "structures_plus_tek_chem_bench_crafting_speed",
+      "key": "TekChemBenchCraftingSpeed",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.structures_plus.tek_chem_bench_crafting_speed"
+    },
+    {
+      "id": "structures_plus_tek_cooking_pot_crafting_speed",
+      "key": "TekCookingPotCraftingSpeed",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 25,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.structures_plus.tek_cooking_pot_crafting_speed"
+    },
+    {
+      "id": "structures_plus_tek_forge_crafting_speed",
+      "key": "TekForgeCraftingSpeed",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.structures_plus.tek_forge_crafting_speed"
+    },
+    {
+      "id": "structures_plus_tek_stove_crafting_speed",
+      "key": "TekStoveCraftingSpeed",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.structures_plus.tek_stove_crafting_speed"
+    },
+    {
+      "id": "structures_plus_additional_support_distance_in_foundations",
+      "key": "AdditionalSupportDistanceInFoundations",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 15,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.additional_support_distance_in_foundations"
+    },
+    {
+      "id": "structures_plus_resource_pull_range_in_foundations",
+      "key": "ResourcePullRangeInFoundations",
+      "category": "mod_structures_plus",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 25,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.resource_pull_range_in_foundations"
+    },
+    {
+      "id": "structures_plus_resource_transfer_cooldown",
+      "key": "ResourceTransferCooldown",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 10,
+        "step": 0.1,
+        "presets": [
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.structures_plus.resource_transfer_cooldown"
+    },
+    {
+      "id": "structures_plus_tek_engram_override_level",
+      "key": "TekEngramOverrideLevel",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.tek_engram_override_level"
+    },
+    {
+      "id": "structures_plus_minimum_glass_transparency",
+      "key": "MinimumGlassTransparency",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "step": 0.1,
+        "presets": [
+          0,
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.structures_plus.minimum_glass_transparency"
+    },
+    {
+      "id": "structures_plus_elevator_weight_multiplier",
+      "key": "ElevatorWeightMultiplier",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0,
+        "min": 0,
+        "max": 10,
+        "step": 0.1,
+        "presets": [
+          0,
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.structures_plus.elevator_weight_multiplier"
+    },
+    {
+      "id": "structures_plus_elevator_speed",
+      "key": "ElevatorSpeed",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 150,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.elevator_speed"
+    },
+    {
+      "id": "structures_plus_default_door_config",
+      "key": "DefaultDoorConfig",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.default_door_config"
+    },
+    {
+      "id": "structures_plus_large_wall_hp",
+      "key": "LargeWallHP",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 40000,
+        "min": 0,
+        "max": 400000,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.large_wall_hp"
+    },
+    {
+      "id": "structures_plus_xlwall_hp",
+      "key": "XLWallHP",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 120000,
+        "min": 0,
+        "max": 1200000,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.xlwall_hp"
+    },
+    {
+      "id": "structures_plus_fence_hp",
+      "key": "FenceHP",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10000,
+        "min": 0,
+        "max": 100000,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.fence_hp"
+    },
+    {
+      "id": "structures_plus_raid_timer_limit_multiplier",
+      "key": "RaidTimerLimitMultiplier",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 10,
+        "step": 0.1,
+        "presets": [
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.structures_plus.raid_timer_limit_multiplier"
+    },
+    {
+      "id": "structures_plus_min_wind_for_turbine",
+      "key": "MinWindForTurbine",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 20,
+        "min": 0,
+        "max": 200,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.min_wind_for_turbine"
+    },
+    {
+      "id": "structures_plus_turbine_max_power_distance_in_foundations",
+      "key": "TurbineMaxPowerDistanceInFoundations",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 30,
+        "min": 0,
+        "max": 300,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.turbine_max_power_distance_in_foundations"
+    },
+    {
+      "id": "structures_plus_tek_generator_fuel_use_interval_in_seconds",
+      "key": "TekGeneratorFuelUseIntervalInSeconds",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 86400,
+        "min": 0,
+        "max": 864000,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.tek_generator_fuel_use_interval_in_seconds"
+    },
+    {
+      "id": "structures_plus_charge_station_range_in_foundations",
+      "key": "ChargeStationRangeInFoundations",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 5,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.charge_station_range_in_foundations"
+    },
+    {
+      "id": "structures_plus_charge_station_max_charge_amount",
+      "key": "ChargeStationMaxChargeAmount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 5000,
+        "min": 0,
+        "max": 50000,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.charge_station_max_charge_amount"
+    },
+    {
+      "id": "structures_plus_grinder_resource_return_percent",
+      "key": "GrinderResourceReturnPercent",
+      "category": "mod_structures_plus",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 25,
+        "min": 0,
+        "max": 250,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.grinder_resource_return_percent"
+    },
+    {
+      "id": "structures_plus_grinder_resource_return_max",
+      "key": "GrinderResourceReturnMax",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10000,
+        "min": 0,
+        "max": 100000,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.grinder_resource_return_max"
+    },
+    {
+      "id": "structures_plus_feeding_trough_range_in_foundations",
+      "key": "FeedingTroughRangeInFoundations",
+      "category": "mod_structures_plus",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 30,
+        "min": 10,
+        "max": 60,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.feeding_trough_range_in_foundations"
+    },
+    {
+      "id": "structures_plus_tek_feeding_trough_range_in_foundations",
+      "key": "TekFeedingTroughRangeInFoundations",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 60,
+        "min": 10,
+        "max": 60,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.tek_feeding_trough_range_in_foundations"
+    },
+    {
+      "id": "structures_plus_item_aggregator_range_in_foundations",
+      "key": "ItemAggregatorRangeInFoundations",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 25,
+        "min": 0,
+        "max": 250,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.item_aggregator_range_in_foundations"
+    },
+    {
+      "id": "structures_plus_item_aggregator_incubation_multiplier",
+      "key": "ItemAggregatorIncubationMultiplier",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 10,
+        "step": 0.1,
+        "presets": [
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.structures_plus.item_aggregator_incubation_multiplier"
+    },
+    {
+      "id": "structures_plus_item_collector_range_in_foundations",
+      "key": "ItemCollectorRangeInFoundations",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 25,
+        "min": 0,
+        "max": 250,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.item_collector_range_in_foundations"
+    },
+    {
+      "id": "structures_plus_farmer_range_in_foundations",
+      "key": "FarmerRangeInFoundations",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 25,
+        "min": 0,
+        "max": 250,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.farmer_range_in_foundations"
+    },
+    {
+      "id": "structures_plus_gardener_range_in_foundations",
+      "key": "GardenerRangeInFoundations",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 25,
+        "min": 0,
+        "max": 250,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.gardener_range_in_foundations"
+    },
+    {
+      "id": "structures_plus_hatchery_range_in_foundations",
+      "key": "HatcheryRangeInFoundations",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 25,
+        "min": 0,
+        "max": 250,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.hatchery_range_in_foundations"
+    },
+    {
+      "id": "structures_plus_hatchery_incubation_multiplier",
+      "key": "HatcheryIncubationMultiplier",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 10,
+        "step": 0.1,
+        "presets": [
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.structures_plus.hatchery_incubation_multiplier"
+    },
+    {
+      "id": "structures_plus_max_harvester_range_in_foundations",
+      "key": "MaxHarvesterRangeInFoundations",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 30,
+        "min": 5,
+        "max": 60,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.max_harvester_range_in_foundations"
+    },
+    {
+      "id": "structures_plus_harvester_harvest_multiplier",
+      "key": "HarvesterHarvestMultiplier",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.1,
+        "presets": [
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.structures_plus.harvester_harvest_multiplier"
+    },
+    {
+      "id": "structures_plus_dedicated_intake_max_range_in_foundations",
+      "key": "DedicatedIntakeMaxRangeInFoundations",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 50,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.dedicated_intake_max_range_in_foundations"
+    },
+    {
+      "id": "structures_plus_dedi_interface_min_upload_interval",
+      "key": "DediInterfaceMinUploadInterval",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.dedi_interface_min_upload_interval"
+    },
+    {
+      "id": "structures_plus_cloning_speed_multiplier",
+      "key": "CloningSpeedMultiplier",
+      "category": "mod_structures_plus",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 2,
+        "min": 0,
+        "max": 1000,
+        "step": 0.1,
+        "presets": [
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.structures_plus.cloning_speed_multiplier"
+    },
+    {
+      "id": "structures_plus_cloning_cost_multiplier",
+      "key": "CloningCostMultiplier",
+      "category": "mod_structures_plus",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.5,
+        "min": 0,
+        "max": 10,
+        "step": 0.1,
+        "presets": [
+          0.5,
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.structures_plus.cloning_cost_multiplier"
+    },
+    {
+      "id": "structures_plus_shield_health",
+      "key": "ShieldHealth",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 250000,
+        "min": 0,
+        "max": 999999999,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.shield_health"
+    },
+    {
+      "id": "structures_plus_shield_respawn_delay_in_seconds",
+      "key": "ShieldRespawnDelayInSeconds",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 3600,
+        "min": 0,
+        "max": 86400,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.shield_respawn_delay_in_seconds"
+    },
+    {
+      "id": "structures_plus_shield_regen_delay_in_seconds",
+      "key": "ShieldRegenDelayInSeconds",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 600,
+        "min": 0,
+        "max": 86400,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.shield_regen_delay_in_seconds"
+    },
+    {
+      "id": "structures_plus_min_shield_placement_distance_in_foundations",
+      "key": "MinShieldPlacementDistanceInFoundations",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 8,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.min_shield_placement_distance_in_foundations"
+    },
+    {
+      "id": "structures_plus_shield_radius_multiplier",
+      "key": "ShieldRadiusMultiplier",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 5,
+        "step": 0.1,
+        "presets": [
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.structures_plus.shield_radius_multiplier"
+    },
+    {
+      "id": "structures_plus_bee_hive_watering_range_in_foundations",
+      "key": "BeeHiveWateringRangeInFoundations",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 30,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.bee_hive_watering_range_in_foundations"
+    },
+    {
+      "id": "structures_plus_bee_hive_honey_interval_in_seconds",
+      "key": "BeeHiveHoneyIntervalInSeconds",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 180,
+        "min": 0,
+        "max": 1800,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.bee_hive_honey_interval_in_seconds"
+    },
+    {
+      "id": "structures_plus_bed_cooldown_time_in_seconds",
+      "key": "BedCooldownTimeInSeconds",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 0,
+        "max": 3000,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.bed_cooldown_time_in_seconds"
+    },
+    {
+      "id": "structures_plus_bunk_bed_cooldown_time_in_seconds",
+      "key": "BunkBedCooldownTimeInSeconds",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 120,
+        "min": 0,
+        "max": 1200,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.bunk_bed_cooldown_time_in_seconds"
+    },
+    {
+      "id": "structures_plus_tek_bed_cooldown_time_in_seconds",
+      "key": "TekBedCooldownTimeInSeconds",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 60,
+        "min": 0,
+        "max": 600,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.tek_bed_cooldown_time_in_seconds"
+    },
+    {
+      "id": "structures_plus_min_teleporter_placement_distance_in_foundations",
+      "key": "MinTeleporterPlacementDistanceInFoundations",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 8,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.min_teleporter_placement_distance_in_foundations"
+    },
+    {
+      "id": "structures_plus_personal_teleporter_beacon_lifespan_in_seconds",
+      "key": "PersonalTeleporterBeaconLifespanInSeconds",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 0,
+        "max": 3600,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.personal_teleporter_beacon_lifespan_in_seconds"
+    },
+    {
+      "id": "structures_plus_transmitter_pick_up_prevention_time_in_seconds",
+      "key": "TransmitterPickUpPreventionTimeInSeconds",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.transmitter_pick_up_prevention_time_in_seconds"
+    },
+    {
+      "id": "structures_plus_mutator_pulse_cost",
+      "key": "MutatorPulseCost",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.mutator_pulse_cost"
+    },
+    {
+      "id": "structures_plus_mutator_pulse_cooldowns",
+      "key": "MutatorPulseCooldowns",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 0,
+        "max": 3000,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.mutator_pulse_cooldowns"
+    },
+    {
+      "id": "structures_plus_mutator_buff_max_stack_count",
+      "key": "MutatorBuffMaxStackCount",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 2,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.mutator_buff_max_stack_count"
+    },
+    {
+      "id": "structures_plus_max_mutator_range_in_foundations",
+      "key": "MaxMutatorRangeInFoundations",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 50,
+        "min": 5,
+        "max": 50,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.max_mutator_range_in_foundations"
+    },
+    {
+      "id": "structures_plus_max_transmutator_range_in_foundations",
+      "key": "MaxTransmutatorRangeInFoundations",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 50,
+        "min": 5,
+        "max": 50,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.max_transmutator_range_in_foundations"
+    },
+    {
+      "id": "structures_plus_transmutator_conversion_costs",
+      "key": "TransmutatorConversionCosts",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.transmutator_conversion_costs"
+    },
+    {
+      "id": "structures_plus_nanny_range_in_foundations",
+      "key": "NannyRangeInFoundations",
+      "category": "mod_structures_plus",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10,
+        "min": 0,
+        "max": 50,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.nanny_range_in_foundations"
+    },
+    {
+      "id": "structures_plus_nanny_max_imprint",
+      "key": "NannyMaxImprint",
+      "category": "mod_structures_plus",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.nanny_max_imprint"
+    },
+    {
+      "id": "structures_plus_nanny_interval_in_seconds",
+      "key": "NannyIntervalInSeconds",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 35,
+        "min": 0,
+        "max": 350,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.nanny_interval_in_seconds"
+    },
+    {
+      "id": "structures_plus_nanny_feeding_start_threshold",
+      "key": "NannyFeedingStartThreshold",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 20,
+        "min": 0,
+        "max": 200,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.nanny_feeding_start_threshold"
+    },
+    {
+      "id": "structures_plus_vivarium_resource_multiplier",
+      "key": "VivariumResourceMultiplier",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 100,
+        "step": 0.1,
+        "presets": [
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.structures_plus.vivarium_resource_multiplier"
+    },
+    {
+      "id": "structures_plus_vivarium_egg_chance_multiplier",
+      "key": "VivariumEggChanceMultiplier",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 5,
+        "step": 0.1,
+        "presets": [
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.structures_plus.vivarium_egg_chance_multiplier"
+    },
+    {
+      "id": "structures_plus_vivarium_base_interval",
+      "key": "VivariumBaseInterval",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 900,
+        "min": 0,
+        "max": 9000,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.vivarium_base_interval"
+    },
+    {
+      "id": "structures_plus_vivarium_interval_per_dino",
+      "key": "VivariumIntervalPerDino",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 20,
+        "min": 0,
+        "max": 200,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.vivarium_interval_per_dino"
+    },
+    {
+      "id": "structures_plus_repulser_max_strength",
+      "key": "RepulserMaxStrength",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 11,
+        "min": 0,
+        "max": 110,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.repulser_max_strength"
+    },
+    {
+      "id": "structures_plus_hitching_post_range",
+      "key": "HitchingPostRange",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 4,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.hitching_post_range"
+    },
+    {
+      "id": "structures_plus_tek_hitching_post_range",
+      "key": "TekHitchingPostRange",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 6,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.tek_hitching_post_range"
+    },
+    {
+      "id": "structures_plus_hitching_post_dino_limit",
+      "key": "HitchingPostDinoLimit",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.hitching_post_dino_limit"
+    },
+    {
+      "id": "structures_plus_hitching_post_tribe_limit",
+      "key": "HitchingPostTribeLimit",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.hitching_post_tribe_limit"
+    },
+    {
+      "id": "structures_plus_replicator_scale_multiplier",
+      "key": "ReplicatorScaleMultiplier",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.3,
+        "min": 0,
+        "max": 2,
+        "step": 0.1,
+        "presets": [
+          1,
+          1.3,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.structures_plus.replicator_scale_multiplier"
+    },
+    {
+      "id": "structures_plus_industrial_forge_scale_multiplier",
+      "key": "IndustrialForgeScaleMultiplier",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 2,
+        "step": 0.1,
+        "presets": [
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.structures_plus.industrial_forge_scale_multiplier"
+    },
+    {
+      "id": "structures_plus_grinder_scale_multiplier",
+      "key": "GrinderScaleMultiplier",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 2,
+        "step": 0.1,
+        "presets": [
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.structures_plus.grinder_scale_multiplier"
+    },
+    {
+      "id": "structures_plus_turret_ammo_box_range_in_foundations",
+      "key": "TurretAmmoBoxRangeInFoundations",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.turret_ammo_box_range_in_foundations"
+    },
+    {
+      "id": "structures_plus_tranq_turret_torpor_amt",
+      "key": "TranqTurretTorporAmt",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 250,
+        "min": 0,
+        "max": 2500,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.tranq_turret_torpor_amt"
+    },
+    {
+      "id": "structures_plus_tranq_turret_player_torpor_multiplier",
+      "key": "TranqTurretPlayerTorporMultiplier",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0,
+        "min": 0,
+        "max": 10,
+        "step": 0.1,
+        "presets": [
+          0,
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.structures_plus.tranq_turret_player_torpor_multiplier"
+    },
+    {
+      "id": "structures_plus_tranq_turret_tamed_torpor_multiplier",
+      "key": "TranqTurretTamedTorporMultiplier",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0,
+        "min": 0,
+        "max": 10,
+        "step": 0.1,
+        "presets": [
+          0,
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.structures_plus.tranq_turret_tamed_torpor_multiplier"
+    },
+    {
+      "id": "structures_plus_incubator_perfect_temp_bonus",
+      "key": "IncubatorPerfectTempBonus",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.2,
+        "min": 0,
+        "max": 12,
+        "step": 0.1,
+        "presets": [
+          1,
+          1.2,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.structures_plus.incubator_perfect_temp_bonus"
+    },
+    {
+      "id": "structures_plus_propagator_fuel_interval",
+      "key": "PropagatorFuelInterval",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 86400,
+        "min": 0,
+        "max": 864000,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.propagator_fuel_interval"
+    },
+    {
+      "id": "structures_plus_propagator_mating_interval_multiplier",
+      "key": "PropagatorMatingIntervalMultiplier",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 10,
+        "step": 0.1,
+        "presets": [
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.structures_plus.propagator_mating_interval_multiplier"
+    },
+    {
+      "id": "structures_plus_propagator_mating_speed_multiplier",
+      "key": "PropagatorMatingSpeedMultiplier",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 10,
+        "step": 0.1,
+        "presets": [
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.structures_plus.propagator_mating_speed_multiplier"
+    },
+    {
+      "id": "structures_plus_propagator_mod_cost_mutate",
+      "key": "PropagatorModCostMutate",
+      "category": "mod_structures_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.propagator_mod_cost_mutate"
+    },
+    {
+      "id": "structures_plus_propagator_mod_cost_breed",
+      "key": "PropagatorModCostBreed",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.propagator_mod_cost_breed"
+    },
+    {
+      "id": "structures_plus_propagator_mod_cost_gender",
+      "key": "PropagatorModCostGender",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.propagator_mod_cost_gender"
+    },
+    {
+      "id": "structures_plus_tribe_crop_plot_limit",
+      "key": "TribeCropPlotLimit",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.tribe_crop_plot_limit"
+    },
+    {
+      "id": "structures_plus_tribe_gavager_limit",
+      "key": "TribeGavagerLimit",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.tribe_gavager_limit"
+    },
+    {
+      "id": "structures_plus_tek_alarm_tribe_limit",
+      "key": "TekAlarmTribeLimit",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.tek_alarm_tribe_limit"
+    },
+    {
+      "id": "structures_plus_alarm_plate_tribe_limit",
+      "key": "AlarmPlateTribeLimit",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.alarm_plate_tribe_limit"
+    },
+    {
+      "id": "structures_plus_tribe_tculimit",
+      "key": "TribeTCULimit",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.tribe_tculimit"
+    },
+    {
+      "id": "structures_plus_tribe_harvester_limit",
+      "key": "TribeHarvesterLimit",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.tribe_harvester_limit"
+    },
+    {
+      "id": "structures_plus_incubator_tribe_limit",
+      "key": "IncubatorTribeLimit",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.incubator_tribe_limit"
+    },
+    {
+      "id": "structures_plus_tribe_vivarium_limit",
+      "key": "TribeVivariumLimit",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.tribe_vivarium_limit"
+    },
+    {
+      "id": "structures_plus_tribe_interface_limit",
+      "key": "TribeInterfaceLimit",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.tribe_interface_limit"
+    },
+    {
+      "id": "structures_plus_tribe_propagator_limit",
+      "key": "TribePropagatorLimit",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.structures_plus.tribe_propagator_limit"
+    },
+    {
+      "id": "structures_plus_splus_engram_whitelist",
+      "key": "SPlusEngramWhitelist",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.structures_plus.splus_engram_whitelist"
+    },
+    {
+      "id": "structures_plus_engram_override_blacklist",
+      "key": "EngramOverrideBlacklist",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.structures_plus.engram_override_blacklist"
+    },
+    {
+      "id": "structures_plus_grinder_blacklist",
+      "key": "GrinderBlacklist",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.structures_plus.grinder_blacklist"
+    },
+    {
+      "id": "structures_plus_remove_grinder_engrams",
+      "key": "RemoveGrinderEngrams",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.structures_plus.remove_grinder_engrams"
+    },
+    {
+      "id": "structures_plus_converter_blacklist",
+      "key": "ConverterBlacklist",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.structures_plus.converter_blacklist"
+    },
+    {
+      "id": "structures_plus_pull_resource_additions",
+      "key": "PullResourceAdditions",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "resources"
+      },
+      "i18nKey": "mods.structures_plus.pull_resource_additions"
+    },
+    {
+      "id": "structures_plus_pull_resource_removals",
+      "key": "PullResourceRemovals",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "resources"
+      },
+      "i18nKey": "mods.structures_plus.pull_resource_removals"
+    },
+    {
+      "id": "structures_plus_adv_transfer_item_blacklist",
+      "key": "AdvTransferItemBlacklist",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.structures_plus.adv_transfer_item_blacklist"
+    },
+    {
+      "id": "structures_plus_mutator_dino_blacklist",
+      "key": "MutatorDinoBlacklist",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "dinos"
+      },
+      "i18nKey": "mods.structures_plus.mutator_dino_blacklist"
+    },
+    {
+      "id": "structures_plus_mutator_mode_blacklist",
+      "key": "MutatorModeBlacklist",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.structures_plus.mutator_mode_blacklist"
+    },
+    {
+      "id": "structures_plus_transmutator_dino_blacklist",
+      "key": "TransmutatorDinoBlacklist",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "dinos"
+      },
+      "i18nKey": "mods.structures_plus.transmutator_dino_blacklist"
+    },
+    {
+      "id": "structures_plus_transmutator_mode_blacklist",
+      "key": "TransmutatorModeBlacklist",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.structures_plus.transmutator_mode_blacklist"
+    },
+    {
+      "id": "structures_plus_propagator_dino_blacklist",
+      "key": "PropagatorDinoBlacklist",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "dinos"
+      },
+      "i18nKey": "mods.structures_plus.propagator_dino_blacklist"
+    },
+    {
+      "id": "structures_plus_cloning_chamber_dino_multipliers",
+      "key": "CloningChamberDinoMultipliers",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.structures_plus.cloning_chamber_dino_multipliers"
+    },
+    {
+      "id": "structures_plus_dedi_interface_dino_blacklist",
+      "key": "DediInterfaceDinoBlacklist",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "dinos"
+      },
+      "i18nKey": "mods.structures_plus.dedi_interface_dino_blacklist"
+    },
+    {
+      "id": "structures_plus_dedi_interface_dino_whitelist",
+      "key": "DediInterfaceDinoWhitelist",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "dinos"
+      },
+      "i18nKey": "mods.structures_plus.dedi_interface_dino_whitelist"
+    },
+    {
+      "id": "structures_plus_vivarium_resource_blacklist",
+      "key": "VivariumResourceBlacklist",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "resources"
+      },
+      "i18nKey": "mods.structures_plus.vivarium_resource_blacklist"
+    },
+    {
+      "id": "structures_plus_harvester_resource_blacklist",
+      "key": "HarvesterResourceBlacklist",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "resources"
+      },
+      "i18nKey": "mods.structures_plus.harvester_resource_blacklist"
+    },
+    {
+      "id": "structures_plus_multi_tool_blacklist",
+      "key": "MultiToolBlacklist",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.structures_plus.multi_tool_blacklist"
+    },
+    {
+      "id": "structures_plus_omni_tool_blacklist",
+      "key": "OmniToolBlacklist",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.structures_plus.omni_tool_blacklist"
+    },
+    {
+      "id": "structures_plus_tranq_turret_ammo_class",
+      "key": "TranqTurretAmmoClass",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.structures_plus.tranq_turret_ammo_class"
+    },
+    {
+      "id": "structures_plus_propagator_fuel_class",
+      "key": "PropagatorFuelClass",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.structures_plus.propagator_fuel_class"
+    },
+    {
+      "id": "structures_plus_propagator_mod_cost_item_class",
+      "key": "PropagatorModCostItemClass",
+      "category": "mod_structures_plus",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "StructuresPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.structures_plus.propagator_mod_cost_item_class"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "modId": "PaleoArk",
+  "name": "Paleo ARK",
+  "game": "asa",
+  "source": "community",
+  "settings": [
+    {
+      "id": "pa_allow_conversion_to_vanilla_rex",
+      "key": "AllowConversionToVanillaRex",
+      "category": "mod_paleo_ark",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "PaleoArk",
+      "games": ["asa"],
+      "validIn": ["single_player", "host_local", "dedicated"],
+      "control": { "kind": "boolean", "default": true },
+      "i18nKey": "mods.paleo_ark.allow_conversion_to_vanilla_rex"
+    },
+    {
+      "id": "pa_allow_evo_giga_in_boss_arenas",
+      "key": "AllowEvoGigaInBossArenas",
+      "category": "mod_paleo_ark",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "PaleoArk",
+      "games": ["asa"],
+      "validIn": ["single_player", "host_local", "dedicated"],
+      "control": { "kind": "boolean", "default": true },
+      "i18nKey": "mods.paleo_ark.allow_evo_giga_in_boss_arenas"
+    },
+    {
+      "id": "pa_allow_conversion_to_vanilla_giga",
+      "key": "AllowConversionToVanillaGiga",
+      "category": "mod_paleo_ark",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "PaleoArk",
+      "games": ["asa"],
+      "validIn": ["single_player", "host_local", "dedicated"],
+      "control": { "kind": "boolean", "default": true },
+      "i18nKey": "mods.paleo_ark.allow_conversion_to_vanilla_giga"
+    },
+    {
+      "id": "pa_allow_conversion_to_evo_giga",
+      "key": "AllowConversionToEvoGiga",
+      "category": "mod_paleo_ark",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "PaleoArk",
+      "games": ["asa"],
+      "validIn": ["single_player", "host_local", "dedicated"],
+      "control": { "kind": "boolean", "default": true },
+      "i18nKey": "mods.paleo_ark.allow_conversion_to_evo_giga"
+    }
+  ]
+}
