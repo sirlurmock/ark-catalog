@@ -9,6 +9,7 @@
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=510590313",
   "prefix": "glass_metal",
+  "searchAliases": ["vidrio", "cristal"],
   "settings": [
     {
       "key": "GlassMetalR",

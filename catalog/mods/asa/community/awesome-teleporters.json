@@ -3,6 +3,7 @@
   "name": "Awesome Teleporters",
   "game": "asa",
   "source": "community",
+  "searchAliases": ["teletransportadores", "teletransporte"],
   "settings": [
     {
       "id": "at_admins_see_all",

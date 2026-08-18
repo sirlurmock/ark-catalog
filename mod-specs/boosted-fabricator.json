@@ -9,6 +9,7 @@
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=778345456",
   "prefix": "boosted_fab",
+  "searchAliases": ["fabricador mejorado", "fabricador"],
   "settings": [
     {
       "key": "SmithyCraftSpeed",

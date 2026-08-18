@@ -4,6 +4,7 @@
   "game": "ase",
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=510590313",
+  "searchAliases": ["vidrio", "cristal"],
   "settings": [
     {
       "id": "glass_metal_glass_metal_r",

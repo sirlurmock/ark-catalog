@@ -8,6 +8,7 @@
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1139981401",
   "prefix": "tombstone",
+  "searchAliases": ["lápida", "tumba"],
   "settings": [
     {
       "key": "KeepInventoryOnDeath",

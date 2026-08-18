@@ -3,6 +3,7 @@
   "name": "Bangin' Tranqs",
   "game": "asa",
   "source": "community",
+  "searchAliases": ["tranquilizantes", "dardos tranquilizantes"],
   "settings": [
     {
       "id": "bt_tier1_effect",

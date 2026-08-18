@@ -11,6 +11,7 @@
   "prefix": "structures_plus",
   "file": "GameUserSettings.ini",
   "section": "StructuresPlus",
+  "searchAliases": ["estructuras"],
   "settings": [
     {
       "key": "NoFoundationsRequired",

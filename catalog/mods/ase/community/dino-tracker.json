@@ -4,6 +4,7 @@
   "game": "ase",
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=924933745",
+  "searchAliases": ["rastreador de dinos", "rastrear dinos"],
   "settings": [
     {
       "id": "dino_tracker_disable_wild_tracking",

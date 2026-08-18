@@ -9,6 +9,7 @@
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2307661303",
   "prefix": "crafting_potion",
+  "searchAliases": ["poción de crafteo", "habilidad de fabricación"],
   "settings": [
     {
       "key": "CraftingSkillDuration",

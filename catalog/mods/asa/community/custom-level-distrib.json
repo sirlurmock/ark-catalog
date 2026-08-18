@@ -3,6 +3,7 @@
   "name": "Custom Level Distribution",
   "game": "asa",
   "source": "community",
+  "searchAliases": ["distribución de niveles", "niveles personalizados"],
   "settings": [
     {
       "id": "cld_min_level",

@@ -4,6 +4,7 @@
   "game": "ase",
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2307661303",
+  "searchAliases": ["poción de crafteo", "habilidad de fabricación"],
   "settings": [
     {
       "id": "crafting_potion_crafting_skill_duration",

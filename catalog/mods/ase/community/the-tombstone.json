@@ -4,6 +4,7 @@
   "game": "ase",
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1139981401",
+  "searchAliases": ["lápida", "tumba"],
   "settings": [
     {
       "id": "tombstone_keep_inventory_on_death",

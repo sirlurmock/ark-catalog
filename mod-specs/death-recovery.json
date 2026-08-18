@@ -8,6 +8,7 @@
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=751991809",
   "prefix": "death_recovery",
+  "searchAliases": ["recuperar objetos al morir", "recuperar inventario"],
   "settings": [
     {
       "key": "DelayTimer",

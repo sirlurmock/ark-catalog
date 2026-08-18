@@ -3,6 +3,7 @@
   "name": "Improved Egg Incubator",
   "game": "asa",
   "source": "community",
+  "searchAliases": ["incubadora mejorada", "incubadora"],
   "settings": [
     {
       "id": "iei_prevent_egg_filtering_on_pickup",

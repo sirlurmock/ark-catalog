@@ -3,6 +3,7 @@
   "name": "Zytharian Critters",
   "game": "asa",
   "source": "community",
+  "searchAliases": ["criaturas", "mascotas"],
   "settings": [
     {
       "id": "zc_solo_chance",

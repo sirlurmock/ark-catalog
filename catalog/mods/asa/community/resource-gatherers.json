@@ -3,6 +3,7 @@
   "name": "Resource Gatherers",
   "game": "asa",
   "source": "community",
+  "searchAliases": ["recolectores de recursos", "recolección automática"],
   "settings": [
     {
       "id": "rg_require_online_player",

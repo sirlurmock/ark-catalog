@@ -4,6 +4,7 @@
   "game": "ase",
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=751991809",
+  "searchAliases": ["recuperar objetos al morir", "recuperar inventario"],
   "settings": [
     {
       "id": "death_recovery_delay_timer",

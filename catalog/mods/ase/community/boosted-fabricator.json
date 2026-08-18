@@ -4,6 +4,7 @@
   "game": "ase",
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=778345456",
+  "searchAliases": ["fabricador mejorado", "fabricador"],
   "settings": [
     {
       "id": "boosted_fab_smithy_craft_speed",

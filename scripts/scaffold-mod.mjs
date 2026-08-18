@@ -157,6 +157,7 @@ function runSpecMode(specPath) {
     source: spec.source ?? "community",
     ...(spec.workshopUrl ? { workshopUrl: spec.workshopUrl } : {}),
     ...(spec.alsoWorkshopIds ? { alsoWorkshopIds: spec.alsoWorkshopIds } : {}),
+    ...(spec.searchAliases ? { searchAliases: spec.searchAliases } : {}),
     settings,
   };
 

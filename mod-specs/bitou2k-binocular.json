@@ -8,6 +8,7 @@
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1136125765",
   "prefix": "b2k_binocular",
+  "searchAliases": ["binoculares", "prismáticos"],
   "settings": [
     {
       "key": "PreventEnemyStats",

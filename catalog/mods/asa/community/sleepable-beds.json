@@ -3,6 +3,7 @@
   "name": "Sleepable Beds",
   "game": "asa",
   "source": "community",
+  "searchAliases": ["camas para dormir", "dormir"],
   "settings": [
     {
       "id": "sb_earliest_hour_sleeping_allowed",

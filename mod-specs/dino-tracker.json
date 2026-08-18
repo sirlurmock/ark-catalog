@@ -8,6 +8,7 @@
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=924933745",
   "prefix": "dino_tracker",
+  "searchAliases": ["rastreador de dinos", "rastrear dinos"],
   "settings": [
     {
       "key": "DisableWildTracking",

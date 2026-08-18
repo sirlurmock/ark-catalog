@@ -3,6 +3,7 @@
   "name": "Randi's Animal Traps",
   "game": "asa",
   "source": "community",
+  "searchAliases": ["trampas de animales", "trampas"],
   "settings": [
     {
       "id": "rat_small_wooden_trap_health",

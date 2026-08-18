@@ -9,6 +9,7 @@
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=764755314",
   "prefix": "ckf_legacy",
+  "searchAliases": ["castillos", "fuertes", "construcción medieval"],
   "settings": [
     {
       "key": "IsPrimitive",

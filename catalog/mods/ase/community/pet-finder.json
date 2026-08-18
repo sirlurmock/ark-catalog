@@ -4,6 +4,7 @@
   "game": "ase",
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=566887000",
+  "searchAliases": ["buscar mascotas", "encontrar mascotas perdidas"],
   "settings": [
     {
       "id": "pet_finder_bed_prevent_range",

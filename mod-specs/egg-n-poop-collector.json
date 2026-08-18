@@ -8,6 +8,7 @@
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=554678442",
   "prefix": "egg_n_poop",
+  "searchAliases": ["recolector de huevos", "incubadora", "recolector de caca"],
   "settings": [
     {
       "key": "MaxPoopStacks",

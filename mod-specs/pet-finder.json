@@ -8,6 +8,7 @@
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=566887000",
   "prefix": "pet_finder",
+  "searchAliases": ["buscar mascotas", "encontrar mascotas perdidas"],
   "settings": [
     {
       "key": "BedPreventRange",

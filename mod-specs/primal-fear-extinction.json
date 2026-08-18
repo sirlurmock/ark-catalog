@@ -8,6 +8,7 @@
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1681125667",
   "prefix": "pf_extinction",
+  "searchAliases": ["extinción"],
   "settings": [
     {
       "key": "DisableVanillaExtinctionDinos",
