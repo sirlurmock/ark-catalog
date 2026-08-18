@@ -159,6 +159,7 @@
     "section": "serversettings",
     "games": ["asa"],
     "validIn": ["dedicated"],
+    "applicableMaps": ["aberration"],
     "control": {
       "kind": "boolean",
       "default": true
@@ -186,6 +187,7 @@
     "section": "serversettings",
     "games": ["asa"],
     "validIn": ["dedicated"],
+    "applicableMaps": ["aberration"],
     "control": {
       "kind": "integer",
       "default": 3,
@@ -204,6 +206,7 @@
     "section": "serversettings",
     "games": ["asa"],
     "validIn": ["dedicated"],
+    "applicableMaps": ["aberration"],
     "control": {
       "kind": "boolean",
       "default": true
@@ -219,6 +222,7 @@
     "section": "serversettings",
     "games": ["asa"],
     "validIn": ["dedicated"],
+    "applicableMaps": ["aberration"],
     "control": {
       "kind": "boolean",
       "default": true
@@ -234,6 +238,7 @@
     "section": "serversettings",
     "games": ["asa"],
     "validIn": ["dedicated"],
+    "applicableMaps": ["aberration"],
     "control": {
       "kind": "integer",
       "default": 3000,
@@ -252,6 +257,7 @@
     "section": "serversettings",
     "games": ["asa"],
     "validIn": ["dedicated"],
+    "applicableMaps": ["aberration"],
     "control": {
       "kind": "float_multiplier",
       "default": 0.25,
@@ -270,6 +276,7 @@
     "section": "serversettings",
     "games": ["asa"],
     "validIn": ["dedicated"],
+    "applicableMaps": ["aberration"],
     "control": {
       "kind": "float_multiplier",
       "default": 0.05,
@@ -288,6 +295,7 @@
     "section": "serversettings",
     "games": ["asa"],
     "validIn": ["single_player", "host_local", "dedicated"],
+    "applicableMaps": ["aberration"],
     "control": {
       "kind": "float_multiplier",
       "default": 1.0,
@@ -318,6 +326,7 @@
     "section": "serversettings",
     "games": ["asa"],
     "validIn": ["single_player", "host_local", "dedicated"],
+    "applicableMaps": ["aberration"],
     "control": {
       "kind": "float_multiplier",
       "default": 24.0,
@@ -336,6 +345,7 @@
     "section": "serversettings",
     "games": ["asa"],
     "validIn": ["single_player", "host_local", "dedicated"],
+    "applicableMaps": ["aberration"],
     "control": {
       "kind": "float_multiplier",
       "default": 1.0,
@@ -354,6 +364,7 @@
     "section": "serversettings",
     "games": ["asa"],
     "validIn": ["single_player", "host_local", "dedicated"],
+    "applicableMaps": ["aberration"],
     "control": {
       "kind": "float_multiplier",
       "default": 2.0,
@@ -372,6 +383,7 @@
     "section": "serversettings",
     "games": ["asa"],
     "validIn": ["single_player", "host_local", "dedicated"],
+    "applicableMaps": ["aberration"],
     "control": {
       "kind": "float_multiplier",
       "default": 0.3,
@@ -402,6 +414,7 @@
     "section": "serversettings",
     "games": ["asa"],
     "validIn": ["single_player", "host_local", "dedicated"],
+    "applicableMaps": ["aberration"],
     "control": {
       "kind": "float_multiplier",
       "default": 3.0,
@@ -420,6 +433,7 @@
     "section": "serversettings",
     "games": ["asa"],
     "validIn": ["single_player", "host_local", "dedicated"],
+    "applicableMaps": ["aberration"],
     "control": {
       "kind": "float_multiplier",
       "default": 0.1,
@@ -438,6 +452,7 @@
     "section": "serversettings",
     "games": ["asa"],
     "validIn": ["dedicated"],
+    "applicableMaps": ["extinction"],
     "control": {
       "kind": "integer",
       "default": 6,
@@ -468,6 +483,7 @@
     "section": "serversettings",
     "games": ["asa"],
     "validIn": ["dedicated"],
+    "applicableMaps": ["extinction"],
     "control": {
       "kind": "integer",
       "default": 6,
@@ -486,6 +502,7 @@
     "section": "serversettings",
     "games": ["asa"],
     "validIn": ["dedicated"],
+    "applicableMaps": ["extinction"],
     "control": {
       "kind": "integer",
       "default": 6,
@@ -504,6 +521,7 @@
     "section": "serversettings",
     "games": ["asa"],
     "validIn": ["single_player", "host_local"],
+    "applicableMaps": ["extinction"],
     "control": {
       "kind": "integer",
       "default": 1,
@@ -522,6 +540,7 @@
     "section": "serversettings",
     "games": ["asa"],
     "validIn": ["single_player", "host_local"],
+    "applicableMaps": ["extinction"],
     "control": {
       "kind": "integer",
       "default": 6,
@@ -540,6 +559,7 @@
     "section": "serversettings",
     "games": ["asa"],
     "validIn": ["single_player", "host_local"],
+    "applicableMaps": ["extinction"],
     "control": {
       "kind": "integer",
       "default": 1,
