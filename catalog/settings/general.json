@@ -205,6 +205,7 @@
     "file": "Game.ini",
     "section": "/script/shootergame.shootergamemode",
     "games": ["ase", "asa"],
+    "importKeyAliases": ["OverrideNamedEngramEntries0"],
     "validIn": ["single_player", "host_local", "dedicated"],
     "control": {
       "kind": "struct_collection",
