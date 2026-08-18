@@ -1,0 +1,89 @@
+{
+  "_source": "FAQ oficial del autor: https://steamcommunity.com/workshop/filedetails/discussion/1295978823/1726450077690241008/ (hilo 'Additional Mod Information and FAQ'). La descripción de la mod no documenta config: todo se maneja por menú in-game, y estas 5 claves son lo único que el autor documenta para el .ini.",
+  "_casing": "El casing de las claves es el del bloque del FAQ tal cual (RestartResetsTimers pero forceddelay/clearoldeggs en minúsculas). El .ini real del autor usa otro casing (restartresetstimers, ForcedDelay) — ARK no distingue, y el exporter deduplica case-insensitive desde 2026-08-18.",
+  "modId": "simplespawners",
+  "name": "Simple Spawners",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1295978823",
+  "prefix": "simple_spawners",
+  "searchAliases": ["spawners", "aparición de criaturas", "crear spawns"],
+  "settings": [
+    {
+      "key": "RestartResetsTimers",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": true,
+      "es": {
+        "label": "Reiniciar el servidor resetea los spawners",
+        "description": "Al reiniciar el servidor fuerza un respawn y resetea los timers de reaparición de los spawners colocados. Apagalo si querés que los timers sigan corriendo tras el reinicio."
+      },
+      "en": {
+        "label": "Server restart resets spawners",
+        "description": "On server restart, forces a respawn and resets the respawn timers of placed spawners. Turn it off if you want timers to keep running across restarts."
+      }
+    },
+    {
+      "key": "forceddelay",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 0,
+      "min": 0,
+      "step": 1,
+      "es": {
+        "label": "Retraso inicial de los spawners (segundos)",
+        "description": "Segundos de espera después de arrancar el servidor antes de que los spawners empiecen a generar. Útil para dejar que las mods pesadas terminen de cargar antes del primer spawn."
+      },
+      "en": {
+        "label": "Initial spawner delay (seconds)",
+        "description": "Seconds to wait after server startup before spawners start spawning. Useful to let heavy mods finish loading before the first spawn."
+      }
+    },
+    {
+      "key": "clearoldeggs",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Limpiar huevos viejos al arrancar",
+        "description": "Al arrancar el servidor borra automáticamente todos los huevos fertilizados viejos que quedaron en los nidos. Evita que se acumulen huevos de sesiones anteriores."
+      },
+      "en": {
+        "label": "Clear old eggs on startup",
+        "description": "On server startup, automatically clears all old fertilized eggs left in nests. Prevents eggs piling up across sessions."
+      }
+    },
+    {
+      "key": "ChestLevel",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 1,
+      "min": 1,
+      "step": 1,
+      "es": {
+        "label": "Nivel para abrir el Cofre del Tesoro",
+        "description": "Nivel de jugador requerido para abrir el Treasure Chest de Simple Spawners. Subilo para que el loot de cofres sea contenido de nivel alto."
+      },
+      "en": {
+        "label": "Level to open the Treasure Chest",
+        "description": "Player level required to open the Simple Spawners Treasure Chest. Raise it to gate chest loot behind higher levels."
+      }
+    },
+    {
+      "key": "CacheLevel",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 1,
+      "min": 1,
+      "step": 1,
+      "es": {
+        "label": "Nivel para abrir el Chest Cache",
+        "description": "Nivel de jugador requerido para abrir el Treasure Chest Cache de Simple Spawners."
+      },
+      "en": {
+        "label": "Level to open the Chest Cache",
+        "description": "Player level required to open the Simple Spawners Treasure Chest Cache."
+      }
+    }
+  ]
+}

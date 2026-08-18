@@ -1,0 +1,293 @@
+{
+  "_source": "Bloque de config de la descripción del Workshop (https://steamcommunity.com/sharedfiles/filedetails/?id=2885772943), citado verbatim ahí. Mismo autor que Awesome SpyGlass y Awesome Teleporters. El autor no dice el archivo; el .ini real del autor de la app la tiene en GameUserSettings.ini.",
+  "_skipped": "TribeDataCustomTextInfo y RelativePath son texto libre y no hay ControlKind de texto (mismo caso que ActiveEvent). SecondsRageBuffTime está en el .ini real (60) pero no en la doc — sin fuente citable queda afuera. Los rangos de los multiplicadores (max 10) son topes usables, no documentados.",
+  "_typo": "PushStrenghMultiplier y LaunchStrenghMultiplier van con el typo del autor ('Strengh'): así se llaman las claves reales.",
+  "modId": "AwesomeAdminTool",
+  "name": "Awesome Admin Tool",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2885772943",
+  "prefix": "awesome_admin_tool",
+  "searchAliases": ["herramienta de administración", "administrar tribus"],
+  "settings": [
+    {
+      "key": "MaxBasesPerTribe",
+      "kind": "integer",
+      "tier": "basic",
+      "default": 0,
+      "min": 0,
+      "step": 1,
+      "es": {
+        "label": "Máximo de bases por tribu",
+        "description": "Tope de bases que puede tener una tribu. Con 0 no hay límite. Es el dato que alimentan las alertas y el bloqueo de construcción."
+      },
+      "en": {
+        "label": "Max bases per tribe",
+        "description": "Cap on how many bases a tribe can have. 0 means no limit. Feeds the alerts and the building block."
+      }
+    },
+    {
+      "key": "MaxStructuresPerTribe",
+      "kind": "integer",
+      "tier": "basic",
+      "default": 0,
+      "min": 0,
+      "step": 1,
+      "es": {
+        "label": "Máximo de estructuras por tribu",
+        "description": "Tope de estructuras que puede tener una tribu. Con 0 no hay límite."
+      },
+      "en": {
+        "label": "Max structures per tribe",
+        "description": "Cap on how many structures a tribe can have. 0 means no limit."
+      }
+    },
+    {
+      "key": "bSendAlertToPlayerIfOverMax",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": true,
+      "es": {
+        "label": "Avisar a la tribu al pasarse del máximo",
+        "description": "Manda una alerta a la tribu cuando supera el máximo de bases o estructuras. Solo actúa si MaxBasesPerTribe o MaxStructuresPerTribe no están en 0."
+      },
+      "en": {
+        "label": "Alert the tribe when over the max",
+        "description": "Sends the tribe an alert when it exceeds the base or structure cap. Only works if MaxBasesPerTribe or MaxStructuresPerTribe is not 0."
+      }
+    },
+    {
+      "key": "bPreventBuildingIfOverMax",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Bloquear construcción al pasarse del máximo",
+        "description": "Impide seguir construyendo a la tribu que superó el límite configurado. Con esto apagado el límite solo avisa, no bloquea."
+      },
+      "en": {
+        "label": "Block building when over the max",
+        "description": "Prevents a tribe that exceeded the configured cap from building further. With this off the cap only warns, it doesn't block."
+      }
+    },
+    {
+      "key": "AutoRecompileEveryXMinutes",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 60,
+      "min": 1,
+      "step": 1,
+      "es": {
+        "label": "Escanear estructuras cada X minutos",
+        "description": "Cada cuántos minutos la herramienta recorre el mapa recompilando las estructuras de cada tribu. Bajarlo hace más frescos los datos de límites a costa de más trabajo del servidor."
+      },
+      "en": {
+        "label": "Scan structures every X minutes",
+        "description": "How often, in minutes, the tool scans the map recompiling each tribe's structures. Lowering it keeps cap data fresher at the cost of more server work."
+      }
+    },
+    {
+      "key": "TribeCompilingMultiplier",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0.1,
+      "max": 10,
+      "step": 0.1,
+      "presets": [0.5, 1, 2],
+      "es": {
+        "label": "Velocidad de compilado de tribus",
+        "description": "Multiplica la velocidad del compilado del modo Destroy Tribe. Subirlo lo hace más rápido pero carga más al servidor; bajarlo reparte el trabajo."
+      },
+      "en": {
+        "label": "Tribe compiling speed",
+        "description": "Multiplies the compiling speed of Destroy Tribe mode. Raising it makes it faster but loads the server more; lowering it spreads the work out."
+      }
+    },
+    {
+      "key": "DinoCompilingMultiplier",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0.1,
+      "max": 10,
+      "step": 0.1,
+      "presets": [0.5, 1, 2],
+      "es": {
+        "label": "Velocidad de compilado de dinos",
+        "description": "Multiplica la velocidad con la que la herramienta compila los dinos del mapa. Mismo trade-off que el compilado de tribus."
+      },
+      "en": {
+        "label": "Dino compiling speed",
+        "description": "Multiplies how fast the tool compiles the map's dinos. Same trade-off as tribe compiling."
+      }
+    },
+    {
+      "key": "PushStrenghMultiplier",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0,
+      "max": 10,
+      "step": 0.1,
+      "presets": [0.5, 1, 2],
+      "es": {
+        "label": "Fuerza del empuje",
+        "description": "Multiplica la fuerza del modo Push. x2 = empuja el doble de fuerte al objetivo."
+      },
+      "en": {
+        "label": "Push strength",
+        "description": "Multiplies the Push mode strength. x2 = shoves the target twice as hard."
+      }
+    },
+    {
+      "key": "LaunchStrenghMultiplier",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0,
+      "max": 10,
+      "step": 0.1,
+      "presets": [0.5, 1, 2],
+      "es": {
+        "label": "Fuerza del lanzamiento",
+        "description": "Multiplica la fuerza del modo Launch. x2 = lanza el doble de lejos."
+      },
+      "en": {
+        "label": "Launch strength",
+        "description": "Multiplies the Launch mode strength. x2 = launches twice as far."
+      }
+    },
+    {
+      "key": "ToolRangeMultiplier",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0,
+      "max": 10,
+      "step": 0.1,
+      "presets": [0.5, 1, 2],
+      "es": {
+        "label": "Alcance de la herramienta",
+        "description": "Multiplica el alcance de todos los modos de la herramienta. x2 = apunta al doble de distancia."
+      },
+      "en": {
+        "label": "Tool range",
+        "description": "Multiplies the range of every tool mode. x2 = targets twice as far."
+      }
+    },
+    {
+      "key": "AddAltToKeybinds",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Agregar Alt al atajo de teclado",
+        "description": "Cambia el atajo Ctrl+Shift+Espacio por Ctrl+Shift+Alt+Espacio. Útil si otra mod usa la misma combinación."
+      },
+      "en": {
+        "label": "Add Alt to the keybind",
+        "description": "Changes the Ctrl+Shift+Space shortcut to Ctrl+Shift+Alt+Space. Useful when another mod uses the same combo."
+      }
+    },
+    {
+      "key": "bRetrieveAllDinoClasses",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Listar dinos de otras mods en Spawn Dino",
+        "description": "El modo Spawn Dino carga también las clases de dinos de otras mods instaladas, no solo las vanilla."
+      },
+      "en": {
+        "label": "List modded dinos in Spawn Dino",
+        "description": "Spawn Dino mode also loads dino classes from other installed mods, not just vanilla ones."
+      }
+    },
+    {
+      "key": "bShowDescriptiveNamesInSpawnDinoMode",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": true,
+      "es": {
+        "label": "Nombres descriptivos en Spawn Dino",
+        "description": "Muestra nombres legibles en vez de nombres de clase en el modo Spawn Dino. Apagalo si preferís ver el classname exacto."
+      },
+      "en": {
+        "label": "Descriptive names in Spawn Dino",
+        "description": "Shows readable names instead of class names in Spawn Dino mode. Turn it off if you prefer the exact classname."
+      }
+    },
+    {
+      "key": "AddDinoClasses",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "suggestions": "dinos",
+      "es": {
+        "label": "Dinos extra para Spawn Dino",
+        "description": "Blueprints de dinos para sumar a mano a la lista del modo Spawn Dino, separados por coma en el archivo."
+      },
+      "en": {
+        "label": "Extra dinos for Spawn Dino",
+        "description": "Dino blueprints to add by hand to the Spawn Dino list, comma-separated in the file."
+      }
+    },
+    {
+      "key": "AdditionalProjectiles",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Proyectiles extra",
+        "description": "Blueprints de proyectiles custom para sumar a los modos que disparan, separados por coma en el archivo."
+      },
+      "en": {
+        "label": "Extra projectiles",
+        "description": "Custom projectile blueprints to add to the shooting modes, comma-separated in the file."
+      }
+    },
+    {
+      "key": "DisabledModes",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Modos deshabilitados",
+        "description": "Nombres de modos de la herramienta que quedan apagados en el servidor, separados por coma."
+      },
+      "en": {
+        "label": "Disabled modes",
+        "description": "Names of tool modes disabled on the server, comma-separated."
+      }
+    },
+    {
+      "key": "WhitelistedSteamIds",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Solo estos SteamIDs pueden usarla",
+        "description": "Con la lista vacía, todos los admins pueden usar la herramienta; con IDs cargados, solo esos jugadores."
+      },
+      "en": {
+        "label": "Only these SteamIDs can use it",
+        "description": "With the list empty, every admin can use the tool; with IDs set, only those players."
+      }
+    },
+    {
+      "key": "bDisableAdminRequirement",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "No exigir ser admin",
+        "description": "Cualquier jugador puede usar la herramienta, no solo los admins. Peligroso en servidores públicos: da poderes de admin de facto."
+      },
+      "en": {
+        "label": "Don't require admin",
+        "description": "Any player can use the tool, not just admins. Dangerous on public servers: it grants de-facto admin powers."
+      }
+    }
+  ]
+}

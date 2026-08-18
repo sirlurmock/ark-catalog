@@ -1,0 +1,147 @@
+{
+  "_source": "Hilo fijado oficial 'GameUserSettings.ini Settings - Server config' del autor (Kriogenic): https://steamcommunity.com/workshop/filedetails/discussion/1701679918/2574319916029816637/ — bloque de config citado verbatim ahí. Las 6 croquetas son probabilidades de 0 a 1 ('1 is 100%' según el autor).",
+  "_skipped": "MutationTimer está en el .ini real del autor (3600) pero NO aparece en el hilo oficial ni en la descripción — sin fuente citable queda afuera, mismo criterio de siempre.",
+  "modId": "MutationKibble",
+  "name": "Mutation Kibble",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1701679918",
+  "prefix": "mutation_kibble",
+  "searchAliases": ["croqueta de mutación", "mutaciones"],
+  "settings": [
+    {
+      "key": "Basic",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 0.16,
+      "min": 0,
+      "max": 1,
+      "step": 0.01,
+      "es": {
+        "label": "Probabilidad de mutación: croqueta Basic",
+        "description": "Probabilidad (0 a 1) de provocar una mutación al usar la croqueta Basic en la cría. Default 0.16 = 16%; con 1 muta siempre."
+      },
+      "en": {
+        "label": "Mutation chance: Basic kibble",
+        "description": "Chance (0 to 1) of triggering a mutation when using Basic kibble in breeding. Default 0.16 = 16%; at 1 it always mutates."
+      }
+    },
+    {
+      "key": "Simple",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 0.32,
+      "min": 0,
+      "max": 1,
+      "step": 0.01,
+      "es": {
+        "label": "Probabilidad de mutación: croqueta Simple",
+        "description": "Probabilidad (0 a 1) de provocar una mutación al usar la croqueta Simple. Default 0.32 = 32%."
+      },
+      "en": {
+        "label": "Mutation chance: Simple kibble",
+        "description": "Chance (0 to 1) of triggering a mutation when using Simple kibble. Default 0.32 = 32%."
+      }
+    },
+    {
+      "key": "Regular",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 0.48,
+      "min": 0,
+      "max": 1,
+      "step": 0.01,
+      "es": {
+        "label": "Probabilidad de mutación: croqueta Regular",
+        "description": "Probabilidad (0 a 1) de provocar una mutación al usar la croqueta Regular. Default 0.48 = 48%."
+      },
+      "en": {
+        "label": "Mutation chance: Regular kibble",
+        "description": "Chance (0 to 1) of triggering a mutation when using Regular kibble. Default 0.48 = 48%."
+      }
+    },
+    {
+      "key": "Superior",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 0.64,
+      "min": 0,
+      "max": 1,
+      "step": 0.01,
+      "es": {
+        "label": "Probabilidad de mutación: croqueta Superior",
+        "description": "Probabilidad (0 a 1) de provocar una mutación al usar la croqueta Superior. Default 0.64 = 64%."
+      },
+      "en": {
+        "label": "Mutation chance: Superior kibble",
+        "description": "Chance (0 to 1) of triggering a mutation when using Superior kibble. Default 0.64 = 64%."
+      }
+    },
+    {
+      "key": "Exceptional",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 0.8,
+      "min": 0,
+      "max": 1,
+      "step": 0.01,
+      "es": {
+        "label": "Probabilidad de mutación: croqueta Exceptional",
+        "description": "Probabilidad (0 a 1) de provocar una mutación al usar la croqueta Exceptional. Default 0.8 = 80%."
+      },
+      "en": {
+        "label": "Mutation chance: Exceptional kibble",
+        "description": "Chance (0 to 1) of triggering a mutation when using Exceptional kibble. Default 0.8 = 80%."
+      }
+    },
+    {
+      "key": "Extraordinary",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 1,
+      "min": 0,
+      "max": 1,
+      "step": 0.01,
+      "es": {
+        "label": "Probabilidad de mutación: croqueta Extraordinary",
+        "description": "Probabilidad (0 a 1) de provocar una mutación al usar la croqueta Extraordinary. Default 1 = muta siempre."
+      },
+      "en": {
+        "label": "Mutation chance: Extraordinary kibble",
+        "description": "Chance (0 to 1) of triggering a mutation when using Extraordinary kibble. Default 1 = always mutates."
+      }
+    },
+    {
+      "key": "MutationRolls",
+      "kind": "integer",
+      "tier": "basic",
+      "default": 1,
+      "min": 0,
+      "step": 1,
+      "es": {
+        "label": "Mutaciones máximas por cría",
+        "description": "Cuántas mutaciones puede otorgar como máximo un solo evento de cría al usar croquetas. Subirlo permite que una misma cría saque varias mutaciones de una vez."
+      },
+      "en": {
+        "label": "Max mutations per breeding event",
+        "description": "Maximum mutations a single breeding event can grant when using kibble. Raising it lets one breeding roll multiple mutations at once."
+      }
+    },
+    {
+      "key": "MutationPoints",
+      "kind": "integer",
+      "tier": "basic",
+      "default": 2,
+      "min": 0,
+      "step": 1,
+      "es": {
+        "label": "Puntos de stat por mutación",
+        "description": "Puntos de stat que suma cada mutación. Vanilla suma 2; con 10, cada mutación suma 10 puntos al stat mutado."
+      },
+      "en": {
+        "label": "Stat points per mutation",
+        "description": "Stat points each mutation grants. Vanilla grants 2; at 10, every mutation adds 10 points to the mutated stat."
+      }
+    }
+  ]
+}

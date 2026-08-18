@@ -1,0 +1,203 @@
+{
+  "modId": "MutationKibble",
+  "name": "Mutation Kibble",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1701679918",
+  "searchAliases": [
+    "croqueta de mutación",
+    "mutaciones"
+  ],
+  "settings": [
+    {
+      "id": "mutation_kibble_basic",
+      "key": "Basic",
+      "category": "mod_mutation_kibble",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "MutationKibble",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.16,
+        "min": 0,
+        "max": 1,
+        "step": 0.01
+      },
+      "i18nKey": "mods.mutation_kibble.basic"
+    },
+    {
+      "id": "mutation_kibble_simple",
+      "key": "Simple",
+      "category": "mod_mutation_kibble",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "MutationKibble",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.32,
+        "min": 0,
+        "max": 1,
+        "step": 0.01
+      },
+      "i18nKey": "mods.mutation_kibble.simple"
+    },
+    {
+      "id": "mutation_kibble_regular",
+      "key": "Regular",
+      "category": "mod_mutation_kibble",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "MutationKibble",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.48,
+        "min": 0,
+        "max": 1,
+        "step": 0.01
+      },
+      "i18nKey": "mods.mutation_kibble.regular"
+    },
+    {
+      "id": "mutation_kibble_superior",
+      "key": "Superior",
+      "category": "mod_mutation_kibble",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "MutationKibble",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.64,
+        "min": 0,
+        "max": 1,
+        "step": 0.01
+      },
+      "i18nKey": "mods.mutation_kibble.superior"
+    },
+    {
+      "id": "mutation_kibble_exceptional",
+      "key": "Exceptional",
+      "category": "mod_mutation_kibble",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "MutationKibble",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.8,
+        "min": 0,
+        "max": 1,
+        "step": 0.01
+      },
+      "i18nKey": "mods.mutation_kibble.exceptional"
+    },
+    {
+      "id": "mutation_kibble_extraordinary",
+      "key": "Extraordinary",
+      "category": "mod_mutation_kibble",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "MutationKibble",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 1,
+        "step": 0.01
+      },
+      "i18nKey": "mods.mutation_kibble.extraordinary"
+    },
+    {
+      "id": "mutation_kibble_mutation_rolls",
+      "key": "MutationRolls",
+      "category": "mod_mutation_kibble",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "MutationKibble",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1,
+        "min": 0,
+        "step": 1
+      },
+      "i18nKey": "mods.mutation_kibble.mutation_rolls"
+    },
+    {
+      "id": "mutation_kibble_mutation_points",
+      "key": "MutationPoints",
+      "category": "mod_mutation_kibble",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "MutationKibble",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 2,
+        "min": 0,
+        "step": 1
+      },
+      "i18nKey": "mods.mutation_kibble.mutation_points"
+    }
+  ]
+}

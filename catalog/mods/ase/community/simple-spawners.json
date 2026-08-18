@@ -1,0 +1,125 @@
+{
+  "modId": "simplespawners",
+  "name": "Simple Spawners",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1295978823",
+  "searchAliases": [
+    "spawners",
+    "aparición de criaturas",
+    "crear spawns"
+  ],
+  "settings": [
+    {
+      "id": "simple_spawners_restart_resets_timers",
+      "key": "RestartResetsTimers",
+      "category": "mod_simple_spawners",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "simplespawners",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.simple_spawners.restart_resets_timers"
+    },
+    {
+      "id": "simple_spawners_forceddelay",
+      "key": "forceddelay",
+      "category": "mod_simple_spawners",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "simplespawners",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "step": 1
+      },
+      "i18nKey": "mods.simple_spawners.forceddelay"
+    },
+    {
+      "id": "simple_spawners_clearoldeggs",
+      "key": "clearoldeggs",
+      "category": "mod_simple_spawners",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "simplespawners",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.simple_spawners.clearoldeggs"
+    },
+    {
+      "id": "simple_spawners_chest_level",
+      "key": "ChestLevel",
+      "category": "mod_simple_spawners",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "simplespawners",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1,
+        "min": 1,
+        "step": 1
+      },
+      "i18nKey": "mods.simple_spawners.chest_level"
+    },
+    {
+      "id": "simple_spawners_cache_level",
+      "key": "CacheLevel",
+      "category": "mod_simple_spawners",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "simplespawners",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1,
+        "min": 1,
+        "step": 1
+      },
+      "i18nKey": "mods.simple_spawners.cache_level"
+    }
+  ]
+}

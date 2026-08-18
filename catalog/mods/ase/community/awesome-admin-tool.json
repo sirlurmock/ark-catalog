@@ -1,0 +1,438 @@
+{
+  "modId": "AwesomeAdminTool",
+  "name": "Awesome Admin Tool",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2885772943",
+  "searchAliases": [
+    "herramienta de administración",
+    "administrar tribus"
+  ],
+  "settings": [
+    {
+      "id": "awesome_admin_tool_max_bases_per_tribe",
+      "key": "MaxBasesPerTribe",
+      "category": "mod_awesome_admin_tool",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeAdminTool",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "step": 1
+      },
+      "i18nKey": "mods.awesome_admin_tool.max_bases_per_tribe"
+    },
+    {
+      "id": "awesome_admin_tool_max_structures_per_tribe",
+      "key": "MaxStructuresPerTribe",
+      "category": "mod_awesome_admin_tool",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeAdminTool",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "step": 1
+      },
+      "i18nKey": "mods.awesome_admin_tool.max_structures_per_tribe"
+    },
+    {
+      "id": "awesome_admin_tool_b_send_alert_to_player_if_over_max",
+      "key": "bSendAlertToPlayerIfOverMax",
+      "category": "mod_awesome_admin_tool",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeAdminTool",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.awesome_admin_tool.b_send_alert_to_player_if_over_max"
+    },
+    {
+      "id": "awesome_admin_tool_b_prevent_building_if_over_max",
+      "key": "bPreventBuildingIfOverMax",
+      "category": "mod_awesome_admin_tool",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeAdminTool",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.awesome_admin_tool.b_prevent_building_if_over_max"
+    },
+    {
+      "id": "awesome_admin_tool_auto_recompile_every_xminutes",
+      "key": "AutoRecompileEveryXMinutes",
+      "category": "mod_awesome_admin_tool",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeAdminTool",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 60,
+        "min": 1,
+        "step": 1
+      },
+      "i18nKey": "mods.awesome_admin_tool.auto_recompile_every_xminutes"
+    },
+    {
+      "id": "awesome_admin_tool_tribe_compiling_multiplier",
+      "key": "TribeCompilingMultiplier",
+      "category": "mod_awesome_admin_tool",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeAdminTool",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 10,
+        "step": 0.1,
+        "presets": [
+          0.5,
+          1,
+          2
+        ]
+      },
+      "i18nKey": "mods.awesome_admin_tool.tribe_compiling_multiplier"
+    },
+    {
+      "id": "awesome_admin_tool_dino_compiling_multiplier",
+      "key": "DinoCompilingMultiplier",
+      "category": "mod_awesome_admin_tool",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeAdminTool",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 10,
+        "step": 0.1,
+        "presets": [
+          0.5,
+          1,
+          2
+        ]
+      },
+      "i18nKey": "mods.awesome_admin_tool.dino_compiling_multiplier"
+    },
+    {
+      "id": "awesome_admin_tool_push_strengh_multiplier",
+      "key": "PushStrenghMultiplier",
+      "category": "mod_awesome_admin_tool",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeAdminTool",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 10,
+        "step": 0.1,
+        "presets": [
+          0.5,
+          1,
+          2
+        ]
+      },
+      "i18nKey": "mods.awesome_admin_tool.push_strengh_multiplier"
+    },
+    {
+      "id": "awesome_admin_tool_launch_strengh_multiplier",
+      "key": "LaunchStrenghMultiplier",
+      "category": "mod_awesome_admin_tool",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeAdminTool",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 10,
+        "step": 0.1,
+        "presets": [
+          0.5,
+          1,
+          2
+        ]
+      },
+      "i18nKey": "mods.awesome_admin_tool.launch_strengh_multiplier"
+    },
+    {
+      "id": "awesome_admin_tool_tool_range_multiplier",
+      "key": "ToolRangeMultiplier",
+      "category": "mod_awesome_admin_tool",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeAdminTool",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 10,
+        "step": 0.1,
+        "presets": [
+          0.5,
+          1,
+          2
+        ]
+      },
+      "i18nKey": "mods.awesome_admin_tool.tool_range_multiplier"
+    },
+    {
+      "id": "awesome_admin_tool_add_alt_to_keybinds",
+      "key": "AddAltToKeybinds",
+      "category": "mod_awesome_admin_tool",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeAdminTool",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.awesome_admin_tool.add_alt_to_keybinds"
+    },
+    {
+      "id": "awesome_admin_tool_b_retrieve_all_dino_classes",
+      "key": "bRetrieveAllDinoClasses",
+      "category": "mod_awesome_admin_tool",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeAdminTool",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.awesome_admin_tool.b_retrieve_all_dino_classes"
+    },
+    {
+      "id": "awesome_admin_tool_b_show_descriptive_names_in_spawn_dino_mode",
+      "key": "bShowDescriptiveNamesInSpawnDinoMode",
+      "category": "mod_awesome_admin_tool",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeAdminTool",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.awesome_admin_tool.b_show_descriptive_names_in_spawn_dino_mode"
+    },
+    {
+      "id": "awesome_admin_tool_add_dino_classes",
+      "key": "AddDinoClasses",
+      "category": "mod_awesome_admin_tool",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeAdminTool",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "dinos"
+      },
+      "i18nKey": "mods.awesome_admin_tool.add_dino_classes"
+    },
+    {
+      "id": "awesome_admin_tool_additional_projectiles",
+      "key": "AdditionalProjectiles",
+      "category": "mod_awesome_admin_tool",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeAdminTool",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.awesome_admin_tool.additional_projectiles"
+    },
+    {
+      "id": "awesome_admin_tool_disabled_modes",
+      "key": "DisabledModes",
+      "category": "mod_awesome_admin_tool",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeAdminTool",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.awesome_admin_tool.disabled_modes"
+    },
+    {
+      "id": "awesome_admin_tool_whitelisted_steam_ids",
+      "key": "WhitelistedSteamIds",
+      "category": "mod_awesome_admin_tool",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeAdminTool",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.awesome_admin_tool.whitelisted_steam_ids"
+    },
+    {
+      "id": "awesome_admin_tool_b_disable_admin_requirement",
+      "key": "bDisableAdminRequirement",
+      "category": "mod_awesome_admin_tool",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeAdminTool",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.awesome_admin_tool.b_disable_admin_requirement"
+    }
+  ]
+}
