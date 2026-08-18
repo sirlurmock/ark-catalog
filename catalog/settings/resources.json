@@ -17,5 +17,33 @@
       ]
     },
     "i18nKey": "settings.resources.harvest_resource_class"
+  },
+  {
+    "id": "config_override_item_crafting_costs",
+    "key": "ConfigOverrideItemCraftingCosts",
+    "category": "resources",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "struct_collection",
+      "default": [],
+      "fields": [
+        { "name": "ItemClassString", "type": "string", "required": true, "suggestions": "items_classnames" },
+        {
+          "name": "BaseCraftingResourceRequirements",
+          "type": "struct_list",
+          "required": true,
+          "fields": [
+            { "name": "ResourceItemTypeString", "type": "string", "required": true, "suggestions": "items_classnames" },
+            { "name": "BaseResourceRequirement", "type": "float", "default": 1.0 },
+            { "name": "bCraftingRequireExactResourceType", "type": "boolean", "default": false }
+          ]
+        }
+      ]
+    },
+    "i18nKey": "settings.resources.config_override_item_crafting_costs"
   }
 ]

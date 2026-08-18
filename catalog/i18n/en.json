@@ -310,7 +310,9 @@
       "global_corpse_decomposition_time": "Corpse decomposition time",
       "global_corpse_decomposition_time.description": "How long dino or player corpses take to disappear. Higher value = last longer. Default 1.0 (vanilla).",
       "item_stack_size": "Item stack size multiplier",
-      "item_stack_size.description": "How many items fit per inventory slot. x10 = stacks of 100 wood, etc. Default 1.0 (vanilla)."
+      "item_stack_size.description": "How many items fit per inventory slot. x10 = stacks of 100 wood, etc. Default 1.0 (vanilla).",
+      "config_override_item_max_quantity": "Per-item stack size",
+      "config_override_item_max_quantity.description": "Sets the stack size of a specific item, overriding the global multiplier. With bIgnoreMultiplier True the quantity is used as-is; with False it gets multiplied by the global stack size multiplier."
     },
     "structures": {
       "structure_damage": "Structure damage multiplier",
@@ -398,7 +400,9 @@
     },
     "resources": {
       "harvest_resource_class": "Per-resource harvest multipliers",
-      "harvest_resource_class.description": "Changes how many resources a specific node yields (e.g., x10 metal but x1 wood). Allows fine adjustments impossible with the global multiplier."
+      "harvest_resource_class.description": "Changes how many resources a specific node yields (e.g., x10 metal but x1 wood). Allows fine adjustments impossible with the global multiplier.",
+      "config_override_item_crafting_costs": "Per-item crafting recipe",
+      "config_override_item_crafting_costs.description": "Replaces the crafting materials of a specific item: pick the item and load the resource list with amounts. The new recipe REPLACES the vanilla one entirely — if the hatchet cost stone and wood and you only add thatch, it now costs only thatch. Each bCraftingRequireExactResourceType set to True demands that exact resource (no interchangeable variants)."
     },
     "dinos": {
       "dino_class_damage": "Per-species damage (wild)",
@@ -548,7 +552,8 @@
     }
   },
   "controls": {
-    "engram_picker_stub": "Engram selector is not available yet. The engrams catalog will be specified in a later prompt."
+    "engram_picker_stub": "Engram selector is not available yet. The engrams catalog will be specified in a later prompt.",
+    "struct.no_entries": "No entries."
   },
   "summary": {
     "title": "Server summary",
@@ -3261,7 +3266,8 @@
     "copied": "Copied!",
     "empty": "Nothing to write yet: you have not changed any setting or imported an .ini.",
     "full_file_no_import": "This profile never imported an .ini, so there is nothing extra to preserve: the result is identical to \"my changes only\". A real GameUserSettings.ini has hundreds of keys the game writes itself. If you are going to replace the server file, import yours first.",
-    "import_mods_found": "{count} mods found in ActiveMods ({catalogued} with settings in the catalogue)"
+    "import_mods_found": "{count} mods found in ActiveMods ({catalogued} with settings in the catalogue)",
+    "imported_from": "{file}: imported from {name} {when} · {recognized} settings recognized"
   },
   "updater": {
     "title": "A new version is available: {version}",

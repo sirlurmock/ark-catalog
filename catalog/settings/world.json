@@ -253,6 +253,33 @@
     "i18nKey": "settings.world.item_stack_size"
   },
   {
+    "id": "config_override_item_max_quantity",
+    "key": "ConfigOverrideItemMaxQuantity",
+    "category": "world",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "struct_collection",
+      "default": [],
+      "fields": [
+        { "name": "ItemClassString", "type": "string", "required": true, "suggestions": "items_classnames" },
+        {
+          "name": "Quantity",
+          "type": "struct",
+          "required": true,
+          "fields": [
+            { "name": "MaxItemQuantity", "type": "integer", "default": 100 },
+            { "name": "bIgnoreMultiplier", "type": "boolean", "default": true }
+          ]
+        }
+      ]
+    },
+    "i18nKey": "settings.world.config_override_item_max_quantity"
+  },
+  {
     "id": "day_cycle_speed_scale",
     "key": "DayCycleSpeedScale",
     "category": "world",
