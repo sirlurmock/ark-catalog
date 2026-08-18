@@ -444,7 +444,13 @@
       "dino_spawn_weight": "Dino spawn weights",
       "dino_spawn_weight.description": "Raises or lowers the chance of each species spawning. Setting SpawnWeightMultiplier to 0 removes the species from the map entirely.",
       "npc_replacements": "NPC replacements",
-      "npc_replacements.description": "Replaces a dino with another on the map (e.g., Rex with Indominus). If ToClassName is empty, that dino stops spawning."
+      "npc_replacements.description": "Replaces a dino with another on the map (e.g., Rex with Indominus). If ToClassName is empty, that dino stops spawning.",
+      "config_add_npc_spawn_entries": "Add creatures to a spawn area",
+      "config_add_npc_spawn_entries.description": "Adds creatures to a map spawn container (beach, mountain, etc.) without touching what already spawns there. The container goes by its class name (see the wiki Spawn entries page, e.g. DinoSpawnEntriesBeach_C); each entry carries a name, a weight and the creature list — repeating a creature in the list makes them spawn as a pack. NPCSpawnLimits caps the maximum percentage per creature.",
+      "config_subtract_npc_spawn_entries": "Remove creatures from a spawn area",
+      "config_subtract_npc_spawn_entries.description": "Completely removes creatures from a map spawn container. All creatures to remove from the same container go in ONE entry: referencing the same container in two entries makes only one take effect (rule documented on the wiki).",
+      "config_override_npc_spawn_entries": "Replace the spawns of an area",
+      "config_override_npc_spawn_entries.description": "Replaces EVERYTHING that spawns in a container with the creatures you define — the area becomes dedicated to those spawns (it does not stop wanderers from neighboring areas). Same shape as adding: container, weighted entries with creature lists, and percentage limits."
     },
     "resources": {
       "harvest_resource_class": "Per-resource harvest multipliers",

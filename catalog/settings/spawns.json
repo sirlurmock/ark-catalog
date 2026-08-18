@@ -38,5 +38,107 @@
       ]
     },
     "i18nKey": "settings.spawns.npc_replacements"
+  },
+  {
+    "id": "config_add_npc_spawn_entries",
+    "key": "ConfigAddNPCSpawnEntriesContainer",
+    "category": "spawns",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "struct_collection",
+      "default": [],
+      "fields": [
+        { "name": "NPCSpawnEntriesContainerClassString", "type": "string", "required": true },
+        {
+          "name": "NPCSpawnEntries",
+          "type": "struct_list",
+          "fields": [
+            { "name": "AnEntryName", "type": "string" },
+            { "name": "EntryWeight", "type": "float", "default": 1.0 },
+            { "name": "NPCsToSpawnStrings", "type": "string_list", "suggestions": "dinos" }
+          ]
+        },
+        {
+          "name": "NPCSpawnLimits",
+          "type": "struct_list",
+          "fields": [
+            { "name": "NPCClassString", "type": "string", "required": true, "suggestions": "dinos" },
+            { "name": "MaxPercentageOfDesiredNumToAllow", "type": "float" }
+          ]
+        }
+      ]
+    },
+    "i18nKey": "settings.spawns.config_add_npc_spawn_entries"
+  },
+  {
+    "id": "config_subtract_npc_spawn_entries",
+    "key": "ConfigSubtractNPCSpawnEntriesContainer",
+    "category": "spawns",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "struct_collection",
+      "default": [],
+      "fields": [
+        { "name": "NPCSpawnEntriesContainerClassString", "type": "string", "required": true },
+        {
+          "name": "NPCSpawnEntries",
+          "type": "struct_list",
+          "fields": [
+            { "name": "NPCsToSpawnStrings", "type": "string_list", "suggestions": "dinos" }
+          ]
+        },
+        {
+          "name": "NPCSpawnLimits",
+          "type": "struct_list",
+          "fields": [
+            { "name": "NPCClassString", "type": "string", "required": true, "suggestions": "dinos" }
+          ]
+        }
+      ]
+    },
+    "i18nKey": "settings.spawns.config_subtract_npc_spawn_entries"
+  },
+  {
+    "id": "config_override_npc_spawn_entries",
+    "key": "ConfigOverrideNPCSpawnEntriesContainer",
+    "category": "spawns",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "struct_collection",
+      "default": [],
+      "fields": [
+        { "name": "NPCSpawnEntriesContainerClassString", "type": "string", "required": true },
+        {
+          "name": "NPCSpawnEntries",
+          "type": "struct_list",
+          "fields": [
+            { "name": "AnEntryName", "type": "string" },
+            { "name": "EntryWeight", "type": "float", "default": 1.0 },
+            { "name": "NPCsToSpawnStrings", "type": "string_list", "suggestions": "dinos" }
+          ]
+        },
+        {
+          "name": "NPCSpawnLimits",
+          "type": "struct_list",
+          "fields": [
+            { "name": "NPCClassString", "type": "string", "required": true, "suggestions": "dinos" },
+            { "name": "MaxPercentageOfDesiredNumToAllow", "type": "float" }
+          ]
+        }
+      ]
+    },
+    "i18nKey": "settings.spawns.config_override_npc_spawn_entries"
   }
 ]

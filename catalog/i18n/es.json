@@ -444,7 +444,13 @@
       "dino_spawn_weight": "Pesos de spawn de dinos",
       "dino_spawn_weight.description": "Sube o baja la probabilidad de que aparezca cada especie. Poner SpawnWeightMultiplier en 0 elimina por completo a esa especie del mapa.",
       "npc_replacements": "Reemplazos de NPCs",
-      "npc_replacements.description": "Reemplaza un dino por otro en el mapa (ej: cambiar Rex por Indominus). Si ToClassName queda vacío, ese dino deja de spawnear."
+      "npc_replacements.description": "Reemplaza un dino por otro en el mapa (ej: cambiar Rex por Indominus). Si ToClassName queda vacío, ese dino deja de spawnear.",
+      "config_add_npc_spawn_entries": "Agregar criaturas a una zona de spawn",
+      "config_add_npc_spawn_entries.description": "Suma criaturas a un contenedor de spawn del mapa (playa, montaña, etc.) sin tocar lo que ya aparece ahí. El contenedor va por su class name (ver la página Spawn entries de la wiki, ej: DinoSpawnEntriesBeach_C); cada entrada lleva nombre, peso y la lista de criaturas — repetir una criatura en la lista hace que aparezcan en grupo. NPCSpawnLimits limita el porcentaje máximo por criatura.",
+      "config_subtract_npc_spawn_entries.description": "Elimina por completo criaturas de un contenedor de spawn del mapa. Todas las criaturas a quitar del mismo contenedor van en UNA sola entrada: referenciar el mismo contenedor en dos entradas hace que solo una tenga efecto (regla documentada en la wiki).",
+      "config_subtract_npc_spawn_entries": "Quitar criaturas de una zona de spawn",
+      "config_override_npc_spawn_entries": "Reemplazar los spawns de una zona",
+      "config_override_npc_spawn_entries.description": "Reemplaza TODO lo que aparece en un contenedor de spawn por las criaturas que definas — la zona queda dedicada a esos spawns (no impide que entren criaturas errantes de zonas vecinas). Mismo formato que agregar: contenedor, entradas con peso y lista de criaturas, y límites por porcentaje."
     },
     "resources": {
       "harvest_resource_class": "Multiplicadores de cosecha por recurso",
