@@ -4452,5 +4452,3645 @@
     "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Horn.PrimalItemResource_Horn",
     "label": "Woolly Rhino Horn",
     "category": "resources"
+  },
+  {
+    "value": "ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeCeiling.PrimalItemStructure_AdobeCeiling",
+    "label": "Adobe Ceiling",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeGateDoor.PrimalItemStructure_AdobeGateDoor",
+    "label": "Adobe Dinosaur Gate",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeFrameGate.PrimalItemStructure_AdobeFrameGate",
+    "label": "Adobe Dinosaur Gateway",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeDoor.PrimalItemStructure_AdobeDoor",
+    "label": "Adobe Door",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeWallWithDoor.PrimalItemStructure_AdobeWallWithDoor",
+    "label": "Adobe Doorframe",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Doors/Doors_Double/Adobe/PrimalItemStructure_DoubleDoor_Adobe.PrimalItemStructure_DoubleDoor_Adobe",
+    "label": "Adobe Double Door",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Doorframes_Double/Adobe/PrimalItemStructure_DoubleDoorframe_Adobe.PrimalItemStructure_DoubleDoorframe_Adobe",
+    "label": "Adobe Double Doorframe",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeFenceFoundation.PrimalItemStructure_AdobeFenceFoundation",
+    "label": "Adobe Fence Foundation",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/FenceSupports/Adobe/PrimalItemStructure_FenceSupport_Adobe.PrimalItemStructure_FenceSupport_Adobe",
+    "label": "Adobe Fence Support",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeFloor.PrimalItemStructure_AdobeFloor",
+    "label": "Adobe Foundation",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeCeilingWithTrapdoor.PrimalItemStructure_AdobeCeilingWithTrapdoor",
+    "label": "Adobe Hatchframe",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeLader.PrimalItemStructure_AdobeLader",
+    "label": "Adobe Ladder",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobePillar.PrimalItemStructure_AdobePillar",
+    "label": "Adobe Pillar",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeRailing.PrimalItemStructure_AdobeRailing",
+    "label": "Adobe Railing",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeRamp.PrimalItemStructure_AdobeRamp",
+    "label": "Adobe Ramp",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeStaircase.PrimalItemStructure_AdobeStaircase",
+    "label": "Adobe Staircase",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Ramps/Adobe/PrimalItemStructure_Ramp_Adobe.PrimalItemStructure_Ramp_Adobe",
+    "label": "Adobe Stairs",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeTrapdoor.PrimalItemStructure_AdobeTrapdoor",
+    "label": "Adobe Trapdoor",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Ceilings/Triangle/Adobe/PrimalItemStructure_TriCeiling_Adobe.PrimalItemStructure_TriCeiling_Adobe",
+    "label": "Adobe Triangle Ceiling",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Adobe/PrimalItemStructure_TriFoundation_Adobe.PrimalItemStructure_TriFoundation_Adobe",
+    "label": "Adobe Triangle Foundation",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Roofs_Tri/Adobe/PrimalItemStructure_TriRoof_Adobe.PrimalItemStructure_TriRoof_Adobe",
+    "label": "Adobe Triangle Roof",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeWall.PrimalItemStructure_AdobeWall",
+    "label": "Adobe Wall",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeWindow.PrimalItemStructure_AdobeWindow",
+    "label": "Adobe Window",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeWallWithWindow.PrimalItemStructure_AdobeWallWithWindow",
+    "label": "Adobe Windowframe",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_AirConditioner.PrimalItemStructure_AirConditioner",
+    "label": "Air Conditioner",
+    "category": "structures"
+  },
+  {
+    "value": "Genesis2/Structures/AmmoBox/PrimalItemStructure_AmmoContainer.PrimalItemStructure_AmmoContainer",
+    "label": "Ammo Box",
+    "category": "structures",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TrophyBase.PrimalItemStructure_TrophyBase",
+    "label": "Artifact Pedestal",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Turret.PrimalItemStructure_Turret",
+    "label": "Auto Turret",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TurretBallista.PrimalItemStructure_TurretBallista",
+    "label": "Ballista Turret",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/Structures/BeeHive/PrimalItemStructure_BeeHive.PrimalItemStructure_BeeHive",
+    "label": "Bee Hive",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_BeerBarrel.PrimalItemStructure_BeerBarrel",
+    "label": "Beer Barrel",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeGateDoor_Large.PrimalItemStructure_AdobeGateDoor_Large",
+    "label": "Behemoth Adobe Dinosaur Gate",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeGateframe_Large.PrimalItemStructure_AdobeGateframe_Large",
+    "label": "Behemoth Adobe Dinosaur Gateway",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalGate_Large.PrimalItemStructure_MetalGate_Large",
+    "label": "Behemoth Gate",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalGateframe_Large.PrimalItemStructure_MetalGateframe_Large",
+    "label": "Behemoth Gateway",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneGateLarge.PrimalItemStructure_StoneGateLarge",
+    "label": "Behemoth Reinforced Dinosaur Gate",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneGateframe_Large.PrimalItemStructure_StoneGateframe_Large",
+    "label": "Behemoth Stone Dinosaur Gateway",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekGate_Large.PrimalItemStructure_TekGate_Large",
+    "label": "Behemoth Tek Gate",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekGateframe_Large.PrimalItemStructure_TekGateframe_Large",
+    "label": "Behemoth Tek Gateway",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Bookshelf.PrimalItemStructure_Bookshelf",
+    "label": "Bookshelf",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Bed_Modern.PrimalItemStructure_Bed_Modern",
+    "label": "Bunk Bed",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Campfire.PrimalItemStructure_Campfire",
+    "label": "Campfire",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Cannon.PrimalItemStructure_Cannon",
+    "label": "Cannon",
+    "category": "structures"
+  },
+  {
+    "value": "Genesis2/Dinos/Canoe/PrimalItemCanoe.PrimalItemCanoe",
+    "label": "Canoe",
+    "category": "structures",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TurretCatapult.PrimalItemStructure_TurretCatapult",
+    "label": "Catapult Turret",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_ChemBench.PrimalItemStructure_ChemBench",
+    "label": "Chemistry Bench",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/BuildingBases/PrimalItemStructure_TekCloningChamber.PrimalItemStructure_TekCloningChamber",
+    "label": "Cloning Chamber",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_CompostBin.PrimalItemStructure_CompostBin",
+    "label": "Compost Bin",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_CookingPot.PrimalItemStructure_CookingPot",
+    "label": "Cooking Pot",
+    "category": "structures"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/PrimalItemStructure_CryoFridge.PrimalItemStructure_CryoFridge",
+    "label": "Cryofridge",
+    "category": "structures"
+  },
+  {
+    "value": "Mods/CrystalIsles/Assets/Dinos/CIBoss/Trophy/PrimalItemStructure_Flag_CIBoss.PrimalItemStructure_Flag_CIBoss",
+    "label": "Crystal Wyvern Queen Flag",
+    "category": "structures",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Extinction/Structures/ItemBalloon/PrimalItemStructure_StorageBox_Balloon.PrimalItemStructure_StorageBox_Balloon",
+    "label": "Delivery Crate",
+    "category": "structures"
+  },
+  {
+    "value": "Extinction/Structures/DinoLeash/PrimalItemStructure_DinoLeash.PrimalItemStructure_DinoLeash",
+    "label": "Dino Leash",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodGate.PrimalItemStructure_WoodGate",
+    "label": "Dinosaur Gate",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodGateframe.PrimalItemStructure_WoodGateframe",
+    "label": "Dinosaur Gateway",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Flag_Dragon.PrimalItemStructure_Flag_Dragon",
+    "label": "Dragon Flag",
+    "category": "structures"
+  },
+  {
+    "value": "Genesis2/Structures/EggIncubator/PrimalItemStructure_EggIncubator.PrimalItemStructure_EggIncubator",
+    "label": "Egg Incubator",
+    "category": "structures",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_PowerCableIntersection.PrimalItemStructure_PowerCableIntersection",
+    "label": "Electrical Cable Intersection",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_PowerGenerator.PrimalItemStructure_PowerGenerator",
+    "label": "Electrical Generator",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_PowerOutlet.PrimalItemStructure_PowerOutlet",
+    "label": "Electrical Outlet",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/BuildingBases/PrimalItemStructure_ElevatorTrackBase.PrimalItemStructure_ElevatorTrackBase",
+    "label": "Elevator Track",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Fabricator.PrimalItemStructure_Fabricator",
+    "label": "Fabricator",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_FeedingTrough.PrimalItemStructure_FeedingTrough",
+    "label": "Feeding Trough",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_FishBasket.PrimalItemStructure_FishBasket",
+    "label": "Fish Basket",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Wires/Flex/PrimalItemStructure_Wire_Flex.PrimalItemStructure_Wire_Flex",
+    "label": "Flexible Electrical Cable",
+    "category": "structures"
+  },
+  {
+    "value": "Aberration/Structures/GasCollector/PrimalItemStructure_GasCollector.PrimalItemStructure_GasCollector",
+    "label": "Gas Collector",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeCeilingWithDoorWay_Giant.PrimalItemStructure_AdobeCeilingWithDoorWay_Giant",
+    "label": "Giant Adobe Hatchframe",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeCeilingDoorGiant.PrimalItemStructure_AdobeCeilingDoorGiant",
+    "label": "Giant Adobe Trapdoor",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalCeilingWithTrapdoorGiant.PrimalItemStructure_MetalCeilingWithTrapdoorGiant",
+    "label": "Giant Metal Hatchframe",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalTrapdoorGiant.PrimalItemStructure_MetalTrapdoorGiant",
+    "label": "Giant Metal Trapdoor",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneCeilingDoorGiant.PrimalItemStructure_StoneCeilingDoorGiant",
+    "label": "Giant Reinforced Trapdoor",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneCeilingWithTrapdoorGiant.PrimalItemStructure_StoneCeilingWithTrapdoorGiant",
+    "label": "Giant Stone Hatchframe",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Flag_Gorilla.PrimalItemStructure_Flag_Gorilla",
+    "label": "Gorilla Flag",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_Furniture_Gravestone.PrimalItemStructure_Furniture_Gravestone",
+    "label": "Gravestone",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseCeiling.PrimalItemStructure_GreenhouseCeiling",
+    "label": "Greenhouse Ceiling",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseDoor.PrimalItemStructure_GreenhouseDoor",
+    "label": "Greenhouse Door",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseWallWithDoor.PrimalItemStructure_GreenhouseWallWithDoor",
+    "label": "Greenhouse Doorframe",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Doors/Doors_Double/Greenhouse/PrimalItemStructure_DoubleDoor_Greenhouse.PrimalItemStructure_DoubleDoor_Greenhouse",
+    "label": "Greenhouse Double Door",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Doorframes_Double/Greenhouse/PrimalItemStructure_DoubleDoorframe_Greenhouse.PrimalItemStructure_DoubleDoorframe_Greenhouse",
+    "label": "Greenhouse Double Doorframe",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Ceilings/Triangle/Greenhouse/PrimalItemStructure_TriCeiling_Greenhouse.PrimalItemStructure_TriCeiling_Greenhouse",
+    "label": "Greenhouse Triangle Ceiling",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Roofs_Tri/Greenhouse/PrimalItemStructure_TriRoof_Greenhouse.PrimalItemStructure_TriRoof_Greenhouse",
+    "label": "Greenhouse Triangle Roof",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseWall.PrimalItemStructure_GreenhouseWall",
+    "label": "Greenhouse Wall",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseWindow.PrimalItemStructure_GreenhouseWindow",
+    "label": "Greenhouse Window",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_HeavyTurret.PrimalItemStructure_HeavyTurret",
+    "label": "Heavy Auto Turret",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_SleepingBag_Hide.PrimalItemStructure_SleepingBag_Hide",
+    "label": "Hide Sleeping Bag",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_SeaMine.PrimalItemStructure_SeaMine",
+    "label": "Homing Underwater Mine",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_PowerCableIncline.PrimalItemStructure_PowerCableIncline",
+    "label": "Inclined Electrical Cable",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_IndustrialCookingPot.PrimalItemStructure_IndustrialCookingPot",
+    "label": "Industrial Cooker",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_IndustrialForge.PrimalItemStructure_IndustrialForge",
+    "label": "Industrial Forge",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Grill.PrimalItemStructure_Grill",
+    "label": "Industrial Grill",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Grinder.PrimalItemStructure_Grinder",
+    "label": "Industrial Grinder",
+    "category": "structures"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Trophies/PrimalItemStructure_Flag_KingKaiju.PrimalItemStructure_Flag_KingKaiju",
+    "label": "King Titan Flag",
+    "category": "structures"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Trophies/PrimalItemStructure_Flag_KingKaijuMecha.PrimalItemStructure_Flag_KingKaijuMecha",
+    "label": "King Titan Flag (Mecha)",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Lamppost.PrimalItemStructure_Lamppost",
+    "label": "Lamppost",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Walls_L/Adobe/PrimalItemStructure_LargeWall_Adobe.PrimalItemStructure_LargeWall_Adobe",
+    "label": "Large Adobe Wall",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_CropPlot_Large.PrimalItemStructure_CropPlot_Large",
+    "label": "Large Crop Plot",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/BuildingBases/PrimalItemStructure_ElevatorPlatformLarge.PrimalItemStructure_ElevatorPlatformLarge",
+    "label": "Large Elevator Platform",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Walls_L/Metal/PrimalItemStructure_LargeWall_Metal.PrimalItemStructure_LargeWall_Metal",
+    "label": "Large Metal Wall",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Walls_L/Stone/PrimalItemStructure_LargeWall_Stone.PrimalItemStructure_LargeWall_Stone",
+    "label": "Large Stone Wall",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_StorageBox_Large.PrimalItemStructure_StorageBox_Large",
+    "label": "Large Storage Box",
+    "category": "structures"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/PrimalItemStructure_TaxidermyBase_Large.PrimalItemStructure_TaxidermyBase_Large",
+    "label": "Large Taxidermy Base",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Walls_L/Tek/PrimalItemStructure_LargeWall_Tek.PrimalItemStructure_LargeWall_Tek",
+    "label": "Large Tek Wall",
+    "category": "structures"
+  },
+  {
+    "value": "Aberration/Structures/PrimitiveElevator/PrimalItemStructure_WoodElevatorPlatform_Large.PrimalItemStructure_WoodElevatorPlatform_Large",
+    "label": "Large Wood Elevator Platform",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Walls_L/Wood/PrimalItemStructure_LargeWall_Wood.PrimalItemStructure_LargeWall_Wood",
+    "label": "Large Wooden Wall",
+    "category": "structures"
+  },
+  {
+    "value": "Genesis2/Structures/LoadoutMannequin/PrimalItemStructure_LoadoutDummy.PrimalItemStructure_LoadoutDummy",
+    "label": "Loadout Mannequin",
+    "category": "structures",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "ScorchedEarth/Structures/ManticoreFlag/PrimalItemStructure_Flag_Manticore.PrimalItemStructure_Flag_Manticore",
+    "label": "Manticore Flag",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_CropPlot_Medium.PrimalItemStructure_CropPlot_Medium",
+    "label": "Medium Crop Plot",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/BuildingBases/PrimalItemStructure_ElevatorPlatfromMedium.PrimalItemStructure_ElevatorPlatfromMedium",
+    "label": "Medium Elevator Platform",
+    "category": "structures"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/PrimalItemStructure_TaxidermyBase_Medium.PrimalItemStructure_TaxidermyBase_Medium",
+    "label": "Medium Taxidermy Base",
+    "category": "structures"
+  },
+  {
+    "value": "Aberration/Structures/PrimitiveElevator/PrimalItemStructure_WoodElevatorPlatform_Medium.PrimalItemStructure_WoodElevatorPlatform_Medium",
+    "label": "Medium Wood Elevator Platform",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalSign_Large.PrimalItemStructure_MetalSign_Large",
+    "label": "Metal Billboard",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalCatwalk.PrimalItemStructure_MetalCatwalk",
+    "label": "Metal Catwalk",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalCeiling.PrimalItemStructure_MetalCeiling",
+    "label": "Metal Ceiling",
+    "category": "structures"
+  },
+  {
+    "value": "Aberration/Structures/CliffPlatforms/Metal_CliffPlatform/PrimalItemStructure_Metal_CliffPlatform.PrimalItemStructure_Metal_CliffPlatform",
+    "label": "Metal Cliff Platform",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalGate.PrimalItemStructure_MetalGate",
+    "label": "Metal Dinosaur Gate",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalGateframe.PrimalItemStructure_MetalGateframe",
+    "label": "Metal Dinosaur Gateway",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalDoor.PrimalItemStructure_MetalDoor",
+    "label": "Metal Door",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalWallWithDoor.PrimalItemStructure_MetalWallWithDoor",
+    "label": "Metal Doorframe",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Doors/Doors_Double/Metal/PrimalItemStructure_DoubleDoor_Metal.PrimalItemStructure_DoubleDoor_Metal",
+    "label": "Metal Double Door",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Doorframes_Double/Metal/PrimalItemStructure_DoubleDoorframe_Metal.PrimalItemStructure_DoubleDoorframe_Metal",
+    "label": "Metal Double Doorframe",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalFenceFoundation.PrimalItemStructure_MetalFenceFoundation",
+    "label": "Metal Fence Foundation",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/FenceSupports/Metal/PrimalItemStructure_FenceSupport_Metal.PrimalItemStructure_FenceSupport_Metal",
+    "label": "Metal Fence Support",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalFloor.PrimalItemStructure_MetalFloor",
+    "label": "Metal Foundation",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalCeilingWithTrapdoor.PrimalItemStructure_MetalCeilingWithTrapdoor",
+    "label": "Metal Hatchframe",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Pipes/Flex/Metal/PrimalItemStructure_PipeFlex_Metal.PrimalItemStructure_PipeFlex_Metal",
+    "label": "Metal Irrigation Pipe - Flexible",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_MetalPipeIncline.PrimalItemStructure_MetalPipeIncline",
+    "label": "Metal Irrigation Pipe - Inclined",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_MetalPipeIntake.PrimalItemStructure_MetalPipeIntake",
+    "label": "Metal Irrigation Pipe - Intake",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_MetalPipeIntersection.PrimalItemStructure_MetalPipeIntersection",
+    "label": "Metal Irrigation Pipe - Intersection",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_MetalPipeStraight.PrimalItemStructure_MetalPipeStraight",
+    "label": "Metal Irrigation Pipe - Straight",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_MetalPipeTap.PrimalItemStructure_MetalPipeTap",
+    "label": "Metal Irrigation Pipe - Tap",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_MetalPipeVertical.PrimalItemStructure_MetalPipeVertical",
+    "label": "Metal Irrigation Pipe - Vertical",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalLadder.PrimalItemStructure_MetalLadder",
+    "label": "Metal Ladder",
+    "category": "structures"
+  },
+  {
+    "value": "Genesis/Structures/OceanPlatform/OceanPlatform_Wood/PrimalItemStructure_Metal_OceanPlatform.PrimalItemStructure_Metal_OceanPlatform",
+    "label": "Metal Ocean Platform",
+    "category": "structures",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalPillar.PrimalItemStructure_MetalPillar",
+    "label": "Metal Pillar",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalRailing.PrimalItemStructure_MetalRailing",
+    "label": "Metal Railing",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalRamp.PrimalItemStructure_MetalRamp",
+    "label": "Metal Ramp",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalSign.PrimalItemStructure_MetalSign",
+    "label": "Metal Sign",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalSpikeWall.PrimalItemStructure_MetalSpikeWall",
+    "label": "Metal Spike Wall",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalStairs.PrimalItemStructure_MetalStairs",
+    "label": "Metal Staircase",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Ramps/Metal/PrimalItemStructure_Ramp_Metal.PrimalItemStructure_Ramp_Metal",
+    "label": "Metal Stairs",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalTrapdoor.PrimalItemStructure_MetalTrapdoor",
+    "label": "Metal Trapdoor",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_TreePlatform_Metal.PrimalItemStructure_TreePlatform_Metal",
+    "label": "Metal Tree Platform",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Ceilings/Triangle/Metal/PrimalItemStructure_TriCeiling_Metal.PrimalItemStructure_TriCeiling_Metal",
+    "label": "Metal Triangle Ceiling",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/PrimalItemStructure_TriFoundation_Metal.PrimalItemStructure_TriFoundation_Metal",
+    "label": "Metal Triangle Foundation",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Roofs_Tri/Metal/PrimalItemStructure_TriRoof_Metal.PrimalItemStructure_TriRoof_Metal",
+    "label": "Metal Triangle Roof",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalWall.PrimalItemStructure_MetalWall",
+    "label": "Metal Wall",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalSign_Wall.PrimalItemStructure_MetalSign_Wall",
+    "label": "Metal Wall Sign",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_WaterTankMetal.PrimalItemStructure_WaterTankMetal",
+    "label": "Metal Water Reservoir",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalWindow.PrimalItemStructure_MetalWindow",
+    "label": "Metal Window",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalWallWithWindow.PrimalItemStructure_MetalWallWithWindow",
+    "label": "Metal Windowframe",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TurretMinigun.PrimalItemStructure_TurretMinigun",
+    "label": "Minigun Turret",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/DesertFurnitureSet/Mirror/PrimalItemStructure_Mirror.PrimalItemStructure_Mirror",
+    "label": "Mirror",
+    "category": "structures"
+  },
+  {
+    "value": "Genesis/CoreBlueprints/Structures/PrimalItemStructure_Flag_EelBoss.PrimalItemStructure_Flag_EelBoss",
+    "label": "Moeder Flag",
+    "category": "structures",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_MortarAndPestle.PrimalItemStructure_MortarAndPestle",
+    "label": "Mortar And Pestle",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/Items/Raft/PrimalItemMotorboat.PrimalItemMotorboat",
+    "label": "Motorboat",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Flag.PrimalItemStructure_Flag",
+    "label": "Multi-Panel Flag",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/OilPump/PrimalItemStructure_oilPump.PrimalItemStructure_oilPump",
+    "label": "Oil Pump",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_LamppostOmni.PrimalItemStructure_LamppostOmni",
+    "label": "Omnidirectional Lamppost",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_PaintingCanvas.PrimalItemStructure_PaintingCanvas",
+    "label": "Painting Canvas",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/WeaponPlantSpeciesY/PrimalItemStructure_PlantSpeciesYTrap.PrimalItemStructure_PlantSpeciesYTrap",
+    "label": "Plant Species Y Trap",
+    "category": "structures"
+  },
+  {
+    "value": "Aberration/Structures/PortableRopeLadder/PrimalItemStructure_PortableLadder.PrimalItemStructure_PortableLadder",
+    "label": "Portable Rope Ladder",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_PreservingBin.PrimalItemStructure_PreservingBin",
+    "label": "Preserving Bin",
+    "category": "structures"
+  },
+  {
+    "value": "Genesis/Structures/TekAlarm/PrimalItemStructure_PressurePlate.PrimalItemStructure_PressurePlate",
+    "label": "Pressure Plate",
+    "category": "structures",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Forge.PrimalItemStructure_Forge",
+    "label": "Refining Forge",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_IceBox.PrimalItemStructure_IceBox",
+    "label": "Refrigerator",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneGate.PrimalItemStructure_StoneGate",
+    "label": "Reinforced Dinosaur Gate",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Doors/Doors_Double/Stone/PrimalItemStructure_DoubleDoor_Stone.PrimalItemStructure_DoubleDoor_Stone",
+    "label": "Reinforced Double Door",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_StoneTrapdoor.PrimalItemStructure_StoneTrapdoor",
+    "label": "Reinforced Trapdoor",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_StoneWindow.PrimalItemStructure_StoneWindow",
+    "label": "Reinforced Window",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneDoor.PrimalItemStructure_StoneDoor",
+    "label": "Reinforced Wooden Door",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Keypad.PrimalItemStructure_Keypad",
+    "label": "Remote Keypad",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TurretRocket.PrimalItemStructure_TurretRocket",
+    "label": "Rocket Turret",
+    "category": "structures"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Items/Trophies/PrimalItemStructure_Flag_Rockwell.PrimalItemStructure_Flag_Rockwell",
+    "label": "Rockwell Flag",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_RopeLadder.PrimalItemStructure_RopeLadder",
+    "label": "Rope Ladder",
+    "category": "structures"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Items/Structures/PrimalItemStructure_Furniture_Rug.PrimalItemStructure_Furniture_Rug",
+    "label": "Shag Rug",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Bed_Simple.PrimalItemStructure_Bed_Simple",
+    "label": "Simple Bed",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Flag_Single.PrimalItemStructure_Flag_Single",
+    "label": "Single Panel Flag",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeRoof.PrimalItemStructure_AdobeRoof",
+    "label": "Sloped Adobe Roof",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeWall_Sloped_Left.PrimalItemStructure_AdobeWall_Sloped_Left",
+    "label": "Sloped Adobe Wall Left",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeWall_Sloped_Right.PrimalItemStructure_AdobeWall_Sloped_Right",
+    "label": "Sloped Adobe Wall Right",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseRoof.PrimalItemStructure_GreenhouseRoof",
+    "label": "Sloped Greenhouse Roof",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseWall_Sloped_Left.PrimalItemStructure_GreenhouseWall_Sloped_Left",
+    "label": "Sloped Greenhouse Wall Left",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseWall_Sloped_Right.PrimalItemStructure_GreenhouseWall_Sloped_Right",
+    "label": "Sloped Greenhouse Wall Right",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Metal/PrimalItemStructure_MetalRoof.PrimalItemStructure_MetalRoof",
+    "label": "Sloped Metal Roof",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Metal/PrimalItemStructure_MetalWall_Sloped_Left.PrimalItemStructure_MetalWall_Sloped_Left",
+    "label": "Sloped Metal Wall Left",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Metal/PrimalItemStructure_MetalWall_Sloped_Right.PrimalItemStructure_MetalWall_Sloped_Right",
+    "label": "Sloped Metal Wall Right",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Stone/PrimalItemStructure_StoneRoof.PrimalItemStructure_StoneRoof",
+    "label": "Sloped Stone Roof",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Stone/PrimalItemStructure_StoneWall_Sloped_Left.PrimalItemStructure_StoneWall_Sloped_Left",
+    "label": "Sloped Stone Wall Left",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Stone/PrimalItemStructure_StoneWall_Sloped_Right.PrimalItemStructure_StoneWall_Sloped_Right",
+    "label": "Sloped Stone Wall Right",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekRoof.PrimalItemStructure_TekRoof",
+    "label": "Sloped Tek Roof",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekWall_Sloped_Left.PrimalItemStructure_TekWall_Sloped_Left",
+    "label": "Sloped Tek Wall Left",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekWall_Sloped_Right.PrimalItemStructure_TekWall_Sloped_Right",
+    "label": "Sloped Tek Wall Right",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Thatch/PrimalItemStructure_ThatchRoof.PrimalItemStructure_ThatchRoof",
+    "label": "Sloped Thatch Roof",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Thatch/PrimalItemStructure_ThatchWall_Sloped_Left.PrimalItemStructure_ThatchWall_Sloped_Left",
+    "label": "Sloped Thatch Wall Left",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Thatch/PrimalItemStructure_ThatchWall_Sloped_Right.PrimalItemStructure_ThatchWall_Sloped_Right",
+    "label": "Sloped Thatch Wall Right",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Wood/PrimalItemStructure_WoodWall_Sloped_Left.PrimalItemStructure_WoodWall_Sloped_Left",
+    "label": "Sloped Wood Wall Left",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Wood/PrimalItemStructure_WoodWall_Sloped_Right.PrimalItemStructure_WoodWall_Sloped_Right",
+    "label": "Sloped Wood Wall Right",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Wood/PrimalItemStructure_WoodRoof.PrimalItemStructure_WoodRoof",
+    "label": "Sloped Wooden Roof",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_CropPlot_Small.PrimalItemStructure_CropPlot_Small",
+    "label": "Small Crop Plot",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/BuildingBases/PrimalItemStructure_ElevatorPlatformSmall.PrimalItemStructure_ElevatorPlatformSmall",
+    "label": "Small Elevator Platform",
+    "category": "structures"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/PrimalItemStructure_TaxidermyBase_Small.PrimalItemStructure_TaxidermyBase_Small",
+    "label": "Small Taxidermy Base",
+    "category": "structures"
+  },
+  {
+    "value": "Aberration/Structures/PrimitiveElevator/PrimalItemStructure_WoodElevatorPlatform_Small.PrimalItemStructure_WoodElevatorPlatform_Small",
+    "label": "Small Wood Elevator Platform",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_AnvilBench.PrimalItemStructure_AnvilBench",
+    "label": "Smithy",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Flag_Spider.PrimalItemStructure_Flag_Spider",
+    "label": "Spider Flag",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_StandingTorch.PrimalItemStructure_StandingTorch",
+    "label": "Standing Torch",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneCeiling.PrimalItemStructure_StoneCeiling",
+    "label": "Stone Ceiling",
+    "category": "structures"
+  },
+  {
+    "value": "Aberration/Structures/CliffPlatforms/Stone_CliffPlatform/PrimalItemStructure_Stone_CliffPlatform.PrimalItemStructure_Stone_CliffPlatform",
+    "label": "Stone Cliff Platform",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneGateframe.PrimalItemStructure_StoneGateframe",
+    "label": "Stone Dinosaur Gateway",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneWallWithDoor.PrimalItemStructure_StoneWallWithDoor",
+    "label": "Stone Doorframe",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Doorframes_Double/Stone/PrimalItemStructure_DoubleDoorframe_Stone.PrimalItemStructure_DoubleDoorframe_Stone",
+    "label": "Stone Double Doorframe",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneFenceFoundation.PrimalItemStructure_StoneFenceFoundation",
+    "label": "Stone Fence Foundation",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/FenceSupports/Stone/PrimalItemStructure_FenceSupport_Stone.PrimalItemStructure_FenceSupport_Stone",
+    "label": "Stone Fence Support",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Fireplace.PrimalItemStructure_Fireplace",
+    "label": "Stone Fireplace",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneFloor.PrimalItemStructure_StoneFloor",
+    "label": "Stone Foundation",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneCeilingWithTrapdoor.PrimalItemStructure_StoneCeilingWithTrapdoor",
+    "label": "Stone Hatchframe",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Pipes/Flex/Stone/PrimalItemStructure_PipeFlex_Stone.PrimalItemStructure_PipeFlex_Stone",
+    "label": "Stone Irrigation Pipe - Flexible",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_StonePipeIncline.PrimalItemStructure_StonePipeIncline",
+    "label": "Stone Irrigation Pipe - Inclined",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_StonePipeIntake.PrimalItemStructure_StonePipeIntake",
+    "label": "Stone Irrigation Pipe - Intake",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_StonePipeIntersection.PrimalItemStructure_StonePipeIntersection",
+    "label": "Stone Irrigation Pipe - Intersection",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_StonePipeStraight.PrimalItemStructure_StonePipeStraight",
+    "label": "Stone Irrigation Pipe - Straight",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_StonePipeTap.PrimalItemStructure_StonePipeTap",
+    "label": "Stone Irrigation Pipe - Tap",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_StonePipeVertical.PrimalItemStructure_StonePipeVertical",
+    "label": "Stone Irrigation Pipe - Vertical",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StonePillar.PrimalItemStructure_StonePillar",
+    "label": "Stone Pillar",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneRailing.PrimalItemStructure_StoneRailing",
+    "label": "Stone Railing",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneStairs.PrimalItemStructure_StoneStairs",
+    "label": "Stone Staircase",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Ramps/Stone/PrimalItemStructure_Ramp_Stone.PrimalItemStructure_Ramp_Stone",
+    "label": "Stone Stairs",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Ceilings/Triangle/Stone/PrimalItemStructure_TriCeiling_Stone.PrimalItemStructure_TriCeiling_Stone",
+    "label": "Stone Triangle Ceiling",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Stone/PrimalItemStructure_TriFoundation_Stone.PrimalItemStructure_TriFoundation_Stone",
+    "label": "Stone Triangle Foundation",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Roofs_Tri/Stone/PrimalItemStructure_TriRoof_Stone.PrimalItemStructure_TriRoof_Stone",
+    "label": "Stone Triangle Roof",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneWall.PrimalItemStructure_StoneWall",
+    "label": "Stone Wall",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneWallWithWindow.PrimalItemStructure_StoneWallWithWindow",
+    "label": "Stone Windowframe",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_StorageBox_Small.PrimalItemStructure_StorageBox_Small",
+    "label": "Storage Box",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_PowerCableStraight.PrimalItemStructure_PowerCableStraight",
+    "label": "Straight Electrical Cable",
+    "category": "structures"
+  },
+  {
+    "value": "Extinction/Structures/TekBridge/PrimalItemStructure_TekBridge.PrimalItemStructure_TekBridge",
+    "label": "Tek Bridge",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekCatwalk.PrimalItemStructure_TekCatwalk",
+    "label": "Tek Catwalk",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekCeiling.PrimalItemStructure_TekCeiling",
+    "label": "Tek Ceiling",
+    "category": "structures"
+  },
+  {
+    "value": "Genesis2/Structures/CropPlotTek/PrimalItemStructure_CropPlot_Tek.PrimalItemStructure_CropPlot_Tek",
+    "label": "Tek Crop Plot",
+    "category": "structures",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Misc/DedicatedStorage/PrimalItemStructure_DedicatedStorage.PrimalItemStructure_DedicatedStorage",
+    "label": "Tek Dedicated Storage",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekGate.PrimalItemStructure_TekGate",
+    "label": "Tek Dinosaur Gate",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekGateframe.PrimalItemStructure_TekGateframe",
+    "label": "Tek Dinosaur Gateway",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekDoor.PrimalItemStructure_TekDoor",
+    "label": "Tek Door",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekWallWithDoor.PrimalItemStructure_TekWallWithDoor",
+    "label": "Tek Doorframe",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Doors/Doors_Double/Tek/PrimalItemStructure_DoubleDoor_Tek.PrimalItemStructure_DoubleDoor_Tek",
+    "label": "Tek Double Door",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Doorframes_Double/Tek/PrimalItemStructure_DoubleDoorframe_Tek.PrimalItemStructure_DoubleDoorframe_Tek",
+    "label": "Tek Double Doorframe",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekFenceFoundation.PrimalItemStructure_TekFenceFoundation",
+    "label": "Tek Fence Foundation",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/FenceSupports/Tek/PrimalItemStructure_FenceSupport_Tek.PrimalItemStructure_FenceSupport_Tek",
+    "label": "Tek Fence Support",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekShield.PrimalItemStructure_TekShield",
+    "label": "Tek Forcefield",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekFloor.PrimalItemStructure_TekFloor",
+    "label": "Tek Foundation",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekGenerator.PrimalItemStructure_TekGenerator",
+    "label": "Tek Generator",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekCeilingWithTrapdoor.PrimalItemStructure_TekCeilingWithTrapdoor",
+    "label": "Tek Hatchframe",
+    "category": "structures"
+  },
+  {
+    "value": "Genesis/Structures/TekJumpPad/PrimalItemStructure_TekJumpPad.PrimalItemStructure_TekJumpPad",
+    "label": "Tek Jump Pad",
+    "category": "structures",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekLadder.PrimalItemStructure_TekLadder",
+    "label": "Tek Ladder",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekLight.PrimalItemStructure_TekLight",
+    "label": "Tek Light",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekPillar.PrimalItemStructure_TekPillar",
+    "label": "Tek Pillar",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekRailing.PrimalItemStructure_TekRailing",
+    "label": "Tek Railing",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekRamp.PrimalItemStructure_TekRamp",
+    "label": "Tek Ramp",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekReplicator.PrimalItemStructure_TekReplicator",
+    "label": "Tek Replicator",
+    "category": "structures"
+  },
+  {
+    "value": "Genesis/Structures/TekAlarm/PrimalItemStructure_TekAlarm.PrimalItemStructure_TekAlarm",
+    "label": "Tek Sensor",
+    "category": "structures",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Bed_Tek.PrimalItemStructure_Bed_Tek",
+    "label": "Tek Sleeping Pod",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekStairs.PrimalItemStructure_TekStairs",
+    "label": "Tek Staircase",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Ramps/Tek/PrimalItemStructure_Ramp_Tek.PrimalItemStructure_Ramp_Tek",
+    "label": "Tek Stairs",
+    "category": "structures"
+  },
+  {
+    "value": "Genesis2/Structures/RemoteCamera/PrimalItemStructure_TekSecurityConsole.PrimalItemStructure_TekSecurityConsole",
+    "label": "Tek Surveillance Console",
+    "category": "structures",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekTeleporter.PrimalItemStructure_TekTeleporter",
+    "label": "Tek Teleporter",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekTransmitter.PrimalItemStructure_TekTransmitter",
+    "label": "Tek Transmitter",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekTrapdoor.PrimalItemStructure_TekTrapdoor",
+    "label": "Tek Trapdoor",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Ceilings/Triangle/Tek/PrimalItemStructure_TriCeiling_Tek.PrimalItemStructure_TriCeiling_Tek",
+    "label": "Tek Triangle Ceiling",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Tek/PrimalItemStructure_TriFoundation_Tek.PrimalItemStructure_TriFoundation_Tek",
+    "label": "Tek Triangle Foundation",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Roofs_Tri/Tek/PrimalItemStructure_TriRoof_Tek.PrimalItemStructure_TriRoof_Tek",
+    "label": "Tek Triangle Roof",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekTrough.PrimalItemStructure_TekTrough",
+    "label": "Tek Trough",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TurretTek.PrimalItemStructure_TurretTek",
+    "label": "Tek Turret",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekWall.PrimalItemStructure_TekWall",
+    "label": "Tek Wall",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekWindow.PrimalItemStructure_TekWindow",
+    "label": "Tek Window",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekWallWithWindow.PrimalItemStructure_TekWallWithWindow",
+    "label": "Tek Windowframe",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/Tent/PrimalItemStructure_Tent.PrimalItemStructure_Tent",
+    "label": "Tent",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Thatch/PrimalItemStructure_ThatchCeiling.PrimalItemStructure_ThatchCeiling",
+    "label": "Thatch Ceiling",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Thatch/PrimalItemStructure_ThatchDoor.PrimalItemStructure_ThatchDoor",
+    "label": "Thatch Door",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Thatch/PrimalItemStructure_ThatchWallWithDoor.PrimalItemStructure_ThatchWallWithDoor",
+    "label": "Thatch Doorframe",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Thatch/PrimalItemStructure_ThatchFloor.PrimalItemStructure_ThatchFloor",
+    "label": "Thatch Foundation",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Thatch/PrimalItemStructure_ThatchWall.PrimalItemStructure_ThatchWall",
+    "label": "Thatch Wall",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_Toilet.PrimalItemStructure_Toilet",
+    "label": "Toilet",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Halloween/PrimalItemStructure_TrainingDummy.PrimalItemStructure_TrainingDummy",
+    "label": "Training Dummy",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_TreeTap.PrimalItemStructure_TreeTap",
+    "label": "Tree Sap Tap",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TrophyWall.PrimalItemStructure_TrophyWall",
+    "label": "Trophy Wall-Mount",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/BuildingBases/PrimalItemStructure_UnderwaterBase.PrimalItemStructure_UnderwaterBase",
+    "label": "Vacuum Compartment",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/BuildingBases/PrimalItemStructure_UnderwaterBase_Moonpool.PrimalItemStructure_UnderwaterBase_Moonpool",
+    "label": "Vacuum Compartment Moonpool",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_StorageBox_Huge.PrimalItemStructure_StorageBox_Huge",
+    "label": "Vault",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_PowerCableVertical.PrimalItemStructure_PowerCableVertical",
+    "label": "Vertical Electrical Cable",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/DesertFurnitureSet/Vessel/PrimalItemStructure_Vessel.PrimalItemStructure_Vessel",
+    "label": "Vessel",
+    "category": "structures"
+  },
+  {
+    "value": "Genesis/CoreBlueprints/Structures/PrimalItemStructure_Flag_VRBoss.PrimalItemStructure_Flag_VRBoss",
+    "label": "VR Boss Flag",
+    "category": "structures",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_WallTorch.PrimalItemStructure_WallTorch",
+    "label": "Wall Torch",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WarMap.PrimalItemStructure_WarMap",
+    "label": "War Map",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_Wardrums.PrimalItemStructure_Wardrums",
+    "label": "Wardrums",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_WaterTank.PrimalItemStructure_WaterTank",
+    "label": "Water Reservoir",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/WaterWell/PrimalItemStructure_WaterWell.PrimalItemStructure_WaterWell",
+    "label": "Water Well",
+    "category": "structures"
+  },
+  {
+    "value": "ScorchedEarth/Structures/WindTurbine/PrimalItemStructure_WindTurbine.PrimalItemStructure_WindTurbine",
+    "label": "Wind Turbine",
+    "category": "structures"
+  },
+  {
+    "value": "Aberration/Structures/PrimitiveElevator/PrimalItemStructure_WoodElevatorTopSwitch.PrimalItemStructure_WoodElevatorTopSwitch",
+    "label": "Wood Elevator Top Switch",
+    "category": "structures"
+  },
+  {
+    "value": "Aberration/Structures/PrimitiveElevator/PrimalItemStructure_WoodElevatorTrack.PrimalItemStructure_WoodElevatorTrack",
+    "label": "Wood Elevator Track",
+    "category": "structures"
+  },
+  {
+    "value": "Genesis/Structures/OceanPlatform/OceanPlatform_Wood/PrimalItemStructure_Wood_OceanPlatform.PrimalItemStructure_Wood_OceanPlatform",
+    "label": "Wood Ocean Platform",
+    "category": "structures",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_Furniture_WoodBench.PrimalItemStructure_Furniture_WoodBench",
+    "label": "Wooden Bench",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodSign_Large.PrimalItemStructure_WoodSign_Large",
+    "label": "Wooden Billboard",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodCage.PrimalItemStructure_WoodCage",
+    "label": "Wooden Cage",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodCatwalk.PrimalItemStructure_WoodCatwalk",
+    "label": "Wooden Catwalk",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodCeiling.PrimalItemStructure_WoodCeiling",
+    "label": "Wooden Ceiling",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_Furniture_WoodChair.PrimalItemStructure_Furniture_WoodChair",
+    "label": "Wooden Chair",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodDoor.PrimalItemStructure_WoodDoor",
+    "label": "Wooden Door",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodWallWithDoor.PrimalItemStructure_WoodWallWithDoor",
+    "label": "Wooden Doorframe",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Doors/Doors_Double/Wood/PrimalItemStructure_DoubleDoor_Wood.PrimalItemStructure_DoubleDoor_Wood",
+    "label": "Wooden Double Door",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Doorframes_Double/Wood/PrimalItemStructure_DoubleDoorframe_Wood.PrimalItemStructure_DoubleDoorframe_Wood",
+    "label": "Wooden Double Doorframe",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodFenceFoundation.PrimalItemStructure_WoodFenceFoundation",
+    "label": "Wooden Fence Foundation",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/FenceSupports/Wood/PrimalItemStructure_FenceSupport_Wood.PrimalItemStructure_FenceSupport_Wood",
+    "label": "Wooden Fence Support",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodFloor.PrimalItemStructure_WoodFloor",
+    "label": "Wooden Foundation",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodCeilingWithTrapdoor.PrimalItemStructure_WoodCeilingWithTrapdoor",
+    "label": "Wooden Hatchframe",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodLadder.PrimalItemStructure_WoodLadder",
+    "label": "Wooden Ladder",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodPillar.PrimalItemStructure_WoodPillar",
+    "label": "Wooden Pillar",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/Items/Raft/PrimalItemRaft.PrimalItemRaft",
+    "label": "Wooden Raft",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodRailing.PrimalItemStructure_WoodRailing",
+    "label": "Wooden Railing",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodRamp.PrimalItemStructure_WoodRamp",
+    "label": "Wooden Ramp",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodSign.PrimalItemStructure_WoodSign",
+    "label": "Wooden Sign",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodSpikeWall.PrimalItemStructure_WoodSpikeWall",
+    "label": "Wooden Spike Wall",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodStairs.PrimalItemStructure_WoodStairs",
+    "label": "Wooden Staircase",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Ramps/Wood/PrimalItemStructure_Ramp_Wood.PrimalItemStructure_Ramp_Wood",
+    "label": "Wooden Stairs",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_Furniture_WoodTable.PrimalItemStructure_Furniture_WoodTable",
+    "label": "Wooden Table",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodTrapdoor.PrimalItemStructure_WoodTrapdoor",
+    "label": "Wooden Trapdoor",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_TreePlatform_Wood.PrimalItemStructure_TreePlatform_Wood",
+    "label": "Wooden Tree Platform",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Ceilings/Triangle/Wood/PrimalItemStructure_TriCeiling_Wood.PrimalItemStructure_TriCeiling_Wood",
+    "label": "Wooden Triangle Ceiling",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Wood/PrimalItemStructure_TriFoundation_Wood.PrimalItemStructure_TriFoundation_Wood",
+    "label": "Wooden Triangle Foundation",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/StructuresPlus/Structures/Roofs_Tri/Wood/PrimalItemStructure_TriRoof_Wood.PrimalItemStructure_TriRoof_Wood",
+    "label": "Wooden Triangle Roof",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodWall.PrimalItemStructure_WoodWall",
+    "label": "Wooden Wall",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodSign_Wall.PrimalItemStructure_WoodSign_Wall",
+    "label": "Wooden Wall Sign",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodWindow.PrimalItemStructure_WoodWindow",
+    "label": "Wooden Window",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodWallWithWindow.PrimalItemStructure_WoodWallWithWindow",
+    "label": "Wooden Windowframe",
+    "category": "structures"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_AberrationHelmet.PrimalItemSkin_AberrationHelmet",
+    "label": "Aberrant Helmet Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_AberrationSword.PrimalItemSkin_AberrationSword",
+    "label": "Aberrant Sword Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimPants_Alpha.PrimalItemSkin_SummerSwimPants_Alpha",
+    "label": "Alpha Raptor Swim Bottom Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimShirt_Alpha.PrimalItemSkin_SummerSwimShirt_Alpha",
+    "label": "Alpha Raptor Swim Top Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_FE_Underwear_Araneo.PrimalItemSkin_FE_Underwear_Araneo",
+    "label": "Araneo Swim Bottom Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_FE_SwimShirt_Araneo.PrimalItemSkin_FE_SwimShirt_Araneo",
+    "label": "Araneo Swim Top Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItem_Skin_Account_GameTester.PrimalItem_Skin_Account_GameTester",
+    "label": "ARK Tester Hat Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_GhostBasilisk.PrimalItemCostume_GhostBasilisk",
+    "label": "Basilisk Ghost Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_BirthdayPants.PrimalItemSkin_BirthdayPants",
+    "label": "Birthday Suit Pants Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_BirthdayShirt.PrimalItemSkin_BirthdayShirt",
+    "label": "Birthday Suit Shirt Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WW_WinterHatD.PrimalItemSkin_WW_WinterHatD",
+    "label": "Blue-Ball Winter Beanie Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TT_BonnetHat.PrimalItemSkin_TT_BonnetHat",
+    "label": "Bonnet Hat Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_CupidBow.PrimalItemSkin_CupidBow",
+    "label": "Bow & Eros Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemCostume_Brachiosaurus.PrimalItemCostume_Brachiosaurus",
+    "label": "Brachiosaurus Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneSauro.PrimalItemCostume_BoneSauro",
+    "label": "Bronto Bone Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_GhostLanternPug.PrimalItemCostume_GhostLanternPug",
+    "label": "Bulbdog Ghost Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_PugMask.PrimalItemSkin_PugMask",
+    "label": "Bulbdog Mask Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_HawaiianShirt_Bulbdog.PrimalItemSkin_HawaiianShirt_Bulbdog",
+    "label": "Bulbdog-Print Shirt Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_Costume_Bunny.PrimalItemSkin_Costume_Bunny",
+    "label": "Bunny Costume Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_BunnyHat.PrimalItemSkin_BunnyHat",
+    "label": "Bunny Ears Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_BunnyTail.PrimalItemSkin_BunnyTail",
+    "label": "Bunny Tail Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_CandyClub.PrimalItemSkin_CandyClub",
+    "label": "Candy Cane Club Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_CaptainsHat.PrimalItemSkin_CaptainsHat",
+    "label": "Captain's Hat Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneCarno.PrimalItemCostume_BoneCarno",
+    "label": "Carno Bone Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TurkeyHat.PrimalItemSkin_TurkeyHat",
+    "label": "Chieftan Hat Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_Chili.PrimalItemSkin_Chili",
+    "label": "Chili Helmet Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_Club_ChocolateRabbit.PrimalItemSkin_Club_ChocolateRabbit",
+    "label": "Chocolate Rabbit Club Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WW_Xmas_Bola.PrimalItemSkin_WW_Xmas_Bola",
+    "label": "Christmas Bola Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_ClownMask.PrimalItemSkin_ClownMask",
+    "label": "Clown Mask Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_Gen1AvatartBoots.PrimalItemSkin_Gen1AvatartBoots",
+    "label": "Corrupted Avatar Boots Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_Gen1AvatarGloves.PrimalItemSkin_Gen1AvatarGloves",
+    "label": "Corrupted Avatar Gloves Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_Gen1AvatarHelmet.PrimalItemSkin_Gen1AvatarHelmet",
+    "label": "Corrupted Avatar Helmet Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_Gen1AvatarPants.PrimalItemSkin_Gen1AvatarPants",
+    "label": "Corrupted Avatar Pants Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_Gen1AvatarShirt.PrimalItemSkin_Gen1AvatarShirt",
+    "label": "Corrupted Avatar Shirt Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_CorruptedBoots.PrimalItemSkin_CorruptedBoots",
+    "label": "Corrupted Boots Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_CorruptedShirt.PrimalItemSkin_CorruptedShirt",
+    "label": "Corrupted Chestpiece Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_CorruptedGloves.PrimalItemSkin_CorruptedGloves",
+    "label": "Corrupted Gloves Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_CorruptedHelmet.PrimalItemSkin_CorruptedHelmet",
+    "label": "Corrupted Helmet Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_CorruptedPants.PrimalItemSkin_CorruptedPants",
+    "label": "Corrupted Pants Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimPants_CrabParty.PrimalItemSkin_SummerSwimPants_CrabParty",
+    "label": "Crab Fest Swim Bottom Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimShirt_CrabParty.PrimalItemSkin_SummerSwimShirt_CrabParty",
+    "label": "Crab Fest Swim Top Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_ValentinePants.PrimalItemSkin_ValentinePants",
+    "label": "Cupid Couture Bottom Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_ValentineShirt.PrimalItemSkin_ValentineShirt",
+    "label": "Cupid Couture Top Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_DinoCute.PrimalItemSkin_DinoCute",
+    "label": "Cute Dino Helmet Skin",
+    "category": "skins"
+  },
+  {
+    "value": "Aberration/Dinos/CaveWolf/PrimalItemArmor_CavewolfPromoSaddle.PrimalItemArmor_CavewolfPromoSaddle",
+    "label": "Decorative Ravager Saddle Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_DiloMask.PrimalItemSkin_DiloMask",
+    "label": "Dilo Mask Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_DinoBunnyHat.PrimalItemSkin_DinoBunnyHat",
+    "label": "Dino Bunny Ears Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_DinoChickHat.PrimalItemSkin_DinoChickHat",
+    "label": "Dino Easter Chick Hat Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_DinoEasterEggHat.PrimalItemSkin_DinoEasterEggHat",
+    "label": "Dino Easter Egg Hat Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_DinoSpecs.PrimalItemSkin_DinoSpecs",
+    "label": "Dino Glasses Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_DinoMarshmallowHat.PrimalItemSkin_DinoMarshmallowHat",
+    "label": "Dino Marshmallow Hat Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WW_Underwear_DinoOrnaments.PrimalItemSkin_WW_Underwear_DinoOrnaments",
+    "label": "Dino Ornament Swim Bottom Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WW_SwimShirt_DinoOrnaments.PrimalItemSkin_WW_SwimShirt_DinoOrnaments",
+    "label": "Dino Ornament Swim Top Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_DinoPartyHat.PrimalItemSkin_DinoPartyHat",
+    "label": "Dino Party Hat Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_DinoSantaHat.PrimalItemSkin_DinoSantaHat",
+    "label": "Dino Santa Hat Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TopHat_Summer_Dino.PrimalItemSkin_TopHat_Summer_Dino",
+    "label": "Dino Uncle Sam Hat Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_DinoWitchHat.PrimalItemSkin_DinoWitchHat",
+    "label": "Dino Witch Hat Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_GhostDirewolf.PrimalItemCostume_GhostDirewolf",
+    "label": "Direwolf Ghost Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TT_SwimPants_DodoPie.PrimalItemSkin_TT_SwimPants_DodoPie",
+    "label": "Dodo Pie Swim Bottom Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TT_SwimShirt_DodoPie.PrimalItemSkin_TT_SwimShirt_DodoPie",
+    "label": "Dodo Pie Swim Top Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_DodorexMask.PrimalItemSkin_DodorexMask",
+    "label": "DodoRex Mask Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SwimPants_Dodo.PrimalItemSkin_SwimPants_Dodo",
+    "label": "Dodorex Swim Bottom Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SwimShirt_Dodo.PrimalItemSkin_SwimShirt_Dodo",
+    "label": "Dodorex Swim Top Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_HawaiianShirt_Dodo.PrimalItemSkin_HawaiianShirt_Dodo",
+    "label": "Dodorex-Print Shirt Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_DodowyvernHat.PrimalItemSkin_DodowyvernHat",
+    "label": "DodoWyvern Mask Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_EasterBasket_C4.PrimalItemSkin_EasterBasket_C4",
+    "label": "E4 Remote Eggsplosives Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_EasterChick.PrimalItemSkin_EasterChick",
+    "label": "Easter Chick Hat Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_EasterEggHat.PrimalItemSkin_EasterEggHat",
+    "label": "Easter Egg Hat Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_EggNestHat.PrimalItemSkin_EggNestHat",
+    "label": "Easter Egghead Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItem_Skin_Account_WildcardAdmin.PrimalItem_Skin_Account_WildcardAdmin",
+    "label": "Fan Ballcap Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TekBoots_V2.PrimalItemSkin_TekBoots_V2",
+    "label": "Federation Exo Boots Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TekHelmet_V2.PrimalItemSkin_TekHelmet_V2",
+    "label": "Federation Exo Helmet Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TekShirt_V2.PrimalItemSkin_TekShirt_V2",
+    "label": "Federation Exo-Chestpiece Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TekGloves_V2.PrimalItemSkin_TekGloves_V2",
+    "label": "Federation Exo-Gloves Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TekPants_V2.PrimalItemSkin_TekPants_V2",
+    "label": "Federation Exo-leggings Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WW_ReindeerAntlersHat.PrimalItemSkin_WW_ReindeerAntlersHat",
+    "label": "Felt Reindeer Antlers Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_FlaregunFireworks.PrimalItemSkin_FlaregunFireworks",
+    "label": "Fireworks Flaregun Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_RocketLauncherFireworks.PrimalItemSkin_RocketLauncherFireworks",
+    "label": "Fireworks Rocket Launcher Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimPants_FishBite.PrimalItemSkin_SummerSwimPants_FishBite",
+    "label": "Fish Bite Swim Bottom Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimShirt_FishBite.PrimalItemSkin_SummerSwimShirt_FishBite",
+    "label": "Fish Bite Swim Top Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimPants_Flowers.PrimalItemSkin_SummerSwimPants_Flowers",
+    "label": "Floral Swim Bottom Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimShirt_Flowers.PrimalItemSkin_SummerSwimShirt_Flowers",
+    "label": "Floral Swim Top Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_Boomerang_Frisbee.PrimalItemSkin_Boomerang_Frisbee",
+    "label": "Flying Disc Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_HawaiianShirt_Gasbags.PrimalItemSkin_HawaiianShirt_Gasbags",
+    "label": "Gasbags-Print Shirt Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BionicGigant.PrimalItemCostume_BionicGigant",
+    "label": "Giga Bionic Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimPants_Carno.PrimalItemSkin_SummerSwimPants_Carno",
+    "label": "Giga Poop Swim Bottom Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimShirt_Carno.PrimalItemSkin_SummerSwimShirt_Carno",
+    "label": "Giga Poop Swim Top Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneGigant.PrimalItemCostume_BoneGigant",
+    "label": "Giganotosaurus Bone Costume",
+    "category": "skins"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Items/Armor/PrimalItemArmor_Glider.PrimalItemArmor_Glider",
+    "label": "Glider Suit",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WW_WinterHatB.PrimalItemSkin_WW_WinterHatB",
+    "label": "Gray-Ball Winter Beanie Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WW_WinterHatF.PrimalItemSkin_WW_WinterHatF",
+    "label": "Green-Ball Winter Beanie Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_Club_BBQSpatula.PrimalItemSkin_Club_BBQSpatula",
+    "label": "Grilling Spatula Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_ValentineHaloHat.PrimalItemSkin_ValentineHaloHat",
+    "label": "Halo Headband Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_FE_HeadlessHat.PrimalItemSkin_FE_HeadlessHat",
+    "label": "Headless Costume Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_Vday_Shield.PrimalItemSkin_Vday_Shield",
+    "label": "Heart-shaped Shield Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SunGlasses_Vday.PrimalItemSkin_SunGlasses_Vday",
+    "label": "Heart-shaped Sunglasses Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_FE_ScaryFaceMask.PrimalItemSkin_FE_ScaryFaceMask",
+    "label": "Hockey Mask Skin",
+    "category": "skins"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/Skin/PrimalItemSkin_HomoDeusBoots.PrimalItemSkin_HomoDeusBoots",
+    "label": "HomoDeus Boots Skin",
+    "category": "skins"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/Skin/PrimalItemSkin_HomoDeusGloves.PrimalItemSkin_HomoDeusGloves",
+    "label": "HomoDeus Gloves Skin",
+    "category": "skins"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/Skin/PrimalItemSkin_HomoDeusHelmet.PrimalItemSkin_HomoDeusHelmet",
+    "label": "HomoDeus Helmet Skin",
+    "category": "skins"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/Skin/PrimalItemSkin_HomoDeusPants.PrimalItemSkin_HomoDeusPants",
+    "label": "HomoDeus Pants Skin",
+    "category": "skins"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/Skin/PrimalItemSkin_HomoDeusShirt.PrimalItemSkin_HomoDeusShirt",
+    "label": "HomoDeus Shirt Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemArmor_HideHelmetAlt.PrimalItemArmor_HideHelmetAlt",
+    "label": "Hunter Hat Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_HawaiianShirt_Island.PrimalItemSkin_HawaiianShirt_Island",
+    "label": "Ice Pop-Print Shirt Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimPants_IslandRetreat.PrimalItemSkin_SummerSwimPants_IslandRetreat",
+    "label": "Ichthy Isles Swim Bottom Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimShirt_IslandRetreat.PrimalItemSkin_SummerSwimShirt_IslandRetreat",
+    "label": "Ichthy Isles Swim Top Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_FE_Underwear_Pumpkin.PrimalItemSkin_FE_Underwear_Pumpkin",
+    "label": "Jack-O-Lantern Swim Bottom Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_FE_SwimShirt_Pumpkin.PrimalItemSkin_FE_SwimShirt_Pumpkin",
+    "label": "Jack-O-Lantern Swim Top Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_HawaiianShirt_Pumpkin.PrimalItemSkin_HawaiianShirt_Pumpkin",
+    "label": "Jack-O-Lantern-Print Shirt Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneJerboa.PrimalItemCostume_BoneJerboa",
+    "label": "Jerboa Bone Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WW_Underwear_JerboaWreath.PrimalItemSkin_WW_Underwear_JerboaWreath",
+    "label": "Jerboa Wreath Swim Bottom Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WW_SwimShirt_JerboaWreath.PrimalItemSkin_WW_SwimShirt_JerboaWreath",
+    "label": "Jerboa Wreath Swim Top Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_Vday_Handcuffs.PrimalItemSkin_Vday_Handcuffs",
+    "label": "Love Shackles Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_ManticoreBoots.PrimalItemSkin_ManticoreBoots",
+    "label": "Manticore Boots Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_ManticoreShirt.PrimalItemSkin_ManticoreShirt",
+    "label": "Manticore Chestpiece Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_ManticoreGloves.PrimalItemSkin_ManticoreGloves",
+    "label": "Manticore Gauntlets Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_ManticoreHelmet.PrimalItemSkin_ManticoreHelmet",
+    "label": "Manticore Helmet Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_ManticorePants.PrimalItemSkin_ManticorePants",
+    "label": "Manticore Leggings Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_ManticoreShield.PrimalItemSkin_ManticoreShield",
+    "label": "Manticore Shield Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_GhostMantis.PrimalItemCostume_GhostMantis",
+    "label": "Mantis Ghost Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_MarshmallowHat.PrimalItemSkin_MarshmallowHat",
+    "label": "Marshmallow Hat Skin",
+    "category": "skins"
+  },
+  {
+    "value": "Genesis/CoreBlueprints/Items/PrimalItemSkin_MasterControllerHelmet.PrimalItemSkin_MasterControllerHelmet",
+    "label": "Master Controller Helmet Skin",
+    "category": "skins",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TT_SwimPants_Meat.PrimalItemSkin_TT_SwimPants_Meat",
+    "label": "Meat Swim Bottom Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TT_SwimShirt_Meat.PrimalItemSkin_TT_SwimShirt_Meat",
+    "label": "Meat Swim Top Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_ReindeerStag.PrimalItemCostume_ReindeerStag",
+    "label": "Megaloceros Reindeer Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_MiniHLNA.PrimalItemSkin_MiniHLNA",
+    "label": "Mini-HLNA Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BionicMosa.PrimalItemCostume_BionicMosa",
+    "label": "Mosasaurus Bionic Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SwimPants_MurderTurkey.PrimalItemSkin_SwimPants_MurderTurkey",
+    "label": "Murder Turkey Swim Bottom Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SwimShirt_MurderTurkey.PrimalItemSkin_SwimShirt_MurderTurkey",
+    "label": "Murder Turkey Swim Top Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_HawaiianShirt_MurderTurkey.PrimalItemSkin_HawaiianShirt_MurderTurkey",
+    "label": "Murder-Turkey-Print Shirt Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_Glasses.PrimalItemSkin_Glasses",
+    "label": "Nerdry Glasses Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WW_Underwear_Noglin.PrimalItemSkin_WW_Underwear_Noglin",
+    "label": "Noglin Swim Bottom Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WW_SwimShirt_Noglin.PrimalItemSkin_WW_SwimShirt_Noglin",
+    "label": "Noglin Swim Top Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_WW_Nutcracker_Slingshot.PrimalItemSkin_WW_Nutcracker_Slingshot",
+    "label": "Nutcracker Slingshot Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_FE_Underwear_Onyc.PrimalItemSkin_FE_Underwear_Onyc",
+    "label": "Onyc Swim Bottom Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_FE_SwimShirt_Onyc.PrimalItemSkin_FE_SwimShirt_Onyc",
+    "label": "Onyc Swim Top Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_OtterMask.PrimalItemSkin_OtterMask",
+    "label": "Otter Mask Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BionicParasaur.PrimalItemCostume_BionicParasaur",
+    "label": "Parasaur Bionic Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ParaSaddle_Launch.PrimalItemArmor_ParaSaddle_Launch",
+    "label": "Parasaur Stylish Saddle Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_PartyHat.PrimalItemSkin_PartyHat",
+    "label": "Party Hat Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TT_PilgrimHat.PrimalItemSkin_TT_PilgrimHat",
+    "label": "Pilgrim Hat Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TT_Pike_Pitchfork.PrimalItemSkin_TT_Pike_Pitchfork",
+    "label": "Pitchfork Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_PoglinHat.PrimalItemSkin_PoglinHat",
+    "label": "Poglin Mask Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_ProcopBunny.PrimalItemCostume_ProcopBunny",
+    "label": "Procoptodon Bunny Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_WW_WinterHatC.PrimalItemSkin_WW_WinterHatC",
+    "label": "Purple-Ball Winter Beanie Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WW_WinterHatE.PrimalItemSkin_WW_WinterHatE",
+    "label": "Purple-Ball Winter Beanie Skin (Winter Wonderland 5)",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BionicQuetzal.PrimalItemCostume_BionicQuetzal",
+    "label": "Quetzal Bionic Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneQuetz.PrimalItemCostume_BoneQuetz",
+    "label": "Quetzalcoatlus Bone Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_AnimeRaptor.PrimalItemCostume_AnimeRaptor",
+    "label": "Raptor 'ARK: The Animated Series' Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BionicRaptor.PrimalItemCostume_BionicRaptor",
+    "label": "Raptor Bionic Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneRaptor.PrimalItemCostume_BoneRaptor",
+    "label": "Raptor Bone Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_GhostReaper.PrimalItemCostume_GhostReaper",
+    "label": "Reaper Ghost Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_ReaperHelmet.PrimalItemSkin_ReaperHelmet",
+    "label": "Reaper Helmet Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_FE_Underwear_Reaper.PrimalItemSkin_FE_Underwear_Reaper",
+    "label": "Reaper Swim Bottom Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_FE_SwimShirt_Reaper.PrimalItemSkin_FE_SwimShirt_Reaper",
+    "label": "Reaper Swim Top Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_HawaiianShirt_Reaper.PrimalItemSkin_HawaiianShirt_Reaper",
+    "label": "Reaper-Print Shirt Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_WW_WinterHatA.PrimalItemSkin_WW_WinterHatA",
+    "label": "Red-Ball Winter Beanie Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BionicRex.PrimalItemCostume_BionicRex",
+    "label": "Rex Bionic Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneRex.PrimalItemCostume_BoneRex",
+    "label": "Rex Bone Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_BoneHelmet.PrimalItemSkin_BoneHelmet",
+    "label": "Rex Bone Helmet",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_GhostRex.PrimalItemCostume_GhostRex",
+    "label": "Rex Ghost Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RexSaddle_StompedGlasses.PrimalItemArmor_RexSaddle_StompedGlasses",
+    "label": "Rex Stomped Glasses Saddle Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_ExplorerHat.PrimalItemSkin_ExplorerHat",
+    "label": "Safari Hat Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SantaHat.PrimalItemSkin_SantaHat",
+    "label": "Santa Hat Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItemSkin_Hatchet_Santiago.PrimalItemSkin_Hatchet_Santiago",
+    "label": "Santiago's Axe Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItemSkin_Spear_Santiago.PrimalItemSkin_Spear_Santiago",
+    "label": "Santiago's Spear Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_FE_PumpkinHat_Dino.PrimalItemSkin_FE_PumpkinHat_Dino",
+    "label": "Scary Dino Pumpkin Helmet Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_FE_PumpkinHat.PrimalItemSkin_FE_PumpkinHat",
+    "label": "Scary Pumpkin Helmet Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_ScarySkull.PrimalItemSkin_ScarySkull",
+    "label": "Scary Skull Helmet Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_ScorchedSpear.PrimalItemSkin_ScorchedSpear",
+    "label": "Scorched Spike Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_ScorchedSword.PrimalItemSkin_ScorchedSword",
+    "label": "Scorched Sword Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_TorchScorched.PrimalItemSkin_TorchScorched",
+    "label": "Scorched Torch Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_HawaiianShirt_SeaStuff.PrimalItemSkin_HawaiianShirt_SeaStuff",
+    "label": "Sea Life-Print Shirt Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_Costume_Skeleton.PrimalItemSkin_Costume_Skeleton",
+    "label": "Skeleton Costume Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_HawaiianShirt_Skellies.PrimalItemSkin_HawaiianShirt_Skellies",
+    "label": "Skelly-Print Shirt Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_GhostOwl.PrimalItemCostume_GhostOwl",
+    "label": "Snow Owl Ghost Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneStego.PrimalItemCostume_BoneStego",
+    "label": "Stego Bone Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BionicStego.PrimalItemCostume_BionicStego",
+    "label": "Stegosaurus Bionic Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_Costume_Strawman.PrimalItemSkin_Costume_Strawman",
+    "label": "Strawman Costume Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemCostume_Stygimoloch.PrimalItemCostume_Stygimoloch",
+    "label": "Stygimoloch Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemCostume_Styracosaurus.PrimalItemCostume_Styracosaurus",
+    "label": "Styracosaurus Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SunGlasses.PrimalItemSkin_SunGlasses",
+    "label": "Sunglasses Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItemSkin_Spear_Carrot.PrimalItemSkin_Spear_Carrot",
+    "label": "Sweet Spear Carrot Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimPants_Arthro.PrimalItemSkin_SummerSwimPants_Arthro",
+    "label": "T-Rex Swim Bottom Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimShirt_Arthro.PrimalItemSkin_SummerSwimShirt_Arthro",
+    "label": "T-Rex Swim Top Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_VDay_Grenade_ValentineBear.PrimalItemSkin_VDay_Grenade_ValentineBear",
+    "label": "Teddy Bear Grenades Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_HawaiianShirt_Tentacle.PrimalItemSkin_HawaiianShirt_Tentacles",
+    "label": "Tentacle-Print Shirt Skin",
+    "category": "skins"
+  },
+  {
+    "value": "ScorchedEarth/Dinos/SpineyLizard/PrimalItemArmor_SpineyLizardPromoSaddle.PrimalItemArmor_SpineyLizardPromoSaddle",
+    "label": "Thorny Dragon Vagabond Saddle Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TopHat.PrimalItemSkin_TopHat",
+    "label": "Top Hat Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_TorchSparkler.PrimalItemSkin_TorchSparkler",
+    "label": "Torch Sparkler Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BionicTrike.PrimalItemCostume_BionicTrike",
+    "label": "Triceratops Bionic Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneTrike.PrimalItemCostume_BoneTrike",
+    "label": "Trike Bone Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_TrikeSkullHelmet.PrimalItemSkin_TrikeSkullHelmet",
+    "label": "Trike Bone Helmet Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_Costume_Turkey.PrimalItemSkin_Costume_Turkey",
+    "label": "Turkey Costume Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TT_ActualTurkeyHat.PrimalItemSkin_TT_ActualTurkeyHat",
+    "label": "Turkey Hat Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TT_Club_TurkeyLeg.PrimalItemSkin_TT_Club_TurkeyLeg",
+    "label": "Turkey Leg Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TT_SwimPants_TurkeyBerry.PrimalItemSkin_TT_SwimPants_TurkeyBerry",
+    "label": "Turkey Swim Bottom Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TT_SwimShirt_TurkeyBerry.PrimalItemSkin_TT_SwimShirt_TurkeyBerry",
+    "label": "Turkey Swim Top Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WW_XmasSweaterBronto.PrimalItemSkin_WW_XmasSweaterBronto",
+    "label": "Ugly Bronto Sweater Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WW_XmasSweater_Bulbdog.PrimalItemSkin_WW_XmasSweater_Bulbdog",
+    "label": "Ugly Bulbdog Sweater Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WW_XmasSweaterCarno.PrimalItemSkin_WW_XmasSweaterCarno",
+    "label": "Ugly Carno Sweater Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WW_XmasSweater_Carolers.PrimalItemSkin_WW_XmasSweater_Carolers",
+    "label": "Ugly Caroling Sweater Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WW_XmasSweaterChibi.PrimalItemSkin_WW_XmasSweaterChibi",
+    "label": "Ugly Chibi Sweater Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_Sweater_Cornucopia.PrimalItemSkin_Sweater_Cornucopia",
+    "label": "Ugly Cornucopia Sweater Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_Sweater_DodosRevenge.PrimalItemSkin_Sweater_DodosRevenge",
+    "label": "Ugly Dodo's Revenge Sweater Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_Sweater_FallFun.PrimalItemSkin_Sweater_FallFun",
+    "label": "Ugly Foliage Friends Sweater Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WW_XmasSweater_Rex.PrimalItemSkin_WW_XmasSweater_Rex",
+    "label": "Ugly T-Rex Sweater Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_Sweater_Trike.PrimalItemSkin_Sweater_Trike",
+    "label": "Ugly Trike Sweater Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_Sweater_TheHunted.PrimalItemSkin_Sweater_TheHunted",
+    "label": "Ugly Turkey Target Sweater Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TopHat_Summer.PrimalItemSkin_TopHat_Summer",
+    "label": "Uncle Sam Hat Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_FE_Underwear_VampireDodo.PrimalItemSkin_FE_Underwear_VampireDodo",
+    "label": "Vampire Dodo Swim Bottom Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_FE_SwimShirt_VampireDodo.PrimalItemSkin_FE_SwimShirt_VampireDodo",
+    "label": "Vampire Dodo Swim Top Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_VampireEyes.PrimalItemSkin_VampireEyes",
+    "label": "Vampire Eyes Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_Flamethrower_SuperSoaker.PrimalItemSkin_Flamethrower_SuperSoaker",
+    "label": "Water Soaker Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WerewolfHat.PrimalItemSkin_WerewolfHat",
+    "label": "Werewolf Mask Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WitchHat.PrimalItemSkin_WitchHat",
+    "label": "Witch Hat Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItem_Skin_Account_DevKitMaster.PrimalItem_Skin_Account_DevKitMaster",
+    "label": "Wizard Ballcap Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneWyvern.PrimalItemCostume_BoneWyvern",
+    "label": "Wyvern Bone Costume",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WyvernGloves.PrimalItemSkin_WyvernGloves",
+    "label": "Wyvern Gloves Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WW_Underwear_Yeti.PrimalItemSkin_WW_Underwear_Yeti",
+    "label": "Yeti Swim Bottom Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WW_SwimShirt_Yeti.PrimalItemSkin_WW_SwimShirt_Yeti",
+    "label": "Yeti Swim Top Skin",
+    "category": "skins"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Items/Armor/PrimalItemArmor_ZiplineMotor.PrimalItemArmor_ZiplineMotor",
+    "label": "Zip-Line Motor Attachment Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_HawaiianShirt_DodoZombies.PrimalItemSkin_HawaiianShirt_DodoZombies",
+    "label": "ZombDodo-Print Shirt Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_HawaiianShirt_ZombieWyvern.PrimalItemSkin_HawaiianShirt_ZombieWyvern",
+    "label": "Zombie Wyvern-Print Shirt Skin",
+    "category": "skins"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_PartyRex.PrimalItemSkin_ChibiDino_PartyRex",
+    "label": "Chibi Party Rex",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Achatina.PrimalItemSkin_ChibiDino_Achatina",
+    "label": "Chibi-Achatina",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Allosaurus.PrimalItemSkin_ChibiDino_Allosaurus",
+    "label": "Chibi-Allosaurus",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Amarga.PrimalItemSkin_ChibiDino_Amarga",
+    "label": "Chibi-Amargasaurus",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Ammonite.PrimalItemSkin_ChibiDino_Ammonite",
+    "label": "Chibi-Ammonite",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Andrewsarchus.PrimalItemSkin_ChibiDino_Andrewsarchus",
+    "label": "Chibi-Andrewsarchus",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Anglerfish.PrimalItemSkin_ChibiDino_Anglerfish",
+    "label": "Chibi-Anglerfish",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_RaptorAnimatedSeries.PrimalItemSkin_ChibiDino_RaptorAnimatedSeries",
+    "label": "Chibi-Animated Series Raptor",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Ankylosaurus.PrimalItemSkin_ChibiDino_Ankylosaurus",
+    "label": "Chibi-Ankylosaurus",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Araneo.PrimalItemSkin_ChibiDino_Araneo",
+    "label": "Chibi-Araneo",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Archaeopteryx.PrimalItemSkin_ChibiDino_Archaeopteryx",
+    "label": "Chibi-Archaeopteryx",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Argent.PrimalItemSkin_ChibiDino_Argent",
+    "label": "Chibi-Argentavis",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Astrocetus.PrimalItemSkin_ChibiDino_Astrocetus",
+    "label": "Chibi-Astrocetus",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Astrodelphis.PrimalItemSkin_ChibiDino_Astrodelphis",
+    "label": "Chibi-Astrodelphis",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Baryonyx.PrimalItemSkin_ChibiDino_Baryonyx",
+    "label": "Chibi-Baryonyx",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Basilisk.PrimalItemSkin_ChibiDino_Basilisk",
+    "label": "Chibi-Basilisk",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Beelzebufo.PrimalItemSkin_ChibiDino_Beelzebufo",
+    "label": "Chibi-Beelzebufo",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_BogSpider.PrimalItemSkin_ChibiDino_BogSpider",
+    "label": "Chibi-Bloodstalker",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_OtterBonnet.PrimalItemSkin_ChibiDino_OtterBonnet",
+    "label": "Chibi-Bonnet Otter",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Bronto.PrimalItemSkin_ChibiDino_Bronto",
+    "label": "Chibi-Brontosaurus",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_BroodMother.PrimalItemSkin_ChibiDino_BroodMother",
+    "label": "Chibi-Broodmother",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Bulbdog.PrimalItemSkin_ChibiDino_Bulbdog",
+    "label": "Chibi-Bulbdog",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Bunny.PrimalItemSkin_ChibiDino_Bunny",
+    "label": "Chibi-Bunny",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Carbonemys.PrimalItemSkin_ChibiDino_Carbonemys",
+    "label": "Chibi-Carbonemys",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Carcha.PrimalItemSkin_ChibiDino_Carcha",
+    "label": "Chibi-Carcharodontosaurus",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Carnotaurus.PrimalItemSkin_ChibiDino_Carnotaurus",
+    "label": "Chibi-Carno",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Castroides.PrimalItemSkin_ChibiDino_Castroides",
+    "label": "Chibi-Castroides",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Cherufe.PrimalItemSkin_ChibiDino_Cherufe",
+    "label": "Chibi-Cherufe",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Cnidaria.PrimalItemSkin_ChibiDino_Cnidaria",
+    "label": "Chibi-Cnidaria",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_WyvernCrystal.PrimalItemSkin_ChibiDino_WyvernCrystal",
+    "label": "Chibi-Crystal Wyvern",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Daeodon.PrimalItemSkin_ChibiDino_Daeodon",
+    "label": "Chibi-Daeodon",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_DodoDealWithIt.PrimalItemSkin_ChibiDino_DodoDealWithIt",
+    "label": "Chibi-Deal With It Dodo",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Deinonychus.PrimalItemSkin_ChibiDino_Deinonychus",
+    "label": "Chibi-Deinonychus",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Desmodus.PrimalItemSkin_ChibiDino_Desmodus",
+    "label": "Chibi-Desmodus",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Dilophosaur.PrimalItemSkin_ChibiDino_Dilophosaur",
+    "label": "Chibi-Dilophosaur",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Dinopithecus.PrimalItemSkin_ChibiDino_Dinopithecus",
+    "label": "Chibi-Dinopithecus",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Diplodocus.PrimalItemSkin_ChibiDino_Diplodocus",
+    "label": "Chibi-Diplodocus",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Direbear.PrimalItemSkin_ChibiDino_Direbear",
+    "label": "Chibi-Direbear",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Direwolf.PrimalItemSkin_ChibiDino_Direwolf",
+    "label": "Chibi-Direwolf",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Dodo.PrimalItemSkin_ChibiDino_Dodo",
+    "label": "Chibi-Dodo",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Doedicurus.PrimalItemSkin_ChibiDino_Doedicurus",
+    "label": "Chibi-Doedicurus",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Dunkleo.PrimalItemSkin_ChibiDino_Dunkleo",
+    "label": "Chibi-Dunkleosteus",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_EasterChick.PrimalItemSkin_ChibiDino_EasterChick",
+    "label": "Chibi-Easter Chick",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Enforcer.PrimalItemSkin_ChibiDino_Enforcer",
+    "label": "Chibi-Enforcer",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Equus.PrimalItemSkin_ChibiDino_Equus",
+    "label": "Chibi-Equus",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Featherlight.PrimalItemSkin_ChibiDino_Featherlight",
+    "label": "Chibi-Featherlight",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Fenrir.PrimalItemSkin_ChibiDino_Fenrir",
+    "label": "Chibi-Fenrir",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Shapeshifter_Large.PrimalItemSkin_ChibiDino_Shapeshifter_Large",
+    "label": "Chibi-Ferox (Large)",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Shapeshifter_Small.PrimalItemSkin_ChibiDino_Shapeshifter_Small",
+    "label": "Chibi-Ferox (Small)",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Bulbdog_FestiveG.PrimalItemSkin_ChibiDino_Bulbdog_FestiveG",
+    "label": "Chibi-Festive Bulbdog (Green)",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Bulbdog_FestiveR.PrimalItemSkin_ChibiDino_Bulbdog_FestiveR",
+    "label": "Chibi-Festive Bulbdog (Red)",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Featherlight_FestiveG.PrimalItemSkin_ChibiDino_Featherlight_FestiveG",
+    "label": "Chibi-Festive Featherlight (Green)",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Featherlight_FestiveR.PrimalItemSkin_ChibiDino_Featherlight_FestiveR",
+    "label": "Chibi-Festive Featherlight (Red)",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Glowtail_FestiveG.PrimalItemSkin_ChibiDino_Glowtail_FestiveG",
+    "label": "Chibi-Festive Glowtail (Green)",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Glowtail_FestiveR.PrimalItemSkin_ChibiDino_Glowtail_FestiveR",
+    "label": "Chibi-Festive Glowtail (Red)",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_BrainSlugXmas.PrimalItemSkin_ChibiDino_BrainSlugXmas",
+    "label": "Chibi-Festive Noglin",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Shinehorn_FestiveG.PrimalItemSkin_ChibiDino_Shinehorn_FestiveG",
+    "label": "Chibi-Festive Shinehorn (Green)",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Shinehorn_FestiveR.PrimalItemSkin_ChibiDino_Shinehorn_FestiveR",
+    "label": "Chibi-Festive Shinehorn (Red)",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Fjordhawk.PrimalItemSkin_ChibiDino_Fjordhawk",
+    "label": "Chibi-Fjordhawk",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_GachaClaus.PrimalItemSkin_ChibiDino_GachaClaus",
+    "label": "Chibi-Gacha Claus",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Gallimimus.PrimalItemSkin_ChibiDino_Gallimimus",
+    "label": "Chibi-Gallimimus",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Gasbag.PrimalItemSkin_ChibiDino_Gasbag",
+    "label": "Chibi-Gasbag",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_BasiliskGhost.PrimalItemSkin_ChibiDino_BasiliskGhost",
+    "label": "Chibi-Ghost Basilisk",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_DirewolfGhost.PrimalItemSkin_ChibiDino_DirewolfGhost",
+    "label": "Chibi-Ghost Direwolf",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_MantisGhost.PrimalItemSkin_ChibiDino_MantisGhost",
+    "label": "Chibi-Ghost Mantis",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_RexGhost.PrimalItemSkin_ChibiDino_RexGhost",
+    "label": "Chibi-Ghost Rex",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Gigant.PrimalItemSkin_ChibiDino_Gigant",
+    "label": "Chibi-Giganotosaurus",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Gigantopithecus.PrimalItemSkin_ChibiDino_Gigantopithecus",
+    "label": "Chibi-Gigantopithecus",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_GigantopithecusChieftan.PrimalItemSkin_ChibiDino_GigantopithecusChieftan",
+    "label": "Chibi-Gigantopithecus Chieftan",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Glowtail.PrimalItemSkin_ChibiDino_Glowtail",
+    "label": "Chibi-Glowtail",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Griffin.PrimalItemSkin_ChibiDino_Griffin",
+    "label": "Chibi-Griffin",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Iguanodon.PrimalItemSkin_ChibiDino_Iguanodon",
+    "label": "Chibi-Iguanodon",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_JerboaBunny.PrimalItemSkin_ChibiDino_JerboaBunny",
+    "label": "Chibi-Jerbunny",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Kairuku.PrimalItemSkin_ChibiDino_Kairuku",
+    "label": "Chibi-Kairuku",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Kaprosuchus.PrimalItemSkin_ChibiDino_Kaprosuchus",
+    "label": "Chibi-Kaprosuchus",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Karkinos.PrimalItemSkin_ChibiDino_Karkinos",
+    "label": "Chibi-Karkinos",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Kentrosaurus.PrimalItemSkin_ChibiDino_Kentrosaurus",
+    "label": "Chibi-Kentrosaurus",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_LoveBird.PrimalItemSkin_ChibiDino_LoveBird",
+    "label": "Chibi-Lovebird",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Lymantria.PrimalItemSkin_ChibiDino_Lymantria",
+    "label": "Chibi-Lymantria",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Maewing.PrimalItemSkin_ChibiDino_Maewing",
+    "label": "Chibi-Maewing",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Mammoth.PrimalItemSkin_ChibiDino_Mammoth",
+    "label": "Chibi-Mammoth",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Managarmr.PrimalItemSkin_ChibiDino_Managarmr",
+    "label": "Chibi-Managarmr",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Manta.PrimalItemSkin_ChibiDino_Manta",
+    "label": "Chibi-Manta",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Mantis.PrimalItemSkin_ChibiDino_Mantis",
+    "label": "Chibi-Mantis",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Megalania.PrimalItemSkin_ChibiDino_Megalania",
+    "label": "Chibi-Megalania",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Megaloceros.PrimalItemSkin_ChibiDino_Megaloceros",
+    "label": "Chibi-Megaloceros",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Megalodon.PrimalItemSkin_ChibiDino_Megalodon",
+    "label": "Chibi-Megalodon",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Megatherium.PrimalItemSkin_ChibiDino_Megatherium",
+    "label": "Chibi-Megatherium",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Mesopithecus.PrimalItemSkin_ChibiDino_Mesopithecus",
+    "label": "Chibi-Mesopithecus",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Microraptor.PrimalItemSkin_ChibiDino_Microraptor",
+    "label": "Chibi-Microraptor",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Mosa.PrimalItemSkin_ChibiDino_Mosa",
+    "label": "Chibi-Mosasaurus",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Moschops.PrimalItemSkin_ChibiDino_Moschops",
+    "label": "Chibi-Moschops",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_BrainSlug.PrimalItemSkin_ChibiDino_BrainSlug",
+    "label": "Chibi-Noglin",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Onyc.PrimalItemSkin_ChibiDino_Onyc",
+    "label": "Chibi-Onyc",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Otter.PrimalItemSkin_ChibiDino_Otter",
+    "label": "Chibi-Otter",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Oviraptor.PrimalItemSkin_ChibiDino_Oviraptor",
+    "label": "Chibi-Oviraptor",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Sheep.PrimalItemSkin_ChibiDino_Sheep",
+    "label": "Chibi-Ovis",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Pachy.PrimalItemSkin_ChibiDino_Pachy",
+    "label": "Chibi-Pachy",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Paraceratherium.PrimalItemSkin_ChibiDino_Paraceratherium",
+    "label": "Chibi-Paraceratherium",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Parasaur.PrimalItemSkin_ChibiDino_Parasaur",
+    "label": "Chibi-Parasaur",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Pelagornis.PrimalItemSkin_ChibiDino_Pelagornis",
+    "label": "Chibi-Pelagornis",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Phiomia.PrimalItemSkin_ChibiDino_Phiomia",
+    "label": "Chibi-Phiomia",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Phoenix.PrimalItemSkin_ChibiDino_Phoenix",
+    "label": "Chibi-Phoenix",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Plesiosaur.PrimalItemSkin_ChibiDino_Plesiosaur",
+    "label": "Chibi-Plesiosaur",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Procoptodon.PrimalItemSkin_ChibiDino_Procoptodon",
+    "label": "Chibi-Procoptodon",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Pteranodon.PrimalItemSkin_ChibiDino_Pteranodon",
+    "label": "Chibi-Pteranodon",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Pulmonoscorpius.PrimalItemSkin_ChibiDino_Pulmonoscorpius",
+    "label": "Chibi-Pulmonoscorpius",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Purlovia.PrimalItemSkin_ChibiDino_Purlovia",
+    "label": "Chibi-Purlovia",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_QueenBee.PrimalItemSkin_ChibiDino_QueenBee",
+    "label": "Chibi-Queen Bee",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Quetzal.PrimalItemSkin_ChibiDino_Quetzal",
+    "label": "Chibi-Quetzal",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Raptor.PrimalItemSkin_ChibiDino_Raptor",
+    "label": "Chibi-Raptor",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Reaper.PrimalItemSkin_ChibiDino_Reaper",
+    "label": "Chibi-Reaper",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Reindeer.PrimalItemSkin_ChibiDino_Reindeer",
+    "label": "Chibi-Reindeer",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Rex.PrimalItemSkin_ChibiDino_Rex",
+    "label": "Chibi-Rex",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_WoollyRhino.PrimalItemSkin_ChibiDino_WoollyRhino",
+    "label": "Chibi-Rhino",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_RockDrake.PrimalItemSkin_ChibiDino_RockDrake",
+    "label": "Chibi-Rock Drake",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_RockGolem.PrimalItemSkin_ChibiDino_RockGolem",
+    "label": "Chibi-Rock Golem",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_MoleRat.PrimalItemSkin_ChibiDino_MoleRat",
+    "label": "Chibi-Rollrat",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Saber.PrimalItemSkin_ChibiDino_Saber",
+    "label": "Chibi-Sabertooth",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Sarco.PrimalItemSkin_ChibiDino_Sarco",
+    "label": "Chibi-Sarco",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Seeker.PrimalItemSkin_ChibiDino_Seeker",
+    "label": "Chibi-Seeker",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_ShadowMane.PrimalItemSkin_ChibiDino_ShadowMane",
+    "label": "Chibi-Shadowmane",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Shinehorn.PrimalItemSkin_ChibiDino_Shinehorn",
+    "label": "Chibi-Shinehorn",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Sinomacrops.PrimalItemSkin_ChibiDino_Sinomacrops",
+    "label": "Chibi-Sinomacrops",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Bronto_Bone.PrimalItemSkin_ChibiDino_Bronto_Bone",
+    "label": "Chibi-Skeletal Brontosaurus",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Carnotaurus_Bone.PrimalItemSkin_ChibiDino_Carnotaurus_Bone",
+    "label": "Chibi-Skeletal Carno",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Gigant_Bone.PrimalItemSkin_ChibiDino_Gigant_Bone",
+    "label": "Chibi-Skeletal Giganotosaurus",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Jerboa_Bone.PrimalItemSkin_ChibiDino_Jerboa_Bone",
+    "label": "Chibi-Skeletal Jerboa",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Quetzal_Bone.PrimalItemSkin_ChibiDino_Quetzal_Bone",
+    "label": "Chibi-Skeletal Quetzal",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Raptor_Bone.PrimalItemSkin_ChibiDino_Raptor_Bone",
+    "label": "Chibi-Skeletal Raptor",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Rex_Bone.PrimalItemSkin_ChibiDino_Rex_Bone",
+    "label": "Chibi-Skeletal Rex",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Stego_Bone.PrimalItemSkin_ChibiDino_Stego_Bone",
+    "label": "Chibi-Skeletal Stego",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Trike_Bone.PrimalItemSkin_ChibiDino_Trike_Bone",
+    "label": "Chibi-Skeletal Trike",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Wyvern_Bone.PrimalItemSkin_ChibiDino_Wyvern_Bone",
+    "label": "Chibi-Skeletal Wyvern",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_SnowOwl.PrimalItemSkin_ChibiDino_SnowOwl",
+    "label": "Chibi-Snow Owl",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Spino.PrimalItemSkin_ChibiDino_Spino",
+    "label": "Chibi-Spino",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Bulbdog_Pumpkin.PrimalItemSkin_ChibiDino_Bulbdog_Pumpkin",
+    "label": "Chibi-Spooky Bulbdog",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_SpringShinehorn.PrimalItemSkin_ChibiDino_SpringShinehorn",
+    "label": "Chibi-Spring Shinehorn",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Stego.PrimalItemSkin_ChibiDino_Stego",
+    "label": "Chibi-Stego",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_OtterStrawHat.PrimalItemSkin_ChibiDino_OtterStrawHat",
+    "label": "Chibi-Straw Hat Otter",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_GlowtailStuffed.PrimalItemSkin_ChibiDino_GlowtailStuffed",
+    "label": "Chibi-Stuffed Glowtail",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Tapejara.PrimalItemSkin_ChibiDino_Tapejara",
+    "label": "Chibi-Tapejara",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_TEKRaptor.PrimalItemSkin_ChibiDino_TEKRaptor",
+    "label": "Chibi-TEK Raptor",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_TekStryder.PrimalItemSkin_ChibiDino_TekStryder",
+    "label": "Chibi-Tek Stryder",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_TerrorBird.PrimalItemSkin_ChibiDino_TerrorBird",
+    "label": "Chibi-Terror Bird",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_WitchingOwl.PrimalItemSkin_ChibiDino_WitchingOwl",
+    "label": "Chibi-The Witching Owl",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Therizino.PrimalItemSkin_ChibiDino_Therizino",
+    "label": "Chibi-Therizino",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_SpineyLizard.PrimalItemSkin_ChibiDino_SpineyLizard",
+    "label": "Chibi-Thorny Dragon",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Thylacoleo.PrimalItemSkin_ChibiDino_Thylacoleo",
+    "label": "Chibi-Thylacoleo",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Trike.PrimalItemSkin_ChibiDino_Trike",
+    "label": "Chibi-Trike",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Troodon.PrimalItemSkin_ChibiDino_Troodon",
+    "label": "Chibi-Troodon",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Tropeognathus.PrimalItemSkin_ChibiDino_Tropeognathus",
+    "label": "Chibi-Tropeognathus",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Tuso.PrimalItemSkin_ChibiDino_Tuso",
+    "label": "Chibi-Tusoteuthis",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Unicorn.PrimalItemSkin_ChibiDino_Unicorn",
+    "label": "Chibi-Unicorn",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Velonasaur.PrimalItemSkin_ChibiDino_Velonasaur",
+    "label": "Chibi-Velonasaur",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_VoidWyvern.PrimalItemSkin_ChibiDino_VoidWyvern",
+    "label": "Chibi-Voidwyrm",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Vulture.PrimalItemSkin_ChibiDino_Vulture",
+    "label": "Chibi-Vulture",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Wyvern.PrimalItemSkin_ChibiDino_Wyvern",
+    "label": "Chibi-Wyvern",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_SaberX.PrimalItemSkin_ChibiDino_SaberX",
+    "label": "Chibi-X-Sabertooth",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Yutyrannus.PrimalItemSkin_ChibiDino_Yutyrannus",
+    "label": "Chibi-Yutyrannus",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Wyvern_Zombie.PrimalItemSkin_ChibiDino_Wyvern_Zombie",
+    "label": "Chibi-Zombie Wyvern",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Pairosaurs_VDay.PrimalItemSkin_ChibiDino_Pairosaurs_VDay",
+    "label": "Pair-o-Saurs Chibi",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Titano.PrimalItemSkin_ChibiDino_Titano",
+    "label": "Teeny Tiny Titano",
+    "category": "chibis"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_TophatKairuku.PrimalItemSkin_ChibiDino_TophatKairuku",
+    "label": "White-Collar Kairuku Chibi",
+    "category": "chibis"
   }
 ]

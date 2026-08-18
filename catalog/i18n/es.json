@@ -2478,7 +2478,7 @@
       },
       "give_item_blueprint": {
         "label": "Dar item (armas, monturas y más)",
-        "description": "Entrega cualquier item del juego: empezá a escribir su nombre en inglés (crossbow, saddle, kibble…) y elegilo del autocompletado — son más de 800 items entre armas, armaduras, monturas, consumibles, huevos, tintes, artefactos y recursos. También acepta una ruta blueprint relativa a /Game/ escrita a mano."
+        "description": "Entrega cualquier item del juego: empezá a escribir su nombre en inglés (crossbow, saddle, chibi…) y elegilo del autocompletado — son más de 1500 items entre armas, armaduras, monturas, consumibles, huevos, tintes, artefactos, recursos, estructuras, skins y chibis. También acepta una ruta blueprint relativa a /Game/ escrita a mano."
       },
       "server_chat": {
         "label": "Mensaje de servidor",

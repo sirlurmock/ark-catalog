@@ -2478,7 +2478,7 @@
       },
       "give_item_blueprint": {
         "label": "Give item (weapons, saddles & more)",
-        "description": "Gives any item in the game: start typing its name (crossbow, saddle, kibble…) and pick it from the autocomplete — over 800 items across weapons, armor, saddles, consumables, eggs, dyes, artifacts and resources. Also accepts a hand-written blueprint path relative to /Game/."
+        "description": "Gives any item in the game: start typing its name (crossbow, saddle, chibi…) and pick it from the autocomplete — over 1,500 items across weapons, armor, saddles, consumables, eggs, dyes, artifacts, resources, structures, skins and chibis. Also accepts a hand-written blueprint path relative to /Game/."
       },
       "server_chat": {
         "label": "Server message",
