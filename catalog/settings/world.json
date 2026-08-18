@@ -208,7 +208,12 @@
       "presets": [1, 2, 4, 10],
       "inverseSemantics": true
     },
-    "i18nKey": "settings.world.fuel_consumption_interval"
+    "i18nKey": "settings.world.fuel_consumption_interval",
+    "summaryAbsolute": {
+      "i18nKey": "summary.world.fuel_consumption_abs",
+      "baseSeconds": 3600,
+      "op": "multiply"
+    }
   },
   {
     "id": "global_corpse_decomposition_time_multiplier",

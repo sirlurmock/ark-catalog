@@ -559,7 +559,8 @@
     },
     "general": {
       "xp": "La experiencia se gana {value}× más rápido",
-      "harvest": "Los recursos se cosechan {value}× más"
+      "harvest": "Los recursos se cosechan {value}× más",
+      "global_spoiling_abs": "La carne cruda se pudre a los ≈{absolute} en el inventario (vanilla: {base})"
     },
     "taming": {
       "taming_speed": "Los dinos se doman {value}× más rápido"
@@ -575,7 +576,11 @@
       "imprint_amount": "Cada mimo da {value}× más imprint"
     },
     "world": {
-      "resources_respawn": "Los recursos reaparecen {inverseValue}× más rápido"
+      "resources_respawn": "Los recursos reaparecen {inverseValue}× más rápido",
+      "fuel_consumption_abs": "Una gasolina alimenta la generadora eléctrica ≈{absolute} (vanilla: {base})"
+    },
+    "structures": {
+      "pve_structure_decay_abs": "Una estructura de madera decae sin visitas a los ≈{absolute} (vanilla: {base})"
     }
   },
   "warnings": {

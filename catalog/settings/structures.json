@@ -668,7 +668,12 @@
       "max": 100,
       "presets": [1, 2, 5]
     },
-    "i18nKey": "settings.structures.pve_structure_decay_period"
+    "i18nKey": "settings.structures.pve_structure_decay_period",
+    "summaryAbsolute": {
+      "i18nKey": "summary.structures.pve_structure_decay_abs",
+      "baseSeconds": 691200,
+      "op": "multiply"
+    }
   },
   {
     "id": "pve_allow_structures_at_supply_drops",

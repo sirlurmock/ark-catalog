@@ -559,7 +559,8 @@
     },
     "general": {
       "xp": "Experience is gained {value}× faster",
-      "harvest": "Resources are harvested {value}× more"
+      "harvest": "Resources are harvested {value}× more",
+      "global_spoiling_abs": "Raw meat spoils after ≈{absolute} in your inventory (vanilla: {base})"
     },
     "taming": {
       "taming_speed": "Dinos tame {value}× faster"
@@ -575,7 +576,11 @@
       "imprint_amount": "Each cuddle grants {value}× more imprint"
     },
     "world": {
-      "resources_respawn": "Resources respawn {inverseValue}× faster"
+      "resources_respawn": "Resources respawn {inverseValue}× faster",
+      "fuel_consumption_abs": "One gasoline powers the electrical generator for ≈{absolute} (vanilla: {base})"
+    },
+    "structures": {
+      "pve_structure_decay_abs": "A wooden structure decays after ≈{absolute} without visits (vanilla: {base})"
     }
   },
   "warnings": {
