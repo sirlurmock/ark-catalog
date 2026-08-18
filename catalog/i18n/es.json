@@ -19,6 +19,7 @@
     "pick_a_category": "Elegí una categoría en el panel de la izquierda",
     "settings_changed_one": "{count} ajuste modificado",
     "setting_destination": "Se escribe en {file}, sección [{section}]",
+    "struct_array_empty": "Sin overrides: no se escribe nada y la mod usa sus defaults.",
     "setting_map_only": "Solo {maps}",
     "setting_map_only_hint": "Este ajuste solo tiene efecto en {maps}.",
     "setting_map_only_mismatch": "Este ajuste solo tiene efecto en {maps} — tu perfil usa otro mapa, así que ARK lo va a ignorar. Se exporta igual, por si cambiás de mapa.",
@@ -777,7 +778,14 @@
       "new_templates_disabled_by_default": "Plantillas nuevas desactivadas por default",
       "new_templates_disabled_by_default.description": "Cada plantilla nueva arranca pausada hasta que la actives. Default: desactivado.",
       "global_production_multiplier": "Multiplicador global de producción",
-      "global_production_multiplier.description": "Cuánto multiplican la producción de recursos todos los gatherers. x5 = cinco veces más. Default 1.0."
+      "global_production_multiplier.description": "Cuánto multiplican la producción de recursos todos los gatherers. x5 = cinco veces más. Default 1.0.",
+      "resource_overrides": "Overrides por recurso",
+      "resource_overrides.description": "Ajustá cada recurso por separado: multiplicador de producción, máximo acumulable, activarlo o no, y el tier mínimo de gatherer que lo produce. Cada fila que agregues escribe sus 4 claves (Multiplier/MaxItems/Enabled/MinTier); sin filas no se escribe nada y la mod usa sus defaults. El autocompletado trae los 135 recursos de la mod, pero podés escribir uno nuevo a mano.",
+      "resource_overrides.resource": "Recurso",
+      "resource_overrides.multiplier": "Multiplicador",
+      "resource_overrides.max_items": "Máximo de items",
+      "resource_overrides.enabled": "Activado",
+      "resource_overrides.min_tier": "Tier mínimo"
     },
     "zytharian_critters": {
       "solo_chance": "% de chance de spawn solitario",

@@ -19,6 +19,7 @@
     "pick_a_category": "Pick a category in the left panel",
     "settings_changed_one": "{count} setting changed",
     "setting_destination": "Written to {file}, section [{section}]",
+    "struct_array_empty": "No overrides: nothing is written and the mod uses its defaults.",
     "setting_map_only": "Only {maps}",
     "setting_map_only_hint": "This setting only has an effect on {maps}.",
     "setting_map_only_mismatch": "This setting only has an effect on {maps} — your profile uses another map, so ARK will ignore it. It still gets exported, in case you switch maps.",
@@ -777,7 +778,14 @@
       "new_templates_disabled_by_default": "New templates disabled by default",
       "new_templates_disabled_by_default.description": "Each new template starts paused until you enable it. Default: disabled.",
       "global_production_multiplier": "Global production multiplier",
-      "global_production_multiplier.description": "How much all gatherers' production multiplies. x5 = five times more. Default 1.0."
+      "global_production_multiplier.description": "How much all gatherers' production multiplies. x5 = five times more. Default 1.0.",
+      "resource_overrides": "Per-resource overrides",
+      "resource_overrides.description": "Tune each resource separately: production multiplier, max stockpile, whether it's enabled, and the minimum gatherer tier that produces it. Each row you add writes its 4 keys (Multiplier/MaxItems/Enabled/MinTier); with no rows nothing is written and the mod uses its defaults. Autocomplete lists the mod's 135 resources, but you can type a new one by hand.",
+      "resource_overrides.resource": "Resource",
+      "resource_overrides.multiplier": "Multiplier",
+      "resource_overrides.max_items": "Max items",
+      "resource_overrides.enabled": "Enabled",
+      "resource_overrides.min_tier": "Min tier"
     },
     "zytharian_critters": {
       "solo_chance": "Solo spawn chance (%)",
