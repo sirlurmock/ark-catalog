@@ -94,5 +94,22 @@
       ]
     },
     "i18nKey": "settings.stats.per_level_dino_wild"
+  },
+  {
+    "id": "oxygen_swim_speed_stat",
+    "key": "OxygenSwimSpeedStatMultiplier",
+    "category": "stats",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1,
+      "min": 0,
+      "max": 10
+    },
+    "i18nKey": "settings.stats.oxygen_swim_speed_stat"
   }
 ]

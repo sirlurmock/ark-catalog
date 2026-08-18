@@ -95,7 +95,7 @@
   },
   {
     "id": "disable_weather_fog",
-    "key": "bDisableWeatherFog",
+    "key": "DisableWeatherFog",
     "category": "world",
     "tier": "advanced",
     "file": "GameUserSettings.ini",
@@ -246,5 +246,37 @@
       "presets": [1, 2, 5, 10, 20]
     },
     "i18nKey": "settings.world.item_stack_size"
+  },
+  {
+    "id": "day_cycle_speed_scale",
+    "key": "DayCycleSpeedScale",
+    "category": "world",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1,
+      "min": 0.1,
+      "max": 10
+    },
+    "i18nKey": "settings.world.day_cycle_speed_scale"
+  },
+  {
+    "id": "random_supply_crate_points",
+    "key": "RandomSupplyCratePoints",
+    "category": "world",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.world.random_supply_crate_points"
   }
 ]

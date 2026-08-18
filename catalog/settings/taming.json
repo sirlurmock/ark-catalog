@@ -100,7 +100,7 @@
   },
   {
     "id": "allow_flyer_speed_leveling",
-    "key": "AllowFlyerSpeedLeveling",
+    "key": "bAllowFlyerSpeedLeveling",
     "category": "taming",
     "tier": "advanced",
     "file": "GameUserSettings.ini",
@@ -163,5 +163,20 @@
       "step": 3600
     },
     "i18nKey": "settings.taming.max_tamed_dinos_soft_tame_limit_countdown"
+  },
+  {
+    "id": "allow_speed_leveling",
+    "key": "bAllowSpeedLeveling",
+    "category": "taming",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.taming.allow_speed_leveling"
   }
 ]

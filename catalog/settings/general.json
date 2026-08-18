@@ -461,5 +461,328 @@
       "step": 50
     },
     "i18nKey": "settings.general.rcon_server_game_log_buffer"
+  },
+  {
+    "id": "server_pve",
+    "key": "ServerPVE",
+    "category": "general",
+    "tier": "basic",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.general.server_pve"
+  },
+  {
+    "id": "server_hardcore",
+    "key": "ServerHardcore",
+    "category": "general",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.general.server_hardcore"
+  },
+  {
+    "id": "allow_third_person",
+    "key": "AllowThirdPersonPlayer",
+    "category": "general",
+    "tier": "basic",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": true
+    },
+    "i18nKey": "settings.general.allow_third_person"
+  },
+  {
+    "id": "server_crosshair",
+    "key": "ServerCrosshair",
+    "category": "general",
+    "tier": "basic",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": true
+    },
+    "i18nKey": "settings.general.server_crosshair"
+  },
+  {
+    "id": "server_force_no_hud",
+    "key": "ServerForceNoHUD",
+    "category": "general",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.general.server_force_no_hud"
+  },
+  {
+    "id": "global_voice_chat",
+    "key": "GlobalVoiceChat",
+    "category": "general",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.general.global_voice_chat"
+  },
+  {
+    "id": "proximity_chat",
+    "key": "ProximityChat",
+    "category": "general",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.general.proximity_chat"
+  },
+  {
+    "id": "always_notify_player_left",
+    "key": "AlwaysNotifyPlayerLeft",
+    "category": "general",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.general.always_notify_player_left"
+  },
+  {
+    "id": "dont_always_notify_player_joined",
+    "key": "DontAlwaysNotifyPlayerJoined",
+    "category": "general",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.general.dont_always_notify_player_joined"
+  },
+  {
+    "id": "admin_logging",
+    "key": "AdminLogging",
+    "category": "general",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.general.admin_logging"
+  },
+  {
+    "id": "allow_hide_damage_source_from_logs",
+    "key": "AllowHideDamageSourceFromLogs",
+    "category": "general",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": true
+    },
+    "i18nKey": "settings.general.allow_hide_damage_source_from_logs"
+  },
+  {
+    "id": "enable_pvp_gamma",
+    "key": "EnablePvPGamma",
+    "category": "general",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.general.enable_pvp_gamma"
+  },
+  {
+    "id": "disable_pve_gamma",
+    "key": "DisablePvEGamma",
+    "category": "general",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.general.disable_pve_gamma"
+  },
+  {
+    "id": "no_tribute_downloads",
+    "key": "NoTributeDownloads",
+    "category": "general",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.general.no_tribute_downloads"
+  },
+  {
+    "id": "prevent_download_survivors",
+    "key": "PreventDownloadSurvivors",
+    "category": "general",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.general.prevent_download_survivors"
+  },
+  {
+    "id": "prevent_download_items",
+    "key": "PreventDownloadItems",
+    "category": "general",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.general.prevent_download_items"
+  },
+  {
+    "id": "prevent_download_dinos",
+    "key": "PreventDownloadDinos",
+    "category": "general",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.general.prevent_download_dinos"
+  },
+  {
+    "id": "prevent_tribe_alliances",
+    "key": "PreventTribeAlliances",
+    "category": "general",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.general.prevent_tribe_alliances"
+  },
+  {
+    "id": "prevent_offline_pvp_interval",
+    "key": "PreventOfflinePvPInterval",
+    "category": "general",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 0,
+      "min": 0,
+      "max": 86400,
+      "presets": [10, 60, 300]
+    },
+    "i18nKey": "settings.general.prevent_offline_pvp_interval"
+  },
+  {
+    "id": "rcon_port",
+    "key": "RCONPort",
+    "category": "general",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["dedicated"],
+    "control": {
+      "kind": "integer",
+      "default": 27020,
+      "min": 1,
+      "max": 65535
+    },
+    "i18nKey": "settings.general.rcon_port"
+  },
+  {
+    "id": "listen_server_tether_distance",
+    "key": "ListenServerTetherDistanceMultiplier",
+    "category": "general",
+    "tier": "basic",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["host_local"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1,
+      "min": 0.1,
+      "max": 100,
+      "presets": [1, 2, 3, 99]
+    },
+    "i18nKey": "settings.general.listen_server_tether_distance"
   }
 ]
