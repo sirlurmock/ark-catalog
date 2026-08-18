@@ -260,5 +260,53 @@
       "default": true
     },
     "i18nKey": "settings.dinos.force_gacha_unhappy_in_caves"
+  },
+  {
+    "id": "disable_dino_riding",
+    "key": "bDisableDinoRiding",
+    "category": "dinos",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "boolean", "default": false },
+    "i18nKey": "settings.dinos.disable_dino_riding"
+  },
+  {
+    "id": "disable_dino_taming",
+    "key": "bDisableDinoTaming",
+    "category": "dinos",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "boolean", "default": false },
+    "i18nKey": "settings.dinos.disable_dino_taming"
+  },
+  {
+    "id": "passive_defenses_damage_riderless",
+    "key": "bPassiveDefensesDamageRiderlessDinos",
+    "category": "dinos",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "boolean", "default": false },
+    "i18nKey": "settings.dinos.passive_defenses_damage_riderless"
+  },
+  {
+    "id": "flyer_platform_unaligned_basing",
+    "key": "bFlyerPlatformAllowUnalignedDinoBasing",
+    "category": "dinos",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "boolean", "default": false },
+    "i18nKey": "settings.dinos.flyer_platform_unaligned_basing"
   }
 ]

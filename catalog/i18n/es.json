@@ -182,7 +182,29 @@
       "rcon_server_game_log_buffer": "Buffer de log de RCON",
       "rcon_server_game_log_buffer.description": "Cuántas líneas de log conserva RCON en memoria para `getgamelog`. Subir si necesitás más historial. Default 600.",
       "engram_overrides": "Overrides por engrama (costo, nivel, prerequisitos)",
-      "engram_overrides.description": "Configura cada engrama por separado: costo en puntos, nivel mínimo para aprenderlo, sacarle los prerequisitos u ocultarlo. Los campos numéricos vacíos NO se escriben — el engrama conserva su valor vanilla; poné un número solo en lo que quieras cambiar (0 en costo = gratis). No repitas un engrama que ya esté en \"Engramas ocultos\": ARK espera cada engrama una sola vez."
+      "engram_overrides.description": "Configura cada engrama por separado: costo en puntos, nivel mínimo para aprenderlo, sacarle los prerequisitos u ocultarlo. Los campos numéricos vacíos NO se escriben — el engrama conserva su valor vanilla; poné un número solo en lo que quieras cambiar (0 en costo = gratis). No repitas un engrama que ya esté en \"Engramas ocultos\": ARK espera cada engrama una sola vez.",
+      "use_singleplayer_settings": "Ajustes de un solo jugador",
+      "use_singleplayer_settings.description": "Rebalancea el juego entero para jugar solo o en grupos muy chicos: maduración, crianza y crafteo más rápidos sin tocar cada multiplicador a mano. Es el mismo tick de 'Use Singleplayer Settings' del menú.",
+      "show_creative_mode": "Botón de modo creativo",
+      "show_creative_mode.description": "Agrega al menú de pausa un botón para activar y desactivar el modo creativo (vuelo, crafteo instantáneo, sin peso). Sin esto el creativo solo sale por comando.",
+      "allow_custom_recipes": "Permitir recetas personalizadas",
+      "allow_custom_recipes.description": "Con esto apagado desaparece el sistema de recetas y cocina personalizadas (incluidos los resultados por habilidad de crafteo).",
+      "max_players_in_tribe": "Máximo de jugadores por tribu",
+      "max_players_in_tribe.description": "Tope de sobrevivientes en una tribu. Con 0 no hay límite; con 1 las tribus quedan efectivamente deshabilitadas.",
+      "pve_allow_tribe_war": "Permitir guerras de tribus en PvE",
+      "pve_allow_tribe_war.description": "Con esto apagado, las tribus ya no pueden declararse la guerra formalmente (el período pactado donde el PvP se habilita entre ellas).",
+      "pve_allow_tribe_war_cancel": "Permitir cancelar una guerra pactada",
+      "pve_allow_tribe_war_cancel.description": "Deja cancelar una guerra de tribus ya pactada antes de que empiece. Por default una guerra acordada no se puede retirar.",
+      "auto_pve_timer": "PvE automático por horario",
+      "auto_pve_timer.description": "Activa el modo PvE en un servidor PvP durante las franjas horarias configuradas (AutoPvEStartTimeSeconds / AutoPvEStopTimeSeconds). El clásico 'PvP solo de noche'.",
+      "auto_pve_use_system_time": "Horario PvE en hora real",
+      "auto_pve_use_system_time.description": "Los horarios del PvE automático se leen del reloj del sistema del servidor en vez de la hora del mundo del juego.",
+      "auto_pve_start_time": "Inicio del PvE automático (segundos)",
+      "auto_pve_start_time.description": "Segundo del día en que arranca el PvE automático (0 a 86400; 3600 = la 1:00). Usa hora del juego o del sistema según bAutoPvEUseSystemTime.",
+      "auto_pve_stop_time": "Fin del PvE automático (segundos)",
+      "auto_pve_stop_time.description": "Segundo del día en que termina el PvE automático (0 a 86400).",
+      "disable_friendly_fire": "Desactivar fuego amigo",
+      "disable_friendly_fire.description": "Impide el daño entre compañeros de tribu, sus criaturas y sus estructuras."
     },
     "taming": {
       "taming_speed": "Velocidad de doma",
@@ -240,7 +262,11 @@
       "per_level_dino_tamed": "Multiplicadores de stat por nivel (dino domesticado)",
       "per_level_dino_tamed.description": "Cuánto sube cada estadística de un dino domesticado por nivel ganado. Índice 0 = Salud, 8 = Daño cuerpo a cuerpo.",
       "per_level_dino_wild": "Multiplicadores de stat por nivel (dino salvaje)",
-      "per_level_dino_wild.description": "Cuánto sube cada estadística de un dino salvaje por nivel. Afecta a todos los dinos antes de ser domados. Cambiar con cuidado."
+      "per_level_dino_wild.description": "Cuánto sube cada estadística de un dino salvaje por nivel. Afecta a todos los dinos antes de ser domados. Cambiar con cuidado.",
+      "per_level_dino_tamed_add": "Bono inmediato al domar (por stat)",
+      "per_level_dino_tamed_add.description": "Multiplica el bono de stats que la criatura recibe al momento de domarse, por atributo. Los defaults vanilla NO son 1: Salud y Daño arrancan en 0.14 (tabla de la wiki).",
+      "per_level_dino_tamed_affinity": "Bono por efectividad de doma (por stat)",
+      "per_level_dino_tamed_affinity.description": "Multiplica el bono de stats dependiente de la efectividad de doma, por atributo. Los defaults vanilla NO son 1: Salud y Daño arrancan en 0.44 (tabla de la wiki)."
     },
     "players": {
       "player_damage": "Daño de jugadores",
@@ -278,7 +304,17 @@
       "tribe_name_change_cooldown": "Cooldown para cambiar nombre de tribu (min)",
       "tribe_name_change_cooldown.description": "Cuántos minutos hay que esperar entre cambios de nombre de tribu. 0 = sin cooldown. Default 15.",
       "kick_idle_players_period": "Tiempo para kickear jugadores idle (seg)",
-      "kick_idle_players_period.description": "Cuántos segundos pueden estar inactivos antes de ser desconectados. 0 = no kickear. Default 3600 (1h)."
+      "kick_idle_players_period.description": "Cuántos segundos pueden estar inactivos antes de ser desconectados. 0 = no kickear. Default 3600 (1h).",
+      "use_corpse_locator": "Localizador de cadáver",
+      "use_corpse_locator.description": "El rayo de luz verde que marca dónde moriste. Apagalo para que recuperar el cuerpo sea parte del desafío.",
+      "increase_pvp_respawn_interval": "Respawn PvP escalonado",
+      "increase_pvp_respawn_interval.description": "Suma tiempo extra de reaparición a quien muere repetidamente en PvP (anti spawn-rush). El tiempo base, la escala y la ventana se configuran con los tres ajustes hermanos.",
+      "increase_pvp_respawn_base": "Respawn PvP: tiempo base (segundos)",
+      "increase_pvp_respawn_base.description": "Segundos extra de reaparición tras morir en PvP. Se multiplica con cada muerte dentro de la ventana.",
+      "increase_pvp_respawn_check_period": "Respawn PvP: ventana (segundos)",
+      "increase_pvp_respawn_check_period.description": "Ventana de tiempo dentro de la cual las muertes seguidas escalan el tiempo de reaparición.",
+      "increase_pvp_respawn_multiplier": "Respawn PvP: escala",
+      "increase_pvp_respawn_multiplier.description": "Multiplicador que se aplica al tiempo extra con cada muerte dentro de la ventana. x2 = cada muerte duplica la espera."
     },
     "world": {
       "resources_respawn": "Velocidad de reaparición de recursos",
@@ -314,7 +350,9 @@
       "item_stack_size": "Multiplicador de tamaño de stack de items",
       "item_stack_size.description": "Cuántos items entran por slot del inventario. x10 = stacks de 100 madera, etc. Default 1.0 (vanilla).",
       "config_override_item_max_quantity": "Tamaño de pila por item",
-      "config_override_item_max_quantity.description": "Fija el tamaño de pila de un item concreto, por encima del multiplicador global. Con bIgnoreMultiplier en True usa la cantidad tal cual; en False, la cantidad se multiplica por el multiplicador global de pilas."
+      "config_override_item_max_quantity.description": "Fija el tamaño de pila de un item concreto, por encima del multiplicador global. Con bIgnoreMultiplier en True usa la cantidad tal cual; en False, la cantidad se multiplica por el multiplicador global de pilas.",
+      "disable_loot_crates": "Desactivar los drops de loot",
+      "disable_loot_crates.description": "No aparecen más los beacons/cofres de loot del mapa (los de artefactos siguen apareciendo)."
     },
     "structures": {
       "structure_damage": "Daño recibido por estructuras",
@@ -392,7 +430,15 @@
       "max_active_resource_caches_sp": "Resource caches activos máximos (SP, ASA)",
       "max_active_resource_caches_sp.description": "Cuántos resource caches activos en single player u host local. Solo ASA. Default 6.",
       "max_active_city_outposts_sp": "City outposts activos máximos (SP, ASA)",
-      "max_active_city_outposts_sp.description": "Cuántos city outposts activos en single player u host local. Solo ASA. Default 1."
+      "max_active_city_outposts_sp.description": "Cuántos city outposts activos en single player u host local. Solo ASA. Default 1.",
+      "disable_structure_placement_collision": "Construir atravesando el terreno",
+      "disable_structure_placement_collision.description": "Las estructuras pueden clipear contra el terreno al colocarse. El clásico para construir sin peleas con las colisiones.",
+      "allow_platform_saddle_multi_floors": "Varios pisos en plataformas",
+      "allow_platform_saddle_multi_floors.description": "Permite apilar múltiples pisos sobre monturas plataforma.",
+      "structure_damage_repair_cooldown": "Espera para reparar tras daño (segundos)",
+      "structure_damage_repair_cooldown.description": "Segundos desde el último golpe hasta poder reparar la estructura. Con 0 se puede reparar en pleno raid.",
+      "pvp_zone_structure_damage": "Daño a estructuras en cuevas (PvP)",
+      "pvp_zone_structure_damage.description": "Escala el daño que reciben las estructuras dentro de cuevas. Default 6 = seis veces más frágiles que afuera; bajalo para permitir bases de cueva más duras."
     },
     "spawns": {
       "dino_spawn_weight": "Pesos de spawn de dinos",
@@ -404,7 +450,11 @@
       "harvest_resource_class": "Multiplicadores de cosecha por recurso",
       "harvest_resource_class.description": "Cambia cuántos recursos da un nodo específico (ej: x10 metal pero x1 madera). Permite ajustes finos imposibles con el multiplicador global.",
       "config_override_item_crafting_costs": "Receta de crafteo por item",
-      "config_override_item_crafting_costs.description": "Reemplaza los materiales para craftear un item concreto: elegís el item y cargás la lista de recursos con su cantidad. La receta nueva PISA a la vanilla entera — si el hacha pedía piedra y madera y solo cargás paja, ahora cuesta solo paja. Cada campo bCraftingRequireExactResourceType en True exige el recurso exacto (sin variantes intercambiables)."
+      "config_override_item_crafting_costs.description": "Reemplaza los materiales para craftear un item concreto: elegís el item y cargás la lista de recursos con su cantidad. La receta nueva PISA a la vanilla entera — si el hacha pedía piedra y madera y solo cargás paja, ahora cuesta solo paja. Cada campo bCraftingRequireExactResourceType en True exige el recurso exacto (sin variantes intercambiables).",
+      "resource_no_replenish_radius_players": "Radio sin reaparición: jugadores",
+      "resource_no_replenish_radius_players.description": "Qué tan lejos de los jugadores reaparecen los recursos. Menos de 1 deja que los árboles y rocas vuelvan más cerca tuyo; más de 1 los aleja.",
+      "resource_no_replenish_radius_structures": "Radio sin reaparición: estructuras",
+      "resource_no_replenish_radius_structures.description": "Qué tan lejos de las estructuras reaparecen los recursos. Bajarlo hace que los recursos vuelvan pegados a tu base."
     },
     "dinos": {
       "dino_class_damage": "Daño por especie (salvaje)",
@@ -436,7 +486,15 @@
       "dino_turret_damage": "Daño de torretas a dinos",
       "dino_turret_damage.description": "Cuánto daño hacen las torretas automáticas a los dinos. x2 = el doble de daño. Default 1.0 (vanilla).",
       "raid_dino_food_drain": "Consumo de comida de dinos de raid",
-      "raid_dino_food_drain.description": "Qué tan rápido se vacía la comida de Titanos, Forest Titan, Mek y otros raid dinos. Menor = duran más. Default 1.0 (vanilla)."
+      "raid_dino_food_drain.description": "Qué tan rápido se vacía la comida de Titanos, Forest Titan, Mek y otros raid dinos. Menor = duran más. Default 1.0 (vanilla).",
+      "disable_dino_riding": "Prohibir montar criaturas",
+      "disable_dino_riding.description": "Nadie puede montar tames. Para servidores a pie o de desafío.",
+      "disable_dino_taming": "Prohibir domar criaturas",
+      "disable_dino_taming.description": "Nadie puede domar criaturas salvajes. El servidor queda solo-humanos.",
+      "passive_defenses_damage_riderless": "Las púas dañan criaturas sin jinete",
+      "passive_defenses_damage_riderless.description": "Las defensas pasivas (muros de púas) dañan también a criaturas salvajes o sin jinete — vanilla solo dañan con jinete.",
+      "flyer_platform_unaligned_basing": "Plataformas voladoras: aterrizaje ajeno",
+      "flyer_platform_unaligned_basing.description": "Las criaturas no aliadas pueden pararse sobre plataformas de Quetzal en vuelo. Cuidado en PvP: habilita abordajes."
     },
     "client": {
       "graphics_quality": "Calidad gráfica general",

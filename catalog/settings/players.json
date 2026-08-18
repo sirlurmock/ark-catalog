@@ -314,5 +314,65 @@
       "step": 3600
     },
     "i18nKey": "settings.players.implant_suicide_cd"
+  },
+  {
+    "id": "use_corpse_locator",
+    "key": "bUseCorpseLocator",
+    "category": "players",
+    "tier": "basic",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "boolean", "default": true },
+    "i18nKey": "settings.players.use_corpse_locator"
+  },
+  {
+    "id": "increase_pvp_respawn_interval",
+    "key": "bIncreasePvPRespawnInterval",
+    "category": "players",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "boolean", "default": true },
+    "i18nKey": "settings.players.increase_pvp_respawn_interval"
+  },
+  {
+    "id": "increase_pvp_respawn_base",
+    "key": "IncreasePvPRespawnIntervalBaseAmount",
+    "category": "players",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "float_multiplier", "default": 60, "min": 0, "max": 3600, "step": 10 },
+    "i18nKey": "settings.players.increase_pvp_respawn_base"
+  },
+  {
+    "id": "increase_pvp_respawn_check_period",
+    "key": "IncreasePvPRespawnIntervalCheckPeriod",
+    "category": "players",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "float_multiplier", "default": 300, "min": 0, "max": 3600, "step": 10 },
+    "i18nKey": "settings.players.increase_pvp_respawn_check_period"
+  },
+  {
+    "id": "increase_pvp_respawn_multiplier",
+    "key": "IncreasePvPRespawnIntervalMultiplier",
+    "category": "players",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "float_multiplier", "default": 2, "min": 1, "max": 10, "step": 0.5 },
+    "i18nKey": "settings.players.increase_pvp_respawn_multiplier"
   }
 ]

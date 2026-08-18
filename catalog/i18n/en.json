@@ -182,7 +182,29 @@
       "rcon_server_game_log_buffer": "RCON game log buffer",
       "rcon_server_game_log_buffer.description": "How many log lines RCON keeps in memory for `getgamelog`. Raise if you need more history. Default 600.",
       "engram_overrides": "Per-engram overrides (cost, level, prereqs)",
-      "engram_overrides.description": "Configures each engram separately: point cost, minimum level to learn it, removing its prerequisites, or hiding it. Empty numeric fields are NOT written — the engram keeps its vanilla value; set a number only for what you want to change (0 cost = free). Don't repeat an engram that is already in \"Hidden engrams\": ARK expects each engram only once."
+      "engram_overrides.description": "Configures each engram separately: point cost, minimum level to learn it, removing its prerequisites, or hiding it. Empty numeric fields are NOT written — the engram keeps its vanilla value; set a number only for what you want to change (0 cost = free). Don't repeat an engram that is already in \"Hidden engrams\": ARK expects each engram only once.",
+      "use_singleplayer_settings": "Single-player settings",
+      "use_singleplayer_settings.description": "Rebalances the whole game for solo or very small groups: faster maturation, breeding and crafting without touching each multiplier by hand. Same as the 'Use Singleplayer Settings' menu tick.",
+      "show_creative_mode": "Creative mode button",
+      "show_creative_mode.description": "Adds a pause-menu button to toggle creative mode (flight, instant craft, no weight). Without it, creative mode is only available via command.",
+      "allow_custom_recipes": "Allow custom recipes",
+      "allow_custom_recipes.description": "Turning this off removes the custom recipe/cooking system entirely (including crafting-skill-based results).",
+      "max_players_in_tribe": "Max players per tribe",
+      "max_players_in_tribe.description": "Cap on survivors in a tribe. 0 means no limit; 1 effectively disables tribes.",
+      "pve_allow_tribe_war": "Allow tribe wars in PvE",
+      "pve_allow_tribe_war.description": "Turned off, tribes can no longer formally declare war on each other (the agreed period where PvP is enabled between them).",
+      "pve_allow_tribe_war_cancel": "Allow cancelling an agreed war",
+      "pve_allow_tribe_war_cancel.description": "Lets tribes cancel an agreed-upon war before it starts. By default an agreed war cannot be withdrawn.",
+      "auto_pve_timer": "Scheduled auto-PvE",
+      "auto_pve_timer.description": "Enables PvE mode on a PvP server during the configured time windows (AutoPvEStartTimeSeconds / AutoPvEStopTimeSeconds). The classic 'PvP only at night'.",
+      "auto_pve_use_system_time": "PvE schedule in real time",
+      "auto_pve_use_system_time.description": "Auto-PvE times are read from the server's system clock instead of the in-game world time.",
+      "auto_pve_start_time": "Auto-PvE start time (seconds)",
+      "auto_pve_start_time.description": "Second of the day when auto-PvE starts (0 to 86400; 3600 = 1:00 AM). Uses game or system time depending on bAutoPvEUseSystemTime.",
+      "auto_pve_stop_time": "Auto-PvE stop time (seconds)",
+      "auto_pve_stop_time.description": "Second of the day when auto-PvE ends (0 to 86400).",
+      "disable_friendly_fire": "Disable friendly fire",
+      "disable_friendly_fire.description": "Prevents damage between tribe mates, their tames and their structures."
     },
     "taming": {
       "taming_speed": "Taming speed multiplier",
@@ -240,7 +262,11 @@
       "per_level_dino_tamed": "Per-level stat multipliers (tamed dino)",
       "per_level_dino_tamed.description": "How much each tamed dino stat increases per level gained. Index 0 = Health, 8 = Melee Damage.",
       "per_level_dino_wild": "Per-level stat multipliers (wild dino)",
-      "per_level_dino_wild.description": "How much each wild dino stat increases per level. Affects all dinos before taming. Change with care."
+      "per_level_dino_wild.description": "How much each wild dino stat increases per level. Affects all dinos before taming. Change with care.",
+      "per_level_dino_tamed_add": "Immediate taming bonus (per stat)",
+      "per_level_dino_tamed_add.description": "Scales the stat bonus the creature receives at taming time, per attribute. Vanilla defaults are NOT all 1: Health and Damage start at 0.14 (wiki table).",
+      "per_level_dino_tamed_affinity": "Taming-effectiveness bonus (per stat)",
+      "per_level_dino_tamed_affinity.description": "Scales the taming-effectiveness-dependent stat bonus, per attribute. Vanilla defaults are NOT all 1: Health and Damage start at 0.44 (wiki table)."
     },
     "players": {
       "player_damage": "Player damage multiplier",
@@ -278,7 +304,17 @@
       "tribe_name_change_cooldown": "Tribe name change cooldown (min)",
       "tribe_name_change_cooldown.description": "How many minutes to wait between tribe name changes. 0 = no cooldown. Default 15.",
       "kick_idle_players_period": "Kick idle players period (sec)",
-      "kick_idle_players_period.description": "How many seconds players can stay idle before being disconnected. 0 = don't kick. Default 3600 (1h)."
+      "kick_idle_players_period.description": "How many seconds players can stay idle before being disconnected. 0 = don't kick. Default 3600 (1h).",
+      "use_corpse_locator": "Corpse locator",
+      "use_corpse_locator.description": "The green light beam marking where you died. Turn it off to make body recovery part of the challenge.",
+      "increase_pvp_respawn_interval": "Scaling PvP respawn",
+      "increase_pvp_respawn_interval.description": "Adds extra respawn time to players dying repeatedly in PvP (anti spawn-rush). Base amount, scaling and window are set by the three sibling settings.",
+      "increase_pvp_respawn_base": "PvP respawn: base amount (seconds)",
+      "increase_pvp_respawn_base.description": "Extra respawn seconds after dying in PvP. Multiplied with each death inside the window.",
+      "increase_pvp_respawn_check_period": "PvP respawn: window (seconds)",
+      "increase_pvp_respawn_check_period.description": "Time window within which consecutive deaths keep scaling the respawn time.",
+      "increase_pvp_respawn_multiplier": "PvP respawn: scaling",
+      "increase_pvp_respawn_multiplier.description": "Multiplier applied to the extra time with each death inside the window. x2 = every death doubles the wait."
     },
     "world": {
       "resources_respawn": "Resource respawn speed",
@@ -314,7 +350,9 @@
       "item_stack_size": "Item stack size multiplier",
       "item_stack_size.description": "How many items fit per inventory slot. x10 = stacks of 100 wood, etc. Default 1.0 (vanilla).",
       "config_override_item_max_quantity": "Per-item stack size",
-      "config_override_item_max_quantity.description": "Sets the stack size of a specific item, overriding the global multiplier. With bIgnoreMultiplier True the quantity is used as-is; with False it gets multiplied by the global stack size multiplier."
+      "config_override_item_max_quantity.description": "Sets the stack size of a specific item, overriding the global multiplier. With bIgnoreMultiplier True the quantity is used as-is; with False it gets multiplied by the global stack size multiplier.",
+      "disable_loot_crates": "Disable loot crates",
+      "disable_loot_crates.description": "Map loot beacons/crates no longer spawn (artifact crates still do)."
     },
     "structures": {
       "structure_damage": "Structure damage multiplier",
@@ -392,7 +430,15 @@
       "max_active_resource_caches_sp": "Max active resource caches (SP, ASA)",
       "max_active_resource_caches_sp.description": "How many resource caches active in single player or host local. ASA only. Default 6.",
       "max_active_city_outposts_sp": "Max active city outposts (SP, ASA)",
-      "max_active_city_outposts_sp.description": "How many city outposts active in single player or host local. ASA only. Default 1."
+      "max_active_city_outposts_sp.description": "How many city outposts active in single player or host local. ASA only. Default 1.",
+      "disable_structure_placement_collision": "Build through terrain",
+      "disable_structure_placement_collision.description": "Structures may clip into terrain when placed. The classic for building without collision fights.",
+      "allow_platform_saddle_multi_floors": "Multiple platform floors",
+      "allow_platform_saddle_multi_floors.description": "Allows stacking multiple floors on platform saddles.",
+      "structure_damage_repair_cooldown": "Repair cooldown after damage (seconds)",
+      "structure_damage_repair_cooldown.description": "Seconds from the last hit until the structure can be repaired. At 0 you can repair mid-raid.",
+      "pvp_zone_structure_damage": "Cave structure damage (PvP)",
+      "pvp_zone_structure_damage.description": "Scales damage taken by structures inside caves. Default 6 = six times more fragile than outside; lower it to allow tougher cave bases."
     },
     "spawns": {
       "dino_spawn_weight": "Dino spawn weights",
@@ -404,7 +450,11 @@
       "harvest_resource_class": "Per-resource harvest multipliers",
       "harvest_resource_class.description": "Changes how many resources a specific node yields (e.g., x10 metal but x1 wood). Allows fine adjustments impossible with the global multiplier.",
       "config_override_item_crafting_costs": "Per-item crafting recipe",
-      "config_override_item_crafting_costs.description": "Replaces the crafting materials of a specific item: pick the item and load the resource list with amounts. The new recipe REPLACES the vanilla one entirely — if the hatchet cost stone and wood and you only add thatch, it now costs only thatch. Each bCraftingRequireExactResourceType set to True demands that exact resource (no interchangeable variants)."
+      "config_override_item_crafting_costs.description": "Replaces the crafting materials of a specific item: pick the item and load the resource list with amounts. The new recipe REPLACES the vanilla one entirely — if the hatchet cost stone and wood and you only add thatch, it now costs only thatch. Each bCraftingRequireExactResourceType set to True demands that exact resource (no interchangeable variants).",
+      "resource_no_replenish_radius_players": "No-respawn radius: players",
+      "resource_no_replenish_radius_players.description": "How far from players resources regrow. Below 1 lets trees and rocks come back closer to you; above 1 pushes them farther.",
+      "resource_no_replenish_radius_structures": "No-respawn radius: structures",
+      "resource_no_replenish_radius_structures.description": "How far from structures resources regrow. Lowering it lets resources come back right next to your base."
     },
     "dinos": {
       "dino_class_damage": "Per-species damage (wild)",
@@ -436,7 +486,15 @@
       "dino_turret_damage": "Turret damage to dinos",
       "dino_turret_damage.description": "How much damage automatic turrets deal to dinos. x2 = double damage. Default 1.0 (vanilla).",
       "raid_dino_food_drain": "Raid dino food drain",
-      "raid_dino_food_drain.description": "How fast Titanos, Forest Titan, Mek and other raid dinos eat. Lower = last longer. Default 1.0 (vanilla)."
+      "raid_dino_food_drain.description": "How fast Titanos, Forest Titan, Mek and other raid dinos eat. Lower = last longer. Default 1.0 (vanilla).",
+      "disable_dino_riding": "Disable dino riding",
+      "disable_dino_riding.description": "No one can ride tames. For on-foot or challenge servers.",
+      "disable_dino_taming": "Disable dino taming",
+      "disable_dino_taming.description": "No one can tame wild creatures. The server becomes humans-only.",
+      "passive_defenses_damage_riderless": "Spikes damage riderless creatures",
+      "passive_defenses_damage_riderless.description": "Passive defenses (spike walls) also damage wild or riderless creatures — vanilla only damages ridden ones.",
+      "flyer_platform_unaligned_basing": "Flyer platforms: unaligned basing",
+      "flyer_platform_unaligned_basing.description": "Non-allied tames can stand on flying Quetzal platforms. PvP beware: this enables boarding."
     },
     "client": {
       "graphics_quality": "Overall graphics quality",

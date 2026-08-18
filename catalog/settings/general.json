@@ -811,5 +811,137 @@
       "presets": [1, 2, 3, 99]
     },
     "i18nKey": "settings.general.listen_server_tether_distance"
+  },
+  {
+    "id": "use_singleplayer_settings",
+    "key": "bUseSingleplayerSettings",
+    "category": "general",
+    "tier": "basic",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "boolean", "default": false },
+    "i18nKey": "settings.general.use_singleplayer_settings"
+  },
+  {
+    "id": "show_creative_mode",
+    "key": "bShowCreativeMode",
+    "category": "general",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "boolean", "default": false },
+    "i18nKey": "settings.general.show_creative_mode"
+  },
+  {
+    "id": "allow_custom_recipes",
+    "key": "bAllowCustomRecipes",
+    "category": "general",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "boolean", "default": true },
+    "i18nKey": "settings.general.allow_custom_recipes"
+  },
+  {
+    "id": "max_players_in_tribe",
+    "key": "MaxNumberOfPlayersInTribe",
+    "category": "general",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "integer", "default": 0, "min": 0, "step": 1 },
+    "i18nKey": "settings.general.max_players_in_tribe"
+  },
+  {
+    "id": "pve_allow_tribe_war",
+    "key": "bPvEAllowTribeWar",
+    "category": "general",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "boolean", "default": true },
+    "i18nKey": "settings.general.pve_allow_tribe_war"
+  },
+  {
+    "id": "pve_allow_tribe_war_cancel",
+    "key": "bPvEAllowTribeWarCancel",
+    "category": "general",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "boolean", "default": false },
+    "i18nKey": "settings.general.pve_allow_tribe_war_cancel"
+  },
+  {
+    "id": "auto_pve_timer",
+    "key": "bAutoPvETimer",
+    "category": "general",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "boolean", "default": false },
+    "i18nKey": "settings.general.auto_pve_timer"
+  },
+  {
+    "id": "auto_pve_use_system_time",
+    "key": "bAutoPvEUseSystemTime",
+    "category": "general",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "boolean", "default": false },
+    "i18nKey": "settings.general.auto_pve_use_system_time"
+  },
+  {
+    "id": "auto_pve_start_time",
+    "key": "AutoPvEStartTimeSeconds",
+    "category": "general",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "float_multiplier", "default": 0, "min": 0, "max": 86400, "step": 60 },
+    "i18nKey": "settings.general.auto_pve_start_time"
+  },
+  {
+    "id": "auto_pve_stop_time",
+    "key": "AutoPvEStopTimeSeconds",
+    "category": "general",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "float_multiplier", "default": 0, "min": 0, "max": 86400, "step": 60 },
+    "i18nKey": "settings.general.auto_pve_stop_time"
+  },
+  {
+    "id": "disable_friendly_fire",
+    "key": "bDisableFriendlyFire",
+    "category": "general",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "boolean", "default": false },
+    "i18nKey": "settings.general.disable_friendly_fire"
   }
 ]

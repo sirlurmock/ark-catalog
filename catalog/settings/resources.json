@@ -45,5 +45,29 @@
       ]
     },
     "i18nKey": "settings.resources.config_override_item_crafting_costs"
+  },
+  {
+    "id": "resource_no_replenish_radius_players",
+    "key": "ResourceNoReplenishRadiusPlayers",
+    "category": "resources",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "float_multiplier", "default": 1, "min": 0, "max": 10, "step": 0.1, "presets": [0.5, 1, 2] },
+    "i18nKey": "settings.resources.resource_no_replenish_radius_players"
+  },
+  {
+    "id": "resource_no_replenish_radius_structures",
+    "key": "ResourceNoReplenishRadiusStructures",
+    "category": "resources",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "float_multiplier", "default": 1, "min": 0, "max": 10, "step": 0.1, "presets": [0.5, 1, 2] },
+    "i18nKey": "settings.resources.resource_no_replenish_radius_structures"
   }
 ]

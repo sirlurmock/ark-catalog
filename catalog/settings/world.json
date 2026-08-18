@@ -310,5 +310,17 @@
       "default": false
     },
     "i18nKey": "settings.world.random_supply_crate_points"
+  },
+  {
+    "id": "disable_loot_crates",
+    "key": "bDisableLootCrates",
+    "category": "world",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "boolean", "default": false },
+    "i18nKey": "settings.world.disable_loot_crates"
   }
 ]
