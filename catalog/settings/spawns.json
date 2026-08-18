@@ -52,7 +52,7 @@
       "kind": "struct_collection",
       "default": [],
       "fields": [
-        { "name": "NPCSpawnEntriesContainerClassString", "type": "string", "required": true },
+        { "name": "NPCSpawnEntriesContainerClassString", "type": "string", "required": true, "suggestions": "spawn_containers" },
         {
           "name": "NPCSpawnEntries",
           "type": "struct_list",
@@ -87,7 +87,7 @@
       "kind": "struct_collection",
       "default": [],
       "fields": [
-        { "name": "NPCSpawnEntriesContainerClassString", "type": "string", "required": true },
+        { "name": "NPCSpawnEntriesContainerClassString", "type": "string", "required": true, "suggestions": "spawn_containers" },
         {
           "name": "NPCSpawnEntries",
           "type": "struct_list",
@@ -119,7 +119,7 @@
       "kind": "struct_collection",
       "default": [],
       "fields": [
-        { "name": "NPCSpawnEntriesContainerClassString", "type": "string", "required": true },
+        { "name": "NPCSpawnEntriesContainerClassString", "type": "string", "required": true, "suggestions": "spawn_containers" },
         {
           "name": "NPCSpawnEntries",
           "type": "struct_list",
