@@ -16,7 +16,12 @@
       "presets": [1, 2, 5, 10, 25]
     },
     "i18nKey": "settings.breeding.egg_hatch_speed",
-    "summaryTemplate": "summary.breeding.egg_hatch"
+    "summaryTemplate": "summary.breeding.egg_hatch",
+    "summaryAbsolute": {
+      "i18nKey": "summary.breeding.egg_hatch_abs",
+      "baseSeconds": 17999,
+      "op": "divide"
+    }
   },
   {
     "id": "baby_mature_speed_multiplier",
@@ -35,7 +40,12 @@
       "presets": [1, 2, 5, 10, 25]
     },
     "i18nKey": "settings.breeding.baby_mature_speed",
-    "summaryTemplate": "summary.breeding.baby_mature"
+    "summaryTemplate": "summary.breeding.baby_mature",
+    "summaryAbsolute": {
+      "i18nKey": "summary.breeding.baby_mature_abs",
+      "baseSeconds": 333333,
+      "op": "divide"
+    }
   },
   {
     "id": "baby_cuddle_interval_multiplier",
@@ -56,6 +66,11 @@
     },
     "i18nKey": "settings.breeding.baby_cuddle_interval",
     "summaryTemplate": "summary.breeding.cuddle_interval",
+    "summaryAbsolute": {
+      "i18nKey": "summary.breeding.cuddle_interval_abs",
+      "baseSeconds": 28800,
+      "op": "multiply"
+    },
     "warnings": [
       {
         "condition": {
@@ -86,7 +101,13 @@
       "presets": [1, 0.5, 0.25, 0.1],
       "inverseSemantics": true
     },
-    "i18nKey": "settings.breeding.mating_interval"
+    "i18nKey": "settings.breeding.mating_interval",
+    "summaryAbsolute": {
+      "i18nKey": "summary.breeding.mating_interval_abs",
+      "baseSeconds": 64800,
+      "baseSecondsMax": 172800,
+      "op": "multiply"
+    }
   },
   {
     "id": "lay_egg_interval_multiplier",

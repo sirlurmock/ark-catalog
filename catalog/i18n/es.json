@@ -563,8 +563,12 @@
     },
     "breeding": {
       "egg_hatch": "Los huevos eclosionan {value}× más rápido",
+      "egg_hatch_abs": "Un huevo de Rex eclosiona en ≈{absolute} (vanilla: {base})",
       "baby_mature": "Los bebés crecen {value}× más rápido",
+      "baby_mature_abs": "Un Rex bebé madura en ≈{absolute} (vanilla: {base})",
       "cuddle_interval": "Los bebés piden mimos {inverseValue}× más seguido",
+      "cuddle_interval_abs": "Los bebés piden mimos cada ≈{absolute} (vanilla: cada {base})",
+      "mating_interval_abs": "Espera entre apareamientos: {absolute} – {absoluteMax} (vanilla: {base} – {baseMax})",
       "imprint_amount": "Cada mimo da {value}× más imprint"
     },
     "world": {
@@ -3127,6 +3131,14 @@
   },
   "editor": {
     "back_to_dashboard": "Volver al dashboard",
+    "map.change_title": "Cambiar mapa",
+    "map.change_subtitle": "El mapa del perfil filtra los avisos específicos de cada mapa. Los valores que ya configuraste no se borran al cambiar: se conservan y se marcan si dejan de aplicar.",
+    "map.choose": "Elegir mapa",
+    "map.confirm": "Cambiar mapa",
+    "map.impact_appearing": "Ajustes configurados que quedan marcados con el mapa nuevo:",
+    "map.impact_orphaned": "Ajustes que no aplican en el mapa nuevo (conservan su valor):",
+    "map.impact_disappearing": "Además, {count} aviso(s) del mapa actual desaparecen con el cambio.",
+    "map.impact_none": "Ningún ajuste configurado se ve afectado por este cambio.",
     "no_profile": "Sin perfil",
     "apply_preset": "Aplicar preset",
     "apply_preset_cta": "Aplicar preset…",

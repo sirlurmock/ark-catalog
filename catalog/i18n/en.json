@@ -563,8 +563,12 @@
     },
     "breeding": {
       "egg_hatch": "Eggs hatch {value}× faster",
+      "egg_hatch_abs": "A Rex egg hatches in ≈{absolute} (vanilla: {base})",
       "baby_mature": "Babies mature {value}× faster",
+      "baby_mature_abs": "A baby Rex matures in ≈{absolute} (vanilla: {base})",
       "cuddle_interval": "Babies ask for cuddles {inverseValue}× more often",
+      "cuddle_interval_abs": "Babies ask for cuddles every ≈{absolute} (vanilla: every {base})",
+      "mating_interval_abs": "Wait between matings: {absolute} – {absoluteMax} (vanilla: {base} – {baseMax})",
       "imprint_amount": "Each cuddle grants {value}× more imprint"
     },
     "world": {
@@ -3127,6 +3131,14 @@
   },
   "editor": {
     "back_to_dashboard": "Back to dashboard",
+    "map.change_title": "Change map",
+    "map.change_subtitle": "The profile's map filters map-specific warnings. Values you already configured are never deleted on change: they are kept and flagged if they stop applying.",
+    "map.choose": "Choose map",
+    "map.confirm": "Change map",
+    "map.impact_appearing": "Configured settings that get flagged on the new map:",
+    "map.impact_orphaned": "Settings that don't apply on the new map (they keep their value):",
+    "map.impact_disappearing": "Also, {count} warning(s) from the current map disappear with this change.",
+    "map.impact_none": "No configured setting is affected by this change.",
     "no_profile": "No profile",
     "apply_preset": "Apply preset",
     "apply_preset_cta": "Apply preset…",
