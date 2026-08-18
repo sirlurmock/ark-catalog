@@ -180,7 +180,9 @@
       "auto_save_period_minutes": "Intervalo de guardado automático (minutos)",
       "auto_save_period_minutes.description": "Cada cuántos minutos el servidor guarda el mundo. Bajarlo reduce pérdidas pero genera más lag al guardar. Default 15.",
       "rcon_server_game_log_buffer": "Buffer de log de RCON",
-      "rcon_server_game_log_buffer.description": "Cuántas líneas de log conserva RCON en memoria para `getgamelog`. Subir si necesitás más historial. Default 600."
+      "rcon_server_game_log_buffer.description": "Cuántas líneas de log conserva RCON en memoria para `getgamelog`. Subir si necesitás más historial. Default 600.",
+      "engram_overrides": "Overrides por engrama (costo, nivel, prerequisitos)",
+      "engram_overrides.description": "Configura cada engrama por separado: costo en puntos, nivel mínimo para aprenderlo, sacarle los prerequisitos u ocultarlo. Los campos numéricos vacíos NO se escriben — el engrama conserva su valor vanilla; poné un número solo en lo que quieras cambiar (0 en costo = gratis). No repitas un engrama que ya esté en \"Engramas ocultos\": ARK espera cada engrama una sola vez."
     },
     "taming": {
       "taming_speed": "Velocidad de doma",

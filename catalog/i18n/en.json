@@ -180,7 +180,9 @@
       "auto_save_period_minutes": "Auto-save period (minutes)",
       "auto_save_period_minutes.description": "How often (in minutes) the server saves the world. Lowering reduces loss but causes more save lag. Default 15.",
       "rcon_server_game_log_buffer": "RCON game log buffer",
-      "rcon_server_game_log_buffer.description": "How many log lines RCON keeps in memory for `getgamelog`. Raise if you need more history. Default 600."
+      "rcon_server_game_log_buffer.description": "How many log lines RCON keeps in memory for `getgamelog`. Raise if you need more history. Default 600.",
+      "engram_overrides": "Per-engram overrides (cost, level, prereqs)",
+      "engram_overrides.description": "Configures each engram separately: point cost, minimum level to learn it, removing its prerequisites, or hiding it. Empty numeric fields are NOT written — the engram keeps its vanilla value; set a number only for what you want to change (0 cost = free). Don't repeat an engram that is already in \"Hidden engrams\": ARK expects each engram only once."
     },
     "taming": {
       "taming_speed": "Taming speed multiplier",

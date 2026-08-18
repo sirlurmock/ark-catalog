@@ -198,6 +198,28 @@
     "i18nKey": "settings.general.hidden_engrams"
   },
   {
+    "id": "engram_overrides",
+    "key": "OverrideNamedEngramEntries",
+    "category": "general",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "struct_collection",
+      "default": [],
+      "fields": [
+        { "name": "EngramClassName", "type": "string", "required": true, "suggestions": "engrams" },
+        { "name": "EngramHidden", "type": "boolean", "default": false },
+        { "name": "EngramPointsCost", "type": "integer" },
+        { "name": "EngramLevelRequirement", "type": "integer" },
+        { "name": "RemoveEngramPreReq", "type": "boolean", "default": false }
+      ]
+    },
+    "i18nKey": "settings.general.engram_overrides"
+  },
+  {
     "id": "kill_xp_multiplier",
     "key": "KillXPMultiplier",
     "category": "general",
