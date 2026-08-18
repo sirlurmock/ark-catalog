@@ -1,0 +1,4456 @@
+[
+  {
+    "value": "Extinction/Weapon_AdminBlinkRifle/PrimalItem_WeaponAdminBlinkRifle.PrimalItem_WeaponAdminBlinkRifle",
+    "label": "Admin Blink Rifle",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponRifle.PrimalItem_WeaponRifle",
+    "label": "Assault Rifle",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_BearTrap.PrimalItemStructure_BearTrap",
+    "label": "Bear Trap",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponBola.PrimalItem_WeaponBola",
+    "label": "Bola",
+    "category": "weapons"
+  },
+  {
+    "value": "ScorchedEarth/WeaponBoomerang/PrimalItem_WeaponBoomerang.PrimalItem_WeaponBoomerang",
+    "label": "Boomerang",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponBow.PrimalItem_WeaponBow",
+    "label": "Bow",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponC4.PrimalItem_WeaponC4",
+    "label": "C4 Remote Detonator",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_ChainBola.PrimalItemAmmo_ChainBola",
+    "label": "Chain Bola",
+    "category": "weapons"
+  },
+  {
+    "value": "Aberration/WeaponRadioactiveLanternCharge/PrimalItem_WeaponRadioactiveLanternCharge.PrimalItem_WeaponRadioactiveLanternCharge",
+    "label": "Charge Lantern",
+    "category": "weapons"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Weapons/PrimalItem_WeaponClimbPick.PrimalItem_WeaponClimbPick",
+    "label": "Climbing Pick",
+    "category": "weapons"
+  },
+  {
+    "value": "ScorchedEarth/WeaponClusterGrenade/PrimalItem_WeaponClusterGrenade.PrimalItem_WeaponClusterGrenade",
+    "label": "Cluster Grenade",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponCompoundBow.PrimalItem_WeaponCompoundBow",
+    "label": "Compound Bow",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponCrossbow.PrimalItem_WeaponCrossbow",
+    "label": "Crossbow",
+    "category": "weapons"
+  },
+  {
+    "value": "Genesis/Weapons/CruiseMissile/PrimalItem_WeaponTekCruiseMissile.PrimalItem_WeaponTekCruiseMissile",
+    "label": "Cruise Missile",
+    "category": "weapons",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponProd.PrimalItem_WeaponProd",
+    "label": "Electric Prod",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedPistol.PrimalItem_WeaponMachinedPistol",
+    "label": "Fabricated Pistol",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedSniper.PrimalItem_WeaponMachinedSniper",
+    "label": "Fabricated Sniper Rifle",
+    "category": "weapons"
+  },
+  {
+    "value": "ScorchedEarth/WeaponFlamethrower/PrimalItem_WeapFlamethrower.PrimalItem_WeapFlamethrower",
+    "label": "Flamethrower",
+    "category": "weapons"
+  },
+  {
+    "value": "Genesis/CoreBlueprints/Weapons/Mission/PrimalItem_WeaponSpear_Flame_Gauntlet.PrimalItem_WeaponSpear_Flame_Gauntlet",
+    "label": "Flaming Spear",
+    "category": "weapons",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponFlareGun.PrimalItem_WeaponFlareGun",
+    "label": "Flare Gun",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/WeaponAttachments/PrimalItemWeaponAttachment_Flashlight.PrimalItemWeaponAttachment_Flashlight",
+    "label": "Flashlight Attachment",
+    "category": "weapons"
+  },
+  {
+    "value": "Aberration/WeaponGlowStickThrow/PrimalItem_GlowStick.PrimalItem_GlowStick",
+    "label": "Glow Stick",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponGrenade.PrimalItem_WeaponGrenade",
+    "label": "Grenade",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponHandcuffs.PrimalItem_WeaponHandcuffs",
+    "label": "Handcuffs",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponHarpoon.PrimalItem_WeaponHarpoon",
+    "label": "Harpoon Launcher",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/WeaponAttachments/PrimalItemWeaponAttachment_HoloScope.PrimalItemWeaponAttachment_HoloScope",
+    "label": "Holo-Scope Attachment",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponTripwireC4.PrimalItem_WeaponTripwireC4",
+    "label": "Improvised Explosive Device",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponLance.PrimalItem_WeaponLance",
+    "label": "Lance",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_BearTrap_Large.PrimalItemStructure_BearTrap_Large",
+    "label": "Large Bear Trap",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/WeaponAttachments/PrimalItemWeaponAttachment_Laser.PrimalItemWeaponAttachment_Laser",
+    "label": "Laser Attachment",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponLasso.PrimalItem_WeaponLasso",
+    "label": "Lasso",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponOneShotRifle.PrimalItem_WeaponOneShotRifle",
+    "label": "Longneck Rifle",
+    "category": "weapons"
+  },
+  {
+    "value": "Genesis2/Weapons/Minigun/PrimalItem_WeaponMinigun.PrimalItem_WeaponMinigun",
+    "label": "Minigun",
+    "category": "weapons",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "ScorchedEarth/WeaponOilJar/PrimalItem_WeaponOilJar.PrimalItem_WeaponOilJar",
+    "label": "Oil Jar",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike",
+    "label": "Pike",
+    "category": "weapons"
+  },
+  {
+    "value": "Aberration/WeaponPlantSpeciesZ/PrimalItem_PlantSpeciesZ_Grenade.PrimalItem_PlantSpeciesZ_Grenade",
+    "label": "Plant Species Z Fruit",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_PoisonGrenade.PrimalItem_PoisonGrenade",
+    "label": "Poison Grenade",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedShotgun.PrimalItem_WeaponMachinedShotgun",
+    "label": "Pump-Action Shotgun",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponRocketLauncher.PrimalItem_WeaponRocketLauncher",
+    "label": "Rocket Launcher",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/WeaponAttachments/PrimalItemWeaponAttachment_Scope.PrimalItemWeaponAttachment_Scope",
+    "label": "Scope Attachment",
+    "category": "weapons"
+  },
+  {
+    "value": "Extinction/Dinos/Scout/PrimalItem_WeaponScoutRemote.PrimalItem_WeaponScoutRemote",
+    "label": "Scout Remote",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponShotgun.PrimalItem_WeaponShotgun",
+    "label": "Shotgun",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/WeaponAttachments/PrimalItemWeaponAttachment_Silencer.PrimalItemWeaponAttachment_Silencer",
+    "label": "Silencer Attachment",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponGun.PrimalItem_WeaponGun",
+    "label": "Simple Pistol",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponSlingshot.PrimalItem_WeaponSlingshot",
+    "label": "Slingshot",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_GasGrenade.PrimalItem_GasGrenade",
+    "label": "Smoke Grenade",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponSpear.PrimalItem_WeaponSpear",
+    "label": "Spear",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponSprayPaint.PrimalItem_WeaponSprayPaint",
+    "label": "Spray Painter",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponSword.PrimalItem_WeaponSword",
+    "label": "Sword",
+    "category": "weapons"
+  },
+  {
+    "value": "Genesis2/Weapons/TekBow/PrimalItem_WeaponTekBow.PrimalItem_WeaponTekBow",
+    "label": "Tek Bow",
+    "category": "weapons",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Genesis/Weapons/TekHandBlades/PrimalItem_WeaponTekClaws.PrimalItem_WeaponTekClaws",
+    "label": "Tek Claws",
+    "category": "weapons",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Weapons/PrimalItem_WeaponTekGravityGrenade.PrimalItem_WeaponTekGravityGrenade",
+    "label": "Tek Gravity Grenade",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_TekGrenade.PrimalItem_TekGrenade",
+    "label": "Tek Grenade",
+    "category": "weapons"
+  },
+  {
+    "value": "Genesis/Weapons/TekGrenadeLauncher/PrimalItem_WeaponTekGrenadeLauncher.PrimalItem_WeaponTekGrenadeLauncher",
+    "label": "Tek Grenade Launcher",
+    "category": "weapons",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Genesis2/Weapons/TekPistol/PrimalItem_WeaponTekPistol.PrimalItem_WeaponTekPistol",
+    "label": "Tek Phase Pistol",
+    "category": "weapons",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Aberration/WeaponTekSniper/PrimalItem_TekSniper.PrimalItem_TekSniper",
+    "label": "Tek Railgun",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_TekRifle.PrimalItem_TekRifle",
+    "label": "Tek Rifle",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponTekSword.PrimalItem_WeaponTekSword",
+    "label": "Tek Sword",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponTransGPS.PrimalItem_WeaponTransGPS",
+    "label": "Transponder Tracker",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponAlarmTrap.PrimalItem_WeaponAlarmTrap",
+    "label": "Tripwire Alarm Trap",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPoisonTrap.PrimalItem_WeaponPoisonTrap",
+    "label": "Tripwire Narcotic Trap",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponStoneClub.PrimalItem_WeaponStoneClub",
+    "label": "Wooden Club",
+    "category": "weapons"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_AdvancedBullet.PrimalItemAmmo_AdvancedBullet",
+    "label": "Advanced Bullet",
+    "category": "ammo"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_AdvancedRifleBullet.PrimalItemAmmo_AdvancedRifleBullet",
+    "label": "Advanced Rifle Bullet",
+    "category": "ammo"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_AdvancedSniperBullet.PrimalItemAmmo_AdvancedSniperBullet",
+    "label": "Advanced Sniper Bullet",
+    "category": "ammo"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_Boulder.PrimalItemAmmo_Boulder",
+    "label": "Boulder",
+    "category": "ammo"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemC4Ammo.PrimalItemC4Ammo",
+    "label": "C4 Charge",
+    "category": "ammo"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_CannonBall.PrimalItemAmmo_CannonBall",
+    "label": "Cannon Ball",
+    "category": "ammo"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Weapons/PrimalItemAmmo_CannonShell.PrimalItemAmmo_CannonShell",
+    "label": "Cannon Shell",
+    "category": "ammo"
+  },
+  {
+    "value": "Genesis2/Weapons/TekBow/PrimalItemAmmo_ExplosiveArrow.PrimalItemAmmo_ExplosiveArrow",
+    "label": "Explosive Arrow",
+    "category": "ammo",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_ArrowFlame.PrimalItemAmmo_ArrowFlame",
+    "label": "Flame Arrow",
+    "category": "ammo"
+  },
+  {
+    "value": "ScorchedEarth/WeaponFlamethrower/PrimalItemAmmo_Flamethrower.PrimalItemAmmo_Flamethrower",
+    "label": "Flamethrower Ammo",
+    "category": "ammo"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_GrapplingHook.PrimalItemAmmo_GrapplingHook",
+    "label": "Grappling Hook",
+    "category": "ammo"
+  },
+  {
+    "value": "Genesis2/Weapons/FireBoulder/PrimalItemAmmo_Boulder_Fire.PrimalItemAmmo_Boulder_Fire",
+    "label": "Jar of Pitch",
+    "category": "ammo",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_CompoundBowArrow.PrimalItemAmmo_CompoundBowArrow",
+    "label": "Metal Arrow",
+    "category": "ammo"
+  },
+  {
+    "value": "Genesis2/Weapons/NetAmmo/PrimalItemAmmo_ArrowNet.PrimalItemAmmo_ArrowNet",
+    "label": "Net Projectile",
+    "category": "ammo",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_AggroTranqDart.PrimalItemAmmo_AggroTranqDart",
+    "label": "Pheromone Dart",
+    "category": "ammo"
+  },
+  {
+    "value": "ScorchedEarth/WeaponHomingMissile/PrimalItemAmmo_RocketHomingMissile.PrimalItemAmmo_RocketHomingMissile",
+    "label": "Rocket Homing Missile",
+    "category": "ammo"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Weapons/PrimalItemAmmo_RocketPod.PrimalItemAmmo_RocketPod",
+    "label": "Rocket Pod",
+    "category": "ammo"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_Rocket.PrimalItemAmmo_Rocket",
+    "label": "Rocket Propelled Grenade",
+    "category": "ammo"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_RefinedTranqDart.PrimalItemAmmo_RefinedTranqDart",
+    "label": "Shocking Tranquilizer Dart",
+    "category": "ammo"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_SimpleBullet.PrimalItemAmmo_SimpleBullet",
+    "label": "Simple Bullet",
+    "category": "ammo"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_SimpleRifleBullet.PrimalItemAmmo_SimpleRifleBullet",
+    "label": "Simple Rifle Ammo",
+    "category": "ammo"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_SimpleShotgunBullet.PrimalItemAmmo_SimpleShotgunBullet",
+    "label": "Simple Shotgun Ammo",
+    "category": "ammo"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_BallistaArrow.PrimalItemAmmo_BallistaArrow",
+    "label": "Spear Bolt",
+    "category": "ammo"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_ArrowStone.PrimalItemAmmo_ArrowStone",
+    "label": "Stone Arrow",
+    "category": "ammo"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_ArrowTranq.PrimalItemAmmo_ArrowTranq",
+    "label": "Tranq Arrow",
+    "category": "ammo"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_TranqSpearBolt.PrimalItemAmmo_TranqSpearBolt",
+    "label": "Tranq Spear Bolt",
+    "category": "ammo"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_TranqDart.PrimalItemAmmo_TranqDart",
+    "label": "Tranquilizer Dart",
+    "category": "ammo"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemTransGPSAmmo.PrimalItemTransGPSAmmo",
+    "label": "Transponder Node",
+    "category": "ammo"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Weapons/PrimalItemAmmo_Zipline.PrimalItemAmmo_Zipline",
+    "label": "Zip-Line Anchor",
+    "category": "ammo"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Chitin/PrimalItemArmor_ChitinBoots.PrimalItemArmor_ChitinBoots",
+    "label": "Chitin Boots",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Chitin/PrimalItemArmor_ChitinShirt.PrimalItemArmor_ChitinShirt",
+    "label": "Chitin Chestpiece",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Chitin/PrimalItemArmor_ChitinGloves.PrimalItemArmor_ChitinGloves",
+    "label": "Chitin Gauntlets",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Chitin/PrimalItemArmor_ChitinHelmet.PrimalItemArmor_ChitinHelmet",
+    "label": "Chitin Helmet",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Chitin/PrimalItemArmor_ChitinPants.PrimalItemArmor_ChitinPants",
+    "label": "Chitin Leggings",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Cloth/PrimalItemArmor_ClothBoots.PrimalItemArmor_ClothBoots",
+    "label": "Cloth Boots",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Cloth/PrimalItemArmor_ClothGloves.PrimalItemArmor_ClothGloves",
+    "label": "Cloth Gloves",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Cloth/PrimalItemArmor_ClothHelmet.PrimalItemArmor_ClothHelmet",
+    "label": "Cloth Hat",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Cloth/PrimalItemArmor_ClothPants.PrimalItemArmor_ClothPants",
+    "label": "Cloth Pants",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Cloth/PrimalItemArmor_ClothShirt.PrimalItemArmor_ClothShirt",
+    "label": "Cloth Shirt",
+    "category": "armor"
+  },
+  {
+    "value": "ScorchedEarth/Outfits/PrimalItemArmor_DesertClothBoots.PrimalItemArmor_DesertClothBoots",
+    "label": "Desert Cloth Boots",
+    "category": "armor"
+  },
+  {
+    "value": "ScorchedEarth/Outfits/PrimalItemArmor_DesertClothGloves.PrimalItemArmor_DesertClothGloves",
+    "label": "Desert Cloth Gloves",
+    "category": "armor"
+  },
+  {
+    "value": "ScorchedEarth/Outfits/PrimalItemArmor_DesertClothPants.PrimalItemArmor_DesertClothPants",
+    "label": "Desert Cloth Pants",
+    "category": "armor"
+  },
+  {
+    "value": "ScorchedEarth/Outfits/PrimalItemArmor_DesertClothShirt.PrimalItemArmor_DesertClothShirt",
+    "label": "Desert Cloth Shirt",
+    "category": "armor"
+  },
+  {
+    "value": "ScorchedEarth/Outfits/PrimalItemArmor_DesertClothGogglesHelmet.PrimalItemArmor_DesertClothGogglesHelmet",
+    "label": "Desert Goggles and Hat",
+    "category": "armor"
+  },
+  {
+    "value": "Genesis2/CoreBlueprints/items/Armor/TEK/PrimalItemArmor_TekHelmet_Gen2.PrimalItemArmor_TekBoots_Gen2",
+    "label": "Federation Exo Boots",
+    "category": "armor",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Genesis2/CoreBlueprints/items/Armor/TEK/PrimalItemArmor_TekHelmet_Gen2.PrimalItemArmor_TekShirt_Gen2",
+    "label": "Federation Exo Chestpiece",
+    "category": "armor",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Genesis2/CoreBlueprints/items/Armor/TEK/PrimalItemArmor_TekHelmet_Gen2.PrimalItemArmor_TekGloves_Gen2",
+    "label": "Federation Exo Gloves",
+    "category": "armor",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Genesis2/CoreBlueprints/items/Armor/TEK/PrimalItemArmor_TekHelmet_Gen2.PrimalItemArmor_TekHelmet_Gen2",
+    "label": "Federation Exo Helmet",
+    "category": "armor",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Genesis2/CoreBlueprints/items/Armor/TEK/PrimalItemArmor_TekHelmet_Gen2.PrimalItemArmor_TekPants_Gen2",
+    "label": "Federation Exo Leggings",
+    "category": "armor",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalBoots.PrimalItemArmor_MetalBoots",
+    "label": "Flak Boots",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalShirt.PrimalItemArmor_MetalShirt",
+    "label": "Flak Chestpiece",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalGloves.PrimalItemArmor_MetalGloves",
+    "label": "Flak Gauntlets",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalHelmet.PrimalItemArmor_MetalHelmet",
+    "label": "Flak Helmet",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalPants.PrimalItemArmor_MetalPants",
+    "label": "Flak Leggings",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Fur/PrimalItemArmor_FurBoots.PrimalItemArmor_FurBoots",
+    "label": "Fur Boots",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Fur/PrimalItemArmor_FurHelmet.PrimalItemArmor_FurHelmet",
+    "label": "Fur Cap",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Fur/PrimalItemArmor_FurShirt.PrimalItemArmor_FurShirt",
+    "label": "Fur Chestpiece",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Fur/PrimalItemArmor_FurGloves.PrimalItemArmor_FurGloves",
+    "label": "Fur Gauntlets",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Fur/PrimalItemArmor_FurPants.PrimalItemArmor_FurPants",
+    "label": "Fur Leggings",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/SCUBA/PrimalItemArmor_GasMask.PrimalItemArmor_GasMask",
+    "label": "Gas Mask",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Ghillie/PrimalItemArmor_GhillieBoots.PrimalItemArmor_GhillieBoots",
+    "label": "Ghillie Boots",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Ghillie/PrimalItemArmor_GhillieShirt.PrimalItemArmor_GhillieShirt",
+    "label": "Ghillie Chestpiece",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Ghillie/PrimalItemArmor_GhillieGloves.PrimalItemArmor_GhillieGloves",
+    "label": "Ghillie Gauntlets",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Ghillie/PrimalItemArmor_GhilliePants.PrimalItemArmor_GhilliePants",
+    "label": "Ghillie Leggings",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Ghillie/PrimalItemArmor_GhillieHelmet.PrimalItemArmor_GhillieHelmet",
+    "label": "Ghillie Mask",
+    "category": "armor"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Items/Armor/HazardSuit/PrimalItemArmor_HazardSuitBoots.PrimalItemArmor_HazardSuitBoots",
+    "label": "Hazard Suit Boots",
+    "category": "armor"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Items/Armor/HazardSuit/PrimalItemArmor_HazardSuitGloves.PrimalItemArmor_HazardSuitGloves",
+    "label": "Hazard Suit Gloves",
+    "category": "armor"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Items/Armor/HazardSuit/PrimalItemArmor_HazardSuitHelmet.PrimalItemArmor_HazardSuitHelmet",
+    "label": "Hazard Suit Hat",
+    "category": "armor"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Items/Armor/HazardSuit/PrimalItemArmor_HazardSuitPants.PrimalItemArmor_HazardSuitPants",
+    "label": "Hazard Suit Pants",
+    "category": "armor"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Items/Armor/HazardSuit/PrimalItemArmor_HazardSuitShirt.PrimalItemArmor_HazardSuitShirt",
+    "label": "Hazard Suit Shirt",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MinersHelmet.PrimalItemArmor_MinersHelmet",
+    "label": "Heavy Miner's Helmet",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemArmor_HideBoots.PrimalItemArmor_HideBoots",
+    "label": "Hide Boots",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemArmor_HideGloves.PrimalItemArmor_HideGloves",
+    "label": "Hide Gloves",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemArmor_HideHelmet.PrimalItemArmor_HideHelmet",
+    "label": "Hide Hat",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemArmor_HidePants.PrimalItemArmor_HidePants",
+    "label": "Hide Pants",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemArmor_HideShirt.PrimalItemArmor_HideShirt",
+    "label": "Hide Shirt",
+    "category": "armor"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_MekBackpack_Shield.PrimalItemArmor_MekBackpack_Shield",
+    "label": "M.D.S.M.",
+    "category": "armor"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_MekTransformer.PrimalItemArmor_MekTransformer",
+    "label": "M.O.M.I.",
+    "category": "armor"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_MekBackpack_MissilePod.PrimalItemArmor_MekBackpack_MissilePod",
+    "label": "M.R.L.M.",
+    "category": "armor"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_MekBackpack_SiegeCannon.PrimalItemArmor_MekBackpack_SiegeCannon",
+    "label": "M.S.C.M.",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Shields/PrimalItemArmor_MetalShield.PrimalItemArmor_MetalShield",
+    "label": "Metal Shield",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/SCUBA/PrimalItemArmor_NightVisionGoggles.PrimalItemArmor_NightVisionGoggles",
+    "label": "Night Vision Goggles",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableBuff_Parachute.PrimalItemConsumableBuff_Parachute",
+    "label": "Parachute",
+    "category": "armor"
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Items/Armor/Pearl/PrimalItemArmor_PearlBoots.PrimalItemArmor_PearlBoots",
+    "label": "Pearl Boots",
+    "category": "armor",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Items/Armor/Pearl/PrimalItemArmor_PearlShirt.PrimalItemArmor_PearlShirt",
+    "label": "Pearl Chestpiece",
+    "category": "armor",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Items/Armor/Pearl/PrimalItemArmor_PearlGloves.PrimalItemArmor_PearlGloves",
+    "label": "Pearl Gauntlets",
+    "category": "armor",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Items/Armor/Pearl/PrimalItemArmor_PearlHelmet.PrimalItemArmor_PearlHelmet",
+    "label": "Pearl Helmet",
+    "category": "armor",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Items/Armor/Pearl/PrimalItemArmor_PearlPants.PrimalItemArmor_PearlPants",
+    "label": "Pearl Leggings",
+    "category": "armor",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Riot/PrimalItemArmor_RiotBoots.PrimalItemArmor_RiotBoots",
+    "label": "Riot Boots",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Riot/PrimalItemArmor_RiotShirt.PrimalItemArmor_RiotShirt",
+    "label": "Riot Chestpiece",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Riot/PrimalItemArmor_RiotGloves.PrimalItemArmor_RiotGloves",
+    "label": "Riot Gauntlets",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Riot/PrimalItemArmor_RiotHelmet.PrimalItemArmor_RiotHelmet",
+    "label": "Riot Helmet",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Riot/PrimalItemArmor_RiotPants.PrimalItemArmor_RiotPants",
+    "label": "Riot Leggings",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Shields/PrimalItemArmor_TransparentRiotShield.PrimalItemArmor_TransparentRiotShield",
+    "label": "Riot Shield",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/SCUBA/PrimalItemArmor_ScubaBoots_Flippers.PrimalItemArmor_ScubaBoots_Flippers",
+    "label": "SCUBA Flippers",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/SCUBA/PrimalItemArmor_ScubaPants.PrimalItemArmor_ScubaPants",
+    "label": "SCUBA Leggings",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/SCUBA/PrimalItemArmor_ScubaHelmet_Goggles.PrimalItemArmor_ScubaHelmet_Goggles",
+    "label": "SCUBA Mask",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/SCUBA/PrimalItemArmor_ScubaShirt_SuitWithTank.PrimalItemArmor_ScubaShirt_SuitWithTank",
+    "label": "SCUBA Tank",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/TEK/PrimalItemArmor_TekBoots.PrimalItemArmor_TekBoots",
+    "label": "Tek Boots",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/TEK/PrimalItemArmor_TekShirt.PrimalItemArmor_TekShirt",
+    "label": "Tek Chestpiece",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/TEK/PrimalItemArmor_TekGloves.PrimalItemArmor_TekGloves",
+    "label": "Tek Gauntlets",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/TEK/PrimalItemArmor_TekHelmet.PrimalItemArmor_TekHelmet",
+    "label": "Tek Helmet",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/TEK/PrimalItemArmor_TekPants.PrimalItemArmor_TekPants",
+    "label": "Tek Leggings",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Shields/PrimalItemArmor_ShieldTek.PrimalItemArmor_ShieldTek",
+    "label": "Tek Shield",
+    "category": "armor"
+  },
+  {
+    "value": "Genesis/Items/Armor/PrimalItemArmor_ShoulderCannon.PrimalItemArmor_ShoulderCannon",
+    "label": "Tek Shoulder Cannon",
+    "category": "armor",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Shields/PrimalItemArmor_WoodShield.PrimalItemArmor_WoodShield",
+    "label": "Wooden Shield",
+    "category": "armor"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_AlloSaddle.PrimalItemArmor_AlloSaddle",
+    "label": "Allosaurus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "LostIsland/Dinos/Amargasaurus/PrimalItemArmor_AmargaSaddle.PrimalItemArmor_AmargaSaddle",
+    "label": "Amargasaurus Saddle",
+    "category": "saddles",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Fjordur/Dinos/Andrewsarchus/PrimalItemArmor_AndrewsarchusSaddle.PrimalItemArmor_AndrewsarchusSaddle",
+    "label": "Andrewsarchus Saddle",
+    "category": "saddles",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_AnkyloSaddle.PrimalItemArmor_AnkyloSaddle",
+    "label": "Ankylo Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SpiderSaddle.PrimalItemArmor_SpiderSaddle",
+    "label": "Araneo Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ArgentavisSaddle.PrimalItemArmor_ArgentavisSaddle",
+    "label": "Argentavis Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ArthroSaddle.PrimalItemArmor_ArthroSaddle",
+    "label": "Arthropluera Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "Genesis/Dinos/SpaceWhale/PrimalItemArmor_SpaceWhaleSaddle_Tek.PrimalItemArmor_SpaceWhaleSaddle_Tek",
+    "label": "Astrocetus Tek Saddle",
+    "category": "saddles",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Genesis2/Dinos/SpaceDolphin/PrimalItemArmor_SpaceDolphinSaddle_Tek.PrimalItemArmor_SpaceDolphinSaddle_Tek",
+    "label": "Astrodelphis Starwing Saddle",
+    "category": "saddles",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_BaryonyxSaddle.PrimalItemArmor_BaryonyxSaddle",
+    "label": "Baryonyx Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "Aberration/Dinos/Basilisk/PrimalItemArmor_BasiliskSaddle.PrimalItemArmor_BasiliskSaddle",
+    "label": "Basilisk Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_BasiloSaddle.PrimalItemArmor_BasiloSaddle",
+    "label": "Basilosaurus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ToadSaddle.PrimalItemArmor_ToadSaddle",
+    "label": "Beelzebufo Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SauroSaddle_Platform.PrimalItemArmor_SauroSaddle_Platform",
+    "label": "Bronto Platform Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SauroSaddle.PrimalItemArmor_SauroSaddle",
+    "label": "Bronto Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TurtleSaddle.PrimalItemArmor_TurtleSaddle",
+    "label": "Carbonemys Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_CarchaSaddle.PrimalItemArmor_CarchaSaddle",
+    "label": "Carcharo Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_CarnoSaddle.PrimalItemArmor_CarnoSaddle",
+    "label": "Carno Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_BeaverSaddle.PrimalItemArmor_BeaverSaddle",
+    "label": "Castoroides Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ChalicoSaddle.PrimalItemArmor_ChalicoSaddle",
+    "label": "Chalicotherium Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DaeodonSaddle.PrimalItemArmor_DaeodonSaddle",
+    "label": "Daeodon Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "Abyss/Dinos/Dakosaurus/Saddle/PrimalItemArmor_DakosaurusSaddle_Platform.PrimalItemArmor_DakosaurusSaddle_Platform",
+    "label": "Dakosaurus Platform Saddle",
+    "category": "saddles",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Abyss/Dinos/Dakosaurus/Saddle/PrimalItemArmor_DakosaurusSaddle.PrimalItemArmor_DakosaurusSaddle",
+    "label": "Dakosaurus Saddle",
+    "category": "saddles",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Valguero/Dinos/Deinonychus/PrimalItemArmor_DeinonychusSaddle.PrimalItemArmor_DeinonychusSaddle",
+    "label": "Deinonychus Saddle",
+    "category": "saddles",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Fjordur/Dinos/Desmodus/PrimalItemArmor_DesmodusSaddle.PrimalItemArmor_DesmodusSaddle",
+    "label": "Desmodus Saddle",
+    "category": "saddles",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DiplodocusSaddle.PrimalItemArmor_DiplodocusSaddle",
+    "label": "Diplodocus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DireBearSaddle.PrimalItemArmor_DireBearSaddle",
+    "label": "Direbear Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DoedSaddle.PrimalItemArmor_DoedSaddle",
+    "label": "Doedicurus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DunkleosteusSaddle.PrimalItemArmor_DunkleosteusSaddle",
+    "label": "Dunkleosteus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_EquusSaddle.PrimalItemArmor_EquusSaddle",
+    "label": "Equus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_GachaSaddle.PrimalItemArmor_GachaSaddle",
+    "label": "Gacha Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_Gallimimus.PrimalItemArmor_Gallimimus",
+    "label": "Gallimimus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_GasBagsSaddle.PrimalItemArmor_GasBagsSaddle",
+    "label": "Gasbags Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_GigantSaddle.PrimalItemArmor_GigantSaddle",
+    "label": "Giganotosaurus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "Abyss/Dinos/Homarus/Saddle/PrimalItemArmor_HomarusSaddle.PrimalItemArmor_HomarusSaddle",
+    "label": "Homarus Saddle",
+    "category": "saddles",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_HyaenodonSaddle.PrimalItemArmor_HyaenodonSaddle",
+    "label": "Hyaenodon Meatpack",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DolphinSaddle.PrimalItemArmor_DolphinSaddle",
+    "label": "Ichthyosaurus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_IguanodonSaddle.PrimalItemArmor_IguanodonSaddle",
+    "label": "Iguanodon Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_KaprosuchusSaddle.PrimalItemArmor_KaprosuchusSaddle",
+    "label": "Kaprosuchus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "Aberration/Dinos/Crab/PrimalItemArmor_CrabSaddle.PrimalItemArmor_CrabSaddle",
+    "label": "Karkinos Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "ScorchedEarth/Dinos/Moth/PrimalItemArmor_MothSaddle.PrimalItemArmor_MothSaddle",
+    "label": "Lymantria Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "Genesis2/Dinos/MilkGlider/PrimalItemArmor_MilkGliderSaddle.PrimalItemArmor_MilkGliderSaddle",
+    "label": "Maewing Saddle",
+    "category": "saddles",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Genesis/Dinos/Cherufe/PrimalItemArmor_CherufeSaddle.PrimalItemArmor_CherufeSaddle",
+    "label": "Magmasaur Saddle",
+    "category": "saddles",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Abyss/Dinos/Malleocephalus/Saddle/PrimalItemArmor_MalleocephalusSaddle.PrimalItemArmor_MalleocephalusSaddle",
+    "label": "Malleocephalus Saddle",
+    "category": "saddles",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MammothSaddle.PrimalItemArmor_MammothSaddle",
+    "label": "Mammoth Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_IceJumperSaddle.PrimalItemArmor_IceJumperSaddle",
+    "label": "Managarmr Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MantaSaddle.PrimalItemArmor_MantaSaddle",
+    "label": "Manta Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "ScorchedEarth/Dinos/Mantis/PrimalItemArmor_MantisSaddle.PrimalItemArmor_MantisSaddle",
+    "label": "Mantis Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "Genesis/Dinos/GiantTurtle/PrimalItemArmor_GiantTurtleSaddle.PrimalItemArmor_GiantTurtleSaddle",
+    "label": "Megachelon Platform Saddle",
+    "category": "saddles",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalaniaSaddle.PrimalItemArmor_MegalaniaSaddle",
+    "label": "Megalania Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_StagSaddle.PrimalItemArmor_StagSaddle",
+    "label": "Megaloceros Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalodonSaddle.PrimalItemArmor_MegalodonSaddle",
+    "label": "Megalodon Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalodonSaddle_Tek.PrimalItemArmor_MegalodonSaddle_Tek",
+    "label": "Megalodon Tek Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalosaurusSaddle.PrimalItemArmor_MegalosaurusSaddle",
+    "label": "Megalosaurus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegatheriumSaddle.PrimalItemArmor_MegatheriumSaddle",
+    "label": "Megatherium Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "Abyss/Dinos/Monodon/Saddle/PrimalItemArmor_MonodonSaddle.PrimalItemArmor_MonodonSaddle",
+    "label": "Monodon Saddle",
+    "category": "saddles",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "ScorchedEarth/Dinos/Camelsaurus/PrimalItemArmor_CamelsaurusSaddle.PrimalItemArmor_CamelsaurusSaddle",
+    "label": "Morellatops Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MosaSaddle_Platform.PrimalItemArmor_MosaSaddle_Platform",
+    "label": "Mosasaur Platform Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MosaSaddle.PrimalItemArmor_MosaSaddle",
+    "label": "Mosasaur Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MosaSaddle_Tek.PrimalItemArmor_MosaSaddle_Tek",
+    "label": "Mosasaur Tek Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "Abyss/Dinos/Ocepechelon/Saddle/PrimalItemArmor_OcepechelonSaddle.PrimalItemArmor_OcepechelonSaddle",
+    "label": "Ocepechelon Saddle",
+    "category": "saddles",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Abyss/Dinos/Onchopristis/Saddle/PrimalItemArmor_OnchopritisSaddle.PrimalItemArmor_OnchopritisSaddle",
+    "label": "Onchopristis Saddle",
+    "category": "saddles",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PachySaddle.PrimalItemArmor_PachySaddle",
+    "label": "Pachy Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PachyrhinoSaddle.PrimalItemArmor_PachyrhinoSaddle",
+    "label": "Pachyrhinosaurus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ParacerSaddle_Platform.PrimalItemArmor_ParacerSaddle_Platform",
+    "label": "Paracer Platform Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_Paracer_Saddle.PrimalItemArmor_Paracer_Saddle",
+    "label": "Paracer Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ParaSaddle.PrimalItemArmor_ParaSaddle",
+    "label": "Parasaur Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PelaSaddle.PrimalItemArmor_PelaSaddle",
+    "label": "Pelagornis Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PhiomiaSaddle.PrimalItemArmor_PhiomiaSaddle",
+    "label": "Phiomia Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PlesiSaddle_Platform.PrimalItemArmor_PlesiSaddle_Platform",
+    "label": "Plesiosaur Platform Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PlesiaSaddle.PrimalItemArmor_PlesiaSaddle",
+    "label": "Plesiosaur Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ProcoptodonSaddle.PrimalItemArmor_ProcoptodonSaddle",
+    "label": "Procoptodon Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PteroSaddle.PrimalItemArmor_PteroSaddle",
+    "label": "Pteranodon Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ScorpionSaddle.PrimalItemArmor_ScorpionSaddle",
+    "label": "Pulmonoscorpius Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_QuetzSaddle_Platform.PrimalItemArmor_QuetzSaddle_Platform",
+    "label": "Quetz Platform Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_QuetzSaddle.PrimalItemArmor_QuetzSaddle",
+    "label": "Quetz Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RaptorSaddle.PrimalItemArmor_RaptorSaddle",
+    "label": "Raptor Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "Aberration/Dinos/CaveWolf/PrimalItemArmor_CavewolfSaddle.PrimalItemArmor_CavewolfSaddle",
+    "label": "Ravager Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RexSaddle.PrimalItemArmor_RexSaddle",
+    "label": "Rex Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RexSaddle_Tek.PrimalItemArmor_RexSaddle_Tek",
+    "label": "Rex Tek Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RhynioSaddle.PrimalItemArmor_RhynioSaddle",
+    "label": "Rhyniognatha Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "Aberration/Dinos/RockDrake/PrimalItemArmor_RockDrakeSaddle.PrimalItemArmor_RockDrakeSaddle",
+    "label": "Rock Drake Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "Aberration/Dinos/RockDrake/PrimalItemArmor_RockDrakeSaddle_Tek.PrimalItemArmor_RockDrakeSaddle_Tek",
+    "label": "Rock Drake Tek Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "ScorchedEarth/Dinos/RockGolem/PrimalItemArmor_RockGolemSaddle.PrimalItemArmor_RockGolemSaddle",
+    "label": "Rock Golem Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "Aberration/Dinos/MoleRat/PrimalItemArmor_MoleRatSaddle.PrimalItemArmor_MoleRatSaddle",
+    "label": "Roll Rat Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SaberSaddle.PrimalItemArmor_SaberSaddle",
+    "label": "Sabertooth Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SarcoSaddle.PrimalItemArmor_SarcoSaddle",
+    "label": "Sarco Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "Abyss/Dinos/Seahorse/Saddle/PrimalItemArmor_SeahorseSaddle.PrimalItemArmor_SeahorseSaddle",
+    "label": "Seahorse Saddle",
+    "category": "saddles",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_OwlSaddle.PrimalItemArmor_OwlSaddle",
+    "label": "Snow Owl Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SpinoSaddle.PrimalItemArmor_SpinoSaddle",
+    "label": "Spino Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_StegoSaddle.PrimalItemArmor_StegoSaddle",
+    "label": "Stego Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TapejaraSaddle.PrimalItemArmor_TapejaraSaddle",
+    "label": "Tapejara Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_Tapejara_Tek.PrimalItemArmor_Tapejara_Tek",
+    "label": "Tapejara Tek Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TerrorBirdSaddle.PrimalItemArmor_TerrorBirdSaddle",
+    "label": "Terror Bird Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TherizinosaurusSaddle.PrimalItemArmor_TherizinosaurusSaddle",
+    "label": "Therizinosaurus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "ScorchedEarth/Dinos/SpineyLizard/PrimalItemArmor_SpineyLizardSaddle.PrimalItemArmor_SpineyLizardSaddle",
+    "label": "Thorny Dragon Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ThylacoSaddle.PrimalItemArmor_ThylacoSaddle",
+    "label": "Thylacoleo Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TitanSaddle_Platform.PrimalItemArmor_TitanSaddle_Platform",
+    "label": "Titanosaur Platform Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TrikeSaddle.PrimalItemArmor_TrikeSaddle",
+    "label": "Trike Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/Dinos/Tropeognathus/PrimalItemArmor_TropeSaddle.PrimalItemArmor_TropeSaddle",
+    "label": "Tropeognathus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TusoSaddle.PrimalItemArmor_TusoSaddle",
+    "label": "Tusoteuthis Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_SpindlesSaddle.PrimalItemArmor_SpindlesSaddle",
+    "label": "Velonasaur Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RhinoSaddle.PrimalItemArmor_RhinoSaddle",
+    "label": "Woolly Rhino Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_YutySaddle.PrimalItemArmor_YutySaddle",
+    "label": "Yutyrannus Saddle",
+    "category": "saddles"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItem_BloodExtractor.PrimalItem_BloodExtractor",
+    "label": "Blood Extraction Syringe",
+    "category": "tools"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItem_Camera.PrimalItem_Camera",
+    "label": "Camera",
+    "category": "tools"
+  },
+  {
+    "value": "ScorchedEarth/WeaponChainsaw/PrimalItem_ChainSaw.PrimalItem_ChainSaw",
+    "label": "Chainsaw",
+    "category": "tools"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItem_WeaponCompass.PrimalItem_WeaponCompass",
+    "label": "Compass",
+    "category": "tools"
+  },
+  {
+    "value": "ScorchedEarth/WeaponElectronicBinoculars/PrimalItem_WeaponElectronicBinoculars.PrimalItem_WeaponElectronicBinoculars",
+    "label": "Electronic Binoculars",
+    "category": "tools"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Weapons/PrimalItem_WeaponEmptyCryopod.PrimalItem_WeaponEmptyCryopod",
+    "label": "Empty Cryopod",
+    "category": "tools"
+  },
+  {
+    "value": "Genesis/Weapons/FishingNet/PrimalItem_WeaponFishingNet.PrimalItem_WeaponFishingNet",
+    "label": "Fish Net",
+    "category": "tools",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponFishingRod.PrimalItem_WeaponFishingRod",
+    "label": "Fishing Rod",
+    "category": "tools"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItem_WeaponGPS.PrimalItem_WeaponGPS",
+    "label": "GPS",
+    "category": "tools"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItem_WeaponMagnifyingGlass.PrimalItem_WeaponMagnifyingGlass",
+    "label": "Magnifying Glass",
+    "category": "tools"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalHatchet.PrimalItem_WeaponMetalHatchet",
+    "label": "Metal Hatchet",
+    "category": "tools"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalPick.PrimalItem_WeaponMetalPick",
+    "label": "Metal Pick",
+    "category": "tools"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponSickle.PrimalItem_WeaponSickle",
+    "label": "Metal Sickle",
+    "category": "tools"
+  },
+  {
+    "value": "Genesis/Weapons/MiningDrill/PrimalItem_WeaponMiningDrill.PrimalItem_WeaponMiningDrill",
+    "label": "Mining Drill",
+    "category": "tools",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPaintbrush.PrimalItem_WeaponPaintbrush",
+    "label": "Paintbrush",
+    "category": "tools"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItem_Pliers.PrimalItem_Pliers",
+    "label": "Pliers",
+    "category": "tools"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItemRadio.PrimalItemRadio",
+    "label": "Radio",
+    "category": "tools"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponScissors.PrimalItem_WeaponScissors",
+    "label": "Scissors",
+    "category": "tools"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItem_WeaponSpyglass.PrimalItem_WeaponSpyglass",
+    "label": "Spyglass",
+    "category": "tools"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponStoneHatchet.PrimalItem_WeaponStoneHatchet",
+    "label": "Stone Hatchet",
+    "category": "tools"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponStonePick.PrimalItem_WeaponStonePick",
+    "label": "Stone Pick",
+    "category": "tools"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Weapons/PrimalItem_WeaponTaxidermyTool.PrimalItem_WeaponTaxidermyTool",
+    "label": "Taxidermy Tool",
+    "category": "tools"
+  },
+  {
+    "value": "Genesis/CoreBlueprints/Items/PrimalItemConsumable_Lootcrate_lvl1.PrimalItemConsumable_Lootcrate_lvl1",
+    "label": "Tier 1 Lootcrate",
+    "category": "tools",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Genesis/CoreBlueprints/Items/PrimalItemConsumable_Lootcrate_lvl2.PrimalItemConsumable_Lootcrate_lvl2",
+    "label": "Tier 2 Lootcrate",
+    "category": "tools",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Genesis/CoreBlueprints/Items/PrimalItemConsumable_Lootcrate_lvl3.PrimalItemConsumable_Lootcrate_lvl3",
+    "label": "Tier 3 Lootcrate",
+    "category": "tools",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponTorch.PrimalItem_WeaponTorch",
+    "label": "Torch",
+    "category": "tools"
+  },
+  {
+    "value": "ScorchedEarth/WeaponWhip/PrimalItem_WeaponWhip.PrimalItem_WeaponWhip",
+    "label": "Whip",
+    "category": "tools"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Evil.PrimalItemConsumable_UnlockEmote_Evil",
+    "label": "\"Evil\" Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Items/Consumables/PrimalItemResource_CommonMushroom.PrimalItemResource_CommonMushroom",
+    "label": "Aggeravic Mushroom",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_AirDrum.PrimalItemConsumable_UnlockEmote_AirDrum",
+    "label": "Air Drums Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_AirGuitar.PrimalItemConsumable_UnlockEmote_AirGuitar",
+    "label": "Air Guitar Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Amarberry.PrimalItemConsumable_Berry_Amarberry",
+    "label": "Amarberry",
+    "category": "consumables"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Mushroom_Aquatic.PrimalItemConsumable_Mushroom_Aquatic",
+    "label": "Aquatic Mushroom",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Flex2.PrimalItemConsumable_UnlockEmote_Flex2",
+    "label": "Archer Flex Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Mushroom_Ascerbic.PrimalItemConsumable_Mushroom_Ascerbic",
+    "label": "Ascerbic Mushroom",
+    "category": "consumables"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Mushroom_Auric.PrimalItemConsumable_Mushroom_Auric",
+    "label": "Auric Mushroom",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Azulberry.PrimalItemConsumable_Berry_Azulberry",
+    "label": "Azulberry",
+    "category": "consumables"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_XSmall_EX.PrimalItemConsumable_Kibble_Base_XSmall_EX",
+    "label": "Basic Augmented Kibble",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_XSmall.PrimalItemConsumable_Kibble_Base_XSmall",
+    "label": "Basic Kibble",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_BattleTartare.PrimalItemConsumable_Soup_BattleTartare",
+    "label": "Battle Tartare",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BeerJar.PrimalItemConsumable_BeerJar",
+    "label": "Beer Jar",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BeerJarAlt.PrimalItemConsumable_BeerJarAlt",
+    "label": "Beer Jar",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Beer.PrimalItemResource_Beer",
+    "label": "Beer Liquid",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_BellyRub.PrimalItemConsumable_UnlockEmote_BellyRub",
+    "label": "Belly Rub Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Flex1.PrimalItemConsumable_UnlockEmote_Flex1",
+    "label": "Bicep Smooch Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_JellyVenom.PrimalItemConsumable_JellyVenom",
+    "label": "Bio Toxin",
+    "category": "consumables"
+  },
+  {
+    "value": "ASA/Dinos/Bison/PrimalItemConsumable_BisonMilk.PrimalItemConsumable_BisonMilk",
+    "label": "Bison Milk",
+    "category": "consumables",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_TheHorn.PrimalItemConsumable_TheHorn",
+    "label": "Broth of Enlightenment",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BugRepellant.PrimalItemConsumable_BugRepellant",
+    "label": "Bug Repellant",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_BunnyHopDance.PrimalItemConsumable_UnlockEmote_BunnyHopDance",
+    "label": "Bunny Hop Dance Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CactusBuffSoup.PrimalItemConsumable_CactusBuffSoup",
+    "label": "Cactus Broth",
+    "category": "consumables"
+  },
+  {
+    "value": "ScorchedEarth/CoreBlueprints/Consumables/PrimalItemConsumable_CactusSap.PrimalItemConsumable_CactusSap",
+    "label": "Cactus Sap",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_CalienSoup.PrimalItemConsumable_Soup_CalienSoup",
+    "label": "Calien Soup",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CanteenCraftable.PrimalItemConsumable_CanteenCraftable",
+    "label": "Canteen (Empty)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CanteenRefill.PrimalItemConsumable_CanteenRefill",
+    "label": "Canteen (Full)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Caroling.PrimalItemConsumable_UnlockEmote_Caroling",
+    "label": "Caroling Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Citronal.PrimalItemConsumable_Veggie_Citronal",
+    "label": "Citronal",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedMeat_Fish.PrimalItemConsumable_CookedMeat_Fish",
+    "label": "Cooked Fish Meat",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedLambChop.PrimalItemConsumable_CookedLambChop",
+    "label": "Cooked Lamb Chop",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedMeat.PrimalItemConsumable_CookedMeat",
+    "label": "Cooked Meat",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedMeat_Jerky.PrimalItemConsumable_CookedMeat_Jerky",
+    "label": "Cooked Meat Jerky",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedPrimeMeat_Fish.PrimalItemConsumable_CookedPrimeMeat_Fish",
+    "label": "Cooked Prime Fish Meat",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedPrimeMeat.PrimalItemConsumable_CookedPrimeMeat",
+    "label": "Cooked Prime Meat",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Dance.PrimalItemConsumable_UnlockEmote_Dance",
+    "label": "Dance Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_EnduroStew.PrimalItemConsumable_Soup_EnduroStew",
+    "label": "Enduro Stew",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_StaminaSoup.PrimalItemConsumable_StaminaSoup",
+    "label": "Energy Brew",
+    "category": "consumables"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_XLarge_EX.PrimalItemConsumable_Kibble_Base_XLarge_EX",
+    "label": "Exceptional Augmented Kibble",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_XLarge.PrimalItemConsumable_Kibble_Base_XLarge",
+    "label": "Exceptional Kibble",
+    "category": "consumables"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Special_EX.PrimalItemConsumable_Kibble_Base_Special_EX",
+    "label": "Extraordinary Augmented Kibble",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Special.PrimalItemConsumable_Kibble_Base_Special",
+    "label": "Extraordinary Kibble",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItem_FishBasketFilled.PrimalItem_FishBasketFilled",
+    "label": "Filled Fish Basket",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Backflip.PrimalItemConsumable_UnlockEmote_Backflip",
+    "label": "Flip In Place Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Flirt.PrimalItemConsumable_UnlockEmote_Flirt",
+    "label": "Flirty Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_FocalChili.PrimalItemConsumable_Soup_FocalChili",
+    "label": "Focal Chili",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_FoodComa.PrimalItemConsumable_UnlockEmote_FoodComa",
+    "label": "Food Coma Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_FriaCurry.PrimalItemConsumable_Soup_FriaCurry",
+    "label": "Fria Curry",
+    "category": "consumables"
+  },
+  {
+    "value": "Extinction/Dinos/Gacha/PrimalItemConsumable_GachaPod.PrimalItemConsumable_GachaPod",
+    "label": "Gacha Crystal",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Honey.PrimalItemConsumable_Honey",
+    "label": "Giant Bee Honey",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_HappyClap.PrimalItemConsumable_UnlockEmote_HappyClap",
+    "label": "Happy Clap Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Heart.PrimalItemConsumable_UnlockEmote_HeartDO",
+    "label": "Heart Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_HulaDance.PrimalItemConsumable_UnlockEmote_HulaDance",
+    "label": "Hula Dance Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Hungry.PrimalItemConsumable_UnlockEmote_Hungry",
+    "label": "Hungry Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_IcedCanteen.PrimalItemConsumable_IcedCanteen",
+    "label": "Iced Canteen (Empty)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_IcedCanteenRefill.PrimalItemConsumable_IcedCanteenRefill",
+    "label": "Iced Canteen (Full)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_IcedWaterJar.PrimalItemConsumable_IcedWaterJar",
+    "label": "Iced Water Jar (Empty)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_IcedWaterJarRefill.PrimalItemConsumable_IcedWaterJarRefill",
+    "label": "Iced Water Jar (Full)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Allo.PrimalItemConsumable_Kibble_Allo",
+    "label": "Kibble (Allosaurus Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_AnkyloEgg.PrimalItemConsumable_Kibble_AnkyloEgg",
+    "label": "Kibble (Ankylo Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_SpiderEgg.PrimalItemConsumable_Kibble_SpiderEgg",
+    "label": "Kibble (Araneo Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_ArchaEgg.PrimalItemConsumable_Kibble_ArchaEgg",
+    "label": "Kibble (Archaeopteryx Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_ArgentEgg.PrimalItemConsumable_Kibble_ArgentEgg",
+    "label": "Kibble (Argentavis Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_BaryonyxEgg.PrimalItemConsumable_Kibble_BaryonyxEgg",
+    "label": "Kibble (Baryonyx Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_SauroEgg.PrimalItemConsumable_Kibble_SauroEgg",
+    "label": "Kibble (Bronto Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "ScorchedEarth/Dinos/Camelsaurus/PrimalItemConsumable_Kibble_Camelsaurus.PrimalItemConsumable_Kibble_Camelsaurus",
+    "label": "Kibble (Camelsaurus Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_TurtleEgg.PrimalItemConsumable_Kibble_TurtleEgg",
+    "label": "Kibble (Carbonemys Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_CarnoEgg.PrimalItemConsumable_Kibble_CarnoEgg",
+    "label": "Kibble (Carno Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Compy.PrimalItemConsumable_Kibble_Compy",
+    "label": "Kibble (Compy Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_DiloEgg.PrimalItemConsumable_Kibble_DiloEgg",
+    "label": "Kibble (Dilo Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_DimetroEgg.PrimalItemConsumable_Kibble_DimetroEgg",
+    "label": "Kibble (Dimetrodon Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_DimorphEgg.PrimalItemConsumable_Kibble_DimorphEgg",
+    "label": "Kibble (Dimorph Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_DiploEgg.PrimalItemConsumable_Kibble_DiploEgg",
+    "label": "Kibble (Diplo Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_DodoEgg.PrimalItemConsumable_Kibble_DodoEgg",
+    "label": "Kibble (Dodo Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_LanternBirdEgg.PrimalItemConsumable_Kibble_LanternBirdEgg",
+    "label": "Kibble (Featherlight Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_GalliEgg.PrimalItemConsumable_Kibble_GalliEgg",
+    "label": "Kibble (Gallimimus Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_LanternLizardEgg.PrimalItemConsumable_Kibble_LanternLizardEgg",
+    "label": "Kibble (Glowtail Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_IchthyornisEgg.PrimalItemConsumable_Kibble_IchthyornisEgg",
+    "label": "Kibble (Ichthyornis Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_IguanodonEgg.PrimalItemConsumable_Kibble_IguanodonEgg",
+    "label": "Kibble (Iguanodon Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_KairukuEgg.PrimalItemConsumable_Kibble_KairukuEgg",
+    "label": "Kibble (Kairuku Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_KaproEgg.PrimalItemConsumable_Kibble_KaproEgg",
+    "label": "Kibble (Kaprosuchus Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_KentroEgg.PrimalItemConsumable_Kibble_KentroEgg",
+    "label": "Kibble (Kentrosaurus Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_LystroEgg.PrimalItemConsumable_Kibble_LystroEgg",
+    "label": "Kibble (Lystrosaurus Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "ScorchedEarth/Dinos/Mantis/PrimalItemConsumable_Kibble_Mantis.PrimalItemConsumable_Kibble_Mantis",
+    "label": "Kibble (Mantis Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Megalania.PrimalItemConsumable_Kibble_Megalania",
+    "label": "Kibble (Megalania Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_MegalosaurusEgg.PrimalItemConsumable_Kibble_MegalosaurusEgg",
+    "label": "Kibble (Megalosaurus Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_MicroraptorEgg.PrimalItemConsumable_Kibble_MicroraptorEgg",
+    "label": "Kibble (Microraptor Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_MoschopsEgg.PrimalItemConsumable_Kibble_MoschopsEgg",
+    "label": "Kibble (Moschops Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "ScorchedEarth/Dinos/Moth/PrimalItemConsumable_Kibble_Moth.PrimalItemConsumable_Kibble_Moth",
+    "label": "Kibble (Moth Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_OviraptorEgg.PrimalItemConsumable_Kibble_OviraptorEgg",
+    "label": "Kibble (Oviraptor Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_PachyEgg.PrimalItemConsumable_Kibble_PachyEgg",
+    "label": "Kibble (Pachy Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_PachyRhinoEgg.PrimalItemConsumable_Kibble_PachyRhinoEgg",
+    "label": "Kibble (Pachyrhino Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_ParaEgg.PrimalItemConsumable_Kibble_ParaEgg",
+    "label": "Kibble (Parasaur Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_PegomastaxEgg.PrimalItemConsumable_Kibble_PegomastaxEgg",
+    "label": "Kibble (Pegomastax Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Pela.PrimalItemConsumable_Kibble_Pela",
+    "label": "Kibble (Pelagornis Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_PteroEgg.PrimalItemConsumable_Kibble_PteroEgg",
+    "label": "Kibble (Pteranodon Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_ScorpionEgg.PrimalItemConsumable_Kibble_ScorpionEgg",
+    "label": "Kibble (Pulmonoscorpius Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_QuetzEgg.PrimalItemConsumable_Kibble_QuetzEgg",
+    "label": "Kibble (Quetzal Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_RaptorEgg.PrimalItemConsumable_Kibble_RaptorEgg",
+    "label": "Kibble (Raptor Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_RexEgg.PrimalItemConsumable_Kibble_RexEgg",
+    "label": "Kibble (Rex Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_RockDrakeEgg.PrimalItemConsumable_Kibble_RockDrakeEgg",
+    "label": "Kibble (Rock Drake Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_SarcoEgg.PrimalItemConsumable_Kibble_SarcoEgg",
+    "label": "Kibble (Sarco Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_SpinoEgg.PrimalItemConsumable_Kibble_SpinoEgg",
+    "label": "Kibble (Spino Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_StegoEgg.PrimalItemConsumable_Kibble_StegoEgg",
+    "label": "Kibble (Stego Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_TapejaraEgg.PrimalItemConsumable_Kibble_TapejaraEgg",
+    "label": "Kibble (Tapejara Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_TerrorbirdEgg.PrimalItemConsumable_Kibble_TerrorbirdEgg",
+    "label": "Kibble (Terror Bird Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_TherizinoEgg.PrimalItemConsumable_Kibble_TherizinoEgg",
+    "label": "Kibble (Therizinosaurus Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "ScorchedEarth/Dinos/SpineyLizard/PrimalItemConsumable_Kibble_SpineyLizard.PrimalItemConsumable_Kibble_SpineyLizard",
+    "label": "Kibble (Thorny Dragon Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_BoaEgg.PrimalItemConsumable_Kibble_BoaEgg",
+    "label": "Kibble (Titanboa Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_TrikeEgg.PrimalItemConsumable_Kibble_TrikeEgg",
+    "label": "Kibble (Trike Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_TroodonEgg.PrimalItemConsumable_Kibble_TroodonEgg",
+    "label": "Kibble (Troodon Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "ScorchedEarth/Dinos/Vulture/PrimalItemConsumable_Kibble_Vulture.PrimalItemConsumable_Kibble_Vulture",
+    "label": "Kibble (Vulture Egg)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_FEKnock.PrimalItemConsumable_UnlockEmote_FEKnock",
+    "label": "Knock Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_LazarusChowder.PrimalItemConsumable_Soup_LazarusChowder",
+    "label": "Lazarus Chowder",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_CureLow.PrimalItemConsumable_CureLow",
+    "label": "Lesser Antidote",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Longrass.PrimalItemConsumable_Veggie_Longrass",
+    "label": "Longrass",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_HealSoup.PrimalItemConsumable_HealSoup",
+    "label": "Medical Brew",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Mejoberry.PrimalItemConsumable_Berry_Mejoberry",
+    "label": "Mejoberry",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableRespecSoup.PrimalItemConsumableRespecSoup",
+    "label": "Mindwipe Tonic",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_MoshPit.PrimalItemConsumable_UnlockEmote_MoshPit",
+    "label": "Mosh Pit Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_MushroomSoup.PrimalItemConsumable_Soup_MushroomSoup",
+    "label": "Mushroom Brew",
+    "category": "consumables"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Resources/PrimalItemConsumable_NamelessVenom.PrimalItemConsumable_NamelessVenom",
+    "label": "Nameless Venom",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Narcoberry.PrimalItemConsumable_Berry_Narcoberry",
+    "label": "Narcoberry",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_NutcrackerDance.PrimalItemConsumable_UnlockEmote_NutcrackerDance",
+    "label": "Nutcracker Dance Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Panic.PrimalItemConsumable_UnlockEmote_Panic",
+    "label": "Panic Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedPrimeMeat_Jerky.PrimalItemConsumable_CookedPrimeMeat_Jerky",
+    "label": "Prime Meat Jerky",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMeat_Fish.PrimalItemConsumable_RawMeat_Fish",
+    "label": "Raw Fish Meat",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMeat.PrimalItemConsumable_RawMeat",
+    "label": "Raw Meat",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMutton.PrimalItemConsumable_RawMutton",
+    "label": "Raw Mutton",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawPrimeMeat_Fish.PrimalItemConsumable_RawPrimeMeat_Fish",
+    "label": "Raw Prime Fish Meat",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawPrimeMeat.PrimalItemConsumable_RawPrimeMeat",
+    "label": "Raw Prime Meat",
+    "category": "consumables"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Resources/PrimalItemResource_XenomorphPheromoneGland.PrimalItemResource_XenomorphPheromoneGland",
+    "label": "Reaper Pheromone Gland",
+    "category": "consumables"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Medium_EX.PrimalItemConsumable_Kibble_Base_Medium_EX",
+    "label": "Regular Augmented Kibble",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Medium.PrimalItemConsumable_Kibble_Base_Medium",
+    "label": "Regular Kibble",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Rockarrot.PrimalItemConsumable_Veggie_Rockarrot",
+    "label": "Rockarrot",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockHairstyle_Facial_Romantic.PrimalItemConsumable_UnlockHairstyle_Facial_Romantic",
+    "label": "Romantic Facial Hair Style",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockHairstyle_Head_Romantic.PrimalItemConsumable_UnlockHairstyle_Head_Romantic",
+    "label": "Romantic Head Hair Style",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Santa.PrimalItemConsumable_UnlockEmote_Santa",
+    "label": "Santa Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Savoroot.PrimalItemConsumable_Veggie_Savoroot",
+    "label": "Savoroot",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_FEScare.PrimalItemConsumable_UnlockEmote_FEScare",
+    "label": "Scare Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_SelfHug.PrimalItemConsumable_UnlockEmote_SelfHug",
+    "label": "Self Hug Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_ShadowSteak.PrimalItemConsumable_Soup_ShadowSteak",
+    "label": "Shadow Steak Saute",
+    "category": "consumables"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Small_EX.PrimalItemConsumable_Kibble_Base_Small_EX",
+    "label": "Simple Augmented Kibble",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Small.PrimalItemConsumable_Kibble_Base_Small",
+    "label": "Simple Kibble",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Snowball.PrimalItemConsumable_UnlockEmote_Snowball",
+    "label": "Snowball Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableSoap.PrimalItemConsumableSoap",
+    "label": "Soap",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SpoiledMeat.PrimalItemConsumable_SpoiledMeat",
+    "label": "Spoiled Meat",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Stimberry.PrimalItemConsumable_Berry_Stimberry",
+    "label": "Stimberry",
+    "category": "consumables"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Large_EX.PrimalItemConsumable_Kibble_Base_Large_EX",
+    "label": "Superior Augmented Kibble",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Large.PrimalItemConsumable_Kibble_Base_Large",
+    "label": "Superior Kibble",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SweetVeggieCake.PrimalItemConsumable_SweetVeggieCake",
+    "label": "Sweet Vegetable Cake",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_TailWiggle.PrimalItemConsumable_UnlockEmote_TailWiggle",
+    "label": "Tail Wiggle Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Tintoberry.PrimalItemConsumable_Berry_Tintoberry",
+    "label": "Tintoberry",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_turkey.PrimalItemConsumable_UnlockEmote_turkey",
+    "label": "Turkey Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/PrimalItem_Spawner_Enforcer.PrimalItem_Spawner_Enforcer",
+    "label": "Unassembled Enforcer",
+    "category": "consumables"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/PrimalItem_Spawner_Mek.PrimalItem_Spawner_Mek",
+    "label": "Unassembled Mek",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_WaterJarCraftable.PrimalItemConsumable_WaterJarCraftable",
+    "label": "Water Jar (Empty)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_WaterJarRefill.PrimalItemConsumable_WaterJarRefill",
+    "label": "Water Jar (Full)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_WaterskinCraftable.PrimalItemConsumable_WaterskinCraftable",
+    "label": "Waterskin (Empty)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_WaterskinRefill.PrimalItemConsumable_WaterskinRefill",
+    "label": "Waterskin (Filled)",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_WyvernMilk.PrimalItemConsumable_WyvernMilk",
+    "label": "Wyvern Milk",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Zombie.PrimalItemConsumable_UnlockEmote_Zombie",
+    "label": "Zombie Emote",
+    "category": "consumables"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Allo.PrimalItemResource_ApexDrop_Allo",
+    "label": "Allosaurus Brain",
+    "category": "artifacts"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilisk_Alpha.PrimalItemResource_ApexDrop_Basilisk_Alpha",
+    "label": "Alpha Basilisk Fang",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaCarno.PrimalItemResource_ApexDrop_AlphaCarno",
+    "label": "Alpha Carnotaurus Arm",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/Dinos/CrystalWyvern/Mega/PrimalItemResource_ApexDrop_AlphaCrystalWyvern.PrimalItemResource_ApexDrop_AlphaCrystalWyvern",
+    "label": "Alpha Crystal Talon",
+    "category": "artifacts"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_CrabClaw.PrimalItemResource_ApexDrop_CrabClaw",
+    "label": "Alpha Karkinos Claw",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaLeeds.PrimalItemResource_ApexDrop_AlphaLeeds",
+    "label": "Alpha Leedsichthys Blubber",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaMegalodon.PrimalItemResource_ApexDrop_AlphaMegalodon",
+    "label": "Alpha Megalodon Fin",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaMosasaur.PrimalItemResource_ApexDrop_AlphaMosasaur",
+    "label": "Alpha Mosasaur Tooth",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaRaptor.PrimalItemResource_ApexDrop_AlphaRaptor",
+    "label": "Alpha Raptor Claw",
+    "category": "artifacts"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_ReaperBarb.PrimalItemResource_ApexDrop_ReaperBarb",
+    "label": "Alpha Reaper King Barb",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaTuso.PrimalItemResource_ApexDrop_AlphaTuso",
+    "label": "Alpha Tusoteuthis Eye",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaRex.PrimalItemResource_ApexDrop_AlphaRex",
+    "label": "Alpha Tyrannosaur Tooth",
+    "category": "artifacts"
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaWaterWyvern.PrimalItemResource_ApexDrop_AlphaWaterWyvern",
+    "label": "Alpha Water Talon",
+    "category": "artifacts",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Genesis/Missions/Retrieve/RetrieveItems/TrikeSkull/PrimalItemSkin_TrikeSkullHelmet_Retrieve.PrimalItemSkin_TrikeSkullHelmet_Retrieve",
+    "label": "Alpha X-Triceratops Skull",
+    "category": "artifacts",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Argentavis.PrimalItemResource_ApexDrop_Argentavis",
+    "label": "Argentavis Talon",
+    "category": "artifacts"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_Extinction_DesertKaiju.PrimalItemArtifact_Extinction_DesertKaiju",
+    "label": "Artifact of Chaos",
+    "category": "artifacts"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_Extinction_ForestKaiju.PrimalItemArtifact_Extinction_ForestKaiju",
+    "label": "Artifact of Growth",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_12.PrimalItemArtifact_12",
+    "label": "Artifact of the Brute",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_05.PrimalItemArtifact_05",
+    "label": "Artifact of the Clever",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactSE_02.PrimalItemArtifactSE_02",
+    "label": "Artifact of the Crag",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_11.PrimalItemArtifact_11",
+    "label": "Artifact of the Cunning",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactAB.PrimalItemArtifactAB",
+    "label": "Artifact of the Depths",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactSE_03.PrimalItemArtifactSE_03",
+    "label": "Artifact of the Destroyer",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_04.PrimalItemArtifact_04",
+    "label": "Artifact of the Devious",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_07.PrimalItemArtifact_07",
+    "label": "Artifact of the Devourer",
+    "category": "artifacts"
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Items/Artifacts/PrimalItemArtifactAbyss_Fallen.PrimalItemArtifactAbyss_Fallen",
+    "label": "Artifact of the Fallen",
+    "category": "artifacts",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactSE_01.PrimalItemArtifactSE_01",
+    "label": "Artifact of the Gatekeeper",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_01.PrimalItemArtifact_01",
+    "label": "Artifact of the Hunter",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_08.PrimalItemArtifact_08",
+    "label": "Artifact of the Immune",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactAB_4.PrimalItemArtifactAB_4",
+    "label": "Artifact of the Lost",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_03.PrimalItemArtifact_03",
+    "label": "Artifact of the Massive",
+    "category": "artifacts"
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Items/Artifacts/PrimalItemArtifactAbyss_Mighty.PrimalItemArtifactAbyss_Mighty",
+    "label": "Artifact of the Mighty",
+    "category": "artifacts",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_02.PrimalItemArtifact_02",
+    "label": "Artifact of the Pack",
+    "category": "artifacts"
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Items/Artifacts/PrimalItemArtifactAbyss_Seeking.PrimalItemArtifactAbyss_Seeking",
+    "label": "Artifact of the Seeking",
+    "category": "artifacts",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactAB_2.PrimalItemArtifactAB_2",
+    "label": "Artifact of the Shadows",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_06.PrimalItemArtifact_06",
+    "label": "Artifact of the Skylord",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactAB_3.PrimalItemArtifactAB_3",
+    "label": "Artifact of the Stalker",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_09.PrimalItemArtifact_09",
+    "label": "Artifact of the Strong",
+    "category": "artifacts"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_Extinction_IceKaiju.PrimalItemArtifact_Extinction_IceKaiju",
+    "label": "Artifact of the Void",
+    "category": "artifacts"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilisk.PrimalItemResource_ApexDrop_Basilisk",
+    "label": "Basilisk Scale",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilo.PrimalItemResource_ApexDrop_Basilo",
+    "label": "Basilosaurus Blubber",
+    "category": "artifacts"
+  },
+  {
+    "value": "ASA/Dinos/Ceratosaurus/Dinos/PrimalItemResource_ApexDrop_Cerato_ASA.PrimalItemResource_ApexDrop_Cerato_ASA",
+    "label": "Cerato Venom Spine",
+    "category": "artifacts",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Resources/PrimalItemResource_RareDrop_CorruptHeart.PrimalItemResource_RareDrop_CorruptHeart",
+    "label": "Corrupt Heart",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/Dinos/CrystalWyvern/PrimalItemResource_ApexDrop_CrystalWyvern.PrimalItemResource_ApexDrop_CrystalWyvern",
+    "label": "Crystal Talon",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_FireWyvern.PrimalItemResource_ApexDrop_FireWyvern",
+    "label": "Fire Talon",
+    "category": "artifacts"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_GasBag.PrimalItemResource_ApexDrop_GasBag",
+    "label": "Gasbags bladder",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Giga.PrimalItemResource_ApexDrop_Giga",
+    "label": "Giganotosaurus Heart",
+    "category": "artifacts"
+  },
+  {
+    "value": "Genesis/Missions/Retrieve/RetrieveItems/MegTeeth/PrimalItemResource_RetrieveMegTooth.PrimalItemResource_RetrieveMegTooth",
+    "label": "Golden Striped Megalodon Tooth",
+    "category": "artifacts",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_LightningWyvern.PrimalItemResource_ApexDrop_LightningWyvern",
+    "label": "Lightning Talon",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Megalania.PrimalItemResource_ApexDrop_Megalania",
+    "label": "Megalania Toxin",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Megalodon.PrimalItemResource_ApexDrop_Megalodon",
+    "label": "Megalodon Tooth",
+    "category": "artifacts"
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Monodon.PrimalItemResource_ApexDrop_Monodon",
+    "label": "Monodon Horn",
+    "category": "artifacts",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Onchopristis.PrimalItemResource_ApexDrop_Onchopristis",
+    "label": "Onchopristis Blade",
+    "category": "artifacts",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_PoisonWyvern.PrimalItemResource_ApexDrop_PoisonWyvern",
+    "label": "Poison Talon",
+    "category": "artifacts"
+  },
+  {
+    "value": "Genesis/Missions/Retrieve/RetrieveItems/ReaperGland/PrimalItemResource_RetrieveReaperGland.PrimalItemResource_RetrieveReaperGland",
+    "label": "Reaper King Pheromone Gland",
+    "category": "artifacts",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_RockDrake.PrimalItemResource_ApexDrop_RockDrake",
+    "label": "Rock Drake Feather",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Sarco.PrimalItemResource_ApexDrop_Sarco",
+    "label": "Sarcosuchus Skin",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Sauro.PrimalItemResource_ApexDrop_Sauro",
+    "label": "Sauropod Vertebra",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Notes/PrimalItem_StartingNote.PrimalItem_StartingNote",
+    "label": "Specimen Implant",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Spino.PrimalItemResource_ApexDrop_Spino",
+    "label": "Spinosaurus Sail",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Theriz.PrimalItemResource_ApexDrop_Theriz",
+    "label": "Therizino Claws",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Thylaco.PrimalItemResource_ApexDrop_Thylaco",
+    "label": "Thylacoleo Hook-Claw",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Boa.PrimalItemResource_ApexDrop_Boa",
+    "label": "Titanoboa Venom",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Tuso.PrimalItemResource_ApexDrop_Tuso",
+    "label": "Tusoteuthis Tentacle",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Rex.PrimalItemResource_ApexDrop_Rex",
+    "label": "Tyrannosaurus Arm",
+    "category": "artifacts"
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_WaterWyvern.PrimalItemResource_ApexDrop_WaterWyvern",
+    "label": "Water Talon",
+    "category": "artifacts",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Yuty.PrimalItemResource_ApexDrop_Yuty",
+    "label": "Yutyrannus Lungs",
+    "category": "artifacts"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Black.PrimalItemDye_Black",
+    "label": "Black Coloring",
+    "category": "dye"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Blue.PrimalItemDye_Blue",
+    "label": "Blue Coloring",
+    "category": "dye"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Brick.PrimalItemDye_Brick",
+    "label": "Brick Coloring",
+    "category": "dye"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Brown.PrimalItemDye_Brown",
+    "label": "Brown Coloring",
+    "category": "dye"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Cantaloupe.PrimalItemDye_Cantaloupe",
+    "label": "Cantaloupe Coloring",
+    "category": "dye"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Cyan.PrimalItemDye_Cyan",
+    "label": "Cyan Coloring",
+    "category": "dye"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Forest.PrimalItemDye_Forest",
+    "label": "Forest Coloring",
+    "category": "dye"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Green.PrimalItemDye_Green",
+    "label": "Green Coloring",
+    "category": "dye"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItemDye_ActuallyMagenta.PrimalItemDye_ActuallyMagenta",
+    "label": "Magenta Coloring",
+    "category": "dye"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Mud.PrimalItemDye_Mud",
+    "label": "Mud Coloring",
+    "category": "dye"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Navy.PrimalItemDye_Navy",
+    "label": "Navy Coloring",
+    "category": "dye"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Olive.PrimalItemDye_Olive",
+    "label": "Olive Coloring",
+    "category": "dye"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Orange.PrimalItemDye_Orange",
+    "label": "Orange Coloring",
+    "category": "dye"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Parchment.PrimalItemDye_Parchment",
+    "label": "Parchment Coloring",
+    "category": "dye"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Pink.PrimalItemDye_Pink",
+    "label": "Pink Coloring",
+    "category": "dye"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Magenta.PrimalItemDye_Magenta",
+    "label": "Purple Coloring",
+    "category": "dye"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Purple.PrimalItemDye_Purple",
+    "label": "Purple Coloring",
+    "category": "dye"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Red.PrimalItemDye_Red",
+    "label": "Red Coloring",
+    "category": "dye"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Royalty.PrimalItemDye_Royalty",
+    "label": "Royalty Coloring",
+    "category": "dye"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Silver.PrimalItemDye_Silver",
+    "label": "Silver Coloring",
+    "category": "dye"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Sky.PrimalItemDye_Sky",
+    "label": "Sky Coloring",
+    "category": "dye"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Slate.PrimalItemDye_Slate",
+    "label": "Slate Coloring",
+    "category": "dye"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Tan.PrimalItemDye_Tan",
+    "label": "Tan Coloring",
+    "category": "dye"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Tangerine.PrimalItemDye_Tangerine",
+    "label": "Tangerine Coloring",
+    "category": "dye"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItemDye_White.PrimalItemDye_White",
+    "label": "White Coloring",
+    "category": "dye"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Yellow.PrimalItemDye_Yellow",
+    "label": "Yellow Coloring",
+    "category": "dye"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Allo.PrimalItemConsumable_Egg_Allo",
+    "label": "Allosaurus Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Ankylo.PrimalItemConsumable_Egg_Ankylo",
+    "label": "Ankylo Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Spider.PrimalItemConsumable_Egg_Spider",
+    "label": "Araneo Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Archa.PrimalItemConsumable_Egg_Archa",
+    "label": "Archaeopteryx Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Argent.PrimalItemConsumable_Egg_Argent",
+    "label": "Argentavis Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Arthro.PrimalItemConsumable_Egg_Arthro",
+    "label": "Arthropluera Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Baryonyx.PrimalItemConsumable_Egg_Baryonyx",
+    "label": "Baryonyx Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "Genesis2/Dinos/MilkGlider/Eggs/PrimalItemConsumable_Egg_MilkGlider_XSmall.PrimalItemConsumable_Egg_MilkGlider_XSmall",
+    "label": "Basic Maewing Egg",
+    "category": "eggs",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Egg_Basilisk.PrimalItemConsumable_Egg_Basilisk",
+    "label": "Basilisk Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Dinos/CrystalWyvern/Eggs/PrimalItemConsumable_Egg_CrystalWyvern_Fertilized_Bloodfall.PrimalItemConsumable_Egg_CrystalWyvern_Fertilized_Bloodfall",
+    "label": "Blood Crystal Wyvern Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "Genesis/Dinos/BogSpider/PrimalItemConsumable_Egg_BogSpider.PrimalItemConsumable_Egg_BogSpider",
+    "label": "Bloodstalker Egg",
+    "category": "eggs",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Bronto.PrimalItemConsumable_Egg_Bronto",
+    "label": "Bronto Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "ScorchedEarth/Dinos/Camelsaurus/PrimalItemConsumable_Egg_Camelsaurus.PrimalItemConsumable_Egg_Camelsaurus",
+    "label": "Camelsaurus Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Carno.PrimalItemConsumable_Egg_Carno",
+    "label": "Carno Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Compy.PrimalItemConsumable_Egg_Compy",
+    "label": "Compy Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Dinos/CrystalWyvern/Eggs/PrimalItemConsumable_Egg_CrystalWyvern.PrimalItemConsumable_Egg_CrystalWyvern",
+    "label": "Crystal Wyvern Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "Valguero/Dinos/Deinonychus/PrimalItemConsumable_Egg_Deinonychus_Fertilized.PrimalItemConsumable_Egg_Deinonychus_Fertilized",
+    "label": "Deinonychus Egg",
+    "category": "eggs",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Dilo.PrimalItemConsumable_Egg_Dilo",
+    "label": "Dilo Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Dimetrodon.PrimalItemConsumable_Egg_Dimetrodon",
+    "label": "Dimetrodon Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Dimorph.PrimalItemConsumable_Egg_Dimorph",
+    "label": "Dimorph Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Diplo.PrimalItemConsumable_Egg_Diplo",
+    "label": "Diplo Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Dodo.PrimalItemConsumable_Egg_Dodo",
+    "label": "Dodo Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Egg.PrimalItemConsumable_Egg",
+    "label": "Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Dinos/CrystalWyvern/Eggs/PrimalItemConsumable_Egg_CrystalWyvern_Fertilized_Ember.PrimalItemConsumable_Egg_CrystalWyvern_Fertilized_Ember",
+    "label": "Ember Crystal Wyvern Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Egg_XtraLarge.PrimalItemConsumable_Egg_XtraLarge",
+    "label": "Extra Large Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Egg_XSmall.PrimalItemConsumable_Egg_XSmall",
+    "label": "Extra Small Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Egg_LanternBird.PrimalItemConsumable_Egg_LanternBird",
+    "label": "Featherlight Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Wyvern_Fertilized_Fire.PrimalItemConsumable_Egg_Wyvern_Fertilized_Fire",
+    "label": "Fire Wyvern Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_UnderwaterEgg.PrimalItemConsumable_UnderwaterEgg",
+    "label": "Fish Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Galli.PrimalItemConsumable_Egg_Galli",
+    "label": "Gallimimus Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Gigant.PrimalItemConsumable_Egg_Gigant",
+    "label": "Giganotosaurus Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Egg_LanternLizard.PrimalItemConsumable_Egg_LanternLizard",
+    "label": "Glowtail Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Hesperonis_Golden.PrimalItemConsumable_Egg_Hesperonis_Golden",
+    "label": "Golden Hesperornis Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Hesperonis.PrimalItemConsumable_Egg_Hesperonis",
+    "label": "Hesperornis Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "Mods/Ragnarok/Custom_Assets/Dinos/Wyvern/Ice_Wyvern/Extra/Egg/RAG_Item_Egg_Wyvern_Fertilized_Ice.RAG_Item_Egg_Wyvern_Fertilized_Ice",
+    "label": "Ice Wyvern Egg",
+    "category": "eggs",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Ichthyornis.PrimalItemConsumable_Egg_Ichthyornis",
+    "label": "Ichthyornis Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Iguanodon.PrimalItemConsumable_Egg_Iguanodon",
+    "label": "Iguanodon Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Kairuku.PrimalItemConsumable_Egg_Kairuku",
+    "label": "Kairuku Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Kaprosuchus.PrimalItemConsumable_Egg_Kaprosuchus",
+    "label": "Kaprosuchus Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Kentro.PrimalItemConsumable_Egg_Kentro",
+    "label": "Kentro Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Egg_Large.PrimalItemConsumable_Egg_Large",
+    "label": "Large Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Wyvern_Fertilized_Lightning.PrimalItemConsumable_Egg_Wyvern_Fertilized_Lightning",
+    "label": "Lightning Wyvern Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Lystro.PrimalItemConsumable_Egg_Lystro",
+    "label": "Lystro Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "Genesis/Dinos/Cherufe/PrimalItemConsumable_Egg_Cherufe.PrimalItemConsumable_Egg_Cherufe",
+    "label": "Magmasaur Egg",
+    "category": "eggs",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "ScorchedEarth/Dinos/Mantis/PrimalItemConsumable_Egg_Mantis.PrimalItemConsumable_Egg_Mantis",
+    "label": "Mantis Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Egg_Medium.PrimalItemConsumable_Egg_Medium",
+    "label": "Medium Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "Genesis/Dinos/GiantTurtle/PrimalItemConsumable_Egg_GiantTurtle.PrimalItemConsumable_Egg_GiantTurtle",
+    "label": "Megachelon Egg",
+    "category": "eggs",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Megalania.PrimalItemConsumable_Egg_Megalania",
+    "label": "Megalania Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Megalosaurus.PrimalItemConsumable_Egg_Megalosaurus",
+    "label": "Megalosaurus Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_MicroRaptor.PrimalItemConsumable_Egg_MicroRaptor",
+    "label": "Microraptor Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Moschops.PrimalItemConsumable_Egg_Moschops",
+    "label": "Moschops Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "ScorchedEarth/Dinos/Moth/PrimalItemConsumable_Egg_Moth.PrimalItemConsumable_Egg_Moth",
+    "label": "Moth Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Oviraptor.PrimalItemConsumable_Egg_Oviraptor",
+    "label": "Oviraptor Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Pachy.PrimalItemConsumable_Egg_Pachy",
+    "label": "Pachycephalosaurus Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Pachyrhino.PrimalItemConsumable_Egg_Pachyrhino",
+    "label": "Pachyrhino Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Para.PrimalItemConsumable_Egg_Para",
+    "label": "Parasaur Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Pegomastax.PrimalItemConsumable_Egg_Pegomastax",
+    "label": "Pegomastax Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Pela.PrimalItemConsumable_Egg_Pela",
+    "label": "Pelagornis Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Wyvern_Fertilized_Poison.PrimalItemConsumable_Egg_Wyvern_Fertilized_Poison",
+    "label": "Poison Wyvern Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Ptero.PrimalItemConsumable_Egg_Ptero",
+    "label": "Pteranodon Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Scorpion.PrimalItemConsumable_Egg_Scorpion",
+    "label": "Pulmonoscorpius Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Quetz.PrimalItemConsumable_Egg_Quetz",
+    "label": "Quetzal Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Raptor.PrimalItemConsumable_Egg_Raptor",
+    "label": "Raptor Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Rex.PrimalItemConsumable_Egg_Rex",
+    "label": "Rex Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "Aberration/Dinos/RockDrake/PrimalItemConsumable_Egg_RockDrake_Fertilized.PrimalItemConsumable_Egg_RockDrake_Fertilized",
+    "label": "Rock Drake Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Sarco.PrimalItemConsumable_Egg_Sarco",
+    "label": "Sarco Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Egg_Small.PrimalItemConsumable_Egg_Small",
+    "label": "Small Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "Extinction/Dinos/Owl/PrimalItemConsumable_Egg_Owl.PrimalItemConsumable_Egg_Owl",
+    "label": "Snow Owl Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Egg_Special.PrimalItemConsumable_Egg_Special",
+    "label": "Special Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Spino.PrimalItemConsumable_Egg_Spino",
+    "label": "Spino Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Stego.PrimalItemConsumable_Egg_Stego",
+    "label": "Stego Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "Genesis2/Dinos/MilkGlider/Eggs/PrimalItemConsumable_Egg_MilkGlider_Large.PrimalItemConsumable_Egg_MilkGlider_Large",
+    "label": "Superior Maewing Egg",
+    "category": "eggs",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Tapejara.PrimalItemConsumable_Egg_Tapejara",
+    "label": "Tapejara Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Para_Bionic.PrimalItemConsumable_Egg_Para_Bionic",
+    "label": "Tek Parasaur Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Quetz_Bionic.PrimalItemConsumable_Egg_Quetz_Bionic",
+    "label": "Tek Quetzal Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Raptor_Bionic.PrimalItemConsumable_Egg_Raptor_Bionic",
+    "label": "Tek Raptor Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Rex_Bionic.PrimalItemConsumable_Egg_Rex_Bionic",
+    "label": "Tek Rex Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Stego_Bionic.PrimalItemConsumable_Egg_Stego_Bionic",
+    "label": "Tek Stego Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Trike_Bionic.PrimalItemConsumable_Egg_Trike_Bionic",
+    "label": "Tek Trike Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_TerrorBird.PrimalItemConsumable_Egg_Terrorbird",
+    "label": "Terror Bird Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Therizino.PrimalItemConsumable_Egg_Therizino",
+    "label": "Therizino Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "ScorchedEarth/Dinos/SpineyLizard/PrimalItemConsumable_Egg_SpineyLizard.PrimalItemConsumable_Egg_SpineyLizard",
+    "label": "Thorny Dragon Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Boa.PrimalItemConsumable_Egg_Boa",
+    "label": "Titanoboa Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Trike.PrimalItemConsumable_Egg_Trike",
+    "label": "Trike Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Troodon.PrimalItemConsumable_Egg_Troodon",
+    "label": "Troodon Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Tropeognathus.PrimalItemConsumable_Egg_Tropeognathus",
+    "label": "Tropeognathus Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Dinos/CrystalWyvern/Eggs/PrimalItemConsumable_Egg_CrystalWyvern_Fertilized_WS.PrimalItemConsumable_Egg_CrystalWyvern_Fertilized_WS",
+    "label": "Tropical Crystal Wyvern Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Turtle.PrimalItemConsumable_Egg_Turtle",
+    "label": "Turtle Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "Extinction/Dinos/Spindles/PrimalItemConsumable_Egg_Spindles.PrimalItemConsumable_Egg_Spindles",
+    "label": "Velonasaur Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "ScorchedEarth/Dinos/Vulture/PrimalItemConsumable_Egg_Vulture.PrimalItemConsumable_Egg_Vulture",
+    "label": "Vulture Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/Test/PrimalItemConsumable_Egg_Yuty.PrimalItemConsumable_Egg_Yuty",
+    "label": "Yutyrannus Egg",
+    "category": "eggs"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_HumanPoop.PrimalItemConsumable_HumanPoop",
+    "label": "Human Feces",
+    "category": "farming"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_DinoPoopLarge.PrimalItemConsumable_DinoPoopLarge",
+    "label": "Large Animal Feces",
+    "category": "farming"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_DinoPoopMassive.PrimalItemConsumable_DinoPoopMassive",
+    "label": "Massive Animal Feces",
+    "category": "farming"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_DinoPoopMedium.PrimalItemConsumable_DinoPoopMedium",
+    "label": "Medium Animal Feces",
+    "category": "farming"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_DinoPoopSmall.PrimalItemConsumable_DinoPoopSmall",
+    "label": "Small Animal Feces",
+    "category": "farming"
+  },
+  {
+    "value": "Extinction/Dinos/Owl/Pellet/PrimalItemConsumable_OwlPellet.PrimalItemConsumable_OwlPellet",
+    "label": "Snow Owl Pellet",
+    "category": "farming"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Amarberry.PrimalItemConsumable_Seed_Amarberry",
+    "label": "Amarberry Seed",
+    "category": "seeds"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Azulberry.PrimalItemConsumable_Seed_Azulberry",
+    "label": "Azulberry Seed",
+    "category": "seeds"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Citronal.PrimalItemConsumable_Seed_Citronal",
+    "label": "Citronal Seed",
+    "category": "seeds"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Longrass.PrimalItemConsumable_Seed_Longrass",
+    "label": "Longrass Seed",
+    "category": "seeds"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Mejoberry.PrimalItemConsumable_Seed_Mejoberry",
+    "label": "Mejoberry Seed",
+    "category": "seeds"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Narcoberry.PrimalItemConsumable_Seed_Narcoberry",
+    "label": "Narcoberry Seed",
+    "category": "seeds"
+  },
+  {
+    "value": "Genesis2/Structures/PlantSpeciesR/PrimalItemConsumable_Seed_PlantSpeciesR_RawMeat.PrimalItemConsumable_Seed_PlantSpeciesR_RawMeat",
+    "label": "Plant Species R-1 Seed",
+    "category": "seeds",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Genesis2/Structures/PlantSpeciesR/PrimalItemConsumable_Seed_PlantSpeciesR_RawFish.PrimalItemConsumable_Seed_PlantSpeciesR_RawFish",
+    "label": "Plant Species R-2 Seed",
+    "category": "seeds",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Genesis2/Structures/PlantSpeciesR/PrimalItemConsumable_Seed_PlantSpeciesR_SpoiledMeat.PrimalItemConsumable_Seed_PlantSpeciesR_SpoiledMeat",
+    "label": "Plant Species R-3 Seed",
+    "category": "seeds",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Genesis2/Structures/PlantSpeciesR/PrimalItemConsumable_Seed_PlantSpeciesR_PrimeMeat.PrimalItemConsumable_Seed_PlantSpeciesR_PrimeMeat",
+    "label": "Plant Species R-4 Seed",
+    "category": "seeds",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Genesis2/Structures/PlantSpeciesR/PrimalItemConsumable_Seed_PlantSpeciesR_PrimeFish.PrimalItemConsumable_Seed_PlantSpeciesR_PrimeFish",
+    "label": "Plant Species R-5 Seed",
+    "category": "seeds",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_DefensePlant.PrimalItemConsumable_Seed_DefensePlant",
+    "label": "Plant Species X Seed",
+    "category": "seeds"
+  },
+  {
+    "value": "ScorchedEarth/WeaponPlantSpeciesY/PrimalItemConsumable_Seed_PlantSpeciesY.PrimalItemConsumable_Seed_PlantSpeciesY",
+    "label": "Plant Species Y Seed",
+    "category": "seeds"
+  },
+  {
+    "value": "Aberration/WeaponPlantSpeciesZ/PrimalItemConsumable_Seed_PlantSpeciesZ.PrimalItemConsumable_Seed_PlantSpeciesZ",
+    "label": "Plant Species Z Seed",
+    "category": "seeds"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Rockarrot.PrimalItemConsumable_Seed_Rockarrot",
+    "label": "Rockarrot Seed",
+    "category": "seeds"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Savoroot.PrimalItemConsumable_Seed_Savoroot",
+    "label": "Savoroot Seed",
+    "category": "seeds"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Stimberry.PrimalItemConsumable_Seed_Stimberry",
+    "label": "Stimberry Seed",
+    "category": "seeds"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Tintoberry.PrimalItemConsumable_Seed_Tintoberry",
+    "label": "Tintoberry Seed",
+    "category": "seeds"
+  },
+  {
+    "value": "Genesis2/Dinos/Exosuit/Exosuit_Character_BP.Exosuit_Character_BP",
+    "label": "Exo-Mek",
+    "category": "vehicles",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Extinction/Dinos/Mek/Mek_Character_BP.Mek_Character_BP",
+    "label": "Mek",
+    "category": "vehicles"
+  },
+  {
+    "value": "Genesis2/Dinos/TekHoverSail/PrimalItem_Spawner_HoverSail_Main.PrimalItem_Spawner_HoverSail_Main",
+    "label": "Tek Hoversail",
+    "category": "vehicles",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Genesis/CoreBlueprints/Items/PrimalItem_Spawner_HoverSkiff.PrimalItem_Spawner_HoverSkiff",
+    "label": "Unassembled TEK Hover Skiff",
+    "category": "vehicles",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Broodmother_Alpha.PrimalItemTrophy_Broodmother_Alpha",
+    "label": "Alpha Broodmother Trophy",
+    "category": "trophies"
+  },
+  {
+    "value": "Mods/CrystalIsles/Assets/Dinos/CIBoss/Trophy/PrimalItemTrophy_CIBoss_Alpha.PrimalItemTrophy_CIBoss_Alpha",
+    "label": "Alpha Crystal Wyvern Queen Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Cymathoa_Alpha.PrimalItemTrophy_Cymathoa_Alpha",
+    "label": "Alpha Cymathoa Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_AlphaWorm.PrimalItemTrophy_AlphaWorm",
+    "label": "Alpha Deathworm Trophy",
+    "category": "trophies"
+  },
+  {
+    "value": "LostIsland/Boss/PrimalItemTrophy_BossDinopithecus_Hard.PrimalItemTrophy_BossDinopithecus_Hard",
+    "label": "Alpha Dinopithecus King Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Dragon_Alpha.PrimalItemTrophy_Dragon_Alpha",
+    "label": "Alpha Dragon Trophy",
+    "category": "trophies"
+  },
+  {
+    "value": "Fjordur/Structures/FenrirTrophy/PrimalItemTrophy_FenrirBoss_Alpha.PrimalItemTrophy_FenrirBoss_Alpha",
+    "label": "Alpha Fenrisúlfr Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Fractalis_Alpha.PrimalItemTrophy_Fractalis_Alpha",
+    "label": "Alpha Fractalis Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "ScorchedEarth/Structures/TrophyHeads/Manticore_Trophy/PrimalItemTrophy_Manticore_Alpha.PrimalItemTrophy_Manticore_Alpha",
+    "label": "Alpha Manticore Trophy",
+    "category": "trophies"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Gorilla_Alpha.PrimalItemTrophy_Gorilla_Alpha",
+    "label": "Alpha Megapithecus Trophy",
+    "category": "trophies"
+  },
+  {
+    "value": "Genesis/CoreBlueprints/Items/Trophies/PrimalItemTrophy_EelBoss_Alpha.PrimalItemTrophy_EelBoss_Alpha",
+    "label": "Alpha Moeder Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Pygocentrus_Alpha.PrimalItemTrophy_Pygocentrus_Alpha",
+    "label": "Alpha Pygocentrus Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_AlphaRex.PrimalItemTrophy_AlphaRex",
+    "label": "Alpha Rex Trophy",
+    "category": "trophies"
+  },
+  {
+    "value": "Genesis2/Structures/TrophyHeads/RockwellGen2/PrimalItemTrophy_RockwellGen2_Alpha.PrimalItemTrophy_RockwellGen2_Alpha",
+    "label": "Alpha Rockwell Final Form Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Vulcanithys_Alpha.PrimalItemTrophy_Vulcanithys_Alpha",
+    "label": "Alpha Vulcanithys Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_AlphaWyvern.PrimalItemTrophy_AlphaWyvern",
+    "label": "Alpha Wyvern Trophy",
+    "category": "trophies"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Broodmother_Beta.PrimalItemTrophy_Broodmother_Beta",
+    "label": "Beta Broodmother Trophy",
+    "category": "trophies"
+  },
+  {
+    "value": "Mods/CrystalIsles/Assets/Dinos/CIBoss/Trophy/PrimalItemTrophy_CIBoss_Beta.PrimalItemTrophy_CIBoss_Beta",
+    "label": "Beta Crystal Wyvern Queen Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Cymathoa_Beta.PrimalItemTrophy_Cymathoa_Beta",
+    "label": "Beta Cymathoa Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "LostIsland/Boss/PrimalItemTrophy_BossDinopithecus_Medium.PrimalItemTrophy_BossDinopithecus_Medium",
+    "label": "Beta Dinopithecus King Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Dragon_Beta.PrimalItemTrophy_Dragon_Beta",
+    "label": "Beta Dragon Trophy",
+    "category": "trophies"
+  },
+  {
+    "value": "Fjordur/Structures/FenrirTrophy/PrimalItemTrophy_FenrirBoss_Beta.PrimalItemTrophy_FenrirBoss_Beta",
+    "label": "Beta Fenrisúlfr Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Fractalis_Beta.PrimalItemTrophy_Fractalis_Beta",
+    "label": "Beta Fractalis Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "ScorchedEarth/Structures/TrophyHeads/Manticore_Trophy/PrimalItemTrophy_Manticore_Beta.PrimalItemTrophy_Manticore_Beta",
+    "label": "Beta Manticore Trophy",
+    "category": "trophies"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Gorilla_Beta.PrimalItemTrophy_Gorilla_Beta",
+    "label": "Beta Megapithecus Trophy",
+    "category": "trophies"
+  },
+  {
+    "value": "Genesis/CoreBlueprints/Items/Trophies/PrimalItemTrophy_EelBoss_Beta.PrimalItemTrophy_EelBoss_Beta",
+    "label": "Beta Moeder Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Pygocentrus_Beta.PrimalItemTrophy_Pygocentrus_Beta",
+    "label": "Beta Pygocentrus Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Genesis2/Structures/TrophyHeads/RockwellGen2/PrimalItemTrophy_RockwellGen2_Beta.PrimalItemTrophy_RockwellGen2_Beta",
+    "label": "Beta Rockwell Final Form Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Vulcanithys_Beta.PrimalItemTrophy_Vulcanithys_Beta",
+    "label": "Beta Vulcanithys Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Broodmother.PrimalItemTrophy_Broodmother",
+    "label": "Broodmother Trophy",
+    "category": "trophies"
+  },
+  {
+    "value": "Mods/CrystalIsles/Assets/Dinos/CIBoss/Trophy/PrimalItemTrophy_CIBoss.PrimalItemTrophy_CIBoss",
+    "label": "Crystal Wyvern Queen Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Cymathoa.PrimalItemTrophy_Cymathoa",
+    "label": "Cymathoa Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_Desert.PrimalItemTrophy_Kaiju_Desert",
+    "label": "Desert Titan Trophy",
+    "category": "trophies"
+  },
+  {
+    "value": "LostIsland/Boss/PrimalItemTrophy_BossDinopithecus.PrimalItemTrophy_BossDinopithecus",
+    "label": "Dinopithecus King Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Dragon.PrimalItemTrophy_Dragon",
+    "label": "Dragon Trophy",
+    "category": "trophies"
+  },
+  {
+    "value": "Fjordur/Structures/FenrirTrophy/PrimalItemTrophy_FenrirBoss.PrimalItemTrophy_FenrirBoss",
+    "label": "Fenrisúlfr Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_Forest.PrimalItemTrophy_Kaiju_Forest",
+    "label": "Forest Titan Trophy",
+    "category": "trophies"
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Fractalis.PrimalItemTrophy_Fractalis",
+    "label": "Fractalis Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Broodmother_Gamma.PrimalItemTrophy_Broodmother_Gamma",
+    "label": "Gamma Broodmother Trophy",
+    "category": "trophies"
+  },
+  {
+    "value": "Mods/CrystalIsles/Assets/Dinos/CIBoss/Trophy/PrimalItemTrophy_CIBoss_Gamma.PrimalItemTrophy_CIBoss_Gamma",
+    "label": "Gamma Crystal Wyvern Queen Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Cymathoa_Gamma.PrimalItemTrophy_Cymathoa_Gamma",
+    "label": "Gamma Cymathoa Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "LostIsland/Boss/PrimalItemTrophy_BossDinopithecus_Easy.PrimalItemTrophy_BossDinopithecus_Easy",
+    "label": "Gamma Dinopithecus King Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Dragon_Gamma.PrimalItemTrophy_Dragon_Gamma",
+    "label": "Gamma Dragon Trophy",
+    "category": "trophies"
+  },
+  {
+    "value": "Fjordur/Structures/FenrirTrophy/PrimalItemTrophy_FenrirBoss_Gamma.PrimalItemTrophy_FenrirBoss_Gamma",
+    "label": "Gamma Fenrisúlfr Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Fractalis_Gamma.PrimalItemTrophy_Fractalis_Gamma",
+    "label": "Gamma Fractalis Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "ScorchedEarth/Structures/TrophyHeads/Manticore_Trophy/PrimalItemTrophy_Manticore_Gamma.PrimalItemTrophy_Manticore_Gamma",
+    "label": "Gamma Manticore Trophy",
+    "category": "trophies"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Gorilla_Gamma.PrimalItemTrophy_Gorilla_Gamma",
+    "label": "Gamma Megapithecus Trophy",
+    "category": "trophies"
+  },
+  {
+    "value": "Genesis/CoreBlueprints/Items/Trophies/PrimalItemTrophy_EelBoss_Gamma.PrimalItemTrophy_EelBoss_Gamma",
+    "label": "Gamma Moeder Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Pygocentrus_Gamma.PrimalItemTrophy_Pygocentrus_Gamma",
+    "label": "Gamma Pygocentrus Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Genesis2/Structures/TrophyHeads/RockwellGen2/PrimalItemTrophy_RockwellGen2_Gamma.PrimalItemTrophy_RockwellGen2_Gamma",
+    "label": "Gamma Rockwell Final Form Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Vulcanithys_Gamma.PrimalItemTrophy_Vulcanithys_Gamma",
+    "label": "Gamma Vulcanithys Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_Ice.PrimalItemTrophy_Kaiju_Ice",
+    "label": "Ice Titan Trophy",
+    "category": "trophies"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_King_Alpha.PrimalItemTrophy_Kaiju_King_Alpha",
+    "label": "King Titan Trophy (Alpha)",
+    "category": "trophies"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_King_Beta.PrimalItemTrophy_Kaiju_King_Beta",
+    "label": "King Titan Trophy (Beta)",
+    "category": "trophies"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_King_Gamma.PrimalItemTrophy_Kaiju_King_Gamma",
+    "label": "King Titan Trophy (Gamma)",
+    "category": "trophies"
+  },
+  {
+    "value": "ScorchedEarth/Structures/TrophyHeads/Manticore_Trophy/PrimalItemTrophy_Manticore.PrimalItemTrophy_Manticore",
+    "label": "Manticore Trophy",
+    "category": "trophies"
+  },
+  {
+    "value": "Genesis/CoreBlueprints/Items/Trophies/PrimalItemTrophy_MasterController.PrimalItemTrophy_MasterController",
+    "label": "Master Controller Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Gorilla.PrimalItemTrophy_Gorilla",
+    "label": "Megapithecus Trophy",
+    "category": "trophies"
+  },
+  {
+    "value": "Genesis/CoreBlueprints/Items/Trophies/PrimalItemTrophy_EelBoss.PrimalItemTrophy_EelBoss",
+    "label": "Moeder Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Pygocentrus.PrimalItemTrophy_Pygocentrus",
+    "label": "Pygocentrus Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Genesis2/Structures/TrophyHeads/RockwellGen2/PrimalItemTrophy_RockwellGen2.PrimalItemTrophy_RockwellGen2",
+    "label": "Rockwell Final Form Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Rockwell_Beta_Alpha.PrimalItemTrophy_Rockwell_Beta_Alpha",
+    "label": "Rockwell Trophy (Alpha)",
+    "category": "trophies"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Rockwell_Beta.PrimalItemTrophy_Rockwell_Beta",
+    "label": "Rockwell Trophy (Beta)",
+    "category": "trophies"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Rockwell.PrimalItemTrophy_Rockwell",
+    "label": "Rockwell Trophy (Gamma)",
+    "category": "trophies"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_ARKLogo.PrimalItemTrophy_ARKLogo",
+    "label": "Survivor's Trophy",
+    "category": "trophies"
+  },
+  {
+    "value": "Abyss/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Vulcanithys.PrimalItemTrophy_Vulcanithys",
+    "label": "Vulcanithys Trophy",
+    "category": "trophies",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_SubstrateAbsorbent.PrimalItemResource_SubstrateAbsorbent",
+    "label": "Absorbent Substrate",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste",
+    "label": "Achatina Paste",
+    "category": "resources"
+  },
+  {
+    "value": "Genesis/Dinos/SpaceWhale/PrimalItemResource_Ambergris.PrimalItemResource_Ambergris",
+    "label": "Ambergris",
+    "category": "resources",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_AmmoniteBlood.PrimalItemResource_AmmoniteBlood",
+    "label": "Ammonite Bile",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_AnglerGel.PrimalItemResource_AnglerGel",
+    "label": "AnglerGel",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_BlackPearl.PrimalItemResource_BlackPearl",
+    "label": "Black Pearl",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BloodPack.PrimalItemConsumable_BloodPack",
+    "label": "Blood Pack",
+    "category": "resources"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Resources/PrimalItemResource_BlueSap.PrimalItemResource_BlueSap",
+    "label": "Blue Crystalized Sap",
+    "category": "resources"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Resources/PrimalItemResource_Gem_BioLum.PrimalItemResource_Gem_BioLum",
+    "label": "Blue Gem",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ChitinPaste.PrimalItemResource_ChitinPaste",
+    "label": "Cementing Paste",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Charcoal.PrimalItemResource_Charcoal",
+    "label": "Charcoal",
+    "category": "resources"
+  },
+  {
+    "value": "Aberration/WeaponGlowStickCharge/PrimalItem_ChargeBattery.PrimalItem_ChargeBattery",
+    "label": "Charge Battery",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Chitin.PrimalItemResource_Chitin",
+    "label": "Chitin",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ChitinOrKeratin.PrimalItemResource_ChitinOrKeratin",
+    "label": "Chitin or Keratin",
+    "category": "resources"
+  },
+  {
+    "value": "ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Clay.PrimalItemResource_Clay",
+    "label": "Clay",
+    "category": "resources"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Resources/PrimalItemResource_CondensedGas.PrimalItemResource_CondensedGas",
+    "label": "Condensed Gas",
+    "category": "resources"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Resources/PrimalItemResource_Gas.PrimalItemResource_Gas",
+    "label": "Congealed Gas Ball",
+    "category": "resources"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Resources/PrimalItemResource_CorruptedPolymer.PrimalItemResource_CorruptedPolymer",
+    "label": "Corrupted Nodule",
+    "category": "resources"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Resources/PrimalItemResource_CorruptedWood.PrimalItemResource_CorruptedWood",
+    "label": "Corrupted Wood",
+    "category": "resources"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Resources/PrimalItemResource_ElementDustFromShards.PrimalItemResource_ElementDustFromShards",
+    "label": "Crafted Element Dust",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Crystal.PrimalItemResource_Crystal",
+    "label": "Crystal",
+    "category": "resources"
+  },
+  {
+    "value": "ScorchedEarth/Dinos/Deathworm/PrimalItemResource_KeratinSpike.PrimalItemResource_KeratinSpike",
+    "label": "Deathworm Horn",
+    "category": "resources"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Items/PrimalItem_TaxidermyDermis.PrimalItem_TaxidermyDermis",
+    "label": "Dermis",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ARKBone.PrimalItemResource_ARKBone",
+    "label": "Dinosaur Bone",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Electronics.PrimalItemResource_Electronics",
+    "label": "Electronics",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element",
+    "label": "Element",
+    "category": "resources"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Resources/PrimalItemResource_ElementDust.PrimalItemResource_ElementDust",
+    "label": "Element Dust",
+    "category": "resources"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Resources/PrimalItemResource_ElementOre.PrimalItemResource_ElementOre",
+    "label": "Element Ore",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ElementShard.PrimalItemResource_ElementShard",
+    "label": "Element Shard",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Fertilizer_Compost.PrimalItemConsumable_Fertilizer_Compost",
+    "label": "Fertilizer",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Fibers.PrimalItemResource_Fibers",
+    "label": "Fiber",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Flint.PrimalItemResource_Flint",
+    "label": "Flint",
+    "category": "resources"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Resources/PrimalItemResource_FracturedGem.PrimalItemResource_FracturedGem",
+    "label": "Fragmented Green Gem",
+    "category": "resources"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Resources/PrimalItemResource_FungalWood.PrimalItemResource_FungalWood",
+    "label": "Fungal Wood",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Gasoline.PrimalItemResource_Gasoline",
+    "label": "Gasoline",
+    "category": "resources"
+  },
+  {
+    "value": "Genesis/Missions/Retrieve/RetrieveItems/GoldenNugget/PrimalItemResource_GoldenNugget.PrimalItemResource_GoldenNugget",
+    "label": "Golden Nugget",
+    "category": "resources",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Resources/PrimalItemResource_Gem_Fertile.PrimalItemResource_Gem_Fertile",
+    "label": "Green Gem",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Gunpowder.PrimalItemResource_Gunpowder",
+    "label": "Gunpowder",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Hide.PrimalItemResource_Hide",
+    "label": "Hide",
+    "category": "resources"
+  },
+  {
+    "value": "Genesis/Missions/Retrieve/RetrieveItems/HighQualityPollen/PrimalItemResource_HighQualityPollen.PrimalItemResource_HighQualityPollen",
+    "label": "High Quality Pollen",
+    "category": "resources",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Hair.PrimalItemResource_Hair",
+    "label": "Human Hair",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Keratin.PrimalItemResource_Keratin",
+    "label": "Keratin",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_LeechBlood.PrimalItemResource_LeechBlood",
+    "label": "Leech Blood",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResourceGeneric_Curing.PrimalItemResourceGeneric_Curing",
+    "label": "Leech Blood or Horns",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Metal.PrimalItemResource_Metal",
+    "label": "Metal",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_MetalIngot.PrimalItemResource_MetalIngot",
+    "label": "Metal Ingot",
+    "category": "resources"
+  },
+  {
+    "value": "Genesis2/CoreBlueprints/Environment/Mutagen/PrimalItemConsumable_Mutagel.PrimalItemConsumable_Mutagel",
+    "label": "Mutagel",
+    "category": "resources",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Genesis2/CoreBlueprints/Environment/Mutagen/PrimalItemConsumable_Mutagen.PrimalItemConsumable_Mutagen",
+    "label": "Mutagen",
+    "category": "resources",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Narcotic.PrimalItemConsumable_Narcotic",
+    "label": "Narcotic",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Obsidian.PrimalItemResource_Obsidian",
+    "label": "Obsidian",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Oil.PrimalItemResource_Oil",
+    "label": "Oil",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/Dinos/Tusoteuthis/PrimalItemResource_SquidOil.PrimalItemResource_SquidOil",
+    "label": "Oil",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic",
+    "label": "Organic Polymer",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Pelt.PrimalItemResource_Pelt",
+    "label": "Pelt",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_PeltOrHair.PrimalItemResource_PeltOrHair",
+    "label": "Pelt, Hair, or Wool",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer.PrimalItemResource_Polymer",
+    "label": "Polymer",
+    "category": "resources"
+  },
+  {
+    "value": "ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_PreservingSalt.PrimalItemResource_PreservingSalt",
+    "label": "Preserving Salt",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/Dinos/CrystalWyvern/CrystalResources/Primal/PrimalItemResource_Crystal_IslesPrimal.PrimalItemResource_Crystal_IslesPrimal",
+    "label": "Primal Crystal",
+    "category": "resources"
+  },
+  {
+    "value": "ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Propellant.PrimalItemResource_Propellant",
+    "label": "Propellant",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareFlower.PrimalItemResource_RareFlower",
+    "label": "Rare Flower",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom",
+    "label": "Rare Mushroom",
+    "category": "resources"
+  },
+  {
+    "value": "ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_RawSalt.PrimalItemResource_RawSalt",
+    "label": "Raw Salt",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableMiracleGro.PrimalItemConsumableMiracleGro",
+    "label": "Re-Fertilizer",
+    "category": "resources"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Resources/PrimalItemResource_RedSap.PrimalItemResource_RedSap",
+    "label": "Red Crystalized Sap",
+    "category": "resources"
+  },
+  {
+    "value": "Aberration/CoreBlueprints/Resources/PrimalItemResource_Gem_Element.PrimalItemResource_Gem_Element",
+    "label": "Red Gem",
+    "category": "resources"
+  },
+  {
+    "value": "ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Sand.PrimalItemResource_Sand",
+    "label": "Sand",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Sap.PrimalItemResource_Sap",
+    "label": "Sap",
+    "category": "resources"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Resources/PrimalItemResource_ScrapMetal.PrimalItemResource_ScrapMetal",
+    "label": "Scrap Metal",
+    "category": "resources"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Resources/PrimalItemResource_ScrapMetalIngot.PrimalItemResource_ScrapMetalIngot",
+    "label": "Scrap Metal Ingot",
+    "category": "resources"
+  },
+  {
+    "value": "Genesis/CoreBlueprints/Resources/PrimalItemResource_TurtleShell.PrimalItemResource_TurtleShell",
+    "label": "Shell Fragment",
+    "category": "resources",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Silicon.PrimalItemResource_Silicon",
+    "label": "Silica Pearls",
+    "category": "resources"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Resources/PrimalItemResource_Silicate.PrimalItemResource_Silicate",
+    "label": "Silicate",
+    "category": "resources"
+  },
+  {
+    "value": "ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Silk.PrimalItemResource_Silk",
+    "label": "Silk",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Sparkpowder.PrimalItemResource_Sparkpowder",
+    "label": "Sparkpowder",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Stimulant.PrimalItemConsumable_Stimulant",
+    "label": "Stimulant",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Stone.PrimalItemResource_Stone",
+    "label": "Stone",
+    "category": "resources"
+  },
+  {
+    "value": "ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Sulfur.PrimalItemResource_Sulfur",
+    "label": "Sulfur",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Thatch.PrimalItemResource_Thatch",
+    "label": "Thatch",
+    "category": "resources"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Resources/PrimalItemResource_ElementRefined.PrimalItemResource_ElementRefined",
+    "label": "Unstable Element",
+    "category": "resources"
+  },
+  {
+    "value": "Extinction/CoreBlueprints/Resources/PrimalItemResource_ShardRefined.PrimalItemResource_ShardRefined",
+    "label": "Unstable Element Shard",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wood.PrimalItemResource_Wood",
+    "label": "Wood",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wool.PrimalItemResource_Wool",
+    "label": "Wool",
+    "category": "resources"
+  },
+  {
+    "value": "PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Horn.PrimalItemResource_Horn",
+    "label": "Woolly Rhino Horn",
+    "category": "resources"
+  }
+]

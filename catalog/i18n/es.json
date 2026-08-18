@@ -2373,8 +2373,8 @@
         "description": "Duplica el último objeto recibido."
       },
       "give_item_blueprint": {
-        "label": "Dar objeto por blueprint",
-        "description": "Entrega un objeto mediante su ruta Blueprint completa."
+        "label": "Dar item (armas, monturas y más)",
+        "description": "Entrega cualquier item del juego: empezá a escribir su nombre en inglés (crossbow, saddle, kibble…) y elegilo del autocompletado — son más de 800 items entre armas, armaduras, monturas, consumibles, huevos, tintes, artefactos y recursos. También acepta una ruta blueprint relativa a /Game/ escrita a mano."
       },
       "server_chat": {
         "label": "Mensaje de servidor",
@@ -2477,7 +2477,7 @@
     },
     "params": {
       "amount": "Cantidad",
-      "blueprint_path": "Ruta Blueprint",
+      "blueprint_path": "Item (buscá por nombre) / ruta blueprint",
       "class_name": "Class name",
       "exact_match": "Coincidencia exacta",
       "player_name": "Nombre del jugador",
@@ -2618,8 +2618,8 @@
         "description": "Da cualquier item buscando por una palabra clave (ej: 'wood' = madera, 'sword' = espada). El método más fácil — no necesitas saber el class name completo."
       },
       "give_resource": {
-        "label": "Dar recurso por class name",
-        "description": "Da una cantidad específica de un recurso usando su class name canónico. Más preciso que GFI cuando hay múltiples items con la misma keyword."
+        "label": "Dar recurso",
+        "description": "Entrega una cantidad de un recurso (metal, madera, perlas, gemas…): empezá a escribir su nombre en inglés y elegilo del autocompletado — son 83 recursos con su ruta blueprint verificada. Más preciso que GFI, que matchea por texto y puede dar otro item."
       },
       "give_resources_bundle": {
         "label": "Dar bundle de recursos",
@@ -2905,6 +2905,7 @@
     "tab_tags": "Spawn tags",
     "tab_resources": "Recursos",
     "tab_engrams": "Engramas",
+    "tab_items": "Items",
     "empty": "Aún no agregaste classnames. Usá el formulario de abajo para sumar los de tus mods.",
     "add_new": "Agregar nuevo",
     "placeholder_value": "ClassName (ej: Pyromane_Character_BP_C)",

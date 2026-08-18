@@ -2373,8 +2373,8 @@
         "description": "Duplicates the last received item."
       },
       "give_item_blueprint": {
-        "label": "Give item by blueprint",
-        "description": "Gives an item using its complete Blueprint path."
+        "label": "Give item (weapons, saddles & more)",
+        "description": "Gives any item in the game: start typing its name (crossbow, saddle, kibble…) and pick it from the autocomplete — over 800 items across weapons, armor, saddles, consumables, eggs, dyes, artifacts and resources. Also accepts a hand-written blueprint path relative to /Game/."
       },
       "server_chat": {
         "label": "Server message",
@@ -2477,7 +2477,7 @@
     },
     "params": {
       "amount": "Amount",
-      "blueprint_path": "Blueprint path",
+      "blueprint_path": "Item (search by name) / blueprint path",
       "class_name": "Class name",
       "exact_match": "Exact match",
       "player_name": "Player name",
@@ -2618,8 +2618,8 @@
         "description": "Gives any item searching by a keyword (e.g. 'wood' = wood, 'sword' = sword). The easiest method — you don't need to know the full class name."
       },
       "give_resource": {
-        "label": "Give resource by class name",
-        "description": "Gives a specific quantity of a resource using its canonical class name. More precise than GFI when multiple items share a keyword."
+        "label": "Give resource",
+        "description": "Gives a quantity of a resource (metal, wood, pearls, gems…): start typing its name and pick it from the autocomplete — 83 resources with their blueprint path verified. More precise than GFI, which matches by text and can silently give another item."
       },
       "give_resources_bundle": {
         "label": "Give resource bundle",
@@ -2905,6 +2905,7 @@
     "tab_tags": "Spawn tags",
     "tab_resources": "Resources",
     "tab_engrams": "Engrams",
+    "tab_items": "Items",
     "empty": "No classnames yet. Use the form below to add the ones from your mods.",
     "add_new": "Add new",
     "placeholder_value": "ClassName (e.g. Pyromane_Character_BP_C)",
