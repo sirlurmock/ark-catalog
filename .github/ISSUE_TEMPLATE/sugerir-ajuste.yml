@@ -1,0 +1,75 @@
+name: Sugerir un ajuste faltante
+description: Una mod ya catalogada (o el juego base) tiene una clave de configuración que no aparece en la app
+title: "[Ajuste] "
+labels: ["setting-suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **¿Sabías que la app puede llenar esto sola?** Dentro de cualquier mod
+        catalogada, el link "¿Encontraste un ajuste que falta?" abre un issue
+        con todo el formato puesto — y de paso te avisa si la clave ya está en
+        el catálogo, para que no se repita.
+
+        Si preferís hacerlo a mano, **antes de crear el issue** revisá que la
+        clave no esté ya pedida:
+        [issues con `setting-suggestion`](../../issues?q=label%3Asetting-suggestion).
+
+  - type: input
+    id: mod
+    attributes:
+      label: ¿A qué mod le falta el ajuste?
+      description: El nombre de la mod, o "juego base" si es una clave de ARK sin mod.
+      placeholder: Paleo ARK
+    validations:
+      required: true
+
+  - type: input
+    id: clave
+    attributes:
+      label: La clave exacta
+      description: Tal cual se escribe en el `.ini`, respetando mayúsculas.
+      placeholder: DinoWeightMultiplier
+    validations:
+      required: true
+
+  - type: textarea
+    id: documentacion
+    attributes:
+      label: ¿Dónde está documentada?
+      description: |
+        Un link a la guía, wiki, hoja de cálculo o descripción del Workshop
+        donde viste la clave. Si la descubriste en tu propio `.ini`, contá
+        cómo comprobaste que funciona.
+      placeholder: |
+        https://www.curseforge.com/ark-survival-ascended/mods/paleo-ark/...
+    validations:
+      required: true
+
+  - type: input
+    id: default
+    attributes:
+      label: Valor default, si se conoce
+      description: |
+        **Ojo con una trampa**: muchos autores publican un bloque de ejemplo
+        que NO son los defaults. Si el autor no dice literalmente que lo son,
+        dejá este campo vacío y pegá el ejemplo abajo.
+      placeholder: "1.0"
+
+  - type: textarea
+    id: bloque
+    attributes:
+      label: Bloque del `.ini` donde la viste
+      description: Con la sección incluida, si la tenés a mano.
+      render: ini
+      placeholder: |
+        [PaleoArk]
+        DinoWeightMultiplier=2.0
+
+  - type: textarea
+    id: notas
+    attributes:
+      label: Algo más que convenga saber
+      description: |
+        Por ejemplo: si solo funciona en ciertos mapas, si necesita otra clave
+        para tener efecto, o si el juego la reescribe al arrancar.

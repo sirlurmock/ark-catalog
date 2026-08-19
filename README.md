@@ -47,6 +47,18 @@ procesar. No necesitás entender el formato.
 —lo más importante— **dónde está su documentación de configuración**. Eso es lo
 que más tiempo lleva de encontrar.
 
+## Cómo avisar que a una mod catalogada le falta un ajuste
+
+Pasa seguido: la mod ya está en la app, pero su autor agregó una clave nueva o
+una se nos escapó. **Desde la app**: dentro de la mod, el link "¿Encontraste un
+ajuste que falta?" abre un issue con el formato puesto — y te avisa si la clave
+ya está catalogada, para que no se repita. **A mano**: usá la plantilla
+[Sugerir un ajuste faltante](../../issues/new?template=sugerir-ajuste.yml),
+revisando antes [los ya pedidos](../../issues?q=label%3Asetting-suggestion).
+
+Después de crear el issue podés pegar su link en la app ("Mis sugerencias", en
+el panel de mods) para seguir su estado sin salir de ella.
+
 ### Lo que hace que una sugerencia sea buena
 
 Lo que más ayuda no es la lista de claves, es saber **cuáles son los defaults
