@@ -134,9 +134,9 @@
       "harvest_amount": "Cantidad de recursos cosechados",
       "harvest_amount.description": "Cuántos recursos se obtienen al cosechar un nodo. x3 = tres veces más madera, piedra, etc. Default 1.0 (vanilla).",
       "difficulty_offset": "Nivel de dificultad (escala)",
-      "difficulty_offset.description": "Porcentaje de dinos salvajes que spawnean en los niveles máximos posibles. 1.0 = todos al nivel máximo (recomendado junto con OverrideOfficialDifficulty). Default 0.2 (oficial).",
+      "difficulty_offset.description": "Escala la dificultad del mapa: dificultad efectiva = valor × base del mapa (4.0 en The Island, Scorched Earth, Aberration y Génesis 2; 5.0 en el resto y en todo ASA). Con 1.0 en The Island los salvajes llegan a nivel 120. Se ignora si OverrideOfficialDifficulty está escrita. Default 0.2 (mundo nuevo en ASE).",
       "override_official_difficulty": "Nivel máximo de dinos salvajes",
-      "override_official_difficulty.description": "Determina el nivel máximo de dinos salvajes (nivel máximo = valor × 30). x5 = nivel 150, x10 = nivel 300. Default 5.0 (vanilla oficial).",
+      "override_official_difficulty.description": "Fija la dificultad exacta e ignora DifficultyOffset: nivel máximo salvaje = valor × 30, en saltos del mismo valor (5 = niveles 5, 10, … 150 como los oficiales; 10 = hasta 300). Si la clave no se escribe, el juego usa DifficultyOffset × base del mapa — por eso este ajuste siempre se exporta al configurarlo, incluso en 5.0.",
       "show_map_player_location": "Mostrar posición de jugadores en el mapa",
       "show_map_player_location.description": "Muestra la posición de todos los jugadores en el mapa del juego. Útil en servidores PvE o comunitarios. Default: desactivado.",
       "allow_flyer_carry_pve": "Permitir captura de jugadores por voladores (PvE)",
@@ -628,6 +628,12 @@
     "warnings_section": "Advertencias ({count})",
     "fallback": {
       "modified": "{name}: {value}"
+    },
+    "derived": {
+      "wild_level": {
+        "label": "Dificultad",
+        "text": "Los dinos salvajes aparecen hasta nivel {level}, en saltos de {step} (oficial: nivel 150)"
+      }
     },
     "general": {
       "xp": "La experiencia se gana {value}× más rápido",

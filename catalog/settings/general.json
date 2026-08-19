@@ -58,6 +58,7 @@
   {
     "id": "override_official_difficulty",
     "key": "OverrideOfficialDifficulty",
+    "alwaysEmit": true,
     "category": "general",
     "tier": "advanced",
     "file": "GameUserSettings.ini",

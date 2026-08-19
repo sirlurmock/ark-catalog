@@ -134,9 +134,9 @@
       "harvest_amount": "Harvest amount multiplier",
       "harvest_amount.description": "How many resources are gathered from a node. x3 = three times more wood, stone, etc. Default 1.0 (vanilla).",
       "difficulty_offset": "Difficulty offset (scale)",
-      "difficulty_offset.description": "What percentage of wild dinos spawn at the highest possible levels. 1.0 = all at max level (recommended with OverrideOfficialDifficulty). Default 0.2 (official).",
+      "difficulty_offset.description": "Scales the map difficulty: effective difficulty = value × map base (4.0 on The Island, Scorched Earth, Aberration and Genesis 2; 5.0 elsewhere and in all of ASA). At 1.0 on The Island wild dinos reach level 120. Ignored when OverrideOfficialDifficulty is written. Default 0.2 (new ASE world).",
       "override_official_difficulty": "Max wild dino level",
-      "override_official_difficulty.description": "Sets the maximum wild dino level (max level = value × 30). x5 = level 150, x10 = level 300. Default 5.0 (vanilla official).",
+      "override_official_difficulty.description": "Sets the exact difficulty and ignores DifficultyOffset: max wild level = value × 30, in steps of the same value (5 = levels 5, 10, … 150 like official servers; 10 = up to 300). When the key is absent the game falls back to DifficultyOffset × map base — that is why this setting is always exported once configured, even at 5.0.",
       "show_map_player_location": "Show player location on map",
       "show_map_player_location.description": "Shows all players' positions on the in-game map. Useful for PvE or community servers. Default: disabled.",
       "allow_flyer_carry_pve": "Allow flyers to carry players (PvE)",
@@ -628,6 +628,12 @@
     "warnings_section": "Warnings ({count})",
     "fallback": {
       "modified": "{name}: {value}"
+    },
+    "derived": {
+      "wild_level": {
+        "label": "Difficulty",
+        "text": "Wild dinos spawn up to level {level}, in steps of {step} (official: level 150)"
+      }
     },
     "general": {
       "xp": "Experience is gained {value}× faster",
