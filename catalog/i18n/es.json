@@ -621,6 +621,25 @@
     "engram_picker_stub": "Selector de engramas aún no disponible. El catálogo de engramas se redactará en un prompt futuro.",
     "struct.no_entries": "Sin entradas."
   },
+  "breeding_guide": {
+    "title": "Guía de crianza",
+    "open_button": "Guía de crianza",
+    "subtitle_multipliers": "Con tu configuración: eclosión ×{egg} · maduración ×{mature} · apareamiento ×{mating}. El vanilla aparece en gris cuando difiere.",
+    "subtitle_vanilla": "Tiempos vanilla — este perfil no modifica los multiplicadores de crianza.",
+    "search_placeholder": "Buscar especie…",
+    "count": "{shown} de {total} especies",
+    "col_species": "Especie",
+    "col_incubation": "Incubación / Gestación",
+    "col_baby": "Fase bebé",
+    "col_total": "Maduración total",
+    "col_mating": "Espera entre apareos",
+    "mode_egg": "Huevo",
+    "mode_gestation": "Gestación",
+    "temp_range": "{min}–{max} °C",
+    "vanilla_value": "vanilla: {value}",
+    "empty": "Ninguna especie coincide con «{query}».",
+    "source_note": "Fuente: tablas «Times for Breeding» de la wiki oficial (valores a 1×). La gestación se acelera con el mismo multiplicador que la eclosión de huevos. Las especies que la wiki no lista como criables (wyverns comunes, Rock Drake en ASE, etc.) no figuran."
+  },
   "summary": {
     "title": "Resumen de tu servidor",
     "no_changes": "Sin cambios. Tu configuración está al default de ARK.",

@@ -621,6 +621,25 @@
     "engram_picker_stub": "Engram selector is not available yet. The engrams catalog will be specified in a later prompt.",
     "struct.no_entries": "No entries."
   },
+  "breeding_guide": {
+    "title": "Breeding guide",
+    "open_button": "Breeding guide",
+    "subtitle_multipliers": "With your configuration: hatching ×{egg} · maturation ×{mature} · mating ×{mating}. Vanilla shows in grey when it differs.",
+    "subtitle_vanilla": "Vanilla times — this profile does not modify the breeding multipliers.",
+    "search_placeholder": "Search species…",
+    "count": "{shown} of {total} species",
+    "col_species": "Species",
+    "col_incubation": "Incubation / Gestation",
+    "col_baby": "Baby phase",
+    "col_total": "Total maturation",
+    "col_mating": "Mating interval",
+    "mode_egg": "Egg",
+    "mode_gestation": "Gestation",
+    "temp_range": "{min}–{max} °C",
+    "vanilla_value": "vanilla: {value}",
+    "empty": "No species matches \"{query}\".",
+    "source_note": "Source: the official wiki's \"Times for Breeding\" tables (values at 1×). Gestation speeds up with the same multiplier as egg hatching. Species the wiki does not list as breedable (regular wyverns, Rock Drake in ASE, etc.) are absent."
+  },
   "summary": {
     "title": "Server summary",
     "no_changes": "No changes. Your configuration is at ARK defaults.",
