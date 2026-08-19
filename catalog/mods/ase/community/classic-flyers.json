@@ -1,0 +1,615 @@
+{
+  "modId": "ClassicFlyers",
+  "name": "Classic Flyers",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=895711211",
+  "searchAliases": [
+    "voladores clásicos",
+    "velocidad de voladores"
+  ],
+  "settings": [
+    {
+      "id": "classic_flyers_flyer_speed_multiplier",
+      "key": "FlyerSpeedMultiplier",
+      "category": "mod_classic_flyers",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "ClassicFlyers",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 10,
+        "step": 0.1,
+        "presets": [
+          1,
+          1.5,
+          2,
+          3
+        ]
+      },
+      "i18nKey": "mods.classic_flyers.flyer_speed_multiplier"
+    },
+    {
+      "id": "classic_flyers_flyer_stamina_multiplier",
+      "key": "FlyerStaminaMultiplier",
+      "category": "mod_classic_flyers",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "ClassicFlyers",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 10,
+        "step": 0.1,
+        "presets": [
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.classic_flyers.flyer_stamina_multiplier"
+    },
+    {
+      "id": "classic_flyers_flyer_stamina_recovery_rate",
+      "key": "FlyerStaminaRecoveryRate",
+      "category": "mod_classic_flyers",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "ClassicFlyers",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.1,
+        "min": 0,
+        "max": 10,
+        "step": 0.1
+      },
+      "i18nKey": "mods.classic_flyers.flyer_stamina_recovery_rate"
+    },
+    {
+      "id": "classic_flyers_flyer_health_multiplier",
+      "key": "FlyerHealthMultiplier",
+      "category": "mod_classic_flyers",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "ClassicFlyers",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 10,
+        "step": 0.1
+      },
+      "i18nKey": "mods.classic_flyers.flyer_health_multiplier"
+    },
+    {
+      "id": "classic_flyers_flyer_weight_multiplier",
+      "key": "FlyerWeightMultiplier",
+      "category": "mod_classic_flyers",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "ClassicFlyers",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 10,
+        "step": 0.1
+      },
+      "i18nKey": "mods.classic_flyers.flyer_weight_multiplier"
+    },
+    {
+      "id": "classic_flyers_flyer_melee_multiplier",
+      "key": "FlyerMeleeMultiplier",
+      "category": "mod_classic_flyers",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "ClassicFlyers",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 10,
+        "step": 0.1
+      },
+      "i18nKey": "mods.classic_flyers.flyer_melee_multiplier"
+    },
+    {
+      "id": "classic_flyers_prevent_backwards_walking",
+      "key": "PreventBackwardsWalking",
+      "category": "mod_classic_flyers",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "ClassicFlyers",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.classic_flyers.prevent_backwards_walking"
+    },
+    {
+      "id": "classic_flyers_wild_phoenix_always_visible",
+      "key": "WildPhoenixAlwaysVisible",
+      "category": "mod_classic_flyers",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "ClassicFlyers",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1
+      },
+      "i18nKey": "mods.classic_flyers.wild_phoenix_always_visible"
+    },
+    {
+      "id": "classic_flyers_wyvern_rotation_rate",
+      "key": "WyvernRotationRate",
+      "category": "mod_classic_flyers",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "ClassicFlyers",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.2,
+        "min": 0.1,
+        "max": 5,
+        "step": 0.1
+      },
+      "i18nKey": "mods.classic_flyers.wyvern_rotation_rate"
+    },
+    {
+      "id": "classic_flyers_allow_wyvern_breeding",
+      "key": "AllowWyvernBreeding",
+      "category": "mod_classic_flyers",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "ClassicFlyers",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1
+      },
+      "i18nKey": "mods.classic_flyers.allow_wyvern_breeding"
+    },
+    {
+      "id": "classic_flyers_allow_diving_pelas",
+      "key": "AllowDivingPelas",
+      "category": "mod_classic_flyers",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "ClassicFlyers",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1
+      },
+      "i18nKey": "mods.classic_flyers.allow_diving_pelas"
+    },
+    {
+      "id": "classic_flyers_spawn_griffins",
+      "key": "SpawnGriffins",
+      "category": "mod_classic_flyers",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "ClassicFlyers",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1
+      },
+      "i18nKey": "mods.classic_flyers.spawn_griffins"
+    },
+    {
+      "id": "classic_flyers_spawn_phoenix",
+      "key": "SpawnPhoenix",
+      "category": "mod_classic_flyers",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "ClassicFlyers",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1
+      },
+      "i18nKey": "mods.classic_flyers.spawn_phoenix"
+    },
+    {
+      "id": "classic_flyers_spawn_moths",
+      "key": "SpawnMoths",
+      "category": "mod_classic_flyers",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "ClassicFlyers",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1
+      },
+      "i18nKey": "mods.classic_flyers.spawn_moths"
+    },
+    {
+      "id": "classic_flyers_spawn_pteros",
+      "key": "SpawnPteros",
+      "category": "mod_classic_flyers",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "ClassicFlyers",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1
+      },
+      "i18nKey": "mods.classic_flyers.spawn_pteros"
+    },
+    {
+      "id": "classic_flyers_spawn_pelas",
+      "key": "SpawnPelas",
+      "category": "mod_classic_flyers",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "ClassicFlyers",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1
+      },
+      "i18nKey": "mods.classic_flyers.spawn_pelas"
+    },
+    {
+      "id": "classic_flyers_spawn_tapejaras",
+      "key": "SpawnTapejaras",
+      "category": "mod_classic_flyers",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "ClassicFlyers",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1
+      },
+      "i18nKey": "mods.classic_flyers.spawn_tapejaras"
+    },
+    {
+      "id": "classic_flyers_spawn_quetzals",
+      "key": "SpawnQuetzals",
+      "category": "mod_classic_flyers",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "ClassicFlyers",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1
+      },
+      "i18nKey": "mods.classic_flyers.spawn_quetzals"
+    },
+    {
+      "id": "classic_flyers_spawner_frequency",
+      "key": "SpawnerFrequency",
+      "category": "mod_classic_flyers",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "ClassicFlyers",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 60,
+        "min": 1,
+        "step": 1
+      },
+      "i18nKey": "mods.classic_flyers.spawner_frequency"
+    },
+    {
+      "id": "classic_flyers_spawn_height",
+      "key": "SpawnHeight",
+      "category": "mod_classic_flyers",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "ClassicFlyers",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 8000,
+        "min": 0,
+        "step": 100
+      },
+      "i18nKey": "mods.classic_flyers.spawn_height"
+    },
+    {
+      "id": "classic_flyers_spawn_range",
+      "key": "SpawnRange",
+      "category": "mod_classic_flyers",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "ClassicFlyers",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 30000,
+        "min": 0,
+        "step": 500
+      },
+      "i18nKey": "mods.classic_flyers.spawn_range"
+    },
+    {
+      "id": "classic_flyers_species_overrides",
+      "key": "SpeciesOverrides",
+      "category": "mod_classic_flyers",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "ClassicFlyers",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "struct_array",
+        "default": [],
+        "keyName": "species",
+        "keySuggestions": [
+          "Argent",
+          "Harpa",
+          "Griffin",
+          "Moth",
+          "Pela",
+          "Phoenix",
+          "Ptera",
+          "Quetz",
+          "RockDrake",
+          "Tapejara",
+          "Wyvern",
+          "AdminArgent"
+        ],
+        "fields": [
+          {
+            "suffix": "SpeedMultiplier",
+            "type": "float",
+            "default": 1,
+            "min": 0.1,
+            "max": 10,
+            "step": 0.1,
+            "i18nKey": "mods.classic_flyers.species_overrides.speed_multiplier"
+          },
+          {
+            "suffix": "StaminaMultiplier",
+            "type": "float",
+            "default": 1,
+            "min": 0.1,
+            "max": 10,
+            "step": 0.1,
+            "i18nKey": "mods.classic_flyers.species_overrides.stamina_multiplier"
+          },
+          {
+            "suffix": "StaminaRecoveryRate",
+            "type": "float",
+            "default": 0.1,
+            "min": 0,
+            "max": 10,
+            "step": 0.1,
+            "i18nKey": "mods.classic_flyers.species_overrides.stamina_recovery_rate"
+          },
+          {
+            "suffix": "HealthMultiplier",
+            "type": "float",
+            "default": 1,
+            "min": 0.1,
+            "max": 10,
+            "step": 0.1,
+            "i18nKey": "mods.classic_flyers.species_overrides.health_multiplier"
+          },
+          {
+            "suffix": "WeightMultiplier",
+            "type": "float",
+            "default": 1,
+            "min": 0.1,
+            "max": 10,
+            "step": 0.1,
+            "i18nKey": "mods.classic_flyers.species_overrides.weight_multiplier"
+          },
+          {
+            "suffix": "MeleeMultiplier",
+            "type": "float",
+            "default": 1,
+            "min": 0.1,
+            "max": 10,
+            "step": 0.1,
+            "i18nKey": "mods.classic_flyers.species_overrides.melee_multiplier"
+          }
+        ],
+        "keyI18nKey": "mods.classic_flyers.species_overrides.species"
+      },
+      "i18nKey": "mods.classic_flyers.species_overrides"
+    }
+  ]
+}

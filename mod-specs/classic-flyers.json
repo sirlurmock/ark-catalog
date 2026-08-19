@@ -1,0 +1,472 @@
+{
+  "_source": "Classic Flyers Mod Guide oficial (https://steamcommunity.com/sharedfiles/filedetails/?id=2222950998), sección Server Options: [ClassicFlyers] al final de GameUserSettings.ini. La descripción de la mod no documenta config; la guía sí, con defaults.",
+  "_flags01": "Varios flags están documentados como 0/1 (no True/False): WildPhoenixAlwaysVisible, AllowWyvernBreeding, AllowDivingPelas y los 7 Spawn*. Se catalogan como integer 0–1 para emitir exactamente lo que la guía muestra — modelarlos boolean emitiría True/False y no hay evidencia de que la mod lo parsee.",
+  "_species": "Los overrides por especie son una familia de claves `{Especie}{Sufijo}` (ArgentSpeedMultiplier=1.25) — struct_array, mismo patrón que Resource Gatherers. Las 12 especies documentadas van como keySuggestions.",
+  "modId": "ClassicFlyers",
+  "name": "Classic Flyers",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=895711211",
+  "prefix": "classic_flyers",
+  "searchAliases": [
+    "voladores clásicos",
+    "velocidad de voladores"
+  ],
+  "settings": [
+    {
+      "key": "FlyerSpeedMultiplier",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 10,
+      "step": 0.1,
+      "presets": [
+        1,
+        1.5,
+        2,
+        3
+      ],
+      "es": {
+        "label": "Velocidad de voladores",
+        "description": "Multiplica la velocidad de vuelo de todos los voladores de la mod. x2 = el doble de rápido."
+      },
+      "en": {
+        "label": "Flyer speed",
+        "description": "Multiplies the flight speed of every mod flyer. x2 = twice as fast."
+      }
+    },
+    {
+      "key": "FlyerStaminaMultiplier",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 10,
+      "step": 0.1,
+      "presets": [
+        1,
+        2,
+        5
+      ],
+      "es": {
+        "label": "Estamina de voladores",
+        "description": "Multiplica la estamina de todos los voladores."
+      },
+      "en": {
+        "label": "Flyer stamina",
+        "description": "Multiplies the stamina of every flyer."
+      }
+    },
+    {
+      "key": "FlyerStaminaRecoveryRate",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 0.1,
+      "min": 0,
+      "max": 10,
+      "step": 0.1,
+      "es": {
+        "label": "Recuperación de estamina en vuelo",
+        "description": "Qué tan rápido recuperan estamina los voladores. Default 0.1 de la guía; subirlo permite vuelos casi infinitos."
+      },
+      "en": {
+        "label": "In-flight stamina recovery",
+        "description": "How fast flyers recover stamina. Guide default 0.1; raising it enables near-infinite flight."
+      }
+    },
+    {
+      "key": "FlyerHealthMultiplier",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 10,
+      "step": 0.1,
+      "es": {
+        "label": "Vida de voladores",
+        "description": "Multiplica la vida de todos los voladores."
+      },
+      "en": {
+        "label": "Flyer health",
+        "description": "Multiplies the health of every flyer."
+      }
+    },
+    {
+      "key": "FlyerWeightMultiplier",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 10,
+      "step": 0.1,
+      "es": {
+        "label": "Peso de voladores",
+        "description": "Multiplica la capacidad de carga de todos los voladores."
+      },
+      "en": {
+        "label": "Flyer weight",
+        "description": "Multiplies the carry weight of every flyer."
+      }
+    },
+    {
+      "key": "FlyerMeleeMultiplier",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 10,
+      "step": 0.1,
+      "es": {
+        "label": "Daño cuerpo a cuerpo de voladores",
+        "description": "Multiplica el daño melee de todos los voladores."
+      },
+      "en": {
+        "label": "Flyer melee damage",
+        "description": "Multiplies the melee damage of every flyer."
+      }
+    },
+    {
+      "key": "PreventBackwardsWalking",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Impedir caminar hacia atrás",
+        "description": "Los voladores no pueden caminar hacia atrás en tierra."
+      },
+      "en": {
+        "label": "Prevent backwards walking",
+        "description": "Flyers cannot walk backwards on land."
+      }
+    },
+    {
+      "key": "WildPhoenixAlwaysVisible",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "step": 1,
+      "es": {
+        "label": "Fénix salvaje siempre visible (0/1)",
+        "description": "Con 1, el Fénix salvaje se ve siempre, no solo durante las olas de calor. La guía documenta este flag como 0/1."
+      },
+      "en": {
+        "label": "Wild Phoenix always visible (0/1)",
+        "description": "At 1, the wild Phoenix is always visible, not only during heat waves. The guide documents this flag as 0/1."
+      }
+    },
+    {
+      "key": "WyvernRotationRate",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1.2,
+      "min": 0.1,
+      "max": 5,
+      "step": 0.1,
+      "es": {
+        "label": "Giro de las wyvern",
+        "description": "Velocidad de rotación de las wyvern en vuelo. Default 1.2 de la guía."
+      },
+      "en": {
+        "label": "Wyvern rotation rate",
+        "description": "Wyvern turn speed in flight. Guide default 1.2."
+      }
+    },
+    {
+      "key": "AllowWyvernBreeding",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "step": 1,
+      "es": {
+        "label": "Permitir criar wyverns (0/1)",
+        "description": "Con 1, las wyverns de la mod se pueden aparear y criar."
+      },
+      "en": {
+        "label": "Allow wyvern breeding (0/1)",
+        "description": "At 1, mod wyverns can mate and breed."
+      }
+    },
+    {
+      "key": "AllowDivingPelas",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "step": 1,
+      "es": {
+        "label": "Pelagornis puede bucear (0/1)",
+        "description": "Con 1, el Pelagornis de la mod puede sumergirse."
+      },
+      "en": {
+        "label": "Pelagornis can dive (0/1)",
+        "description": "At 1, the mod Pelagornis can dive underwater."
+      }
+    },
+    {
+      "key": "SpawnGriffins",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "step": 1,
+      "es": {
+        "label": "Spawnear Grifos (0/1)",
+        "description": "Con 1, el spawner de la mod agrega Grifos al mapa. La frecuencia, altura y radio se controlan con SpawnerFrequency/SpawnHeight/SpawnRange."
+      },
+      "en": {
+        "label": "Spawn Griffins (0/1)",
+        "description": "At 1, the mod spawner adds Griffins to the map. Frequency, height and radius are controlled by SpawnerFrequency/SpawnHeight/SpawnRange."
+      }
+    },
+    {
+      "key": "SpawnPhoenix",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "step": 1,
+      "es": {
+        "label": "Spawnear Fénix (0/1)",
+        "description": "Con 1, el spawner de la mod agrega Fénix al mapa."
+      },
+      "en": {
+        "label": "Spawn Phoenix (0/1)",
+        "description": "At 1, the mod spawner adds Phoenix to the map."
+      }
+    },
+    {
+      "key": "SpawnMoths",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "step": 1,
+      "es": {
+        "label": "Spawnear Lymantrias (0/1)",
+        "description": "Con 1, el spawner de la mod agrega Lymantrias (polillas) al mapa."
+      },
+      "en": {
+        "label": "Spawn Moths (0/1)",
+        "description": "At 1, the mod spawner adds Lymantria (moths) to the map."
+      }
+    },
+    {
+      "key": "SpawnPteros",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "step": 1,
+      "es": {
+        "label": "Spawnear Pteranodones (0/1)",
+        "description": "Con 1, el spawner de la mod agrega Pteranodones de la mod al mapa."
+      },
+      "en": {
+        "label": "Spawn Pteranodons (0/1)",
+        "description": "At 1, the mod spawner adds mod Pteranodons to the map."
+      }
+    },
+    {
+      "key": "SpawnPelas",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "step": 1,
+      "es": {
+        "label": "Spawnear Pelagornis (0/1)",
+        "description": "Con 1, el spawner de la mod agrega Pelagornis de la mod al mapa."
+      },
+      "en": {
+        "label": "Spawn Pelagornis (0/1)",
+        "description": "At 1, the mod spawner adds mod Pelagornis to the map."
+      }
+    },
+    {
+      "key": "SpawnTapejaras",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "step": 1,
+      "es": {
+        "label": "Spawnear Tapejaras (0/1)",
+        "description": "Con 1, el spawner de la mod agrega Tapejaras de la mod al mapa."
+      },
+      "en": {
+        "label": "Spawn Tapejaras (0/1)",
+        "description": "At 1, the mod spawner adds mod Tapejaras to the map."
+      }
+    },
+    {
+      "key": "SpawnQuetzals",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "step": 1,
+      "es": {
+        "label": "Spawnear Quetzales (0/1)",
+        "description": "Con 1, el spawner de la mod agrega Quetzales de la mod al mapa."
+      },
+      "en": {
+        "label": "Spawn Quetzals (0/1)",
+        "description": "At 1, the mod spawner adds mod Quetzals to the map."
+      }
+    },
+    {
+      "key": "SpawnerFrequency",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 60,
+      "min": 1,
+      "step": 1,
+      "es": {
+        "label": "Frecuencia del spawner (segundos)",
+        "description": "Cada cuántos segundos el spawner de la mod intenta generar los voladores habilitados."
+      },
+      "en": {
+        "label": "Spawner frequency (seconds)",
+        "description": "How often, in seconds, the mod spawner tries to generate the enabled flyers."
+      }
+    },
+    {
+      "key": "SpawnHeight",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 8000,
+      "min": 0,
+      "step": 100,
+      "es": {
+        "label": "Altura de spawn (unidades)",
+        "description": "Altura sobre el jugador a la que aparecen los voladores del spawner, en unidades de Unreal."
+      },
+      "en": {
+        "label": "Spawn height (units)",
+        "description": "Height above the player at which spawner flyers appear, in Unreal units."
+      }
+    },
+    {
+      "key": "SpawnRange",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 30000,
+      "min": 0,
+      "step": 500,
+      "es": {
+        "label": "Radio de spawn (unidades)",
+        "description": "Radio alrededor del jugador dentro del cual el spawner genera voladores, en unidades de Unreal."
+      },
+      "en": {
+        "label": "Spawn range (units)",
+        "description": "Radius around the player within which the spawner generates flyers, in Unreal units."
+      }
+    },
+    {
+      "key": "SpeciesOverrides",
+      "kind": "struct_array",
+      "tier": "expert",
+      "default": [],
+      "keyName": "species",
+      "keyEs": "Especie",
+      "keyEn": "Species",
+      "keySuggestions": [
+        "Argent",
+        "Harpa",
+        "Griffin",
+        "Moth",
+        "Pela",
+        "Phoenix",
+        "Ptera",
+        "Quetz",
+        "RockDrake",
+        "Tapejara",
+        "Wyvern",
+        "AdminArgent"
+      ],
+      "fields": [
+        {
+          "suffix": "SpeedMultiplier",
+          "type": "float",
+          "default": 1,
+          "min": 0.1,
+          "max": 10,
+          "step": 0.1,
+          "es": "Velocidad",
+          "en": "Speed"
+        },
+        {
+          "suffix": "StaminaMultiplier",
+          "type": "float",
+          "default": 1,
+          "min": 0.1,
+          "max": 10,
+          "step": 0.1,
+          "es": "Estamina",
+          "en": "Stamina"
+        },
+        {
+          "suffix": "StaminaRecoveryRate",
+          "type": "float",
+          "default": 0.1,
+          "min": 0,
+          "max": 10,
+          "step": 0.1,
+          "es": "Recuperación de estamina",
+          "en": "Stamina recovery"
+        },
+        {
+          "suffix": "HealthMultiplier",
+          "type": "float",
+          "default": 1,
+          "min": 0.1,
+          "max": 10,
+          "step": 0.1,
+          "es": "Vida",
+          "en": "Health"
+        },
+        {
+          "suffix": "WeightMultiplier",
+          "type": "float",
+          "default": 1,
+          "min": 0.1,
+          "max": 10,
+          "step": 0.1,
+          "es": "Peso",
+          "en": "Weight"
+        },
+        {
+          "suffix": "MeleeMultiplier",
+          "type": "float",
+          "default": 1,
+          "min": 0.1,
+          "max": 10,
+          "step": 0.1,
+          "es": "Daño melee",
+          "en": "Melee damage"
+        }
+      ],
+      "es": {
+        "label": "Overrides por especie",
+        "description": "Ajusta cada especie por separado con la familia {Especie}{Sufijo} de la guía (ej: ArgentSpeedMultiplier). Cada fila elige una especie de las 12 documentadas y emite sus 6 multiplicadores — si usás también los globales Flyer*, revisá que los valores de la fila coincidan donde no quieras diferencias, porque el valor por especie manda sobre el global para esa especie."
+      },
+      "en": {
+        "label": "Per-species overrides",
+        "description": "Tunes each species separately using the guide's {Species}{Suffix} family (e.g. ArgentSpeedMultiplier). Each row picks one of the 12 documented species and emits its 6 multipliers — if you also use the global Flyer* settings, make sure row values match wherever you don't want differences, since the per-species value takes precedence for that species."
+      }
+    }
+  ]
+}

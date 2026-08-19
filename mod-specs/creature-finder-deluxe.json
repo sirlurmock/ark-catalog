@@ -1,0 +1,85 @@
+{
+  "_source": "Bloque de config de la descripción del Workshop (https://steamcommunity.com/sharedfiles/filedetails/?id=1591643730), documentado completo con defaults y rangos. La mod está en el .ini real del autor (activa, sin config custom todavía).",
+  "modId": "CreatureFinderDeluxe",
+  "name": "Creature Finder Deluxe",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1591643730",
+  "prefix": "creature_finder_deluxe",
+  "searchAliases": ["buscar criaturas", "encontrar dinos"],
+  "settings": [
+    {
+      "key": "FindAllCreatures",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": true,
+      "es": {
+        "label": "Encontrar todas las criaturas",
+        "description": "El buscador lista todas las criaturas del mapa. Apagalo para restringir qué se puede encontrar."
+      },
+      "en": {
+        "label": "Find all creatures",
+        "description": "The finder lists every creature on the map. Turn it off to restrict what can be found."
+      }
+    },
+    {
+      "key": "ShowOnlyTamed",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Mostrar solo domesticados",
+        "description": "El buscador solo muestra criaturas tameadas — útil para encontrar a tu dino perdido sin spoilear los spawns salvajes."
+      },
+      "en": {
+        "label": "Show only tamed",
+        "description": "The finder only shows tamed creatures — useful to find your lost dino without spoiling wild spawns."
+      }
+    },
+    {
+      "key": "CreatureClassRequired",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Exigir la clase exacta",
+        "description": "Para buscar hay que especificar la clase exacta de la criatura en vez de elegir de la lista."
+      },
+      "en": {
+        "label": "Require exact class",
+        "description": "Searching requires specifying the creature's exact class instead of picking from the list."
+      }
+    },
+    {
+      "key": "AdminOnly",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Solo administradores",
+        "description": "Solo los admins pueden usar el buscador."
+      },
+      "en": {
+        "label": "Admins only",
+        "description": "Only admins can use the finder."
+      }
+    },
+    {
+      "key": "ScanRange",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 1000000,
+      "min": 100,
+      "max": 1000000,
+      "step": 100,
+      "es": {
+        "label": "Alcance del escaneo (metros)",
+        "description": "Radio máximo de búsqueda. El default cubre el mapa entero; bajalo para que encontrar dinos lejanos requiera acercarse."
+      },
+      "en": {
+        "label": "Scan range (meters)",
+        "description": "Maximum search radius. The default covers the whole map; lower it so finding distant dinos requires getting closer."
+      }
+    }
+  ]
+}

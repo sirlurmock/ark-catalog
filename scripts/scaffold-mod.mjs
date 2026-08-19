@@ -136,6 +136,19 @@ function runSpecMode(specPath) {
         i18nKey: `mods.${ns}.${snake(key)}.opt.${snake(o.value)}`,
       }));
     }
+    // Un struct_array (familias de claves por nombre base, Sprint A.8) lleva
+    // i18n por campo: el spec escribe cada campo como `{suffix, ..., es, en}`
+    // y el label del nombre base como `keyEs`/`keyEn`; acá se convierten en
+    // los i18nKeys que consume el control, y los textos se emiten abajo.
+    if (kind === "struct_array") {
+      control.keyI18nKey = `mods.${ns}.${snake(key)}.${snake(rest.keyName)}`;
+      control.fields = rest.fields.map((f) => {
+        const { es: _fes, en: _fen, ...ff } = f;
+        return { ...ff, i18nKey: `mods.${ns}.${snake(key)}.${snake(f.suffix)}` };
+      });
+      delete control.keyEs;
+      delete control.keyEn;
+    }
     return {
       id: `${ns}_${snake(key)}`,
       key,
@@ -195,6 +208,16 @@ function runSpecMode(specPath) {
           throw new Error(`${s.key}: la opcion "${opt.value}" no tiene "${locale}"`);
         }
         block[`${snake(s.key)}.opt.${snake(opt.value)}`] = text;
+      }
+      if (s.kind === "struct_array") {
+        const keyLabel = locale === "es" ? s.keyEs : s.keyEn;
+        if (!keyLabel) throw new Error(`${s.key}: falta key${locale === "es" ? "Es" : "En"}`);
+        block[`${snake(s.key)}.${snake(s.keyName)}`] = keyLabel;
+        for (const f of s.fields ?? []) {
+          const text = f[locale];
+          if (!text) throw new Error(`${s.key}: el campo "${f.suffix}" no tiene "${locale}"`);
+          block[`${snake(s.key)}.${snake(f.suffix)}`] = text;
+        }
       }
     }
     const path = `catalog/i18n/${locale}.json`;

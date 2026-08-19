@@ -1,0 +1,121 @@
+{
+  "modId": "CreatureFinderDeluxe",
+  "name": "Creature Finder Deluxe",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1591643730",
+  "searchAliases": [
+    "buscar criaturas",
+    "encontrar dinos"
+  ],
+  "settings": [
+    {
+      "id": "creature_finder_deluxe_find_all_creatures",
+      "key": "FindAllCreatures",
+      "category": "mod_creature_finder_deluxe",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "CreatureFinderDeluxe",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.creature_finder_deluxe.find_all_creatures"
+    },
+    {
+      "id": "creature_finder_deluxe_show_only_tamed",
+      "key": "ShowOnlyTamed",
+      "category": "mod_creature_finder_deluxe",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "CreatureFinderDeluxe",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.creature_finder_deluxe.show_only_tamed"
+    },
+    {
+      "id": "creature_finder_deluxe_creature_class_required",
+      "key": "CreatureClassRequired",
+      "category": "mod_creature_finder_deluxe",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "CreatureFinderDeluxe",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.creature_finder_deluxe.creature_class_required"
+    },
+    {
+      "id": "creature_finder_deluxe_admin_only",
+      "key": "AdminOnly",
+      "category": "mod_creature_finder_deluxe",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "CreatureFinderDeluxe",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.creature_finder_deluxe.admin_only"
+    },
+    {
+      "id": "creature_finder_deluxe_scan_range",
+      "key": "ScanRange",
+      "category": "mod_creature_finder_deluxe",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "CreatureFinderDeluxe",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1000000,
+        "min": 100,
+        "max": 1000000,
+        "step": 100
+      },
+      "i18nKey": "mods.creature_finder_deluxe.scan_range"
+    }
+  ]
+}
