@@ -1,0 +1,4696 @@
+{
+  "_source": "Hoja oficial de config del autor (https://docs.google.com/spreadsheets/d/11hjsBIekPFJtEWnMHTAi2UCQIMCl66dIfoa7buMj77Q), exportada como CSV en _scraped/super-structures-sheet.csv. [SuperStructures] al final de GameUserSettings.ini, dice la propia hoja. SS es fork de S+: 171 claves coinciden con el spec de S+ y reusan sus textos/rangos; los DEFAULTS salen siempre de la hoja de SS.",
+  "_skipped": "Descartes con razón: CrossTeamTeleportSetting — CrossTeamTeleportSetting es un enum cuyo default real es 'sin configurar' (la clave ausente), estado que el ControlKind enum no modela.",
+  "modId": "SuperStructures",
+  "name": "Super Structures",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1999447172",
+  "prefix": "super_structures",
+  "searchAliases": [
+    "super estructuras",
+    "estructuras"
+  ],
+  "settings": [
+    {
+      "key": "AmmoBoxResourceAdditions",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Recursos extra del Ammo Box",
+        "description": "Agrega recursos permitidos al Ammo Box (paths completos del blueprint, separados por coma). Pensado para munición de otras mods."
+      },
+      "en": {
+        "label": "Extra Ammo Box resources",
+        "description": "Adds allowed resources to the Ammo Box (full blueprint paths, comma separated). Meant for modded ammo."
+      }
+    },
+    {
+      "key": "AmmoBoxResourceRemovals",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Recursos quitados del Ammo Box",
+        "description": "Quita recursos permitidos del Ammo Box (paths completos del blueprint, separados por coma)."
+      },
+      "en": {
+        "label": "Removed Ammo Box resources",
+        "description": "Removes allowed resources from the Ammo Box (full blueprint paths, comma separated)."
+      }
+    },
+    {
+      "key": "AmmoBoxSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 300,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Ammo Box",
+        "description": "Cuántos espacios de inventario tiene Ammo Box. Por defecto 300."
+      },
+      "en": {
+        "label": "Ammo Box slots",
+        "description": "How many inventory slots Ammo Box has. Defaults to 300."
+      }
+    },
+    {
+      "key": "DisableTurretAmmoBoxSearching",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Torretas sin buscar en Ammo Boxes",
+        "description": "Las torretas SS dejan de tomar munición de los Ammo Box cercanos."
+      },
+      "en": {
+        "label": "Turrets don't search Ammo Boxes",
+        "description": "SS turrets stop pulling ammo from nearby Ammo Boxes."
+      }
+    },
+    {
+      "key": "TurretAmmoBoxRangeInFoundations",
+      "kind": "integer",
+      "default": 10,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "tier": "advanced",
+      "es": {
+        "label": "Alcance de la caja de munición",
+        "description": "Hasta dónde buscan las torretas de S+ una caja de munición. Subirlo permite alimentar más torretas con una sola caja. Solo aplica a torretas de S+."
+      },
+      "en": {
+        "label": "Turret Ammo Box Range In Foundations",
+        "description": "How far S+ turrets will search for an ammo box (note: this only applies to S+ turrets)"
+      }
+    },
+    {
+      "key": "AnimalTenderLimit",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Límite de Animal Tender por zona",
+        "description": "Cuántos Animal Tender se pueden colocar en un radio de 80 cimientos (como el límite de torretas). 0 = sin límite. Por defecto 0."
+      },
+      "en": {
+        "label": "Animal Tender limit per area",
+        "description": "How many Animal Tender can be placed within an 80-foundation radius (like the turret area limit). 0 = no limit. Defaults to 0."
+      }
+    },
+    {
+      "key": "AnimalTenderRangeInFoundations",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 50,
+      "min": 0,
+      "max": 200,
+      "step": 1,
+      "es": {
+        "label": "Alcance de Animal Tender (cimientos)",
+        "description": "Alcance de Animal Tender, medido en cimientos. Por defecto 50."
+      },
+      "en": {
+        "label": "Animal Tender range (foundations)",
+        "description": "Animal Tender's range, measured in foundations. Defaults to 50."
+      }
+    },
+    {
+      "key": "AnimalTenderSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 300,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Animal Tender",
+        "description": "Cuántos espacios de inventario tiene Animal Tender. Por defecto 300."
+      },
+      "en": {
+        "label": "Animal Tender slots",
+        "description": "How many inventory slots Animal Tender has. Defaults to 300."
+      }
+    },
+    {
+      "key": "ArtifactPedestalSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 25,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Artifact Pedestal",
+        "description": "Cuántos espacios de inventario tiene Artifact Pedestal. Por defecto 25."
+      },
+      "en": {
+        "label": "Artifact Pedestal slots",
+        "description": "How many inventory slots Artifact Pedestal has. Defaults to 25."
+      }
+    },
+    {
+      "key": "AutoCrafterSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 500,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Auto Crafter",
+        "description": "Cuántos espacios de inventario tiene Auto Crafter. Por defecto 500."
+      },
+      "en": {
+        "label": "Auto Crafter slots",
+        "description": "How many inventory slots Auto Crafter has. Defaults to 500."
+      }
+    },
+    {
+      "key": "BedCooldownTimeInSeconds",
+      "kind": "integer",
+      "default": 300,
+      "min": 0,
+      "max": 3000,
+      "step": 1,
+      "tier": "advanced",
+      "es": {
+        "label": "Espera de la cama",
+        "description": "Segundos antes de poder volver a usar una cama para reaparecer. Bajarlo hace el viaje por camas casi instantáneo; en PvP eso cambia cómo se defiende una base."
+      },
+      "en": {
+        "label": "Bed Cooldown Time In Seconds",
+        "description": "Bed Cooldown Time In Seconds."
+      }
+    },
+    {
+      "key": "BunkBedCooldownTimeInSeconds",
+      "kind": "integer",
+      "default": 120,
+      "min": 0,
+      "max": 1200,
+      "step": 1,
+      "tier": "advanced",
+      "es": {
+        "label": "Espera de la cucheta",
+        "description": "Igual que el anterior pero para la cucheta, que de fábrica espera menos."
+      },
+      "en": {
+        "label": "Bunk Bed Cooldown Time In Seconds",
+        "description": "Bunk Bed Cooldown Time In Seconds."
+      }
+    },
+    {
+      "key": "TekBedCooldownTimeInSeconds",
+      "kind": "integer",
+      "default": 60,
+      "min": 0,
+      "max": 600,
+      "step": 1,
+      "tier": "advanced",
+      "es": {
+        "label": "Espera de la cama tek",
+        "description": "Igual pero para la cama tek, la más rápida de las tres."
+      },
+      "en": {
+        "label": "Tek Bed Cooldown Time In Seconds",
+        "description": "Tek Bed Cooldown Time In Seconds."
+      }
+    },
+    {
+      "key": "BeeHiveHoneyIntervalInSeconds",
+      "kind": "integer",
+      "default": 180,
+      "min": 0,
+      "max": 1800,
+      "step": 1,
+      "tier": "advanced",
+      "es": {
+        "label": "Intervalo de miel",
+        "description": "Segundos entre cada producción de miel en la colmena. Bajarlo aumenta mucho la producción."
+      },
+      "en": {
+        "label": "Bee Hive Honey Interval In Seconds",
+        "description": "Time between honey generation in the bee hive"
+      }
+    },
+    {
+      "key": "BeeHiveSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 24,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Bee Hive",
+        "description": "Cuántos espacios de inventario tiene Bee Hive. Por defecto 24."
+      },
+      "en": {
+        "label": "Bee Hive slots",
+        "description": "How many inventory slots Bee Hive has. Defaults to 24."
+      }
+    },
+    {
+      "key": "BeeHiveWateringRangeInFoundations",
+      "kind": "integer",
+      "default": 30,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "tier": "advanced",
+      "es": {
+        "label": "Alcance de riego de la colmena",
+        "description": "Hasta dónde las abejas llevan agua desde la colmena. Subirlo permite regar una huerta más lejana. Máximo 100."
+      },
+      "en": {
+        "label": "Bee Hive Watering Range In Foundations",
+        "description": "How far away from the hive the bees will deliver water (max: 100)"
+      }
+    },
+    {
+      "key": "BeerBarrelCraftingSpeed",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Velocidad de Beer Barrel",
+        "description": "Multiplica la velocidad de fabricación de Beer Barrel. Por defecto 1; el autor acepta hasta 100."
+      },
+      "en": {
+        "label": "Beer Barrel crafting speed",
+        "description": "Multiplies Beer Barrel crafting speed. Defaults to 1; the author caps it at 100."
+      }
+    },
+    {
+      "key": "BeerBarrelSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 25,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Beer Barrel",
+        "description": "Cuántos espacios de inventario tiene Beer Barrel. Por defecto 25."
+      },
+      "en": {
+        "label": "Beer Barrel slots",
+        "description": "How many inventory slots Beer Barrel has. Defaults to 25."
+      }
+    },
+    {
+      "key": "BookshelfSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 600,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Bookshelf",
+        "description": "Cuántos espacios de inventario tiene Bookshelf. Por defecto 600."
+      },
+      "en": {
+        "label": "Bookshelf slots",
+        "description": "How many inventory slots Bookshelf has. Defaults to 600."
+      }
+    },
+    {
+      "key": "CampfireCraftingSpeed",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Velocidad de Campfire",
+        "description": "Multiplica la velocidad de fabricación de Campfire. Por defecto 1; el autor acepta hasta 100."
+      },
+      "en": {
+        "label": "Campfire crafting speed",
+        "description": "Multiplies Campfire crafting speed. Defaults to 1; the author caps it at 100."
+      }
+    },
+    {
+      "key": "CampfireSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 10,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Campfire",
+        "description": "Cuántos espacios de inventario tiene Campfire. Por defecto 10."
+      },
+      "en": {
+        "label": "Campfire slots",
+        "description": "How many inventory slots Campfire has. Defaults to 10."
+      }
+    },
+    {
+      "key": "ChargeInjectorAllowTekGen",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Inyector de carga con generador tek",
+        "description": "Permite que el Charge Injector funcione con baterías de carga si recibe energía de un generador tek."
+      },
+      "en": {
+        "label": "Charge Injector Allow Tek Gen",
+        "description": "Allows the Charge Injector to run with charge batteries if it has power from a Tek Gen"
+      }
+    },
+    {
+      "key": "ChargeStationSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 50,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Charge Station",
+        "description": "Cuántos espacios de inventario tiene Charge Station. Por defecto 50."
+      },
+      "en": {
+        "label": "Charge Station slots",
+        "description": "How many inventory slots Charge Station has. Defaults to 50."
+      }
+    },
+    {
+      "key": "ChemBenchSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 100,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Chem Bench",
+        "description": "Cuántos espacios de inventario tiene Chem Bench. Por defecto 100."
+      },
+      "en": {
+        "label": "Chem Bench slots",
+        "description": "How many inventory slots Chem Bench has. Defaults to 100."
+      }
+    },
+    {
+      "key": "ChemistryBenchCraftingSpeed",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 4,
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Velocidad de Chemistry Bench",
+        "description": "Multiplica la velocidad de fabricación de Chemistry Bench. Por defecto 4; el autor acepta hasta 100."
+      },
+      "en": {
+        "label": "Chemistry Bench crafting speed",
+        "description": "Multiplies Chemistry Bench crafting speed. Defaults to 4; the author caps it at 100."
+      }
+    },
+    {
+      "key": "TekChemBenchCraftingSpeed",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 4,
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Velocidad de Tek Chem Bench",
+        "description": "Multiplica la velocidad de fabricación de Tek Chem Bench. Por defecto 1; el autor acepta hasta 100."
+      },
+      "en": {
+        "label": "Tek Chem Bench crafting speed",
+        "description": "Multiplies Tek Chem Bench crafting speed. Defaults to 1; the author caps it at 100."
+      }
+    },
+    {
+      "key": "TekChemBenchSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 350,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Tek Chem Bench",
+        "description": "Cuántos espacios de inventario tiene Tek Chem Bench. Por defecto 350."
+      },
+      "en": {
+        "label": "Tek Chem Bench slots",
+        "description": "How many inventory slots Tek Chem Bench has. Defaults to 350."
+      }
+    },
+    {
+      "key": "CloningChamberSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 600,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Cloning Chamber",
+        "description": "Cuántos espacios de inventario tiene Cloning Chamber. Por defecto 600."
+      },
+      "en": {
+        "label": "Cloning Chamber slots",
+        "description": "How many inventory slots Cloning Chamber has. Defaults to 600."
+      }
+    },
+    {
+      "key": "CloningChamberDinoBlacklist",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Dinos que no se pueden clonar",
+        "description": "Estas clases de dino no entran a la cámara de clonado."
+      },
+      "en": {
+        "label": "Dinos that cannot be cloned",
+        "description": "These dino classes cannot enter the cloning chamber."
+      },
+      "suggestions": "dinos"
+    },
+    {
+      "key": "CloningCostMultiplier",
+      "kind": "float_multiplier",
+      "default": 0.5,
+      "min": 0,
+      "max": 10,
+      "step": 0.1,
+      "presets": [
+        0.5,
+        1,
+        2,
+        5
+      ],
+      "tier": "basic",
+      "es": {
+        "label": "Costo de clonado",
+        "description": "Multiplica lo que cuesta clonar. Bajarlo abarata clonar —el default de S+ ya está a la mitad del vanilla— y subirlo lo encarece."
+      },
+      "en": {
+        "label": "Cloning Cost Multiplier",
+        "description": "Lower number causes the cloning process to be cheaper"
+      }
+    },
+    {
+      "key": "CloningSpeedMultiplier",
+      "kind": "float_multiplier",
+      "default": 2,
+      "min": 0,
+      "max": 1000,
+      "step": 0.1,
+      "presets": [
+        1,
+        2,
+        5
+      ],
+      "tier": "basic",
+      "es": {
+        "label": "Velocidad de clonado",
+        "description": "Cuánto más rápido termina un clon. Subirlo acorta mucho la espera de la cámara de clonado. Máximo 1000."
+      },
+      "en": {
+        "label": "Cloning Speed Multiplier",
+        "description": "Higher number causes the cloning process to be quicker (max: 1000)"
+      }
+    },
+    {
+      "key": "DisableCloningCostMaximum",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Sin tope al costo de clonar",
+        "description": "El costo de un clon deja de estar limitado por el máximo de fragmentos de element que acepta la cámara. Encarece clonar dinos muy buenos."
+      },
+      "en": {
+        "label": "Disable Cloning Cost Maximum",
+        "description": "If enabled, the cost of the clone will not be capped by the maximum amount of element shards that can fit into the cloning chamber and thus will cause some dino's to not be able to be cloned"
+      }
+    },
+    {
+      "key": "PreventCloningClonedDinos",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "No permitir clonar clones",
+        "description": "Impide clonar un dino que ya es un clon. Corta la copia infinita."
+      },
+      "en": {
+        "label": "Prevent Cloning Cloned Dinos",
+        "description": "Prevent Cloning Cloned Dinos."
+      }
+    },
+    {
+      "key": "PreventCloningNeuteredDinos",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "No permitir clonar dinos castrados",
+        "description": "Impide clonar dinos castrados, que si no sería una forma de saltarse la castración."
+      },
+      "en": {
+        "label": "Prevent Cloning Neutered Dinos",
+        "description": "Prevent Cloning Neutered Dinos."
+      }
+    },
+    {
+      "key": "CompostBinCraftingSpeed",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Velocidad de Compost Bin",
+        "description": "Multiplica la velocidad de fabricación de Compost Bin. Por defecto 1; el autor acepta hasta 100."
+      },
+      "en": {
+        "label": "Compost Bin crafting speed",
+        "description": "Multiplies Compost Bin crafting speed. Defaults to 1; the author caps it at 100."
+      }
+    },
+    {
+      "key": "CompostBinSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 25,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Compost Bin",
+        "description": "Cuántos espacios de inventario tiene Compost Bin. Por defecto 25."
+      },
+      "en": {
+        "label": "Compost Bin slots",
+        "description": "How many inventory slots Compost Bin has. Defaults to 25."
+      }
+    },
+    {
+      "key": "AllowMakingWeaponsAndArmorBPs",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Planos de armas y armaduras",
+        "description": "Permite al Blueprint Maker crear planos a partir de armas y armaduras."
+      },
+      "en": {
+        "label": "Allow Making Weapons And Armor B Ps",
+        "description": "Allows the Blueprint Maker to create blueprints from armor & weapons"
+      }
+    },
+    {
+      "key": "AllowTekItemBlueprintCreation",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Planos de items tek",
+        "description": "Permite al Blueprint Maker convertir items tek en planos."
+      },
+      "en": {
+        "label": "Allow Tek Item Blueprint Creation",
+        "description": "Allows the Blueprint Maker to turn tek items into blueprints"
+      }
+    },
+    {
+      "key": "ConverterBlacklist",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Items que el Converter no convierte",
+        "description": "Items que no se pueden convertir entre su versión vanilla y la de S+. Solo tiene efecto si activaste \"Convertir sin saber el engrama\"."
+      },
+      "en": {
+        "label": "Converter Blacklist",
+        "description": "Prevents specific items from being converted in the Converter(note: only works when RemoveLearnedEngramRequirementFromConverter is set to true) (this is a comma separated list of primalitem names)"
+      }
+    },
+    {
+      "key": "RemoveLearnedEngramRequirementFromConverter",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Convertir sin saber el engrama",
+        "description": "Saca la necesidad de tener aprendido un engrama para convertirlo entre su versión vanilla y la de S+."
+      },
+      "en": {
+        "label": "Remove Learned Engram Requirement From Converter",
+        "description": "Removes the need to know an engram before being able to convert it between its vanilla & S+ version"
+      }
+    },
+    {
+      "key": "CookingPotCraftingSpeed",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Velocidad de Cooking Pot",
+        "description": "Multiplica la velocidad de fabricación de Cooking Pot. Por defecto 1; el autor acepta hasta 100."
+      },
+      "en": {
+        "label": "Cooking Pot crafting speed",
+        "description": "Multiplies Cooking Pot crafting speed. Defaults to 1; the author caps it at 100."
+      }
+    },
+    {
+      "key": "CookingPotSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 25,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Cooking Pot",
+        "description": "Cuántos espacios de inventario tiene Cooking Pot. Por defecto 25."
+      },
+      "en": {
+        "label": "Cooking Pot slots",
+        "description": "How many inventory slots Cooking Pot has. Defaults to 25."
+      }
+    },
+    {
+      "key": "IndustrialCookerSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 100,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Industrial Cooker",
+        "description": "Cuántos espacios de inventario tiene Industrial Cooker. Por defecto 100."
+      },
+      "en": {
+        "label": "Industrial Cooker slots",
+        "description": "How many inventory slots Industrial Cooker has. Defaults to 100."
+      }
+    },
+    {
+      "key": "IndustrialCookingPotCraftingSpeed",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 12,
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Velocidad de Industrial Cooking Pot",
+        "description": "Multiplica la velocidad de fabricación de Industrial Cooking Pot. Por defecto 12; el autor acepta hasta 100."
+      },
+      "en": {
+        "label": "Industrial Cooking Pot crafting speed",
+        "description": "Multiplies Industrial Cooking Pot crafting speed. Defaults to 12; the author caps it at 100."
+      }
+    },
+    {
+      "key": "TekCookingPotCraftingSpeed",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 25,
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Velocidad de Tek Cooking Pot",
+        "description": "Multiplica la velocidad de fabricación de Tek Cooking Pot. Por defecto 25; el autor acepta hasta 100."
+      },
+      "en": {
+        "label": "Tek Cooking Pot crafting speed",
+        "description": "Multiplies Tek Cooking Pot crafting speed. Defaults to 25; the author caps it at 100."
+      }
+    },
+    {
+      "key": "TekCookingPotSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 350,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Tek Cooking Pot",
+        "description": "Cuántos espacios de inventario tiene Tek Cooking Pot. Por defecto 350."
+      },
+      "en": {
+        "label": "Tek Cooking Pot slots",
+        "description": "How many inventory slots Tek Cooking Pot has. Defaults to 350."
+      }
+    },
+    {
+      "key": "FabricatorCraftingSpeed",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Velocidad de Fabricator",
+        "description": "Multiplica la velocidad de fabricación de Fabricator. Por defecto 1; el autor acepta hasta 100."
+      },
+      "en": {
+        "label": "Fabricator crafting speed",
+        "description": "Multiplies Fabricator crafting speed. Defaults to 1; the author caps it at 100."
+      }
+    },
+    {
+      "key": "FabricatorSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 300,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Fabricator",
+        "description": "Cuántos espacios de inventario tiene Fabricator. Por defecto 300."
+      },
+      "en": {
+        "label": "Fabricator slots",
+        "description": "How many inventory slots Fabricator has. Defaults to 300."
+      }
+    },
+    {
+      "key": "ReplicatorCraftingSpeed",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 12,
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Velocidad de Replicator",
+        "description": "Multiplica la velocidad de fabricación de Replicator. Por defecto 12; el autor acepta hasta 100."
+      },
+      "en": {
+        "label": "Replicator crafting speed",
+        "description": "Multiplies Replicator crafting speed. Defaults to 12; the author caps it at 100."
+      }
+    },
+    {
+      "key": "ReplicatorSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 600,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Replicator",
+        "description": "Cuántos espacios de inventario tiene Replicator. Por defecto 600."
+      },
+      "en": {
+        "label": "Replicator slots",
+        "description": "How many inventory slots Replicator has. Defaults to 600."
+      }
+    },
+    {
+      "key": "SmithyCraftingSpeed",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Velocidad de Smithy",
+        "description": "Multiplica la velocidad de fabricación de Smithy. Por defecto 1; el autor acepta hasta 100."
+      },
+      "en": {
+        "label": "Smithy crafting speed",
+        "description": "Multiplies Smithy crafting speed. Defaults to 1; the author caps it at 100."
+      }
+    },
+    {
+      "key": "SmithySlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 300,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Smithy",
+        "description": "Cuántos espacios de inventario tiene Smithy. Por defecto 300."
+      },
+      "en": {
+        "label": "Smithy slots",
+        "description": "How many inventory slots Smithy has. Defaults to 300."
+      }
+    },
+    {
+      "key": "SSCraftingStationCraftingSpeed",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Velocidad de SS Crafting Station",
+        "description": "Multiplica la velocidad de fabricación de SS Crafting Station. Por defecto 1; el autor acepta hasta 100."
+      },
+      "en": {
+        "label": "SS Crafting Station crafting speed",
+        "description": "Multiplies SS Crafting Station's crafting speed. Defaults to 1; the author allows up to 100."
+      }
+    },
+    {
+      "key": "SSCraftingStationSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 300,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de SS Crafting Station",
+        "description": "Cuántos espacios de inventario tiene SS Crafting Station. Por defecto 300."
+      },
+      "en": {
+        "label": "SS Crafting Station slots",
+        "description": "How many inventory slots SS Crafting Station has. Defaults to 300."
+      }
+    },
+    {
+      "key": "CropPlotLimit",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Límite de Crop Plot por zona",
+        "description": "Cuántos Crop Plot se pueden colocar en un radio de 80 cimientos (como el límite de torretas). 0 = sin límite. Por defecto 0."
+      },
+      "en": {
+        "label": "Crop Plot limit per area",
+        "description": "How many Crop Plot can be placed within an 80-foundation radius (like the turret area limit). 0 = no limit. Defaults to 0."
+      }
+    },
+    {
+      "key": "LargeCropPlotSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 30,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Large Crop Plot",
+        "description": "Cuántos espacios de inventario tiene Large Crop Plot. Por defecto 30."
+      },
+      "en": {
+        "label": "Large Crop Plot slots",
+        "description": "How many inventory slots Large Crop Plot has. Defaults to 30."
+      }
+    },
+    {
+      "key": "MediumCropPlotSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 20,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Medium Crop Plot",
+        "description": "Cuántos espacios de inventario tiene Medium Crop Plot. Por defecto 20."
+      },
+      "en": {
+        "label": "Medium Crop Plot slots",
+        "description": "How many inventory slots Medium Crop Plot has. Defaults to 20."
+      }
+    },
+    {
+      "key": "SeamlessSquarePlotSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 30,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Seamless Square Plot",
+        "description": "Cuántos espacios de inventario tiene Seamless Square Plot. Por defecto 30."
+      },
+      "en": {
+        "label": "Seamless Square Plot slots",
+        "description": "How many inventory slots Seamless Square Plot has. Defaults to 30."
+      }
+    },
+    {
+      "key": "SeamlessTrianglePlotSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 20,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Seamless Triangle Plot",
+        "description": "Cuántos espacios de inventario tiene Seamless Triangle Plot. Por defecto 20."
+      },
+      "en": {
+        "label": "Seamless Triangle Plot slots",
+        "description": "How many inventory slots Seamless Triangle Plot has. Defaults to 20."
+      }
+    },
+    {
+      "key": "SmallCropPlotSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 10,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Small Crop Plot",
+        "description": "Cuántos espacios de inventario tiene Small Crop Plot. Por defecto 10."
+      },
+      "en": {
+        "label": "Small Crop Plot slots",
+        "description": "How many inventory slots Small Crop Plot has. Defaults to 10."
+      }
+    },
+    {
+      "key": "TekCropPlotSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 40,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Tek Crop Plot",
+        "description": "Cuántos espacios de inventario tiene Tek Crop Plot. Por defecto 50."
+      },
+      "en": {
+        "label": "Tek Crop Plot slots",
+        "description": "How many inventory slots Tek Crop Plot has. Defaults to 50."
+      }
+    },
+    {
+      "key": "TekTriangleCropPlotSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 40,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Tek Triangle Crop Plot",
+        "description": "Cuántos espacios de inventario tiene Tek Triangle Crop Plot. Por defecto 40."
+      },
+      "en": {
+        "label": "Tek Triangle Crop Plot slots",
+        "description": "How many inventory slots Tek Triangle Crop Plot has. Defaults to 40."
+      }
+    },
+    {
+      "key": "CryoFridgeSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 100,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Cryo Fridge",
+        "description": "Cuántos espacios de inventario tiene Cryo Fridge. Por defecto 150."
+      },
+      "en": {
+        "label": "Cryo Fridge slots",
+        "description": "How many inventory slots Cryo Fridge has. Defaults to 150."
+      }
+    },
+    {
+      "key": "CrystalCrackerLimit",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Límite de Crystal Cracker por zona",
+        "description": "Cuántos Crystal Cracker se pueden colocar en un radio de 80 cimientos (como el límite de torretas). 0 = sin límite. Por defecto 0."
+      },
+      "en": {
+        "label": "Crystal Cracker limit per area",
+        "description": "How many Crystal Cracker can be placed within an 80-foundation radius (like the turret area limit). 0 = no limit. Defaults to 0."
+      }
+    },
+    {
+      "key": "CrystalCrackerSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 400,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Crystal Cracker",
+        "description": "Cuántos espacios de inventario tiene Crystal Cracker. Por defecto 400."
+      },
+      "en": {
+        "label": "Crystal Cracker slots",
+        "description": "How many inventory slots Crystal Cracker has. Defaults to 400."
+      }
+    },
+    {
+      "key": "UplinkDinoBlacklist",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Dinos que el Uplink no sube",
+        "description": "Estas clases de dino no se pueden subir por el Transmitter/Uplink."
+      },
+      "en": {
+        "label": "Dinos the Uplink won't upload",
+        "description": "These dino classes cannot be uploaded via the Transmitter/Uplink."
+      },
+      "suggestions": "dinos"
+    },
+    {
+      "key": "DefaultDoorConfig",
+      "kind": "integer",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "tier": "advanced",
+      "es": {
+        "label": "Estado inicial de las puertas",
+        "description": "Cómo se comportan las puertas recién colocadas: 0 = automáticas, 1 = solo cierre automático, 2 = manuales. Ponerlo en 2 evita que una puerta te delate al pasar cerca."
+      },
+      "en": {
+        "label": "Default Door Config",
+        "description": "The default state of doors when placed (0 = auto, 1 = auto close only, 2 manual)"
+      }
+    },
+    {
+      "key": "DroneTerminalCraftingSpeed",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Velocidad de Drone Terminal",
+        "description": "Multiplica la velocidad de fabricación de Drone Terminal. Por defecto 1; el autor acepta hasta 100."
+      },
+      "en": {
+        "label": "Drone Terminal crafting speed",
+        "description": "Multiplies Drone Terminal crafting speed. Defaults to 1; the author caps it at 100."
+      }
+    },
+    {
+      "key": "DroneTerminalSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 150,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Drone Terminal",
+        "description": "Cuántos espacios de inventario tiene Drone Terminal. Por defecto 150."
+      },
+      "en": {
+        "label": "Drone Terminal slots",
+        "description": "How many inventory slots Drone Terminal has. Defaults to 150."
+      }
+    },
+    {
+      "key": "DyeriaCraftingSpeed",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 25,
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Velocidad de Dyeria",
+        "description": "Multiplica la velocidad de fabricación de Dyeria. Por defecto 25; el autor acepta hasta 100."
+      },
+      "en": {
+        "label": "Dyeria crafting speed",
+        "description": "Multiplies Dyeria crafting speed. Defaults to 25; the author caps it at 100."
+      }
+    },
+    {
+      "key": "DyeriaSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 500,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Dyeria",
+        "description": "Cuántos espacios de inventario tiene Dyeria. Por defecto 500."
+      },
+      "en": {
+        "label": "Dyeria slots",
+        "description": "How many inventory slots Dyeria has. Defaults to 500."
+      }
+    },
+    {
+      "key": "AllowDynamicPillarNonFoundationSupport",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Pilares dinámicos como cimiento (con cualquier estructura)",
+        "description": "Si un pilar dinámico atraviesa una estructura que no es cimiento, el pilar pasa a contar como cimiento."
+      },
+      "en": {
+        "label": "Allow Dynamic Pillar Non Foundation Support",
+        "description": "If a dynamic pillar intersects with a non-foundation structure, the pillar will act as a foundation"
+      }
+    },
+    {
+      "key": "AllowInterDynamicPillarSupport",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Pilares dinámicos como cimiento (entre ellos)",
+        "description": "Un pilar dinámico cuenta como cimiento si se cruza con otro pilar dinámico."
+      },
+      "en": {
+        "label": "Allow Inter Dynamic Pillar Support",
+        "description": "Allows dynamic pillar to act as a foundation if they intersect with another dynamic pillar"
+      }
+    },
+    {
+      "key": "DisableDynamicPillarPlacementOnSaddles",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Sin pilares dinámicos en monturas",
+        "description": "Impide colocar pilares dinámicos sobre monturas plataforma."
+      },
+      "en": {
+        "label": "No dynamic pillars on saddles",
+        "description": "Prevents placing dynamic pillars on platform saddles."
+      }
+    },
+    {
+      "key": "DisableIncubatorStatSettings",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Incubadora sin selector de stats",
+        "description": "La incubadora de huevos pierde la opción de elegir stats del bebé."
+      },
+      "en": {
+        "label": "Incubator without stat picker",
+        "description": "The egg incubator loses the baby stat selection option."
+      }
+    },
+    {
+      "key": "EggIncubatorLimit",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Límite de Egg Incubator por zona",
+        "description": "Cuántos Egg Incubator se pueden colocar en un radio de 80 cimientos (como el límite de torretas). 0 = sin límite. Por defecto 0."
+      },
+      "en": {
+        "label": "Egg Incubator limit per area",
+        "description": "How many Egg Incubator can be placed within an 80-foundation radius (like the turret area limit). 0 = no limit. Defaults to 0."
+      }
+    },
+    {
+      "key": "IncubatorIncubationMultiplier",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 2,
+      "es": {
+        "label": "Velocidad de la incubadora",
+        "description": "Multiplica la velocidad de incubación de la incubadora de huevos. Default 2 de la hoja del autor."
+      },
+      "en": {
+        "label": "Incubator speed",
+        "description": "Multiplies the egg incubator's incubation speed. Author's sheet default is 2."
+      },
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5
+    },
+    {
+      "key": "AllowCatalyzerOutOfElement",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Catalizador en cualquier lado",
+        "description": "Permite colocar el Element Catalyzer en cualquier parte, sin las restricciones habituales."
+      },
+      "en": {
+        "label": "Allow Catalyzer Out Of Element",
+        "description": "AllowCatalyzerOutOfElement - Allows the element catalyer to be placed anywhere."
+      }
+    },
+    {
+      "key": "ElementCatalyzerCraftingSpeed",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Velocidad de Element Catalyzer",
+        "description": "Multiplica la velocidad de fabricación de Element Catalyzer. Por defecto 1; el autor acepta hasta 100."
+      },
+      "en": {
+        "label": "Element Catalyzer crafting speed",
+        "description": "Multiplies Element Catalyzer crafting speed. Defaults to 1; the author caps it at 100."
+      }
+    },
+    {
+      "key": "ElevatorSpeed",
+      "kind": "integer",
+      "default": 150,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "tier": "advanced",
+      "es": {
+        "label": "Velocidad del ascensor",
+        "description": "Qué tan rápido se mueve el ascensor. Subirlo acorta la espera en bases altas. Máximo 1000."
+      },
+      "en": {
+        "label": "Elevator Speed",
+        "description": "The speed of the elevator (max: 1000)"
+      }
+    },
+    {
+      "key": "ElevatorWeightMultiplier",
+      "kind": "float_multiplier",
+      "default": 2,
+      "min": 0,
+      "max": 10,
+      "step": 0.1,
+      "presets": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "tier": "advanced",
+      "es": {
+        "label": "Peso que levanta el ascensor",
+        "description": "Multiplica cuánto peso soporta el ascensor. Subirlo permite subir dinos y cargas pesadas; con 0 vale el peso base."
+      },
+      "en": {
+        "label": "Elevator Weight Multiplier",
+        "description": "Increases the amount of weight elevators can lift"
+      }
+    },
+    {
+      "key": "FarmerLimit",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Límite de Farmer por zona",
+        "description": "Cuántos Farmer se pueden colocar en un radio de 80 cimientos (como el límite de torretas). 0 = sin límite. Por defecto 0."
+      },
+      "en": {
+        "label": "Farmer limit per area",
+        "description": "How many Farmer can be placed within an 80-foundation radius (like the turret area limit). 0 = no limit. Defaults to 0."
+      }
+    },
+    {
+      "key": "FarmerRangeInFoundations",
+      "kind": "integer",
+      "default": 30,
+      "min": 0,
+      "max": 250,
+      "step": 1,
+      "tier": "advanced",
+      "es": {
+        "label": "Alcance del Farmer",
+        "description": "Desde qué distancia el Farmer trabaja las parcelas. Subirlo permite atender una huerta más grande."
+      },
+      "en": {
+        "label": "Farmer Range In Foundations",
+        "description": "Farmer Range In Foundations."
+      }
+    },
+    {
+      "key": "FarmerSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 300,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Farmer",
+        "description": "Cuántos espacios de inventario tiene Farmer. Por defecto 300."
+      },
+      "en": {
+        "label": "Farmer slots",
+        "description": "How many inventory slots Farmer has. Defaults to 300."
+      }
+    },
+    {
+      "key": "FeedingTroughAdditionalRangeInFoundations",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 35,
+      "min": 0,
+      "max": 200,
+      "step": 1,
+      "es": {
+        "label": "Alcance de Feeding Trough Additional (cimientos)",
+        "description": "Alcance de Feeding Trough Additional, medido en cimientos. Por defecto 35."
+      },
+      "en": {
+        "label": "Feeding Trough Additional range (foundations)",
+        "description": "Feeding Trough Additional's range, measured in foundations. Defaults to 35."
+      }
+    },
+    {
+      "key": "FeedingTroughSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 100,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Feeding Trough",
+        "description": "Cuántos espacios de inventario tiene Feeding Trough. Por defecto 100."
+      },
+      "en": {
+        "label": "Feeding Trough slots",
+        "description": "How many inventory slots Feeding Trough has. Defaults to 100."
+      }
+    },
+    {
+      "key": "TekFeedingTroughAdditionalRangeInFoundations",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 70,
+      "min": 0,
+      "max": 200,
+      "step": 1,
+      "es": {
+        "label": "Alcance de Tek Feeding Trough Additional (cimientos)",
+        "description": "Alcance de Tek Feeding Trough Additional, medido en cimientos. Por defecto 70."
+      },
+      "en": {
+        "label": "Tek Feeding Trough Additional range (foundations)",
+        "description": "Tek Feeding Trough Additional's range, measured in foundations. Defaults to 70."
+      }
+    },
+    {
+      "key": "TekTroughSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 300,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Tek Trough",
+        "description": "Cuántos espacios de inventario tiene Tek Trough. Por defecto 300."
+      },
+      "en": {
+        "label": "Tek Trough slots",
+        "description": "How many inventory slots Tek Trough has. Defaults to 300."
+      }
+    },
+    {
+      "key": "TroughLimit",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Límite de Trough por zona",
+        "description": "Cuántos Trough se pueden colocar en un radio de 80 cimientos (como el límite de torretas). 0 = sin límite. Por defecto 0."
+      },
+      "en": {
+        "label": "Trough limit per area",
+        "description": "How many Trough can be placed within an 80-foundation radius (like the turret area limit). 0 = no limit. Defaults to 0."
+      }
+    },
+    {
+      "key": "FenceHP",
+      "kind": "integer",
+      "default": 10000,
+      "min": 0,
+      "max": 100000,
+      "step": 1,
+      "tier": "expert",
+      "es": {
+        "label": "Vida de la cerca",
+        "description": "Puntos de vida de las cercas, y también de sus soportes. Subirlo hace que el perímetro aguante más."
+      },
+      "en": {
+        "label": "Fence HP",
+        "description": "Also affects fence supports"
+      }
+    },
+    {
+      "key": "FireplaceCraftingSpeed",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 2,
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Velocidad de Fireplace",
+        "description": "Multiplica la velocidad de fabricación de Fireplace. Por defecto 2; el autor acepta hasta 100."
+      },
+      "en": {
+        "label": "Fireplace crafting speed",
+        "description": "Multiplies Fireplace crafting speed. Defaults to 2; the author caps it at 100."
+      }
+    },
+    {
+      "key": "FireplaceSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 25,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Fireplace",
+        "description": "Cuántos espacios de inventario tiene Fireplace. Por defecto 25."
+      },
+      "en": {
+        "label": "Fireplace slots",
+        "description": "How many inventory slots Fireplace has. Defaults to 25."
+      }
+    },
+    {
+      "key": "DisableShieldPlacementOnRaftsAndSaddles",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Sin escudos en balsas ni sillas",
+        "description": "Impide colocar el escudo de S+ sobre balsas y plataformas de montura."
+      },
+      "en": {
+        "label": "Disable Shield Placement On Rafts And Saddles",
+        "description": "Disables the ability to place shields on rafts & saddles"
+      }
+    },
+    {
+      "key": "DisableShieldRadiationProtection",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "El escudo no protege de la radiación",
+        "description": "Saca la protección contra radiación del escudo de S+, que en Aberration es un efecto muy grande."
+      },
+      "en": {
+        "label": "Disable Shield Radiation Protection",
+        "description": "Stops the S+ Shield from protecting against radiation"
+      }
+    },
+    {
+      "key": "MinShieldPlacementDistanceInFoundations",
+      "kind": "integer",
+      "default": 8,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "tier": "expert",
+      "es": {
+        "label": "Distancia mínima entre escudos",
+        "description": "Cuántos cimientos tiene que haber entre dos generadores de escudo. Subirlo impide apilar escudos superpuestos sobre la misma base."
+      },
+      "en": {
+        "label": "Min Shield Placement Distance In Foundations",
+        "description": "The minimum distance between two shield generators"
+      }
+    },
+    {
+      "key": "ShieldHealth",
+      "kind": "integer",
+      "default": 250000,
+      "min": 0,
+      "max": 999999999,
+      "step": 1,
+      "tier": "advanced",
+      "es": {
+        "label": "Vida del escudo",
+        "description": "Puntos de vida del escudo de S+. Es el número que decide cuánto aguanta una base bajo ataque, así que en PvP conviene pensarlo bien."
+      },
+      "en": {
+        "label": "Shield Health",
+        "description": "HP of the shield (max: 999999999)"
+      }
+    },
+    {
+      "key": "ShieldPowerUpTimeInSeconds",
+      "kind": "integer",
+      "tier": "expert",
+      "default": -1,
+      "es": {
+        "label": "Activación del escudo (segundos)",
+        "description": "Segundos que tarda el escudo en encenderse. -1 lo deja apagado (default de la hoja)."
+      },
+      "en": {
+        "label": "Shield power-up time (seconds)",
+        "description": "Seconds the shield takes to power up. -1 keeps it off (sheet default)."
+      },
+      "min": -1,
+      "max": 86400
+    },
+    {
+      "key": "ShieldRadiusMultiplier",
+      "kind": "float_multiplier",
+      "default": 1,
+      "min": 0,
+      "max": 5,
+      "step": 0.1,
+      "presets": [
+        1,
+        2,
+        5
+      ],
+      "tier": "advanced",
+      "es": {
+        "label": "Radio del escudo",
+        "description": "Multiplica el tamaño del escudo, tanto el máximo como el mínimo. Subirlo cubre más terreno con uno solo."
+      },
+      "en": {
+        "label": "Shield Radius Multiplier",
+        "description": "Multiplies the radius of the shield, affecting both the maximum size & minimum size (max: 5)"
+      }
+    },
+    {
+      "key": "ShieldRegenDelayInSeconds",
+      "kind": "integer",
+      "default": 600,
+      "min": 0,
+      "max": 86400,
+      "step": 1,
+      "tier": "advanced",
+      "es": {
+        "label": "Espera para que el escudo regenere",
+        "description": "Cuánto tarda el escudo en empezar a recuperar vida después de recibir daño. Bajarlo hace mucho más difícil romperlo a golpes sostenidos."
+      },
+      "en": {
+        "label": "Shield Regen Delay In Seconds",
+        "description": "Time until the shield begins to regen health after being damaged (max: 86400)"
+      }
+    },
+    {
+      "key": "ShieldRespawnDelayInSeconds",
+      "kind": "integer",
+      "default": 3600,
+      "min": 0,
+      "max": 86400,
+      "step": 1,
+      "tier": "advanced",
+      "es": {
+        "label": "Espera para reponer el escudo",
+        "description": "Cuánto tarda el escudo en volver después de ser destruido. Bajarlo favorece al defensor; subirlo, al atacante. Máximo 86400 (un día)."
+      },
+      "en": {
+        "label": "Shield Respawn Delay In Seconds",
+        "description": "Time until the shield will respawn after being destroyed (max: 86400)"
+      }
+    },
+    {
+      "key": "ForgeCraftingSpeed",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Velocidad de Forge",
+        "description": "Multiplica la velocidad de fabricación de Forge. Por defecto 1; el autor acepta hasta 100."
+      },
+      "en": {
+        "label": "Forge crafting speed",
+        "description": "Multiplies Forge crafting speed. Defaults to 1; the author caps it at 100."
+      }
+    },
+    {
+      "key": "ForgeSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 50,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Forge",
+        "description": "Cuántos espacios de inventario tiene Forge. Por defecto 50."
+      },
+      "en": {
+        "label": "Forge slots",
+        "description": "How many inventory slots Forge has. Defaults to 50."
+      }
+    },
+    {
+      "key": "IndustrialForgeCraftingSpeed",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Velocidad de Industrial Forge",
+        "description": "Multiplica la velocidad de fabricación de Industrial Forge. Por defecto 1; el autor acepta hasta 100."
+      },
+      "en": {
+        "label": "Industrial Forge crafting speed",
+        "description": "Multiplies Industrial Forge crafting speed. Defaults to 1; the author caps it at 100."
+      }
+    },
+    {
+      "key": "IndustrialForgeSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 100,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Industrial Forge",
+        "description": "Cuántos espacios de inventario tiene Industrial Forge. Por defecto 100."
+      },
+      "en": {
+        "label": "Industrial Forge slots",
+        "description": "How many inventory slots Industrial Forge has. Defaults to 100."
+      }
+    },
+    {
+      "key": "TekForgeCraftingSpeed",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Velocidad de Tek Forge",
+        "description": "Multiplica la velocidad de fabricación de Tek Forge. Por defecto 1; el autor acepta hasta 100."
+      },
+      "en": {
+        "label": "Tek Forge crafting speed",
+        "description": "Multiplies Tek Forge crafting speed. Defaults to 1; the author caps it at 100."
+      }
+    },
+    {
+      "key": "TekForgeSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 350,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Tek Forge",
+        "description": "Cuántos espacios de inventario tiene Tek Forge. Por defecto 350."
+      },
+      "en": {
+        "label": "Tek Forge slots",
+        "description": "How many inventory slots Tek Forge has. Defaults to 350."
+      }
+    },
+    {
+      "key": "AdditionalSupportDistanceInFoundations",
+      "kind": "integer",
+      "default": 0,
+      "min": 0,
+      "max": 15,
+      "step": 1,
+      "tier": "advanced",
+      "es": {
+        "label": "Alcance extra de soporte",
+        "description": "Cuántos cimientos de distancia extra sostiene un cimiento o pilar. Subirlo deja construir más lejos del soporte y hace posibles voladizos grandes; con 0 vale el alcance normal de S+. Máximo 15."
+      },
+      "en": {
+        "label": "Additional Support Distance In Foundations",
+        "description": "The additional range of support that a foundation/pillar will provide (max: 15)"
+      }
+    },
+    {
+      "key": "DisableFoundationStacking",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Desactivar el apilado de cimientos",
+        "description": "Impide apilar cimientos unos sobre otros. Lo típico en servidores que no quieren torres de cimientos."
+      },
+      "en": {
+        "label": "Disable Foundation Stacking",
+        "description": "Disables the ability to stack foundations"
+      }
+    },
+    {
+      "key": "NoFoundationsRequired",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Construir sin cimientos",
+        "description": "Permite colocar cimientos en el aire y saca el requisito de soporte para todo lo demás. Es el ajuste más transformador de S+ y el que más cambia cómo se ve un servidor."
+      },
+      "en": {
+        "label": "No Foundations Required",
+        "description": "Allows foundations to be placed in the air & removes the need for foundation suppport for all other structures"
+      }
+    },
+    {
+      "key": "FridgeCraftingSpeed",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Velocidad de Fridge",
+        "description": "Multiplica la velocidad de fabricación de Fridge. Por defecto 1; el autor acepta hasta 100."
+      },
+      "en": {
+        "label": "Fridge crafting speed",
+        "description": "Multiplies Fridge crafting speed. Defaults to 1; the author caps it at 100."
+      }
+    },
+    {
+      "key": "FridgeSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 100,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Fridge",
+        "description": "Cuántos espacios de inventario tiene Fridge. Por defecto 100."
+      },
+      "en": {
+        "label": "Fridge slots",
+        "description": "How many inventory slots Fridge has. Defaults to 100."
+      }
+    },
+    {
+      "key": "TekFridgeSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 500,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Tek Fridge",
+        "description": "Cuántos espacios de inventario tiene Tek Fridge. Por defecto 250."
+      },
+      "en": {
+        "label": "Tek Fridge slots",
+        "description": "How many inventory slots Tek Fridge has. Defaults to 250."
+      }
+    },
+    {
+      "key": "DisableGardenerAutoHarvestPlantR",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Gardener no cosecha Plant R",
+        "description": "El Gardener deja de cosechar automáticamente las Plant Species R."
+      },
+      "en": {
+        "label": "Gardener skips Plant R",
+        "description": "The Gardener stops auto-harvesting Plant Species R."
+      }
+    },
+    {
+      "key": "GardenerLimit",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Límite de Gardener por zona",
+        "description": "Cuántos Gardener se pueden colocar en un radio de 80 cimientos (como el límite de torretas). 0 = sin límite. Por defecto 0."
+      },
+      "en": {
+        "label": "Gardener limit per area",
+        "description": "How many Gardener can be placed within an 80-foundation radius (like the turret area limit). 0 = no limit. Defaults to 0."
+      }
+    },
+    {
+      "key": "GardenerRangeInFoundations",
+      "kind": "integer",
+      "default": 10,
+      "min": 0,
+      "max": 250,
+      "step": 1,
+      "tier": "advanced",
+      "es": {
+        "label": "Alcance del Gardener",
+        "description": "Desde qué distancia el Gardener riega y cuida las plantas. Subirlo cubre más huerta."
+      },
+      "en": {
+        "label": "Gardener Range In Foundations",
+        "description": "Gardener Range In Foundations."
+      }
+    },
+    {
+      "key": "GardenerSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 300,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Gardener",
+        "description": "Cuántos espacios de inventario tiene Gardener. Por defecto 300."
+      },
+      "en": {
+        "label": "Gardener slots",
+        "description": "How many inventory slots Gardener has. Defaults to 300."
+      }
+    },
+    {
+      "key": "GasCollectorSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 24,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Gas Collector",
+        "description": "Cuántos espacios de inventario tiene Gas Collector. Por defecto 24."
+      },
+      "en": {
+        "label": "Gas Collector slots",
+        "description": "How many inventory slots Gas Collector has. Defaults to 24."
+      }
+    },
+    {
+      "key": "GachaGavagerLimit",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Límite de Gacha Gavager por zona",
+        "description": "Cuántos Gacha Gavager se pueden colocar en un radio de 80 cimientos (como el límite de torretas). 0 = sin límite. Por defecto 0."
+      },
+      "en": {
+        "label": "Gacha Gavager limit per area",
+        "description": "How many Gacha Gavager can be placed within an 80-foundation radius (like the turret area limit). 0 = no limit. Defaults to 0."
+      }
+    },
+    {
+      "key": "DisableElectronicsDuringStorm",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Electrónica apagada en tormenta",
+        "description": "Ciertas estaciones (fabricador y similares) no funcionan durante una tormenta eléctrica en Scorched Earth."
+      },
+      "en": {
+        "label": "Disable Electronics During Storm",
+        "description": "Certain crafting stations(ie fabricator) won't function during an electrical storm on Scorched Earth"
+      }
+    },
+    {
+      "key": "DisableGeneratorDuringStorm",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Generadores apagados en tormenta",
+        "description": "Los generadores dejan de funcionar durante las tormentas eléctricas de Scorched Earth."
+      },
+      "en": {
+        "label": "Disable Generator During Storm",
+        "description": "Generators will not function during electrical storms on Scorched Earth"
+      }
+    },
+    {
+      "key": "DisablePickup",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "No permitir recoger estructuras",
+        "description": "Saca la opción de levantar estructuras SS ya colocadas. En PvP evita desarmar y rearmar defensas en pleno raid."
+      },
+      "en": {
+        "label": "Disallow structure pickup",
+        "description": "Removes the option to pick up placed SS structures. In PvP it blocks re-arranging defences mid-raid."
+      }
+    },
+    {
+      "key": "DisablePickupAfterTimeInSeconds",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 0,
+      "es": {
+        "label": "No recoger tras X segundos",
+        "description": "Pasados X segundos desde su colocación, la estructura ya no se puede levantar. 0 lo desactiva."
+      },
+      "en": {
+        "label": "No pickup after X seconds",
+        "description": "After X seconds from placement the structure can no longer be picked up. 0 disables it."
+      },
+      "min": 0,
+      "max": 604800
+    },
+    {
+      "key": "DisablePickupWhenDamaged",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "No recoger estructuras dañadas",
+        "description": "Una estructura con daño no se puede levantar hasta repararse."
+      },
+      "en": {
+        "label": "No pickup while damaged",
+        "description": "A damaged structure cannot be picked up until repaired."
+      }
+    },
+    {
+      "key": "DisableUnlockingMapSpecificEngrams",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Bloquear engramas exclusivos de mapa",
+        "description": "Impide desbloquear los engramas que solo existen en ciertos mapas."
+      },
+      "en": {
+        "label": "Disable Unlocking Map Specific Engrams",
+        "description": "Prevents the unlocking of map specific engrams"
+      }
+    },
+    {
+      "key": "RaidTimerLimitMultiplier",
+      "kind": "float_multiplier",
+      "default": 1,
+      "min": 0,
+      "max": 10,
+      "step": 0.1,
+      "presets": [
+        1,
+        2,
+        5
+      ],
+      "tier": "expert",
+      "es": {
+        "label": "Tiempo límite de los jefes de raid",
+        "description": "Multiplica el tiempo para vencer a un jefe de raid: con 2 tenés el doble. Subirlo hace los jefes más accesibles; bajarlo los endurece."
+      },
+      "en": {
+        "label": "Raid Timer Limit Multiplier",
+        "description": "Multiplier for the time limit of defeating raid bosses (ie value of 2 will allow 30 minutes to kill the Broodmother instead of 15 minutes)"
+      }
+    },
+    {
+      "key": "RemoveFloorRequirementFromStructurePlacement",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Permitir estaciones directo en el suelo",
+        "description": "Deja colocar en el piso estructuras que normalmente exigen estar sobre un cimiento o techo (herrería, forja, etc.)."
+      },
+      "en": {
+        "label": "Remove Floor Requirement From Structure Placement",
+        "description": "RemoveFloorRequirementFromStructurePlacement - Will allow structures that normally require placement on a floor to be placed on the ground(ie smithy, forge, etc)"
+      }
+    },
+    {
+      "key": "RemoveScorchedEarthInsulationPenalty",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Sacar la penalización de aislamiento de Scorched Earth",
+        "description": "Quita la penalización de aislamiento que Scorched Earth aplica a todas las estructuras del mapa."
+      },
+      "en": {
+        "label": "Remove Scorched Earth Insulation Penalty",
+        "description": "Removes the Scorched Earth insulation penalty from all structures on the map"
+      }
+    },
+    {
+      "key": "DisableAbilityToPlaceTekGeneratorOnSaddles",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Sin generador tek en sillas ni balsas",
+        "description": "Impide colocar el generador tek sobre plataformas de montura y balsas."
+      },
+      "en": {
+        "label": "Disable Ability To Place Tek Generator On Saddles",
+        "description": "Prevents the tek generator from being able to be places on saddles & rafts"
+      }
+    },
+    {
+      "key": "EnableGeneratorDecay",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Los generadores se deterioran",
+        "description": "Hace que los generadores se degraden con el tiempo."
+      },
+      "en": {
+        "label": "Enable Generator Decay",
+        "description": "Causes generators to decay over time"
+      }
+    },
+    {
+      "key": "GeneratorSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 8,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Generator",
+        "description": "Cuántos espacios de inventario tiene Generator. Por defecto 8."
+      },
+      "en": {
+        "label": "Generator slots",
+        "description": "How many inventory slots Generator has. Defaults to 8."
+      }
+    },
+    {
+      "key": "TekGeneratorFuelUseIntervalInSeconds",
+      "kind": "integer",
+      "default": 86400,
+      "min": 0,
+      "max": 864000,
+      "step": 1,
+      "tier": "advanced",
+      "es": {
+        "label": "Duración de 1 element en el generador tek",
+        "description": "Cuántos segundos rinde un element en el generador tek. El default, 86400, es un día real. Subirlo abarata muchísimo mantener la base encendida."
+      },
+      "en": {
+        "label": "Tek Generator Fuel Use Interval In Seconds",
+        "description": "How long the Tek Generator will run on 1 element"
+      }
+    },
+    {
+      "key": "MinimumGlassTransparency",
+      "kind": "float_multiplier",
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "step": 0.1,
+      "presets": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "tier": "advanced",
+      "es": {
+        "label": "Transparencia mínima del vidrio",
+        "description": "Lo más transparente que se puede poner una estructura de vidrio. Subirlo obliga a que el vidrio sea más opaco, lo que en PvP evita bases imposibles de ver. Entre 0 y 1."
+      },
+      "en": {
+        "label": "Minimum Glass Transparency",
+        "description": "Sets the minimum transparency that all glass structures can be set to. (max: 1.0)"
+      }
+    },
+    {
+      "key": "IndustrialGrillCraftingSpeed",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Velocidad de Industrial Grill",
+        "description": "Multiplica la velocidad de fabricación de Industrial Grill. Por defecto 1; el autor acepta hasta 100."
+      },
+      "en": {
+        "label": "Industrial Grill crafting speed",
+        "description": "Multiplies Industrial Grill crafting speed. Defaults to 1; the author caps it at 100."
+      }
+    },
+    {
+      "key": "IndustrialGrillSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 100,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Industrial Grill",
+        "description": "Cuántos espacios de inventario tiene Industrial Grill. Por defecto 100."
+      },
+      "en": {
+        "label": "Industrial Grill slots",
+        "description": "How many inventory slots Industrial Grill has. Defaults to 100."
+      }
+    },
+    {
+      "key": "TekStoveCraftingSpeed",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Velocidad de Tek Stove",
+        "description": "Multiplica la velocidad de fabricación de Tek Stove. Por defecto 1; el autor acepta hasta 100."
+      },
+      "en": {
+        "label": "Tek Stove crafting speed",
+        "description": "Multiplies Tek Stove crafting speed. Defaults to 1; the author caps it at 100."
+      }
+    },
+    {
+      "key": "TekStoveSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 350,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Tek Stove",
+        "description": "Cuántos espacios de inventario tiene Tek Stove. Por defecto 350."
+      },
+      "en": {
+        "label": "Tek Stove slots",
+        "description": "How many inventory slots Tek Stove has. Defaults to 350."
+      }
+    },
+    {
+      "key": "GrinderAllowMissionRewards",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Grinder acepta recompensas de misión",
+        "description": "Permite moler items obtenidos como recompensas de misión (Genesis)."
+      },
+      "en": {
+        "label": "Grinder accepts mission rewards",
+        "description": "Allows grinding items obtained as mission rewards (Genesis)."
+      }
+    },
+    {
+      "key": "GrinderBlacklist",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Items que la trituradora no procesa",
+        "description": "Items que la trituradora va a rechazar. Sirve para que no se pueda reciclar algo caro y sacarle materiales de vuelta."
+      },
+      "en": {
+        "label": "Grinder Blacklist",
+        "description": "Prevent any listed items from being processed by the grinder"
+      }
+    },
+    {
+      "key": "GrinderCraftingSpeed",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Velocidad de Grinder",
+        "description": "Multiplica la velocidad de fabricación de Grinder. Por defecto 1; el autor acepta hasta 100."
+      },
+      "en": {
+        "label": "Grinder crafting speed",
+        "description": "Multiplies Grinder crafting speed. Defaults to 1; the author caps it at 100."
+      }
+    },
+    {
+      "key": "GrinderResourceReturnMax",
+      "kind": "integer",
+      "default": 10000,
+      "min": 0,
+      "max": 100000,
+      "step": 1,
+      "tier": "advanced",
+      "es": {
+        "label": "Tope de materiales por triturada",
+        "description": "Cuánto de un mismo material puede devolver como máximo una triturada. Es el freno para que triturar cosas caras no genere miles de recursos de golpe."
+      },
+      "en": {
+        "label": "Grinder Resource Return Max",
+        "description": "The maximum quantity of a crafting component to give back when grinding an item"
+      }
+    },
+    {
+      "key": "GrinderResourceReturnPercent",
+      "kind": "integer",
+      "default": 25,
+      "min": 0,
+      "max": 250,
+      "step": 1,
+      "tier": "basic",
+      "es": {
+        "label": "Porcentaje que devuelve la trituradora",
+        "description": "Qué parte de los materiales de fabricación se recupera al triturar un item. El default es 25 %. Subirlo hace que casi no se pierda nada al reciclar; bajarlo castiga el reciclado."
+      },
+      "en": {
+        "label": "Grinder Resource Return Percent",
+        "description": "Percentage of the crafting components to give back when grinding an item"
+      }
+    },
+    {
+      "key": "GrinderReturnBlockedResources",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "La trituradora devuelve recursos bloqueados",
+        "description": "Permite recuperar materiales que la trituradora vanilla no devuelve, como el element."
+      },
+      "en": {
+        "label": "Grinder Return Blocked Resources",
+        "description": "Allows the grinder to return items the vanilla grinder would not(ie element)"
+      }
+    },
+    {
+      "key": "GrinderSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 200,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Grinder",
+        "description": "Cuántos espacios de inventario tiene Grinder. Por defecto 200."
+      },
+      "en": {
+        "label": "Grinder slots",
+        "description": "How many inventory slots Grinder has. Defaults to 200."
+      }
+    },
+    {
+      "key": "RemoveGrinderEngrams",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Engramas a sacar de la trituradora",
+        "description": "Engramas de fabricación avanzada que se quitan de la trituradora, por ejemplo PrimeMeat o CactusSap."
+      },
+      "en": {
+        "label": "Remove Grinder Engrams",
+        "description": "Removes advanced crafting engrams from the grinder (see below for options)"
+      }
+    },
+    {
+      "key": "DisableHatcheryAutoSend",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Hatchery sin envío automático",
+        "description": "La Hatchery deja de enviar huevos automáticamente a la incubadora."
+      },
+      "en": {
+        "label": "Hatchery without auto-send",
+        "description": "The Hatchery stops sending eggs to the incubator automatically."
+      }
+    },
+    {
+      "key": "DisableHatcheryPlacementOnSaddles",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Hatchery no va en monturas",
+        "description": "Impide colocar la Hatchery sobre monturas plataforma."
+      },
+      "en": {
+        "label": "No Hatchery on saddles",
+        "description": "Prevents placing the Hatchery on platform saddles."
+      }
+    },
+    {
+      "key": "HatcheryIncubationMultiplier",
+      "kind": "float_multiplier",
+      "default": 2,
+      "min": 0,
+      "max": 10,
+      "step": 0.1,
+      "presets": [
+        1,
+        2,
+        5
+      ],
+      "tier": "advanced",
+      "es": {
+        "label": "Velocidad de incubación de la Hatchery",
+        "description": "Multiplica lo rápido que incuba la Hatchery. Subirlo acorta la espera; se acumula con el multiplicador de eclosión del servidor."
+      },
+      "en": {
+        "label": "Hatchery Incubation Multiplier",
+        "description": "Hatchery Incubation Multiplier."
+      }
+    },
+    {
+      "key": "HatcheryLimit",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Límite de Hatchery por zona",
+        "description": "Cuántos Hatchery se pueden colocar en un radio de 80 cimientos (como el límite de torretas). 0 = sin límite. Por defecto 0."
+      },
+      "en": {
+        "label": "Hatchery limit per area",
+        "description": "How many Hatchery can be placed within an 80-foundation radius (like the turret area limit). 0 = no limit. Defaults to 0."
+      }
+    },
+    {
+      "key": "HatcheryRangeInFoundations",
+      "kind": "integer",
+      "default": 25,
+      "min": 0,
+      "max": 250,
+      "step": 1,
+      "tier": "advanced",
+      "es": {
+        "label": "Alcance de la Hatchery",
+        "description": "Desde qué distancia la Hatchery recoge e incuba huevos. Subirlo permite cubrir un corral de cría grande."
+      },
+      "en": {
+        "label": "Hatchery Range In Foundations",
+        "description": "Hatchery Range In Foundations."
+      }
+    },
+    {
+      "key": "HatcherySlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 15,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Hatchery",
+        "description": "Cuántos espacios de inventario tiene Hatchery. Por defecto 50."
+      },
+      "en": {
+        "label": "Hatchery slots",
+        "description": "How many inventory slots Hatchery has. Defaults to 50."
+      }
+    },
+    {
+      "key": "HoverSkiffHealth",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 10000,
+      "es": {
+        "label": "Vida del Hover Skiff",
+        "description": "Puntos de vida del Hover Skiff de SS."
+      },
+      "en": {
+        "label": "Hover Skiff health",
+        "description": "Health points of the SS Hover Skiff."
+      },
+      "min": 1,
+      "max": 1000000
+    },
+    {
+      "key": "HoverSkiffInfiniteFuel",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Hover Skiff con combustible infinito",
+        "description": "El Hover Skiff de SS no consume elemento."
+      },
+      "en": {
+        "label": "Hover Skiff infinite fuel",
+        "description": "The SS Hover Skiff consumes no element."
+      }
+    },
+    {
+      "key": "HoverSkiffWeight",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 16000,
+      "es": {
+        "label": "Peso del Hover Skiff",
+        "description": "Capacidad de carga del Hover Skiff de SS."
+      },
+      "en": {
+        "label": "Hover Skiff weight",
+        "description": "Carry weight of the SS Hover Skiff."
+      },
+      "min": 1,
+      "max": 1000000
+    },
+    {
+      "key": "PreventHoverSkiffPickup",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "No recoger el Hover Skiff",
+        "description": "El Hover Skiff no se puede levantar una vez colocado."
+      },
+      "en": {
+        "label": "Prevent Hover Skiff pickup",
+        "description": "The Hover Skiff cannot be picked up once placed."
+      }
+    },
+    {
+      "key": "ItemCollectorDistributionBlacklist",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Items que el Collector no reparte",
+        "description": "Classnames de items que el Item Collector no distribuye."
+      },
+      "en": {
+        "label": "Items the Collector won't distribute",
+        "description": "Item classnames the Item Collector will not distribute."
+      }
+    },
+    {
+      "key": "ItemCollectorLimit",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Límite de Item Collector por zona",
+        "description": "Cuántos Item Collector se pueden colocar en un radio de 80 cimientos (como el límite de torretas). 0 = sin límite. Por defecto 0."
+      },
+      "en": {
+        "label": "Item Collector limit per area",
+        "description": "How many Item Collector can be placed within an 80-foundation radius (like the turret area limit). 0 = no limit. Defaults to 0."
+      }
+    },
+    {
+      "key": "ItemCollectorRangeInFoundations",
+      "kind": "integer",
+      "default": 25,
+      "min": 0,
+      "max": 250,
+      "step": 1,
+      "tier": "advanced",
+      "es": {
+        "label": "Alcance del Item Collector",
+        "description": "Desde qué distancia el Item Collector junta lo que hay en el piso. Subirlo cubre más base con uno solo."
+      },
+      "en": {
+        "label": "Item Collector Range In Foundations",
+        "description": "Item Collector Range In Foundations."
+      }
+    },
+    {
+      "key": "ItemCollectorSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 300,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Item Collector",
+        "description": "Cuántos espacios de inventario tiene Item Collector. Por defecto 300."
+      },
+      "en": {
+        "label": "Item Collector slots",
+        "description": "How many inventory slots Item Collector has. Defaults to 300."
+      }
+    },
+    {
+      "key": "ItemTranslocatorSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 350,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Item Translocator",
+        "description": "Cuántos espacios de inventario tiene Item Translocator. Por defecto 350."
+      },
+      "en": {
+        "label": "Item Translocator slots",
+        "description": "How many inventory slots Item Translocator has. Defaults to 350."
+      }
+    },
+    {
+      "key": "TekJumpPadMaxLaunchForce",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 5000,
+      "es": {
+        "label": "Fuerza máxima del Tek Jump Pad",
+        "description": "Fuerza de lanzamiento máxima configurable en el Tek Jump Pad."
+      },
+      "en": {
+        "label": "Tek Jump Pad max launch force",
+        "description": "Maximum configurable launch force of the Tek Jump Pad."
+      },
+      "min": 0,
+      "max": 100000
+    },
+    {
+      "key": "EnableQuickClimb",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Subida rápida por escaleras",
+        "description": "Teletransporta al jugador al subir o bajar escaleras de mano en vez de trepar."
+      },
+      "en": {
+        "label": "Enable Quick Climb",
+        "description": "Enables teleporting up & down ladders"
+      }
+    },
+    {
+      "key": "MortarAndPestleCraftingSpeed",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Velocidad de Mortar And Pestle",
+        "description": "Multiplica la velocidad de fabricación de Mortar And Pestle. Por defecto 1; el autor acepta hasta 100."
+      },
+      "en": {
+        "label": "Mortar And Pestle crafting speed",
+        "description": "Multiplies Mortar And Pestle crafting speed. Defaults to 1; the author caps it at 100."
+      }
+    },
+    {
+      "key": "MortarAndPestleSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 50,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Mortar And Pestle",
+        "description": "Cuántos espacios de inventario tiene Mortar And Pestle. Por defecto 50."
+      },
+      "en": {
+        "label": "Mortar And Pestle slots",
+        "description": "How many inventory slots Mortar And Pestle has. Defaults to 50."
+      }
+    },
+    {
+      "key": "MutatorBuffMaxStackCount",
+      "kind": "integer",
+      "default": 2,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "tier": "expert",
+      "es": {
+        "label": "Acumulaciones del buff del Mutator",
+        "description": "Cuántas veces se puede acumular el efecto del Mutator. Subirlo potencia el efecto total. Máximo 100."
+      },
+      "en": {
+        "label": "Mutator Buff Max Stack Count",
+        "description": "How many stacks the Mutator buff is capped at.(max: 100)"
+      }
+    },
+    {
+      "key": "MutatorDinoBlacklist",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "suggestions": "dinos",
+      "es": {
+        "label": "Dinos que el Mutator no afecta",
+        "description": "Dinos a los que los pulsos del Mutator no llegan. Acepta clases exactas (Rex_Character_BP_C) o parciales (Rex), así que una entrada corta puede cubrir muchas variantes."
+      },
+      "en": {
+        "label": "Mutator Dino Blacklist",
+        "description": "Stops all mutator pulses from affecting dinos on this list (accepts a comma separated list of dino names that can either be exact classes or partial classes)"
+      }
+    },
+    {
+      "key": "MutatorLimit",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Límite de Mutator por zona",
+        "description": "Cuántos Mutator se pueden colocar en un radio de 80 cimientos (como el límite de torretas). 0 = sin límite. Por defecto 0."
+      },
+      "en": {
+        "label": "Mutator limit per area",
+        "description": "How many Mutator can be placed within an 80-foundation radius (like the turret area limit). 0 = no limit. Defaults to 0."
+      }
+    },
+    {
+      "key": "MutatorHighRangeInFoundations",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 17,
+      "min": 0,
+      "max": 200,
+      "step": 1,
+      "es": {
+        "label": "Alcance de Mutator High (cimientos)",
+        "description": "Alcance de Mutator High, medido en cimientos. Por defecto 17."
+      },
+      "en": {
+        "label": "Mutator High range (foundations)",
+        "description": "Mutator High's range, measured in foundations. Defaults to 17."
+      }
+    },
+    {
+      "key": "MutatorLowRangeInFoundations",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 2,
+      "min": 0,
+      "max": 200,
+      "step": 1,
+      "es": {
+        "label": "Alcance de Mutator Low (cimientos)",
+        "description": "Alcance de Mutator Low, medido en cimientos. Por defecto 2."
+      },
+      "en": {
+        "label": "Mutator Low range (foundations)",
+        "description": "Mutator Low's range, measured in foundations. Defaults to 2."
+      }
+    },
+    {
+      "key": "MutatorMediumRangeInFoundations",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 10,
+      "min": 0,
+      "max": 200,
+      "step": 1,
+      "es": {
+        "label": "Alcance de Mutator Medium (cimientos)",
+        "description": "Alcance de Mutator Medium, medido en cimientos. Por defecto 10."
+      },
+      "en": {
+        "label": "Mutator Medium range (foundations)",
+        "description": "Mutator Medium's range, measured in foundations. Defaults to 10."
+      }
+    },
+    {
+      "key": "MutatorModeBlacklist",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Modos del Mutator desactivados",
+        "description": "Modos del Mutator que quedan deshabilitados, por ejemplo AllowBreeding o GenderAssign."
+      },
+      "en": {
+        "label": "Mutator Mode Blacklist",
+        "description": "Allows you to disable any mode of the mutator (see below for options)"
+      }
+    },
+    {
+      "key": "MutatorPreventBreedingClonedOrNeutered",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Mutator: no criar clonados ni castrados",
+        "description": "El Mutator no permite reactivar la cría de criaturas clonadas o castradas."
+      },
+      "en": {
+        "label": "Mutator: no breeding cloned/neutered",
+        "description": "The Mutator cannot re-enable breeding for cloned or neutered creatures."
+      }
+    },
+    {
+      "key": "MutatorPulseCost",
+      "kind": "integer",
+      "default": 10,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "tier": "advanced",
+      "es": {
+        "label": "Costo por pulso del Mutator",
+        "description": "Cuánto element cuesta cada pulso del Mutator. Subirlo encarece mutar; bajarlo lo abarata. Máximo 1000. (El autor también acepta una lista separada por comas, una por modo; acá se configura un valor único para todos.) SS además acepta una lista de 9 valores separados por coma (uno por tipo de pulso), escrita a mano en el .ini."
+      },
+      "en": {
+        "label": "Mutator Pulse Cost",
+        "description": "How many element each pulse of the Mutator will cost, accepts a single value for all or a comma separated list of all the modes (ie =2,2,2,7,1,9) (max: 1000) SS also accepts a comma-separated list of 9 values (one per pulse type), hand-written in the .ini."
+      }
+    },
+    {
+      "key": "MutatorSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 100,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Mutator",
+        "description": "Cuántos espacios de inventario tiene Mutator. Por defecto 100."
+      },
+      "en": {
+        "label": "Mutator slots",
+        "description": "How many inventory slots Mutator has. Defaults to 100."
+      }
+    },
+    {
+      "key": "DisableNannyImprinting",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "La Nanny no hace imprinting",
+        "description": "Impide que la Nanny suba el imprinting. Es lo que se apaga en servidores donde criar a mano es parte del juego."
+      },
+      "en": {
+        "label": "Disable Nanny Imprinting",
+        "description": "Stops the Nanny from boosting imprinting"
+      }
+    },
+    {
+      "key": "NannyFeedingStartThreshold",
+      "kind": "integer",
+      "default": 20,
+      "min": 0,
+      "max": 200,
+      "step": 1,
+      "tier": "advanced",
+      "es": {
+        "label": "Umbral de comida de la Nanny",
+        "description": "Por debajo de qué porcentaje de comida empieza a alimentar. Subirlo la hace alimentar antes, con más margen de seguridad. Entre 1 y 100."
+      },
+      "en": {
+        "label": "Nanny Feeding Start Threshold",
+        "description": "The percentage of food value below which the Nanny will start feeding (accepts values between 1 & 100)"
+      }
+    },
+    {
+      "key": "NannyIntervalInSeconds",
+      "kind": "integer",
+      "default": 35,
+      "min": 0,
+      "max": 350,
+      "step": 1,
+      "tier": "advanced",
+      "es": {
+        "label": "Intervalo de la Nanny",
+        "description": "Segundos entre cada alimentación e imprinting. Bajarlo la hace más reactiva y sube la carga del servidor."
+      },
+      "en": {
+        "label": "Nanny Interval In Seconds",
+        "description": "Time between the Nanny's feeding & imprinting"
+      }
+    },
+    {
+      "key": "NannyLimit",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Límite de Nanny por zona",
+        "description": "Cuántos Nanny se pueden colocar en un radio de 80 cimientos (como el límite de torretas). 0 = sin límite. Por defecto 0."
+      },
+      "en": {
+        "label": "Nanny limit per area",
+        "description": "How many Nanny can be placed within an 80-foundation radius (like the turret area limit). 0 = no limit. Defaults to 0."
+      }
+    },
+    {
+      "key": "NannyMaxImprint",
+      "kind": "integer",
+      "default": 100,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "tier": "basic",
+      "es": {
+        "label": "Imprinting máximo de la Nanny",
+        "description": "Hasta qué porcentaje sube el imprinting la Nanny. Bajarlo obliga a completar la cría a mano; con 100 la Nanny hace todo."
+      },
+      "en": {
+        "label": "Nanny Max Imprint",
+        "description": "The highest the Nanny will imprint a dino. (max: 100)"
+      }
+    },
+    {
+      "key": "NannyRangeInFoundations",
+      "kind": "integer",
+      "default": 10,
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "tier": "basic",
+      "es": {
+        "label": "Alcance de la Nanny",
+        "description": "Hasta dónde llega la Nanny para alimentar y hacer imprinting. Subirlo permite criar más bebés a la vez con una sola. Máximo 50."
+      },
+      "en": {
+        "label": "Nanny Range In Foundations",
+        "description": "The range of the Nanny's feeding and imprinting bonus.(max: 50)"
+      }
+    },
+    {
+      "key": "NannySlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 100,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Nanny",
+        "description": "Cuántos espacios de inventario tiene Nanny. Por defecto 100."
+      },
+      "en": {
+        "label": "Nanny slots",
+        "description": "How many inventory slots Nanny has. Defaults to 100."
+      }
+    },
+    {
+      "key": "NullifierLimit",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Límite de Nullifier por zona",
+        "description": "Cuántos Nullifier se pueden colocar en un radio de 80 cimientos (como el límite de torretas). 0 = sin límite. Por defecto 0."
+      },
+      "en": {
+        "label": "Nullifier limit per area",
+        "description": "How many Nullifier can be placed within an 80-foundation radius (like the turret area limit). 0 = no limit. Defaults to 0."
+      }
+    },
+    {
+      "key": "NullifierRangeInFoundations",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 3,
+      "min": 0,
+      "max": 200,
+      "step": 1,
+      "es": {
+        "label": "Alcance de Nullifier (cimientos)",
+        "description": "Alcance de Nullifier, medido en cimientos. Por defecto 3."
+      },
+      "en": {
+        "label": "Nullifier range (foundations)",
+        "description": "Nullifier's range, measured in foundations. Defaults to 3."
+      }
+    },
+    {
+      "key": "NullifierSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 30,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Nullifier",
+        "description": "Cuántos espacios de inventario tiene Nullifier. Por defecto 30."
+      },
+      "en": {
+        "label": "Nullifier slots",
+        "description": "How many inventory slots Nullifier has. Defaults to 30."
+      }
+    },
+    {
+      "key": "AllowIntakeToPlaceWithoutWater",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Tomas de agua sin agua",
+        "description": "Deja colocar tomas de cañería sin que haya agua, útil para preparar la instalación antes de tenerla."
+      },
+      "en": {
+        "label": "Allow Intake To Place Without Water",
+        "description": "Will allow water pipe intakes to place without the need for water"
+      }
+    },
+    {
+      "key": "DisableAbilityToHideStructures",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "No permitir ocultar cables y caños",
+        "description": "Saca la opción de esconder cables y cañerías, que es una de las razones por las que se instala S+."
+      },
+      "en": {
+        "label": "Disable Ability To Hide Structures",
+        "description": "Removes the ability to hide wires & pipes"
+      }
+    },
+    {
+      "key": "PreservingBinCraftingSpeed",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "es": {
+        "label": "Velocidad de Preserving Bin",
+        "description": "Multiplica la velocidad de fabricación de Preserving Bin. Por defecto 1; el autor acepta hasta 100."
+      },
+      "en": {
+        "label": "Preserving Bin crafting speed",
+        "description": "Multiplies Preserving Bin crafting speed. Defaults to 1; the author caps it at 100."
+      }
+    },
+    {
+      "key": "PreservingBinSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 50,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Preserving Bin",
+        "description": "Cuántos espacios de inventario tiene Preserving Bin. Por defecto 50."
+      },
+      "en": {
+        "label": "Preserving Bin slots",
+        "description": "How many inventory slots Preserving Bin has. Defaults to 50."
+      }
+    },
+    {
+      "key": "PressurePlateLimit",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Límite de Pressure Plate por zona",
+        "description": "Cuántos Pressure Plate se pueden colocar en un radio de 80 cimientos (como el límite de torretas). 0 = sin límite. Por defecto 0."
+      },
+      "en": {
+        "label": "Pressure Plate limit per area",
+        "description": "How many Pressure Plate can be placed within an 80-foundation radius (like the turret area limit). 0 = no limit. Defaults to 0."
+      }
+    },
+    {
+      "key": "DisableResourcePulling",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Desactivar el tirado de recursos",
+        "description": "Apaga la función estrella de S+: que las estaciones de fabricación saquen materiales solas de las cajas cercanas."
+      },
+      "en": {
+        "label": "Disable Resource Pulling",
+        "description": "Disables the resource pull functionality of crafting stations"
+      }
+    },
+    {
+      "key": "PullResourceAdditions",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "suggestions": "resources",
+      "es": {
+        "label": "Recursos extra para el tirado",
+        "description": "Recursos que se suman a la lista de lo que las estaciones pueden tirar de las cajas. Va el classname completo del item."
+      },
+      "en": {
+        "label": "Pull Resource Additions",
+        "description": "Allows you to add any resource to the pull resource list, it is a comma separated list of nearly the entire spawn code(everything between the ' )"
+      }
+    },
+    {
+      "key": "PullResourceRemovals",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "suggestions": "resources",
+      "es": {
+        "label": "Recursos a sacar del tirado",
+        "description": "Recursos que se quitan de la lista por defecto de tirado, para que las estaciones no se los lleven solas de tus cajas."
+      },
+      "en": {
+        "label": "Pull Resource Removals",
+        "description": "Allows you to remove items from the default resource pull list, (it is a comma separated list of everything between the ' of the spawn code for that item)"
+      }
+    },
+    {
+      "key": "ResourcePullRangeInFoundations",
+      "kind": "integer",
+      "default": 25,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "tier": "basic",
+      "es": {
+        "label": "Alcance del tirado de recursos",
+        "description": "Desde qué distancia las estaciones sacan materiales de las cajas cercanas. Subirlo evita tener que amontonar todo alrededor de la herrería; bajarlo obliga a organizar la base. Máximo 100."
+      },
+      "en": {
+        "label": "Resource Pull Range In Foundations",
+        "description": "Sets the distance crafting stations can pull from (max 100)"
+      }
+    },
+    {
+      "key": "ResourceTransferCooldown",
+      "kind": "float_multiplier",
+      "default": 1,
+      "min": 0.1,
+      "max": 10,
+      "step": 0.1,
+      "presets": [
+        1,
+        2,
+        5
+      ],
+      "tier": "advanced",
+      "es": {
+        "label": "Espera entre transferencias (segundos)",
+        "description": "Retardo entre cada movimiento de recursos, incluido el tirado. Bajarlo hace todo más ágil pero es lo que más carga al servidor con muchas estaciones; subirlo lo alivia. Mínimo 0,1."
+      },
+      "en": {
+        "label": "Resource Transfer Cooldown",
+        "description": "The delay between all resource transfers like pulling (min: 0.1)"
+      }
+    },
+    {
+      "key": "AllowAdminToDemoAnyTribeWithDemoGun",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Demo Gun admin demuele a cualquier tribu",
+        "description": "Los admins pueden demoler estructuras de cualquier tribu con la Demo Gun."
+      },
+      "en": {
+        "label": "Admin Demo Gun demolishes any tribe",
+        "description": "Admins can demolish any tribe's structures with the Demo Gun."
+      }
+    },
+    {
+      "key": "RadialToolBlacklist",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Blacklist de la herramienta radial",
+        "description": "Opciones de la herramienta radial que quedan deshabilitadas."
+      },
+      "en": {
+        "label": "Radial tool blacklist",
+        "description": "Radial tool options that get disabled."
+      }
+    },
+    {
+      "key": "RestrictDemoGunPickup",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Restringir recoger con la Demo Gun",
+        "description": "La Demo Gun no puede levantar estructuras, solo demoler."
+      },
+      "en": {
+        "label": "Restrict Demo Gun pickup",
+        "description": "The Demo Gun can only demolish, not pick up structures."
+      }
+    },
+    {
+      "key": "TransferToolStructureBlacklist",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Estructuras que el Transfer Tool ignora",
+        "description": "Classnames de estructuras excluidas del Transfer Tool."
+      },
+      "en": {
+        "label": "Structures the Transfer Tool ignores",
+        "description": "Structure classnames excluded from the Transfer Tool."
+      }
+    },
+    {
+      "key": "RepairStationSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 500,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Repair Station",
+        "description": "Cuántos espacios de inventario tiene Repair Station. Por defecto 500."
+      },
+      "en": {
+        "label": "Repair Station slots",
+        "description": "How many inventory slots Repair Station has. Defaults to 500."
+      }
+    },
+    {
+      "key": "SheepHerderLimit",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Límite de Sheep Herder por zona",
+        "description": "Cuántos Sheep Herder se pueden colocar en un radio de 80 cimientos (como el límite de torretas). 0 = sin límite. Por defecto 0."
+      },
+      "en": {
+        "label": "Sheep Herder limit per area",
+        "description": "How many Sheep Herder can be placed within an 80-foundation radius (like the turret area limit). 0 = no limit. Defaults to 0."
+      }
+    },
+    {
+      "key": "SheepHerderRangeInFoundations",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 10,
+      "min": 0,
+      "max": 200,
+      "step": 1,
+      "es": {
+        "label": "Alcance de Sheep Herder (cimientos)",
+        "description": "Alcance de Sheep Herder, medido en cimientos. Por defecto 10."
+      },
+      "en": {
+        "label": "Sheep Herder range (foundations)",
+        "description": "Sheep Herder's range, measured in foundations. Defaults to 10."
+      }
+    },
+    {
+      "key": "SheepHerderSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 300,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Sheep Herder",
+        "description": "Cuántos espacios de inventario tiene Sheep Herder. Por defecto 300."
+      },
+      "en": {
+        "label": "Sheep Herder slots",
+        "description": "How many inventory slots Sheep Herder has. Defaults to 300."
+      }
+    },
+    {
+      "key": "ShieldPostHealth",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 75000,
+      "es": {
+        "label": "Vida del Shield Post",
+        "description": "Puntos de vida del Shield Post."
+      },
+      "en": {
+        "label": "Shield Post health",
+        "description": "Health points of the Shield Post."
+      },
+      "min": 1,
+      "max": 10000000
+    },
+    {
+      "key": "ShieldPostLimit",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 4,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Límite de Shield Post por zona",
+        "description": "Cuántos Shield Post se pueden colocar en un radio de 80 cimientos (como el límite de torretas). 0 = sin límite. Por defecto 4."
+      },
+      "en": {
+        "label": "Shield Post limit per area",
+        "description": "How many Shield Post can be placed within an 80-foundation radius (like the turret area limit). 0 = no limit. Defaults to 4."
+      }
+    },
+    {
+      "key": "ShieldPostPowerUpTimeInSeconds",
+      "kind": "integer",
+      "tier": "expert",
+      "default": -1,
+      "es": {
+        "label": "Activación del Shield Post (segundos)",
+        "description": "Segundos que tarda el Shield Post en encenderse. -1 lo deja apagado."
+      },
+      "en": {
+        "label": "Shield Post power-up time (seconds)",
+        "description": "Seconds the Shield Post takes to power up. -1 keeps it off."
+      },
+      "min": -1,
+      "max": 86400
+    },
+    {
+      "key": "ShieldPostRangeInFoundations",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 8,
+      "min": 0,
+      "max": 200,
+      "step": 1,
+      "es": {
+        "label": "Alcance de Shield Post (cimientos)",
+        "description": "Alcance de Shield Post, medido en cimientos. Por defecto 8."
+      },
+      "en": {
+        "label": "Shield Post range (foundations)",
+        "description": "Shield Post's range, measured in foundations. Defaults to 8."
+      }
+    },
+    {
+      "key": "ShieldPostRegenDelayInSeconds",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 600,
+      "es": {
+        "label": "Regeneración del Shield Post (segundos)",
+        "description": "Espera tras recibir daño antes de que el Shield Post empiece a regenerar."
+      },
+      "en": {
+        "label": "Shield Post regen delay (seconds)",
+        "description": "Wait after taking damage before the Shield Post starts regenerating."
+      },
+      "min": 0,
+      "max": 86400
+    },
+    {
+      "key": "ShieldPostRespawnDelayInSeconds",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 3600,
+      "es": {
+        "label": "Reaparición del Shield Post (segundos)",
+        "description": "Espera para que el Shield Post reaparezca tras ser destruido."
+      },
+      "en": {
+        "label": "Shield Post respawn delay (seconds)",
+        "description": "Wait for the Shield Post to respawn after being destroyed."
+      },
+      "min": 0,
+      "max": 604800
+    },
+    {
+      "key": "DedicatedStorageLimit",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Límite de Dedicated Storage por zona",
+        "description": "Cuántos Dedicated Storage se pueden colocar en un radio de 80 cimientos (como el límite de torretas). 0 = sin límite. Por defecto 0."
+      },
+      "en": {
+        "label": "Dedicated Storage limit per area",
+        "description": "How many Dedicated Storage can be placed within an 80-foundation radius (like the turret area limit). 0 = no limit. Defaults to 0."
+      }
+    },
+    {
+      "key": "DedicatedStorageSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 10000,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Dedicated Storage",
+        "description": "Cuántos espacios de inventario tiene Dedicated Storage. Por defecto 10000."
+      },
+      "en": {
+        "label": "Dedicated Storage slots",
+        "description": "How many inventory slots Dedicated Storage has. Defaults to 10000."
+      }
+    },
+    {
+      "key": "DisableVaultPlacementOnSaddles",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Vault no va en monturas",
+        "description": "Impide colocar Vaults sobre monturas plataforma."
+      },
+      "en": {
+        "label": "No Vaults on saddles",
+        "description": "Prevents placing Vaults on platform saddles."
+      }
+    },
+    {
+      "key": "LargeStorageLimit",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Límite de Large Storage por zona",
+        "description": "Cuántos Large Storage se pueden colocar en un radio de 80 cimientos (como el límite de torretas). 0 = sin límite. Por defecto 0."
+      },
+      "en": {
+        "label": "Large Storage limit per area",
+        "description": "How many Large Storage can be placed within an 80-foundation radius (like the turret area limit). 0 = no limit. Defaults to 0."
+      }
+    },
+    {
+      "key": "LargeStorageSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 90,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Large Storage",
+        "description": "Cuántos espacios de inventario tiene Large Storage. Por defecto 90."
+      },
+      "en": {
+        "label": "Large Storage slots",
+        "description": "How many inventory slots Large Storage has. Defaults to 90."
+      }
+    },
+    {
+      "key": "MetalStorageLimit",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Límite de Metal Storage por zona",
+        "description": "Cuántos Metal Storage se pueden colocar en un radio de 80 cimientos (como el límite de torretas). 0 = sin límite. Por defecto 0."
+      },
+      "en": {
+        "label": "Metal Storage limit per area",
+        "description": "How many Metal Storage can be placed within an 80-foundation radius (like the turret area limit). 0 = no limit. Defaults to 0."
+      }
+    },
+    {
+      "key": "MetalStorageSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 100,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Metal Storage",
+        "description": "Cuántos espacios de inventario tiene Metal Storage. Por defecto 100."
+      },
+      "en": {
+        "label": "Metal Storage slots",
+        "description": "How many inventory slots Metal Storage has. Defaults to 100."
+      }
+    },
+    {
+      "key": "SmallStorageLimit",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Límite de Small Storage por zona",
+        "description": "Cuántos Small Storage se pueden colocar en un radio de 80 cimientos (como el límite de torretas). 0 = sin límite. Por defecto 0."
+      },
+      "en": {
+        "label": "Small Storage limit per area",
+        "description": "How many Small Storage can be placed within an 80-foundation radius (like the turret area limit). 0 = no limit. Defaults to 0."
+      }
+    },
+    {
+      "key": "SmallStorageSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 30,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Small Storage",
+        "description": "Cuántos espacios de inventario tiene Small Storage. Por defecto 30."
+      },
+      "en": {
+        "label": "Small Storage slots",
+        "description": "How many inventory slots Small Storage has. Defaults to 30."
+      }
+    },
+    {
+      "key": "TekStorageLimit",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Límite de Tek Storage por zona",
+        "description": "Cuántos Tek Storage se pueden colocar en un radio de 80 cimientos (como el límite de torretas). 0 = sin límite. Por defecto 0."
+      },
+      "en": {
+        "label": "Tek Storage limit per area",
+        "description": "How many Tek Storage can be placed within an 80-foundation radius (like the turret area limit). 0 = no limit. Defaults to 0."
+      }
+    },
+    {
+      "key": "TekStorageSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 500,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Tek Storage",
+        "description": "Cuántos espacios de inventario tiene Tek Storage. Por defecto 500."
+      },
+      "en": {
+        "label": "Tek Storage slots",
+        "description": "How many inventory slots Tek Storage has. Defaults to 500."
+      }
+    },
+    {
+      "key": "VaultSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 600,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Vault",
+        "description": "Cuántos espacios de inventario tiene Vault. Por defecto 600."
+      },
+      "en": {
+        "label": "Vault slots",
+        "description": "How many inventory slots Vault has. Defaults to 600."
+      }
+    },
+    {
+      "key": "VaultStorageLimit",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Límite de Vault Storage por zona",
+        "description": "Cuántos Vault Storage se pueden colocar en un radio de 80 cimientos (como el límite de torretas). 0 = sin límite. Por defecto 0."
+      },
+      "en": {
+        "label": "Vault Storage limit per area",
+        "description": "How many Vault Storage can be placed within an 80-foundation radius (like the turret area limit). 0 = no limit. Defaults to 0."
+      }
+    },
+    {
+      "key": "TekSensorLimit",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Límite de Tek Sensor por zona",
+        "description": "Cuántos Tek Sensor se pueden colocar en un radio de 80 cimientos (como el límite de torretas). 0 = sin límite. Por defecto 0."
+      },
+      "en": {
+        "label": "Tek Sensor limit per area",
+        "description": "How many Tek Sensor can be placed within an 80-foundation radius (like the turret area limit). 0 = no limit. Defaults to 0."
+      }
+    },
+    {
+      "key": "AllowPersonalTeleporterInBossArena",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Balizas personales en arenas de jefe",
+        "description": "Permite colocar balizas de teletransporte personal dentro de las arenas de jefes."
+      },
+      "en": {
+        "label": "Allow Personal Teleporter In Boss Arena",
+        "description": "Allows personal teleporter beacons to be placed in boss arenas"
+      }
+    },
+    {
+      "key": "AllowPersonalTeleporterUpload",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Permitir subir el teleporter personal",
+        "description": "El teleporter personal se puede subir al ARK Data para llevarlo entre servidores."
+      },
+      "en": {
+        "label": "Allow personal teleporter upload",
+        "description": "The personal teleporter can be uploaded to ARK Data to carry across servers."
+      }
+    },
+    {
+      "key": "DisableAbilityToPlaceTeleporterOnSaddles",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Sin teletransportador en sillas ni balsas",
+        "description": "Impide colocar el teletransportador tek sobre plataformas de montura y balsas."
+      },
+      "en": {
+        "label": "Disable Ability To Place Teleporter On Saddles",
+        "description": "Prevents the tek teleporter from being able to be placed on saddles & rafts"
+      }
+    },
+    {
+      "key": "DisablePersonalTeleporterBeacon",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Sin baliza de teletransporte personal",
+        "description": "Impide colocar balizas de teletransporte personal."
+      },
+      "en": {
+        "label": "Disable Personal Teleporter Beacon",
+        "description": "Prevents the ability to place personal teleporter beacons"
+      }
+    },
+    {
+      "key": "DisableTeleporterOnAbberation",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Sin teletransportador en Aberration",
+        "description": "Impide colocar el teletransportador de S+ en Aberration, donde moverse rápido rompe buena parte del mapa."
+      },
+      "en": {
+        "label": "Disable Teleporter On Abberation",
+        "description": "Prevents the S+ Teleporter from placing on Aberration"
+      }
+    },
+    {
+      "key": "MinTeleporterPlacementDistanceInFoundations",
+      "kind": "integer",
+      "default": 8,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "tier": "expert",
+      "es": {
+        "label": "Distancia mínima entre teletransportadores",
+        "description": "Cuántos cimientos tiene que haber entre dos teletransportadores. Subirlo impide llenar la base de teletransportadores pegados."
+      },
+      "en": {
+        "label": "Min Teleporter Placement Distance In Foundations",
+        "description": "The minimum distance between two teleporters"
+      }
+    },
+    {
+      "key": "PersonalTeleporterBeaconLifespanInSeconds",
+      "kind": "integer",
+      "default": 300,
+      "min": 0,
+      "max": 3600,
+      "step": 1,
+      "tier": "advanced",
+      "es": {
+        "label": "Duración de la baliza personal",
+        "description": "Cuánto dura una baliza de teletransporte personal. Subirlo permite dejarlas puestas como puntos fijos. Máximo 3600."
+      },
+      "en": {
+        "label": "Personal Teleporter Beacon Lifespan In Seconds",
+        "description": "How long the personal teleporter beacon will last (max: 3600)"
+      }
+    },
+    {
+      "key": "DisableDinoScan",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Desactivar el escáner de dinos",
+        "description": "Saca la función de escaneo de dinos del transmisor de S+. Es la que permite encontrar cualquier dino de la tribu en el mapa."
+      },
+      "en": {
+        "label": "Disable Dino Scan",
+        "description": "Removes the dino scanner function from the S+ Transmitter"
+      }
+    },
+    {
+      "key": "DisableDinoScanDetails",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Escáner sin coordenadas",
+        "description": "Oculta latitud y longitud en el escáner y no deja mostrar el mapa."
+      },
+      "en": {
+        "label": "Disable Dino Scan Details",
+        "description": "Hides the latitude & longitude data and prevent showing the map"
+      }
+    },
+    {
+      "key": "DisableDinoScanMap",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Escáner sin mapa",
+        "description": "Oculta el mapa al hacer clic en un dino del escáner."
+      },
+      "en": {
+        "label": "Disable Dino Scan Map",
+        "description": "Hides the map when a dino is clicked in the dino scanner"
+      }
+    },
+    {
+      "key": "DisableTransmitterBossSummon",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Sin invocación de jefes desde el transmisor",
+        "description": "Quita las recetas de invocación de jefes del transmisor de S+."
+      },
+      "en": {
+        "label": "Disable Transmitter Boss Summon",
+        "description": "Removes the boss summon crafts from the S+ Transmitter"
+      }
+    },
+    {
+      "key": "DisableTransmitterPlacementOnSaddles",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Sin transmisor en sillas",
+        "description": "Impide colocar el transmisor sobre plataformas de montura."
+      },
+      "en": {
+        "label": "Disable Transmitter Placement On Saddles",
+        "description": "Prevents the transmitter from being placeable on saddles"
+      }
+    },
+    {
+      "key": "DisableUnlockedDinoScan",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Sin escaneo de dinos desbloqueados",
+        "description": "Desactiva el escaneo que revela dinos con candado abierto."
+      },
+      "en": {
+        "label": "Disable unlocked dino scan",
+        "description": "Disables the scan that reveals unlocked dinos."
+      }
+    },
+    {
+      "key": "PreventTransmitterPickup",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "No permitir recoger el transmisor",
+        "description": "Impide levantar el transmisor una vez colocado."
+      },
+      "en": {
+        "label": "Prevent Transmitter Pickup",
+        "description": "Prevents the Transmitter from being able to be picked up"
+      }
+    },
+    {
+      "key": "TreeSapSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 5,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Tree Sap",
+        "description": "Cuántos espacios de inventario tiene Tree Sap. Por defecto 5."
+      },
+      "en": {
+        "label": "Tree Sap slots",
+        "description": "How many inventory slots Tree Sap has. Defaults to 5."
+      }
+    },
+    {
+      "key": "MinWindForTurbine",
+      "kind": "integer",
+      "default": 20,
+      "min": 0,
+      "max": 200,
+      "step": 1,
+      "tier": "advanced",
+      "es": {
+        "label": "Viento mínimo de la turbina",
+        "description": "Cuánto viento hace falta para que la turbina genere energía. Bajarlo la hace útil en más zonas del mapa; con -1 funciona siempre."
+      },
+      "en": {
+        "label": "Min Wind For Turbine",
+        "description": "Minimum amount of wind needed for the wind turbine to generate power (use -1 to bypass the need for any wind)"
+      }
+    },
+    {
+      "key": "TurbineMaxPowerDistanceInFoundations",
+      "kind": "integer",
+      "default": 30,
+      "min": 0,
+      "max": 300,
+      "step": 1,
+      "tier": "advanced",
+      "es": {
+        "label": "Alcance de la turbina",
+        "description": "Hasta qué distancia llega la energía de la turbina eólica. Subirlo permite poner la turbina lejos de la base, donde hay viento. Máximo 1000."
+      },
+      "en": {
+        "label": "Turbine Max Power Distance In Foundations",
+        "description": "Maximum distance the power from a wind turbine will go (max value: 1000)"
+      }
+    },
+    {
+      "key": "DisableTurretRadiusChanger",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Sin cambiar el radio de torretas",
+        "description": "Quita la opción de ajustar el radio de las torretas SS."
+      },
+      "en": {
+        "label": "Disable turret radius changer",
+        "description": "Removes the option to adjust SS turret radius."
+      }
+    },
+    {
+      "key": "PreventFlameTurretDismount",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "La torreta lanzallamas no desmonta",
+        "description": "Evita que la torreta lanzallamas tire al jinete de su montura."
+      },
+      "en": {
+        "label": "Prevent Flame Turret Dismount",
+        "description": "Stops the flame turret from dismounting riders"
+      }
+    },
+    {
+      "key": "SSAutoTurretDamageMultiplier",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 1,
+      "min": 0,
+      "max": 100,
+      "step": 0.1,
+      "presets": [
+        0.5,
+        1,
+        2
+      ],
+      "es": {
+        "label": "Daño de SS Auto Turret",
+        "description": "Multiplica el daño de SS Auto Turret. Por defecto 1."
+      },
+      "en": {
+        "label": "SS Auto Turret damage",
+        "description": "Multiplies SS Auto Turret's damage. Defaults to 1."
+      }
+    },
+    {
+      "key": "SSAutoTurretSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 75,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de SS Auto Turret",
+        "description": "Cuántos espacios de inventario tiene SS Auto Turret. Por defecto 75."
+      },
+      "en": {
+        "label": "SS Auto Turret slots",
+        "description": "How many inventory slots SS Auto Turret has. Defaults to 75."
+      }
+    },
+    {
+      "key": "SSBallistaTurretDamageMultiplier",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 1,
+      "min": 0,
+      "max": 100,
+      "step": 0.1,
+      "presets": [
+        0.5,
+        1,
+        2
+      ],
+      "es": {
+        "label": "Daño de SS Ballista Turret",
+        "description": "Multiplica el daño de SS Ballista Turret. Por defecto 1."
+      },
+      "en": {
+        "label": "SS Ballista Turret damage",
+        "description": "Multiplies SS Ballista Turret's damage. Defaults to 1."
+      }
+    },
+    {
+      "key": "SSBallistaTurretSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 75,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de SS Ballista Turret",
+        "description": "Cuántos espacios de inventario tiene SS Ballista Turret. Por defecto 75."
+      },
+      "en": {
+        "label": "SS Ballista Turret slots",
+        "description": "How many inventory slots SS Ballista Turret has. Defaults to 75."
+      }
+    },
+    {
+      "key": "SSCannonTurretDamageMultiplier",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 1,
+      "min": 0,
+      "max": 100,
+      "step": 0.1,
+      "presets": [
+        0.5,
+        1,
+        2
+      ],
+      "es": {
+        "label": "Daño de SS Cannon Turret",
+        "description": "Multiplica el daño de SS Cannon Turret. Por defecto 1."
+      },
+      "en": {
+        "label": "SS Cannon Turret damage",
+        "description": "Multiplies SS Cannon Turret's damage. Defaults to 1."
+      }
+    },
+    {
+      "key": "SSCannonTurretSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 75,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de SS Cannon Turret",
+        "description": "Cuántos espacios de inventario tiene SS Cannon Turret. Por defecto 75."
+      },
+      "en": {
+        "label": "SS Cannon Turret slots",
+        "description": "How many inventory slots SS Cannon Turret has. Defaults to 75."
+      }
+    },
+    {
+      "key": "SSFlameTurretDamageMultiplier",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 1,
+      "min": 0,
+      "max": 100,
+      "step": 0.1,
+      "presets": [
+        0.5,
+        1,
+        2
+      ],
+      "es": {
+        "label": "Daño de SS Flame Turret",
+        "description": "Multiplica el daño de SS Flame Turret. Por defecto 1."
+      },
+      "en": {
+        "label": "SS Flame Turret damage",
+        "description": "Multiplies SS Flame Turret's damage. Defaults to 1."
+      }
+    },
+    {
+      "key": "SSFlameTurretSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 75,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de SS Flame Turret",
+        "description": "Cuántos espacios de inventario tiene SS Flame Turret. Por defecto 75."
+      },
+      "en": {
+        "label": "SS Flame Turret slots",
+        "description": "How many inventory slots SS Flame Turret has. Defaults to 75."
+      }
+    },
+    {
+      "key": "SSHeavyTurretDamageMultiplier",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 1,
+      "min": 0,
+      "max": 100,
+      "step": 0.1,
+      "presets": [
+        0.5,
+        1,
+        2
+      ],
+      "es": {
+        "label": "Daño de SS Heavy Turret",
+        "description": "Multiplica el daño de SS Heavy Turret. Por defecto 1."
+      },
+      "en": {
+        "label": "SS Heavy Turret damage",
+        "description": "Multiplies SS Heavy Turret's damage. Defaults to 1."
+      }
+    },
+    {
+      "key": "SSHeavyTurretSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 300,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de SS Heavy Turret",
+        "description": "Cuántos espacios de inventario tiene SS Heavy Turret. Por defecto 300."
+      },
+      "en": {
+        "label": "SS Heavy Turret slots",
+        "description": "How many inventory slots SS Heavy Turret has. Defaults to 300."
+      }
+    },
+    {
+      "key": "SSLaserTurretDamageMultiplier",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 1,
+      "min": 0,
+      "max": 100,
+      "step": 0.1,
+      "presets": [
+        0.5,
+        1,
+        2
+      ],
+      "es": {
+        "label": "Daño de SS Laser Turret",
+        "description": "Multiplica el daño de SS Laser Turret. Por defecto 1."
+      },
+      "en": {
+        "label": "SS Laser Turret damage",
+        "description": "Multiplies SS Laser Turret's damage. Defaults to 1."
+      }
+    },
+    {
+      "key": "SSLaserTurretSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 75,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de SS Laser Turret",
+        "description": "Cuántos espacios de inventario tiene SS Laser Turret. Por defecto 75."
+      },
+      "en": {
+        "label": "SS Laser Turret slots",
+        "description": "How many inventory slots SS Laser Turret has. Defaults to 75."
+      }
+    },
+    {
+      "key": "SSMinigunTurretDamageMultiplier",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 1,
+      "min": 0,
+      "max": 100,
+      "step": 0.1,
+      "presets": [
+        0.5,
+        1,
+        2
+      ],
+      "es": {
+        "label": "Daño de SS Minigun Turret",
+        "description": "Multiplica el daño de SS Minigun Turret. Por defecto 1."
+      },
+      "en": {
+        "label": "SS Minigun Turret damage",
+        "description": "Multiplies SS Minigun Turret's damage. Defaults to 1."
+      }
+    },
+    {
+      "key": "SSMinigunTurretSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 75,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de SS Minigun Turret",
+        "description": "Cuántos espacios de inventario tiene SS Minigun Turret. Por defecto 75."
+      },
+      "en": {
+        "label": "SS Minigun Turret slots",
+        "description": "How many inventory slots SS Minigun Turret has. Defaults to 75."
+      }
+    },
+    {
+      "key": "SSPlantTurretDamageMultiplier",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 1,
+      "min": 0,
+      "max": 100,
+      "step": 0.1,
+      "presets": [
+        0.5,
+        1,
+        2
+      ],
+      "es": {
+        "label": "Daño de SS Plant Turret",
+        "description": "Multiplica el daño de SS Plant Turret. Por defecto 1."
+      },
+      "en": {
+        "label": "SS Plant Turret damage",
+        "description": "Multiplies SS Plant Turret's damage. Defaults to 1."
+      }
+    },
+    {
+      "key": "SSRocketTurretDamageMultiplier",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 1,
+      "min": 0,
+      "max": 100,
+      "step": 0.1,
+      "presets": [
+        0.5,
+        1,
+        2
+      ],
+      "es": {
+        "label": "Daño de SS Rocket Turret",
+        "description": "Multiplica el daño de SS Rocket Turret. Por defecto 1."
+      },
+      "en": {
+        "label": "SS Rocket Turret damage",
+        "description": "Multiplies SS Rocket Turret's damage. Defaults to 1."
+      }
+    },
+    {
+      "key": "SSRocketTurretSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 75,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de SS Rocket Turret",
+        "description": "Cuántos espacios de inventario tiene SS Rocket Turret. Por defecto 75."
+      },
+      "en": {
+        "label": "SS Rocket Turret slots",
+        "description": "How many inventory slots SS Rocket Turret has. Defaults to 75."
+      }
+    },
+    {
+      "key": "SSTekTurretDamageMultiplier",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 1,
+      "min": 0,
+      "max": 100,
+      "step": 0.1,
+      "presets": [
+        0.5,
+        1,
+        2
+      ],
+      "es": {
+        "label": "Daño de SS Tek Turret",
+        "description": "Multiplica el daño de SS Tek Turret. Por defecto 1."
+      },
+      "en": {
+        "label": "SS Tek Turret damage",
+        "description": "Multiplies SS Tek Turret's damage. Defaults to 1."
+      }
+    },
+    {
+      "key": "SSTranqTurretDamageMultiplier",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 1,
+      "min": 0,
+      "max": 100,
+      "step": 0.1,
+      "presets": [
+        0.5,
+        1,
+        2
+      ],
+      "es": {
+        "label": "Daño de SS Tranq Turret",
+        "description": "Multiplica el daño de SS Tranq Turret. Por defecto 1."
+      },
+      "en": {
+        "label": "SS Tranq Turret damage",
+        "description": "Multiplies SS Tranq Turret's damage. Defaults to 1."
+      }
+    },
+    {
+      "key": "SSTranqTurretSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 75,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de SS Tranq Turret",
+        "description": "Cuántos espacios de inventario tiene SS Tranq Turret. Por defecto 75."
+      },
+      "en": {
+        "label": "SS Tranq Turret slots",
+        "description": "How many inventory slots SS Tranq Turret has. Defaults to 75."
+      }
+    },
+    {
+      "key": "TekTurretSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 15,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Tek Turret",
+        "description": "Cuántos espacios de inventario tiene Tek Turret. Por defecto 15."
+      },
+      "en": {
+        "label": "Tek Turret slots",
+        "description": "How many inventory slots Tek Turret has. Defaults to 15."
+      }
+    },
+    {
+      "key": "DisableAbilityToPlaceVacuumCompartmentsAboveWater",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Compartimentos de vacío solo bajo el agua",
+        "description": "Obliga a que los compartimentos de vacío estén completamente sumergidos para poder colocarse."
+      },
+      "en": {
+        "label": "Disable Ability To Place Vacuum Compartments Above Water",
+        "description": "Prevents the ability to place Vacuum Compartments if not fully submerged in water (note: enabling this will destroy all cubes that are not fully submerged)"
+      }
+    },
+    {
+      "key": "VesselSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 20,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Vessel",
+        "description": "Cuántos espacios de inventario tiene Vessel. Por defecto 20."
+      },
+      "en": {
+        "label": "Vessel slots",
+        "description": "How many inventory slots Vessel has. Defaults to 20."
+      }
+    },
+    {
+      "key": "DisableVivariumPlacementOnSaddles",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Vivarium no va en monturas",
+        "description": "Impide colocar el Vivarium sobre monturas plataforma."
+      },
+      "en": {
+        "label": "No Vivarium on saddles",
+        "description": "Prevents placing the Vivarium on platform saddles."
+      }
+    },
+    {
+      "key": "RemovePowerRequirementFromVivarium",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Vivarium sin electricidad",
+        "description": "El Vivarium funciona sin necesitar corriente."
+      },
+      "en": {
+        "label": "Vivarium without power",
+        "description": "The Vivarium works without electricity."
+      }
+    },
+    {
+      "key": "VivariumDinoBlacklist",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": [],
+      "es": {
+        "label": "Dinos que no entran al Vivarium",
+        "description": "Estas clases de dino no se pueden guardar en el Vivarium."
+      },
+      "en": {
+        "label": "Dinos that can't enter the Vivarium",
+        "description": "These dino classes cannot be stored in the Vivarium."
+      },
+      "suggestions": "dinos"
+    },
+    {
+      "key": "VivariumEggIntervalSeconds",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 1800,
+      "es": {
+        "label": "Intervalo de huevos del Vivarium (segundos)",
+        "description": "Cada cuántos segundos el Vivarium produce un huevo."
+      },
+      "en": {
+        "label": "Vivarium egg interval (seconds)",
+        "description": "How often, in seconds, the Vivarium produces an egg."
+      },
+      "min": 1,
+      "max": 86400
+    },
+    {
+      "key": "VivariumFemaleEggChance",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 0.5,
+      "es": {
+        "label": "Probabilidad de huevo de hembra",
+        "description": "Probabilidad (0 a 1) de que el huevo del Vivarium venga de una hembra."
+      },
+      "en": {
+        "label": "Female egg chance",
+        "description": "Chance (0 to 1) that the Vivarium egg comes from a female."
+      },
+      "min": 0,
+      "max": 1,
+      "step": 0.05
+    },
+    {
+      "key": "VivariumLimit",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Límite de Vivarium por zona",
+        "description": "Cuántos Vivarium se pueden colocar en un radio de 80 cimientos (como el límite de torretas). 0 = sin límite. Por defecto 0."
+      },
+      "en": {
+        "label": "Vivarium limit per area",
+        "description": "How many Vivarium can be placed within an 80-foundation radius (like the turret area limit). 0 = no limit. Defaults to 0."
+      }
+    },
+    {
+      "key": "VivariumMaleEggChanceBonus",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 0.3,
+      "es": {
+        "label": "Bonus de huevo con macho",
+        "description": "Bonus de probabilidad (0 a 1) cuando hay un macho junto a la hembra en el Vivarium."
+      },
+      "en": {
+        "label": "Male egg chance bonus",
+        "description": "Chance bonus (0 to 1) when a male accompanies the female in the Vivarium."
+      },
+      "min": 0,
+      "max": 1,
+      "step": 0.05
+    },
+    {
+      "key": "VivariumOviIntervalMultiplier",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 0.1,
+      "es": {
+        "label": "Intervalo con Oviraptor (Vivarium)",
+        "description": "Multiplica el intervalo de huevos cuando hay un Oviraptor en el Vivarium. Menos de 1 = más rápido."
+      },
+      "en": {
+        "label": "Oviraptor interval (Vivarium)",
+        "description": "Multiplies the egg interval when an Oviraptor is in the Vivarium. Below 1 = faster."
+      },
+      "min": 0.01,
+      "max": 10,
+      "step": 0.05
+    },
+    {
+      "key": "VivariumSlotCount",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 100,
+      "min": 1,
+      "max": 5000,
+      "step": 5,
+      "es": {
+        "label": "Slots de Vivarium",
+        "description": "Cuántos espacios de inventario tiene Vivarium. Por defecto 100."
+      },
+      "en": {
+        "label": "Vivarium slots",
+        "description": "How many inventory slots Vivarium has. Defaults to 100."
+      }
+    },
+    {
+      "key": "LargeWallHP",
+      "kind": "integer",
+      "default": 40000,
+      "min": 0,
+      "max": 400000,
+      "step": 1,
+      "tier": "expert",
+      "es": {
+        "label": "Vida de la pared grande",
+        "description": "Puntos de vida de la pared grande de S+. Subirlo endurece las bases frente a un raid; bajarlo las hace más rompibles."
+      },
+      "en": {
+        "label": "Large Wall HP",
+        "description": "Large Wall HP."
+      }
+    },
+    {
+      "key": "XLWallHP",
+      "kind": "integer",
+      "default": 120000,
+      "min": 0,
+      "max": 1200000,
+      "step": 1,
+      "tier": "expert",
+      "es": {
+        "label": "Vida de la pared XL",
+        "description": "Puntos de vida de la pared XL. Es la estructura más resistente del mod, así que este número define cuánto explosivo hace falta para entrar."
+      },
+      "en": {
+        "label": "XL Wall HP",
+        "description": "XL Wall HP."
+      }
+    }
+  ]
+}

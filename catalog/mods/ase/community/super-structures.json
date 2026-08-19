@@ -1,0 +1,6611 @@
+{
+  "modId": "SuperStructures",
+  "name": "Super Structures",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1999447172",
+  "searchAliases": [
+    "super estructuras",
+    "estructuras"
+  ],
+  "settings": [
+    {
+      "id": "super_structures_ammo_box_resource_additions",
+      "key": "AmmoBoxResourceAdditions",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.super_structures.ammo_box_resource_additions"
+    },
+    {
+      "id": "super_structures_ammo_box_resource_removals",
+      "key": "AmmoBoxResourceRemovals",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.super_structures.ammo_box_resource_removals"
+    },
+    {
+      "id": "super_structures_ammo_box_slot_count",
+      "key": "AmmoBoxSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.ammo_box_slot_count"
+    },
+    {
+      "id": "super_structures_disable_turret_ammo_box_searching",
+      "key": "DisableTurretAmmoBoxSearching",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_turret_ammo_box_searching"
+    },
+    {
+      "id": "super_structures_turret_ammo_box_range_in_foundations",
+      "key": "TurretAmmoBoxRangeInFoundations",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.turret_ammo_box_range_in_foundations"
+    },
+    {
+      "id": "super_structures_animal_tender_limit",
+      "key": "AnimalTenderLimit",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.animal_tender_limit"
+    },
+    {
+      "id": "super_structures_animal_tender_range_in_foundations",
+      "key": "AnimalTenderRangeInFoundations",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 50,
+        "min": 0,
+        "max": 200,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.animal_tender_range_in_foundations"
+    },
+    {
+      "id": "super_structures_animal_tender_slot_count",
+      "key": "AnimalTenderSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.animal_tender_slot_count"
+    },
+    {
+      "id": "super_structures_artifact_pedestal_slot_count",
+      "key": "ArtifactPedestalSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 25,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.artifact_pedestal_slot_count"
+    },
+    {
+      "id": "super_structures_auto_crafter_slot_count",
+      "key": "AutoCrafterSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 500,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.auto_crafter_slot_count"
+    },
+    {
+      "id": "super_structures_bed_cooldown_time_in_seconds",
+      "key": "BedCooldownTimeInSeconds",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 0,
+        "max": 3000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.bed_cooldown_time_in_seconds"
+    },
+    {
+      "id": "super_structures_bunk_bed_cooldown_time_in_seconds",
+      "key": "BunkBedCooldownTimeInSeconds",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 120,
+        "min": 0,
+        "max": 1200,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.bunk_bed_cooldown_time_in_seconds"
+    },
+    {
+      "id": "super_structures_tek_bed_cooldown_time_in_seconds",
+      "key": "TekBedCooldownTimeInSeconds",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 60,
+        "min": 0,
+        "max": 600,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.tek_bed_cooldown_time_in_seconds"
+    },
+    {
+      "id": "super_structures_bee_hive_honey_interval_in_seconds",
+      "key": "BeeHiveHoneyIntervalInSeconds",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 180,
+        "min": 0,
+        "max": 1800,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.bee_hive_honey_interval_in_seconds"
+    },
+    {
+      "id": "super_structures_bee_hive_slot_count",
+      "key": "BeeHiveSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 24,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.bee_hive_slot_count"
+    },
+    {
+      "id": "super_structures_bee_hive_watering_range_in_foundations",
+      "key": "BeeHiveWateringRangeInFoundations",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 30,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.bee_hive_watering_range_in_foundations"
+    },
+    {
+      "id": "super_structures_beer_barrel_crafting_speed",
+      "key": "BeerBarrelCraftingSpeed",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.super_structures.beer_barrel_crafting_speed"
+    },
+    {
+      "id": "super_structures_beer_barrel_slot_count",
+      "key": "BeerBarrelSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 25,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.beer_barrel_slot_count"
+    },
+    {
+      "id": "super_structures_bookshelf_slot_count",
+      "key": "BookshelfSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 600,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.bookshelf_slot_count"
+    },
+    {
+      "id": "super_structures_campfire_crafting_speed",
+      "key": "CampfireCraftingSpeed",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.super_structures.campfire_crafting_speed"
+    },
+    {
+      "id": "super_structures_campfire_slot_count",
+      "key": "CampfireSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.campfire_slot_count"
+    },
+    {
+      "id": "super_structures_charge_injector_allow_tek_gen",
+      "key": "ChargeInjectorAllowTekGen",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.charge_injector_allow_tek_gen"
+    },
+    {
+      "id": "super_structures_charge_station_slot_count",
+      "key": "ChargeStationSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 50,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.charge_station_slot_count"
+    },
+    {
+      "id": "super_structures_chem_bench_slot_count",
+      "key": "ChemBenchSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.chem_bench_slot_count"
+    },
+    {
+      "id": "super_structures_chemistry_bench_crafting_speed",
+      "key": "ChemistryBenchCraftingSpeed",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 4,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.super_structures.chemistry_bench_crafting_speed"
+    },
+    {
+      "id": "super_structures_tek_chem_bench_crafting_speed",
+      "key": "TekChemBenchCraftingSpeed",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 4,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.super_structures.tek_chem_bench_crafting_speed"
+    },
+    {
+      "id": "super_structures_tek_chem_bench_slot_count",
+      "key": "TekChemBenchSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 350,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.tek_chem_bench_slot_count"
+    },
+    {
+      "id": "super_structures_cloning_chamber_slot_count",
+      "key": "CloningChamberSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 600,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.cloning_chamber_slot_count"
+    },
+    {
+      "id": "super_structures_cloning_chamber_dino_blacklist",
+      "key": "CloningChamberDinoBlacklist",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "dinos"
+      },
+      "i18nKey": "mods.super_structures.cloning_chamber_dino_blacklist"
+    },
+    {
+      "id": "super_structures_cloning_cost_multiplier",
+      "key": "CloningCostMultiplier",
+      "category": "mod_super_structures",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.5,
+        "min": 0,
+        "max": 10,
+        "step": 0.1,
+        "presets": [
+          0.5,
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.super_structures.cloning_cost_multiplier"
+    },
+    {
+      "id": "super_structures_cloning_speed_multiplier",
+      "key": "CloningSpeedMultiplier",
+      "category": "mod_super_structures",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 2,
+        "min": 0,
+        "max": 1000,
+        "step": 0.1,
+        "presets": [
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.super_structures.cloning_speed_multiplier"
+    },
+    {
+      "id": "super_structures_disable_cloning_cost_maximum",
+      "key": "DisableCloningCostMaximum",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_cloning_cost_maximum"
+    },
+    {
+      "id": "super_structures_prevent_cloning_cloned_dinos",
+      "key": "PreventCloningClonedDinos",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.prevent_cloning_cloned_dinos"
+    },
+    {
+      "id": "super_structures_prevent_cloning_neutered_dinos",
+      "key": "PreventCloningNeuteredDinos",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.prevent_cloning_neutered_dinos"
+    },
+    {
+      "id": "super_structures_compost_bin_crafting_speed",
+      "key": "CompostBinCraftingSpeed",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.super_structures.compost_bin_crafting_speed"
+    },
+    {
+      "id": "super_structures_compost_bin_slot_count",
+      "key": "CompostBinSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 25,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.compost_bin_slot_count"
+    },
+    {
+      "id": "super_structures_allow_making_weapons_and_armor_bps",
+      "key": "AllowMakingWeaponsAndArmorBPs",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.allow_making_weapons_and_armor_bps"
+    },
+    {
+      "id": "super_structures_allow_tek_item_blueprint_creation",
+      "key": "AllowTekItemBlueprintCreation",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.allow_tek_item_blueprint_creation"
+    },
+    {
+      "id": "super_structures_converter_blacklist",
+      "key": "ConverterBlacklist",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.super_structures.converter_blacklist"
+    },
+    {
+      "id": "super_structures_remove_learned_engram_requirement_from_converter",
+      "key": "RemoveLearnedEngramRequirementFromConverter",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.remove_learned_engram_requirement_from_converter"
+    },
+    {
+      "id": "super_structures_cooking_pot_crafting_speed",
+      "key": "CookingPotCraftingSpeed",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.super_structures.cooking_pot_crafting_speed"
+    },
+    {
+      "id": "super_structures_cooking_pot_slot_count",
+      "key": "CookingPotSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 25,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.cooking_pot_slot_count"
+    },
+    {
+      "id": "super_structures_industrial_cooker_slot_count",
+      "key": "IndustrialCookerSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.industrial_cooker_slot_count"
+    },
+    {
+      "id": "super_structures_industrial_cooking_pot_crafting_speed",
+      "key": "IndustrialCookingPotCraftingSpeed",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 12,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.super_structures.industrial_cooking_pot_crafting_speed"
+    },
+    {
+      "id": "super_structures_tek_cooking_pot_crafting_speed",
+      "key": "TekCookingPotCraftingSpeed",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 25,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.super_structures.tek_cooking_pot_crafting_speed"
+    },
+    {
+      "id": "super_structures_tek_cooking_pot_slot_count",
+      "key": "TekCookingPotSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 350,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.tek_cooking_pot_slot_count"
+    },
+    {
+      "id": "super_structures_fabricator_crafting_speed",
+      "key": "FabricatorCraftingSpeed",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.super_structures.fabricator_crafting_speed"
+    },
+    {
+      "id": "super_structures_fabricator_slot_count",
+      "key": "FabricatorSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.fabricator_slot_count"
+    },
+    {
+      "id": "super_structures_replicator_crafting_speed",
+      "key": "ReplicatorCraftingSpeed",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 12,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.super_structures.replicator_crafting_speed"
+    },
+    {
+      "id": "super_structures_replicator_slot_count",
+      "key": "ReplicatorSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 600,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.replicator_slot_count"
+    },
+    {
+      "id": "super_structures_smithy_crafting_speed",
+      "key": "SmithyCraftingSpeed",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.super_structures.smithy_crafting_speed"
+    },
+    {
+      "id": "super_structures_smithy_slot_count",
+      "key": "SmithySlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.smithy_slot_count"
+    },
+    {
+      "id": "super_structures_sscrafting_station_crafting_speed",
+      "key": "SSCraftingStationCraftingSpeed",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.super_structures.sscrafting_station_crafting_speed"
+    },
+    {
+      "id": "super_structures_sscrafting_station_slot_count",
+      "key": "SSCraftingStationSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.sscrafting_station_slot_count"
+    },
+    {
+      "id": "super_structures_crop_plot_limit",
+      "key": "CropPlotLimit",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.crop_plot_limit"
+    },
+    {
+      "id": "super_structures_large_crop_plot_slot_count",
+      "key": "LargeCropPlotSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 30,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.large_crop_plot_slot_count"
+    },
+    {
+      "id": "super_structures_medium_crop_plot_slot_count",
+      "key": "MediumCropPlotSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 20,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.medium_crop_plot_slot_count"
+    },
+    {
+      "id": "super_structures_seamless_square_plot_slot_count",
+      "key": "SeamlessSquarePlotSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 30,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.seamless_square_plot_slot_count"
+    },
+    {
+      "id": "super_structures_seamless_triangle_plot_slot_count",
+      "key": "SeamlessTrianglePlotSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 20,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.seamless_triangle_plot_slot_count"
+    },
+    {
+      "id": "super_structures_small_crop_plot_slot_count",
+      "key": "SmallCropPlotSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.small_crop_plot_slot_count"
+    },
+    {
+      "id": "super_structures_tek_crop_plot_slot_count",
+      "key": "TekCropPlotSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 40,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.tek_crop_plot_slot_count"
+    },
+    {
+      "id": "super_structures_tek_triangle_crop_plot_slot_count",
+      "key": "TekTriangleCropPlotSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 40,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.tek_triangle_crop_plot_slot_count"
+    },
+    {
+      "id": "super_structures_cryo_fridge_slot_count",
+      "key": "CryoFridgeSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.cryo_fridge_slot_count"
+    },
+    {
+      "id": "super_structures_crystal_cracker_limit",
+      "key": "CrystalCrackerLimit",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.crystal_cracker_limit"
+    },
+    {
+      "id": "super_structures_crystal_cracker_slot_count",
+      "key": "CrystalCrackerSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 400,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.crystal_cracker_slot_count"
+    },
+    {
+      "id": "super_structures_uplink_dino_blacklist",
+      "key": "UplinkDinoBlacklist",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "dinos"
+      },
+      "i18nKey": "mods.super_structures.uplink_dino_blacklist"
+    },
+    {
+      "id": "super_structures_default_door_config",
+      "key": "DefaultDoorConfig",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.default_door_config"
+    },
+    {
+      "id": "super_structures_drone_terminal_crafting_speed",
+      "key": "DroneTerminalCraftingSpeed",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.super_structures.drone_terminal_crafting_speed"
+    },
+    {
+      "id": "super_structures_drone_terminal_slot_count",
+      "key": "DroneTerminalSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 150,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.drone_terminal_slot_count"
+    },
+    {
+      "id": "super_structures_dyeria_crafting_speed",
+      "key": "DyeriaCraftingSpeed",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 25,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.super_structures.dyeria_crafting_speed"
+    },
+    {
+      "id": "super_structures_dyeria_slot_count",
+      "key": "DyeriaSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 500,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.dyeria_slot_count"
+    },
+    {
+      "id": "super_structures_allow_dynamic_pillar_non_foundation_support",
+      "key": "AllowDynamicPillarNonFoundationSupport",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.allow_dynamic_pillar_non_foundation_support"
+    },
+    {
+      "id": "super_structures_allow_inter_dynamic_pillar_support",
+      "key": "AllowInterDynamicPillarSupport",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.allow_inter_dynamic_pillar_support"
+    },
+    {
+      "id": "super_structures_disable_dynamic_pillar_placement_on_saddles",
+      "key": "DisableDynamicPillarPlacementOnSaddles",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_dynamic_pillar_placement_on_saddles"
+    },
+    {
+      "id": "super_structures_disable_incubator_stat_settings",
+      "key": "DisableIncubatorStatSettings",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_incubator_stat_settings"
+    },
+    {
+      "id": "super_structures_egg_incubator_limit",
+      "key": "EggIncubatorLimit",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.egg_incubator_limit"
+    },
+    {
+      "id": "super_structures_incubator_incubation_multiplier",
+      "key": "IncubatorIncubationMultiplier",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 2,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5
+      },
+      "i18nKey": "mods.super_structures.incubator_incubation_multiplier"
+    },
+    {
+      "id": "super_structures_allow_catalyzer_out_of_element",
+      "key": "AllowCatalyzerOutOfElement",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.allow_catalyzer_out_of_element"
+    },
+    {
+      "id": "super_structures_element_catalyzer_crafting_speed",
+      "key": "ElementCatalyzerCraftingSpeed",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.super_structures.element_catalyzer_crafting_speed"
+    },
+    {
+      "id": "super_structures_elevator_speed",
+      "key": "ElevatorSpeed",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 150,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.elevator_speed"
+    },
+    {
+      "id": "super_structures_elevator_weight_multiplier",
+      "key": "ElevatorWeightMultiplier",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 2,
+        "min": 0,
+        "max": 10,
+        "step": 0.1,
+        "presets": [
+          0,
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.super_structures.elevator_weight_multiplier"
+    },
+    {
+      "id": "super_structures_farmer_limit",
+      "key": "FarmerLimit",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.farmer_limit"
+    },
+    {
+      "id": "super_structures_farmer_range_in_foundations",
+      "key": "FarmerRangeInFoundations",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 30,
+        "min": 0,
+        "max": 250,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.farmer_range_in_foundations"
+    },
+    {
+      "id": "super_structures_farmer_slot_count",
+      "key": "FarmerSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.farmer_slot_count"
+    },
+    {
+      "id": "super_structures_feeding_trough_additional_range_in_foundations",
+      "key": "FeedingTroughAdditionalRangeInFoundations",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 35,
+        "min": 0,
+        "max": 200,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.feeding_trough_additional_range_in_foundations"
+    },
+    {
+      "id": "super_structures_feeding_trough_slot_count",
+      "key": "FeedingTroughSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.feeding_trough_slot_count"
+    },
+    {
+      "id": "super_structures_tek_feeding_trough_additional_range_in_foundations",
+      "key": "TekFeedingTroughAdditionalRangeInFoundations",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 70,
+        "min": 0,
+        "max": 200,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.tek_feeding_trough_additional_range_in_foundations"
+    },
+    {
+      "id": "super_structures_tek_trough_slot_count",
+      "key": "TekTroughSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.tek_trough_slot_count"
+    },
+    {
+      "id": "super_structures_trough_limit",
+      "key": "TroughLimit",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.trough_limit"
+    },
+    {
+      "id": "super_structures_fence_hp",
+      "key": "FenceHP",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10000,
+        "min": 0,
+        "max": 100000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.fence_hp"
+    },
+    {
+      "id": "super_structures_fireplace_crafting_speed",
+      "key": "FireplaceCraftingSpeed",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 2,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.super_structures.fireplace_crafting_speed"
+    },
+    {
+      "id": "super_structures_fireplace_slot_count",
+      "key": "FireplaceSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 25,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.fireplace_slot_count"
+    },
+    {
+      "id": "super_structures_disable_shield_placement_on_rafts_and_saddles",
+      "key": "DisableShieldPlacementOnRaftsAndSaddles",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_shield_placement_on_rafts_and_saddles"
+    },
+    {
+      "id": "super_structures_disable_shield_radiation_protection",
+      "key": "DisableShieldRadiationProtection",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_shield_radiation_protection"
+    },
+    {
+      "id": "super_structures_min_shield_placement_distance_in_foundations",
+      "key": "MinShieldPlacementDistanceInFoundations",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 8,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.min_shield_placement_distance_in_foundations"
+    },
+    {
+      "id": "super_structures_shield_health",
+      "key": "ShieldHealth",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 250000,
+        "min": 0,
+        "max": 999999999,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.shield_health"
+    },
+    {
+      "id": "super_structures_shield_power_up_time_in_seconds",
+      "key": "ShieldPowerUpTimeInSeconds",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": -1,
+        "min": -1,
+        "max": 86400
+      },
+      "i18nKey": "mods.super_structures.shield_power_up_time_in_seconds"
+    },
+    {
+      "id": "super_structures_shield_radius_multiplier",
+      "key": "ShieldRadiusMultiplier",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 5,
+        "step": 0.1,
+        "presets": [
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.super_structures.shield_radius_multiplier"
+    },
+    {
+      "id": "super_structures_shield_regen_delay_in_seconds",
+      "key": "ShieldRegenDelayInSeconds",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 600,
+        "min": 0,
+        "max": 86400,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.shield_regen_delay_in_seconds"
+    },
+    {
+      "id": "super_structures_shield_respawn_delay_in_seconds",
+      "key": "ShieldRespawnDelayInSeconds",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 3600,
+        "min": 0,
+        "max": 86400,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.shield_respawn_delay_in_seconds"
+    },
+    {
+      "id": "super_structures_forge_crafting_speed",
+      "key": "ForgeCraftingSpeed",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.super_structures.forge_crafting_speed"
+    },
+    {
+      "id": "super_structures_forge_slot_count",
+      "key": "ForgeSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 50,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.forge_slot_count"
+    },
+    {
+      "id": "super_structures_industrial_forge_crafting_speed",
+      "key": "IndustrialForgeCraftingSpeed",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.super_structures.industrial_forge_crafting_speed"
+    },
+    {
+      "id": "super_structures_industrial_forge_slot_count",
+      "key": "IndustrialForgeSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.industrial_forge_slot_count"
+    },
+    {
+      "id": "super_structures_tek_forge_crafting_speed",
+      "key": "TekForgeCraftingSpeed",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.super_structures.tek_forge_crafting_speed"
+    },
+    {
+      "id": "super_structures_tek_forge_slot_count",
+      "key": "TekForgeSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 350,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.tek_forge_slot_count"
+    },
+    {
+      "id": "super_structures_additional_support_distance_in_foundations",
+      "key": "AdditionalSupportDistanceInFoundations",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 15,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.additional_support_distance_in_foundations"
+    },
+    {
+      "id": "super_structures_disable_foundation_stacking",
+      "key": "DisableFoundationStacking",
+      "category": "mod_super_structures",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_foundation_stacking"
+    },
+    {
+      "id": "super_structures_no_foundations_required",
+      "key": "NoFoundationsRequired",
+      "category": "mod_super_structures",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.no_foundations_required"
+    },
+    {
+      "id": "super_structures_fridge_crafting_speed",
+      "key": "FridgeCraftingSpeed",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.super_structures.fridge_crafting_speed"
+    },
+    {
+      "id": "super_structures_fridge_slot_count",
+      "key": "FridgeSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.fridge_slot_count"
+    },
+    {
+      "id": "super_structures_tek_fridge_slot_count",
+      "key": "TekFridgeSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 500,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.tek_fridge_slot_count"
+    },
+    {
+      "id": "super_structures_disable_gardener_auto_harvest_plant_r",
+      "key": "DisableGardenerAutoHarvestPlantR",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_gardener_auto_harvest_plant_r"
+    },
+    {
+      "id": "super_structures_gardener_limit",
+      "key": "GardenerLimit",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.gardener_limit"
+    },
+    {
+      "id": "super_structures_gardener_range_in_foundations",
+      "key": "GardenerRangeInFoundations",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10,
+        "min": 0,
+        "max": 250,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.gardener_range_in_foundations"
+    },
+    {
+      "id": "super_structures_gardener_slot_count",
+      "key": "GardenerSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.gardener_slot_count"
+    },
+    {
+      "id": "super_structures_gas_collector_slot_count",
+      "key": "GasCollectorSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 24,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.gas_collector_slot_count"
+    },
+    {
+      "id": "super_structures_gacha_gavager_limit",
+      "key": "GachaGavagerLimit",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.gacha_gavager_limit"
+    },
+    {
+      "id": "super_structures_disable_electronics_during_storm",
+      "key": "DisableElectronicsDuringStorm",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_electronics_during_storm"
+    },
+    {
+      "id": "super_structures_disable_generator_during_storm",
+      "key": "DisableGeneratorDuringStorm",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_generator_during_storm"
+    },
+    {
+      "id": "super_structures_disable_pickup",
+      "key": "DisablePickup",
+      "category": "mod_super_structures",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_pickup"
+    },
+    {
+      "id": "super_structures_disable_pickup_after_time_in_seconds",
+      "key": "DisablePickupAfterTimeInSeconds",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 604800
+      },
+      "i18nKey": "mods.super_structures.disable_pickup_after_time_in_seconds"
+    },
+    {
+      "id": "super_structures_disable_pickup_when_damaged",
+      "key": "DisablePickupWhenDamaged",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_pickup_when_damaged"
+    },
+    {
+      "id": "super_structures_disable_unlocking_map_specific_engrams",
+      "key": "DisableUnlockingMapSpecificEngrams",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_unlocking_map_specific_engrams"
+    },
+    {
+      "id": "super_structures_raid_timer_limit_multiplier",
+      "key": "RaidTimerLimitMultiplier",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 10,
+        "step": 0.1,
+        "presets": [
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.super_structures.raid_timer_limit_multiplier"
+    },
+    {
+      "id": "super_structures_remove_floor_requirement_from_structure_placement",
+      "key": "RemoveFloorRequirementFromStructurePlacement",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.remove_floor_requirement_from_structure_placement"
+    },
+    {
+      "id": "super_structures_remove_scorched_earth_insulation_penalty",
+      "key": "RemoveScorchedEarthInsulationPenalty",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.remove_scorched_earth_insulation_penalty"
+    },
+    {
+      "id": "super_structures_disable_ability_to_place_tek_generator_on_saddles",
+      "key": "DisableAbilityToPlaceTekGeneratorOnSaddles",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_ability_to_place_tek_generator_on_saddles"
+    },
+    {
+      "id": "super_structures_enable_generator_decay",
+      "key": "EnableGeneratorDecay",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.enable_generator_decay"
+    },
+    {
+      "id": "super_structures_generator_slot_count",
+      "key": "GeneratorSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 8,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.generator_slot_count"
+    },
+    {
+      "id": "super_structures_tek_generator_fuel_use_interval_in_seconds",
+      "key": "TekGeneratorFuelUseIntervalInSeconds",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 86400,
+        "min": 0,
+        "max": 864000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.tek_generator_fuel_use_interval_in_seconds"
+    },
+    {
+      "id": "super_structures_minimum_glass_transparency",
+      "key": "MinimumGlassTransparency",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "step": 0.1,
+        "presets": [
+          0,
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.super_structures.minimum_glass_transparency"
+    },
+    {
+      "id": "super_structures_industrial_grill_crafting_speed",
+      "key": "IndustrialGrillCraftingSpeed",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.super_structures.industrial_grill_crafting_speed"
+    },
+    {
+      "id": "super_structures_industrial_grill_slot_count",
+      "key": "IndustrialGrillSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.industrial_grill_slot_count"
+    },
+    {
+      "id": "super_structures_tek_stove_crafting_speed",
+      "key": "TekStoveCraftingSpeed",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.super_structures.tek_stove_crafting_speed"
+    },
+    {
+      "id": "super_structures_tek_stove_slot_count",
+      "key": "TekStoveSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 350,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.tek_stove_slot_count"
+    },
+    {
+      "id": "super_structures_grinder_allow_mission_rewards",
+      "key": "GrinderAllowMissionRewards",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.grinder_allow_mission_rewards"
+    },
+    {
+      "id": "super_structures_grinder_blacklist",
+      "key": "GrinderBlacklist",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.super_structures.grinder_blacklist"
+    },
+    {
+      "id": "super_structures_grinder_crafting_speed",
+      "key": "GrinderCraftingSpeed",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.super_structures.grinder_crafting_speed"
+    },
+    {
+      "id": "super_structures_grinder_resource_return_max",
+      "key": "GrinderResourceReturnMax",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10000,
+        "min": 0,
+        "max": 100000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.grinder_resource_return_max"
+    },
+    {
+      "id": "super_structures_grinder_resource_return_percent",
+      "key": "GrinderResourceReturnPercent",
+      "category": "mod_super_structures",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 25,
+        "min": 0,
+        "max": 250,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.grinder_resource_return_percent"
+    },
+    {
+      "id": "super_structures_grinder_return_blocked_resources",
+      "key": "GrinderReturnBlockedResources",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.grinder_return_blocked_resources"
+    },
+    {
+      "id": "super_structures_grinder_slot_count",
+      "key": "GrinderSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 200,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.grinder_slot_count"
+    },
+    {
+      "id": "super_structures_remove_grinder_engrams",
+      "key": "RemoveGrinderEngrams",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.super_structures.remove_grinder_engrams"
+    },
+    {
+      "id": "super_structures_disable_hatchery_auto_send",
+      "key": "DisableHatcheryAutoSend",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_hatchery_auto_send"
+    },
+    {
+      "id": "super_structures_disable_hatchery_placement_on_saddles",
+      "key": "DisableHatcheryPlacementOnSaddles",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_hatchery_placement_on_saddles"
+    },
+    {
+      "id": "super_structures_hatchery_incubation_multiplier",
+      "key": "HatcheryIncubationMultiplier",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 2,
+        "min": 0,
+        "max": 10,
+        "step": 0.1,
+        "presets": [
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.super_structures.hatchery_incubation_multiplier"
+    },
+    {
+      "id": "super_structures_hatchery_limit",
+      "key": "HatcheryLimit",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.hatchery_limit"
+    },
+    {
+      "id": "super_structures_hatchery_range_in_foundations",
+      "key": "HatcheryRangeInFoundations",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 25,
+        "min": 0,
+        "max": 250,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.hatchery_range_in_foundations"
+    },
+    {
+      "id": "super_structures_hatchery_slot_count",
+      "key": "HatcherySlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 15,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.hatchery_slot_count"
+    },
+    {
+      "id": "super_structures_hover_skiff_health",
+      "key": "HoverSkiffHealth",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10000,
+        "min": 1,
+        "max": 1000000
+      },
+      "i18nKey": "mods.super_structures.hover_skiff_health"
+    },
+    {
+      "id": "super_structures_hover_skiff_infinite_fuel",
+      "key": "HoverSkiffInfiniteFuel",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.hover_skiff_infinite_fuel"
+    },
+    {
+      "id": "super_structures_hover_skiff_weight",
+      "key": "HoverSkiffWeight",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 16000,
+        "min": 1,
+        "max": 1000000
+      },
+      "i18nKey": "mods.super_structures.hover_skiff_weight"
+    },
+    {
+      "id": "super_structures_prevent_hover_skiff_pickup",
+      "key": "PreventHoverSkiffPickup",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.prevent_hover_skiff_pickup"
+    },
+    {
+      "id": "super_structures_item_collector_distribution_blacklist",
+      "key": "ItemCollectorDistributionBlacklist",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.super_structures.item_collector_distribution_blacklist"
+    },
+    {
+      "id": "super_structures_item_collector_limit",
+      "key": "ItemCollectorLimit",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.item_collector_limit"
+    },
+    {
+      "id": "super_structures_item_collector_range_in_foundations",
+      "key": "ItemCollectorRangeInFoundations",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 25,
+        "min": 0,
+        "max": 250,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.item_collector_range_in_foundations"
+    },
+    {
+      "id": "super_structures_item_collector_slot_count",
+      "key": "ItemCollectorSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.item_collector_slot_count"
+    },
+    {
+      "id": "super_structures_item_translocator_slot_count",
+      "key": "ItemTranslocatorSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 350,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.item_translocator_slot_count"
+    },
+    {
+      "id": "super_structures_tek_jump_pad_max_launch_force",
+      "key": "TekJumpPadMaxLaunchForce",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 5000,
+        "min": 0,
+        "max": 100000
+      },
+      "i18nKey": "mods.super_structures.tek_jump_pad_max_launch_force"
+    },
+    {
+      "id": "super_structures_enable_quick_climb",
+      "key": "EnableQuickClimb",
+      "category": "mod_super_structures",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.enable_quick_climb"
+    },
+    {
+      "id": "super_structures_mortar_and_pestle_crafting_speed",
+      "key": "MortarAndPestleCraftingSpeed",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.super_structures.mortar_and_pestle_crafting_speed"
+    },
+    {
+      "id": "super_structures_mortar_and_pestle_slot_count",
+      "key": "MortarAndPestleSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 50,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.mortar_and_pestle_slot_count"
+    },
+    {
+      "id": "super_structures_mutator_buff_max_stack_count",
+      "key": "MutatorBuffMaxStackCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 2,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.mutator_buff_max_stack_count"
+    },
+    {
+      "id": "super_structures_mutator_dino_blacklist",
+      "key": "MutatorDinoBlacklist",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "dinos"
+      },
+      "i18nKey": "mods.super_structures.mutator_dino_blacklist"
+    },
+    {
+      "id": "super_structures_mutator_limit",
+      "key": "MutatorLimit",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.mutator_limit"
+    },
+    {
+      "id": "super_structures_mutator_high_range_in_foundations",
+      "key": "MutatorHighRangeInFoundations",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 17,
+        "min": 0,
+        "max": 200,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.mutator_high_range_in_foundations"
+    },
+    {
+      "id": "super_structures_mutator_low_range_in_foundations",
+      "key": "MutatorLowRangeInFoundations",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 2,
+        "min": 0,
+        "max": 200,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.mutator_low_range_in_foundations"
+    },
+    {
+      "id": "super_structures_mutator_medium_range_in_foundations",
+      "key": "MutatorMediumRangeInFoundations",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10,
+        "min": 0,
+        "max": 200,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.mutator_medium_range_in_foundations"
+    },
+    {
+      "id": "super_structures_mutator_mode_blacklist",
+      "key": "MutatorModeBlacklist",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.super_structures.mutator_mode_blacklist"
+    },
+    {
+      "id": "super_structures_mutator_prevent_breeding_cloned_or_neutered",
+      "key": "MutatorPreventBreedingClonedOrNeutered",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.mutator_prevent_breeding_cloned_or_neutered"
+    },
+    {
+      "id": "super_structures_mutator_pulse_cost",
+      "key": "MutatorPulseCost",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.mutator_pulse_cost"
+    },
+    {
+      "id": "super_structures_mutator_slot_count",
+      "key": "MutatorSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.mutator_slot_count"
+    },
+    {
+      "id": "super_structures_disable_nanny_imprinting",
+      "key": "DisableNannyImprinting",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_nanny_imprinting"
+    },
+    {
+      "id": "super_structures_nanny_feeding_start_threshold",
+      "key": "NannyFeedingStartThreshold",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 20,
+        "min": 0,
+        "max": 200,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.nanny_feeding_start_threshold"
+    },
+    {
+      "id": "super_structures_nanny_interval_in_seconds",
+      "key": "NannyIntervalInSeconds",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 35,
+        "min": 0,
+        "max": 350,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.nanny_interval_in_seconds"
+    },
+    {
+      "id": "super_structures_nanny_limit",
+      "key": "NannyLimit",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.nanny_limit"
+    },
+    {
+      "id": "super_structures_nanny_max_imprint",
+      "key": "NannyMaxImprint",
+      "category": "mod_super_structures",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.nanny_max_imprint"
+    },
+    {
+      "id": "super_structures_nanny_range_in_foundations",
+      "key": "NannyRangeInFoundations",
+      "category": "mod_super_structures",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10,
+        "min": 0,
+        "max": 50,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.nanny_range_in_foundations"
+    },
+    {
+      "id": "super_structures_nanny_slot_count",
+      "key": "NannySlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.nanny_slot_count"
+    },
+    {
+      "id": "super_structures_nullifier_limit",
+      "key": "NullifierLimit",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.nullifier_limit"
+    },
+    {
+      "id": "super_structures_nullifier_range_in_foundations",
+      "key": "NullifierRangeInFoundations",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 3,
+        "min": 0,
+        "max": 200,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.nullifier_range_in_foundations"
+    },
+    {
+      "id": "super_structures_nullifier_slot_count",
+      "key": "NullifierSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 30,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.nullifier_slot_count"
+    },
+    {
+      "id": "super_structures_allow_intake_to_place_without_water",
+      "key": "AllowIntakeToPlaceWithoutWater",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.allow_intake_to_place_without_water"
+    },
+    {
+      "id": "super_structures_disable_ability_to_hide_structures",
+      "key": "DisableAbilityToHideStructures",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_ability_to_hide_structures"
+    },
+    {
+      "id": "super_structures_preserving_bin_crafting_speed",
+      "key": "PreservingBinCraftingSpeed",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.super_structures.preserving_bin_crafting_speed"
+    },
+    {
+      "id": "super_structures_preserving_bin_slot_count",
+      "key": "PreservingBinSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 50,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.preserving_bin_slot_count"
+    },
+    {
+      "id": "super_structures_pressure_plate_limit",
+      "key": "PressurePlateLimit",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.pressure_plate_limit"
+    },
+    {
+      "id": "super_structures_disable_resource_pulling",
+      "key": "DisableResourcePulling",
+      "category": "mod_super_structures",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_resource_pulling"
+    },
+    {
+      "id": "super_structures_pull_resource_additions",
+      "key": "PullResourceAdditions",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "resources"
+      },
+      "i18nKey": "mods.super_structures.pull_resource_additions"
+    },
+    {
+      "id": "super_structures_pull_resource_removals",
+      "key": "PullResourceRemovals",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "resources"
+      },
+      "i18nKey": "mods.super_structures.pull_resource_removals"
+    },
+    {
+      "id": "super_structures_resource_pull_range_in_foundations",
+      "key": "ResourcePullRangeInFoundations",
+      "category": "mod_super_structures",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 25,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.resource_pull_range_in_foundations"
+    },
+    {
+      "id": "super_structures_resource_transfer_cooldown",
+      "key": "ResourceTransferCooldown",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 10,
+        "step": 0.1,
+        "presets": [
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.super_structures.resource_transfer_cooldown"
+    },
+    {
+      "id": "super_structures_allow_admin_to_demo_any_tribe_with_demo_gun",
+      "key": "AllowAdminToDemoAnyTribeWithDemoGun",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.allow_admin_to_demo_any_tribe_with_demo_gun"
+    },
+    {
+      "id": "super_structures_radial_tool_blacklist",
+      "key": "RadialToolBlacklist",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.super_structures.radial_tool_blacklist"
+    },
+    {
+      "id": "super_structures_restrict_demo_gun_pickup",
+      "key": "RestrictDemoGunPickup",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.restrict_demo_gun_pickup"
+    },
+    {
+      "id": "super_structures_transfer_tool_structure_blacklist",
+      "key": "TransferToolStructureBlacklist",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.super_structures.transfer_tool_structure_blacklist"
+    },
+    {
+      "id": "super_structures_repair_station_slot_count",
+      "key": "RepairStationSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 500,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.repair_station_slot_count"
+    },
+    {
+      "id": "super_structures_sheep_herder_limit",
+      "key": "SheepHerderLimit",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.sheep_herder_limit"
+    },
+    {
+      "id": "super_structures_sheep_herder_range_in_foundations",
+      "key": "SheepHerderRangeInFoundations",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10,
+        "min": 0,
+        "max": 200,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.sheep_herder_range_in_foundations"
+    },
+    {
+      "id": "super_structures_sheep_herder_slot_count",
+      "key": "SheepHerderSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.sheep_herder_slot_count"
+    },
+    {
+      "id": "super_structures_shield_post_health",
+      "key": "ShieldPostHealth",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 75000,
+        "min": 1,
+        "max": 10000000
+      },
+      "i18nKey": "mods.super_structures.shield_post_health"
+    },
+    {
+      "id": "super_structures_shield_post_limit",
+      "key": "ShieldPostLimit",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 4,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.shield_post_limit"
+    },
+    {
+      "id": "super_structures_shield_post_power_up_time_in_seconds",
+      "key": "ShieldPostPowerUpTimeInSeconds",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": -1,
+        "min": -1,
+        "max": 86400
+      },
+      "i18nKey": "mods.super_structures.shield_post_power_up_time_in_seconds"
+    },
+    {
+      "id": "super_structures_shield_post_range_in_foundations",
+      "key": "ShieldPostRangeInFoundations",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 8,
+        "min": 0,
+        "max": 200,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.shield_post_range_in_foundations"
+    },
+    {
+      "id": "super_structures_shield_post_regen_delay_in_seconds",
+      "key": "ShieldPostRegenDelayInSeconds",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 600,
+        "min": 0,
+        "max": 86400
+      },
+      "i18nKey": "mods.super_structures.shield_post_regen_delay_in_seconds"
+    },
+    {
+      "id": "super_structures_shield_post_respawn_delay_in_seconds",
+      "key": "ShieldPostRespawnDelayInSeconds",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 3600,
+        "min": 0,
+        "max": 604800
+      },
+      "i18nKey": "mods.super_structures.shield_post_respawn_delay_in_seconds"
+    },
+    {
+      "id": "super_structures_dedicated_storage_limit",
+      "key": "DedicatedStorageLimit",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.dedicated_storage_limit"
+    },
+    {
+      "id": "super_structures_dedicated_storage_slot_count",
+      "key": "DedicatedStorageSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10000,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.dedicated_storage_slot_count"
+    },
+    {
+      "id": "super_structures_disable_vault_placement_on_saddles",
+      "key": "DisableVaultPlacementOnSaddles",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_vault_placement_on_saddles"
+    },
+    {
+      "id": "super_structures_large_storage_limit",
+      "key": "LargeStorageLimit",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.large_storage_limit"
+    },
+    {
+      "id": "super_structures_large_storage_slot_count",
+      "key": "LargeStorageSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 90,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.large_storage_slot_count"
+    },
+    {
+      "id": "super_structures_metal_storage_limit",
+      "key": "MetalStorageLimit",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.metal_storage_limit"
+    },
+    {
+      "id": "super_structures_metal_storage_slot_count",
+      "key": "MetalStorageSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.metal_storage_slot_count"
+    },
+    {
+      "id": "super_structures_small_storage_limit",
+      "key": "SmallStorageLimit",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.small_storage_limit"
+    },
+    {
+      "id": "super_structures_small_storage_slot_count",
+      "key": "SmallStorageSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 30,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.small_storage_slot_count"
+    },
+    {
+      "id": "super_structures_tek_storage_limit",
+      "key": "TekStorageLimit",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.tek_storage_limit"
+    },
+    {
+      "id": "super_structures_tek_storage_slot_count",
+      "key": "TekStorageSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 500,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.tek_storage_slot_count"
+    },
+    {
+      "id": "super_structures_vault_slot_count",
+      "key": "VaultSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 600,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.vault_slot_count"
+    },
+    {
+      "id": "super_structures_vault_storage_limit",
+      "key": "VaultStorageLimit",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.vault_storage_limit"
+    },
+    {
+      "id": "super_structures_tek_sensor_limit",
+      "key": "TekSensorLimit",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.tek_sensor_limit"
+    },
+    {
+      "id": "super_structures_allow_personal_teleporter_in_boss_arena",
+      "key": "AllowPersonalTeleporterInBossArena",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.allow_personal_teleporter_in_boss_arena"
+    },
+    {
+      "id": "super_structures_allow_personal_teleporter_upload",
+      "key": "AllowPersonalTeleporterUpload",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.allow_personal_teleporter_upload"
+    },
+    {
+      "id": "super_structures_disable_ability_to_place_teleporter_on_saddles",
+      "key": "DisableAbilityToPlaceTeleporterOnSaddles",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_ability_to_place_teleporter_on_saddles"
+    },
+    {
+      "id": "super_structures_disable_personal_teleporter_beacon",
+      "key": "DisablePersonalTeleporterBeacon",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_personal_teleporter_beacon"
+    },
+    {
+      "id": "super_structures_disable_teleporter_on_abberation",
+      "key": "DisableTeleporterOnAbberation",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_teleporter_on_abberation"
+    },
+    {
+      "id": "super_structures_min_teleporter_placement_distance_in_foundations",
+      "key": "MinTeleporterPlacementDistanceInFoundations",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 8,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.min_teleporter_placement_distance_in_foundations"
+    },
+    {
+      "id": "super_structures_personal_teleporter_beacon_lifespan_in_seconds",
+      "key": "PersonalTeleporterBeaconLifespanInSeconds",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 0,
+        "max": 3600,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.personal_teleporter_beacon_lifespan_in_seconds"
+    },
+    {
+      "id": "super_structures_disable_dino_scan",
+      "key": "DisableDinoScan",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_dino_scan"
+    },
+    {
+      "id": "super_structures_disable_dino_scan_details",
+      "key": "DisableDinoScanDetails",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_dino_scan_details"
+    },
+    {
+      "id": "super_structures_disable_dino_scan_map",
+      "key": "DisableDinoScanMap",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_dino_scan_map"
+    },
+    {
+      "id": "super_structures_disable_transmitter_boss_summon",
+      "key": "DisableTransmitterBossSummon",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_transmitter_boss_summon"
+    },
+    {
+      "id": "super_structures_disable_transmitter_placement_on_saddles",
+      "key": "DisableTransmitterPlacementOnSaddles",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_transmitter_placement_on_saddles"
+    },
+    {
+      "id": "super_structures_disable_unlocked_dino_scan",
+      "key": "DisableUnlockedDinoScan",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_unlocked_dino_scan"
+    },
+    {
+      "id": "super_structures_prevent_transmitter_pickup",
+      "key": "PreventTransmitterPickup",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.prevent_transmitter_pickup"
+    },
+    {
+      "id": "super_structures_tree_sap_slot_count",
+      "key": "TreeSapSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 5,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.tree_sap_slot_count"
+    },
+    {
+      "id": "super_structures_min_wind_for_turbine",
+      "key": "MinWindForTurbine",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 20,
+        "min": 0,
+        "max": 200,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.min_wind_for_turbine"
+    },
+    {
+      "id": "super_structures_turbine_max_power_distance_in_foundations",
+      "key": "TurbineMaxPowerDistanceInFoundations",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 30,
+        "min": 0,
+        "max": 300,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.turbine_max_power_distance_in_foundations"
+    },
+    {
+      "id": "super_structures_disable_turret_radius_changer",
+      "key": "DisableTurretRadiusChanger",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_turret_radius_changer"
+    },
+    {
+      "id": "super_structures_prevent_flame_turret_dismount",
+      "key": "PreventFlameTurretDismount",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.prevent_flame_turret_dismount"
+    },
+    {
+      "id": "super_structures_ssauto_turret_damage_multiplier",
+      "key": "SSAutoTurretDamageMultiplier",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 100,
+        "step": 0.1,
+        "presets": [
+          0.5,
+          1,
+          2
+        ]
+      },
+      "i18nKey": "mods.super_structures.ssauto_turret_damage_multiplier"
+    },
+    {
+      "id": "super_structures_ssauto_turret_slot_count",
+      "key": "SSAutoTurretSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 75,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.ssauto_turret_slot_count"
+    },
+    {
+      "id": "super_structures_ssballista_turret_damage_multiplier",
+      "key": "SSBallistaTurretDamageMultiplier",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 100,
+        "step": 0.1,
+        "presets": [
+          0.5,
+          1,
+          2
+        ]
+      },
+      "i18nKey": "mods.super_structures.ssballista_turret_damage_multiplier"
+    },
+    {
+      "id": "super_structures_ssballista_turret_slot_count",
+      "key": "SSBallistaTurretSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 75,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.ssballista_turret_slot_count"
+    },
+    {
+      "id": "super_structures_sscannon_turret_damage_multiplier",
+      "key": "SSCannonTurretDamageMultiplier",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 100,
+        "step": 0.1,
+        "presets": [
+          0.5,
+          1,
+          2
+        ]
+      },
+      "i18nKey": "mods.super_structures.sscannon_turret_damage_multiplier"
+    },
+    {
+      "id": "super_structures_sscannon_turret_slot_count",
+      "key": "SSCannonTurretSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 75,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.sscannon_turret_slot_count"
+    },
+    {
+      "id": "super_structures_ssflame_turret_damage_multiplier",
+      "key": "SSFlameTurretDamageMultiplier",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 100,
+        "step": 0.1,
+        "presets": [
+          0.5,
+          1,
+          2
+        ]
+      },
+      "i18nKey": "mods.super_structures.ssflame_turret_damage_multiplier"
+    },
+    {
+      "id": "super_structures_ssflame_turret_slot_count",
+      "key": "SSFlameTurretSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 75,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.ssflame_turret_slot_count"
+    },
+    {
+      "id": "super_structures_ssheavy_turret_damage_multiplier",
+      "key": "SSHeavyTurretDamageMultiplier",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 100,
+        "step": 0.1,
+        "presets": [
+          0.5,
+          1,
+          2
+        ]
+      },
+      "i18nKey": "mods.super_structures.ssheavy_turret_damage_multiplier"
+    },
+    {
+      "id": "super_structures_ssheavy_turret_slot_count",
+      "key": "SSHeavyTurretSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.ssheavy_turret_slot_count"
+    },
+    {
+      "id": "super_structures_sslaser_turret_damage_multiplier",
+      "key": "SSLaserTurretDamageMultiplier",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 100,
+        "step": 0.1,
+        "presets": [
+          0.5,
+          1,
+          2
+        ]
+      },
+      "i18nKey": "mods.super_structures.sslaser_turret_damage_multiplier"
+    },
+    {
+      "id": "super_structures_sslaser_turret_slot_count",
+      "key": "SSLaserTurretSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 75,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.sslaser_turret_slot_count"
+    },
+    {
+      "id": "super_structures_ssminigun_turret_damage_multiplier",
+      "key": "SSMinigunTurretDamageMultiplier",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 100,
+        "step": 0.1,
+        "presets": [
+          0.5,
+          1,
+          2
+        ]
+      },
+      "i18nKey": "mods.super_structures.ssminigun_turret_damage_multiplier"
+    },
+    {
+      "id": "super_structures_ssminigun_turret_slot_count",
+      "key": "SSMinigunTurretSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 75,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.ssminigun_turret_slot_count"
+    },
+    {
+      "id": "super_structures_ssplant_turret_damage_multiplier",
+      "key": "SSPlantTurretDamageMultiplier",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 100,
+        "step": 0.1,
+        "presets": [
+          0.5,
+          1,
+          2
+        ]
+      },
+      "i18nKey": "mods.super_structures.ssplant_turret_damage_multiplier"
+    },
+    {
+      "id": "super_structures_ssrocket_turret_damage_multiplier",
+      "key": "SSRocketTurretDamageMultiplier",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 100,
+        "step": 0.1,
+        "presets": [
+          0.5,
+          1,
+          2
+        ]
+      },
+      "i18nKey": "mods.super_structures.ssrocket_turret_damage_multiplier"
+    },
+    {
+      "id": "super_structures_ssrocket_turret_slot_count",
+      "key": "SSRocketTurretSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 75,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.ssrocket_turret_slot_count"
+    },
+    {
+      "id": "super_structures_sstek_turret_damage_multiplier",
+      "key": "SSTekTurretDamageMultiplier",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 100,
+        "step": 0.1,
+        "presets": [
+          0.5,
+          1,
+          2
+        ]
+      },
+      "i18nKey": "mods.super_structures.sstek_turret_damage_multiplier"
+    },
+    {
+      "id": "super_structures_sstranq_turret_damage_multiplier",
+      "key": "SSTranqTurretDamageMultiplier",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 100,
+        "step": 0.1,
+        "presets": [
+          0.5,
+          1,
+          2
+        ]
+      },
+      "i18nKey": "mods.super_structures.sstranq_turret_damage_multiplier"
+    },
+    {
+      "id": "super_structures_sstranq_turret_slot_count",
+      "key": "SSTranqTurretSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 75,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.sstranq_turret_slot_count"
+    },
+    {
+      "id": "super_structures_tek_turret_slot_count",
+      "key": "TekTurretSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 15,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.tek_turret_slot_count"
+    },
+    {
+      "id": "super_structures_disable_ability_to_place_vacuum_compartments_above_water",
+      "key": "DisableAbilityToPlaceVacuumCompartmentsAboveWater",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_ability_to_place_vacuum_compartments_above_water"
+    },
+    {
+      "id": "super_structures_vessel_slot_count",
+      "key": "VesselSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 20,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.vessel_slot_count"
+    },
+    {
+      "id": "super_structures_disable_vivarium_placement_on_saddles",
+      "key": "DisableVivariumPlacementOnSaddles",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.disable_vivarium_placement_on_saddles"
+    },
+    {
+      "id": "super_structures_remove_power_requirement_from_vivarium",
+      "key": "RemovePowerRequirementFromVivarium",
+      "category": "mod_super_structures",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_structures.remove_power_requirement_from_vivarium"
+    },
+    {
+      "id": "super_structures_vivarium_dino_blacklist",
+      "key": "VivariumDinoBlacklist",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "dinos"
+      },
+      "i18nKey": "mods.super_structures.vivarium_dino_blacklist"
+    },
+    {
+      "id": "super_structures_vivarium_egg_interval_seconds",
+      "key": "VivariumEggIntervalSeconds",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1800,
+        "min": 1,
+        "max": 86400
+      },
+      "i18nKey": "mods.super_structures.vivarium_egg_interval_seconds"
+    },
+    {
+      "id": "super_structures_vivarium_female_egg_chance",
+      "key": "VivariumFemaleEggChance",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.5,
+        "min": 0,
+        "max": 1,
+        "step": 0.05
+      },
+      "i18nKey": "mods.super_structures.vivarium_female_egg_chance"
+    },
+    {
+      "id": "super_structures_vivarium_limit",
+      "key": "VivariumLimit",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.vivarium_limit"
+    },
+    {
+      "id": "super_structures_vivarium_male_egg_chance_bonus",
+      "key": "VivariumMaleEggChanceBonus",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.3,
+        "min": 0,
+        "max": 1,
+        "step": 0.05
+      },
+      "i18nKey": "mods.super_structures.vivarium_male_egg_chance_bonus"
+    },
+    {
+      "id": "super_structures_vivarium_ovi_interval_multiplier",
+      "key": "VivariumOviIntervalMultiplier",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.1,
+        "min": 0.01,
+        "max": 10,
+        "step": 0.05
+      },
+      "i18nKey": "mods.super_structures.vivarium_ovi_interval_multiplier"
+    },
+    {
+      "id": "super_structures_vivarium_slot_count",
+      "key": "VivariumSlotCount",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 5000,
+        "step": 5
+      },
+      "i18nKey": "mods.super_structures.vivarium_slot_count"
+    },
+    {
+      "id": "super_structures_large_wall_hp",
+      "key": "LargeWallHP",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 40000,
+        "min": 0,
+        "max": 400000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.large_wall_hp"
+    },
+    {
+      "id": "super_structures_xlwall_hp",
+      "key": "XLWallHP",
+      "category": "mod_super_structures",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "SuperStructures",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 120000,
+        "min": 0,
+        "max": 1200000,
+        "step": 1
+      },
+      "i18nKey": "mods.super_structures.xlwall_hp"
+    }
+  ]
+}
