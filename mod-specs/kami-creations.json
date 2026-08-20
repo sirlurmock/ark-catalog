@@ -1,0 +1,39 @@
+{
+  "_source": "Mod de CRIATURAS: no expone ajustes de servidor propios. La entrada existe por sus classnames, que son lo que piden DinoSpawnWeightMultipliers, NPCReplacements y los spawn entries por zona.",
+  "_scope": "settings vacío A PROPÓSITO.",
+  "modId": "1729386191",
+  "name": "Additional Creatures: Kami Creations",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1729386191",
+  "prefix": "kami_creations",
+  "searchAliases": ["criaturas", "kami", "dinos nuevos"],
+  "settings": [],
+  "classNames": {
+    "dinos": [
+      {
+        "value": "Alamodactylus_character_bp_C",
+        "label": "Alamodactylus"
+      },
+      {
+        "value": "Geostern_character_bp_C",
+        "label": "Geosternbergia"
+      },
+      {
+        "value": "Scorpiovenator_character_bp_C",
+        "label": "Skorpiovenator"
+      },
+      {
+        "value": "Spinoraptor_character_bP_C",
+        "label": "Spinoraptor"
+      }
+    ]
+  },
+  "_classnamesSource": {
+    "dinos": {
+      "url": "https://steamcommunity.com/workshop/filedetails/discussion/1729386191/1647665620925380864/",
+      "fetchedAt": "2026-08-20",
+      "note": "Hilo «Spawn Codes» del autor (Shadlos, marcado [developer]); snapshot en _scraped/kami-creations-spawncodes.txt. El classname sale del tail del path del spawndino + sufijo _C — el gmsummon del hilo lo escribe con capitalización inconsistente ('Scorpiovenator_character_bP_c'), y ARK no distingue mayúsculas acá. Los nombres son los que usa el autor (escribe «Skorpiovenator» con K aunque la clase diga Scorpio). SOLO 4 criaturas: es lo que documenta el hilo, no la mod entera."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "modId": "1729386191",
+  "name": "Additional Creatures: Kami Creations",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1729386191",
+  "searchAliases": [
+    "criaturas",
+    "kami",
+    "dinos nuevos"
+  ],
+  "settings": [],
+  "classNames": {
+    "dinos": [
+      {
+        "value": "Alamodactylus_character_bp_C",
+        "label": "Alamodactylus"
+      },
+      {
+        "value": "Geostern_character_bp_C",
+        "label": "Geosternbergia"
+      },
+      {
+        "value": "Scorpiovenator_character_bp_C",
+        "label": "Skorpiovenator"
+      },
+      {
+        "value": "Spinoraptor_character_bP_C",
+        "label": "Spinoraptor"
+      }
+    ]
+  }
+}

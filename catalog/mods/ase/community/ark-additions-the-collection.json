@@ -1,0 +1,73 @@
+{
+  "modId": "1522327484",
+  "name": "ARK Additions: The Collection!",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1522327484",
+  "searchAliases": [
+    "criaturas",
+    "additions",
+    "dinos nuevos"
+  ],
+  "settings": [],
+  "classNames": {
+    "dinos": [
+      {
+        "value": "Acrocanthosaurus_Character_BP_C",
+        "label": "Acrocanthosaurus"
+      },
+      {
+        "value": "Archelon_Character_BP_C",
+        "label": "Archelon"
+      },
+      {
+        "value": "Bog_Acrocanthosaurus_Character_BP_C",
+        "label": "X-Acro"
+      },
+      {
+        "value": "Bog_Deinosuchus_Character_BP_C",
+        "label": "X-Deinosuchus"
+      },
+      {
+        "value": "Deinosuchus_Character_BP_Aberrant_C",
+        "label": "Aberrant Deinosuchus"
+      },
+      {
+        "value": "Deinosuchus_Character_BP_C",
+        "label": "Deinosuchus"
+      },
+      {
+        "value": "Scorched_Acrocanthosaurus_Character_BP_C",
+        "label": "Scorched Acro"
+      }
+    ],
+    "dino_name_tags": [
+      {
+        "value": "Acro",
+        "label": "Acro (Acrocanthosaurus)"
+      },
+      {
+        "value": "Archelon",
+        "label": "Archelon"
+      },
+      {
+        "value": "Deino",
+        "label": "Deino (Deinosuchus)"
+      }
+    ],
+    "items": [
+      {
+        "value": "/Game/Mods/Additions_Pack/Acrocanthosaurus/Blueprints/PrimalItemArmor_AcroSaddle.PrimalItemArmor_AcroSaddle",
+        "label": "Silla de Acrocanthosaurus"
+      },
+      {
+        "value": "/Game/Mods/Ark_Additions/Archelon/Dinos/PrimalItem_Armor_Archelon_Saddle.PrimalItem_Armor_Archelon_Saddle",
+        "label": "Silla de Archelon"
+      },
+      {
+        "value": "/Game/Mods/Ark_Additions/Deinosuchus/Dinos/PrimalItemArmor_Deinosuchus_Saddle.PrimalItemArmor_Deinosuchus_Saddle",
+        "label": "Silla de Deinosuchus"
+      }
+    ]
+  }
+}
