@@ -1,0 +1,171 @@
+{
+  "_source": "Mod de CRIATURAS: variantes «Paleo» de especies vanilla. La entrada existe por sus classnames.",
+  "_scope": "settings vacío A PROPÓSITO. La guía documenta ajustes (VariantSpawnChance, GigaBerserkThreshold, PaleoGigaDragWeight…) que quedan para un sprint de settings.",
+  "modId": "2804332920",
+  "name": "Paleo ARK: Legends Expansion",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2804332920",
+  "prefix": "paleo_ark_legends",
+  "searchAliases": [
+    "criaturas",
+    "paleo",
+    "variantes",
+    "evo"
+  ],
+  "settings": [],
+  "classNames": {
+    "dinos": [
+      {
+        "value": "Allo_Character_BP_Paleo_C",
+        "label": "Allo (Paleo)"
+      },
+      {
+        "value": "Andrewsarchus_character_BP_Paleo_C",
+        "label": "Andrewsarchus (Paleo)"
+      },
+      {
+        "value": "Baryonyx_Character_BP_Paleo_C",
+        "label": "Baryonyx (Paleo)"
+      },
+      {
+        "value": "Carcha_Character_BP_Paleo_C",
+        "label": "Carcha (Paleo)"
+      },
+      {
+        "value": "Carno_Character_BP_Paleo_C",
+        "label": "Carno (Paleo)"
+      },
+      {
+        "value": "Dilo_Character_BP_Paleo_C",
+        "label": "Dilo (Paleo)"
+      },
+      {
+        "value": "Eden_Yutyrannus_Character_BP_Paleo_C",
+        "label": "Yutyrannus (Paleo, Eden)"
+      },
+      {
+        "value": "Kentro_Character_BP_Paleo_C",
+        "label": "Kentro (Paleo)"
+      },
+      {
+        "value": "MegaCarno_Character_BP_Paleo_C",
+        "label": "Mega Carno (Paleo)"
+      },
+      {
+        "value": "MegaNeoRex_Character_BP_C",
+        "label": "Mega Neo Rex"
+      },
+      {
+        "value": "MegaRaptor_Character_BP_Paleo_C",
+        "label": "Mega Raptor (Paleo)"
+      },
+      {
+        "value": "MegaRex_character_BP_Paleo_C",
+        "label": "Mega Rex (Paleo)"
+      },
+      {
+        "value": "Megalosaurus_Character_BP_Paleo_C",
+        "label": "Megalosaurus (Paleo)"
+      },
+      {
+        "value": "NeoRex_Character_BP_C",
+        "label": "Neo Rex"
+      },
+      {
+        "value": "PA_Giga_Character_BP_C",
+        "label": "Giga"
+      },
+      {
+        "value": "Para_Character_BP_Paleo_C",
+        "label": "Para (Paleo)"
+      },
+      {
+        "value": "Raptor_Character_BP_Paleo_C",
+        "label": "Raptor (Paleo)"
+      },
+      {
+        "value": "Rex_character_BP_Paleo_C",
+        "label": "Rex (Paleo)"
+      },
+      {
+        "value": "Saber_Character_BP_Paleo_C",
+        "label": "Saber (Paleo)"
+      },
+      {
+        "value": "Spino_Character_BP_Paleo_C",
+        "label": "Spino (Paleo)"
+      },
+      {
+        "value": "Stego_Character_BP_Paleo_C",
+        "label": "Stego (Paleo)"
+      },
+      {
+        "value": "Tarbo_character_BP_Paleo_C",
+        "label": "Tarbo (Paleo)"
+      },
+      {
+        "value": "Therizino_Character_BP_Paleo_C",
+        "label": "Therizino (Paleo)"
+      },
+      {
+        "value": "Thylacoleo_character_BP_Paleo_C",
+        "label": "Thylacoleo (Paleo)"
+      },
+      {
+        "value": "Trike_Character_BP_Paleo_C",
+        "label": "Trike (Paleo)"
+      },
+      {
+        "value": "Tropeognathus_Character_BP_Paleo_C",
+        "label": "Tropeognathus (Paleo)"
+      },
+      {
+        "value": "Yutyrannus_Character_BP_Paleo_C",
+        "label": "Yutyrannus (Paleo)"
+      }
+    ],
+    "items": [
+      {
+        "value": "/Game/Mods/PaleoARKlegends/Costumes/Rex_Bone_Saddle/PrimalItemArmor_RexBoneArmor.PrimalItemArmor_RexBoneArmor",
+        "label": "Primal Item Armor_Rex Bone Armor"
+      },
+      {
+        "value": "/Game/Mods/PaleoARKlegends/Costumes/StrawHat/PrimalItemArmor_Strawhat.PrimalItemArmor_Strawhat",
+        "label": "Primal Item Armor_Strawhat"
+      },
+      {
+        "value": "/Game/Mods/PaleoARKlegends/PaleoVariants/PaleoGiga/Saddle/PrimalItemArmor_PaleoGigaSaddle.PrimalItemArmor_PaleoGigaSaddle",
+        "label": "Primal Item Armor_Paleo Giga Saddle"
+      },
+      {
+        "value": "/Game/Mods/PaleoARKlegends/PaleoVariants/PaleoKentro/saddle/PrimalItemArmor_KentroSaddle.PrimalItemArmor_KentroSaddle",
+        "label": "Primal Item Armor_Kentro Saddle"
+      },
+      {
+        "value": "/Game/Mods/PaleoARKlegends/PaleoVariants/PaleoSaber/saddle/PrimalItemArmor_Smilodon_Saddle.PrimalItemArmor_Smilodon_Saddle",
+        "label": "Primal Item Armor_Smilodon_Saddle"
+      },
+      {
+        "value": "/Game/Mods/PaleoARKlegends/PaleoVariants/PodRex_Infos/Saddles/PrimalItemArmor_PodRexArmor.PrimalItemArmor_PodRexArmor",
+        "label": "Primal Item Armor_Pod Rex Armor"
+      },
+      {
+        "value": "/Game/Mods/PaleoARKlegends/PaleoVariants/PodRex_Infos/Saddles/PrimalItemArmor_PodRexSaddle.PrimalItemArmor_PodRexSaddle",
+        "label": "Primal Item Armor_Pod Rex Saddle"
+      }
+    ]
+  },
+  "_classnamesSource": {
+    "dinos": {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2810091416",
+      "fetchedAt": "2026-08-20",
+      "note": "Guía oficial de la mod (Steam Guide 2810091416, que referencia a la mod 2804332920); snapshot en _scraped/paleo-ark-legends-guide.txt. Los classnames salen de los blueprint paths. Los LABELS son DERIVADOS del classname, no de la guía: entre el nombre de cada criatura y su código la guía intercala párrafos de descripción, así que no hay par nombre-código fiable que parsear. Salen bien porque la clase es la especie vanilla + el sufijo Paleo (Rex_character_BP_Paleo_C → «Rex (Paleo)»)."
+    },
+    "items": {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2810091416",
+      "fetchedAt": "2026-08-20",
+      "note": "Sillas y objetos de la misma guía, con blueprint path; labels derivados del classname por la misma razón."
+    }
+  }
+}

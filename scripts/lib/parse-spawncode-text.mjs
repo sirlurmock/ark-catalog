@@ -31,7 +31,7 @@ const SEPARATOR_RE = /^[_\-=—\s]*$/;
  * anterior, que sí es el nombre.
  */
 const SECTION_LABELS =
-  /^\(?(spawn\s*codes?|spawn\s*command|blueprints?|creature\s*blueprints|tamed\s*summon\s*commands|wild|tamed|item\s*codes?|engrams?|notes?|description|dino\s*tag)\)?$/i;
+  /^\(?(spawn\s*codes?|spawn\s*command|(full\s*)?blueprints?(\s*paths?)?|creature\s*blueprints|tamed\s*summon\s*commands|wild|tamed|item\s*codes?|engrams?|notes?|description|dino\s*tag|saddle)\)?$/i;
 
 /** Una línea que es puro código, no un nombre. */
 function looksLikeCode(line) {

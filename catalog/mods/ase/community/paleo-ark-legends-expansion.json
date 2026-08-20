@@ -1,0 +1,156 @@
+{
+  "modId": "2804332920",
+  "name": "Paleo ARK: Legends Expansion",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2804332920",
+  "searchAliases": [
+    "criaturas",
+    "paleo",
+    "variantes",
+    "evo"
+  ],
+  "settings": [],
+  "classNames": {
+    "dinos": [
+      {
+        "value": "Allo_Character_BP_Paleo_C",
+        "label": "Allo (Paleo)"
+      },
+      {
+        "value": "Andrewsarchus_character_BP_Paleo_C",
+        "label": "Andrewsarchus (Paleo)"
+      },
+      {
+        "value": "Baryonyx_Character_BP_Paleo_C",
+        "label": "Baryonyx (Paleo)"
+      },
+      {
+        "value": "Carcha_Character_BP_Paleo_C",
+        "label": "Carcha (Paleo)"
+      },
+      {
+        "value": "Carno_Character_BP_Paleo_C",
+        "label": "Carno (Paleo)"
+      },
+      {
+        "value": "Dilo_Character_BP_Paleo_C",
+        "label": "Dilo (Paleo)"
+      },
+      {
+        "value": "Eden_Yutyrannus_Character_BP_Paleo_C",
+        "label": "Yutyrannus (Paleo, Eden)"
+      },
+      {
+        "value": "Kentro_Character_BP_Paleo_C",
+        "label": "Kentro (Paleo)"
+      },
+      {
+        "value": "MegaCarno_Character_BP_Paleo_C",
+        "label": "Mega Carno (Paleo)"
+      },
+      {
+        "value": "MegaNeoRex_Character_BP_C",
+        "label": "Mega Neo Rex"
+      },
+      {
+        "value": "MegaRaptor_Character_BP_Paleo_C",
+        "label": "Mega Raptor (Paleo)"
+      },
+      {
+        "value": "MegaRex_character_BP_Paleo_C",
+        "label": "Mega Rex (Paleo)"
+      },
+      {
+        "value": "Megalosaurus_Character_BP_Paleo_C",
+        "label": "Megalosaurus (Paleo)"
+      },
+      {
+        "value": "NeoRex_Character_BP_C",
+        "label": "Neo Rex"
+      },
+      {
+        "value": "PA_Giga_Character_BP_C",
+        "label": "Giga"
+      },
+      {
+        "value": "Para_Character_BP_Paleo_C",
+        "label": "Para (Paleo)"
+      },
+      {
+        "value": "Raptor_Character_BP_Paleo_C",
+        "label": "Raptor (Paleo)"
+      },
+      {
+        "value": "Rex_character_BP_Paleo_C",
+        "label": "Rex (Paleo)"
+      },
+      {
+        "value": "Saber_Character_BP_Paleo_C",
+        "label": "Saber (Paleo)"
+      },
+      {
+        "value": "Spino_Character_BP_Paleo_C",
+        "label": "Spino (Paleo)"
+      },
+      {
+        "value": "Stego_Character_BP_Paleo_C",
+        "label": "Stego (Paleo)"
+      },
+      {
+        "value": "Tarbo_character_BP_Paleo_C",
+        "label": "Tarbo (Paleo)"
+      },
+      {
+        "value": "Therizino_Character_BP_Paleo_C",
+        "label": "Therizino (Paleo)"
+      },
+      {
+        "value": "Thylacoleo_character_BP_Paleo_C",
+        "label": "Thylacoleo (Paleo)"
+      },
+      {
+        "value": "Trike_Character_BP_Paleo_C",
+        "label": "Trike (Paleo)"
+      },
+      {
+        "value": "Tropeognathus_Character_BP_Paleo_C",
+        "label": "Tropeognathus (Paleo)"
+      },
+      {
+        "value": "Yutyrannus_Character_BP_Paleo_C",
+        "label": "Yutyrannus (Paleo)"
+      }
+    ],
+    "items": [
+      {
+        "value": "/Game/Mods/PaleoARKlegends/Costumes/Rex_Bone_Saddle/PrimalItemArmor_RexBoneArmor.PrimalItemArmor_RexBoneArmor",
+        "label": "Primal Item Armor_Rex Bone Armor"
+      },
+      {
+        "value": "/Game/Mods/PaleoARKlegends/Costumes/StrawHat/PrimalItemArmor_Strawhat.PrimalItemArmor_Strawhat",
+        "label": "Primal Item Armor_Strawhat"
+      },
+      {
+        "value": "/Game/Mods/PaleoARKlegends/PaleoVariants/PaleoGiga/Saddle/PrimalItemArmor_PaleoGigaSaddle.PrimalItemArmor_PaleoGigaSaddle",
+        "label": "Primal Item Armor_Paleo Giga Saddle"
+      },
+      {
+        "value": "/Game/Mods/PaleoARKlegends/PaleoVariants/PaleoKentro/saddle/PrimalItemArmor_KentroSaddle.PrimalItemArmor_KentroSaddle",
+        "label": "Primal Item Armor_Kentro Saddle"
+      },
+      {
+        "value": "/Game/Mods/PaleoARKlegends/PaleoVariants/PaleoSaber/saddle/PrimalItemArmor_Smilodon_Saddle.PrimalItemArmor_Smilodon_Saddle",
+        "label": "Primal Item Armor_Smilodon_Saddle"
+      },
+      {
+        "value": "/Game/Mods/PaleoARKlegends/PaleoVariants/PodRex_Infos/Saddles/PrimalItemArmor_PodRexArmor.PrimalItemArmor_PodRexArmor",
+        "label": "Primal Item Armor_Pod Rex Armor"
+      },
+      {
+        "value": "/Game/Mods/PaleoARKlegends/PaleoVariants/PodRex_Infos/Saddles/PrimalItemArmor_PodRexSaddle.PrimalItemArmor_PodRexSaddle",
+        "label": "Primal Item Armor_Pod Rex Saddle"
+      }
+    ]
+  }
+}

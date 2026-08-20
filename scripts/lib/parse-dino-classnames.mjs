@@ -12,7 +12,23 @@
  */
 
 /** Prefijos de bioma/zona que ARK y las mods anteponen al nombre. */
-const BIOME_PREFIXES = ["Bog", "Ocean", "volcano", "Volcano", "Snow", "Desert", "Swamp", "Cave"];
+const BIOME_PREFIXES = [
+  "Bog",
+  "Ocean",
+  "volcano",
+  "Volcano",
+  "Snow",
+  "Desert",
+  "Swamp",
+  "Cave",
+  // Variantes de mapa que ARK usa como prefijo tanto como sufijo.
+  "Eden",
+  "Rockwell",
+  "Scorched",
+  "Aberrant",
+  "Crystal",
+  "Bone",
+];
 
 /**
  * Sufijos de variante que van DESPUÉS de `_Character_BP_`. Se muestran entre
@@ -36,7 +52,7 @@ const VARIANT_LABELS = {
 };
 
 /** Prefijos de la propia mod, que no son parte del nombre de la especie. */
-const MOD_PREFIXES = [/^AC2/i, /^Shad(?=[A-Z])/];
+const MOD_PREFIXES = [/^AC2/i, /^Shad(?=[A-Z])/, /^PA_/, /^BD(?=[A-Z])/];
 
 function titleCase(text) {
   return text
