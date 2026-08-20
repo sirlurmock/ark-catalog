@@ -316,5 +316,9 @@
       "fetchedAt": "2026-08-20",
       "note": "Tabla de engramas de la misma página (nombre + EngramEntry_… + nivel + costo). Ahí los nombres SÍ están alineados con su clase, verificado."
     }
-  }
+  },
+  "alsoWorkshopIds": [
+    "1445395055"
+  ],
+  "_alsoWorkshopIds": "ARK Additions: Domination Rex! (1445395055) es una mod aparte en el Workshop, pero sus 5 criaturas (Indominus_Character_*) y su tag Indom son EXACTAMENTE los que documenta la wiki de The Collection y ya están en esta entrada. Sin el alias, quien tuviera solo la standalone instalada no encontraría nada."
 }

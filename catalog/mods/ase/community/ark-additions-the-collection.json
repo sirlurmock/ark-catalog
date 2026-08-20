@@ -4,6 +4,9 @@
   "game": "ase",
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1522327484",
+  "alsoWorkshopIds": [
+    "1445395055"
+  ],
   "searchAliases": [
     "criaturas",
     "additions",
