@@ -1,0 +1,431 @@
+{
+  "_source": "Doc oficial del autor (Ghazlawl): https://linode.ghazlawl.com/upgrade-station/ini-settings/ — transcrita verbatim el 2026-08-20. Secciones [UpgradeStation] y [AugmentStation] de GameUserSettings.ini.",
+  "_defaults": "Los defaults con 'Default is X' literal en la doc: UpgradeStatIncreaseMin (2000), UpgradeStatIncreaseMax (10000), las 7 claves Fortune, RangeMin/MaxPerAugment (1000) y los 7 Max*PerIndex (10000). UpgradeMultiplier, UpgradeExponentialMultiplier y SalvageMultiplier salen del bloque de ejemplo (1.0) SIN declaración literal de default — van con alwaysEmit para que el valor explícito siempre se escriba al .ini. MaxUpgradeQualityIndex: la doc dice '0 = Default (Ascendant)', y 0 y 5 son conductualmente idénticos, así que el default 5 del bloque de ejemplo es seguro sin alwaysEmit. DisableSalvage=False es el comportamiento obvio de la mod (el reciclaje es su feature). UpgradeDisallowedItems: el valor del ejemplo es un placeholder, default lista vacía.",
+  "modId": "UpgradeStation",
+  "name": "Upgrade Station",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=821530042",
+  "prefix": "upgrade_station",
+  "searchAliases": ["mejorar objetos", "calidad de objetos", "reciclar objetos", "salvage", "augment"],
+  "settings": [
+    {
+      "key": "UpgradeMultiplier",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 1.0,
+      "min": 0.5,
+      "max": 5,
+      "step": 0.05,
+      "presets": [1.0, 1.3, 1.45, 1.6],
+      "alwaysEmit": true,
+      "es": {
+        "label": "Multiplicador de costo de mejora",
+        "description": "Cuántos recursos del tier anterior pide cada mejora. Más bajo (1.3) = mejoras mucho más baratas; más alto (1.6) = mucho más caras. La doc de la mod no declara el default, así que el valor elegido se escribe siempre al .ini."
+      },
+      "en": {
+        "label": "Upgrade cost multiplier",
+        "description": "How many resources from the previous tier each upgrade requires. Lower (1.3) = much cheaper upgrades; higher (1.6) = much more expensive. The mod docs don't state the default, so the chosen value is always written to the .ini."
+      }
+    },
+    {
+      "key": "UpgradeExponentialMultiplier",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1.0,
+      "min": 0.5,
+      "max": 5,
+      "step": 0.05,
+      "presets": [1.0, 1.3, 1.45, 1.6],
+      "alwaysEmit": true,
+      "es": {
+        "label": "Exponente del costo de mejora",
+        "description": "Afina la curva de costos: valores bajos (1.3) dan una progresión más lineal; altos (1.6), más exponencial. La doc de la mod no declara el default, así que el valor elegido se escribe siempre al .ini."
+      },
+      "en": {
+        "label": "Upgrade cost exponent",
+        "description": "Fine-tunes the cost curve: lower values (1.3) give a more linear progression; higher (1.6), a more exponential one. The mod docs don't state the default, so the chosen value is always written to the .ini."
+      }
+    },
+    {
+      "key": "MaxUpgradeQualityIndex",
+      "kind": "integer",
+      "tier": "basic",
+      "default": 5,
+      "min": 0,
+      "max": 5,
+      "step": 1,
+      "es": {
+        "label": "Calidad máxima de mejora",
+        "description": "Hasta qué calidad se puede mejorar: 1 = Destartalado, 2 = Aprendiz, 3 = Oficial, 4 = Artesanal, 5 = Ascendente. 0 equivale a sin límite (Ascendente)."
+      },
+      "en": {
+        "label": "Maximum upgrade quality",
+        "description": "Highest quality items can be upgraded to: 1 = Ramshackle, 2 = Apprentice, 3 = Journeyman, 4 = Mastercraft, 5 = Ascendant. 0 means no limit (Ascendant)."
+      }
+    },
+    {
+      "key": "UpgradeStatIncreaseMin",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 2000,
+      "min": 2000,
+      "max": 10000,
+      "step": 100,
+      "es": {
+        "label": "Subida de stat mínima",
+        "description": "Valor mínimo del rango aleatorio con el que sube el stat al mejorar. La mod lo limita entre 2000 y 10000."
+      },
+      "en": {
+        "label": "Minimum stat increase",
+        "description": "Lower bound of the random stat increase applied when upgrading. The mod clamps it between 2000 and 10000."
+      }
+    },
+    {
+      "key": "UpgradeStatIncreaseMax",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 10000,
+      "min": 2000,
+      "max": 10000,
+      "step": 100,
+      "es": {
+        "label": "Subida de stat máxima",
+        "description": "Valor máximo del rango aleatorio con el que sube el stat al mejorar. La mod lo limita entre 2000 y 10000."
+      },
+      "en": {
+        "label": "Maximum stat increase",
+        "description": "Upper bound of the random stat increase applied when upgrading. The mod clamps it between 2000 and 10000."
+      }
+    },
+    {
+      "key": "UpgradeDisallowedItems",
+      "kind": "string_list",
+      "tier": "advanced",
+      "default": [],
+      "suggestions": "items",
+      "es": {
+        "label": "Objetos que no se pueden mejorar",
+        "description": "Clases de objeto (classnames) excluidas de la estación de mejora, separadas por coma."
+      },
+      "en": {
+        "label": "Items that cannot be upgraded",
+        "description": "Item classes (classnames) excluded from the upgrade station, comma separated."
+      }
+    },
+    {
+      "key": "DisableSalvage",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Desactivar el reciclaje",
+        "description": "Apaga por completo la opción de reciclar objetos por recursos."
+      },
+      "en": {
+        "label": "Disable salvaging",
+        "description": "Completely turns off salvaging items for resources."
+      }
+    },
+    {
+      "key": "SalvageMultiplier",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 1.0,
+      "min": 0,
+      "max": 5,
+      "step": 0.05,
+      "presets": [0.5, 1.0, 2.0],
+      "alwaysEmit": true,
+      "es": {
+        "label": "Multiplicador de reciclaje",
+        "description": "Cuántos recursos devuelve reciclar un objeto; los de mayor tier devuelven más. La doc de la mod no declara el default, así que el valor elegido se escribe siempre al .ini."
+      },
+      "en": {
+        "label": "Salvage multiplier",
+        "description": "How many resources salvaging an item returns; higher-tier items return more. The mod docs don't state the default, so the chosen value is always written to the .ini."
+      }
+    },
+    {
+      "key": "FortuneQualitySkipChance",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 0.1,
+      "min": 0,
+      "max": 1,
+      "step": 0.01,
+      "es": {
+        "label": "Fortuna: saltar una calidad",
+        "description": "Probabilidad de que una mejora salte un nivel de calidad de regalo. 0.1 = 10% (default de la mod)."
+      },
+      "en": {
+        "label": "Fortune: quality skip chance",
+        "description": "Chance for an upgrade to skip a quality level for free. 0.1 = 10% (mod default)."
+      }
+    },
+    {
+      "key": "FortuneReducedResourcesChance",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 10,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "es": {
+        "label": "Fortuna: recursos reducidos (%)",
+        "description": "Probabilidad (en %) de que una mejora consuma solo una parte de los recursos requeridos. Default de la mod: 10."
+      },
+      "en": {
+        "label": "Fortune: reduced resources chance (%)",
+        "description": "Chance (in %) for an upgrade to consume only part of the required resources. Mod default: 10."
+      }
+    },
+    {
+      "key": "FortuneReducedResourcesMultiplier",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 0.25,
+      "min": 0,
+      "max": 1,
+      "step": 0.05,
+      "es": {
+        "label": "Fortuna: fracción de recursos ahorrada",
+        "description": "Qué parte de los recursos NO se consume cuando salta la fortuna de recursos reducidos. 0.25 = 25% (default de la mod)."
+      },
+      "en": {
+        "label": "Fortune: resources saved fraction",
+        "description": "Portion of resources NOT consumed when the reduced-resources fortune triggers. 0.25 = 25% (mod default)."
+      }
+    },
+    {
+      "key": "FortuneIncreasedSalvageChance",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 10,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "es": {
+        "label": "Fortuna: reciclaje aumentado (%)",
+        "description": "Probabilidad (en %) de que reciclar devuelva recursos extra. Default de la mod: 10."
+      },
+      "en": {
+        "label": "Fortune: increased salvage chance (%)",
+        "description": "Chance (in %) for salvaging to return extra resources. Mod default: 10."
+      }
+    },
+    {
+      "key": "FortuneIncreasedSalvageMultiplier",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 2.0,
+      "min": 1,
+      "max": 10,
+      "step": 0.1,
+      "es": {
+        "label": "Fortuna: multiplicador de reciclaje extra",
+        "description": "Cuántos recursos devuelve el reciclaje cuando salta esa fortuna. 2.0 = el doble (default de la mod)."
+      },
+      "en": {
+        "label": "Fortune: increased salvage multiplier",
+        "description": "How many resources salvaging returns when that fortune triggers. 2.0 = double (mod default)."
+      }
+    },
+    {
+      "key": "FortuneUpgradeFailedChance",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 5,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "es": {
+        "label": "Fortuna: mejora fallida (%)",
+        "description": "Probabilidad (en %) de que una mejora falle y aun así consuma parte de los recursos. Default de la mod: 5."
+      },
+      "en": {
+        "label": "Fortune: upgrade failed chance (%)",
+        "description": "Chance (in %) for an upgrade to fail while still consuming part of the resources. Mod default: 5."
+      }
+    },
+    {
+      "key": "FortuneUpgradeFailedResourcesMultiplier",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 0.1,
+      "min": 0,
+      "max": 1,
+      "step": 0.05,
+      "es": {
+        "label": "Fortuna: recursos consumidos al fallar",
+        "description": "Qué parte de los recursos se consume cuando una mejora falla. 0.1 = 10% (default de la mod)."
+      },
+      "en": {
+        "label": "Fortune: resources consumed on fail",
+        "description": "Portion of resources consumed when an upgrade fails. 0.1 = 10% (mod default)."
+      }
+    },
+    {
+      "key": "RangeMinPerAugment",
+      "kind": "integer",
+      "tier": "expert",
+      "section": "AugmentStation",
+      "default": 1000,
+      "min": 1000,
+      "max": 5000,
+      "step": 100,
+      "es": {
+        "label": "Aumento: rango mínimo por augment",
+        "description": "Valor mínimo del rango aleatorio de subida/bajada de stat por augment. La mod lo limita entre 1000 y 5000. Default: 1000."
+      },
+      "en": {
+        "label": "Augment: minimum range per augment",
+        "description": "Lower bound of the random stat increase/decrease per augment. The mod clamps it between 1000 and 5000. Default: 1000."
+      }
+    },
+    {
+      "key": "RangeMaxPerAugment",
+      "kind": "integer",
+      "tier": "expert",
+      "section": "AugmentStation",
+      "default": 1000,
+      "min": 1000,
+      "max": 5000,
+      "step": 100,
+      "es": {
+        "label": "Aumento: rango máximo por augment",
+        "description": "Valor máximo del rango aleatorio de subida/bajada de stat por augment. La mod lo limita entre 1000 y 5000. Default: 1000."
+      },
+      "en": {
+        "label": "Augment: maximum range per augment",
+        "description": "Upper bound of the random stat increase/decrease per augment. The mod clamps it between 1000 and 5000. Default: 1000."
+      }
+    },
+    {
+      "key": "MaxArmorPerIndex",
+      "kind": "integer",
+      "tier": "expert",
+      "section": "AugmentStation",
+      "default": 10000,
+      "min": 0,
+      "max": 100000,
+      "step": 500,
+      "es": {
+        "label": "Aumento: tope de armadura por calidad",
+        "description": "Cuánto puede subir la armadura por nivel de calidad del objeto (10000 = Primitivo, 20000 = Destartalado, etc.). Default de la mod: 10000."
+      },
+      "en": {
+        "label": "Augment: max armor per quality",
+        "description": "How much armor can be increased per item quality level (10000 = Primitive, 20000 = Ramshackle, etc.). Mod default: 10000."
+      }
+    },
+    {
+      "key": "MaxDamagePerIndex",
+      "kind": "integer",
+      "tier": "expert",
+      "section": "AugmentStation",
+      "default": 10000,
+      "min": 0,
+      "max": 100000,
+      "step": 500,
+      "es": {
+        "label": "Aumento: tope de daño por calidad",
+        "description": "Cuánto puede subir el daño por nivel de calidad del objeto. Default de la mod: 10000."
+      },
+      "en": {
+        "label": "Augment: max damage per quality",
+        "description": "How much damage can be increased per item quality level. Mod default: 10000."
+      }
+    },
+    {
+      "key": "MaxArmorDurabilityPerIndex",
+      "kind": "integer",
+      "tier": "expert",
+      "section": "AugmentStation",
+      "default": 10000,
+      "min": 0,
+      "max": 100000,
+      "step": 500,
+      "es": {
+        "label": "Aumento: tope de durabilidad (armadura)",
+        "description": "Cuánto puede subir la durabilidad de armaduras por nivel de calidad. Default de la mod: 10000."
+      },
+      "en": {
+        "label": "Augment: max armor durability per quality",
+        "description": "How much armor durability can be increased per quality level. Mod default: 10000."
+      }
+    },
+    {
+      "key": "MaxWeaponDurabilityPerIndex",
+      "kind": "integer",
+      "tier": "expert",
+      "section": "AugmentStation",
+      "default": 10000,
+      "min": 0,
+      "max": 100000,
+      "step": 500,
+      "es": {
+        "label": "Aumento: tope de durabilidad (armas)",
+        "description": "Cuánto puede subir la durabilidad de armas por nivel de calidad. Default de la mod: 10000."
+      },
+      "en": {
+        "label": "Augment: max weapon durability per quality",
+        "description": "How much weapon durability can be increased per quality level. Mod default: 10000."
+      }
+    },
+    {
+      "key": "MaxHyperthermicInsulationPerIndex",
+      "kind": "integer",
+      "tier": "expert",
+      "section": "AugmentStation",
+      "default": 10000,
+      "min": 0,
+      "max": 100000,
+      "step": 500,
+      "es": {
+        "label": "Aumento: tope de aislamiento hipertérmico",
+        "description": "Cuánto puede subir el aislamiento contra calor por nivel de calidad. Default de la mod: 10000."
+      },
+      "en": {
+        "label": "Augment: max hyperthermic insulation per quality",
+        "description": "How much heat insulation can be increased per quality level. Mod default: 10000."
+      }
+    },
+    {
+      "key": "MaxHypothermicInsulationPerIndex",
+      "kind": "integer",
+      "tier": "expert",
+      "section": "AugmentStation",
+      "default": 10000,
+      "min": 0,
+      "max": 100000,
+      "step": 500,
+      "es": {
+        "label": "Aumento: tope de aislamiento hipotérmico",
+        "description": "Cuánto puede subir el aislamiento contra frío por nivel de calidad. Default de la mod: 10000."
+      },
+      "en": {
+        "label": "Augment: max hypothermic insulation per quality",
+        "description": "How much cold insulation can be increased per quality level. Mod default: 10000."
+      }
+    },
+    {
+      "key": "MaxWaterRetentionPerIndex",
+      "kind": "integer",
+      "tier": "expert",
+      "section": "AugmentStation",
+      "default": 10000,
+      "min": 0,
+      "max": 100000,
+      "step": 500,
+      "es": {
+        "label": "Aumento: tope de retención de agua",
+        "description": "Cuánto puede subir la retención de agua por nivel de calidad. Default de la mod: 10000."
+      },
+      "en": {
+        "label": "Augment: max water retention per quality",
+        "description": "How much water retention can be increased per quality level. Mod default: 10000."
+      }
+    }
+  ]
+}

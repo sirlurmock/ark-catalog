@@ -1,0 +1,209 @@
+{
+  "_source": "Hilo fijado 'GUS.ini Settings' del Workshop (https://steamcommunity.com/workshop/filedetails/discussion/2594067220/5040080777782808219/), sección [SuperSpyglassPlus] de GameUserSettings.ini. Transcrito el 2026-08-20.",
+  "_defaults": "Las 14 claves son toggles Disable*/Only* con default false en el hilo del autor — todo activado/sin restricción por defecto, coherente con el comportamiento de la mod recién instalada. Las opciones de color/tamaño/posición del UI son por jugador (menú Alt+Home del cliente), no del servidor, y quedan fuera.",
+  "modId": "SuperSpyglassPlus",
+  "name": "Super Spyglass Plus",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2594067220",
+  "prefix": "super_spyglass_plus",
+  "searchAliases": ["catalejo", "spyglass", "mirilla"],
+  "settings": [
+    {
+      "key": "DisableNightVision",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Desactivar visión nocturna",
+        "description": "Quita la visión nocturna del catalejo. Default: desactivado (visión nocturna disponible)."
+      },
+      "en": {
+        "label": "Disable night vision",
+        "description": "Removes the spyglass night vision. Default: disabled (night vision available)."
+      }
+    },
+    {
+      "key": "DisablePredatorVision",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Desactivar visión depredador",
+        "description": "Quita el modo de visión depredador (resalta criaturas por calor). Default: desactivado."
+      },
+      "en": {
+        "label": "Disable predator vision",
+        "description": "Removes the predator vision mode (heat-style creature highlight). Default: disabled."
+      }
+    },
+    {
+      "key": "DisableOutlineMode",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Desactivar contorno de criaturas",
+        "description": "Quita el resaltado de contorno al apuntar criaturas. Default: desactivado."
+      },
+      "en": {
+        "label": "Disable outline mode",
+        "description": "Removes the outline highlight when aiming at creatures. Default: disabled."
+      }
+    },
+    {
+      "key": "DisableSupplyDropInfo",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Desactivar info de supply drops",
+        "description": "El catalejo deja de mostrar el contenido de los supply drops. Default: desactivado."
+      },
+      "en": {
+        "label": "Disable supply drop info",
+        "description": "The spyglass no longer shows supply drop contents. Default: disabled."
+      }
+    },
+    {
+      "key": "DisableItembagInfo",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Desactivar info de bolsas de items",
+        "description": "El catalejo deja de mostrar el contenido de bolsas y cadáveres. Default: desactivado."
+      },
+      "en": {
+        "label": "Disable item bag info",
+        "description": "The spyglass no longer shows bag and corpse contents. Default: disabled."
+      }
+    },
+    {
+      "key": "DisableStructureInfo",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Desactivar info de estructuras",
+        "description": "El catalejo deja de mostrar detalles de estructuras (dueño, vida). Default: desactivado."
+      },
+      "en": {
+        "label": "Disable structure info",
+        "description": "The spyglass no longer shows structure details (owner, health). Default: disabled."
+      }
+    },
+    {
+      "key": "DisableBuffInfo",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Desactivar info de buffs",
+        "description": "El catalejo deja de mostrar los buffs y estados de las criaturas. Default: desactivado."
+      },
+      "en": {
+        "label": "Disable buff info",
+        "description": "The spyglass no longer shows creature buffs and status effects. Default: disabled."
+      }
+    },
+    {
+      "key": "DisableTameFoodInfo",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Desactivar info de comida de tames",
+        "description": "El catalejo deja de mostrar la comida de las criaturas domesticadas. Default: desactivado."
+      },
+      "en": {
+        "label": "Disable tame food info",
+        "description": "The spyglass no longer shows tamed creatures' food. Default: disabled."
+      }
+    },
+    {
+      "key": "DisableEggInfo",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Desactivar info de huevos",
+        "description": "El catalejo deja de mostrar información de huevos (temperatura, progreso). Default: desactivado."
+      },
+      "en": {
+        "label": "Disable egg info",
+        "description": "The spyglass no longer shows egg information (temperature, progress). Default: disabled."
+      }
+    },
+    {
+      "key": "DisableTheSpyglassOnEnemyTribes",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Desactivar catalejo sobre tribus enemigas",
+        "description": "El catalejo no muestra información de jugadores, dinos ni estructuras de tribus enemigas — clave para PvP. Default: desactivado."
+      },
+      "en": {
+        "label": "Disable spyglass on enemy tribes",
+        "description": "The spyglass shows no info about enemy tribes' players, dinos or structures — key for PvP. Default: disabled."
+      }
+    },
+    {
+      "key": "OnlyShowStatsForTames",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Stats solo de domesticados",
+        "description": "El catalejo solo muestra stats de criaturas domesticadas (no revela stats de salvajes). Default: desactivado."
+      },
+      "en": {
+        "label": "Stats for tames only",
+        "description": "The spyglass only shows stats for tamed creatures (doesn't reveal wild stats). Default: disabled."
+      }
+    },
+    {
+      "key": "DisableGPS",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Desactivar GPS",
+        "description": "Quita las coordenadas GPS del catalejo. Default: desactivado."
+      },
+      "en": {
+        "label": "Disable GPS",
+        "description": "Removes GPS coordinates from the spyglass. Default: disabled."
+      }
+    },
+    {
+      "key": "DisableCrosshair",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Desactivar mirilla",
+        "description": "Quita la mirilla del catalejo. Default: desactivado."
+      },
+      "en": {
+        "label": "Disable crosshair",
+        "description": "Removes the spyglass crosshair. Default: disabled."
+      }
+    },
+    {
+      "key": "OnlyHPonEnemyTribeDinos",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Solo vida en dinos enemigos",
+        "description": "Sobre dinos de tribus enemigas el catalejo muestra únicamente la vida, sin el resto de stats. Default: desactivado."
+      },
+      "en": {
+        "label": "Only HP on enemy tribe dinos",
+        "description": "On enemy tribes' dinos the spyglass shows only health, no other stats. Default: disabled."
+      }
+    }
+  ]
+}

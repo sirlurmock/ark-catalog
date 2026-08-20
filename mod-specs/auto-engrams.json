@@ -1,0 +1,27 @@
+{
+  "_source": "Descripción del Workshop (https://steamcommunity.com/sharedfiles/filedetails/?id=1428596566), sección [AutoEngrams] de GameUserSettings.ini. Transcrito verbatim el 2026-08-20. Ojo: fuentes secundarias citan 'ForceUnlockLevel', pero la clave real de la descripción es ForceUnlock.",
+  "_defaults": "El bloque 'ForceUnlock=True' de la descripción es la receta de activación, NO el default (caso Dino Tracker del README): la mod por defecto no fuerza el desbloqueo de engramas TEK/de jefes — por eso existe la opción. Default: false.",
+  "modId": "AutoEngrams",
+  "name": "Auto Engrams!",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1428596566",
+  "prefix": "auto_engrams",
+  "searchAliases": ["engramas", "desbloquear engramas", "engramas automáticos"],
+  "settings": [
+    {
+      "key": "ForceUnlock",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Forzar desbloqueo de engramas especiales",
+        "description": "Al llegar al nivel máximo se desbloquean también los engramas que normalmente no se aprenden solos (TEK, engramas de jefes de algunas mods). Default: desactivado."
+      },
+      "en": {
+        "label": "Force unlock special engrams",
+        "description": "On reaching max level, engrams not normally unlockable by the player (TEK, boss engrams from some mods) also unlock. Default: disabled."
+      }
+    }
+  ]
+}

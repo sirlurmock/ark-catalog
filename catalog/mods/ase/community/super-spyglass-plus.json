@@ -1,0 +1,308 @@
+{
+  "modId": "SuperSpyglassPlus",
+  "name": "Super Spyglass Plus",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2594067220",
+  "searchAliases": [
+    "catalejo",
+    "spyglass",
+    "mirilla"
+  ],
+  "settings": [
+    {
+      "id": "super_spyglass_plus_disable_night_vision",
+      "key": "DisableNightVision",
+      "category": "mod_super_spyglass_plus",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "SuperSpyglassPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_spyglass_plus.disable_night_vision"
+    },
+    {
+      "id": "super_spyglass_plus_disable_predator_vision",
+      "key": "DisablePredatorVision",
+      "category": "mod_super_spyglass_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperSpyglassPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_spyglass_plus.disable_predator_vision"
+    },
+    {
+      "id": "super_spyglass_plus_disable_outline_mode",
+      "key": "DisableOutlineMode",
+      "category": "mod_super_spyglass_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperSpyglassPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_spyglass_plus.disable_outline_mode"
+    },
+    {
+      "id": "super_spyglass_plus_disable_supply_drop_info",
+      "key": "DisableSupplyDropInfo",
+      "category": "mod_super_spyglass_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperSpyglassPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_spyglass_plus.disable_supply_drop_info"
+    },
+    {
+      "id": "super_spyglass_plus_disable_itembag_info",
+      "key": "DisableItembagInfo",
+      "category": "mod_super_spyglass_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperSpyglassPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_spyglass_plus.disable_itembag_info"
+    },
+    {
+      "id": "super_spyglass_plus_disable_structure_info",
+      "key": "DisableStructureInfo",
+      "category": "mod_super_spyglass_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperSpyglassPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_spyglass_plus.disable_structure_info"
+    },
+    {
+      "id": "super_spyglass_plus_disable_buff_info",
+      "key": "DisableBuffInfo",
+      "category": "mod_super_spyglass_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperSpyglassPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_spyglass_plus.disable_buff_info"
+    },
+    {
+      "id": "super_spyglass_plus_disable_tame_food_info",
+      "key": "DisableTameFoodInfo",
+      "category": "mod_super_spyglass_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperSpyglassPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_spyglass_plus.disable_tame_food_info"
+    },
+    {
+      "id": "super_spyglass_plus_disable_egg_info",
+      "key": "DisableEggInfo",
+      "category": "mod_super_spyglass_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperSpyglassPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_spyglass_plus.disable_egg_info"
+    },
+    {
+      "id": "super_spyglass_plus_disable_the_spyglass_on_enemy_tribes",
+      "key": "DisableTheSpyglassOnEnemyTribes",
+      "category": "mod_super_spyglass_plus",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "SuperSpyglassPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_spyglass_plus.disable_the_spyglass_on_enemy_tribes"
+    },
+    {
+      "id": "super_spyglass_plus_only_show_stats_for_tames",
+      "key": "OnlyShowStatsForTames",
+      "category": "mod_super_spyglass_plus",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "SuperSpyglassPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_spyglass_plus.only_show_stats_for_tames"
+    },
+    {
+      "id": "super_spyglass_plus_disable_gps",
+      "key": "DisableGPS",
+      "category": "mod_super_spyglass_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperSpyglassPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_spyglass_plus.disable_gps"
+    },
+    {
+      "id": "super_spyglass_plus_disable_crosshair",
+      "key": "DisableCrosshair",
+      "category": "mod_super_spyglass_plus",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SuperSpyglassPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_spyglass_plus.disable_crosshair"
+    },
+    {
+      "id": "super_spyglass_plus_only_hpon_enemy_tribe_dinos",
+      "key": "OnlyHPonEnemyTribeDinos",
+      "category": "mod_super_spyglass_plus",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "SuperSpyglassPlus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.super_spyglass_plus.only_hpon_enemy_tribe_dinos"
+    }
+  ]
+}

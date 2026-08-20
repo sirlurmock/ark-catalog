@@ -1,0 +1,607 @@
+{
+  "modId": "UpgradeStation",
+  "name": "Upgrade Station",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=821530042",
+  "searchAliases": [
+    "mejorar objetos",
+    "calidad de objetos",
+    "reciclar objetos",
+    "salvage",
+    "augment"
+  ],
+  "settings": [
+    {
+      "id": "upgrade_station_upgrade_multiplier",
+      "key": "UpgradeMultiplier",
+      "category": "mod_upgrade_station",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "UpgradeStation",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "alwaysEmit": true,
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.5,
+        "max": 5,
+        "step": 0.05,
+        "presets": [
+          1,
+          1.3,
+          1.45,
+          1.6
+        ]
+      },
+      "i18nKey": "mods.upgrade_station.upgrade_multiplier"
+    },
+    {
+      "id": "upgrade_station_upgrade_exponential_multiplier",
+      "key": "UpgradeExponentialMultiplier",
+      "category": "mod_upgrade_station",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "UpgradeStation",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "alwaysEmit": true,
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.5,
+        "max": 5,
+        "step": 0.05,
+        "presets": [
+          1,
+          1.3,
+          1.45,
+          1.6
+        ]
+      },
+      "i18nKey": "mods.upgrade_station.upgrade_exponential_multiplier"
+    },
+    {
+      "id": "upgrade_station_max_upgrade_quality_index",
+      "key": "MaxUpgradeQualityIndex",
+      "category": "mod_upgrade_station",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "UpgradeStation",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 5,
+        "min": 0,
+        "max": 5,
+        "step": 1
+      },
+      "i18nKey": "mods.upgrade_station.max_upgrade_quality_index"
+    },
+    {
+      "id": "upgrade_station_upgrade_stat_increase_min",
+      "key": "UpgradeStatIncreaseMin",
+      "category": "mod_upgrade_station",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "UpgradeStation",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 2000,
+        "min": 2000,
+        "max": 10000,
+        "step": 100
+      },
+      "i18nKey": "mods.upgrade_station.upgrade_stat_increase_min"
+    },
+    {
+      "id": "upgrade_station_upgrade_stat_increase_max",
+      "key": "UpgradeStatIncreaseMax",
+      "category": "mod_upgrade_station",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "UpgradeStation",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10000,
+        "min": 2000,
+        "max": 10000,
+        "step": 100
+      },
+      "i18nKey": "mods.upgrade_station.upgrade_stat_increase_max"
+    },
+    {
+      "id": "upgrade_station_upgrade_disallowed_items",
+      "key": "UpgradeDisallowedItems",
+      "category": "mod_upgrade_station",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "UpgradeStation",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "items"
+      },
+      "i18nKey": "mods.upgrade_station.upgrade_disallowed_items"
+    },
+    {
+      "id": "upgrade_station_disable_salvage",
+      "key": "DisableSalvage",
+      "category": "mod_upgrade_station",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "UpgradeStation",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.upgrade_station.disable_salvage"
+    },
+    {
+      "id": "upgrade_station_salvage_multiplier",
+      "key": "SalvageMultiplier",
+      "category": "mod_upgrade_station",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "UpgradeStation",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "alwaysEmit": true,
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 5,
+        "step": 0.05,
+        "presets": [
+          0.5,
+          1,
+          2
+        ]
+      },
+      "i18nKey": "mods.upgrade_station.salvage_multiplier"
+    },
+    {
+      "id": "upgrade_station_fortune_quality_skip_chance",
+      "key": "FortuneQualitySkipChance",
+      "category": "mod_upgrade_station",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "UpgradeStation",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.1,
+        "min": 0,
+        "max": 1,
+        "step": 0.01
+      },
+      "i18nKey": "mods.upgrade_station.fortune_quality_skip_chance"
+    },
+    {
+      "id": "upgrade_station_fortune_reduced_resources_chance",
+      "key": "FortuneReducedResourcesChance",
+      "category": "mod_upgrade_station",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "UpgradeStation",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.upgrade_station.fortune_reduced_resources_chance"
+    },
+    {
+      "id": "upgrade_station_fortune_reduced_resources_multiplier",
+      "key": "FortuneReducedResourcesMultiplier",
+      "category": "mod_upgrade_station",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "UpgradeStation",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.25,
+        "min": 0,
+        "max": 1,
+        "step": 0.05
+      },
+      "i18nKey": "mods.upgrade_station.fortune_reduced_resources_multiplier"
+    },
+    {
+      "id": "upgrade_station_fortune_increased_salvage_chance",
+      "key": "FortuneIncreasedSalvageChance",
+      "category": "mod_upgrade_station",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "UpgradeStation",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.upgrade_station.fortune_increased_salvage_chance"
+    },
+    {
+      "id": "upgrade_station_fortune_increased_salvage_multiplier",
+      "key": "FortuneIncreasedSalvageMultiplier",
+      "category": "mod_upgrade_station",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "UpgradeStation",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 2,
+        "min": 1,
+        "max": 10,
+        "step": 0.1
+      },
+      "i18nKey": "mods.upgrade_station.fortune_increased_salvage_multiplier"
+    },
+    {
+      "id": "upgrade_station_fortune_upgrade_failed_chance",
+      "key": "FortuneUpgradeFailedChance",
+      "category": "mod_upgrade_station",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "UpgradeStation",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 5,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.upgrade_station.fortune_upgrade_failed_chance"
+    },
+    {
+      "id": "upgrade_station_fortune_upgrade_failed_resources_multiplier",
+      "key": "FortuneUpgradeFailedResourcesMultiplier",
+      "category": "mod_upgrade_station",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "UpgradeStation",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.1,
+        "min": 0,
+        "max": 1,
+        "step": 0.05
+      },
+      "i18nKey": "mods.upgrade_station.fortune_upgrade_failed_resources_multiplier"
+    },
+    {
+      "id": "upgrade_station_range_min_per_augment",
+      "key": "RangeMinPerAugment",
+      "category": "mod_upgrade_station",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "AugmentStation",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1000,
+        "min": 1000,
+        "max": 5000,
+        "step": 100
+      },
+      "i18nKey": "mods.upgrade_station.range_min_per_augment"
+    },
+    {
+      "id": "upgrade_station_range_max_per_augment",
+      "key": "RangeMaxPerAugment",
+      "category": "mod_upgrade_station",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "AugmentStation",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1000,
+        "min": 1000,
+        "max": 5000,
+        "step": 100
+      },
+      "i18nKey": "mods.upgrade_station.range_max_per_augment"
+    },
+    {
+      "id": "upgrade_station_max_armor_per_index",
+      "key": "MaxArmorPerIndex",
+      "category": "mod_upgrade_station",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "AugmentStation",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10000,
+        "min": 0,
+        "max": 100000,
+        "step": 500
+      },
+      "i18nKey": "mods.upgrade_station.max_armor_per_index"
+    },
+    {
+      "id": "upgrade_station_max_damage_per_index",
+      "key": "MaxDamagePerIndex",
+      "category": "mod_upgrade_station",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "AugmentStation",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10000,
+        "min": 0,
+        "max": 100000,
+        "step": 500
+      },
+      "i18nKey": "mods.upgrade_station.max_damage_per_index"
+    },
+    {
+      "id": "upgrade_station_max_armor_durability_per_index",
+      "key": "MaxArmorDurabilityPerIndex",
+      "category": "mod_upgrade_station",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "AugmentStation",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10000,
+        "min": 0,
+        "max": 100000,
+        "step": 500
+      },
+      "i18nKey": "mods.upgrade_station.max_armor_durability_per_index"
+    },
+    {
+      "id": "upgrade_station_max_weapon_durability_per_index",
+      "key": "MaxWeaponDurabilityPerIndex",
+      "category": "mod_upgrade_station",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "AugmentStation",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10000,
+        "min": 0,
+        "max": 100000,
+        "step": 500
+      },
+      "i18nKey": "mods.upgrade_station.max_weapon_durability_per_index"
+    },
+    {
+      "id": "upgrade_station_max_hyperthermic_insulation_per_index",
+      "key": "MaxHyperthermicInsulationPerIndex",
+      "category": "mod_upgrade_station",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "AugmentStation",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10000,
+        "min": 0,
+        "max": 100000,
+        "step": 500
+      },
+      "i18nKey": "mods.upgrade_station.max_hyperthermic_insulation_per_index"
+    },
+    {
+      "id": "upgrade_station_max_hypothermic_insulation_per_index",
+      "key": "MaxHypothermicInsulationPerIndex",
+      "category": "mod_upgrade_station",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "AugmentStation",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10000,
+        "min": 0,
+        "max": 100000,
+        "step": 500
+      },
+      "i18nKey": "mods.upgrade_station.max_hypothermic_insulation_per_index"
+    },
+    {
+      "id": "upgrade_station_max_water_retention_per_index",
+      "key": "MaxWaterRetentionPerIndex",
+      "category": "mod_upgrade_station",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "AugmentStation",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10000,
+        "min": 0,
+        "max": 100000,
+        "step": 500
+      },
+      "i18nKey": "mods.upgrade_station.max_water_retention_per_index"
+    }
+  ]
+}

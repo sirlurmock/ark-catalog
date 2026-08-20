@@ -1,0 +1,201 @@
+{
+  "modId": "1650069767",
+  "name": "Sleep able bed",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1650069767",
+  "searchAliases": [
+    "dormir",
+    "cama",
+    "pasar la noche",
+    "saltar la noche"
+  ],
+  "settings": [
+    {
+      "id": "sleepable_beds_earliest_hour_sleeping_allowed",
+      "key": "EarliestHourSleepingAllowed",
+      "category": "mod_sleepable_beds",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "SleepableBeds",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 21,
+        "min": 0,
+        "max": 23,
+        "step": 1
+      },
+      "i18nKey": "mods.sleepable_beds.earliest_hour_sleeping_allowed"
+    },
+    {
+      "id": "sleepable_beds_wake_up_time",
+      "key": "WakeUpTime",
+      "category": "mod_sleepable_beds",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "SleepableBeds",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 5,
+        "min": 0,
+        "max": 23,
+        "step": 1
+      },
+      "i18nKey": "mods.sleepable_beds.wake_up_time"
+    },
+    {
+      "id": "sleepable_beds_allow_sleepingbag",
+      "key": "AllowSleepingbag",
+      "category": "mod_sleepable_beds",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "SleepableBeds",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.sleepable_beds.allow_sleepingbag"
+    },
+    {
+      "id": "sleepable_beds_show_server_message",
+      "key": "ShowServerMessage",
+      "category": "mod_sleepable_beds",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SleepableBeds",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.sleepable_beds.show_server_message"
+    },
+    {
+      "id": "sleepable_beds_percent_of_players_have_to_be_in_bed",
+      "key": "PercentOfPlayersHaveToBeInBed",
+      "category": "mod_sleepable_beds",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "SleepableBeds",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 0,
+        "max": 100,
+        "step": 5
+      },
+      "i18nKey": "mods.sleepable_beds.percent_of_players_have_to_be_in_bed"
+    },
+    {
+      "id": "sleepable_beds_bed_cooldown_time_in_seconds",
+      "key": "BedCooldownTimeInSeconds",
+      "category": "mod_sleepable_beds",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SleepableBeds",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 0,
+        "max": 3600,
+        "step": 10
+      },
+      "i18nKey": "mods.sleepable_beds.bed_cooldown_time_in_seconds"
+    },
+    {
+      "id": "sleepable_beds_bunk_bed_cooldown_time_in_seconds",
+      "key": "BunkBedCooldownTimeInSeconds",
+      "category": "mod_sleepable_beds",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SleepableBeds",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 120,
+        "min": 0,
+        "max": 3600,
+        "step": 10
+      },
+      "i18nKey": "mods.sleepable_beds.bunk_bed_cooldown_time_in_seconds"
+    },
+    {
+      "id": "sleepable_beds_tek_bed_cooldown_time_in_seconds",
+      "key": "TekBedCooldownTimeInSeconds",
+      "category": "mod_sleepable_beds",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "SleepableBeds",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 120,
+        "min": 0,
+        "max": 3600,
+        "step": 10
+      },
+      "i18nKey": "mods.sleepable_beds.tek_bed_cooldown_time_in_seconds"
+    }
+  ]
+}

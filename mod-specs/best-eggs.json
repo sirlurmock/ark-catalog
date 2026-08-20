@@ -1,0 +1,474 @@
+{
+  "_source": "Hilo fijado de INI del Workshop (https://steamcommunity.com/workshop/filedetails/discussion/1931415003/2666627242538055966), sección [BestEggs] de GameUserSettings.ini. Transcrito verbatim el 2026-08-20 — cada clave viene con su default escrito por el autor.",
+  "_defaults": "Los 30 defaults son los del hilo del autor (formato Clave=valor). GestationEggsIconMaxRange viene 'blank/0 by default' — se modela como 0 (= sin límite), conductualmente idéntico al blank.",
+  "_scope": "30 de las 31 claves del hilo. Queda fuera BestEggMakerAltPowerFuelItem (un classname suelto de item de combustible): no hay ControlKind de texto libre de string única — mismo criterio que las opciones de array de Dino Storage v2. Sumarla es una entrada más cuando exista ese control.",
+  "modId": "BestEggs",
+  "name": "Best Eggs!",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1931415003",
+  "prefix": "best_eggs",
+  "searchAliases": ["huevos", "crianza", "incubar", "mutaciones"],
+  "settings": [
+    {
+      "key": "AllowMakeBestEggs",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": true,
+      "es": {
+        "label": "Permitir crear Best Eggs",
+        "description": "Habilita la función principal: crear huevos con los mejores stats de los ancestros cercanos. Default: activado."
+      },
+      "en": {
+        "label": "Allow making Best Eggs",
+        "description": "Enables the core feature: making eggs with the best stats from nearby ancestors. Default: enabled."
+      }
+    },
+    {
+      "key": "BestEggMakerRequirePower",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Best Egg Maker requiere energía",
+        "description": "La estación necesita un generador Tek o kibble como combustible para funcionar (incluida la conservación de huevos). Default: desactivado."
+      },
+      "en": {
+        "label": "Best Egg Maker requires power",
+        "description": "The station needs a Tek generator or kibble fuel to work (including egg preservation). Default: disabled."
+      }
+    },
+    {
+      "key": "ClearEggMutationCounts",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Limpiar contador de mutaciones",
+        "description": "Al crear un Best Egg el contador de mutaciones queda en cero. No afecta los stats, solo el número de seguimiento. Default: desactivado."
+      },
+      "en": {
+        "label": "Clear egg mutation counts",
+        "description": "Making a Best Egg resets the mutation counter to zero. Doesn't affect stats, only the tracking number. Default: disabled."
+      }
+    },
+    {
+      "key": "EnableAutoIncubate",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": true,
+      "es": {
+        "label": "Autoincubar huevos",
+        "description": "Los huevos fertilizados en el inventario de la estación se incuban solos con el tiempo. Default: activado."
+      },
+      "en": {
+        "label": "Auto-incubate eggs",
+        "description": "Fertilized eggs in the station's inventory incubate on their own over time. Default: enabled."
+      }
+    },
+    {
+      "key": "AutoIncubateSpeedMult",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 2.0,
+      "min": 0.1,
+      "max": 100,
+      "step": 0.5,
+      "presets": [1, 2, 5, 10],
+      "es": {
+        "label": "Velocidad de autoincubado",
+        "description": "Multiplicador de la incubación dentro del Best Egg Maker (se suma al EggHatchSpeedMultiplier del servidor). Default 2."
+      },
+      "en": {
+        "label": "Auto-incubate speed",
+        "description": "Incubation speed multiplier inside the Best Egg Maker (stacks with the server's EggHatchSpeedMultiplier). Default 2."
+      }
+    },
+    {
+      "key": "AllowGestationEggs",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": true,
+      "es": {
+        "label": "Permitir huevos de gestación",
+        "description": "Habilita crear huevos de especies con gestación (mamíferos). Default: activado."
+      },
+      "en": {
+        "label": "Allow gestation eggs",
+        "description": "Enables making eggs for gestation species (mammals). Default: enabled."
+      }
+    },
+    {
+      "key": "AllowAutoGatherEggs",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": true,
+      "es": {
+        "label": "Recoger huevos automáticamente",
+        "description": "La estación recoge sola los huevos del área. Default: activado."
+      },
+      "en": {
+        "label": "Auto gather eggs",
+        "description": "The station picks up nearby eggs on its own. Default: enabled."
+      }
+    },
+    {
+      "key": "AllowColorEdit",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": true,
+      "es": {
+        "label": "Permitir editar colores",
+        "description": "Muestra el botón de editar colores del huevo. Apagalo para bloquear cambios de color. Default: activado."
+      },
+      "en": {
+        "label": "Allow color editing",
+        "description": "Shows the egg color edit button. Turn it off to block color changes. Default: enabled."
+      }
+    },
+    {
+      "key": "AllowAnyColor",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Permitir cualquier color",
+        "description": "Permite elegir cualquier color de ARK; desactivado, solo los colores de los ancestros. Default: desactivado."
+      },
+      "en": {
+        "label": "Allow any color",
+        "description": "Allows picking any ARK color; when off, only ancestor colors. Default: disabled."
+      }
+    },
+    {
+      "key": "AncestorSearchRadius",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 5000,
+      "min": 300,
+      "max": 50000,
+      "step": 100,
+      "es": {
+        "label": "Radio de búsqueda de ancestros",
+        "description": "Alcance (en unidades de Unreal, ~300 por cimiento) en el que la estación busca ancestros. También aplica a recoger huevos de agua y gestación. Default 5000."
+      },
+      "en": {
+        "label": "Ancestor search radius",
+        "description": "Range (in Unreal units, ~300 per foundation) the station searches for ancestors. Also applies to gathering water and gestation eggs. Default 5000."
+      }
+    },
+    {
+      "key": "BestEggMakerSlots",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 42,
+      "min": 1,
+      "max": 300,
+      "step": 1,
+      "es": {
+        "label": "Slots del Best Egg Maker",
+        "description": "Capacidad del inventario de la estación (42 = 7 filas). Default 42."
+      },
+      "en": {
+        "label": "Best Egg Maker slots",
+        "description": "The station's inventory capacity (42 = 7 rows). Default 42."
+      }
+    },
+    {
+      "key": "AllowGatherWaterEggs",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": true,
+      "es": {
+        "label": "Recoger huevos de agua",
+        "description": "Habilita la opción de recoger huevos de criaturas acuáticas. Default: activado."
+      },
+      "en": {
+        "label": "Gather water eggs",
+        "description": "Enables gathering eggs from water creatures. Default: enabled."
+      }
+    },
+    {
+      "key": "AllowGatherBloodstalkerEggs",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": true,
+      "es": {
+        "label": "Recoger huevos de Bloodstalker",
+        "description": "Habilita la opción de recoger huevos de Bloodstalker. Default: activado."
+      },
+      "en": {
+        "label": "Gather Bloodstalker eggs",
+        "description": "Enables gathering Bloodstalker eggs. Default: enabled."
+      }
+    },
+    {
+      "key": "EnableLocalAC",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": true,
+      "es": {
+        "label": "Aire acondicionado local",
+        "description": "La estación actúa como un súper aire acondicionado en ~2000 unidades (6-7 cimientos) a la redonda. Default: activado."
+      },
+      "en": {
+        "label": "Local air conditioner",
+        "description": "The station acts as a super AC within ~2000 units (6-7 foundations). Default: enabled."
+      }
+    },
+    {
+      "key": "AutoGatherEggsInterval",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 30,
+      "min": 5,
+      "max": 3600,
+      "step": 5,
+      "es": {
+        "label": "Intervalo de recogida automática (seg)",
+        "description": "Cada cuántos segundos la estación escanea el área para recoger huevos. Default 30."
+      },
+      "en": {
+        "label": "Auto gather interval (sec)",
+        "description": "How often (seconds) the station scans the area to gather eggs. Default 30."
+      }
+    },
+    {
+      "key": "AllowGenderOverride",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": true,
+      "es": {
+        "label": "Permitir elegir género",
+        "description": "Permite cambiar el género del huevo (desactivado, el género se ve pero no se edita). Default: activado."
+      },
+      "en": {
+        "label": "Allow gender override",
+        "description": "Allows changing the egg's gender (when off, gender is visible but not editable). Default: enabled."
+      }
+    },
+    {
+      "key": "GestationEggsInterval",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 30,
+      "min": 1,
+      "max": 3600,
+      "step": 1,
+      "es": {
+        "label": "Intervalo del buff de gestación (seg)",
+        "description": "Cada cuántos segundos la estación escanea dinos para refrescar o aplicar el buff de gestación. Default 30."
+      },
+      "en": {
+        "label": "Gestation buff interval (sec)",
+        "description": "How often (seconds) the station scans dinos to refresh or apply the gestation buff. Default 30."
+      }
+    },
+    {
+      "key": "AllowBreedingBuffClasses",
+      "kind": "string_list",
+      "tier": "expert",
+      "default": ["Buff_AllowBreeding_C"],
+      "es": {
+        "label": "Clases de buff de crianza",
+        "description": "Classnames de buff (con sufijo _C, separados por coma) tratados como el buff Allow Breeding del Mutator de S+. Default: Buff_AllowBreeding_C."
+      },
+      "en": {
+        "label": "Breeding buff classes",
+        "description": "Buff classnames (with _C suffix, comma separated) treated like the S+ Mutator's Allow Breeding buff. Default: Buff_AllowBreeding_C."
+      }
+    },
+    {
+      "key": "MaxOtherDinos",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 10,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "es": {
+        "label": "Máximo de \"otros dinos\" en la UI",
+        "description": "Cuántos dinos cercanos del mismo tipo lista la pestaña Other Dinos del panel de detalles. Default 10."
+      },
+      "en": {
+        "label": "Max \"other dinos\" in UI",
+        "description": "How many nearby dinos of the same type the details panel's Other Dinos tab lists. Default 10."
+      }
+    },
+    {
+      "key": "DefaultShowDetails",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Mostrar detalles automáticamente",
+        "description": "El panel de detalles se abre solo al seleccionar un huevo. Default: desactivado."
+      },
+      "en": {
+        "label": "Show details automatically",
+        "description": "The details panel opens on its own when selecting an egg. Default: disabled."
+      }
+    },
+    {
+      "key": "EggCacheRefreshRate",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 60,
+      "min": 5,
+      "max": 600,
+      "step": 5,
+      "es": {
+        "label": "Refresco de caché de huevos (seg)",
+        "description": "Cada cuántos segundos se refrescan los datos de huevos desde el servidor (mejora la respuesta de la UI). Default 60."
+      },
+      "en": {
+        "label": "Egg cache refresh (sec)",
+        "description": "How often (seconds) egg data refreshes from the server (improves UI responsiveness). Default 60."
+      }
+    },
+    {
+      "key": "LocalACHypoInsulation",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 10000,
+      "min": 0,
+      "max": 100000,
+      "step": 500,
+      "es": {
+        "label": "Aislamiento contra frío del AC local",
+        "description": "Fuerza del aislamiento hipotérmico del aire acondicionado local (el AC vanilla da 120). Default 10000."
+      },
+      "en": {
+        "label": "Local AC hypothermic insulation",
+        "description": "Hypothermic insulation strength of the local AC (vanilla AC gives 120). Default 10000."
+      }
+    },
+    {
+      "key": "LocalACHyperInsulation",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 10000,
+      "min": 0,
+      "max": 100000,
+      "step": 500,
+      "es": {
+        "label": "Aislamiento contra calor del AC local",
+        "description": "Fuerza del aislamiento hipertérmico del aire acondicionado local (el AC vanilla da 120). Default 10000."
+      },
+      "en": {
+        "label": "Local AC hyperthermic insulation",
+        "description": "Hyperthermic insulation strength of the local AC (vanilla AC gives 120). Default 10000."
+      }
+    },
+    {
+      "key": "UseGestationSpeedForEggHatch",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": true,
+      "es": {
+        "label": "Usar velocidad de gestación al eclosionar",
+        "description": "Los huevos de gestación usan la velocidad de gestación del dino como velocidad de eclosión; desactivado, usan la de su categoría. Default: activado."
+      },
+      "en": {
+        "label": "Use gestation speed for egg hatch",
+        "description": "Gestation eggs use the dino's gestation speed as hatch speed; when off, category-based speeds. Default: enabled."
+      }
+    },
+    {
+      "key": "GestaterEggScaleAdjustByDragWeight",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": true,
+      "es": {
+        "label": "Escalar huevo de gestación por tamaño",
+        "description": "El tamaño del huevo de gestación se ajusta según el tamaño del dino y su categoría de kibble. Default: activado."
+      },
+      "en": {
+        "label": "Scale gestation egg by size",
+        "description": "Gestation egg size adjusts based on dino size and kibble category. Default: enabled."
+      }
+    },
+    {
+      "key": "GestaterEggScaleAdjustRate",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 0.66,
+      "min": 0,
+      "max": 2,
+      "step": 0.01,
+      "es": {
+        "label": "Tasa de ajuste del tamaño de huevo",
+        "description": "Multiplicador del algoritmo de escalado: más alto = ajustes de tamaño más grandes respecto a la categoría. Default 0.66."
+      },
+      "en": {
+        "label": "Egg scale adjust rate",
+        "description": "Resizing algorithm multiplier: higher = bigger size adjustments from the category default. Default 0.66."
+      }
+    },
+    {
+      "key": "GestaterEggScaleAdjustDiminish",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 0.9,
+      "min": 0,
+      "max": 1,
+      "step": 0.01,
+      "es": {
+        "label": "Amortiguación del ajuste de tamaño",
+        "description": "Curva de rendimientos decrecientes del escalado: más alto = cambios de tamaño más suaves. Default 0.9."
+      },
+      "en": {
+        "label": "Egg scale adjust diminish",
+        "description": "Diminishing-returns curve of the resizing: higher = smaller overall size changes. Default 0.9."
+      }
+    },
+    {
+      "key": "BestEggMakerAltPowerFuelInterval",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 1800,
+      "min": 60,
+      "max": 86400,
+      "step": 60,
+      "es": {
+        "label": "Intervalo del combustible alternativo (seg)",
+        "description": "Cada cuántos segundos se consume el combustible alternativo cuando la estación requiere energía; afectado por los multiplicadores del servidor. Default 1800."
+      },
+      "en": {
+        "label": "Alt fuel interval (sec)",
+        "description": "How often (seconds) alternate fuel is consumed when the station requires power; affected by server multipliers. Default 1800."
+      }
+    },
+    {
+      "key": "GestationEggsIconHide",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Ocultar icono de huevos de gestación",
+        "description": "Oculta el icono de los huevos de gestación (puede mejorar el rendimiento). Default: desactivado."
+      },
+      "en": {
+        "label": "Hide gestation eggs icon",
+        "description": "Hides the gestation eggs icon (may improve performance). Default: disabled."
+      }
+    },
+    {
+      "key": "GestationEggsIconMaxRange",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 50000,
+      "step": 100,
+      "es": {
+        "label": "Alcance del icono de gestación",
+        "description": "Distancia (unidades UE4, ~300 por cimiento) a la que se ve el icono de huevos de gestación. 0 = sin límite (default)."
+      },
+      "en": {
+        "label": "Gestation icon max range",
+        "description": "Distance (UE4 units, ~300 per foundation) at which the gestation eggs icon is visible. 0 = no limit (default)."
+      }
+    }
+  ]
+}

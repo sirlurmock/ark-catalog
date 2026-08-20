@@ -1,0 +1,692 @@
+{
+  "modId": "BestEggs",
+  "name": "Best Eggs!",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1931415003",
+  "searchAliases": [
+    "huevos",
+    "crianza",
+    "incubar",
+    "mutaciones"
+  ],
+  "settings": [
+    {
+      "id": "best_eggs_allow_make_best_eggs",
+      "key": "AllowMakeBestEggs",
+      "category": "mod_best_eggs",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.best_eggs.allow_make_best_eggs"
+    },
+    {
+      "id": "best_eggs_best_egg_maker_require_power",
+      "key": "BestEggMakerRequirePower",
+      "category": "mod_best_eggs",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.best_eggs.best_egg_maker_require_power"
+    },
+    {
+      "id": "best_eggs_clear_egg_mutation_counts",
+      "key": "ClearEggMutationCounts",
+      "category": "mod_best_eggs",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.best_eggs.clear_egg_mutation_counts"
+    },
+    {
+      "id": "best_eggs_enable_auto_incubate",
+      "key": "EnableAutoIncubate",
+      "category": "mod_best_eggs",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.best_eggs.enable_auto_incubate"
+    },
+    {
+      "id": "best_eggs_auto_incubate_speed_mult",
+      "key": "AutoIncubateSpeedMult",
+      "category": "mod_best_eggs",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 2,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.best_eggs.auto_incubate_speed_mult"
+    },
+    {
+      "id": "best_eggs_allow_gestation_eggs",
+      "key": "AllowGestationEggs",
+      "category": "mod_best_eggs",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.best_eggs.allow_gestation_eggs"
+    },
+    {
+      "id": "best_eggs_allow_auto_gather_eggs",
+      "key": "AllowAutoGatherEggs",
+      "category": "mod_best_eggs",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.best_eggs.allow_auto_gather_eggs"
+    },
+    {
+      "id": "best_eggs_allow_color_edit",
+      "key": "AllowColorEdit",
+      "category": "mod_best_eggs",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.best_eggs.allow_color_edit"
+    },
+    {
+      "id": "best_eggs_allow_any_color",
+      "key": "AllowAnyColor",
+      "category": "mod_best_eggs",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.best_eggs.allow_any_color"
+    },
+    {
+      "id": "best_eggs_ancestor_search_radius",
+      "key": "AncestorSearchRadius",
+      "category": "mod_best_eggs",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 5000,
+        "min": 300,
+        "max": 50000,
+        "step": 100
+      },
+      "i18nKey": "mods.best_eggs.ancestor_search_radius"
+    },
+    {
+      "id": "best_eggs_best_egg_maker_slots",
+      "key": "BestEggMakerSlots",
+      "category": "mod_best_eggs",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 42,
+        "min": 1,
+        "max": 300,
+        "step": 1
+      },
+      "i18nKey": "mods.best_eggs.best_egg_maker_slots"
+    },
+    {
+      "id": "best_eggs_allow_gather_water_eggs",
+      "key": "AllowGatherWaterEggs",
+      "category": "mod_best_eggs",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.best_eggs.allow_gather_water_eggs"
+    },
+    {
+      "id": "best_eggs_allow_gather_bloodstalker_eggs",
+      "key": "AllowGatherBloodstalkerEggs",
+      "category": "mod_best_eggs",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.best_eggs.allow_gather_bloodstalker_eggs"
+    },
+    {
+      "id": "best_eggs_enable_local_ac",
+      "key": "EnableLocalAC",
+      "category": "mod_best_eggs",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.best_eggs.enable_local_ac"
+    },
+    {
+      "id": "best_eggs_auto_gather_eggs_interval",
+      "key": "AutoGatherEggsInterval",
+      "category": "mod_best_eggs",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 30,
+        "min": 5,
+        "max": 3600,
+        "step": 5
+      },
+      "i18nKey": "mods.best_eggs.auto_gather_eggs_interval"
+    },
+    {
+      "id": "best_eggs_allow_gender_override",
+      "key": "AllowGenderOverride",
+      "category": "mod_best_eggs",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.best_eggs.allow_gender_override"
+    },
+    {
+      "id": "best_eggs_gestation_eggs_interval",
+      "key": "GestationEggsInterval",
+      "category": "mod_best_eggs",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 30,
+        "min": 1,
+        "max": 3600,
+        "step": 1
+      },
+      "i18nKey": "mods.best_eggs.gestation_eggs_interval"
+    },
+    {
+      "id": "best_eggs_allow_breeding_buff_classes",
+      "key": "AllowBreedingBuffClasses",
+      "category": "mod_best_eggs",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [
+          "Buff_AllowBreeding_C"
+        ]
+      },
+      "i18nKey": "mods.best_eggs.allow_breeding_buff_classes"
+    },
+    {
+      "id": "best_eggs_max_other_dinos",
+      "key": "MaxOtherDinos",
+      "category": "mod_best_eggs",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.best_eggs.max_other_dinos"
+    },
+    {
+      "id": "best_eggs_default_show_details",
+      "key": "DefaultShowDetails",
+      "category": "mod_best_eggs",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.best_eggs.default_show_details"
+    },
+    {
+      "id": "best_eggs_egg_cache_refresh_rate",
+      "key": "EggCacheRefreshRate",
+      "category": "mod_best_eggs",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 60,
+        "min": 5,
+        "max": 600,
+        "step": 5
+      },
+      "i18nKey": "mods.best_eggs.egg_cache_refresh_rate"
+    },
+    {
+      "id": "best_eggs_local_achypo_insulation",
+      "key": "LocalACHypoInsulation",
+      "category": "mod_best_eggs",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10000,
+        "min": 0,
+        "max": 100000,
+        "step": 500
+      },
+      "i18nKey": "mods.best_eggs.local_achypo_insulation"
+    },
+    {
+      "id": "best_eggs_local_achyper_insulation",
+      "key": "LocalACHyperInsulation",
+      "category": "mod_best_eggs",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 10000,
+        "min": 0,
+        "max": 100000,
+        "step": 500
+      },
+      "i18nKey": "mods.best_eggs.local_achyper_insulation"
+    },
+    {
+      "id": "best_eggs_use_gestation_speed_for_egg_hatch",
+      "key": "UseGestationSpeedForEggHatch",
+      "category": "mod_best_eggs",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.best_eggs.use_gestation_speed_for_egg_hatch"
+    },
+    {
+      "id": "best_eggs_gestater_egg_scale_adjust_by_drag_weight",
+      "key": "GestaterEggScaleAdjustByDragWeight",
+      "category": "mod_best_eggs",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.best_eggs.gestater_egg_scale_adjust_by_drag_weight"
+    },
+    {
+      "id": "best_eggs_gestater_egg_scale_adjust_rate",
+      "key": "GestaterEggScaleAdjustRate",
+      "category": "mod_best_eggs",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.66,
+        "min": 0,
+        "max": 2,
+        "step": 0.01
+      },
+      "i18nKey": "mods.best_eggs.gestater_egg_scale_adjust_rate"
+    },
+    {
+      "id": "best_eggs_gestater_egg_scale_adjust_diminish",
+      "key": "GestaterEggScaleAdjustDiminish",
+      "category": "mod_best_eggs",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.9,
+        "min": 0,
+        "max": 1,
+        "step": 0.01
+      },
+      "i18nKey": "mods.best_eggs.gestater_egg_scale_adjust_diminish"
+    },
+    {
+      "id": "best_eggs_best_egg_maker_alt_power_fuel_interval",
+      "key": "BestEggMakerAltPowerFuelInterval",
+      "category": "mod_best_eggs",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1800,
+        "min": 60,
+        "max": 86400,
+        "step": 60
+      },
+      "i18nKey": "mods.best_eggs.best_egg_maker_alt_power_fuel_interval"
+    },
+    {
+      "id": "best_eggs_gestation_eggs_icon_hide",
+      "key": "GestationEggsIconHide",
+      "category": "mod_best_eggs",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.best_eggs.gestation_eggs_icon_hide"
+    },
+    {
+      "id": "best_eggs_gestation_eggs_icon_max_range",
+      "key": "GestationEggsIconMaxRange",
+      "category": "mod_best_eggs",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BestEggs",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 50000,
+        "step": 100
+      },
+      "i18nKey": "mods.best_eggs.gestation_eggs_icon_max_range"
+    }
+  ]
+}

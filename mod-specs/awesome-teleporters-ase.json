@@ -1,0 +1,401 @@
+{
+  "_source": "Bloque INI de la descripción del Workshop ASE (https://steamcommunity.com/sharedfiles/filedetails/?id=889745138), sección [AwesomeTeleporters]. El autor eliminó los settings in-game: 'In-game settings have been removed and only INI is supported now'. Transcrito el 2026-08-20.",
+  "_defaults": "Los valores del bloque del autor (1/0) se toman como defaults, cruzados contra la versión ASA ya catalogada: en las ~11 claves compartidas coinciden todos salvo CorpseRequiresRemote (ASE: 0, ASA: 1) — divergencia real entre versiones, cada entrada lleva el suyo. El set ASE y el ASA difieren en varias claves (ASE tiene cooldowns/límites/subida de dinos; ASA tiene MeshDetection/BubbleDuration/vehículos), por eso son entradas y namespaces i18n separados.",
+  "_scope": "Las 26 claves del bloque completo del autor.",
+  "_modId": "El modId es el ID del Workshop (precedente Structures Plus) y no el nombre de sección: la versión ASA ya usa modId 'AwesomeTeleporters' y modsById indexa por modId sin distinguir juego — el nombre compartido pisaba una de las dos entradas (lo cazaron los tests de search). Con el ID numérico, workshopIdOf() lo resuelve directo y agregar la mod por ID la encuentra.",
+  "modId": "889745138",
+  "section": "AwesomeTeleporters",
+  "name": "Awesome Teleporters",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=889745138",
+  "prefix": "awesome_teleporters_ase",
+  "searchAliases": ["teletransportadores", "teletransporte", "teleport"],
+  "settings": [
+    {
+      "key": "AllowLastRemoteLocation",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": true,
+      "es": {
+        "label": "Recordar última ubicación remota",
+        "description": "Permite teleportar a la última ubicación visitada con un control remoto. Default: activado."
+      },
+      "en": {
+        "label": "Remember last remote location",
+        "description": "Lets you teleport back to the last visited location with a remote. Default: enabled."
+      }
+    },
+    {
+      "key": "AllowTeleportingToPlayers",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": true,
+      "es": {
+        "label": "Permitir teleport a jugadores",
+        "description": "Los jugadores pueden teleportarse al lugar de otros jugadores online. Default: activado."
+      },
+      "en": {
+        "label": "Allow teleporting to players",
+        "description": "Players can teleport to other online players' locations. Default: enabled."
+      }
+    },
+    {
+      "key": "AllowTeleportingWildDinos",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Permitir teleport llevando dinos salvajes",
+        "description": "Si está activo, podés teleportar dinos salvajes capturados (rompe balance). Default: desactivado."
+      },
+      "en": {
+        "label": "Allow teleporting wild dinos",
+        "description": "If enabled, you can teleport captured wild dinos (breaks balance). Default: disabled."
+      }
+    },
+    {
+      "key": "TeleportSameTeamOnly",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": true,
+      "es": {
+        "label": "Teleport solo entre la misma tribu",
+        "description": "Solo se puede teleportar a teleporters de tu propia tribu o equipo. Default: activado."
+      },
+      "en": {
+        "label": "Teleport same team only",
+        "description": "You can only teleport to your own tribe's or team's teleporters. Default: enabled."
+      }
+    },
+    {
+      "key": "AllowTeleportersOnSaddles",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": true,
+      "es": {
+        "label": "Teleporters en sillas de plataforma",
+        "description": "Permite colocar teleporters sobre sillas de plataforma de dinos. Default: activado."
+      },
+      "en": {
+        "label": "Teleporters on platform saddles",
+        "description": "Allows placing teleporters on dino platform saddles. Default: enabled."
+      }
+    },
+    {
+      "key": "TeleportersRequirePower",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Teleporters requieren electricidad",
+        "description": "Los teleporters solo funcionan si están conectados a un generador. Default: desactivado."
+      },
+      "en": {
+        "label": "Teleporters require power",
+        "description": "Teleporters only work if connected to a generator. Default: disabled."
+      }
+    },
+    {
+      "key": "MaxTeleportersPerTribe",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 0,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Máximo de teleporters por tribu",
+        "description": "Cuántos teleporters puede tener cada tribu. 0 = sin límite (default)."
+      },
+      "en": {
+        "label": "Max teleporters per tribe",
+        "description": "How many teleporters each tribe can own. 0 = unlimited (default)."
+      }
+    },
+    {
+      "key": "AllowTeleportingToObelisks",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": true,
+      "es": {
+        "label": "Permitir teleport a obeliscos",
+        "description": "Permite teleportarse directamente a los obeliscos del mapa. Default: activado."
+      },
+      "en": {
+        "label": "Allow teleporting to obelisks",
+        "description": "Allows teleporting directly to map obelisks. Default: enabled."
+      }
+    },
+    {
+      "key": "TeleportCooldown",
+      "kind": "integer",
+      "tier": "basic",
+      "default": 0,
+      "min": 0,
+      "max": 3600,
+      "step": 5,
+      "es": {
+        "label": "Cooldown de teleport (seg)",
+        "description": "Segundos de espera entre teleports. 0 = sin cooldown (default)."
+      },
+      "en": {
+        "label": "Teleport cooldown (sec)",
+        "description": "Seconds to wait between teleports. 0 = no cooldown (default)."
+      }
+    },
+    {
+      "key": "AllowTeleportingInPreventionZones",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": true,
+      "es": {
+        "label": "Teleport en zonas restringidas",
+        "description": "Permite teleportarse dentro de zonas con prevención de construcción. Default: activado."
+      },
+      "en": {
+        "label": "Teleport in prevention zones",
+        "description": "Allows teleporting inside build-prevention zones. Default: enabled."
+      }
+    },
+    {
+      "key": "RemoteUsesDurability",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "El control remoto gasta durabilidad",
+        "description": "Cada uso del control remoto consume durabilidad. Default: desactivado."
+      },
+      "en": {
+        "label": "Remote uses durability",
+        "description": "Each remote use consumes durability. Default: disabled."
+      }
+    },
+    {
+      "key": "AllowCorpseFinder",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": true,
+      "es": {
+        "label": "Buscador de cadáveres",
+        "description": "Activa la opción de localizar tu propio cadáver con el control remoto. Default: activado."
+      },
+      "en": {
+        "label": "Corpse finder",
+        "description": "Enables locating your own corpse with the remote control. Default: enabled."
+      }
+    },
+    {
+      "key": "CorpseRequiresRemote",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Buscador requiere control remoto",
+        "description": "El buscador de cadáveres solo funciona si tenés un control remoto. Default en ASE: desactivado."
+      },
+      "en": {
+        "label": "Corpse finder requires remote",
+        "description": "Corpse finder only works if you carry a remote. ASE default: disabled."
+      }
+    },
+    {
+      "key": "AllowFindDinos",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": true,
+      "es": {
+        "label": "Buscador de dinos",
+        "description": "Permite localizar tus dinos en el mapa desde el control remoto. Default: activado."
+      },
+      "en": {
+        "label": "Dino finder",
+        "description": "Lets you locate your dinos on the map from the remote. Default: enabled."
+      }
+    },
+    {
+      "key": "FindDinoCooldown",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 0,
+      "min": 0,
+      "max": 3600,
+      "step": 5,
+      "es": {
+        "label": "Cooldown del buscador de dinos (seg)",
+        "description": "Segundos de espera entre usos del buscador de dinos. 0 = sin cooldown (default)."
+      },
+      "en": {
+        "label": "Dino finder cooldown (sec)",
+        "description": "Seconds to wait between dino finder uses. 0 = no cooldown (default)."
+      }
+    },
+    {
+      "key": "AllowDinoUploads",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": true,
+      "es": {
+        "label": "Permitir subir dinos",
+        "description": "Los teleporters permiten subir (guardar) dinos como en un transmisor. Default: activado."
+      },
+      "en": {
+        "label": "Allow dino uploads",
+        "description": "Teleporters allow uploading (storing) dinos like a transmitter. Default: enabled."
+      }
+    },
+    {
+      "key": "DropInventoryOnUpload",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": false,
+      "es": {
+        "label": "Soltar inventario al subir el dino",
+        "description": "Al subir un dino, su inventario cae al suelo en vez de subir con él. Default: desactivado."
+      },
+      "en": {
+        "label": "Drop inventory on upload",
+        "description": "When uploading a dino, its inventory drops to the ground instead of uploading with it. Default: disabled."
+      }
+    },
+    {
+      "key": "UploadedDinosLayEggs",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": true,
+      "es": {
+        "label": "Dinos subidos ponen huevos",
+        "description": "Los dinos guardados en el upload siguen generando huevos. Default: activado."
+      },
+      "en": {
+        "label": "Uploaded dinos lay eggs",
+        "description": "Dinos stored in the upload keep producing eggs. Default: enabled."
+      }
+    },
+    {
+      "key": "MaxDinoUploadsPerTribe",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 1000,
+      "step": 1,
+      "es": {
+        "label": "Máximo de dinos subidos por tribu",
+        "description": "Cuántos dinos puede tener subidos cada tribu. 0 = sin límite (default)."
+      },
+      "en": {
+        "label": "Max dino uploads per tribe",
+        "description": "How many uploaded dinos each tribe can keep. 0 = unlimited (default)."
+      }
+    },
+    {
+      "key": "CheckTameLimitBeforeDownloading",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": true,
+      "es": {
+        "label": "Verificar límite de tames al bajar dinos",
+        "description": "Antes de bajar un dino se comprueba el límite de tames de la tribu. Default: activado."
+      },
+      "en": {
+        "label": "Check tame limit before downloading",
+        "description": "The tribe's tame limit is checked before downloading a dino. Default: enabled."
+      }
+    },
+    {
+      "key": "AdminsSeeAllTeleporters",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Admins ven todos los teleporters",
+        "description": "Los administradores pueden ver el listado completo de teleporters del servidor. Default: desactivado."
+      },
+      "en": {
+        "label": "Admins see all teleporters",
+        "description": "Admins can see the full list of teleporters on the server. Default: disabled."
+      }
+    },
+    {
+      "key": "CombatCooldown",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 0,
+      "min": 0,
+      "max": 600,
+      "step": 5,
+      "es": {
+        "label": "Cooldown tras combate (seg)",
+        "description": "Segundos a esperar después de hacer o recibir daño antes de poder usar el teleport. 0 = sin espera (default)."
+      },
+      "en": {
+        "label": "Combat cooldown (sec)",
+        "description": "Seconds to wait after dealing or taking damage before using teleport features. 0 = no wait (default)."
+      }
+    },
+    {
+      "key": "MaxCharactersPerTeleport",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "es": {
+        "label": "Máximo de personajes por teleport",
+        "description": "Cuántos personajes pueden viajar en un mismo teleport. 0 = sin límite (default)."
+      },
+      "en": {
+        "label": "Max characters per teleport",
+        "description": "How many characters can travel in a single teleport. 0 = unlimited (default)."
+      }
+    },
+    {
+      "key": "EnemyFoundationPreventionRange",
+      "kind": "integer",
+      "tier": "expert",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "es": {
+        "label": "Bloqueo por estructuras enemigas (cimientos)",
+        "description": "Impide colocar teleporters a menos de esta distancia (en cimientos) de estructuras enemigas. 0 = desactivado (default)."
+      },
+      "en": {
+        "label": "Enemy structure prevention range (foundations)",
+        "description": "Prevents placing teleporters within this distance (in foundations) of enemy structures. 0 = disabled (default)."
+      }
+    },
+    {
+      "key": "AllowPlacingOnWalls",
+      "kind": "boolean",
+      "tier": "expert",
+      "default": true,
+      "es": {
+        "label": "Permitir colocar en paredes",
+        "description": "Los teleporters se pueden colocar también en paredes. Default: activado."
+      },
+      "en": {
+        "label": "Allow placing on walls",
+        "description": "Teleporters can also be placed on walls. Default: enabled."
+      }
+    },
+    {
+      "key": "TeleportersAreTransmitters",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": true,
+      "es": {
+        "label": "Teleporters funcionan como transmisores",
+        "description": "Cada teleporter actúa también como transmisor (subida/bajada de dinos). Default: activado."
+      },
+      "en": {
+        "label": "Teleporters work as transmitters",
+        "description": "Each teleporter also acts as a transmitter (upload/download dinos). Default: enabled."
+      }
+    }
+  ]
+}

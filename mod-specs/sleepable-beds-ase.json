@@ -1,0 +1,146 @@
+{
+  "_source": "Descripción del Workshop ASE (https://steamcommunity.com/sharedfiles/filedetails/?id=1650069767), sección [SleepableBeds] de GameUserSettings.ini. Transcrito el 2026-08-20. Defaults cruzados con la versión ASA ya catalogada: las 5 claves compartidas coinciden exacto (21 / 5 / 300 / true / 100).",
+  "_defaults": "Los 8 defaults salen del bloque documentado del autor (EarliestHourSleepingAllowed=21, WakeUpTime=5, AllowSleepingbag=True, ShowServerMessage=True, PercentOfPlayersHaveToBeInBed=100, BedCooldownTimeInSeconds=300, BunkBedCooldownTimeInSeconds=120, TekBedCooldownTimeInSeconds=120).",
+  "_namespace": "El prefix sleepable_beds es COMPARTIDO con la entrada ASA (sus i18nKeys son las formas snake canónicas de las mismas claves). Este spec genera el bloque superset que cubre a las dos — si algún día se escribe un spec ASA, regenerar este DESPUÉS o el bloque perdería las claves solo-ASE.",
+  "_modId": "modId = ID del Workshop (precedente Structures Plus / Awesome Teleporters ASE): la ASA ya usa 'SleepableBeds' y modsById no distingue juego.",
+  "modId": "1650069767",
+  "section": "SleepableBeds",
+  "name": "Sleep able bed",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1650069767",
+  "prefix": "sleepable_beds",
+  "searchAliases": ["dormir", "cama", "pasar la noche", "saltar la noche"],
+  "settings": [
+    {
+      "key": "EarliestHourSleepingAllowed",
+      "kind": "integer",
+      "tier": "basic",
+      "default": 21,
+      "min": 0,
+      "max": 23,
+      "step": 1,
+      "es": {
+        "label": "Hora más temprana para dormir (0-23)",
+        "description": "Hora del juego a partir de la cual los jugadores pueden dormir. Default 21."
+      },
+      "en": {
+        "label": "Earliest hour to sleep (0-23)",
+        "description": "Game hour from which players can sleep. Default 21."
+      }
+    },
+    {
+      "key": "WakeUpTime",
+      "kind": "integer",
+      "tier": "basic",
+      "default": 5,
+      "min": 0,
+      "max": 23,
+      "step": 1,
+      "es": {
+        "label": "Hora de despertar (0-23)",
+        "description": "Hora a la que el día se adelanta al dormir. Default 5."
+      },
+      "en": {
+        "label": "Wake-up time (0-23)",
+        "description": "Game hour the day fast-forwards to when sleeping. Default 5."
+      }
+    },
+    {
+      "key": "AllowSleepingbag",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": true,
+      "es": {
+        "label": "Permitir dormir en saco de dormir",
+        "description": "Los sacos de dormir también dan la opción de dormir. Apagalo si no querés que se pueda saltar la noche mientras se viaja. Default: activado."
+      },
+      "en": {
+        "label": "Allow sleeping bags",
+        "description": "Sleeping bags also offer the sleep option. Turn it off so time can't be skipped while traveling. Default: enabled."
+      }
+    },
+    {
+      "key": "ShowServerMessage",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": true,
+      "es": {
+        "label": "Mostrar mensaje al servidor",
+        "description": "Anuncia en el chat cuando falta gente en cama para pasar la noche. Default: activado."
+      },
+      "en": {
+        "label": "Show server message",
+        "description": "Announces in chat while not enough people are in bed to skip the night. Default: enabled."
+      }
+    },
+    {
+      "key": "PercentOfPlayersHaveToBeInBed",
+      "kind": "integer",
+      "tier": "basic",
+      "default": 100,
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "es": {
+        "label": "% de jugadores que deben estar en cama",
+        "description": "Porcentaje de jugadores online que deben estar acostados para que pase la noche. Default 100."
+      },
+      "en": {
+        "label": "% of players that must be in bed",
+        "description": "Percentage of online players that must be in bed for night to pass. Default 100."
+      }
+    },
+    {
+      "key": "BedCooldownTimeInSeconds",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 300,
+      "min": 0,
+      "max": 3600,
+      "step": 10,
+      "es": {
+        "label": "Cooldown de cama (segundos)",
+        "description": "Cuánto queda bloqueada una cama después de un spawn. Default 300 (5 min)."
+      },
+      "en": {
+        "label": "Bed cooldown (seconds)",
+        "description": "How long a bed stays locked after a spawn. Default 300 (5 min)."
+      }
+    },
+    {
+      "key": "BunkBedCooldownTimeInSeconds",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 120,
+      "min": 0,
+      "max": 3600,
+      "step": 10,
+      "es": {
+        "label": "Cooldown de litera (segundos)",
+        "description": "Cuánto queda bloqueada una litera después de un spawn. Default 120 (2 min)."
+      },
+      "en": {
+        "label": "Bunk bed cooldown (seconds)",
+        "description": "How long a bunk bed stays locked after a spawn. Default 120 (2 min)."
+      }
+    },
+    {
+      "key": "TekBedCooldownTimeInSeconds",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 120,
+      "min": 0,
+      "max": 3600,
+      "step": 10,
+      "es": {
+        "label": "Cooldown de cama Tek (segundos)",
+        "description": "Cuánto queda bloqueada una cama Tek después de un spawn. Default 120 (2 min)."
+      },
+      "en": {
+        "label": "Tek bed cooldown (seconds)",
+        "description": "How long a Tek bed stays locked after a spawn. Default 120 (2 min)."
+      }
+    }
+  ]
+}

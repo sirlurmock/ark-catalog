@@ -1,0 +1,35 @@
+{
+  "modId": "AutoEngrams",
+  "name": "Auto Engrams!",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1428596566",
+  "searchAliases": [
+    "engramas",
+    "desbloquear engramas",
+    "engramas automáticos"
+  ],
+  "settings": [
+    {
+      "id": "auto_engrams_force_unlock",
+      "key": "ForceUnlock",
+      "category": "mod_auto_engrams",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "AutoEngrams",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.auto_engrams.force_unlock"
+    }
+  ]
+}

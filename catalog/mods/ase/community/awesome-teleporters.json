@@ -1,0 +1,581 @@
+{
+  "modId": "889745138",
+  "name": "Awesome Teleporters",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=889745138",
+  "searchAliases": [
+    "teletransportadores",
+    "teletransporte",
+    "teleport"
+  ],
+  "settings": [
+    {
+      "id": "awesome_teleporters_ase_allow_last_remote_location",
+      "key": "AllowLastRemoteLocation",
+      "category": "mod_awesome_teleporters_ase",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.awesome_teleporters_ase.allow_last_remote_location"
+    },
+    {
+      "id": "awesome_teleporters_ase_allow_teleporting_to_players",
+      "key": "AllowTeleportingToPlayers",
+      "category": "mod_awesome_teleporters_ase",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.awesome_teleporters_ase.allow_teleporting_to_players"
+    },
+    {
+      "id": "awesome_teleporters_ase_allow_teleporting_wild_dinos",
+      "key": "AllowTeleportingWildDinos",
+      "category": "mod_awesome_teleporters_ase",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.awesome_teleporters_ase.allow_teleporting_wild_dinos"
+    },
+    {
+      "id": "awesome_teleporters_ase_teleport_same_team_only",
+      "key": "TeleportSameTeamOnly",
+      "category": "mod_awesome_teleporters_ase",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.awesome_teleporters_ase.teleport_same_team_only"
+    },
+    {
+      "id": "awesome_teleporters_ase_allow_teleporters_on_saddles",
+      "key": "AllowTeleportersOnSaddles",
+      "category": "mod_awesome_teleporters_ase",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.awesome_teleporters_ase.allow_teleporters_on_saddles"
+    },
+    {
+      "id": "awesome_teleporters_ase_teleporters_require_power",
+      "key": "TeleportersRequirePower",
+      "category": "mod_awesome_teleporters_ase",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.awesome_teleporters_ase.teleporters_require_power"
+    },
+    {
+      "id": "awesome_teleporters_ase_max_teleporters_per_tribe",
+      "key": "MaxTeleportersPerTribe",
+      "category": "mod_awesome_teleporters_ase",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.awesome_teleporters_ase.max_teleporters_per_tribe"
+    },
+    {
+      "id": "awesome_teleporters_ase_allow_teleporting_to_obelisks",
+      "key": "AllowTeleportingToObelisks",
+      "category": "mod_awesome_teleporters_ase",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.awesome_teleporters_ase.allow_teleporting_to_obelisks"
+    },
+    {
+      "id": "awesome_teleporters_ase_teleport_cooldown",
+      "key": "TeleportCooldown",
+      "category": "mod_awesome_teleporters_ase",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 3600,
+        "step": 5
+      },
+      "i18nKey": "mods.awesome_teleporters_ase.teleport_cooldown"
+    },
+    {
+      "id": "awesome_teleporters_ase_allow_teleporting_in_prevention_zones",
+      "key": "AllowTeleportingInPreventionZones",
+      "category": "mod_awesome_teleporters_ase",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.awesome_teleporters_ase.allow_teleporting_in_prevention_zones"
+    },
+    {
+      "id": "awesome_teleporters_ase_remote_uses_durability",
+      "key": "RemoteUsesDurability",
+      "category": "mod_awesome_teleporters_ase",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.awesome_teleporters_ase.remote_uses_durability"
+    },
+    {
+      "id": "awesome_teleporters_ase_allow_corpse_finder",
+      "key": "AllowCorpseFinder",
+      "category": "mod_awesome_teleporters_ase",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.awesome_teleporters_ase.allow_corpse_finder"
+    },
+    {
+      "id": "awesome_teleporters_ase_corpse_requires_remote",
+      "key": "CorpseRequiresRemote",
+      "category": "mod_awesome_teleporters_ase",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.awesome_teleporters_ase.corpse_requires_remote"
+    },
+    {
+      "id": "awesome_teleporters_ase_allow_find_dinos",
+      "key": "AllowFindDinos",
+      "category": "mod_awesome_teleporters_ase",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.awesome_teleporters_ase.allow_find_dinos"
+    },
+    {
+      "id": "awesome_teleporters_ase_find_dino_cooldown",
+      "key": "FindDinoCooldown",
+      "category": "mod_awesome_teleporters_ase",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 3600,
+        "step": 5
+      },
+      "i18nKey": "mods.awesome_teleporters_ase.find_dino_cooldown"
+    },
+    {
+      "id": "awesome_teleporters_ase_allow_dino_uploads",
+      "key": "AllowDinoUploads",
+      "category": "mod_awesome_teleporters_ase",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.awesome_teleporters_ase.allow_dino_uploads"
+    },
+    {
+      "id": "awesome_teleporters_ase_drop_inventory_on_upload",
+      "key": "DropInventoryOnUpload",
+      "category": "mod_awesome_teleporters_ase",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.awesome_teleporters_ase.drop_inventory_on_upload"
+    },
+    {
+      "id": "awesome_teleporters_ase_uploaded_dinos_lay_eggs",
+      "key": "UploadedDinosLayEggs",
+      "category": "mod_awesome_teleporters_ase",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.awesome_teleporters_ase.uploaded_dinos_lay_eggs"
+    },
+    {
+      "id": "awesome_teleporters_ase_max_dino_uploads_per_tribe",
+      "key": "MaxDinoUploadsPerTribe",
+      "category": "mod_awesome_teleporters_ase",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.awesome_teleporters_ase.max_dino_uploads_per_tribe"
+    },
+    {
+      "id": "awesome_teleporters_ase_check_tame_limit_before_downloading",
+      "key": "CheckTameLimitBeforeDownloading",
+      "category": "mod_awesome_teleporters_ase",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.awesome_teleporters_ase.check_tame_limit_before_downloading"
+    },
+    {
+      "id": "awesome_teleporters_ase_admins_see_all_teleporters",
+      "key": "AdminsSeeAllTeleporters",
+      "category": "mod_awesome_teleporters_ase",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.awesome_teleporters_ase.admins_see_all_teleporters"
+    },
+    {
+      "id": "awesome_teleporters_ase_combat_cooldown",
+      "key": "CombatCooldown",
+      "category": "mod_awesome_teleporters_ase",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 600,
+        "step": 5
+      },
+      "i18nKey": "mods.awesome_teleporters_ase.combat_cooldown"
+    },
+    {
+      "id": "awesome_teleporters_ase_max_characters_per_teleport",
+      "key": "MaxCharactersPerTeleport",
+      "category": "mod_awesome_teleporters_ase",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.awesome_teleporters_ase.max_characters_per_teleport"
+    },
+    {
+      "id": "awesome_teleporters_ase_enemy_foundation_prevention_range",
+      "key": "EnemyFoundationPreventionRange",
+      "category": "mod_awesome_teleporters_ase",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.awesome_teleporters_ase.enemy_foundation_prevention_range"
+    },
+    {
+      "id": "awesome_teleporters_ase_allow_placing_on_walls",
+      "key": "AllowPlacingOnWalls",
+      "category": "mod_awesome_teleporters_ase",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.awesome_teleporters_ase.allow_placing_on_walls"
+    },
+    {
+      "id": "awesome_teleporters_ase_teleporters_are_transmitters",
+      "key": "TeleportersAreTransmitters",
+      "category": "mod_awesome_teleporters_ase",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.awesome_teleporters_ase.teleporters_are_transmitters"
+    }
+  ]
+}

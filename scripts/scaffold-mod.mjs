@@ -124,7 +124,12 @@ function runSpecMode(specPath) {
     // Structures Plus rompe esa suposición: su modId es el ID del Workshop
     // (731604991) y su sección es [StructuresPlus], así que sin `spec.section`
     // las claves saldrían exportadas bajo `[731604991]` y ARK no leería una sola.
-    const { key, kind, tier, es, en, section, ...rest } = s;
+    // `alwaysEmit` es a nivel setting, no del control: el exporter escribe el
+    // valor explícito aunque iguale el default del catálogo. Se usa cuando la
+    // doc de la mod no declara el default real (ver README, convención de
+    // `default`): con el flag, el valor que eligió el usuario llega al .ini
+    // sin importar cuál sea el default interno de la mod.
+    const { key, kind, tier, es, en, section, alwaysEmit, ...rest } = s;
     const control = { kind, ...rest };
     // En un `enum` cada opción lleva su propia traducción. El spec las escribe
     // como `{ value, es, en }` y acá se convierten en `{ value, i18nKey }`,
@@ -158,6 +163,7 @@ function runSpecMode(specPath) {
       section: section ?? spec.section ?? spec.modId,
       games: [spec.game],
       validIn: ["single_player", "host_local", "dedicated"],
+      ...(alwaysEmit === true ? { alwaysEmit: true } : {}),
       control,
       i18nKey: `mods.${ns}.${snake(key)}`,
     };
