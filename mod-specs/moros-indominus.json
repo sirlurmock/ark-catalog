@@ -1,0 +1,35 @@
+{
+  "_source": "Mod de CRIATURAS: no expone ajustes de servidor propios. La entrada existe por sus classnames.",
+  "_scope": "settings vacío A PROPÓSITO.",
+  "modId": "2932656301",
+  "name": "Moro's Indomitable Rex",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2932656301",
+  "prefix": "moros_indominus",
+  "searchAliases": ["criaturas", "indominus", "indoraptor", "jurassic"],
+  "settings": [],
+  "classNames": {
+    "dinos": [
+      {
+        "value": "Gen2IndoRaptor_C",
+        "label": "IndoRaptor Gen2"
+      },
+      {
+        "value": "IndominusRex_Character_BP_C",
+        "label": "Indominus Rex"
+      },
+      {
+        "value": "NewIndoRaptor_Character_BP_C",
+        "label": "IndoRaptor"
+      }
+    ]
+  },
+  "_classnamesSource": {
+    "dinos": {
+      "url": "https://steamcommunity.com/workshop/filedetails/discussion/2932656301/5264192561413834085/",
+      "fetchedAt": "2026-08-20",
+      "note": "Hilo de spawn codes del Workshop; snapshot en _scraped/moros-indominus-spawncodes.txt. Transcrito A MANO (3 criaturas): el hilo intercala marcadores «(Wild)» y «(Tamed)» entre paréntesis, iguales en forma a los nombres, que confundirían al parser de texto. Dos detalles: el spawndino del Indominus trae el path cortado («…_Character_B», sin la P) — se usa el de spawnactor, que está completo — y el Gen2 IndoRaptor NO lleva «_Character» en su clase (Gen2IndoRaptor), así que no lo habría detectado la heurística de criaturas."
+    }
+  }
+}

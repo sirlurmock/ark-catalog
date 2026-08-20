@@ -13,8 +13,16 @@
   "classNames": {
     "dinos": [
       {
+        "value": "AbyssalXiph_Character_BP_C",
+        "label": "Abyssal Xiphactinus"
+      },
+      {
         "value": "Acrocanthosaurus_Character_BP_C",
         "label": "Acrocanthosaurus"
+      },
+      {
+        "value": "Acrocanthosaurus_Character_BP_Eden_C",
+        "label": "R-Acrocanthosaurus"
       },
       {
         "value": "Archelon_Character_BP_C",
@@ -22,11 +30,43 @@
       },
       {
         "value": "Bog_Acrocanthosaurus_Character_BP_C",
-        "label": "X-Acro"
+        "label": "X-Acrocanthosaurus"
       },
       {
         "value": "Bog_Deinosuchus_Character_BP_C",
         "label": "X-Deinosuchus"
+      },
+      {
+        "value": "Brachiosaurus_Character_BP_Aberrant_C",
+        "label": "Aberrant Brachiosaurus"
+      },
+      {
+        "value": "Brachiosaurus_Character_BP_C",
+        "label": "Brachiosaurus"
+      },
+      {
+        "value": "Brachiosaurus_Character_BP_Eden_C",
+        "label": "R-Brachiosaurus"
+      },
+      {
+        "value": "Brachiosaurus_Character_BP_Woolly_C",
+        "label": "Woolly Brachiosaurus"
+      },
+      {
+        "value": "Concavenator_Character_Aberrant_BP_C",
+        "label": "Aberrant Concavenator"
+      },
+      {
+        "value": "Concavenator_Character_BP_C",
+        "label": "Concavenator"
+      },
+      {
+        "value": "Cryolophosaurus_Character_BP_C",
+        "label": "Cryolophosaurus"
+      },
+      {
+        "value": "Cryolophosaurus_Character_BP_Rockwell_C",
+        "label": "R-Cryolophosaurus"
       },
       {
         "value": "Deinosuchus_Character_BP_Aberrant_C",
@@ -37,36 +77,218 @@
         "label": "Deinosuchus"
       },
       {
+        "value": "Indominus_Character_AB_BP_C",
+        "label": "Aberrant Domination Rex"
+      },
+      {
+        "value": "Indominus_Character_BP_C",
+        "label": "Domination Rex"
+      },
+      {
+        "value": "Indominus_Character_Extinction_BP_C",
+        "label": "Extinction Domination Rex"
+      },
+      {
+        "value": "Indominus_Character_GEN_BP_C",
+        "label": "Tek Domination Rex"
+      },
+      {
+        "value": "Indominus_Character_SE_BP_C",
+        "label": "Scorched Domination Rex"
+      },
+      {
+        "value": "OceanArchelon_Character_BP_C",
+        "label": "X-Archelon"
+      },
+      {
+        "value": "OceanXiph_Character_BP_C",
+        "label": "X-Xiphactinus"
+      },
+      {
         "value": "Scorched_Acrocanthosaurus_Character_BP_C",
-        "label": "Scorched Acro"
+        "label": "Scorched Acrocanthosaurus"
+      },
+      {
+        "value": "Volcanic_Brachiosaurus_Character_BP_C",
+        "label": "X-Brachiosaurus"
+      },
+      {
+        "value": "Volcanic_Concavenator_Character_BP_C",
+        "label": "X-Concavenator"
+      },
+      {
+        "value": "Xiph_Character_BP_C",
+        "label": "Xiphactinus"
       }
     ],
     "dino_name_tags": [
       {
         "value": "Acro",
-        "label": "Acro (Acrocanthosaurus)"
+        "label": "Acro"
+      },
+      {
+        "value": "AdditionsBrachio",
+        "label": "AdditionsBrachio"
       },
       {
         "value": "Archelon",
         "label": "Archelon"
       },
       {
+        "value": "Concavenator",
+        "label": "Concavenator"
+      },
+      {
+        "value": "Cryolophosaurus",
+        "label": "Cryolophosaurus"
+      },
+      {
         "value": "Deino",
-        "label": "Deino (Deinosuchus)"
+        "label": "Deino"
+      },
+      {
+        "value": "Indom",
+        "label": "Indom"
+      },
+      {
+        "value": "Xiph",
+        "label": "Xiph"
       }
     ],
     "items": [
       {
-        "value": "/Game/Mods/Additions_Pack/Acrocanthosaurus/Blueprints/PrimalItemArmor_AcroSaddle.PrimalItemArmor_AcroSaddle",
-        "label": "Silla de Acrocanthosaurus"
+        "value": "/Game/Mods/Acrocanthosaurus/Blueprints/PrimalItemArmor_AcroSaddle.PrimalItemArmor_AcroSaddle",
+        "label": "Acro Saddle"
       },
       {
-        "value": "/Game/Mods/Ark_Additions/Archelon/Dinos/PrimalItem_Armor_Archelon_Saddle.PrimalItem_Armor_Archelon_Saddle",
-        "label": "Silla de Archelon"
+        "value": "/Game/Mods/Additions_Pack/Acrocanthosaurus/Blueprints/PrimalItemConsumable_BossSummon_SavageAcro.PrimalItemConsumable_BossSummon_SavageAcro",
+        "label": "Boss Summon Savage Acro"
       },
       {
-        "value": "/Game/Mods/Ark_Additions/Deinosuchus/Dinos/PrimalItemArmor_Deinosuchus_Saddle.PrimalItemArmor_Deinosuchus_Saddle",
-        "label": "Silla de Deinosuchus"
+        "value": "/Game/Mods/Additions_Pack/Acrocanthosaurus/Blueprints/PrimalItemCostume_GhostAcro.PrimalItemCostume_GhostAcro",
+        "label": "Primal Item Costume Ghost Acro"
+      },
+      {
+        "value": "/Game/Mods/Additions_Pack/Acrocanthosaurus/Blueprints/PrimalItemCostume_SavageAcro.PrimalItemCostume_SavageAcro",
+        "label": "Primal Item Costume Savage Acro"
+      },
+      {
+        "value": "/Game/Mods/Additions_Pack/Acrocanthosaurus/Blueprints/PrimalItemResource_ApexDrop_Acro.PrimalItemResource_ApexDrop_Acro",
+        "label": "Apex Drop Acro"
+      },
+      {
+        "value": "/Game/Mods/Additions_Pack/Acrocanthosaurus/Blueprints/PrimalItemTrophy_SavageAcro.PrimalItemTrophy_SavageAcro",
+        "label": "Primal Item Trophy Savage Acro"
+      },
+      {
+        "value": "/Game/Mods/Additions_Pack/Acrocanthosaurus/Dinos/SavageTextures/PrimalItemStructure_Flag_SavageAcro.PrimalItemStructure_Flag_SavageAcro",
+        "label": "Flag Savage Acro"
+      },
+      {
+        "value": "/Game/Mods/Additions_Pack/Chibis/PrimalItemSkin_ChibiDino_Acro.PrimalItemSkin_ChibiDino_Acro",
+        "label": "Chibi Dino Acro"
+      },
+      {
+        "value": "/Game/Mods/Additions_Pack/Chibis/PrimalItemSkin_ChibiDino_Acro_Gen1.PrimalItemSkin_ChibiDino_Acro_Gen1",
+        "label": "Chibi Dino Acro Gen1"
+      },
+      {
+        "value": "/Game/Mods/Additions_Pack/Chibis/PrimalItemSkin_ChibiDino_Acro_Gen2.PrimalItemSkin_ChibiDino_Acro_Gen2",
+        "label": "Chibi Dino Acro Gen2"
+      },
+      {
+        "value": "/Game/Mods/Additions_Pack/Chibis/PrimalItemSkin_ChibiDino_Acro_Savage.PrimalItemSkin_ChibiDino_Acro_Savage",
+        "label": "Chibi Dino Acro Savage"
+      },
+      {
+        "value": "/Game/Mods/Additions_Pack/Chibis/PrimalItemSkin_ChibiDino_Acro_Scorched.PrimalItemSkin_ChibiDino_Acro_Scorched",
+        "label": "Chibi Dino Acro Scorched"
+      },
+      {
+        "value": "/Game/Mods/Additions_Pack/Depths_Stuff/Blueprints/PrimalItemBase_ChibiDino_Depths.PrimalItemBase_ChibiDino_Depths",
+        "label": "Primal Item Base Chibi Dino Depths"
+      },
+      {
+        "value": "/Game/Mods/Archelon/Blueprints/PrimalItem_Armor_Archelon_Saddle.PrimalItem_Armor_Archelon_Saddle",
+        "label": "Armor Archelon Saddle"
+      },
+      {
+        "value": "/Game/Mods/Brachiosaurus/Blueprints/PrimalItemArmor_BrachioSaddle.PrimalItemArmor_BrachioSaddle",
+        "label": "Brachio Saddle"
+      },
+      {
+        "value": "/Game/Mods/Concavenator/Blueprints/PrimalItemArmor_ConcaSaddle.PrimalItemArmor_ConcaSaddle",
+        "label": "Conca Saddle"
+      },
+      {
+        "value": "/Game/Mods/Deinosuchus/Dino/PrimalItemArmor_Deinosuchus_Saddle.PrimalItemArmor_Deinosuchus_Saddle",
+        "label": "Deinosuchus Saddle"
+      },
+      {
+        "value": "/Game/Mods/Indominus/Blueprints/PrimalItemCostume_SnowIndominus.PrimalItemCostume_SnowIndominus",
+        "label": "Primal Item Costume Snow Indominus"
+      },
+      {
+        "value": "/Game/Mods/Indominus/Blueprints/PrimalitemArmor_IndominusSaddle.PrimalitemArmor_IndominusSaddle",
+        "label": "Primalitem Armor Indominus Saddle"
+      },
+      {
+        "value": "/Game/Mods/Indominus/Blueprints/PrimalitemConsumable_Egg_IndominusRex.PrimalitemConsumable_Egg_IndominusRex",
+        "label": "Primalitem Consumable Egg Indominus Rex"
+      },
+      {
+        "value": "/Game/Mods/Xiphactinus/Blueprints/PrimalItemArmor_XiphSaddle.PrimalItemArmor_XiphSaddle",
+        "label": "Xiph Saddle"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_ConcaSaddle_C",
+        "label": "Concavenator Saddle"
+      },
+      {
+        "value": "EngramEntry_CryoSaddle_C",
+        "label": "Cryolophosaurus Saddle"
+      },
+      {
+        "value": "EngramEntry_IndominusRexEgg_AB_C",
+        "label": "Domination Rex Egg (Aberrant)"
+      },
+      {
+        "value": "EngramEntry_IndominusRexEgg_C",
+        "label": "Domination Rex Egg"
+      },
+      {
+        "value": "EngramEntry_IndominusRexEgg_EXT_C",
+        "label": "Domination Rex Egg (Extinction)"
+      },
+      {
+        "value": "EngramEntry_IndominusRexEgg_SE_C",
+        "label": "Domination Rex Egg (Scorched)"
+      },
+      {
+        "value": "EngramEntry_IndominusSaddle_C",
+        "label": "Domination Rex Saddle"
+      },
+      {
+        "value": "EngramEntry_SaddleAcro_C",
+        "label": "Acro Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_AdditionsBrachio_C",
+        "label": "Brachiosaurus Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Archelon_C",
+        "label": "Archelon Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Deinosuchus_C",
+        "label": "Deinosuchus Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Xiphactinus_C",
+        "label": "Xiphactinus Saddle"
       }
     ]
   }

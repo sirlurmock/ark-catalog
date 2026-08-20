@@ -1,0 +1,194 @@
+{
+  "modId": "1984936918",
+  "name": "MarniiMods: Wildlife",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1984936918",
+  "searchAliases": [
+    "criaturas",
+    "animales",
+    "fauna",
+    "wildlife"
+  ],
+  "settings": [],
+  "classNames": {
+    "dinos": [
+      {
+        "value": "Camel_MM_Character_BP_C",
+        "label": "Camel"
+      },
+      {
+        "value": "Capra_MM_Character_BP_C",
+        "label": "Mountain goat"
+      },
+      {
+        "value": "Cat_Character_BP_C",
+        "label": "Cat"
+      },
+      {
+        "value": "Cattle_Character_BP_C",
+        "label": "Cow & Bull"
+      },
+      {
+        "value": "Chicken_Character_BP_C",
+        "label": "Hen & Rooster"
+      },
+      {
+        "value": "Elephant_mm_Character_BP_C",
+        "label": "Elephant"
+      },
+      {
+        "value": "Exoticbird_Character_BP_C",
+        "label": "Exotic bird"
+      },
+      {
+        "value": "Frog_MM_Character_BP_C",
+        "label": "Frog"
+      },
+      {
+        "value": "Gecko_Character_BP_C",
+        "label": "Gecko"
+      },
+      {
+        "value": "Hare_Character_BP_C",
+        "label": "Hare"
+      },
+      {
+        "value": "Lions_Character_BP_C",
+        "label": "Lion & Lioness"
+      },
+      {
+        "value": "Rats_MM_Character_BP_C",
+        "label": "Rats"
+      },
+      {
+        "value": "Raven_MM_Character_BP_C",
+        "label": "Raven"
+      },
+      {
+        "value": "Shadowcat_Character_BP_C",
+        "label": "Shadowcat"
+      },
+      {
+        "value": "Snake_MM_Character_BP_C",
+        "label": "Snake"
+      },
+      {
+        "value": "Snowleopard_Character_BP_C",
+        "label": "Snow Leopard"
+      },
+      {
+        "value": "avesowl_Character_BP_C",
+        "label": "Small Owl"
+      },
+      {
+        "value": "wolf_mm_Character_BP_C",
+        "label": "Wolf"
+      }
+    ],
+    "items": [
+      {
+        "value": "/Game/Mods/MarniiModsWildlife/Wildlife/Chicken/Chibi/PrimalItemSkin_ChibiDino_MMHen.PrimalItemSkin_ChibiDino_MMHen",
+        "label": "Hen"
+      },
+      {
+        "value": "/Game/Mods/MarniiModsWildlife/Wildlife/Lions/Chibi/PrimalItemSkin_ChibiDino_MMLion2.PrimalItemSkin_ChibiDino_MMLion2",
+        "label": "Juvenile Lion"
+      },
+      {
+        "value": "/Game/Mods/MarniiModsWildlife/Wildlife/MMOwls/Chibi/PrimalItemSkin_ChibiDino_MMSmallOwl.PrimalItemSkin_ChibiDino_MMSmallOwl",
+        "label": "Snow Owl"
+      },
+      {
+        "value": "/Game/Mods/MarniiModsWildlife/Wildlife/Raven/Chibi/PrimalItemSkin_ChibiDino_MMRaven.PrimalItemSkin_ChibiDino_MMRaven",
+        "label": "Raven"
+      },
+      {
+        "value": "/Game/Mods/MarniiModsWildlife/Wildlife/Shadowcat/Chibi/PrimalItemSkin_ChibiDino_MMShadowcat.PrimalItemSkin_ChibiDino_MMShadowcat",
+        "label": "Shadowcat"
+      },
+      {
+        "value": "/Game/Mods/MarniiModsWildlife/Wildlife/Shadowcat/Chibi/PrimalItemSkin_ChibiDino_MMShadowcat2.PrimalItemSkin_ChibiDino_MMShadowcat2",
+        "label": "Juvenile Shadowcat"
+      },
+      {
+        "value": "/Game/Mods/MarniiModsWildlife/Wildlife/SnowLeopard/Chibi/PrimalItemSkin_ChibiDino_MMSnowLeopard.PrimalItemSkin_ChibiDino_MMSnowLeopard",
+        "label": "Snow leopard"
+      },
+      {
+        "value": "/Game/Mods/MarniiModsWildlife/Wildlife/SnowLeopard/Chibi/PrimalItemSkin_ChibiDino_MMSnowleopard2.PrimalItemSkin_ChibiDino_MMSnowleopard2",
+        "label": "Juvenile Snow leopard"
+      },
+      {
+        "value": "/Game/Mods/MarniimodsWildlife/Wildlife/CanisLupus/Chibi/PrimalItemSkin_ChibiDino_MMwolf.PrimalItemSkin_ChibiDino_MMwolf",
+        "label": "Wolf"
+      },
+      {
+        "value": "/Game/Mods/MarniimodsWildlife/Wildlife/CanisLupus/Chibi/PrimalItemSkin_ChibiDino_MMwolf2.PrimalItemSkin_ChibiDino_MMwolf2",
+        "label": "Juvenile Wolf"
+      },
+      {
+        "value": "/Game/Mods/MarniimodsWildlife/Wildlife/Cat/Chibi/PrimalItemSkin_ChibiDino_MMCat.PrimalItemSkin_ChibiDino_MMCat",
+        "label": "Cat"
+      },
+      {
+        "value": "/Game/Mods/MarniimodsWildlife/Wildlife/Chicken/Chibi/PrimalItemSkin_ChibiDino_MMRooster.PrimalItemSkin_ChibiDino_MMRooster",
+        "label": "Rooster"
+      },
+      {
+        "value": "/Game/Mods/MarniimodsWildlife/Wildlife/ExoticBird/Chibi/PrimalItemSkin_ChibiDino_MMexoticbird.PrimalItemSkin_ChibiDino_MMexoticbird",
+        "label": "Exotic bird"
+      },
+      {
+        "value": "/Game/Mods/MarniimodsWildlife/Wildlife/Frog/Chibi/PrimalItemSkin_ChibiDino_MMfrog.PrimalItemSkin_ChibiDino_MMfrog",
+        "label": "Frog"
+      },
+      {
+        "value": "/Game/Mods/MarniimodsWildlife/Wildlife/Lions/Chibi/PrimalItemSkin_ChibiDino_MMLionCub.PrimalItemSkin_ChibiDino_MMLionCub",
+        "label": "Lion"
+      },
+      {
+        "value": "/Game/Mods/MarniimodsWildlife/Wildlife/Snakes/Chibi/PrimalItemSkin_ChibiDino_MMsnake.PrimalItemSkin_ChibiDino_MMsnake",
+        "label": "Snake"
+      },
+      {
+        "value": "/Game/Mods/Wildlife/z_Saddles/Canine/PrimalItemArmor_CLwolf.PrimalItemArmor_CLwolf",
+        "label": "Wolf saddle"
+      },
+      {
+        "value": "/Game/Mods/Wildlife/z_Saddles/Feline/Lion/PrimalItemArmor_LionSaddle.PrimalItemArmor_LionSaddle",
+        "label": "Lion Saddle"
+      },
+      {
+        "value": "/Game/Mods/Wildlife/z_Saddles/Feline/Shadowcat/PrimalItemArmor_ShadowcatSaddle.PrimalItemArmor_ShadowcatSaddle",
+        "label": "Shadowcat Saddle"
+      },
+      {
+        "value": "/Game/Mods/Wildlife/z_Saddles/Feline/SnowLeopard/PrimalItemArmor_SLSaddle.PrimalItemArmor_SLSaddle",
+        "label": "Snow Leopard Saddle"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_Saddle_CLwolf_C",
+        "label": "Wolf saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Lion_C",
+        "label": "Lion Saddle"
+      },
+      {
+        "value": "EngramEntry_Shadowcat_Saddle_C",
+        "label": "Shadowcat Saddle"
+      },
+      {
+        "value": "EngramEntry_SnowLeopard_Saddle_C",
+        "label": "Snow Leopard Saddle"
+      },
+      {
+        "value": "EngramEntry_elephant_Saddle_C",
+        "label": "Elephant Saddle"
+      }
+    ]
+  }
+}

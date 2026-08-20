@@ -1,0 +1,30 @@
+{
+  "modId": "2932656301",
+  "name": "Moro's Indomitable Rex",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2932656301",
+  "searchAliases": [
+    "criaturas",
+    "indominus",
+    "indoraptor",
+    "jurassic"
+  ],
+  "settings": [],
+  "classNames": {
+    "dinos": [
+      {
+        "value": "Gen2IndoRaptor_C",
+        "label": "IndoRaptor Gen2"
+      },
+      {
+        "value": "IndominusRex_Character_BP_C",
+        "label": "Indominus Rex"
+      },
+      {
+        "value": "NewIndoRaptor_Character_BP_C",
+        "label": "IndoRaptor"
+      }
+    ]
+  }
+}

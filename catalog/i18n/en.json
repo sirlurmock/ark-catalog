@@ -3395,7 +3395,9 @@
     "no_settings_but_classnames": "This mod has no server settings of its own, but its creatures and items already show up in the spawn, recipe and command autocomplete while it is active.",
     "prehistoric_beasts": {},
     "kami_creations": {},
-    "ark_additions": {}
+    "ark_additions": {},
+    "marniimods_wildlife": {},
+    "moros_indominus": {}
   },
   "mods_structures_plus": {
     "category": "Structures Plus",
