@@ -103,7 +103,7 @@
       "kind": "string_list",
       "tier": "advanced",
       "default": [],
-      "suggestions": "items",
+      "suggestions": "items_classnames",
       "es": {
         "label": "Objetos que no se pueden mejorar",
         "description": "Clases de objeto (classnames) excluidas de la estación de mejora, separadas por coma."

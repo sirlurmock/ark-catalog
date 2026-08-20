@@ -88,6 +88,36 @@ que sí están catalogados.
 `[CastleModifiers]`: aliasearlo haría que la app le escribiera claves que esa mod
 nunca lee. Va como entrada aparte.
 
+## `classNames` (prompt 22)
+
+Bloque opcional con los classnames que la mod aporta al autocompletado
+(recetas de crafteo, «Dar item», overrides de engramas, `string_list` con
+sugerencias). Solo se sugieren con la mod **activa en el perfil**.
+
+```jsonc
+{
+  "classNames": {
+    "items":   [{ "value": "/Game/Mods/…/PrimalItem_X.PrimalItem_X", "label": "X" }],
+    "engrams": [{ "value": "EngramEntry_X_C", "label": "X" }]
+  },
+  "_classnamesSource": { "items": { "url": "…", "fetchedAt": "2026-08-20", "note": "…" } }
+}
+```
+
+Reglas:
+
+- **Fuente citable obligatoria** en `_classnamesSource`, como los defaults. Sin
+  fuente, la mod no lleva bloque — el texto libre sigue funcionando.
+- En `items` el `value` es el **blueprint path** (lo que pide GiveItem; los
+  campos `ItemClassString` derivan el `_C` solos); en `engrams` es el
+  classname `_C`, como el catálogo core.
+- **Las páginas de arkcodes.com son de las versiones ASA**: sus paths NO
+  sirven tal cual para una entrada ASE (`/Game/Mods/<carpeta>/…`, y a veces
+  distinto set de items). `fetch-mod-classnames.mjs` sirve como borrador;
+  para ASE, corregir con una fuente nativa (hilo de spawncodes del Workshop).
+- Los labels del scraper salen humanizados del classname y son borrador:
+  revisarlos a mano antes de regenerar.
+
 ## Alcance de `dino-storage-v2.json`
 
 La wiki oficial documenta ~180 claves; el spec cubre **44**. Criterio: lo que se

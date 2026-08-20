@@ -178,6 +178,10 @@ function runSpecMode(specPath) {
     ...(spec.alsoWorkshopIds ? { alsoWorkshopIds: spec.alsoWorkshopIds } : {}),
     ...(spec.searchAliases ? { searchAliases: spec.searchAliases } : {}),
     settings,
+    // Bloque de classnames de la mod (prompt 22): va tal cual al JSON. La
+    // fuente citable queda en `_classnamesSource` del spec, que como todo
+    // campo con guion bajo no se publica.
+    ...(spec.classNames ? { classNames: spec.classNames } : {}),
   };
 
   const dest = args.out ?? `catalog/mods/${spec.game}/community/${slugify(spec.name)}.json`;

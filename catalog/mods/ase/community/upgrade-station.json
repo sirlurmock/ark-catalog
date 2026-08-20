@@ -164,7 +164,7 @@
       "control": {
         "kind": "string_list",
         "default": [],
-        "suggestions": "items"
+        "suggestions": "items_classnames"
       },
       "i18nKey": "mods.upgrade_station.upgrade_disallowed_items"
     },

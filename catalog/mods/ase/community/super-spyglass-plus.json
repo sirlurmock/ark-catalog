@@ -304,5 +304,43 @@
       },
       "i18nKey": "mods.super_spyglass_plus.only_hpon_enemy_tribe_dinos"
     }
-  ]
+  ],
+  "classNames": {
+    "items": [
+      {
+        "value": "/Game/Mods/SuperSpyglassPlus/Remote/PrimalItem_SSP_Remote.PrimalItem_SSP_Remote",
+        "label": "SSP Remote"
+      },
+      {
+        "value": "/Game/Mods/SuperSpyglassPlus/SuperSpyGlass/PrimalItemSkin_SSP.PrimalItemSkin_SSP",
+        "label": "Spyglass Skin (SSP)"
+      },
+      {
+        "value": "/Game/Mods/SuperSpyglassPlus/SuperSpyGlass/PrimalItemWeapon_SuperSpyglassPlus.PrimalItemWeapon_SuperSpyglassPlus",
+        "label": "Super Spyglass Plus"
+      },
+      {
+        "value": "/Game/Mods/SuperSpyglassPlus/SuperSpyGlass/PrimalItem_SSP_Consumable.PrimalItem_SSP_Consumable",
+        "label": "SSP Consumable"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_SSP_Remote_C",
+        "label": "SSP Remote"
+      },
+      {
+        "value": "EngramEntry_SSP_SpyglassSkin_C",
+        "label": "Spyglass Skin (SSP)"
+      },
+      {
+        "value": "EngramEntry_SuperSpyglassPlus_C",
+        "label": "Super Spyglass Plus"
+      },
+      {
+        "value": "EngramEntry_SuperSpyglassPlus_Consumable_C",
+        "label": "SSP Consumable"
+      }
+    ]
+  }
 }

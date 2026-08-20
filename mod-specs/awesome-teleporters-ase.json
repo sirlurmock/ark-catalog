@@ -10,7 +10,11 @@
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=889745138",
   "prefix": "awesome_teleporters_ase",
-  "searchAliases": ["teletransportadores", "teletransporte", "teleport"],
+  "searchAliases": [
+    "teletransportadores",
+    "teletransporte",
+    "teleport"
+  ],
   "settings": [
     {
       "key": "AllowLastRemoteLocation",
@@ -397,5 +401,28 @@
         "description": "Each teleporter also acts as a transmitter (upload/download dinos). Default: enabled."
       }
     }
-  ]
+  ],
+  "classNames": {
+    "items": [
+      {
+        "value": "/Game/Mods/AwesomeTeleporters/Blueprints/Remote/PrimalItem_AwesomeTeleporters_Remote.PrimalItem_AwesomeTeleporters_Remote",
+        "label": "Teleporter Remote"
+      },
+      {
+        "value": "/Game/Mods/AwesomeTeleporters/Blueprints/Teleporter/PrimalItem_AwesomeTeleporters_Teleporter.PrimalItem_AwesomeTeleporters_Teleporter",
+        "label": "Teleporter"
+      },
+      {
+        "value": "/Game/Mods/AwesomeTeleporters/Blueprints/Tracker/PrimalItemConsumable_AwesomeTeleporters_DinoTracker.PrimalItemConsumable_AwesomeTeleporters_DinoTracker",
+        "label": "Dino Tracker"
+      }
+    ]
+  },
+  "_classnamesSource": {
+    "items": {
+      "url": "https://steamcommunity.com/app/346110/discussions/0/2794999097682434482",
+      "fetchedAt": "2026-08-20",
+      "note": "Remote y Teleporter transcritos verbatim de la discusión del Workshop ASE (paths /Game/Mods/AwesomeTeleporters/...). El Dino Tracker sigue el mismo esquema documentado, con el subpath de la versión ASA (arkcodes, snapshots en _scraped/) — los subpaths de las otras dos coinciden exacto entre versiones. SIN engrams: no hay cita ASE nativa de los EngramEntry y un classname mal escrito en overrides de engramas falla en silencio."
+    }
+  }
 }

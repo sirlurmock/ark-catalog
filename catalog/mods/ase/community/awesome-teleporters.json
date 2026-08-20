@@ -577,5 +577,21 @@
       },
       "i18nKey": "mods.awesome_teleporters_ase.teleporters_are_transmitters"
     }
-  ]
+  ],
+  "classNames": {
+    "items": [
+      {
+        "value": "/Game/Mods/AwesomeTeleporters/Blueprints/Remote/PrimalItem_AwesomeTeleporters_Remote.PrimalItem_AwesomeTeleporters_Remote",
+        "label": "Teleporter Remote"
+      },
+      {
+        "value": "/Game/Mods/AwesomeTeleporters/Blueprints/Teleporter/PrimalItem_AwesomeTeleporters_Teleporter.PrimalItem_AwesomeTeleporters_Teleporter",
+        "label": "Teleporter"
+      },
+      {
+        "value": "/Game/Mods/AwesomeTeleporters/Blueprints/Tracker/PrimalItemConsumable_AwesomeTeleporters_DinoTracker.PrimalItemConsumable_AwesomeTeleporters_DinoTracker",
+        "label": "Dino Tracker"
+      }
+    ]
+  }
 }
