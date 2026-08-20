@@ -34,7 +34,7 @@
       "default": [],
       "fields": [
         { "name": "FromClassName", "type": "string", "required": true, "suggestions": "dinos" },
-        { "name": "ToClassName", "type": "string", "required": true, "suggestions": "dinos" }
+        { "name": "ToClassName", "type": "string", "suggestions": "dinos" }
       ]
     },
     "i18nKey": "settings.spawns.npc_replacements"

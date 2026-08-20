@@ -4237,7 +4237,9 @@
     "full_file_no_import": "Este perfil nunca importó un .ini, así que no hay nada extra que preservar: el resultado es idéntico al de \"solo mis cambios\". Un GameUserSettings.ini real tiene cientos de claves que escribe el propio juego. Si vas a reemplazar el archivo del servidor, importá primero el tuyo.",
     "import_mods_found": "{count} mods detectadas en ActiveMods ({catalogued} con ajustes en el catálogo)",
     "imported_from": "{file}: importado de {name} {when} · {recognized} ajustes reconocidos",
-    "export_error": "No se pudo generar la vista previa: {message}"
+    "export_error": "No se pudo generar la vista previa: {message}",
+    "omitted_at_default_one": "1 ajuste no se escribe porque está en su valor por defecto: ARK lo aplica igual aunque la clave no aparezca.",
+    "omitted_at_default": "{count} ajustes no se escriben porque están en su valor por defecto: ARK los aplica igual aunque las claves no aparezcan."
   },
   "updater": {
     "title": "Hay una versión nueva: {version}",

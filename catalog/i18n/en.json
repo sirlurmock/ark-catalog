@@ -4237,7 +4237,9 @@
     "full_file_no_import": "This profile never imported an .ini, so there is nothing extra to preserve: the result is identical to \"my changes only\". A real GameUserSettings.ini has hundreds of keys the game writes itself. If you are going to replace the server file, import yours first.",
     "import_mods_found": "{count} mods found in ActiveMods ({catalogued} with settings in the catalogue)",
     "imported_from": "{file}: imported from {name} {when} · {recognized} settings recognized",
-    "export_error": "Could not generate the preview: {message}"
+    "export_error": "Could not generate the preview: {message}",
+    "omitted_at_default_one": "1 setting is not written because it is at its default value: ARK applies it the same even if the key is missing.",
+    "omitted_at_default": "{count} settings are not written because they are at their default values: ARK applies them the same even if the keys are missing."
   },
   "updater": {
     "title": "A new version is available: {version}",
