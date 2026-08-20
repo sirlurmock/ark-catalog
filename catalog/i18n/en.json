@@ -3399,7 +3399,18 @@
     "marniimods_wildlife": {},
     "moros_indominus": {},
     "marniimods_horses": {},
-    "paleo_ark_legends": {}
+    "paleo_ark_legends": {},
+    "classnames": {
+      "title": "This mod’s classnames",
+      "hint": "{count} in total. Copy the one you need to paste into a setting, a command or the .ini.",
+      "search": "Search by name or classname…",
+      "no_results": "Nothing matches your search.",
+      "copy": "Copy the classname of {name}",
+      "dinos": "Creatures",
+      "tags": "Spawn tags",
+      "items": "Items",
+      "engrams": "Engrams"
+    }
   },
   "mods_structures_plus": {
     "category": "Structures Plus",
