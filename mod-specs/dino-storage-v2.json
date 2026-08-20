@@ -7,7 +7,11 @@
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1609138312",
   "prefix": "dino_storage_v2",
-  "searchAliases": ["guardar dinos", "almacenamiento de dinos", "bolas de alma"],
+  "searchAliases": [
+    "guardar dinos",
+    "almacenamiento de dinos",
+    "bolas de alma"
+  ],
   "settings": [
     {
       "key": "BabyGrowthMultiplier",
@@ -3214,5 +3218,36 @@
       }
     }
   ],
-  "_listas": "Formato confirmado en la guia oficial del autor (https://steamcommunity.com/sharedfiles/filedetails/?id=1822824970, seccion Array Building): 'Use commas for additional entries', una sola clave con los valores separados por coma. Mismo formato que Structures Plus, no clave repetida."
+  "_listas": "Formato confirmado en la guia oficial del autor (https://steamcommunity.com/sharedfiles/filedetails/?id=1822824970, seccion Array Building): 'Use commas for additional entries', una sola clave con los valores separados por coma. Mismo formato que Structures Plus, no clave repetida.",
+  "classNames": {
+    "items": [
+      {
+        "value": "/Game/Mods/DinoStorage2/DebuffGun_DS.DebuffGun_DS",
+        "label": "Debuff Gun"
+      },
+      {
+        "value": "/Game/Mods/DinoStorage2/SoulFinder_DS.SoulFinder_DS",
+        "label": "Soul Finder"
+      },
+      {
+        "value": "/Game/Mods/DinoStorage2/SoulGun_DS.SoulGun_DS",
+        "label": "Soul Gun"
+      },
+      {
+        "value": "/Game/Mods/DinoStorage2/SoulTerminal_DS.SoulTerminal_DS",
+        "label": "Soul Terminal"
+      },
+      {
+        "value": "/Game/Mods/DinoStorage2/SoulTraps_DS.SoulTraps_DS",
+        "label": "Soul Trap"
+      }
+    ]
+  },
+  "_classnamesSource": {
+    "items": {
+      "url": "https://ark.wiki.gg/wiki/Mod:Dino_Storage",
+      "fetchedAt": "2026-08-20",
+      "note": "Wiki oficial (misma fuente que los settings del spec); una página por item con su blueprint path verbatim. La página principal declara el Workshop ID 1609138312, o sea la versión ASE. Los 5 items que agrega la mod. Sin engramas: la wiki no documenta sus EngramEntry."
+    }
+  }
 }

@@ -688,5 +688,19 @@
       },
       "i18nKey": "mods.best_eggs.gestation_eggs_icon_max_range"
     }
-  ]
+  ],
+  "classNames": {
+    "items": [
+      {
+        "value": "/Game/Mods/BestEggs/Items/PrimalItemStructure_BestEggMaker.PrimalItemStructure_BestEggMaker",
+        "label": "Best Egg Maker"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "BE_Engram_BestEggMaker_C",
+        "label": "Best Egg Maker"
+      }
+    ]
+  }
 }

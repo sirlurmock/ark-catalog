@@ -117,6 +117,18 @@ Reglas:
   para ASE, corregir con una fuente nativa (hilo de spawncodes del Workshop).
 - Los labels del scraper salen humanizados del classname y son borrador:
   revisarlos a mano antes de regenerar.
+- **Una fuente que solo da classnames `_C` no alcanza para `items`.** El value
+  tiene que ser el blueprint path: `items_classnames` deriva bien el `_C`, pero
+  «Dar item» necesita el path y con un classname generaría un comando roto. Si
+  la doc solo trae classnames, la mod se queda sin bloque hasta conseguir los
+  paths (caso *Sleep able bed*: el autor los publicó como `_C` en un
+  `ConfigOverrideItemCraftingCosts` de ejemplo, sin paths).
+
+Sembradas hasta ahora: Upgrade Station (15), Dino Storage v2 (5), Super
+Spyglass Plus (4 + 4 engramas), Awesome Teleporters ASE (3) y Best Eggs! (1 + 1
+engrama). Sin bloque, con razón: *Creature Finder Deluxe* y *Auto Engrams!* no
+agregan items; *Sleep able bed* por lo de arriba; *Super Structures* (~300
+estructuras) espera su propia tanda.
 
 ## Alcance de `dino-storage-v2.json`
 

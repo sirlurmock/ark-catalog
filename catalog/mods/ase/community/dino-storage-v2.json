@@ -4,7 +4,11 @@
   "game": "ase",
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1609138312",
-  "searchAliases": ["guardar dinos", "almacenamiento de dinos", "bolas de alma"],
+  "searchAliases": [
+    "guardar dinos",
+    "almacenamiento de dinos",
+    "bolas de alma"
+  ],
   "settings": [
     {
       "id": "dino_storage_v2_baby_growth_multiplier",
@@ -4596,5 +4600,29 @@
       },
       "i18nKey": "mods.dino_storage_v2.terminal_automation_fuel"
     }
-  ]
+  ],
+  "classNames": {
+    "items": [
+      {
+        "value": "/Game/Mods/DinoStorage2/DebuffGun_DS.DebuffGun_DS",
+        "label": "Debuff Gun"
+      },
+      {
+        "value": "/Game/Mods/DinoStorage2/SoulFinder_DS.SoulFinder_DS",
+        "label": "Soul Finder"
+      },
+      {
+        "value": "/Game/Mods/DinoStorage2/SoulGun_DS.SoulGun_DS",
+        "label": "Soul Gun"
+      },
+      {
+        "value": "/Game/Mods/DinoStorage2/SoulTerminal_DS.SoulTerminal_DS",
+        "label": "Soul Terminal"
+      },
+      {
+        "value": "/Game/Mods/DinoStorage2/SoulTraps_DS.SoulTraps_DS",
+        "label": "Soul Trap"
+      }
+    ]
+  }
 }

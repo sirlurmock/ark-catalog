@@ -603,5 +603,69 @@
       },
       "i18nKey": "mods.upgrade_station.max_water_retention_per_index"
     }
-  ]
+  ],
+  "classNames": {
+    "items": [
+      {
+        "value": "/Game/Mods/UpgradeStation/AugmentStation/PrimalItemStructure_AugmentStation.PrimalItemStructure_AugmentStation",
+        "label": "Augment Station (primitiva)"
+      },
+      {
+        "value": "/Game/Mods/UpgradeStation/AugmentStation/PrimalItemStructure_AugmentStation_Metal.PrimalItemStructure_AugmentStation_Metal",
+        "label": "Augment Station (metal)"
+      },
+      {
+        "value": "/Game/Mods/UpgradeStation/Augments/PrimalItemResource_Augment_Armor.PrimalItemResource_Augment_Armor",
+        "label": "Augment: armadura"
+      },
+      {
+        "value": "/Game/Mods/UpgradeStation/Augments/PrimalItemResource_Augment_ArmorDurability.PrimalItemResource_Augment_ArmorDurability",
+        "label": "Augment: durabilidad de armadura"
+      },
+      {
+        "value": "/Game/Mods/UpgradeStation/Augments/PrimalItemResource_Augment_ColdInsulation.PrimalItemResource_Augment_ColdInsulation",
+        "label": "Augment: aislamiento contra frío"
+      },
+      {
+        "value": "/Game/Mods/UpgradeStation/Augments/PrimalItemResource_Augment_Damage.PrimalItemResource_Augment_Damage",
+        "label": "Augment: daño"
+      },
+      {
+        "value": "/Game/Mods/UpgradeStation/Augments/PrimalItemResource_Augment_HeatInsulation.PrimalItemResource_Augment_HeatInsulation",
+        "label": "Augment: aislamiento contra calor"
+      },
+      {
+        "value": "/Game/Mods/UpgradeStation/Augments/PrimalItemResource_Augment_Negator.PrimalItemResource_Augment_Negator",
+        "label": "Augment: negador"
+      },
+      {
+        "value": "/Game/Mods/UpgradeStation/Augments/PrimalItemResource_Augment_WaterRetention.PrimalItemResource_Augment_WaterRetention",
+        "label": "Augment: retención de agua"
+      },
+      {
+        "value": "/Game/Mods/UpgradeStation/Augments/PrimalItemResource_Augment_WeaponDurability.PrimalItemResource_Augment_WeaponDurability",
+        "label": "Augment: durabilidad de arma"
+      },
+      {
+        "value": "/Game/Mods/UpgradeStation/BlueprintStation/PrimalItemStructure_BlueprintStation.PrimalItemStructure_BlueprintStation",
+        "label": "Blueprint Station (primitiva)"
+      },
+      {
+        "value": "/Game/Mods/UpgradeStation/BlueprintStation/PrimalItemStructure_BlueprintStation_Metal.PrimalItemStructure_BlueprintStation_Metal",
+        "label": "Blueprint Station (metal)"
+      },
+      {
+        "value": "/Game/Mods/UpgradeStation/Manual/PrimalItemConsumable_UpgradeStationManual.PrimalItemConsumable_UpgradeStationManual",
+        "label": "Manual de la Upgrade Station"
+      },
+      {
+        "value": "/Game/Mods/UpgradeStation/UpgradeStation/PrimalItemStructure_UpgradeStation.PrimalItemStructure_UpgradeStation",
+        "label": "Upgrade Station (primitiva)"
+      },
+      {
+        "value": "/Game/Mods/UpgradeStation/UpgradeStation/PrimalItemStructure_UpgradeStation_Metal.PrimalItemStructure_UpgradeStation_Metal",
+        "label": "Upgrade Station (metal)"
+      }
+    ]
+  }
 }
