@@ -130,6 +130,35 @@ engrama). Sin bloque, con razón: *Creature Finder Deluxe* y *Auto Engrams!* no
 agregan items; *Sleep able bed* por lo de arriba; *Super Structures* (~300
 estructuras) espera su propia tanda.
 
+## Mods de criaturas (`settings: []`)
+
+Las mods que solo agregan criaturas **no exponen ajustes de servidor**, pero su
+entrada en el catálogo vale igual: sus classnames son lo que piden
+`DinoSpawnWeightMultipliers`, `NPCReplacements` y los spawn entries por zona.
+Se catalogan con `settings: []` y el bloque `classNames` — la app muestra
+«esta mod no tiene ajustes propios, pero sus criaturas ya aparecen en el
+autocompletado» en vez de una pantalla vacía.
+
+En `dinos` y `dino_name_tags` el value es el **classname** / el tag
+(`Anzu_Character_BP_C`, `Anzu`), no un path — igual que el catálogo core.
+
+Dos scripts, según lo que publique la fuente:
+
+```bash
+# hilo del Workshop con solo classnames → labels humanizados (repasar a mano)
+node scripts/fetch-mod-dinos.mjs --url "https://steamcommunity.com/…" --spec …
+
+# hoja de spawn codes exportada como CSV → nombres y tags del autor
+node scripts/fetch-mod-dinos.mjs --html scripts/mod-specs/_scraped/x.csv --spec … --source-url "https://docs.google.com/…"
+```
+
+**La hoja CSV es muy superior** cuando existe: trae el nombre que el autor le
+puso a cada criatura («R-Anzu», «Skeletal Massospondylus»), el dino tag, y a
+menudo los items (sillas, chibis) con su blueprint path. El parser saca el
+classname del **path del `spawndino`**, no del `gmsummon` — en la hoja real de
+Prehistoric Beasts el gmsummon trae `Genyodectes_Character_BP_C_Volcanic`, con
+el `_C` en el medio, y el path da el bueno.
+
 ## Alcance de `dino-storage-v2.json`
 
 La wiki oficial documenta ~180 claves; el spec cubre **44**. Criterio: lo que se

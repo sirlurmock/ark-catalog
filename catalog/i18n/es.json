@@ -3390,7 +3390,10 @@
     "auto_engrams": {
       "force_unlock": "Forzar desbloqueo de engramas especiales",
       "force_unlock.description": "Al llegar al nivel máximo se desbloquean también los engramas que normalmente no se aprenden solos (TEK, engramas de jefes de algunas mods). Default: desactivado."
-    }
+    },
+    "wild_ark": {},
+    "no_settings_but_classnames": "Esta mod no tiene ajustes de servidor propios, pero sus criaturas y objetos ya aparecen en el autocompletado de spawns, recetas y comandos mientras la tengas activa.",
+    "prehistoric_beasts": {}
   },
   "mods_structures_plus": {
     "category": "Structures Plus",

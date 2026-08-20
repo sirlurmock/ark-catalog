@@ -3390,7 +3390,10 @@
     "auto_engrams": {
       "force_unlock": "Force unlock special engrams",
       "force_unlock.description": "On reaching max level, engrams not normally unlockable by the player (TEK, boss engrams from some mods) also unlock. Default: disabled."
-    }
+    },
+    "wild_ark": {},
+    "no_settings_but_classnames": "This mod has no server settings of its own, but its creatures and items already show up in the spawn, recipe and command autocomplete while it is active.",
+    "prehistoric_beasts": {}
   },
   "mods_structures_plus": {
     "category": "Structures Plus",

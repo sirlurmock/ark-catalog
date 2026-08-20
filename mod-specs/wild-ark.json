@@ -1,0 +1,443 @@
+{
+  "_source": "Mod de CRIATURAS: no expone ajustes de servidor propios, así que la entrada existe solo por sus classnames — que son lo que piden DinoSpawnWeightMultipliers, NPCReplacements y los spawn entries por zona.",
+  "_scope": "settings vacío A PROPÓSITO. Si algún día el autor documenta claves INI, se suman acá sin tocar el bloque de classnames.",
+  "modId": "1373744537",
+  "name": "Additional Creatures 2: Wild Ark",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1373744537",
+  "prefix": "wild_ark",
+  "searchAliases": [
+    "criaturas",
+    "dinos nuevos",
+    "additional creatures"
+  ],
+  "settings": [],
+  "classNames": {
+    "dinos": [
+      {
+        "value": "AC2Stygi_Character_BP_C",
+        "label": "Stygi"
+      },
+      {
+        "value": "AC2Torvo_Character_BP_C",
+        "label": "Torvo"
+      },
+      {
+        "value": "Ac2Styraco_Character_BP_C",
+        "label": "Styraco"
+      },
+      {
+        "value": "Ac2torvo_Character_BP_Aberrant_Alpha_C",
+        "label": "Torvo (Aberrant, Alpha)"
+      },
+      {
+        "value": "Ac2torvo_Character_BP_Aberrant_C",
+        "label": "Torvo (Aberrant)"
+      },
+      {
+        "value": "Alphaherra_Character_BP_C",
+        "label": "Alphaherra"
+      },
+      {
+        "value": "Archaeoindris_Character_BP_C",
+        "label": "Archaeoindris"
+      },
+      {
+        "value": "Australoven_Character_BP_C",
+        "label": "Australoven"
+      },
+      {
+        "value": "Balaur_Character_BP_C",
+        "label": "Balaur"
+      },
+      {
+        "value": "Banguela_Character_BP_C",
+        "label": "Banguela"
+      },
+      {
+        "value": "Binturong_Character_BP_C",
+        "label": "Binturong"
+      },
+      {
+        "value": "Bog_Deinocheirus_Character_BP_Alpha_C",
+        "label": "Deinocheirus (Alpha, Bog)"
+      },
+      {
+        "value": "Bog_Deinocheirus_Character_BP_C",
+        "label": "Deinocheirus (Bog)"
+      },
+      {
+        "value": "Bog_Dilophovenatrix_Character_BP_C",
+        "label": "Dilophovenatrix (Bog)"
+      },
+      {
+        "value": "Bog_GenomicSpino_Character_BP_C",
+        "label": "Genomic Spino (Bog)"
+      },
+      {
+        "value": "Bog_austro_Character_BP_C",
+        "label": "Austro (Bog)"
+      },
+      {
+        "value": "Bog_eryops_Character_BP_C",
+        "label": "Eryops (Bog)"
+      },
+      {
+        "value": "Brachau_Character_BP_C",
+        "label": "Brachau"
+      },
+      {
+        "value": "ChunkyKing_Character_BP_C",
+        "label": "Chunky King"
+      },
+      {
+        "value": "Chunkyking_Character_BP_Arcane_C",
+        "label": "Chunkyking (Arcane)"
+      },
+      {
+        "value": "Conca_Character_BP_C",
+        "label": "Conca"
+      },
+      {
+        "value": "Conca_Character_BP_alpha_C",
+        "label": "Conca (Alpha)"
+      },
+      {
+        "value": "Daspletosaurus_Character_BP_C",
+        "label": "Daspletosaurus"
+      },
+      {
+        "value": "Deinocheirus_Character_BP_Aberrant_Alpha_C",
+        "label": "Deinocheirus (Aberrant, Alpha)"
+      },
+      {
+        "value": "Deinocheirus_Character_BP_C",
+        "label": "Deinocheirus"
+      },
+      {
+        "value": "Deinocheirus_Character_BP_aberrant_C",
+        "label": "Deinocheirus (Aberrant)"
+      },
+      {
+        "value": "Deltadromeus_Character_BP_C",
+        "label": "Deltadromeus"
+      },
+      {
+        "value": "Deltadromeus_Character_BP_Eden_C",
+        "label": "Deltadromeus (Eden)"
+      },
+      {
+        "value": "Dilophovenatrix_Character_BP_Arcane_C",
+        "label": "Dilophovenatrix (Arcane)"
+      },
+      {
+        "value": "Dilophovenatrix_Character_BP_C",
+        "label": "Dilophovenatrix"
+      },
+      {
+        "value": "Dilophovenatrix_Character_BP_Rockwell_C",
+        "label": "Dilophovenatrix (Rockwell)"
+      },
+      {
+        "value": "Dilophovenatrix_Character_BP_aberrant_C",
+        "label": "Dilophovenatrix (Aberrant)"
+      },
+      {
+        "value": "Dreadweaver_Character_BP_C",
+        "label": "Dreadweaver"
+      },
+      {
+        "value": "Elephanto_Character_BP_C",
+        "label": "Elephanto"
+      },
+      {
+        "value": "Epanterias_Character_BP_C",
+        "label": "Epanterias"
+      },
+      {
+        "value": "Epanterias_Character_BP_Eden_C",
+        "label": "Epanterias (Eden)"
+      },
+      {
+        "value": "Eryops_Character_BP_C",
+        "label": "Eryops"
+      },
+      {
+        "value": "Fasola_Character_BP_Aberrant_Alpha_C",
+        "label": "Fasola (Aberrant, Alpha)"
+      },
+      {
+        "value": "Fasola_Character_BP_Aberrant_C",
+        "label": "Fasola (Aberrant)"
+      },
+      {
+        "value": "Fasola_Character_BP_Alpha_C",
+        "label": "Fasola (Alpha)"
+      },
+      {
+        "value": "Fasola_Character_BP_C",
+        "label": "Fasola"
+      },
+      {
+        "value": "GenomicSpino_Character_BP_Aberrant_C",
+        "label": "Genomic Spino (Aberrant)"
+      },
+      {
+        "value": "GenomicSpino_Character_BP_C",
+        "label": "Genomic Spino"
+      },
+      {
+        "value": "GenomicSpino_Character_BP_Eden_C",
+        "label": "Genomic Spino (Eden)"
+      },
+      {
+        "value": "Gigantophis_Character_BP_C",
+        "label": "Gigantophis"
+      },
+      {
+        "value": "Gigas_Character_BP_Aberrant_C",
+        "label": "Gigas (Aberrant)"
+      },
+      {
+        "value": "Gigas_Character_BP_C",
+        "label": "Gigas"
+      },
+      {
+        "value": "Gigatitan_Character_BP_C",
+        "label": "Gigatitan"
+      },
+      {
+        "value": "Gigatitan_Character_BP_Ghost_C",
+        "label": "Gigatitan (Ghost)"
+      },
+      {
+        "value": "Goyle_Character_BP_C",
+        "label": "Goyle"
+      },
+      {
+        "value": "Hadal_Character_BP_C",
+        "label": "Hadal"
+      },
+      {
+        "value": "Hadal_Character_BP_Ghost_C",
+        "label": "Hadal (Ghost)"
+      },
+      {
+        "value": "Harpa_Character_BP_C",
+        "label": "Harpa"
+      },
+      {
+        "value": "Hatzy_Character_BP_C",
+        "label": "Hatzy"
+      },
+      {
+        "value": "Hatzy_Character_BP_wild_C",
+        "label": "Hatzy (Wild)"
+      },
+      {
+        "value": "Herra_Character_BP_C",
+        "label": "Herra"
+      },
+      {
+        "value": "IchVen_Character_BP_C",
+        "label": "Ich Ven"
+      },
+      {
+        "value": "Lucanidae_Character_BP_C",
+        "label": "Lucanidae"
+      },
+      {
+        "value": "Metriac_Character_BP_C",
+        "label": "Metriac"
+      },
+      {
+        "value": "Narwy_Character_BP_C",
+        "label": "Narwy"
+      },
+      {
+        "value": "Nigersaurus_Character_BP_C",
+        "label": "Nigersaurus"
+      },
+      {
+        "value": "Ocean_Gigantophis_Character_BP_C",
+        "label": "Gigantophis (Ocean)"
+      },
+      {
+        "value": "Ox_Character_BP_Aberrant_C",
+        "label": "Ox (Aberrant)"
+      },
+      {
+        "value": "Ox_Character_BP_C",
+        "label": "Ox"
+      },
+      {
+        "value": "Pelta_Character_BP_C",
+        "label": "Pelta"
+      },
+      {
+        "value": "Phosphato_Character_BP_C",
+        "label": "Phosphato"
+      },
+      {
+        "value": "Plateo_Character_BP_C",
+        "label": "Plateo"
+      },
+      {
+        "value": "Qian_Character_BP_C",
+        "label": "Qian"
+      },
+      {
+        "value": "Raja_Character_BP_C",
+        "label": "Raja"
+      },
+      {
+        "value": "Redpanda_Character_BP_C",
+        "label": "Redpanda"
+      },
+      {
+        "value": "Rhizo_character_BP_C",
+        "label": "Rhizo"
+      },
+      {
+        "value": "Segno_Character_BP_C",
+        "label": "Segno"
+      },
+      {
+        "value": "Shadcamara_Character_BP_C",
+        "label": "Shadcamara"
+      },
+      {
+        "value": "Shadcarcha_Character_BP_Aberrant_Alpha_C",
+        "label": "Shadcarcha (Aberrant, Alpha)"
+      },
+      {
+        "value": "Shadcarcha_Character_BP_Aberrant_C",
+        "label": "Shadcarcha (Aberrant)"
+      },
+      {
+        "value": "Shadcarcha_Character_BP_Alpha_C",
+        "label": "Shadcarcha (Alpha)"
+      },
+      {
+        "value": "Shadcarcha_Character_BP_C",
+        "label": "Shadcarcha"
+      },
+      {
+        "value": "Shantung_Character_BP_Alpha_C",
+        "label": "Shantung (Alpha)"
+      },
+      {
+        "value": "Shantung_Character_BP_C",
+        "label": "Shantung"
+      },
+      {
+        "value": "Shuno_Character_BP_C",
+        "label": "Shuno"
+      },
+      {
+        "value": "Suchomimus_Character_BP_Aberrant_C",
+        "label": "Suchomimus (Aberrant)"
+      },
+      {
+        "value": "Suchomimus_Character_BP_C",
+        "label": "Suchomimus"
+      },
+      {
+        "value": "Suchomimus_Character_BP_Ghost_C",
+        "label": "Suchomimus (Ghost)"
+      },
+      {
+        "value": "Suchomimus_Character_BP_VR_C",
+        "label": "Suchomimus (VR)"
+      },
+      {
+        "value": "Taco_Character_BP_C",
+        "label": "Taco"
+      },
+      {
+        "value": "Tarbo_Character_BP_C",
+        "label": "Tarbo"
+      },
+      {
+        "value": "Torosaur_Character_BP_C",
+        "label": "Torosaur"
+      },
+      {
+        "value": "Torosaur_Character_BP_Ghost_C",
+        "label": "Torosaur (Ghost)"
+      },
+      {
+        "value": "Torvo_Character_BP_Alpha_C",
+        "label": "Torvo (Alpha)"
+      },
+      {
+        "value": "Valli_Character_BP_C",
+        "label": "Valli"
+      },
+      {
+        "value": "anteo_character_BP_C",
+        "label": "Anteo"
+      },
+      {
+        "value": "anthraco_character_BP_C",
+        "label": "Anthraco"
+      },
+      {
+        "value": "austro_Character_BP_C",
+        "label": "Austro"
+      },
+      {
+        "value": "beckle_Character_BP_C",
+        "label": "Beckle"
+      },
+      {
+        "value": "belluasaurus_Character_BP_C",
+        "label": "Belluasaurus"
+      },
+      {
+        "value": "bigyeen_Character_BP_C",
+        "label": "Bigyeen"
+      },
+      {
+        "value": "daspletosaurus_Character_BP_Bred_C",
+        "label": "Daspletosaurus (Bred)"
+      },
+      {
+        "value": "deinocheirus_Character_BP_Ghost_C",
+        "label": "Deinocheirus (Ghost)"
+      },
+      {
+        "value": "europa_Character_BP_C",
+        "label": "Europa"
+      },
+      {
+        "value": "penta_Character_BP_C",
+        "label": "Penta"
+      },
+      {
+        "value": "shadapato_Character_BP_C",
+        "label": "Shadapato"
+      },
+      {
+        "value": "sinotyrannus_Character_BP_C",
+        "label": "Sinotyrannus"
+      },
+      {
+        "value": "volcano_Phosphato_Character_BP_C",
+        "label": "Phosphato (Volcano)"
+      },
+      {
+        "value": "wyvern_character_BP_Acid_C",
+        "label": "Wyvern (Acid)"
+      }
+    ]
+  },
+  "_classnamesSource": {
+    "dinos": {
+      "url": "https://steamcommunity.com/workshop/filedetails/discussion/1373744537/1639792569846000654",
+      "fetchedAt": "2026-08-20",
+      "note": "vía fetch-mod-dinos.mjs; labels humanizados del classname (la fuente no publica nombres), revisados a mano"
+    }
+  }
+}

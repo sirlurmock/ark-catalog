@@ -1,0 +1,1225 @@
+{
+  "modId": "2003934830",
+  "name": "Prehistoric Beasts",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2003934830",
+  "searchAliases": [
+    "criaturas",
+    "bestias prehistóricas",
+    "dinos nuevos"
+  ],
+  "settings": [],
+  "classNames": {
+    "dinos": [
+      {
+        "value": "Aberrant_Saltasaurus_Character_BP_C",
+        "label": "Aberrant Saltasaurus"
+      },
+      {
+        "value": "Acheroraptor_Character_BP_C",
+        "label": "Acheroraptor"
+      },
+      {
+        "value": "Anzu_Character_BP_Aberrant_C",
+        "label": "Aberrant Anzu"
+      },
+      {
+        "value": "Anzu_Character_BP_C",
+        "label": "Anzu"
+      },
+      {
+        "value": "Anzu_Character_BP_Rockwell_C",
+        "label": "R-Anzu"
+      },
+      {
+        "value": "Anzu_Character_BP_Scorched_C",
+        "label": "Scorched Anzu"
+      },
+      {
+        "value": "Anzu_Character_BP_Snow_C",
+        "label": "X-Anzu"
+      },
+      {
+        "value": "Axelrodichthys_Character_BP_C",
+        "label": "Axelrodichthys"
+      },
+      {
+        "value": "Axelrodichthys_Character_BP_Ocean_C",
+        "label": "X-Axelrodichthys"
+      },
+      {
+        "value": "Axelrodichthys_Character_BP_Sunken_C",
+        "label": "Sunken Axelrodichthys"
+      },
+      {
+        "value": "Baculites_Character_BP_C",
+        "label": "Baculites"
+      },
+      {
+        "value": "Baculites_Character_BP_Ocean_C",
+        "label": "X-Baculites"
+      },
+      {
+        "value": "Bone_MegaMassospondylus_Character_BP_C",
+        "label": "Skeletal Massospondylus"
+      },
+      {
+        "value": "Bone_MegaNeovenator_Character_BP_C",
+        "label": "Skeletal Neovenator"
+      },
+      {
+        "value": "Bone_MegaPostosuchus_Character_BP_C",
+        "label": "Skeletal Postosuchus"
+      },
+      {
+        "value": "Crystal_Saltasaurus_Character_BP_C",
+        "label": "Crystal Saltasaurus"
+      },
+      {
+        "value": "Dearc_Character_BP_C",
+        "label": "Dearc"
+      },
+      {
+        "value": "Dearc_Character_BP_Lunar_C",
+        "label": "R-Dearc"
+      },
+      {
+        "value": "Dearc_Character_BP_Volcanic_C",
+        "label": "X-Dearc"
+      },
+      {
+        "value": "Dilong_Character_BP_Aberrant_C",
+        "label": "Aberrant Dilong"
+      },
+      {
+        "value": "Dilong_Character_BP_C",
+        "label": "Dilong"
+      },
+      {
+        "value": "Dilong_Character_BP_Eden_C",
+        "label": "R-Dilong"
+      },
+      {
+        "value": "Dolichorhynchops_Character_BP_C",
+        "label": "Dolichorhynchops"
+      },
+      {
+        "value": "Dracovenator_Character_BP_C",
+        "label": "Dracovenator"
+      },
+      {
+        "value": "Dracovenator_Character_BP_Crystal_C",
+        "label": "Crystal Dracovenator"
+      },
+      {
+        "value": "Dracovenator_Character_BP_Volcanic_C",
+        "label": "X-Dracovenator"
+      },
+      {
+        "value": "Genyodectes_Character_BP_C",
+        "label": "Genyodectes"
+      },
+      {
+        "value": "Genyodectes_Character_BP_Rockwell_C",
+        "label": "R-Genyodectes"
+      },
+      {
+        "value": "Genyodectes_Character_BP_Scorched_C",
+        "label": "Scorched Genyodectes"
+      },
+      {
+        "value": "Genyodectes_Character_BP_Volcanic_C",
+        "label": "X-Genyodectes"
+      },
+      {
+        "value": "GiantSeaSlug_Character_BP_C",
+        "label": "Giant Sea Slug"
+      },
+      {
+        "value": "GiantSeaSlug_Character_Ocean_BP_C",
+        "label": "X-Giant Sea Slug"
+      },
+      {
+        "value": "Hainosaurus_Character_BP_C",
+        "label": "Hainosaurus"
+      },
+      {
+        "value": "Hainosaurus_Character_Mega_BP_C",
+        "label": "Alpha Hainosaurus"
+      },
+      {
+        "value": "Hainosaurus_Character_Mega_Ocean_BP_C",
+        "label": "Alpha X-Hainosaurus"
+      },
+      {
+        "value": "Hainosaurus_Character_Ocean_BP_C",
+        "label": "X-Hainosaurus"
+      },
+      {
+        "value": "Hyneria_Character_BP_C",
+        "label": "Hyneria"
+      },
+      {
+        "value": "Hyneria_Character_BP_Ocean_C",
+        "label": "X-Hyneria"
+      },
+      {
+        "value": "Hyneria_Character_BP_Sunken_C",
+        "label": "Sunken Hyneria"
+      },
+      {
+        "value": "Inostrancevia_Character_BP_Aberrant_C",
+        "label": "Aberrant Inostrancevia"
+      },
+      {
+        "value": "Inostrancevia_Character_BP_Arcane_C",
+        "label": "Arcane Inostrancevia"
+      },
+      {
+        "value": "Inostrancevia_Character_BP_Bionic_C",
+        "label": "Tek Inostrancevia"
+      },
+      {
+        "value": "Inostrancevia_Character_BP_Bog_C",
+        "label": "X-Inostrancevia"
+      },
+      {
+        "value": "Inostrancevia_Character_BP_C",
+        "label": "Inostrancevia"
+      },
+      {
+        "value": "Inostrancevia_Character_BP_Rockwell_C",
+        "label": "R-Inostrancevia"
+      },
+      {
+        "value": "Jiangjunosaurus_Character_BP_Bog_C",
+        "label": "X-Jiangjunosaurus"
+      },
+      {
+        "value": "Jiangjunosaurus_Character_BP_C",
+        "label": "Jiangjunosaurus"
+      },
+      {
+        "value": "Jiangjunosaurus_Character_BP_Rockwell_C",
+        "label": "R-Jiangjunosaurus"
+      },
+      {
+        "value": "Jiangjunosaurus_Character_BP_Scorched_C",
+        "label": "Scorched Jiangjunosaurus"
+      },
+      {
+        "value": "Kelenken_Character_BP_Aberrant_C",
+        "label": "Aberrant Kelenken"
+      },
+      {
+        "value": "Kelenken_Character_BP_Bog_C",
+        "label": "X-Kelenken"
+      },
+      {
+        "value": "Kelenken_Character_BP_C",
+        "label": "Kelenken"
+      },
+      {
+        "value": "Kelenken_Character_BP_Eden_C",
+        "label": "R-Kelenken"
+      },
+      {
+        "value": "Koolasuchus_Character_BP_Aberrant_C",
+        "label": "Aberrant Koolasuchus"
+      },
+      {
+        "value": "Koolasuchus_Character_BP_C",
+        "label": "Koolasuchus"
+      },
+      {
+        "value": "Koolasuchus_Character_BP_Eden_C",
+        "label": "R-Koolasuchus"
+      },
+      {
+        "value": "Lirainosaurus_Character_BP_Bionic_C",
+        "label": "Tek Lirainosaurus"
+      },
+      {
+        "value": "Lirainosaurus_Character_BP_C",
+        "label": "Lirainosaurus"
+      },
+      {
+        "value": "Lirainosaurus_Character_BP_Scorched_C",
+        "label": "Scorched Lirainosaurus"
+      },
+      {
+        "value": "Lualabaea_Character_BP_C",
+        "label": "Lualabaea"
+      },
+      {
+        "value": "Lualabaea_Character_BP_Lunar_C",
+        "label": "X-Lualabaea"
+      },
+      {
+        "value": "Lualabaea_Character_BP_Sunken_C",
+        "label": "Sunken Lualabaea"
+      },
+      {
+        "value": "Lythronax_Character_BP_C",
+        "label": "Lythronax"
+      },
+      {
+        "value": "Lythronax_Character_BP_Innards_C",
+        "label": "R-Lythronax"
+      },
+      {
+        "value": "Lythronax_Character_BP_Snow_C",
+        "label": "X-Lythronax"
+      },
+      {
+        "value": "Mapusaurus_Character_BP_Aberrant_C",
+        "label": "Aberrant Mapusaurus"
+      },
+      {
+        "value": "Mapusaurus_Character_BP_Asgardian_C",
+        "label": "Asgardian Mapusaurus"
+      },
+      {
+        "value": "Mapusaurus_Character_BP_C",
+        "label": "Mapusaurus"
+      },
+      {
+        "value": "Mapusaurus_Character_BP_Rockwell_C",
+        "label": "R-Mapusaurus"
+      },
+      {
+        "value": "Mapusaurus_Character_BP_Volcanic_C",
+        "label": "X-Mapusaurus"
+      },
+      {
+        "value": "Massospondylus_Character_BP_C",
+        "label": "Massospondylus"
+      },
+      {
+        "value": "Massospondylus_Character_BP_Paleo_C",
+        "label": "Paleo Massospondylus"
+      },
+      {
+        "value": "Massospondylus_Character_BP_Rockwell_C",
+        "label": "R-Massospondylus"
+      },
+      {
+        "value": "MegaNasutoceratops_Character_BP_Aberrant_C",
+        "label": "Alpha Aberrant Nasutoceratops"
+      },
+      {
+        "value": "MegaNasutoceratops_Character_BP_Arcane_C",
+        "label": "Alpha Arcane Nasutoceratops"
+      },
+      {
+        "value": "MegaNasutoceratops_Character_BP_C",
+        "label": "Alpha Nasutoceratops"
+      },
+      {
+        "value": "MegaNasutoceratops_Character_BP_Rockwell_C",
+        "label": "Alpha R-Nasutoceratops"
+      },
+      {
+        "value": "MegaNasutoceratops_Character_BP_Snow_C",
+        "label": "Alpha X-Nasutoceratops"
+      },
+      {
+        "value": "MegaNeovenator_Character_BP_Aberrant_C",
+        "label": "Alpha Aberrant Neovenator"
+      },
+      {
+        "value": "MegaNeovenator_Character_BP_C",
+        "label": "Alpha Neovenator"
+      },
+      {
+        "value": "MegaNeovenator_Character_BP_Extinction_C",
+        "label": "Alpha E-Neovenator"
+      },
+      {
+        "value": "MegaNeovenator_Character_BP_Rockwell_C",
+        "label": "Alpha R-Neovenator"
+      },
+      {
+        "value": "MegaNeovenator_Character_BP_Snow_C",
+        "label": "Alpha X-Neovenator"
+      },
+      {
+        "value": "MegaParaxenisaurus_Character_BP_Aberrant_C",
+        "label": "Alpha Aberrant Paraxenisaurus"
+      },
+      {
+        "value": "MegaParaxenisaurus_Character_BP_Bog_C",
+        "label": "Alpha X-Paraxenisaurus"
+      },
+      {
+        "value": "MegaParaxenisaurus_Character_BP_C",
+        "label": "Alpha Paraxenisaurus"
+      },
+      {
+        "value": "MegaParaxenisaurus_Character_BP_Eden_C",
+        "label": "Alpha R-Paraxenisaurus"
+      },
+      {
+        "value": "MegaParaxenisaurus_Character_BP_Paleo_C",
+        "label": "Alpha Paleo Paraxenisaurus"
+      },
+      {
+        "value": "MegaSiamosaurus_Character_BP_Aberrant_C",
+        "label": "Alpha Aberrant Siamosaurus"
+      },
+      {
+        "value": "MegaSiamosaurus_Character_BP_C",
+        "label": "Alpha Siamosaurus"
+      },
+      {
+        "value": "MegaSiamosaurus_Character_BP_Ocean_C",
+        "label": "Alpha X-Siamosaurus"
+      },
+      {
+        "value": "MegaSiamosaurus_Character_BP_Rockwell_C",
+        "label": "Alpha R-Siamosaurus"
+      },
+      {
+        "value": "Nasutoceratops_Character_BP_Aberrant_C",
+        "label": "Aberrant Nasutoceratops"
+      },
+      {
+        "value": "Nasutoceratops_Character_BP_Arcane_C",
+        "label": "Arcane Nasutoceratops"
+      },
+      {
+        "value": "Nasutoceratops_Character_BP_C",
+        "label": "Nasutoceratops"
+      },
+      {
+        "value": "Nasutoceratops_Character_BP_Rockwell_C",
+        "label": "R-Nasutoceratops"
+      },
+      {
+        "value": "Nasutoceratops_Character_BP_Snow_C",
+        "label": "X-Nasutoceratops"
+      },
+      {
+        "value": "Neimongosaurus_Character_BP_Aberrant_C",
+        "label": "Aberrant Neimongosaurus"
+      },
+      {
+        "value": "Neimongosaurus_Character_BP_Bog_C",
+        "label": "X-Neimongosaurus"
+      },
+      {
+        "value": "Neimongosaurus_Character_BP_C",
+        "label": "Neimongosaurus"
+      },
+      {
+        "value": "Neimongosaurus_Character_BP_Eden_C",
+        "label": "R-Neimongosaurus"
+      },
+      {
+        "value": "Neovenator_Character_BP_Aberrant_C",
+        "label": "Aberrant Neovenator"
+      },
+      {
+        "value": "Neovenator_Character_BP_C",
+        "label": "Neovenator"
+      },
+      {
+        "value": "Neovenator_Character_BP_Extinction_C",
+        "label": "E-Neovenator"
+      },
+      {
+        "value": "Neovenator_Character_BP_Rockwell_C",
+        "label": "R-Neovenator"
+      },
+      {
+        "value": "Neovenator_Character_BP_Snow_C",
+        "label": "X-Neovenator"
+      },
+      {
+        "value": "Ornithocheirus_Character_BP_C",
+        "label": "Ornithocheirus"
+      },
+      {
+        "value": "Ornithocheirus_Character_Mega_BP_C",
+        "label": "Alpha Ornithocheirus"
+      },
+      {
+        "value": "Ornithocheirus_Character_Mega_Ocean_BP_C",
+        "label": "Alpha X-Ornithocheirus"
+      },
+      {
+        "value": "Ornithocheirus_Character_Ocean_BP_C",
+        "label": "X-Ornithocheirus"
+      },
+      {
+        "value": "Ouranosaurus_Character_BP_Aberrant_C",
+        "label": "Aberrant Ouranosaurus"
+      },
+      {
+        "value": "Ouranosaurus_Character_BP_Bionic_C",
+        "label": "Tek Ouranosaurus"
+      },
+      {
+        "value": "Ouranosaurus_Character_BP_C",
+        "label": "Ouranosaurus"
+      },
+      {
+        "value": "Ouranosaurus_Character_BP_Eden_C",
+        "label": "R-Ouranosaurus"
+      },
+      {
+        "value": "Ouranosaurus_Character_BP_Scorched_C",
+        "label": "Scorched Ouranosaurus"
+      },
+      {
+        "value": "Paraxenisaurus_Character_BP_Aberrant_C",
+        "label": "Aberrant Paraxenisaurus"
+      },
+      {
+        "value": "Paraxenisaurus_Character_BP_Bog_C",
+        "label": "X-Paraxenisaurus"
+      },
+      {
+        "value": "Paraxenisaurus_Character_BP_C",
+        "label": "Paraxenisaurus"
+      },
+      {
+        "value": "Paraxenisaurus_Character_BP_Eden_C",
+        "label": "R-Paraxenisaurus"
+      },
+      {
+        "value": "Paraxenisaurus_Character_BP_Paleo_C",
+        "label": "Paleo Paraxenisaurus"
+      },
+      {
+        "value": "Pinacosaurus_Character_BP_Aberrant_C",
+        "label": "Aberrant Pinacosaurus"
+      },
+      {
+        "value": "Pinacosaurus_Character_BP_Arcane_C",
+        "label": "Arcane Pinacosaurus"
+      },
+      {
+        "value": "Pinacosaurus_Character_BP_C",
+        "label": "Pinacosaurus"
+      },
+      {
+        "value": "Pinacosaurus_Character_BP_Eden_C",
+        "label": "R-Pinacosaurus"
+      },
+      {
+        "value": "Pinacosaurus_Character_BP_Onyx_C",
+        "label": "Onyx Pinacosaurus"
+      },
+      {
+        "value": "Postosuchus_Character_BP_Aberrant_C",
+        "label": "Aberrant Postosuchus"
+      },
+      {
+        "value": "Postosuchus_Character_BP_Arcane_C",
+        "label": "Arcane Postosuchus"
+      },
+      {
+        "value": "Postosuchus_Character_BP_C",
+        "label": "Postosuchus"
+      },
+      {
+        "value": "Postosuchus_Character_BP_Skeletal_Arcane_C",
+        "label": "Arcane Skeletal Postosuchus"
+      },
+      {
+        "value": "Postosuchus_Character_BP_Volcanic_C",
+        "label": "X-Postosuchus"
+      },
+      {
+        "value": "Prionosuchus_Character_BP_C",
+        "label": "Prionosuchus"
+      },
+      {
+        "value": "Prionosuchus_Character_BP_Eden_C",
+        "label": "R-Prionosuchus"
+      },
+      {
+        "value": "Prionosuchus_Character_BP_Ocean_C",
+        "label": "X-Prionosuchus"
+      },
+      {
+        "value": "Pyroraptor_Character_BP_C",
+        "label": "Pyroraptor"
+      },
+      {
+        "value": "Saltasaurus_Character_BP_C",
+        "label": "Saltasaurus"
+      },
+      {
+        "value": "Saltasaurus_Character_Bog_BP_C",
+        "label": "X-Saltasaurus"
+      },
+      {
+        "value": "Scelidosaurus_Character_BP_C",
+        "label": "Scelidosaurus"
+      },
+      {
+        "value": "Siamosaurus_Character_BP_Aberrant_C",
+        "label": "Aberrant Siamosaurus"
+      },
+      {
+        "value": "Siamosaurus_Character_BP_C",
+        "label": "Siamosaurus"
+      },
+      {
+        "value": "Siamosaurus_Character_BP_Ocean_C",
+        "label": "X-Siamosaurus"
+      },
+      {
+        "value": "Siamosaurus_Character_BP_Rockwell_C",
+        "label": "R-Siamosaurus"
+      },
+      {
+        "value": "Tsintaosaurus_Character_BP_Aberrant_C",
+        "label": "Aberrant Tsintaosaurus"
+      },
+      {
+        "value": "Tsintaosaurus_Character_BP_C",
+        "label": "Tsintaosaurus"
+      },
+      {
+        "value": "Tsintaosaurus_Character_BP_Extinction_C",
+        "label": "E-Tsintaosaurus"
+      },
+      {
+        "value": "Tsintaosaurus_Character_BP_Volcano_C",
+        "label": "X-Tsintaosaurus"
+      },
+      {
+        "value": "Venenosaurus_Character_BP_Aberrant_C",
+        "label": "Aberrant Venenosaurus"
+      },
+      {
+        "value": "Venenosaurus_Character_BP_C",
+        "label": "Venenosaurus"
+      },
+      {
+        "value": "Venenosaurus_Character_BP_Ocean_C",
+        "label": "X-Venenosaurus"
+      },
+      {
+        "value": "Yangchuanosaurus_Character_BP_Aberrant_C",
+        "label": "Aberrant Yangchuanosaurus"
+      },
+      {
+        "value": "Yangchuanosaurus_Character_BP_C",
+        "label": "Yangchuanosaurus"
+      },
+      {
+        "value": "Yangchuanosaurus_Character_BP_Eden_C",
+        "label": "R-Yangchuanosaurus"
+      },
+      {
+        "value": "Yangchuanosaurus_Character_BP_Snow_C",
+        "label": "X-Yangchuanosaurus"
+      },
+      {
+        "value": "Zuniceratops_Character_BP_Aberrant_C",
+        "label": "Aberrant Zuniceratops"
+      },
+      {
+        "value": "Zuniceratops_Character_BP_Arcane_C",
+        "label": "Arcane Zuniceratops"
+      },
+      {
+        "value": "Zuniceratops_Character_BP_C",
+        "label": "Zuniceratops"
+      },
+      {
+        "value": "Zuniceratops_Character_BP_Crystal_C",
+        "label": "Crystal Zuniceratops"
+      },
+      {
+        "value": "Zuniceratops_Character_BP_Eden_C",
+        "label": "R-Zuniceratops"
+      }
+    ],
+    "dino_name_tags": [
+      {
+        "value": "Acheroraptor",
+        "label": "Acheroraptor"
+      },
+      {
+        "value": "Anzu",
+        "label": "Anzu"
+      },
+      {
+        "value": "Axelrodichthys",
+        "label": "Axelrodichthys"
+      },
+      {
+        "value": "Baculites",
+        "label": "Baculites"
+      },
+      {
+        "value": "Dearc",
+        "label": "Dearc"
+      },
+      {
+        "value": "Dilong",
+        "label": "Dilong"
+      },
+      {
+        "value": "Dolichorhynchops",
+        "label": "Dolichorhynchops"
+      },
+      {
+        "value": "Dracovenator",
+        "label": "Dracovenator"
+      },
+      {
+        "value": "Elite Hainosaurus",
+        "label": "Elite Hainosaurus"
+      },
+      {
+        "value": "Elite Massospondylus",
+        "label": "Elite Massospondylus"
+      },
+      {
+        "value": "Elite Nasutoceratops",
+        "label": "Elite Nasutoceratops"
+      },
+      {
+        "value": "Elite Neovenator",
+        "label": "Elite Neovenator"
+      },
+      {
+        "value": "Elite Ornithocheirus",
+        "label": "Elite Ornithocheirus"
+      },
+      {
+        "value": "Elite Paraxenisaurus",
+        "label": "Elite Paraxenisaurus"
+      },
+      {
+        "value": "Elite Postosuchus",
+        "label": "Elite Postosuchus"
+      },
+      {
+        "value": "Elite Siamosaurus",
+        "label": "Elite Siamosaurus"
+      },
+      {
+        "value": "Genyodectes",
+        "label": "Genyodectes"
+      },
+      {
+        "value": "Hainosaurus",
+        "label": "Hainosaurus"
+      },
+      {
+        "value": "Hyneria",
+        "label": "Hyneria"
+      },
+      {
+        "value": "Inostrancevia",
+        "label": "Inostrancevia"
+      },
+      {
+        "value": "Jiangjunosaurus",
+        "label": "Jiangjunosaurus"
+      },
+      {
+        "value": "Kelenken",
+        "label": "Kelenken"
+      },
+      {
+        "value": "Koolasuchus",
+        "label": "Koolasuchus"
+      },
+      {
+        "value": "Lirainosaurus",
+        "label": "Lirainosaurus"
+      },
+      {
+        "value": "Lualabaea",
+        "label": "Lualabaea"
+      },
+      {
+        "value": "Lythronax",
+        "label": "Lythronax"
+      },
+      {
+        "value": "Mapusaurus",
+        "label": "Mapusaurus"
+      },
+      {
+        "value": "Massospondylus",
+        "label": "Massospondylus"
+      },
+      {
+        "value": "Nasutoceratops",
+        "label": "Nasutoceratops"
+      },
+      {
+        "value": "Neimongosaurus",
+        "label": "Neimongosaurus"
+      },
+      {
+        "value": "Neovenator",
+        "label": "Neovenator"
+      },
+      {
+        "value": "Ornithocheirus",
+        "label": "Ornithocheirus"
+      },
+      {
+        "value": "Ouranosaurus",
+        "label": "Ouranosaurus"
+      },
+      {
+        "value": "Paraxenisaurus",
+        "label": "Paraxenisaurus"
+      },
+      {
+        "value": "Pinacosaurus",
+        "label": "Pinacosaurus"
+      },
+      {
+        "value": "Postosuchus",
+        "label": "Postosuchus"
+      },
+      {
+        "value": "Prionosuchus",
+        "label": "Prionosuchus"
+      },
+      {
+        "value": "Pyroraptor",
+        "label": "Pyroraptor"
+      },
+      {
+        "value": "Saltasaurus",
+        "label": "Saltasaurus"
+      },
+      {
+        "value": "Scelidosaurus",
+        "label": "Scelidosaurus"
+      },
+      {
+        "value": "Siamosaurus",
+        "label": "Siamosaurus"
+      },
+      {
+        "value": "Slug",
+        "label": "Slug"
+      },
+      {
+        "value": "Tsintaosaurus",
+        "label": "Tsintaosaurus"
+      },
+      {
+        "value": "Venenosaurus",
+        "label": "Venenosaurus"
+      },
+      {
+        "value": "Yangchuanosaurus",
+        "label": "Yangchuanosaurus"
+      },
+      {
+        "value": "Zuniceratops",
+        "label": "Zuniceratops"
+      }
+    ],
+    "items": [
+      {
+        "value": "/Game/Mods/Beasts/Anniversary/PrimalItemSkin_PB_Anniversary_DinoHat.PrimalItemSkin_PB_Anniversary_DinoHat",
+        "label": "Anniversary Dino Party Hat Skin"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Anniversary/PrimalItemSkin_PB_Anniversary_PartyHat.PrimalItemSkin_PB_Anniversary_PartyHat",
+        "label": "Anniversary Party Hat Skin"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Anzu/Saddle/PrimalItemArmor_AnzuSaddle_Tek.PrimalItemArmor_AnzuSaddle_Tek",
+        "label": "Anzu Tek"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Axelrodichthys/Saddle/PrimalItemArmor_AxelrodichthysSaddle.PrimalItemArmor_AxelrodichthysSaddle",
+        "label": "Axelrodichthys"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Baculites/Saddle/PrimalItemArmor_BaculitesSaddle.PrimalItemArmor_BaculitesSaddle",
+        "label": "Baculites"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Acheroraptor.PrimalItemSkin_ChibiDino_Acheroraptor",
+        "label": "Acheroraptor"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Anzu.PrimalItemSkin_ChibiDino_Anzu",
+        "label": "Anzu"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Axelrodichthys.PrimalItemSkin_ChibiDino_Axelrodichthys",
+        "label": "Axelrodichthys"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Baculites.PrimalItemSkin_ChibiDino_Baculites",
+        "label": "Baculites"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_BoneMassospondylus.PrimalItemSkin_ChibiDino_BoneMassospondylus",
+        "label": "Bone Massospondylus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_BonePostosuchus.PrimalItemSkin_ChibiDino_BonePostosuchus",
+        "label": "Bone Postosuchus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Dearc.PrimalItemSkin_ChibiDino_Dearc",
+        "label": "Dearc"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Dilong.PrimalItemSkin_ChibiDino_Dilong",
+        "label": "Dilong"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Dracovenator.PrimalItemSkin_ChibiDino_Dracovenator",
+        "label": "Dracovenator"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Genyodectes.PrimalItemSkin_ChibiDino_Genyodectes",
+        "label": "Genyodectes"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Hyneria.PrimalItemSkin_ChibiDino_Hyneria",
+        "label": "Hyneria"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Inostrancevia.PrimalItemSkin_ChibiDino_Inostrancevia",
+        "label": "Inostrancevia"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Jiangjunosaurus.PrimalItemSkin_ChibiDino_Jiangjunosaurus",
+        "label": "Jiangjunosaurus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Kelenken.PrimalItemSkin_ChibiDino_Kelenken",
+        "label": "Kelenken"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Lirainosaurus.PrimalItemSkin_ChibiDino_Lirainosaurus",
+        "label": "Lirainosaurus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Lualabaea.PrimalItemSkin_ChibiDino_Lualabaea",
+        "label": "Lualabaea"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Lythronax.PrimalItemSkin_ChibiDino_Lythronax",
+        "label": "Lythronax"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Mapusaurus.PrimalItemSkin_ChibiDino_Mapusaurus",
+        "label": "Mapusaurus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Massospondylus.PrimalItemSkin_ChibiDino_Massospondylus",
+        "label": "Massospondylus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Nasutoceratops.PrimalItemSkin_ChibiDino_Nasutoceratops",
+        "label": "Nasutoceratops"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Neovenator.PrimalItemSkin_ChibiDino_Neovenator",
+        "label": "Neovenator"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Ornithocheirus.PrimalItemSkin_ChibiDino_Ornithocheirus",
+        "label": "Ornithocheirus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Ouranosaurus.PrimalItemSkin_ChibiDino_Ouranosaurus",
+        "label": "Ouranosaurus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Paraxenisaurus.PrimalItemSkin_ChibiDino_Paraxenisaurus",
+        "label": "Paraxenisaurus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Pinacosaurus.PrimalItemSkin_ChibiDino_Pinacosaurus",
+        "label": "Pinacosaurus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Postosuchus.PrimalItemSkin_ChibiDino_Postosuchus",
+        "label": "Postosuchus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Prionosuchus.PrimalItemSkin_ChibiDino_Prionosuchus",
+        "label": "Prionosuchus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Pyroraptor.PrimalItemSkin_ChibiDino_Pyroraptor",
+        "label": "Pyroraptor"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Saltasaurus.PrimalItemSkin_ChibiDino_Saltasaurus",
+        "label": "Saltasaurus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Scelidosaurus.PrimalItemSkin_ChibiDino_Scelidosaurus",
+        "label": "Scelidosaurus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Siamosaurus.PrimalItemSkin_ChibiDino_Siamosaurus",
+        "label": "Siamosaurus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Tsintaosaurus.PrimalItemSkin_ChibiDino_Tsintaosaurus",
+        "label": "Tsintaosuaurs"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Venenosaurus.PrimalItemSkin_ChibiDino_Venenosaurus",
+        "label": "Venenosaurus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Yangchuanosaurus.PrimalItemSkin_ChibiDino_Yangchuanosaurus",
+        "label": "Yangchuanosaurus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Chibis/PrimalItemSkin_ChibiDino_Zuniceratops.PrimalItemSkin_ChibiDino_Zuniceratops",
+        "label": "Zuniceratops"
+      },
+      {
+        "value": "/Game/Mods/Beasts/CraftingBench/PrimalItemStructure_PB_CraftingBench.PrimalItemStructure_PB_CraftingBench",
+        "label": "Crafting Bench"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Dearc/Flute/PrimalItemWeapon_PB_WoodenFlute.PrimalItemWeapon_PB_WoodenFlute",
+        "label": "Wooden Flute"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Dearc/Saddle/PrimalItemArmor_DearcSaddle.PrimalItemArmor_DearcSaddle",
+        "label": "Dearc"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Dilong/BPs/PrimalItem_SpiritOfTheArk.PrimalItem_SpiritOfTheArk",
+        "label": "Spirit of the Ark"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Dracovenator/Essence/PrimalItemResource_Essence_Fire.PrimalItemResource_Essence_Fire",
+        "label": "Essence (Fire)"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Dracovenator/Essence/PrimalItemResource_Essence_Ice.PrimalItemResource_Essence_Ice",
+        "label": "Essence (Ice)"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Dracovenator/Essence/PrimalItemResource_Essence_Life.PrimalItemResource_Essence_Life",
+        "label": "Essence (Life)"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Dracovenator/Essence/PrimalItemResource_Essence_Lightning.PrimalItemResource_Essence_Lightning",
+        "label": "Essence (Lightning)"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Dracovenator/Essence/PrimalItemResource_Essence_Water.PrimalItemResource_Essence_Water",
+        "label": "Essence (Water)"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Dracovenator/Saddle/PrimalItemArmor_DracovenatorSaddle.PrimalItemArmor_DracovenatorSaddle",
+        "label": "Dracovenator"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Genyodectes/Saddle/PrimalItemArmor_GenyodectesHelmet.PrimalItemArmor_GenyodectesHelmet",
+        "label": "Genyodectes Helmet"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Genyodectes/Saddle/PrimalItemArmor_GenyodectesSaddle.PrimalItemArmor_GenyodectesSaddle",
+        "label": "Genyodectes"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Giant_Sea_Slug/BPs/PrimalItemConsumable_FishCake.PrimalItemConsumable_FishCake",
+        "label": "Fish Cake"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Giant_Sea_Slug/BPs/PrimalItemConsumable_Squiddige.PrimalItemConsumable_Squiddige",
+        "label": "Squiddige"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Hainosaurus/Saddle/PrimalItemArmor_HainoSaddle.PrimalItemArmor_HainoSaddle",
+        "label": "Hainosaurus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Hyneria/BPs/PrimalItemConsumable_SeaKingKibble.PrimalItemConsumable_SeaKingKibble",
+        "label": "Sea King Kibble"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Hyneria/Saddle/PrimalItemArmor_HyneriaSaddle.PrimalItemArmor_HyneriaSaddle",
+        "label": "Hyneria"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Inostrancevia/Saddle/PrimalItemArmor_InostranceviaSaddle.PrimalItemArmor_InostranceviaSaddle",
+        "label": "Inostrancevia"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Jiangjunosaurus/Meatloaf/PrimalItemConsumable_Meatloaf.PrimalItemConsumable_Meatloaf",
+        "label": "Meatloaf"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Jiangjunosaurus/Meatloaf/PrimalItemConsumable_RawJiangMeat.PrimalItemConsumable_RawJiangMeat",
+        "label": "Raw Tender Meat"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Jiangjunosaurus/Saddle/PrimalItemArmor_JiangjunosaurusSaddle.PrimalItemArmor_JiangjunosaurusSaddle",
+        "label": "Jiangjunosaurus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Kelenken/Saddle/PrimalItemArmor_KelenkenSaddle.PrimalItemArmor_KelenkenSaddle",
+        "label": "Kelenken"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Koolasuchus/Saddle/PrimalItemArmor_KoolasuchusArmoredSaddle.PrimalItemArmor_KoolasuchusArmoredSaddle",
+        "label": "Koolasuchus Armored"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Koolasuchus/Saddle/PrimalItemArmor_KoolasuchusSaddle.PrimalItemArmor_KoolasuchusSaddle",
+        "label": "Koolasuchus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Lirainosaurus/BerryJam/PrimalItemConsumable_BerryJam.PrimalItemConsumable_BerryJam",
+        "label": "Berry Jam"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Lirainosaurus/Saddle/PrimalItemArmor_LirainosaurusSaddle.PrimalItemArmor_LirainosaurusSaddle",
+        "label": "Lirainosaurus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Lythronax/Saddle/PrimalItemArmor_LythronaxSaddle.PrimalItemArmor_LythronaxSaddle",
+        "label": "Lythronax"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Lythronax/Saddle/PrimalItemArmor_LythronaxSaddle_Tek.PrimalItemArmor_LythronaxSaddle_Tek",
+        "label": "Lythronax Tek"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Mapusaurus/Saddle/PrimalItemArmor_MapusaurusSaddle.PrimalItemArmor_MapusaurusSaddle",
+        "label": "Mapusaurus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Massospondylus/BPs/PrimalItemCostume_BoneMassospondylus.PrimalItemCostume_BoneMassospondylus",
+        "label": "Massospondylus Bone Costume"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Massospondylus/Saddle/PrimalItemArmor_MassospondylusSaddle.PrimalItemArmor_MassospondylusSaddle",
+        "label": "Massospondylus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Massospondylus/SweetMelon/PrimalItemConsumable_SweetMelon_Fermented.PrimalItemConsumable_SweetMelon_Fermented",
+        "label": "Fermented Sweet Melon"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Nasutoceratops/Saddle/PrimalItemArmor_NasutoceratopsSaddle.PrimalItemArmor_NasutoceratopsSaddle",
+        "label": "Nasutoceratops"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Nasutoceratops/Saddle/PrimalItemArmor_NasutoceratopsSaddle_Tek.PrimalItemArmor_NasutoceratopsSaddle_Tek",
+        "label": "Nasutoceratops Tek"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Nasutoceratops/SegoLily/PrimalItemConsumable_SegoLily.PrimalItemConsumable_SegoLily",
+        "label": "Sego Lily"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Neimongosaurus/Saddle/PrimalItemArmor_NeimongosaurusBags.PrimalItemArmor_NeimongosaurusBags",
+        "label": "Neimongosaurus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Neovenator/BPs/PrimalItemConsumable_CoagulatedKibble.PrimalItemConsumable_CoagulatedKibble",
+        "label": "Coagulated Kibble"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Neovenator/BPs/PrimalItemCostume_BoneNeovenator.PrimalItemCostume_BoneNeovenator",
+        "label": "Neovenator Bone Costume"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Neovenator/Saddle/PrimalItemArmor_NeovenatorSaddle.PrimalItemArmor_NeovenatorSaddle",
+        "label": "Neovenator"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Neovenator/Saddle/PrimalItemArmor_NeovenatorSaddle_Tek.PrimalItemArmor_NeovenatorSaddle_Tek",
+        "label": "Neovenator Tek"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Ornithocheirus/Saddle/PrimalItemArmor_OrnSaddle.PrimalItemArmor_OrnSaddle",
+        "label": "Ornithocheirus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Ouranosaurus/Saddle/PrimalItemArmor_OuranosaurusSaddle.PrimalItemArmor_OuranosaurusSaddle",
+        "label": "Ouranosaurus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Paraxenisaurus/Saddle/PrimalItemArmor_ParaxenisaurusSaddle.PrimalItemArmor_ParaxenisaurusSaddle",
+        "label": "Paraxenisaurus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Pinacosaurus/Saddle/PrimalItemArmor_PinacosaurusSaddle.PrimalItemArmor_PinacosaurusSaddle",
+        "label": "Pinacosaurus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Postosuchus/BPs/PrimalItemCostume_BonePostosuchus.PrimalItemCostume_BonePostosuchus",
+        "label": "Postosuchus Bone Costume"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Postosuchus/Saddle/PrimalItemArmor_PostoSaddle.PrimalItemArmor_PostoSaddle",
+        "label": "Postosuchus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Prionosuchus/BPs/PrimalItemResource_TemnospondylTreat.PrimalItemResource_TemnospondylTreat",
+        "label": "Temnospondyl Treat"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Prionosuchus/Saddle/PrimalItemArmor_PrionosuchusSaddle.PrimalItemArmor_PrionosuchusSaddle",
+        "label": "Prionosuchus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Pyroraptor/BPs/PrimalItemConsumable_FlameFeather.PrimalItemConsumable_FlameFeather",
+        "label": "Flame Feather"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Pyroraptor/Saddle/PrimalItemArmor_PyroraptorSaddle.PrimalItemArmor_PyroraptorSaddle",
+        "label": "Pyroraptor"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Saltasaurus/Saddle/PrimalItemArmor_SaltasaurusSaddle.PrimalItemArmor_SaltasaurusSaddle",
+        "label": "Saltasaurus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Siamosaurus/Saddle/PrimalItemArmor_SiamosaurusSaddle.PrimalItemArmor_SiamosaurusSaddle",
+        "label": "Siamosaurus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Tsintaosaurus/Saddle/PrimalItemArmor_TsintaosaurusSaddle.PrimalItemArmor_TsintaosaurusSaddle",
+        "label": "Tsintaosuaurs"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Venenosaurus/Saddle/PrimalItemArmor_VenenosaurusSaddle.PrimalItemArmor_VenenosaurusSaddle",
+        "label": "Venenosaurus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Yangchuanosaurus/Saddle/PrimalItemArmor_YangchuanosaurusSaddle.PrimalItemArmor_YangchuanosaurusSaddle",
+        "label": "Yangchuanosaurus"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Zuniceratops/Saddle/PrimalItemArmor_ZuniceratopsSaddle.PrimalItemArmor_ZuniceratopsSaddle",
+        "label": "Zuniceratops"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Zuniceratops/Saddle/PrimalItemArmor_ZuniceratopsSaddle_Advanced.PrimalItemArmor_ZuniceratopsSaddle_Advanced",
+        "label": "Zuniceratops Advanced"
+      },
+      {
+        "value": "/Game/Mods/Beasts/Zuniceratops/Saddle/PrimalItemArmor_ZuniceratopsSaddle_Tek.PrimalItemArmor_ZuniceratopsSaddle_Tek",
+        "label": "Zuniceratops Tek"
+      }
+    ]
+  }
+}
