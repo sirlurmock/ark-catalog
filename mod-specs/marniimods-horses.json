@@ -1,0 +1,60 @@
+{
+  "_source": "Mod de CRIATURAS: no expone ajustes de servidor propios. La entrada existe por sus classnames.",
+  "_scope": "settings vacío A PROPÓSITO.",
+  "modId": "1696957410",
+  "name": "MarniiMods: Horses",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1696957410",
+  "prefix": "marniimods_horses",
+  "searchAliases": [
+    "criaturas",
+    "caballos",
+    "equinos",
+    "horses"
+  ],
+  "settings": [],
+  "classNames": {
+    "dinos": [
+      {
+        "value": "Courser_Character_BP_C",
+        "label": "Courser"
+      },
+      {
+        "value": "Destrier_Character_BP_C",
+        "label": "Destrier"
+      },
+      {
+        "value": "Dray_Character_BP_C",
+        "label": "Dray"
+      },
+      {
+        "value": "Garron_Character_BP_C",
+        "label": "Garron"
+      },
+      {
+        "value": "Kehilan_Character_BP_C",
+        "label": "Kehilan"
+      },
+      {
+        "value": "Pony_Character_BP_C",
+        "label": "Pony"
+      },
+      {
+        "value": "Rouncey_Character_BP_C",
+        "label": "Rouncey"
+      },
+      {
+        "value": "Siglavy_Character_BP_C",
+        "label": "Siglavy"
+      }
+    ]
+  },
+  "_classnamesSource": {
+    "dinos": {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1696957410",
+      "fetchedAt": "2026-08-20",
+      "note": "Comandos spawndino de la descripción del Workshop; snapshot en _scraped/marniimods-horses-spawncodes.txt. El classname sale del path. Los labels salen del classname y acá son exactos: cada clase ES el nombre de la raza (Courser, Destrier, Dray, Garron, Kehilan, Pony, Rouncey, Siglavy)."
+    }
+  }
+}

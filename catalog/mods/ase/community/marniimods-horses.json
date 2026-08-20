@@ -1,0 +1,50 @@
+{
+  "modId": "1696957410",
+  "name": "MarniiMods: Horses",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1696957410",
+  "searchAliases": [
+    "criaturas",
+    "caballos",
+    "equinos",
+    "horses"
+  ],
+  "settings": [],
+  "classNames": {
+    "dinos": [
+      {
+        "value": "Courser_Character_BP_C",
+        "label": "Courser"
+      },
+      {
+        "value": "Destrier_Character_BP_C",
+        "label": "Destrier"
+      },
+      {
+        "value": "Dray_Character_BP_C",
+        "label": "Dray"
+      },
+      {
+        "value": "Garron_Character_BP_C",
+        "label": "Garron"
+      },
+      {
+        "value": "Kehilan_Character_BP_C",
+        "label": "Kehilan"
+      },
+      {
+        "value": "Pony_Character_BP_C",
+        "label": "Pony"
+      },
+      {
+        "value": "Rouncey_Character_BP_C",
+        "label": "Rouncey"
+      },
+      {
+        "value": "Siglavy_Character_BP_C",
+        "label": "Siglavy"
+      }
+    ]
+  }
+}

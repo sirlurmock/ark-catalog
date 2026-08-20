@@ -23,6 +23,16 @@ const ENGRAM_RE = /"?\b(EngramEntry_[A-Za-z0-9_]+_C)\b"?/;
 const BARE_CLASSNAME_RE = /^"?([A-Za-z0-9_]+_C)"?$/;
 const SEPARATOR_RE = /^[_\-=—\s]*$/;
 
+/**
+ * Rótulos que estructuran el documento pero NO nombran a nadie. Sin esta
+ * lista, la guía de Kraken's ("Spawn Codes:" antes de cada código) bautizaría
+ * a todas sus criaturas "Spawn Codes", y los hilos que separan "(Wild)" de
+ * "(Tamed)" harían lo propio. Al encontrarlos se conserva el encabezado
+ * anterior, que sí es el nombre.
+ */
+const SECTION_LABELS =
+  /^\(?(spawn\s*codes?|spawn\s*command|blueprints?|creature\s*blueprints|tamed\s*summon\s*commands|wild|tamed|item\s*codes?|engrams?|notes?|description|dino\s*tag)\)?$/i;
+
 /** Una línea que es puro código, no un nombre. */
 function looksLikeCode(line) {
   return (
@@ -73,6 +83,7 @@ export function parseSpawncodeText(text) {
       // nombre; el índice del documento repite títulos con su número de
       // página al final ("Lion Saddle 10") y esos no sirven de nombre.
       const clean = line.replace(/\s*\d+$/, "").replace(/\s*[::]\s*$/, "").trim();
+      if (SECTION_LABELS.test(clean)) continue; // conserva el nombre anterior
       heading = clean.length > 0 && clean.length <= 60 && !/[.!?]$/.test(clean) ? clean : null;
       continue;
     }
@@ -89,9 +100,14 @@ export function parseSpawncodeText(text) {
         // garantiza el par. La lista suelta de blueprints va bajo un título de
         // sección ("Creature Blueprints"), que no es el nombre de nadie: acá
         // sirve para canonicalizar la capitalización de una entrada existente.
+        // Deliberadamente NO se crea una entrada con el encabezado más
+        // reciente: en guías con prosa entre medio (la de Kraken's Better
+        // Dinos intercala la descripción de cada ajuste) ese encabezado es
+        // una frase cualquiera, y el label saldría siendo «Setting to True
+        // will prevent…». Sin par nombre-código fiable, se descarta.
         const existing = dinos.find((d) => d.value.toLowerCase() === className.toLowerCase());
         if (existing) existing.value = className;
-        else discarded.push({ name: className, reason: "blueprint de criatura sin nombre propio" });
+        else discarded.push({ name: className, reason: "blueprint de criatura sin nombre fiable" });
       } else if (/PrimalItem/i.test(className)) {
         add(items, "item", { value: path, label: heading ?? className.replace(/_C$/, "") });
       }
