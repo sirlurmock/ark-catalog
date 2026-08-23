@@ -48,6 +48,11 @@ Todo lo que no sea `key`, `kind`, `tier`, `es` y `en` se pasa tal cual al objeto
 `control`, así que los campos válidos son los de `ControlKind` en
 `src/types/setting.ts`.
 
+**Salvo los que empiezan con `_`**, que son notas para quien lee el spec y no
+llegan al catálogo — misma regla que a nivel spec. Sirven para anotar de dónde
+salió un default o a qué criatura pertenece una clave
+(`"_group": "Ankylosaurus"`) sin ensuciar el `control`.
+
 **El `tier` es lo que hace usable una mod grande.** En modo Básico el editor
 muestra solo `basic`, así que ahí van los tres o cuatro parámetros por los que
 alguien instala la mod; el resto va a `advanced` y los ajustes finos a `expert`.
@@ -124,11 +129,58 @@ Reglas:
   paths (caso *Sleep able bed*: el autor los publicó como `_C` en un
   `ConfigOverrideItemCraftingCosts` de ejemplo, sin paths).
 
-Sembradas hasta ahora: Upgrade Station (15), Dino Storage v2 (5), Super
-Spyglass Plus (4 + 4 engramas), Awesome Teleporters ASE (3) y Best Eggs! (1 + 1
-engrama). Sin bloque, con razón: *Creature Finder Deluxe* y *Auto Engrams!* no
-agregan items; *Sleep able bed* por lo de arriba; *Super Structures* (~300
-estructuras) espera su propia tanda.
+### Tercera fuente: una pagina por objeto en ark.wiki.gg
+
+Para las mods de estructuras no sirve ninguna de las otras dos. Sus hojas
+oficiales son **solo de configuracion** —lo unico parecido a un classname que
+aparece en la de Super Structures esta adentro de un valor de ejemplo— y
+arkcodes documenta las versiones ASA. Lo que si existe es el wiki, que le dedica
+**una pagina a cada objeto** con su blueprint path verbatim en el spawn command.
+Es el mismo formato del que salieron los 5 items de Dino Storage, solo que a
+otra escala: Structures Plus tiene 458 paginas enlazadas y Super Structures 432.
+
+**Cuanto rinde cada una es MUY distinto: SS 401 objetos y S+ 181.** No es un
+problema del scraper: las paginas de S+ que no rinden son fichas completas, con
+stats y receta, pero **sin spawn command** — el wiki no publica el codigo de
+esas. La de SS Greenhouse Door lo trae y la de S+ Greenhouse Door no, siendo la
+misma estructura. Es tentador copiar los paths de SS a S+ porque comparten la
+carpeta de assets (`/Game/Mods/StructuresPlusMod/…`, SS es fork de S+), pero
+seria inferir: SS agrega estructuras que S+ no tiene, y sugerir un objeto que no
+existe es peor que no sugerirlo.
+
+```bash
+node scripts/fetch-wiki-mod-items.mjs --page "Mod:Super_Structures" \
+  --spec scripts/mod-specs/super-structures.json
+```
+
+Lo descargado se cachea en `_scraped/wiki-cache/`, asi que repetir la corrida no
+vuelve a pedir nada y una corrida cortada sigue donde quedo.
+
+Tres cosas aprendidas peleandola, que conviene no re-descubrir:
+
+- **El wiki devuelve 403 al `fetch` de Node** por mas que se le copien todas las
+  cabeceras de un navegador, y 200 a `curl` con solo el User-Agent: no mira las
+  cabeceras sino el cliente TLS. Por eso el script llama a `curl`.
+- **Frena por volumen.** La primera corrida se comio 238 bloqueos de 432
+  paginas. Ahora reintenta con espera creciente, y si igual falla **no escribe
+  el spec**: un spec a medias deja la mod en el catalogo con la mitad de sus
+  objetos y nada avisa. El script separa "no se pudo bajar" (agujero) de "se
+  bajo y no tiene objeto" (normal) y de 404 (el indice enlaza paginas que no
+  existen); antes los contaba juntos y por eso una corrida bloqueada parecia
+  sana.
+- **Un blueprint path es `carpeta/Asset.Asset` y las dos mitades tienen que
+  coincidir.** La pagina de *SS Dedicated Storage* publica
+  `…_DedicatedStorageSP.PrimalItemStructure_DedicatedStorageS` —sin la P final,
+  y encima con la carpeta `StructurePlusMod` en singular—. El parser lo marca y
+  el script lo excluye nombrandolo, en vez de meter un path roto al catalogo.
+
+Sembradas hasta ahora: Super Structures (401 objetos), Kraken's Better Dinos
+(92 criaturas + 17 items + 15 engramas), Structures Plus (181 objetos), Upgrade
+Station (15), Dino Storage v2 (5), Super Spyglass Plus (4 + 4 engramas), Awesome
+Teleporters ASE (3) y Best Eggs! (1 + 1 engrama). Sin bloque, con razón:
+*Creature Finder Deluxe* y *Auto Engrams!* no agregan items; *Sleep able bed*
+por lo de arriba; **Weapons+** (105 ajustes) es la mod grande que sigue sin
+fuente citable de classnames.
 
 ## Mods de criaturas (`settings: []`)
 
@@ -161,27 +213,85 @@ el `_C` en el medio, y el path da el bueno.
 
 ## Alcance de `dino-storage-v2.json`
 
-La wiki oficial documenta ~180 claves; el spec cubre **44**. Criterio: lo que se
-toca en la práctica —crianza, regeneración pasiva, enfermedad al liberar,
-autotrap por muerte, automatización de la terminal, revivir cadáveres y los
-límites más comunes de trampeo y liberación.
+**Completa: 198 claves**, incluidas las 22 listas (`ExcludeClass`, `IncludeTag`,
+`ConvertClass`, `EquipmentBlacklist`, `TerminalAutomationFuel`…), las
+exclusiones booleanas por tipo de dino, las de colocación y estética de la
+terminal, y las de tribu y PvP.
 
-Quedó afuera a propósito:
-
-- **Las ~16 opciones de tipo array** (`ExcludeClass`, `IncludeTag`,
-  `ConvertClass`, `EquipmentBlacklist`…). Son listas de classnames y el catálogo
-  no tiene todavía un control de texto libre ni de lista de strings. Necesitan un
-  `ControlKind` nuevo.
-- **Las ~24 exclusiones booleanas por tipo de dino** (`ExcludeBaby`,
-  `ExcludeBoss`, `ExcludeFlyer`, `ExcludeWater`…). Son mecánicas y fáciles de
-  sumar, pero 24 checkboxes en fila aportan poco frente al ruido que meten.
-- **Las ~20 de colocación de la terminal** (`TerminalExcludeGround`,
-  `TerminalExcludeFlyerPlatforms`…) y las de estética (`BasicTerminal`,
-  `GhostTerminal`, `VaultTerminal`).
-- **Las de tribu y PvP finas** (`RequireTribeRanks`, `TerminalRaidPurge`,
-  `MutatorAllowMek`…).
-
-Sumar cualquiera de esos grupos es agregar entradas al spec y volver a correr el
-script — no hay código de por medio.
+> Hasta el 2026-08-22 esta sección decía que el spec cubría **44** claves y que
+> las listas «necesitan un `ControlKind` nuevo». Las dos cosas quedaron viejas:
+> `string_list` se creó justo para eso — ver el comentario de
+> `StringListControl` en `src/types/setting.ts`, que nombra a esta mod — y una
+> sesión posterior completó el spec sin actualizar el texto. La nota vieja
+> llegó a hacer que se planificara un sprint para trabajo que ya estaba hecho.
+> **Si completás una mod, actualizá su sección de alcance en el mismo commit.**
 
 Fuente: <https://ark.wiki.gg/wiki/Mod:Dino_Storage>
+
+## El spec generado de Kraken's Better Dinos
+
+`krakens-better-dinos.json` es la excepción al «un spec se escribe a mano».
+**No editarlo**: lo pisa `node scripts/build-kbd-spec.mjs`, que lo arma desde el
+snapshot de la guía oficial. Para cambiar un texto se toca
+`scripts/lib/kbd-texts.mjs` (sección general, tipos, rangos y tiers) o
+`scripts/lib/kbd-texts-creatures.mjs` (los ajustes por criatura), y se regenera.
+
+Existe porque la mod expone **231 claves** y 65 de ellas son literalmente la
+misma frase del autor con otra criatura: escribirlas a mano sería copiar y pegar
+65 veces con la oportunidad de equivocarse en cada una. Es el mismo criterio con
+el que Structures Plus generó sus familias `*SlotCount` y `*CraftingSpeed`, solo
+que acá la generación cubre el spec entero.
+
+El reparto de responsabilidades:
+
+- **EN**: verbatim de la guía del autor, como en Structures Plus.
+- **ES de las 65 formulaicas**: plantilla por familia + el nombre de la criatura.
+- **ES de las otras 166**: escritas a mano en los dos módulos de textos.
+- **tipo, rango y tier**: la tabla `KBD_CONTROLS`.
+
+### Por qué hizo falta un parser propio
+
+`parse-spawncode-text.mjs` sobre esta guía devuelve **0 criaturas**, y el parser
+genérico de ajustes salía con el label «Setting to True will prevent…»: la guía
+intercala la descripción de cada ajuste entre el nombre de la criatura y su
+código. `scripts/lib/parse-kbd-guide.mjs` lo resuelve modelando lo que la guía
+realmente tiene — **dos formatos de ajuste conviviendo** (clave y descripción en
+la misma línea en las secciones generales; clave con default literal y
+descripción en la línea siguiente en las fichas por criatura) — y trayendo de
+paso los classnames, que salen del mismo recorrido.
+
+Dos trampas que costaron un test cada una:
+
+- **El índice repite los títulos de sección.** Buscar «Dino Descriptions and
+  .Ini Information» con `findIndex` matcheaba en el índice del principio, no en
+  la sección, y metía adentro la prosa de «Spawning Dinos with KBD», que usa los
+  mismos spawn codes como EJEMPLO bajo un encabezado que no nombra a nadie. Va
+  con la ÚLTIMA aparición.
+- **La guía documenta claves vanilla.** `NPCReplacements` y
+  `ConfigAddNPCSpawnEntriesContainer` aparecen como recetas (cómo borrar el
+  Ichthyornis salvaje, cómo agregar el Deinon a otros mapas). Son de `Game.ini`
+  bajo la sección del juego y ya están en el catálogo core: catalogarlas bajo
+  `[BetterDinos]` las escribiría donde ARK no las lee. El parser las ve (es lo
+  correcto) y el builder las descarta con nombre y razón.
+
+### Alcance
+
+Las 231 claves documentadas: 228 salen de las fichas y 3 (`AllowFlyerSpeed`,
+`RandomAberrants`, `RandomAberrantsBDOnly`) de la prosa, que las menciona sin
+darles ficha propia y por eso el parser no las ve. Van a mano con su cita en
+`_source`.
+
+Quedó afuera, con razón:
+
+- **La nivelación de dinos salvajes.** La guía la promete («Level Equalisation
+  and High Level .Ini Options») pero su sección dice *More Information To Come*:
+  sin nombres de clave citables no hay nada que catalogar.
+- **La blacklist de voladores del `AllowFlyerSpeed`.** El autor la menciona sin
+  dar el nombre de la clave.
+
+Fuente: la **User Guide** del autor,
+<https://steamcommunity.com/sharedfiles/filedetails/?id=2071693170>. Ojo con los
+IDs: **2071693170 es la guía**, la mod es **1565015734**. El snapshot está
+versionado en `_scraped/krakens-better-dinos-guide.txt` (excepción explícita en
+`.gitignore`) porque es la entrada de un spec generado y del test del parser;
+como todo `_scraped`, no se publica al espejo.

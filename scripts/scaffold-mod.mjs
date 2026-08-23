@@ -35,7 +35,7 @@
  *   --write-i18n     inserta las claves en catalog/i18n/{es,en}.json (default: solo las imprime)
  *   --dry-run        no escribe nada
  */
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from "node:fs";
 import {
   inferControl,
   inferTier,
@@ -105,6 +105,37 @@ function readSection(iniPath, sectionName) {
 }
 
 // -------------------------------------------------------------- modo --spec
+
+/**
+ * Donde ya vive la entrada de esta mod, si vive en algun lado.
+ *
+ * El destino por defecto es siempre `community/`, y eso alcanzaba mientras
+ * todas las mods estuvieran ahi. Structures Plus no: es `source: "verified"` y
+ * su archivo es `verified/731604991-structures-plus.json`. Regenerarla sin
+ * `--out` creaba un SEGUNDO archivo en `community/` con el mismo modId, y el
+ * catalogo quedaba con la mod dos veces sin que nada avisara.
+ *
+ * Buscar por modId y escribir donde ya estaba es lo que hace que regenerar sea
+ * seguro: si la entrada existe, se pisa la que existe.
+ */
+function existingEntryFor(spec) {
+  const root = `catalog/mods/${spec.game}`;
+  for (const folder of ["verified", "community"]) {
+    const dir = `${root}/${folder}`;
+    if (!existsSync(dir)) continue;
+    for (const name of readdirSync(dir)) {
+      if (!name.endsWith(".json")) continue;
+      const file = `${dir}/${name}`;
+      try {
+        const current = JSON.parse(readFileSync(file, "utf8"));
+        if (current.modId === spec.modId) return file;
+      } catch {
+        // Un archivo que no parsea no es la entrada de esta mod.
+      }
+    }
+  }
+  return null;
+}
 
 /**
  * El spec ya trae tipo, rango y textos, asi que no hay nada que inferir: el
@@ -192,7 +223,7 @@ function runSpecMode(specPath) {
     ...(spec.classNames ? { classNames: spec.classNames } : {}),
   };
 
-  const dest = args.out ?? `catalog/mods/${spec.game}/community/${slugify(spec.name)}.json`;
+  const dest = args.out ?? existingEntryFor(spec) ?? `catalog/mods/${spec.game}/community/${slugify(spec.name)}.json`;
   const byTier = settings.reduce((acc, s) => {
     acc[s.tier] = (acc[s.tier] ?? 0) + 1;
     return acc;

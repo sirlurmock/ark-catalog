@@ -6607,5 +6607,1613 @@
       },
       "i18nKey": "mods.super_structures.xlwall_hp"
     }
-  ]
+  ],
+  "classNames": {
+    "items": [
+      {
+        "value": "/Game/Mods/StructurePlusMod/Misc/DedicatedStorage/PrimalItemStructure_DedicatedStorageSP.PrimalItemStructure_DedicatedStorageSP",
+        "label": "SS Dedicated Storage"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Crafting/BeerBarrel/PrimalItemStructure_BeerBarrelPlus.PrimalItemStructure_BeerBarrelPlus",
+        "label": "SS Beer Barrel"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Crafting/Campfire/PrimalItemStructure_CampfirePlus.PrimalItemStructure_CampfirePlus",
+        "label": "SS Campfire"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Crafting/ChemistryBench/PrimalItemStructure_ChemBenchPlus.PrimalItemStructure_ChemBenchPlus",
+        "label": "SS Chemistry Bench"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Crafting/CompostBin/PrimalItemStructure_CompostBinPlus.PrimalItemStructure_CompostBinPlus",
+        "label": "SS Compost Bin"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Crafting/CookingPot/PrimalItemStructure_CookingPotPlus.PrimalItemStructure_CookingPotPlus",
+        "label": "SS Cooking Pot"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Crafting/Fabricator/PrimalItemStructure_FabricatorPlus.PrimalItemStructure_FabricatorPlus",
+        "label": "SS Fabricator"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Crafting/Fireplace/PrimalItemStructure_FireplacePlus.PrimalItemStructure_FireplacePlus",
+        "label": "SS Stone Fireplace"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Crafting/MortarPestle/PrimalItemStructure_MortarPestlePlus.PrimalItemStructure_MortarPestlePlus",
+        "label": "SS Mortar and Pestle"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Crafting/PreservingBin/PrimalItemStructure_PreservingBinPlus.PrimalItemStructure_PreservingBinPlus",
+        "label": "SS Preserving Bin"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Crafting/RefiningForge/PrimalItemStructure_ForgePlus.PrimalItemStructure_ForgePlus",
+        "label": "SS Refining Forge"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Crafting/Replicator/PrimalItemStructure_ReplicatorPlus.PrimalItemStructure_ReplicatorPlus",
+        "label": "SS Tek Replicator"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Crafting/Smithy/PrimalItemStructure_SmithyPlus.PrimalItemStructure_SmithyPlus",
+        "label": "SS Smithy"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Crafting/Station/PrimalItemStructure_SPlusCraftingStation.PrimalItemStructure_SPlusCraftingStation",
+        "label": "SS Crafting Station"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/CropPlots/Large/PrimalItemStructure_CropPlotPlus_Large.PrimalItemStructure_CropPlotPlus_Large",
+        "label": "SS Large Crop Plot"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/CropPlots/Medium/PrimalItemStructure_CropPlotPlus_Medium.PrimalItemStructure_CropPlotPlus_Medium",
+        "label": "SS Medium Crop Plot"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/CropPlots/SeamlessSquare/PrimalItemStructure_CropPlotPlus_SeamlessSquare.PrimalItemStructure_CropPlotPlus_SeamlessSquare",
+        "label": "SS Seamless Crop Square"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/CropPlots/SeamlessTriangle/PrimalItemStructure_CropPlotPlus_SeamlessTriangle.PrimalItemStructure_CropPlotPlus_SeamlessTriangle",
+        "label": "SS Seamless Crop Triangle"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/CropPlots/Small/PrimalItemStructure_CropPlotPlus_Small.PrimalItemStructure_CropPlotPlus_Small",
+        "label": "SS Small Crop Plot"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Doors/Adobe/PrimalItemStructure_Door_Adobe.PrimalItemStructure_Door_Adobe",
+        "label": "SS Adobe Door"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Doors/Glass/PrimalItemStructure_Door_Glass.PrimalItemStructure_Door_Glass",
+        "label": "SS Glass Door"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Doors/Greenhouse/PrimalItemStructure_Door_Greenhouse.PrimalItemStructure_Door_Greenhouse",
+        "label": "SS Greenhouse Door"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Doors/Metal/PrimalItemStructure_Door_Metal.PrimalItemStructure_Door_Metal",
+        "label": "SS Metal Door"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Doors/Stone/PrimalItemStructure_Door_Stone.PrimalItemStructure_Door_Stone",
+        "label": "SS Reinforced Door"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Doors/Tek/PrimalItemStructure_Door_Tek.PrimalItemStructure_Door_Tek",
+        "label": "SS Tek Door"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Doors/Thatch/PrimalItemStructure_Door_Thatch.PrimalItemStructure_Door_Thatch",
+        "label": "SS Thatch Door"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Doors/Underwater/PrimalItemStructure_Door_Underwater.PrimalItemStructure_Door_Underwater",
+        "label": "SS Vacuum Compartment Door"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Doors/Wood/PrimalItemStructure_Door_Wood.PrimalItemStructure_Door_Wood",
+        "label": "SS Wood Door"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Doors_Double/Adobe/PrimalItemStructure_DoubleDoor_AdobeSP.PrimalItemStructure_DoubleDoor_AdobeSP",
+        "label": "SS Adobe Double Door"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Doors_Double/Glass/PrimalItemStructure_DoubleDoor_Glass.PrimalItemStructure_DoubleDoor_Glass",
+        "label": "SS Glass Double Door"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Doors_Double/Greenhouse/PrimalItemStructure_DoubleDoor_GreenhouseSP.PrimalItemStructure_DoubleDoor_GreenhouseSP",
+        "label": "SS Greenhouse Double Door"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Doors_Double/Metal/PrimalItemStructure_DoubleDoor_MetalSP.PrimalItemStructure_DoubleDoor_MetalSP",
+        "label": "SS Metal Double Door"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Doors_Double/Stone/PrimalItemStructure_DoubleDoor_StoneSP.PrimalItemStructure_DoubleDoor_StoneSP",
+        "label": "SS Reinforced Double Door"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Doors_Double/Tek/PrimalItemStructure_DoubleDoor_TekSP.PrimalItemStructure_DoubleDoor_TekSP",
+        "label": "SS Tek Double Door"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Doors_Double/Wood/PrimalItemStructure_DoubleDoor_WoodSP.PrimalItemStructure_DoubleDoor_WoodSP",
+        "label": "SS Wood Double Door"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Gates/Dynamic/PrimalItemStructure_Gate_Dynamic.PrimalItemStructure_Gate_Dynamic",
+        "label": "SS Dynamic Gate"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Gates/Large/Adobe/PrimalItemStructure_LargeGate_Adobe.PrimalItemStructure_LargeGate_Adobe",
+        "label": "SS Behemoth Adobe Gate"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Gates/Large/Glass/PrimalItemStructure_LargeGate_Glass.PrimalItemStructure_LargeGate_Glass",
+        "label": "SS Glass Behemoth Gate"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Gates/Large/Metal/PrimalItemStructure_LargeGate_Metal.PrimalItemStructure_LargeGate_Metal",
+        "label": "SS Metal Behemoth Gate"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Gates/Large/Stone/PrimalItemStructure_LargeGate_Stone.PrimalItemStructure_LargeGate_Stone",
+        "label": "SS Reinforced Behemoth Gate"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Gates/Large/Tek/PrimalItemStructure_LargeGate_Tek.PrimalItemStructure_LargeGate_Tek",
+        "label": "SS Behemoth Tek Gate"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Gates/Small/Adobe/PrimalItemStructure_Gate_Adobe.PrimalItemStructure_Gate_Adobe",
+        "label": "SS Adobe Gate"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Gates/Small/Glass/PrimalItemStructure_Gate_Glass.PrimalItemStructure_Gate_Glass",
+        "label": "SS Glass Gate"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Gates/Small/Metal/PrimalItemStructure_Gate_Metal.PrimalItemStructure_Gate_Metal",
+        "label": "SS Metal Gate"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Gates/Small/Stone/PrimalItemStructure_Gate_Stone.PrimalItemStructure_Gate_Stone",
+        "label": "SS Reinforced Gate"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Gates/Small/Tek/PrimalItemStructure_Gate_Tek.PrimalItemStructure_Gate_Tek",
+        "label": "SS Tek Gate"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Gates/Small/Wood/PrimalItemStructure_Gate_Wood.PrimalItemStructure_Gate_Wood",
+        "label": "SS Wood Gate"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Trapdoors/Adobe/PrimalItemStructure_Trapdoor_Adobe.PrimalItemStructure_Trapdoor_Adobe",
+        "label": "SS Adobe Trapdoor"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Trapdoors/Glass/PrimalItemStructure_Trapdoor_Glass.PrimalItemStructure_Trapdoor_Glass",
+        "label": "SS Glass Trapdoor"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Trapdoors/Metal/PrimalItemStructure_Trapdoor_Metal.PrimalItemStructure_Trapdoor_Metal",
+        "label": "SS Metal Trapdoor"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Trapdoors/Moonpool/PrimalItemStructure_Trapdoor_Moonpool.PrimalItemStructure_Trapdoor_Moonpool",
+        "label": "SS Moonpool Trapdoor"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Trapdoors/Stone/PrimalItemStructure_Trapdoor_Stone.PrimalItemStructure_Trapdoor_Stone",
+        "label": "SS Reinforced Trapdoor"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Trapdoors/Tek/PrimalItemStructure_Trapdoor_Tek.PrimalItemStructure_Trapdoor_Tek",
+        "label": "SS Tek Trapdoor"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Trapdoors/Wood/PrimalItemStructure_Trapdoor_Wood.PrimalItemStructure_Trapdoor_Wood",
+        "label": "SS Wood Trapdoor"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Trapdoors_L/Adobe/PrimalItemStructure_LargeTrapdoor_Adobe.PrimalItemStructure_LargeTrapdoor_Adobe",
+        "label": "SS Large Adobe Trapdoor"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Trapdoors_L/Glass/PrimalItemStructure_LargeTrapdoor_Glass.PrimalItemStructure_LargeTrapdoor_Glass",
+        "label": "SS Large Glass Trapdoor"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Trapdoors_L/Metal/PrimalItemStructure_LargeTrapdoor_Metal.PrimalItemStructure_LargeTrapdoor_Metal",
+        "label": "SS Large Metal Trapdoor"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Trapdoors_L/Stone/PrimalItemStructure_LargeTrapdoor_Stone.PrimalItemStructure_LargeTrapdoor_Stone",
+        "label": "SS Large Reinforced Trapdoor"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Trapdoors_L/Tek/PrimalItemStructure_LargeTrapdoor_Tek.PrimalItemStructure_LargeTrapdoor_Tek",
+        "label": "SS Large Tek Trapdoor"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Trapdoors_XL/Adobe/PrimalItemStructure_XLTrapdoor_Adobe.PrimalItemStructure_XLTrapdoor_Adobe",
+        "label": "SS Behemoth Adobe Trapdoor"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Trapdoors_XL/Glass/PrimalItemStructure_XLTrapdoor_Glass.PrimalItemStructure_XLTrapdoor_Glass",
+        "label": "SS Behemoth Glass Trapdoor"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Trapdoors_XL/Metal/PrimalItemStructure_XLTrapdoor_Metal.PrimalItemStructure_XLTrapdoor_Metal",
+        "label": "SS Behemoth Metal Trapdoor"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Trapdoors_XL/Stone/PrimalItemStructure_XLTrapdoor_Stone.PrimalItemStructure_XLTrapdoor_Stone",
+        "label": "SS Behemoth Reinforced Trapdoor"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Trapdoors_XL/Tek/PrimalItemStructure_XLTrapdoor_Tek.PrimalItemStructure_XLTrapdoor_Tek",
+        "label": "SS Behemoth Tek Trapdoor"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Windows/Adobe/PrimalItemStructure_Window_Adobe.PrimalItemStructure_Window_Adobe",
+        "label": "SS Adobe Window"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Windows/Glass/PrimalItemStructure_Window_Glass.PrimalItemStructure_Window_Glass",
+        "label": "SS Glass Window"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Windows/Greenhouse/PrimalItemStructure_Window_Greenhouse.PrimalItemStructure_Window_Greenhouse",
+        "label": "SS Greenhouse Window"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Windows/Metal/PrimalItemStructure_Window_Metal.PrimalItemStructure_Window_Metal",
+        "label": "SS Metal Window"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Windows/Stone/PrimalItemStructure_Window_Stone.PrimalItemStructure_Window_Stone",
+        "label": "SS Reinforced Window"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Windows/Tek/PrimalItemStructure_Window_Tek.PrimalItemStructure_Window_Tek",
+        "label": "SS Tek Window"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Doors/Windows/Wood/PrimalItemStructure_Window_Wood.PrimalItemStructure_Window_Wood",
+        "label": "SS Wood Window"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Items/CommandTool/PrimalItem_CommandToolSS.PrimalItem_CommandToolSS",
+        "label": "SS Command Tool"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Items/EuthanasiaGun/PrimalItem_EuthanasiaGunSS.PrimalItem_EuthanasiaGunSS",
+        "label": "SS Euthanasia Gun"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Items/InventoryAssistant/PrimalItem_InventoryAssistant.PrimalItem_InventoryAssistant",
+        "label": "SS Inventory Assistant"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Items/PersonalTeleporter/PrimalItem_PersonalTeleporter.PrimalItem_PersonalTeleporter",
+        "label": "SS Personal Teleporter"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Items/Pillarator/PrimalItem_PillaratorSS.PrimalItem_PillaratorSS",
+        "label": "SS Pillarator"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Items/RemoteLightSetter/PrimalItem_LightSetterSS.PrimalItem_LightSetterSS",
+        "label": "SS Light Setter"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Items/RemoteModelSelector/PrimalItem_ModelSelectorSS.PrimalItem_ModelSelectorSS",
+        "label": "SS Model Selector"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Items/RemoteTransferTool/PrimalItem_TransferTool.PrimalItem_TransferTool",
+        "label": "SS Transfer Tool"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Items/RemoteTransparencyCycler/PrimalItem_TransparencyCyclerSS.PrimalItem_TransparencyCyclerSS",
+        "label": "SS Transparency Cycler"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Items/SprayPainterPlus/PrimalItem_SprayPainterPlus.PrimalItem_SprayPainterPlus",
+        "label": "SS Spray Painter"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Items/VisibilityTool/PrimalItem_VisibilityToolSS.PrimalItem_VisibilityToolSS",
+        "label": "SS Visibility Tool"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Ladders/Adobe/PrimalItemStructure_Ladder_Adobe.PrimalItemStructure_Ladder_Adobe",
+        "label": "SS Adobe Ladder"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Ladders/Metal/PrimalItemStructure_Ladder_Metal.PrimalItemStructure_Ladder_Metal",
+        "label": "SS Metal Ladder"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Ladders/Rope/PrimalItemStructure_Ladder_Rope.PrimalItemStructure_Ladder_Rope",
+        "label": "SS Rope Ladder"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Ladders/Tek/PrimalItemStructure_Ladder_Tek.PrimalItemStructure_Ladder_Tek",
+        "label": "SS Tek Ladder"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Ladders/Wood/PrimalItemStructure_Ladder_Wood.PrimalItemStructure_Ladder_Wood",
+        "label": "SS Wood Ladder"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/AC/PrimalItemStructure_AirConditionerPlus.PrimalItemStructure_AirConditionerPlus",
+        "label": "SS Air Conditioner"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/AmmoBox/PrimalItemStructure_AmmoLoaderSS.PrimalItemStructure_AmmoLoaderSS",
+        "label": "SS Ammo Box"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/AnimalTender/PrimalItemStructure_AnimalTender.PrimalItemStructure_AnimalTender",
+        "label": "SS Animal Tender"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/AutoCrafter/PrimalItemStructure_AutoCrafter.PrimalItemStructure_AutoCrafter",
+        "label": "SS Auto Crafter"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/AutoTurret/PrimalItemStructure_AutoTurret.PrimalItemStructure_AutoTurret",
+        "label": "SS Auto Turret"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/AutoTurretBallista/PrimalItemStructure_AutoTurret_Ballista.PrimalItemStructure_AutoTurret_Ballista",
+        "label": "SS Ballista Turret"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/AutoTurretCannon/PrimalItemStructure_AutoTurret_Cannon.PrimalItemStructure_AutoTurret_Cannon",
+        "label": "SS Cannon Turret"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/AutoTurretFlame/PrimalItemStructure_AutoTurret_Flame.PrimalItemStructure_AutoTurret_Flame",
+        "label": "SS Flame Turret"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/AutoTurretHeavy/PrimalItemStructure_AutoTurret_Heavy.PrimalItemStructure_AutoTurret_Heavy",
+        "label": "SS Heavy Auto Turret"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/AutoTurretMinigun/PrimalItemStructure_AutoTurret_Minigun.PrimalItemStructure_AutoTurret_Minigun",
+        "label": "SS Minigun Turret"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/AutoTurretPlant/PrimalItemConsumable_AutoTurretPlant_Seed.PrimalItemConsumable_AutoTurretPlant_Seed",
+        "label": "SS Plant Species X"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/AutoTurretRocket/PrimalItemStructure_AutoTurret_Rocket.PrimalItemStructure_AutoTurret_Rocket",
+        "label": "SS Rocket Turret"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/AutoTurretTek/PrimalItemStructure_AutoTurretTek.PrimalItemStructure_AutoTurretTek",
+        "label": "SS Tek Turret"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/AutoTurretTranq/PrimalItemStructure_AutoTurret_Tranq.PrimalItemStructure_AutoTurret_Tranq",
+        "label": "SS Tranq Turret"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Bed/PrimalItemStructure_BedPlus.PrimalItemStructure_BedPlus",
+        "label": "SS Simple Bed"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/BedBunk/PrimalItemStructure_BunkBedPlus.PrimalItemStructure_BunkBedPlus",
+        "label": "SS Bunk Bed"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/BedTek/PrimalItemStructure_TekBedPlus.PrimalItemStructure_TekBedPlus",
+        "label": "SS Tek Sleeping Pod"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/BeeHive/PrimalItemStructure_BeeHivePlus.PrimalItemStructure_BeeHivePlus",
+        "label": "SS Domesticated Bee Hive"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/BlueprintMaker/PrimalItemStructure_BlueprintMaker.PrimalItemStructure_BlueprintMaker",
+        "label": "SS Blueprint Maker"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/ChargeInjector/PrimalItemStructure_ChargeInjector.PrimalItemStructure_ChargeInjector",
+        "label": "SS Charge Injector"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/ChargeStation/PrimalItemStructure_ChargeStation.PrimalItemStructure_ChargeStation",
+        "label": "SS Charge Station"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/CloningChamber/PrimalItemStructure_CloningChamberPlus.PrimalItemStructure_CloningChamberPlus",
+        "label": "SS Cloning Chamber"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Converter/PrimalItemStructure_Converter.PrimalItemStructure_Converter",
+        "label": "SS Converter"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Cryofridge/PrimalItemStructure_CryoFridge_SS.PrimalItemStructure_CryoFridge_SS",
+        "label": "SS Cryofridge"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/CrystalCracker/PrimalItemStructure_CrystalCracker.PrimalItemStructure_CrystalCracker",
+        "label": "SS Crystal Cracker"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/DedicatedStorageIntake/PrimalItemStructure_DedicatedStorage_Intake.PrimalItemStructure_DedicatedStorage_Intake",
+        "label": "SS Dedicated Storage Intake"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/DroneTerminal/PrimalItemStructure_DroneTerminal.PrimalItemStructure_DroneTerminal",
+        "label": "SS Drone Terminal"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/DyeStation/PrimalItemStructure_DyeStation.PrimalItemStructure_DyeStation",
+        "label": "SS Dyeria"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/ElementCatalyzer/PrimalItemStructure_ElementCatalyzer.PrimalItemStructure_ElementCatalyzer",
+        "label": "SS Element Catalyzer"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/ElevatorCallButton/PrimalItemStructure_ElevatorCallButton.PrimalItemStructure_ElevatorCallButton",
+        "label": "SS Elevator Call Button"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Elevators/Platforms/Large/PrimalItemStructure_ElevatorPlatform_Large.PrimalItemStructure_ElevatorPlatform_Large",
+        "label": "SS Large Elevator Platform"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Elevators/Platforms/Medium/PrimalItemStructure_ElevatorPlatform_Medium.PrimalItemStructure_ElevatorPlatform_Medium",
+        "label": "SS Medium Elevator Platform"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Elevators/Platforms/Small/PrimalItemStructure_ElevatorPlatform_Small.PrimalItemStructure_ElevatorPlatform_Small",
+        "label": "SS Small Elevator Platform"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Elevators/Track/PrimalItemStructure_ElevatorTrack_Metal.PrimalItemStructure_ElevatorTrack_Metal",
+        "label": "SS Small Elevator Track"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Farmer/PrimalItemStructure_Farmer.PrimalItemStructure_Farmer",
+        "label": "SS Farmer"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/FeedingTrough/PrimalItemStructure_FeedingTroughPlus.PrimalItemStructure_FeedingTroughPlus",
+        "label": "SS Feeding Trough"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/FeedingTroughTek/PrimalItemStructure_TekTroughPlus.PrimalItemStructure_TekTroughPlus",
+        "label": "SS Tek Trough"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Forcefield/PrimalItemStructure_TekForcefield.PrimalItemStructure_TekForcefield",
+        "label": "SS Tek Shield Generator"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Fridge/PrimalItemStructure_FridgePlus.PrimalItemStructure_FridgePlus",
+        "label": "SS Refrigerator"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/GachaGavager/PrimalItemStructure_GachaGavager.PrimalItemStructure_GachaGavager",
+        "label": "SS Gacha Gavager"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Gardener/PrimalItemStructure_Gardener.PrimalItemStructure_Gardener",
+        "label": "SS Gardener"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/GasCollectorTek/PrimalItemStructure_GasCollectorTek.PrimalItemStructure_GasCollectorTek",
+        "label": "SS Tek Gas Collector"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Generator/PrimalItemStructure_Generator.PrimalItemStructure_Generator",
+        "label": "SS Electrical Generator"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/GeneratorTek/PrimalItemStructure_GeneratorTek.PrimalItemStructure_GeneratorTek",
+        "label": "SS Tek Generator"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/GeneratorWind/PrimalItemStructure_WindTurbinePlus.PrimalItemStructure_WindTurbinePlus",
+        "label": "SS Wind Turbine"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/GenomicsChamber/PrimalItemStructure_GenomicsChamber.PrimalItemStructure_GenomicsChamber",
+        "label": "SS Mutator"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Hatchery/PrimalItemStructure_Hatchery.PrimalItemStructure_Hatchery",
+        "label": "SS Hatchery"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/HitchingPost/PrimalItemStructure_HitchingPost.PrimalItemStructure_HitchingPost",
+        "label": "SS Hitching Post"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/HitchingPostTek/PrimalItemStructure_HitchingPost_Tek.PrimalItemStructure_HitchingPost_Tek",
+        "label": "SS Tek Hitching Post"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/HoverSkiff/PrimalItem_HoverSkiffSS.PrimalItem_HoverSkiffSS",
+        "label": "SS Hover Skiff"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Incinerator/PrimalItemStructure_Incinerator.PrimalItemStructure_Incinerator",
+        "label": "SS Incinerator"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Incubator/PrimalItemStructure_EggIncubatorSS.PrimalItemStructure_EggIncubatorSS",
+        "label": "SS Egg Incubator"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/IndustrialCookingPot/PrimalItemStructure_IndustrialCooker.PrimalItemStructure_IndustrialCooker",
+        "label": "SS Industrial Cooker"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/IndustrialForge/PrimalItemStructure_IndustrialForgePlus.PrimalItemStructure_IndustrialForgePlus",
+        "label": "SS Industrial Forge"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/IndustrialGrill/PrimalItemStructure_IndustrialGrill.PrimalItemStructure_IndustrialGrill",
+        "label": "SS Industrial Grill"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/IndustrialGrinder/PrimalItemStructure_GrinderPlus.PrimalItemStructure_GrinderPlus",
+        "label": "SS Industrial Grinder"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/ItemTranslocator/PrimalItemStructure_ItemTranslocator.PrimalItemStructure_ItemTranslocator",
+        "label": "SS Item Translocator"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/LeashTek/PrimalItemStructure_LeashTek.PrimalItemStructure_LeashTek",
+        "label": "SS Tek Leash"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/LightTek/PrimalItemStructure_SPlusTekLight.PrimalItemStructure_SPlusTekLight",
+        "label": "SS Tek Light"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Mannequin/PrimalItemStructure_Mannequin.PrimalItemStructure_Mannequin",
+        "label": "SS Mannequin"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/MultiLamp/PrimalItemStructure_MultiLamp.PrimalItemStructure_MultiLamp",
+        "label": "SS Multi Lamp"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Nanny/PrimalItemStructure_Nanny.PrimalItemStructure_Nanny",
+        "label": "SS Nanny"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Outlet/PrimalItemStructure_ElectricalOutlet.PrimalItemStructure_ElectricalOutlet",
+        "label": "SS Electrical Outlet"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/PlanetShield/PrimalItemStructure_PlanetShield.PrimalItemStructure_PlanetShield",
+        "label": "SS Planetary Shield"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/RepairStation/PrimalItemStructure_RepairStation.PrimalItemStructure_RepairStation",
+        "label": "SS Repair Station"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/SheepHerder/PrimalItemStructure_SheepHerder.PrimalItemStructure_SheepHerder",
+        "label": "SS Sheep Herder"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/SpikeWall/Metal/PrimalItemStructure_SpikeWall_Metal.PrimalItemStructure_SpikeWall_Metal",
+        "label": "SS Metal Spike Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/SpikeWall/Wood/PrimalItemStructure_SpikeWall_Wood.PrimalItemStructure_SpikeWall_Wood",
+        "label": "SS Wooden Spike Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/StorageBookshelf/PrimalItemStructure_BookshelfPlus.PrimalItemStructure_BookshelfPlus",
+        "label": "SS Bookshelf"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/StorageLarge/PrimalItemStructure_StorageLarge.PrimalItemStructure_StorageLarge",
+        "label": "SS Large Storage Box"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/StorageMetal/PrimalItemStructure_StorageMetal.PrimalItemStructure_StorageMetal",
+        "label": "SS Metal Storage Box"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/StorageSmall/PrimalItemStructure_StorageSmall.PrimalItemStructure_StorageSmall",
+        "label": "SS Storage Box"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/StorageTek/PrimalItemStructure_TekStorage.PrimalItemStructure_TekStorage",
+        "label": "SS Tek Storage"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Taxidermy/Large/PrimalItemStructure_TaxidermyPlus_Large.PrimalItemStructure_TaxidermyPlus_Large",
+        "label": "SS Large Taxidermy Base"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Taxidermy/Medium/PrimalItemStructure_TaxidermyPlus_Medium.PrimalItemStructure_TaxidermyPlus_Medium",
+        "label": "SS Medium Taxidermy Base"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Taxidermy/Small/PrimalItemStructure_TaxidermyPlus_Small.PrimalItemStructure_TaxidermyPlus_Small",
+        "label": "SS Small Taxidermy Base"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/TekBridge/PrimalItemStructure_TekBridgePlus.PrimalItemStructure_TekBridgePlus",
+        "label": "SS Tek Bridge"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/TekChemBench/PrimalItemStructure_TekChemBench.PrimalItemStructure_TekChemBench",
+        "label": "SS Laboratory"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/TekCookingPot/PrimalItemStructure_TekCookingPot.PrimalItemStructure_TekCookingPot",
+        "label": "SS Tek Cooking Pot"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/TekCookingPot/Recipes/PrimalItemConsumable_BeerJar_TekCookPot.PrimalItemConsumable_BeerJar_TekCookPot",
+        "label": "SS Beer"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/TekFridge/PrimalItemStructure_FridgeTek.PrimalItemStructure_FridgeTek",
+        "label": "SS Tek Refrigerator"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/TekSensor/PrimalItemStructure_TekSensor.PrimalItemStructure_TekSensor",
+        "label": "SS Tek Sensor"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/TekStove/PrimalItemStructure_TekStove.PrimalItemStructure_TekStove",
+        "label": "SS Tek Stove"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Tekforge/PrimalItemStructure_TekForge.PrimalItemStructure_TekForge",
+        "label": "SS Tek Forge"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Teleporter/PrimalItemStructure_TeleporterPlus.PrimalItemStructure_TeleporterPlus",
+        "label": "SS Teleporter"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/TorchStanding/PrimalItemStructure_StandingTorchPlus.PrimalItemStructure_StandingTorchPlus",
+        "label": "SS Standing Torch"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/TorchWall/PrimalItemStructure_WallTorchPlus.PrimalItemStructure_WallTorchPlus",
+        "label": "SS Wall Torch"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Transmitter/PrimalItemStructure_TransmitterPlus.PrimalItemStructure_TransmitterPlus",
+        "label": "SS Tek Transmitter"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/TreeSapTap/PrimalItemStructure_TreeSapTapPlus.PrimalItemStructure_TreeSapTapPlus",
+        "label": "SS Tree Sap Tap"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Vault/PrimalItemStructure_VaultPlus.PrimalItemStructure_VaultPlus",
+        "label": "SS Vault"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Vessel/PrimalItemStructure_VesselPlus.PrimalItemStructure_VesselPlus",
+        "label": "SS Vessel"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/Vivarium/PrimalItemStructure_Vivarium.PrimalItemStructure_Vivarium",
+        "label": "SS Vivarium"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/WaterTanks/Metal/PrimalItemStructure_WaterTank_Metal.PrimalItemStructure_WaterTank_Metal",
+        "label": "SS Metal Water Tank"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Misc/WaterTanks/Stone/PrimalItemStructure_WaterTank_Stone.PrimalItemStructure_WaterTank_Stone",
+        "label": "SS Water Tank"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Pipes/Flex/Metal/PrimalItemStructure_PipeFlex_MetalSP.PrimalItemStructure_PipeFlex_MetalSP",
+        "label": "SS Metal Pipe - Flexible"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Pipes/Flex/Stone/PrimalItemStructure_PipeFlex_StoneSP.PrimalItemStructure_PipeFlex_StoneSP",
+        "label": "SS Stone Pipe - Flexible"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Pipes/Horizontal/Metal/PrimalItemStructure_PipeHorizontal_Metal.PrimalItemStructure_PipeHorizontal_Metal",
+        "label": "SS Metal Pipe - Straight"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Pipes/Horizontal/Stone/PrimalItemStructure_PipeHorizontal_Stone.PrimalItemStructure_PipeHorizontal_Stone",
+        "label": "SS Stone Pipe - Straight"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Pipes/Incline/Metal/PrimalItemStructure_PipeIncline_Metal.PrimalItemStructure_PipeIncline_Metal",
+        "label": "SS Metal Pipe - Inclined"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Pipes/Incline/Stone/PrimalItemStructure_PipeIncline_Stone.PrimalItemStructure_PipeIncline_Stone",
+        "label": "SS Stone Pipe - Inclined"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Pipes/Intake/Metal/PrimalItemStructure_PipeIntake_Metal.PrimalItemStructure_PipeIntake_Metal",
+        "label": "SS Metal Pipe - Intake"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Pipes/Intake/Stone/PrimalItemStructure_PipeIntake_Stone.PrimalItemStructure_PipeIntake_Stone",
+        "label": "SS Stone Pipe - Intake"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Pipes/Internal/Pillar/PrimalItemStructure_InternalPipe_Pillar.PrimalItemStructure_InternalPipe_Pillar",
+        "label": "SS Internal Piping - Pillar"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Pipes/Internal/Square/PrimalItemStructure_InternalPipe_Square.PrimalItemStructure_InternalPipe_Square",
+        "label": "SS Internal Piping - Square"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Pipes/Internal/Triangle/PrimalItemStructure_InternalPipe_Triangle.PrimalItemStructure_InternalPipe_Triangle",
+        "label": "SS Internal Piping - Triangle"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Pipes/Internal/Wall/PrimalItemStructure_InternalPipe_Wall.PrimalItemStructure_InternalPipe_Wall",
+        "label": "SS Internal Piping - Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Pipes/Intersection/Metal/PrimalItemStructure_PipeIntersection_Metal.PrimalItemStructure_PipeIntersection_Metal",
+        "label": "SS Metal Pipe - Intersection"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Pipes/Intersection/Stone/PrimalItemStructure_PipeIntersection_Stone.PrimalItemStructure_PipeIntersection_Stone",
+        "label": "SS Stone Pipe - Intersection"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Pipes/Tap/Metal/PrimalItemStructure_WaterTap_Metal.PrimalItemStructure_WaterTap_Metal",
+        "label": "SS Metal Pipe - Tap"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Pipes/Tap/Stone/PrimalItemStructure_WaterTap_Stone.PrimalItemStructure_WaterTap_Stone",
+        "label": "SS Stone Pipe - Tap"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Pipes/Vertical/Metal/PrimalItemStructure_PipeVertical_Metal.PrimalItemStructure_PipeVertical_Metal",
+        "label": "SS Metal Pipe - Vertical"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Pipes/Vertical/Stone/PrimalItemStructure_PipeVertical_Stone.PrimalItemStructure_PipeVertical_Stone",
+        "label": "SS Stone Pipe - Vertical"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Catwalks/Glass/PrimalItemStructure_Catwalk_Glass.PrimalItemStructure_Catwalk_Glass",
+        "label": "SS Glass Catwalk"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Catwalks/Metal/PrimalItemStructure_Catwalk_Metal.PrimalItemStructure_Catwalk_Metal",
+        "label": "SS Metal Catwalk"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Catwalks/Tek/PrimalItemStructure_Catwalk_Tek.PrimalItemStructure_Catwalk_Tek",
+        "label": "SS Tek Catwalk"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Catwalks/Wood/PrimalItemStructure_Catwalk_Wood.PrimalItemStructure_Catwalk_Wood",
+        "label": "SS Wood Catwalk"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Ceilings/Square/Adobe/PrimalItemStructure_Ceiling_Adobe.PrimalItemStructure_Ceiling_Adobe",
+        "label": "SS Adobe Ceiling"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Ceilings/Square/Glass/PrimalItemStructure_Ceiling_Glass.PrimalItemStructure_Ceiling_Glass",
+        "label": "SS Glass Ceiling"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Ceilings/Square/Greenhouse/PrimalItemStructure_Ceiling_Greenhouse.PrimalItemStructure_Ceiling_Greenhouse",
+        "label": "SS Greenhouse Ceiling"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Ceilings/Square/Metal/PrimalItemStructure_Ceiling_Metal.PrimalItemStructure_Ceiling_Metal",
+        "label": "SS Metal Ceiling"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Ceilings/Square/Stone/PrimalItemStructure_Ceiling_Stone.PrimalItemStructure_Ceiling_Stone",
+        "label": "SS Stone Ceiling"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Ceilings/Square/Tek/PrimalItemStructure_Ceiling_Tek.PrimalItemStructure_Ceiling_Tek",
+        "label": "SS Tek Ceiling"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Ceilings/Square/TekElevator/PrimalItemStructure_Ceiling_TekElevator.PrimalItemStructure_Ceiling_TekElevator",
+        "label": "SS Tek Elevator"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Ceilings/Square/TekGlass/PrimalItemStructure_Ceiling_TekGlass.PrimalItemStructure_Ceiling_TekGlass",
+        "label": "SS Tek Glass Ceiling"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Ceilings/Square/Thatch/PrimalItemStructure_Ceiling_Thatch.PrimalItemStructure_Ceiling_Thatch",
+        "label": "SS Thatch Ceiling"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Ceilings/Square/Wood/PrimalItemStructure_Ceiling_Wood.PrimalItemStructure_Ceiling_Wood",
+        "label": "SS Wood Ceiling"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Ceilings/Triangle/Adobe/PrimalItemStructure_TriCeiling_AdobeSP.PrimalItemStructure_TriCeiling_AdobeSP",
+        "label": "SS Adobe Triangle Ceiling"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Ceilings/Triangle/Glass/PrimalItemStructure_TriCeiling_Glass.PrimalItemStructure_TriCeiling_Glass",
+        "label": "SS Glass Triangle Ceiling"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Ceilings/Triangle/Greenhouse/PrimalItemStructure_TriCeiling_GreenhouseSP.PrimalItemStructure_TriCeiling_GreenhouseSP",
+        "label": "SS Greenhouse Triangle Ceiling"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Ceilings/Triangle/Metal/PrimalItemStructure_TriCeiling_MetalSP.PrimalItemStructure_TriCeiling_MetalSP",
+        "label": "SS Metal Triangle Ceiling"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Ceilings/Triangle/Stone/PrimalItemStructure_TriCeiling_StoneSP.PrimalItemStructure_TriCeiling_StoneSP",
+        "label": "SS Stone Triangle Ceiling"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Ceilings/Triangle/Tek/PrimalItemStructure_TriCeiling_TekSP.PrimalItemStructure_TriCeiling_TekSP",
+        "label": "SS Tek Triangle Ceiling"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Ceilings/Triangle/TekElevator/PrimalItemStructure_TriCeiling_TekElevator.PrimalItemStructure_TriCeiling_TekElevator",
+        "label": "SS Triangle Tek Elevator"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Ceilings/Triangle/Wood/PrimalItemStructure_TriCeiling_WoodSP.PrimalItemStructure_TriCeiling_WoodSP",
+        "label": "SS Wood Triangle Ceiling"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Doorframes/Adobe/PrimalItemStructure_Doorframe_Adobe.PrimalItemStructure_Doorframe_Adobe",
+        "label": "SS Adobe Doorframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Doorframes/Glass/PrimalItemStructure_Doorframe_Glass.PrimalItemStructure_Doorframe_Glass",
+        "label": "SS Glass Doorframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Doorframes/Greenhouse/PrimalItemStructure_Doorframe_Greenhouse.PrimalItemStructure_Doorframe_Greenhouse",
+        "label": "SS Greenhouse Doorframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Doorframes/Metal/PrimalItemStructure_Doorframe_Metal.PrimalItemStructure_Doorframe_Metal",
+        "label": "SS Metal Doorframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Doorframes/Stone/PrimalItemStructure_Doorframe_Stone.PrimalItemStructure_Doorframe_Stone",
+        "label": "SS Stone Doorframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Doorframes/Tek/PrimalItemStructure_Doorframe_Tek.PrimalItemStructure_Doorframe_Tek",
+        "label": "SS Tek Doorframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Doorframes/Thatch/PrimalItemStructure_Doorframe_Thatch.PrimalItemStructure_Doorframe_Thatch",
+        "label": "SS Thatch Doorframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Doorframes/Wood/PrimalItemStructure_Doorframe_Wood.PrimalItemStructure_Doorframe_Wood",
+        "label": "SS Wood Doorframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Doorframes_Double/Adobe/PrimalItemStructure_DoubleDoorframe_AdobeSP.PrimalItemStructure_DoubleDoorframe_AdobeSP",
+        "label": "SS Adobe Double Doorframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Doorframes_Double/Glass/PrimalItemStructure_DoubleDoorframe_Glass.PrimalItemStructure_DoubleDoorframe_Glass",
+        "label": "SS Glass Double Doorframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Doorframes_Double/Greenhouse/PrimalItemStructure_DoubleDoorframe_GreenhouseSP.PrimalItemStructure_DoubleDoorframe_GreenhouseSP",
+        "label": "SS Greenhouse Double Doorframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Doorframes_Double/Metal/PrimalItemStructure_DoubleDoorframe_MetalSP.PrimalItemStructure_DoubleDoorframe_MetalSP",
+        "label": "SS Metal Double Doorframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Doorframes_Double/Stone/PrimalItemStructure_DoubleDoorframe_StoneSP.PrimalItemStructure_DoubleDoorframe_StoneSP",
+        "label": "SS Stone Double Doorframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Doorframes_Double/Tek/PrimalItemStructure_DoubleDoorframe_TekSP.PrimalItemStructure_DoubleDoorframe_TekSP",
+        "label": "SS Tek Double Doorframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Doorframes_Double/Wood/PrimalItemStructure_DoubleDoorframe_WoodSP.PrimalItemStructure_DoubleDoorframe_WoodSP",
+        "label": "SS Wood Double Doorframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/FenceFoundations/Adobe/PrimalItemStructure_FenceFoundation_Adobe.PrimalItemStructure_FenceFoundation_Adobe",
+        "label": "SS Adobe Fence Foundation"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/FenceFoundations/Metal/PrimalItemStructure_FenceFoundation_Metal.PrimalItemStructure_FenceFoundation_Metal",
+        "label": "SS Metal Fence Foundation"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/FenceFoundations/Stone/PrimalItemStructure_FenceFoundation_Stone.PrimalItemStructure_FenceFoundation_Stone",
+        "label": "SS Stone Fence Foundation"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/FenceFoundations/Tek/PrimalItemStructure_FenceFoundation_Tek.PrimalItemStructure_FenceFoundation_Tek",
+        "label": "SS Tek Fence Foundation"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/FenceFoundations/Wood/PrimalItemStructure_FenceFoundation_Wood.PrimalItemStructure_FenceFoundation_Wood",
+        "label": "SS Wood Fence Foundation"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/FenceSupports/Adobe/PrimalItemStructure_FenceSupport_AdobeSP.PrimalItemStructure_FenceSupport_AdobeSP",
+        "label": "SS Adobe Fence Support"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/FenceSupports/Metal/PrimalItemStructure_FenceSupport_MetalSP.PrimalItemStructure_FenceSupport_MetalSP",
+        "label": "SS Metal Fence Support"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/FenceSupports/Stone/PrimalItemStructure_FenceSupport_StoneSP.PrimalItemStructure_FenceSupport_StoneSP",
+        "label": "SS Stone Fence Support"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/FenceSupports/Tek/PrimalItemStructure_FenceSupport_TekSP.PrimalItemStructure_FenceSupport_TekSP",
+        "label": "SS Tek Fence Support"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/FenceSupports/Wood/PrimalItemStructure_FenceSupport_WoodSP.PrimalItemStructure_FenceSupport_WoodSP",
+        "label": "SS Wood Fence Support"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Foundations/Square/Adobe/PrimalItemStructure_Foundation_Adobe.PrimalItemStructure_Foundation_Adobe",
+        "label": "SS Adobe Foundation"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Foundations/Square/Glass/PrimalItemStructure_Foundation_Glass.PrimalItemStructure_Foundation_Glass",
+        "label": "SS Glass Foundation"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Foundations/Square/Metal/PrimalItemStructure_Foundation_Metal.PrimalItemStructure_Foundation_Metal",
+        "label": "SS Metal Foundation"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Foundations/Square/OceanMetal/PrimalItemStructure_Foundation_Ocean_Metal.PrimalItemStructure_Foundation_Ocean_Metal",
+        "label": "SS Ocean Metal Foundation"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Foundations/Square/Stone/PrimalItemStructure_Foundation_Stone.PrimalItemStructure_Foundation_Stone",
+        "label": "SS Stone Foundation"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Foundations/Square/Tek/PrimalItemStructure_Foundation_Tek.PrimalItemStructure_Foundation_Tek",
+        "label": "SS Tek Foundation"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Foundations/Square/Thatch/PrimalItemStructure_Foundation_Thatch.PrimalItemStructure_Foundation_Thatch",
+        "label": "SS Thatch Foundation"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Foundations/Square/Wood/PrimalItemStructure_Foundation_Wood.PrimalItemStructure_Foundation_Wood",
+        "label": "SS Wood Foundation"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Foundations/Triangle/Adobe/PrimalItemStructure_TriFoundation_AdobeSP.PrimalItemStructure_TriFoundation_AdobeSP",
+        "label": "SS Adobe Triangle Foundation"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Foundations/Triangle/Glass/PrimalItemStructure_TriFoundation_Glass.PrimalItemStructure_TriFoundation_Glass",
+        "label": "SS Glass Triangle Foundation"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Foundations/Triangle/Metal/PrimalItemStructure_TriFoundation_MetalSP.PrimalItemStructure_TriFoundation_MetalSP",
+        "label": "SS Metal Triangle Foundation"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Foundations/Triangle/Stone/PrimalItemStructure_TriFoundation_StoneSP.PrimalItemStructure_TriFoundation_StoneSP",
+        "label": "SS Stone Triangle Foundation"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Foundations/Triangle/Tek/PrimalItemStructure_TriFoundation_TekSP.PrimalItemStructure_TriFoundation_TekSP",
+        "label": "SS Tek Triangle Foundation"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Foundations/Triangle/Wood/PrimalItemStructure_TriFoundation_WoodSP.PrimalItemStructure_TriFoundation_WoodSP",
+        "label": "SS Wood Triangle Foundation"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Gateways/Dynamic/PrimalItemStructure_Gateway_Dynamic.PrimalItemStructure_Gateway_Dynamic",
+        "label": "SS Dynamic Gateway"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Gateways/Large/Metal/PrimalItemStructure_LargeGateway_Metal.PrimalItemStructure_LargeGateway_Metal",
+        "label": "SS Metal Behemoth Gateway"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Gateways/Large/Stone/PrimalItemStructure_LargeGateway_Stone.PrimalItemStructure_LargeGateway_Stone",
+        "label": "SS Stone Behemoth Gateway"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Gateways/Large/Tek/PrimalItemStructure_LargeGateway_Tek.PrimalItemStructure_LargeGateway_Tek",
+        "label": "SS Behemoth Tek Gateway"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Gateways/Small/Adobe/PrimalItemStructure_Gateway_Adobe.PrimalItemStructure_Gateway_Adobe",
+        "label": "SS Adobe Gateway"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Gateways/Small/Metal/PrimalItemStructure_Gateway_Metal.PrimalItemStructure_Gateway_Metal",
+        "label": "SS Metal Gateway"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Gateways/Small/Stone/PrimalItemStructure_Gateway_Stone.PrimalItemStructure_Gateway_Stone",
+        "label": "SS Stone Gateway"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Gateways/Small/Tek/PrimalItemStructure_Gateway_Tek.PrimalItemStructure_Gateway_Tek",
+        "label": "SS Tek Gateway"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Gateways/Small/Wood/PrimalItemStructure_Gateway_Wood.PrimalItemStructure_Gateway_Wood",
+        "label": "SS Wood Gateway"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/HatchFrames/Adobe/PrimalItemStructure_Hatchframe_Adobe.PrimalItemStructure_Hatchframe_Adobe",
+        "label": "SS Adobe Hatchframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/HatchFrames/Glass/PrimalItemStructure_Hatchframe_Glass.PrimalItemStructure_Hatchframe_Glass",
+        "label": "SS Glass Hatchframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/HatchFrames/Metal/PrimalItemStructure_Hatchframe_Metal.PrimalItemStructure_Hatchframe_Metal",
+        "label": "SS Metal Hatchframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/HatchFrames/Stone/PrimalItemStructure_Hatchframe_Stone.PrimalItemStructure_Hatchframe_Stone",
+        "label": "SS Stone Hatchframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/HatchFrames/Tek/PrimalItemStructure_Hatchframe_Tek.PrimalItemStructure_Hatchframe_Tek",
+        "label": "SS Tek Hatchframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/HatchFrames/Wood/PrimalItemStructure_Hatchframe_Wood.PrimalItemStructure_Hatchframe_Wood",
+        "label": "SS Wood Hatchframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/HatchFrames_L/Adobe/PrimalItemStructure_LargeHatchframe_Adobe.PrimalItemStructure_LargeHatchframe_Adobe",
+        "label": "SS Large Adobe Hatchframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/HatchFrames_L/Metal/PrimalItemStructure_LargeHatchframe_Metal.PrimalItemStructure_LargeHatchframe_Metal",
+        "label": "SS Large Metal Hatchframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/HatchFrames_L/Stone/PrimalItemStructure_LargeHatchframe_Stone.PrimalItemStructure_LargeHatchframe_Stone",
+        "label": "SS Large Stone Hatchframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/HatchFrames_L/Tek/PrimalItemStructure_LargeHatchframe_Tek.PrimalItemStructure_LargeHatchframe_Tek",
+        "label": "SS Large Tek Hatchframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Hatchframes_L_S/Adobe/PrimalItemStructure_LargeHatchframeSloped_Adobe.PrimalItemStructure_LargeHatchframeSloped_Adobe",
+        "label": "SS Large Sloped Adobe Hatchframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Hatchframes_L_S/Metal/PrimalItemStructure_LargeHatchframeSloped_Metal.PrimalItemStructure_LargeHatchframeSloped_Metal",
+        "label": "SS Large Sloped Metal Hatchframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Hatchframes_L_S/Stone/PrimalItemStructure_LargeHatchframeSloped_Stone.PrimalItemStructure_LargeHatchframeSloped_Stone",
+        "label": "SS Large Sloped Stone Hatchframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Hatchframes_L_S/Tek/PrimalItemStructure_LargeHatchframeSloped_Tek.PrimalItemStructure_LargeHatchframeSloped_Tek",
+        "label": "SS Large Sloped Tek Hatchframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Hatchframes_XL/Adobe/PrimalItemStructure_XLHatchframe_Adobe.PrimalItemStructure_XLHatchframe_Adobe",
+        "label": "SS Behemoth Adobe Hatchframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Hatchframes_XL/Metal/PrimalItemStructure_XLHatchframe_Metal.PrimalItemStructure_XLHatchframe_Metal",
+        "label": "SS Behemoth Metal Hatchframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Hatchframes_XL/Stone/PrimalItemStructure_XLHatchframe_Stone.PrimalItemStructure_XLHatchframe_Stone",
+        "label": "SS Behemoth Stone Hatchframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Hatchframes_XL/Tek/PrimalItemStructure_XLHatchframe_Tek.PrimalItemStructure_XLHatchframe_Tek",
+        "label": "SS Behemoth Tek Hatchframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Hatchframes_XL_S/Adobe/PrimalItemStructure_XLHatchframeSloped_Adobe.PrimalItemStructure_XLHatchframeSloped_Adobe",
+        "label": "SS Behemoth Sloped Adobe Hatchframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Hatchframes_XL_S/Metal/PrimalItemStructure_XLHatchframeSloped_Metal.PrimalItemStructure_XLHatchframeSloped_Metal",
+        "label": "SS Behemoth Sloped Metal Hatchframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Hatchframes_XL_S/Stone/PrimalItemStructure_XLHatchframeSloped_Stone.PrimalItemStructure_XLHatchframeSloped_Stone",
+        "label": "SS Behemoth Sloped Stone Hatchframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Hatchframes_XL_S/Tek/PrimalItemStructure_XLHatchframeSloped_Tek.PrimalItemStructure_XLHatchframeSloped_Tek",
+        "label": "SS Behemoth Sloped Tek Hatchframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Pillars/Dynamic/Adobe/PrimalItemStructure_DynamicPillar_Adobe.PrimalItemStructure_DynamicPillar_Adobe",
+        "label": "SS Dynamic Adobe Pillar"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Pillars/Dynamic/Metal/PrimalItemStructure_DynamicPillar_Metal.PrimalItemStructure_DynamicPillar_Metal",
+        "label": "SS Dynamic Metal Pillar"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Pillars/Dynamic/Stone/PrimalItemStructure_DynamicPillar_Stone.PrimalItemStructure_DynamicPillar_Stone",
+        "label": "SS Dynamic Stone Pillar"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Pillars/Dynamic/Tek/PrimalItemStructure_DynamicPillar_Tek.PrimalItemStructure_DynamicPillar_Tek",
+        "label": "SS Dynamic Tek Pillar"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Pillars/Dynamic/Wood/PrimalItemStructure_DynamicPillar_Wood.PrimalItemStructure_DynamicPillar_Wood",
+        "label": "SS Dynamic Wood Pillar"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Pillars/Large/Adobe/PrimalItemStructure_LargePillar_Adobe.PrimalItemStructure_LargePillar_Adobe",
+        "label": "SS Large Adobe Pillar"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Pillars/Large/Metal/PrimalItemStructure_LargePillar_Metal.PrimalItemStructure_LargePillar_Metal",
+        "label": "SS Large Metal Pillar"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Pillars/Large/Stone/PrimalItemStructure_LargePillar_Stone.PrimalItemStructure_LargePillar_Stone",
+        "label": "SS Large Stone Pillar"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Pillars/Large/Tek/PrimalItemStructure_LargePillar_Tek.PrimalItemStructure_LargePillar_Tek",
+        "label": "SS Large Tek Pillar"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Pillars/Large/Wood/PrimalItemStructure_LargePillar_Wood.PrimalItemStructure_LargePillar_Wood",
+        "label": "SS Large Wood Pillar"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Pillars/Medium/Adobe/PrimalItemStructure_MediumPillar_Adobe.PrimalItemStructure_MediumPillar_Adobe",
+        "label": "SS Medium Adobe Pillar"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Pillars/Medium/Metal/PrimalItemStructure_MediumPillar_Metal.PrimalItemStructure_MediumPillar_Metal",
+        "label": "SS Medium Metal Pillar"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Pillars/Medium/Stone/PrimalItemStructure_MediumPillar_Stone.PrimalItemStructure_MediumPillar_Stone",
+        "label": "SS Medium Stone Pillar"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Pillars/Medium/Tek/PrimalItemStructure_MediumPillar_Tek.PrimalItemStructure_MediumPillar_Tek",
+        "label": "SS Medium Tek Pillar"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Pillars/Medium/Wood/PrimalItemStructure_MediumPillar_Wood.PrimalItemStructure_MediumPillar_Wood",
+        "label": "SS Medium Wood Pillar"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Pillars/Small/Adobe/PrimalItemStructure_SmallPillar_Adobe.PrimalItemStructure_SmallPillar_Adobe",
+        "label": "SS Small Adobe Pillar"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Pillars/Small/Metal/PrimalItemStructure_SmallPillar_Metal.PrimalItemStructure_SmallPillar_Metal",
+        "label": "SS Small Metal Pillar"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Pillars/Small/Stone/PrimalItemStructure_SmallPillar_Stone.PrimalItemStructure_SmallPillar_Stone",
+        "label": "SS Small Stone Pillar"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Pillars/Small/Tek/PrimalItemStructure_SmallPillar_Tek.PrimalItemStructure_SmallPillar_Tek",
+        "label": "SS Small Tek Pillar"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Pillars/Small/Wood/PrimalItemStructure_SmallPillar_Wood.PrimalItemStructure_SmallPillar_Wood",
+        "label": "SS Small Wood Pillar"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Railings/Adobe/PrimalItemStructure_Railing_Adobe.PrimalItemStructure_Railing_Adobe",
+        "label": "SS Adobe Railing"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Railings/Glass/PrimalItemStructure_Railing_Glass.PrimalItemStructure_Railing_Glass",
+        "label": "SS Glass Half Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Railings/Metal/PrimalItemStructure_Railing_Metal.PrimalItemStructure_Railing_Metal",
+        "label": "SS Metal Railing"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Railings/Stone/PrimalItemStructure_Railing_Stone.PrimalItemStructure_Railing_Stone",
+        "label": "SS Stone Railing"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Railings/Tek/PrimalItemStructure_Railing_Tek.PrimalItemStructure_Railing_Tek",
+        "label": "SS Tek Railing"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Railings/Wood/PrimalItemStructure_Railing_Wood.PrimalItemStructure_Railing_Wood",
+        "label": "SS Wood Railing"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Ramps/Adobe/PrimalItemStructure_Ramp_AdobeSP.PrimalItemStructure_Ramp_AdobeSP",
+        "label": "SS Adobe Ramp"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Ramps/Glass/PrimalItemStructure_Ramp_Glass.PrimalItemStructure_Ramp_Glass",
+        "label": "SS Glass Ramp"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Ramps/Metal/PrimalItemStructure_Ramp_MetalSP.PrimalItemStructure_Ramp_MetalSP",
+        "label": "SS Metal Ramp"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Ramps/Stone/PrimalItemStructure_Ramp_StoneSP.PrimalItemStructure_Ramp_StoneSP",
+        "label": "SS Stone Ramp"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Ramps/Tek/PrimalItemStructure_Ramp_TekSP.PrimalItemStructure_Ramp_TekSP",
+        "label": "SS Tek Ramp"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Ramps/Wood/PrimalItemStructure_Ramp_WoodSP.PrimalItemStructure_Ramp_WoodSP",
+        "label": "SS Wood Ramp"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Roofs/Adobe/PrimalItemStructure_Roof_Adobe.PrimalItemStructure_Roof_Adobe",
+        "label": "SS Sloped Adobe Roof"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Roofs/Glass/PrimalItemStructure_Roof_Glass.PrimalItemStructure_Roof_Glass",
+        "label": "SS Sloped Glass Roof"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Roofs/Greenhouse/PrimalItemStructure_Roof_Greenhouse.PrimalItemStructure_Roof_Greenhouse",
+        "label": "SS Sloped Greenhouse Roof"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Roofs/Metal/PrimalItemStructure_Roof_Metal.PrimalItemStructure_Roof_Metal",
+        "label": "SS Sloped Metal Roof"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Roofs/Stone/PrimalItemStructure_Roof_Stone.PrimalItemStructure_Roof_Stone",
+        "label": "SS Sloped Stone Roof"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Roofs/Tek/PrimalItemStructure_Roof_Tek.PrimalItemStructure_Roof_Tek",
+        "label": "SS Sloped Tek Roof"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Roofs/TekGlass/PrimalItemStructure_Roof_TekGlass.PrimalItemStructure_Roof_TekGlass",
+        "label": "SS Sloped Tek Glass Roof"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Roofs/Thatch/PrimalItemStructure_Roof_Thatch.PrimalItemStructure_Roof_Thatch",
+        "label": "SS Sloped Thatch Roof"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Roofs/Wood/PrimalItemStructure_Roof_Wood.PrimalItemStructure_Roof_Wood",
+        "label": "SS Sloped Wood Roof"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Roofs_Tri/Adobe/PrimalItemStructure_TriRoof_AdobeSP.PrimalItemStructure_TriRoof_AdobeSP",
+        "label": "SS Adobe Triangle Roof"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Roofs_Tri/Glass/PrimalItemStructure_TriRoof_Glass.PrimalItemStructure_TriRoof_Glass",
+        "label": "SS Glass Triangle Roof"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Roofs_Tri/Greenhouse/PrimalItemStructure_TriRoof_GreenhouseSP.PrimalItemStructure_TriRoof_GreenhouseSP",
+        "label": "SS Greenhouse Triangle Roof"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Roofs_Tri/Metal/PrimalItemStructure_TriRoof_MetalSP.PrimalItemStructure_TriRoof_MetalSP",
+        "label": "SS Metal Triangle Roof"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Roofs_Tri/Stone/PrimalItemStructure_TriRoof_StoneSP.PrimalItemStructure_TriRoof_StoneSP",
+        "label": "SS Stone Triangle Roof"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Roofs_Tri/Tek/PrimalItemStructure_TriRoof_TekSP.PrimalItemStructure_TriRoof_TekSP",
+        "label": "SS Tek Triangle Roof"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Roofs_Tri/Wood/PrimalItemStructure_TriRoof_WoodSP.PrimalItemStructure_TriRoof_WoodSP",
+        "label": "SS Wood Triangle Roof"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Left/Adobe/PrimalItemStructure_SlopedWall_Adobe_Left.PrimalItemStructure_SlopedWall_Adobe_Left",
+        "label": "SS Sloped Adobe Wall Left"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Left/Glass/PrimalItemStructure_SlopedWall_Glass_Left.PrimalItemStructure_SlopedWall_Glass_Left",
+        "label": "SS Sloped Glass Wall Left"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Left/Greenhouse/PrimalItemStructure_SlopedWall_Greenhouse_Left.PrimalItemStructure_SlopedWall_Greenhouse_Left",
+        "label": "SS Sloped Greenhouse Wall Left"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Left/Metal/PrimalItemStructure_SlopedWall_Metal_Left.PrimalItemStructure_SlopedWall_Metal_Left",
+        "label": "SS Sloped Metal Wall Left"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Left/Stone/PrimalItemStructure_SlopedWall_Stone_Left.PrimalItemStructure_SlopedWall_Stone_Left",
+        "label": "SS Sloped Stone Wall Left"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Left/Tek/PrimalItemStructure_SlopedWall_Tek_Left.PrimalItemStructure_SlopedWall_Tek_Left",
+        "label": "SS Sloped Tek Wall Left"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Left/Thatch/PrimalItemStructure_SlopedWall_Thatch_Left.PrimalItemStructure_SlopedWall_Thatch_Left",
+        "label": "SS Sloped Thatch Wall Left"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Left/Wood/PrimalItemStructure_SlopedWall_Wood_Left.PrimalItemStructure_SlopedWall_Wood_Left",
+        "label": "SS Sloped Wood Wall Left"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Right/Adobe/PrimalItemStructure_SlopedWall_Adobe_Right.PrimalItemStructure_SlopedWall_Adobe_Right",
+        "label": "SS Sloped Adobe Wall Right"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Right/Glass/PrimalItemStructure_SlopedWall_Glass_Right.PrimalItemStructure_SlopedWall_Glass_Right",
+        "label": "SS Sloped Glass Wall Right"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Right/Greenhouse/PrimalItemStructure_SlopedWall_Greenhouse_Right.PrimalItemStructure_SlopedWall_Greenhouse_Right",
+        "label": "SS Sloped Greenhouse Wall Right"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Right/Metal/PrimalItemStructure_SlopedWall_Metal_Right.PrimalItemStructure_SlopedWall_Metal_Right",
+        "label": "SS Sloped Metal Wall Right"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Right/Stone/PrimalItemStructure_SlopedWall_Stone_Right.PrimalItemStructure_SlopedWall_Stone_Right",
+        "label": "SS Sloped Stone Wall Right"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Right/Tek/PrimalItemStructure_SlopedWall_Tek_Right.PrimalItemStructure_SlopedWall_Tek_Right",
+        "label": "SS Sloped Tek Wall Right"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Right/Thatch/PrimalItemStructure_SlopedWall_Thatch_Right.PrimalItemStructure_SlopedWall_Thatch_Right",
+        "label": "SS Sloped Thatch Wall Right"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/SlopedWalls/Right/Wood/PrimalItemStructure_SlopedWall_Wood_Right.PrimalItemStructure_SlopedWall_Wood_Right",
+        "label": "SS Sloped Wood Wall Right"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Staircases/Adobe/PrimalItemStructure_Staircase_Adobe.PrimalItemStructure_Staircase_Adobe",
+        "label": "SS Adobe Staircase"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Staircases/Glass/PrimalItemStructure_Staircase_Glass.PrimalItemStructure_Staircase_Glass",
+        "label": "SS Glass Staircase"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Staircases/Metal/PrimalItemStructure_Staircase_Metal.PrimalItemStructure_Staircase_Metal",
+        "label": "SS Metal Staircase"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Staircases/Stone/PrimalItemStructure_Staircase_Stone.PrimalItemStructure_Staircase_Stone",
+        "label": "SS Stone Staircase"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Staircases/Wood/PrimalItemStructure_Staircase_Wood.PrimalItemStructure_Staircase_Wood",
+        "label": "SS Wooden Staircase"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Underwater/Underwater_Cube/PrimalItemStructure_Underwater_Cube.PrimalItemStructure_Underwater_Cube",
+        "label": "SS Vacuum Compartment"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Underwater/Underwater_Cube_Sloped/PrimalItemStructure_Underwater_Cube_Sloped.PrimalItemStructure_Underwater_Cube_Sloped",
+        "label": "SS Sloped Vacuum Compartment"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Underwater/Underwater_Moonpool/PrimalItemStructure_Underwater_Moonpool.PrimalItemStructure_Underwater_Moonpool",
+        "label": "SS Vacuum Moonpool"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Walls/Adobe/PrimalItemStructure_Wall_Adobe.PrimalItemStructure_Wall_Adobe",
+        "label": "SS Adobe Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Walls/Forcefield/PrimalItemStructure_Wall_Forcefield.PrimalItemStructure_Wall_Forcefield",
+        "label": "SS Forcefield Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Walls/Glass/PrimalItemStructure_Wall_Glass.PrimalItemStructure_Wall_Glass",
+        "label": "SS Glass Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Walls/Greenhouse/PrimalItemStructure_Wall_Greenhouse.PrimalItemStructure_Wall_Greenhouse",
+        "label": "SS Greenhouse Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Walls/Metal/PrimalItemStructure_Wall_Metal.PrimalItemStructure_Wall_Metal",
+        "label": "SS Metal Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Walls/Stone/PrimalItemStructure_Wall_Stone.PrimalItemStructure_Wall_Stone",
+        "label": "SS Stone Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Walls/Tek/PrimalItemStructure_Wall_Tek.PrimalItemStructure_Wall_Tek",
+        "label": "SS Tek Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Walls/TekGlass/PrimalItemStructure_Wall_TekGlass.PrimalItemStructure_Wall_TekGlass",
+        "label": "SS Tek Glass Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Walls/Thatch/PrimalItemStructure_Wall_Thatch.PrimalItemStructure_Wall_Thatch",
+        "label": "SS Thatch Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Walls/Wood/PrimalItemStructure_Wall_Wood.PrimalItemStructure_Wall_Wood",
+        "label": "SS Wood Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Walls_L/Adobe/PrimalItemStructure_LargeWall_AdobeSP.PrimalItemStructure_LargeWall_AdobeSP",
+        "label": "SS Large Adobe Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Walls_L/Forcefield/PrimalItemStructure_LargeWall_Forcefield.PrimalItemStructure_LargeWall_Forcefield",
+        "label": "SS Large Forcefield Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Walls_L/Glass/PrimalItemStructure_LargeWall_Glass.PrimalItemStructure_LargeWall_Glass",
+        "label": "SS Large Glass Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Walls_L/Metal/PrimalItemStructure_LargeWall_MetalSP.PrimalItemStructure_LargeWall_MetalSP",
+        "label": "SS Large Metal Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Walls_L/Stone/PrimalItemStructure_LargeWall_StoneSP.PrimalItemStructure_LargeWall_StoneSP",
+        "label": "SS Large Stone Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Walls_L/Tek/PrimalItemStructure_LargeWall_TekSP.PrimalItemStructure_LargeWall_TekSP",
+        "label": "SS Large Tek Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Walls_L/Wood/PrimalItemStructure_LargeWall_WoodSP.PrimalItemStructure_LargeWall_WoodSP",
+        "label": "SS Large Wood Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Walls_XL/Adobe/PrimalItemStructure_XLWall_Adobe.PrimalItemStructure_XLWall_Adobe",
+        "label": "SS XL Adobe Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Walls_XL/Forcefield/PrimalItemStructure_XLWall_Forcefield.PrimalItemStructure_XLWall_Forcefield",
+        "label": "SS XL Forcefield Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Walls_XL/Glass/PrimalItemStructure_XLWall_Glass.PrimalItemStructure_XLWall_Glass",
+        "label": "SS XL Glass Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Walls_XL/Metal/PrimalItemStructure_XLWall_Metal.PrimalItemStructure_XLWall_Metal",
+        "label": "SS XL Metal Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Walls_XL/Stone/PrimalItemStructure_XLWall_Stone.PrimalItemStructure_XLWall_Stone",
+        "label": "SS XL Stone Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Walls_XL/Tek/PrimalItemStructure_XLWall_Tek.PrimalItemStructure_XLWall_Tek",
+        "label": "SS XL Tek Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/Walls_XL/Wood/PrimalItemStructure_XLWall_Wood.PrimalItemStructure_XLWall_Wood",
+        "label": "SS XL Wood Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/WindowWalls/Adobe/PrimalItemStructure_WindowWall_Adobe.PrimalItemStructure_WindowWall_Adobe",
+        "label": "SS Adobe Window Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/WindowWalls/Metal/PrimalItemStructure_WindowWall_Metal.PrimalItemStructure_WindowWall_Metal",
+        "label": "SS Metal Window Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/WindowWalls/Stone/PrimalItemStructure_WindowWall_Stone.PrimalItemStructure_WindowWall_Stone",
+        "label": "SS Stone Window Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/WindowWalls/Tek/PrimalItemStructure_WindowWall_Tek.PrimalItemStructure_WindowWall_Tek",
+        "label": "SS Tek Windowframe"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Structures/WindowWalls/Wood/PrimalItemStructure_WindowWall_Wood.PrimalItemStructure_WindowWall_Wood",
+        "label": "SS Wood Window Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Wires/Flex/PrimalItemStructure_Wire_FlexSP.PrimalItemStructure_Wire_FlexSP",
+        "label": "SS Flexible Electrical Cable"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Wires/Horizontal/PrimalItemStructure_Wire_Horizontal.PrimalItemStructure_Wire_Horizontal",
+        "label": "SS Straight Electrical Cable"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Wires/Incline/PrimalItemStructure_Wire_Incline.PrimalItemStructure_Wire_Incline",
+        "label": "SS Diagonal Electrical Cable"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Wires/Internal/Pillar/PrimalItemStructure_InternalWire_Pillar.PrimalItemStructure_InternalWire_Pillar",
+        "label": "SS Internal Wiring - Pillar"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Wires/Internal/Square/PrimalItemStructure_InternalWire_Square.PrimalItemStructure_InternalWire_Square",
+        "label": "SS Internal Wiring - Square"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Wires/Internal/Triangle/PrimalItemStructure_InternalWire_Triangle.PrimalItemStructure_InternalWire_Triangle",
+        "label": "SS Internal Wiring - Triangle"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Wires/Internal/Wall/PrimalItemStructure_InternalWire_Wall.PrimalItemStructure_InternalWire_Wall",
+        "label": "SS Internal Wiring - Wall"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Wires/Intersection/PrimalItemStructure_Wire_Intersection.PrimalItemStructure_Wire_Intersection",
+        "label": "SS Electrical Cable Intersection"
+      },
+      {
+        "value": "/Game/Mods/StructuresPlusMod/Wires/Vertical/PrimalItemStructure_Wire_Vertical.PrimalItemStructure_Wire_Vertical",
+        "label": "SS Vertical Electrical Cable"
+      }
+    ]
+  }
 }
