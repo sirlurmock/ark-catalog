@@ -631,7 +631,6 @@
     }
   },
   "controls": {
-    "engram_picker_stub": "Engram selector is not available yet. The engrams catalog will be specified in a later prompt.",
     "struct.no_entries": "No entries."
   },
   "breeding_guide": {
@@ -743,8 +742,7 @@
       "title": "Rename configuration",
       "label": "New name",
       "save": "Save"
-    },
-    "export_stub": "To export, open the configuration and use the Export button in the header"
+    }
   },
   "deployment_profile": {
     "single_player": "Single Player",
@@ -3988,8 +3986,8 @@
       "title": "Name your configuration",
       "label": "Profile name",
       "placeholder": "e.g. Friends server",
-      "mods_toggle": "Enable mod configuration on create",
-      "mods_unavailable": "The mods panel is coming in a future version."
+      "mods_hint": "Mods are added afterwards, from the MODS section of the editor.",
+      "mods_hint_count": "{count} mods are catalogued with their settings; you can still add any other one by its Workshop ID."
     },
     "import": {
       "title": "Import existing .ini",

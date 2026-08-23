@@ -631,7 +631,6 @@
     }
   },
   "controls": {
-    "engram_picker_stub": "Selector de engramas aún no disponible. El catálogo de engramas se redactará en un prompt futuro.",
     "struct.no_entries": "Sin entradas."
   },
   "breeding_guide": {
@@ -743,8 +742,7 @@
       "title": "Renombrar configuración",
       "label": "Nuevo nombre",
       "save": "Guardar"
-    },
-    "export_stub": "Para exportar, abre la configuración y usa el botón Exportar del header"
+    }
   },
   "deployment_profile": {
     "single_player": "Single Player",
@@ -3988,8 +3986,8 @@
       "title": "Nombra tu configuración",
       "label": "Nombre del perfil",
       "placeholder": "ej: Servidor con amigos",
-      "mods_toggle": "Activar configuración de mods al crear",
-      "mods_unavailable": "El panel de mods llega en una versión próxima."
+      "mods_hint": "Los mods se agregan después, desde la sección MODS del editor.",
+      "mods_hint_count": "Hay {count} mods catalogadas con sus ajustes ya traducidos; las que no estén las podés agregar igual por su ID del Workshop."
     },
     "import": {
       "title": "Importar .ini existente",
