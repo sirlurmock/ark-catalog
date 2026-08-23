@@ -1,0 +1,4175 @@
+{
+  "_source": "Guía oficial del autor en Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=2071693170 — snapshot en scripts/mod-specs/_scraped/krakens-better-dinos-guide.txt (2026-08-20). OJO: 2071693170 es la User Guide; la mod es 1565015734.",
+  "_scope": "Las 231 claves documentadas de KBD. 228 salen del parser dedicado (scripts/lib/parse-kbd-guide.mjs) sobre el snapshot y 3 de la prosa de la guía, que las menciona sin darles ficha propia. Generado por scripts/build-kbd-spec.mjs — NO editar a mano: los textos ES viven en scripts/lib/kbd-texts.mjs.",
+  "_defaults": "Los defaults literales salen de la ficha de cada criatura, donde el autor escribe la clave con su valor (PreventBetterAmmonite=False, AnglerGelInterval=1800). Las de la sección general no traen literal y su default se lee de la prosa ('Defaults to 0.05'); las que son features opt-in (WildBabies, WildEggs, UntameableAdults, PassiveTameBabies, AllowFlyerSpeed) van en False porque la guía dice que hay que habilitarlas. RandomAberrants y RandomAberrantsBDOnly también en False, por lo mismo.",
+  "_exclusiones": "NPCReplacements y ConfigAddNPCSpawnEntriesContainer aparecen en la guía como RECETAS vanilla (borrar el Ichthyornis salvaje, agregar el Deinon a otros mapas), no como ajustes de KBD: van en Game.ini bajo la sección del juego y ya están en el catálogo core. Las opciones de nivelación de dinos salvajes ('Level Equalisation and High Level .Ini Options') las promete la guía pero su sección dice 'More Information To Come': sin nombres de clave citables, no se catalogan. Tampoco la blacklist de voladores del AllowFlyerSpeed, que se menciona sin dar el nombre de la clave.",
+  "modId": "BetterDinos",
+  "name": "Kraken's Better Dinos",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1565015734",
+  "prefix": "krakens_better_dinos",
+  "file": "GameUserSettings.ini",
+  "section": "BetterDinos",
+  "searchAliases": [
+    "kbd",
+    "krakens",
+    "better dinos",
+    "dinos mejorados",
+    "bebes salvajes",
+    "huevos salvajes",
+    "voladores con velocidad"
+  ],
+  "settings": [
+    {
+      "key": "WildBabies",
+      "kind": "boolean",
+      "default": false,
+      "tier": "basic",
+      "_group": "Wild Babies, Wild Eggs, and Untameable Adults",
+      "es": {
+        "label": "Bebés salvajes",
+        "description": "Hace que cualquier dino que aparezca tenga una chance de nacer como bebé. Los bebés salvajes siguen al adulto más cercano de su especie y, si no hay ninguno, KBD hace aparecer uno del mismo nivel para cuidarlo. Acercarse de más suele alertar a los adultos. Cambia por completo cómo se consiguen tames."
+      },
+      "en": {
+        "label": "Wild Babies",
+        "description": "Set to True to give all dinos that spawn a chance of spawning as a baby, provided that they are not exempt by default or by being user blacklisted. Babies in the wild will always try and follow the nearest adult if one is available. Getting too close to a wild baby is likely to alert any nearby adults of the same species to danger and cause them to respond. In instances where a dino spawns as a baby and there are no other members of the same species nearby it, an adult dino of the same level will be spawned nearby to protect it."
+      }
+    },
+    {
+      "key": "PreventAngryAdults",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Wild Babies, Wild Eggs, and Untameable Adults",
+      "es": {
+        "label": "Adultos no se enojan por los bebés",
+        "description": "Los adultos dejan de atacar cuando te acercás a un bebé salvaje. Para quien quiere el paisaje de bebés dando vueltas sin el riesgo que trae."
+      },
+      "en": {
+        "label": "Prevent Angry Adults",
+        "description": "Set to true if you'd just prefer to see babies tottering around your world and don't wish to have the adults getting miffed just for getting close to one."
+      }
+    },
+    {
+      "key": "WildChanceOfBaby",
+      "kind": "float_multiplier",
+      "default": 0.05,
+      "min": 0.01,
+      "max": 1,
+      "step": 0.01,
+      "presets": [
+        0.05,
+        0.1,
+        0.25,
+        0.5
+      ],
+      "tier": "advanced",
+      "_group": "Wild Babies, Wild Eggs, and Untameable Adults",
+      "es": {
+        "label": "Probabilidad de bebé salvaje",
+        "description": "Qué porción de los dinos salvajes aparece como bebé. El default 0.05 es 5%. Solo tiene efecto con «Bebés salvajes» prendido."
+      },
+      "en": {
+        "label": "Wild Chance Of Baby",
+        "description": "Number between 0.01 and 1. Defaults to 0.05 (ie. 5%) increase or decrease if you would like more or less chance of wild dinos spawning as babies. Only Applicable if WildBabies= is also set to true"
+      }
+    },
+    {
+      "key": "PassiveTameBabyFoodMulti",
+      "kind": "float_multiplier",
+      "default": 5,
+      "min": 0.1,
+      "max": 50,
+      "step": 0.5,
+      "presets": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "tier": "advanced",
+      "_group": "Wild Babies, Wild Eggs, and Untameable Adults",
+      "es": {
+        "label": "Multiplicador de hambre del bebé pasivo",
+        "description": "Qué tan rápido baja la comida de los bebés salvajes que se volvieron domesticables por pasiva gracias a KBD. Más alto = más rápido se les acaba y más apurado el tameo. No afecta a las especies que ya se doman por pasiva de fábrica."
+      },
+      "en": {
+        "label": "Passive Tame Baby Food Multi",
+        "description": "Defaults to 5, this effects the food drain of wild babies explicitly made passive tameable via the Passive Tame babies config. It will not effect the wild babies of those species who are already passive tameable by default."
+      }
+    },
+    {
+      "key": "WildEggs",
+      "kind": "boolean",
+      "default": false,
+      "tier": "basic",
+      "_group": "Wild Babies, Wild Eggs, and Untameable Adults",
+      "es": {
+        "label": "Huevos salvajes",
+        "description": "Los dinos salvajes que ponen huevos arman nidos en el mundo, uno por especie dentro de cierto radio. No aplica a los que ya ponen huevos salvajes (Wyverns, Rock Drakes, Magmasaur, Deinonychus) ni a los que no se pueden domar. A diferencia de otras mods, estos huevos no se incuban ni pierden vida, y se borran solos al vencer."
+      },
+      "en": {
+        "label": "Wild Eggs",
+        "description": "Set to true to give all wild dinos that are capable of laying eggs a chance to lay eggs in the wild. These eggs will be in nests. There will only be able to be 1 nest of any species within a certain radius. This will only apply to those dinos that don't already lay wild eggs such as Wyverns, Rock Drakes, Magmasaurs or Deinons. Wild eggs laid in this manner will not incubate or lose health unlike some other mods that introduce wild eggs. Creatures who have been force disabled from being tamed will not lay eggs (ie. high level cave spawns) Eggs laid in this manner will properly delete themselves if their spoil timer runs out unlike vanilla wild eggs. Admins can clear all wild eggs spawned using this option by using the command cheat DestroyAll DroppedItemGeneric_FertilizedEgg_NoPhysics_BD_C 0"
+      }
+    },
+    {
+      "key": "WildChanceOfEgg",
+      "kind": "integer",
+      "default": 5,
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "tier": "advanced",
+      "_group": "Wild Babies, Wild Eggs, and Untameable Adults",
+      "es": {
+        "label": "Probabilidad de huevo salvaje",
+        "description": "Porcentaje de dinos salvajes que dejan un huevo al salir de estasis. El default 5 es 5%. Solo tiene efecto con «Huevos salvajes» prendido."
+      },
+      "en": {
+        "label": "Wild Chance Of Egg",
+        "description": "Number between 1 and 100. Defaults to 5 (ie. 5%) increase or decrease if you would like more or less chance of wild dinos laying an egg on unstasis. Only applicable if WildEggs= is set to true."
+      }
+    },
+    {
+      "key": "UntameableAdults",
+      "kind": "boolean",
+      "default": false,
+      "tier": "basic",
+      "_group": "Wild Babies, Wild Eggs, and Untameable Adults",
+      "es": {
+        "label": "Adultos indomables",
+        "description": "Ningún dino adulto se puede domar. Pensado para usarse junto con bebés y huevos salvajes: la única vía para conseguir tames pasa a ser criarlos. Los que no pueden ser bebés (o están exentos por las mismas reglas que «Bebés salvajes») se siguen domando normal."
+      },
+      "en": {
+        "label": "Untameable Adults",
+        "description": "Mainly to be used in conjunction with one or both or the above configs. This will render all adult dinos untameable, unless they are incapable of being babies or otherwise have the same exemptions as the WildBabies config in which case they will be tamable through the normal methods."
+      }
+    },
+    {
+      "key": "PassiveTameBabies",
+      "kind": "boolean",
+      "default": false,
+      "tier": "basic",
+      "_group": "Wild Babies, Wild Eggs, and Untameable Adults",
+      "es": {
+        "label": "Bebés salvajes domables por pasiva",
+        "description": "Cualquier bebé salvaje se puede domar dándole de comer, sin importar su método normal, y deja de poder domarse por KO. Ojo: hay especies cuyo método propio no es compatible con la pasiva (Tusoteuthis, Bloodstalker) y pueden quedar imposibles de domar como bebés. Los adultos cercanos reaccionan mal a que le des de comer a su cría."
+      },
+      "en": {
+        "label": "Passive Tame Babies",
+        "description": "Allows all wild spawned babies to be passive tamed regardless of their regular taming methods. It will also prevent them from being KO tamed. Be warned though, nearby adults will take exception at you feeding their little bundle of joy. Obviously this may render some dinos untamable as babies as they have specific taming methods that are not compatible with straightforward passive taming such as Tusos or Bloodstalkers. You may wish to blacklist them, or if also using UntameableAdults=True you may wish to blacklist the adults to leave adults tameable using the traditional methods, or you may wish to have these dinos only tamed by finding wild eggs. I leave this up to the user to configure how they desire."
+      }
+    },
+    {
+      "key": "WildBabyBlacklist",
+      "kind": "string_list",
+      "default": [],
+      "suggestions": "dino_name_tags",
+      "tier": "advanced",
+      "_group": "Wild Babies, Wild Eggs, and Untameable Adults",
+      "es": {
+        "label": "Especies excluidas de nacer como bebés",
+        "description": "Dino Name Tags de las especies que NO deben aparecer como bebés salvajes, separadas por coma. Si usás lista negra y lista blanca del mismo tipo, gana la negra y la blanca ni se mira."
+      },
+      "en": {
+        "label": "Wild Baby Blacklist",
+        "description": "Dino Name Tags of the species that should never spawn as wild babies, comma separated. Blacklists always override whitelists of the same type."
+      }
+    },
+    {
+      "key": "WildEggsBlacklist",
+      "kind": "string_list",
+      "default": [],
+      "suggestions": "dino_name_tags",
+      "tier": "advanced",
+      "_group": "Wild Babies, Wild Eggs, and Untameable Adults",
+      "es": {
+        "label": "Especies excluidas de poner huevos salvajes",
+        "description": "Dino Name Tags de las especies que no deben poner huevos en el mundo, separadas por coma. Los ejemplos de la guía usan Gigant, Quetz, Therizinosaurus y Tusoteuthis."
+      },
+      "en": {
+        "label": "Wild Eggs Blacklist",
+        "description": "Dino Name Tags of the species that should not lay wild eggs, comma separated. Blacklists always override whitelists of the same type."
+      }
+    },
+    {
+      "key": "PassiveTameBabyBlacklist",
+      "kind": "string_list",
+      "default": [],
+      "suggestions": "dino_name_tags",
+      "tier": "advanced",
+      "_group": "Wild Babies, Wild Eggs, and Untameable Adults",
+      "es": {
+        "label": "Especies excluidas del tameo pasivo de bebés",
+        "description": "Dino Name Tags de los bebés que no deben poder domarse por pasiva, separadas por coma. Útil para las especies cuyo método de tameo propio no es compatible."
+      },
+      "en": {
+        "label": "Passive Tame Baby Blacklist",
+        "description": "Dino Name Tags of the babies that should not be passive tameable, comma separated. Blacklists always override whitelists of the same type."
+      }
+    },
+    {
+      "key": "UntameableAdultBlacklist",
+      "kind": "string_list",
+      "default": [],
+      "suggestions": "dino_name_tags",
+      "tier": "advanced",
+      "_group": "Wild Babies, Wild Eggs, and Untameable Adults",
+      "es": {
+        "label": "Especies exentas de ser adultos indomables",
+        "description": "Dino Name Tags de las especies cuyos adultos se siguen pudiendo domar normalmente, separadas por coma."
+      },
+      "en": {
+        "label": "Untameable Adult Blacklist",
+        "description": "Dino Name Tags of the species whose adults stay tameable, comma separated. Blacklists always override whitelists of the same type."
+      }
+    },
+    {
+      "key": "WildBabyWhitelist",
+      "kind": "string_list",
+      "default": [],
+      "suggestions": "dino_name_tags",
+      "tier": "advanced",
+      "_group": "Wild Babies, Wild Eggs, and Untameable Adults",
+      "es": {
+        "label": "Únicas especies que nacen como bebés",
+        "description": "Al revés que la lista negra: solo estas especies aparecen como bebés salvajes. Más cómodo y más liviano para el servidor cuando querés afectar a pocas. No se puede usar junto con la lista negra del mismo tipo."
+      },
+      "en": {
+        "label": "Wild Baby Whitelist",
+        "description": "Only these species spawn as wild babies. More performant when only a few species are affected. Cannot be combined with the blacklist of the same type."
+      }
+    },
+    {
+      "key": "UntameableAdultWhitelist",
+      "kind": "string_list",
+      "default": [],
+      "suggestions": "dino_name_tags",
+      "tier": "advanced",
+      "_group": "Wild Babies, Wild Eggs, and Untameable Adults",
+      "es": {
+        "label": "Únicas especies con adultos indomables",
+        "description": "Solo estas especies tienen adultos que no se pueden domar; el resto sigue normal. No se puede usar junto con la lista negra del mismo tipo."
+      },
+      "en": {
+        "label": "Untameable Adult Whitelist",
+        "description": "Only these species get untameable adults. Cannot be combined with the blacklist of the same type."
+      }
+    },
+    {
+      "key": "PassiveTameBabyWhitelist",
+      "kind": "string_list",
+      "default": [],
+      "suggestions": "dino_name_tags",
+      "tier": "advanced",
+      "_group": "Wild Babies, Wild Eggs, and Untameable Adults",
+      "es": {
+        "label": "Únicas especies con bebés domables por pasiva",
+        "description": "Solo los bebés de estas especies se pueden domar dándoles de comer. No se puede usar junto con la lista negra del mismo tipo."
+      },
+      "en": {
+        "label": "Passive Tame Baby Whitelist",
+        "description": "Only babies of these species can be passive tamed. Cannot be combined with the blacklist of the same type."
+      }
+    },
+    {
+      "key": "WildEggsWhitelist",
+      "kind": "string_list",
+      "default": [],
+      "suggestions": "dino_name_tags",
+      "tier": "advanced",
+      "_group": "Wild Babies, Wild Eggs, and Untameable Adults",
+      "es": {
+        "label": "Únicas especies que ponen huevos salvajes",
+        "description": "Solo estas especies dejan huevos en el mundo. No se puede usar junto con la lista negra del mismo tipo: si hay lista negra, la blanca ni se mira."
+      },
+      "en": {
+        "label": "Wild Eggs Whitelist",
+        "description": "Again use the Dino Name Tag of the dinos that you wish to use. You cannot have a Blacklist and a Whitelist of the same type, as Blacklists will always override Whitelists (if a Blacklist is used then the Whitelist won't even get looked at by the logic)"
+      }
+    },
+    {
+      "key": "PassiveTameBabyMinLevel",
+      "kind": "string_list",
+      "default": [],
+      "tier": "advanced",
+      "_group": "Wild Babies, Wild Eggs, and Untameable Adults",
+      "es": {
+        "label": "Nivel mínimo para domar bebés por pasiva",
+        "description": "Pares «Tag:Nivel» separados por coma, por ejemplo Rex:50,Therizinosaurus:60,Dodo:105. Los bebés de esa especie por debajo de ese nivel no se pueden domar por pasiva. Solo aplica al tameo pasivo de bebés."
+      },
+      "en": {
+        "label": "Passive Tame Baby Min Level",
+        "description": "Like the Black and White lists, uses the Dino Name Tag, but this time you also need to add the minimum level you would like the babies to be tamed at, separating the dino name and the level with a colon, (:) and still separating each entry with a comma."
+      }
+    },
+    {
+      "key": "BuffsIncludeSource",
+      "kind": "string_list",
+      "default": [],
+      "tier": "advanced",
+      "_group": "Built In Mod Compatibilities",
+      "es": {
+        "label": "Aplicar los buffs de KBD a mods de terceros",
+        "description": "Rutas de otras mods cuyas criaturas también deben recibir los buffs de KBD, separadas por coma. Acepta coincidencias parciales: «PaleoARKLegends» agarra toda la mod, «PaleoARKLegends/PaleoVariants/PaleoStego» solo esa criatura. Solo funciona si esas criaturas son clases hijas de la vanilla, y solo sobre los cambios hechos por buff (los remapeos y las criaturas únicas de KBD no se ven afectados). El autor lo declara un método de nicho y sin soporte."
+      },
+      "en": {
+        "label": "Buffs Include Source",
+        "description": "Path string array (comma separated) of other mods whose creatures should also receive KBD buffs. Partial path matches are accepted. Only works for creatures that are child classes of vanilla, and only for changes made via buff."
+      }
+    },
+    {
+      "key": "PreventBetterSnail",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Achatina",
+      "es": {
+        "label": "Desactivar las mejoras de KBD en Achatina",
+        "description": "Activado, KBD no le agrega su buff a Achatina: la criatura queda exactamente como en el juego base. El resto de la mod sigue funcionando."
+      },
+      "en": {
+        "label": "Prevent Better Snail",
+        "description": "Setting to True will prevent the KBD Buff from being added"
+      }
+    },
+    {
+      "key": "PreventBetterAmmonite",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Ammonite",
+      "es": {
+        "label": "Desactivar el Ammonite de KBD",
+        "description": "Activado, el Ammonite de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Ammonite",
+        "description": "Setting to True will prevent the Better Ammonite from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventRandomAmmoniteSize",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Ammonite",
+      "es": {
+        "label": "Ammonites sin tamaños aleatorios",
+        "description": "Los Ammonites dejan de aparecer con tamaños variables. Los que ya existen no cambian."
+      },
+      "en": {
+        "label": "Prevent Random Ammonite Size",
+        "description": "Setting to True will prevent Ammonites from spawning with random sizes. Already existing ones will not be effected"
+      }
+    },
+    {
+      "key": "PreventAnglerGelHarvest",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Anglerfish",
+      "es": {
+        "label": "Sin gel de Angler de los domados",
+        "description": "Saca la posibilidad de cosechar gel de Angler desde el menú radial de un Anglerfish domado."
+      },
+      "en": {
+        "label": "Prevent Angler Gel Harvest",
+        "description": "Setting to True will prevent the ability to harvest Angler Gel from tamed Anglers"
+      }
+    },
+    {
+      "key": "AnglerGelInterval",
+      "kind": "integer",
+      "default": 1800,
+      "min": 60,
+      "max": 86400,
+      "step": 60,
+      "tier": "expert",
+      "_group": "Anglerfish",
+      "es": {
+        "label": "Intervalo del gel de Angler",
+        "description": "Segundos entre cosechas de gel de Angler en un Anglerfish domado. El default de 1800 son 30 minutos. Ojo: como el cambio es un buff, meterlo en criopod o en bola de alma le reinicia el temporizador."
+      },
+      "en": {
+        "label": "Angler Gel Interval",
+        "description": "Amount of seconds between Angler Gel harvesting of tamed Anglers, the default of 1800 equals 30 minutes"
+      }
+    },
+    {
+      "key": "PreventBetterAllo",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Allosaurus",
+      "es": {
+        "label": "Desactivar las mejoras de KBD en Allosaurus",
+        "description": "Activado, KBD no le agrega su buff a Allosaurus: la criatura queda exactamente como en el juego base. El resto de la mod sigue funcionando."
+      },
+      "en": {
+        "label": "Prevent Better Allo",
+        "description": "Setting to True will prevent the KBD Buff from being added"
+      }
+    },
+    {
+      "key": "PreventWaterAlphaCarrying",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Alpha Mosa & Megalodon",
+      "es": {
+        "label": "Los Tuso no pueden agarrar alfas acuáticos",
+        "description": "Impide que el Tusoteuthis levante Mosas y Megalodones alfa. Para servidores que quieren que esos bichos sean un desafío real de PvE y no un truco, o para cortar el griefeo."
+      },
+      "en": {
+        "label": "Prevent Water Alpha Carrying",
+        "description": "Setting to True will prevent Alpha Mosas and Megalodons from being able to be grabbed by Tusos. This is for servers who wish these creatures to provide more of a PvE challange and to not be cheesed, or who do not wish Alpha carrying to be used for griefing or otherwise"
+      }
+    },
+    {
+      "key": "PreventBetterAnky",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Ankylosaurus",
+      "es": {
+        "label": "Desactivar las mejoras de KBD en Ankylosaurus",
+        "description": "Activado, KBD no le agrega su buff a Ankylosaurus: la criatura queda exactamente como en el juego base. El resto de la mod sigue funcionando."
+      },
+      "en": {
+        "label": "Prevent Better Anky",
+        "description": "Setting to True will prevent the KBD Buff from being added"
+      }
+    },
+    {
+      "key": "PreventAnkyWanderHarvest",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Ankylosaurus",
+      "es": {
+        "label": "El Anky no recolecta deambulando",
+        "description": "Saca la recolección automática del Anky en modo deambular."
+      },
+      "en": {
+        "label": "Prevent Anky Wander Harvest",
+        "description": "Setting to True will prevent the Anky from being able to wander harvest"
+      }
+    },
+    {
+      "key": "PreventAnkyReflectiveDamage",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Ankylosaurus",
+      "es": {
+        "label": "El Anky no devuelve daño",
+        "description": "Saca el 10% de daño recibido que el Anky refleja de vuelta sobre quien lo atacó."
+      },
+      "en": {
+        "label": "Prevent Anky Reflective Damage",
+        "description": "Setting to True will prevent the Anky reflecting 10% of received damage back onto whatever inflicted it"
+      }
+    },
+    {
+      "key": "PreventAnkyDamageModifiers",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Ankylosaurus",
+      "es": {
+        "label": "El Anky sin modificadores de daño",
+        "description": "Saca la reducción general de daño del Anky y los modificadores extra de daño en cabeza y patas."
+      },
+      "en": {
+        "label": "Prevent Anky Damage Modifiers",
+        "description": "Setting to True will prevent the overall damage reduction and additional head and limb damage modifiers"
+      }
+    },
+    {
+      "key": "PreventToughHide",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Ankylosaurus",
+      "es": {
+        "label": "Sin Cuero Duro en ninguna criatura",
+        "description": "Ningún bicho suelta Cuero Duro (Tough Hide) al cosecharlo. Está en la ficha del Anky pero es global: aplica a todas las criaturas, no solo a esa."
+      },
+      "en": {
+        "label": "Prevent Tough Hide",
+        "description": "Set to true to prevent any creatures from dropping Tough Hide."
+      }
+    },
+    {
+      "key": "AnkyMaxGatherWeightLimit",
+      "kind": "float_multiplier",
+      "default": 0.75,
+      "min": 0.05,
+      "max": 1,
+      "step": 0.05,
+      "presets": [
+        0.5,
+        0.75,
+        0.9,
+        1
+      ],
+      "tier": "expert",
+      "_group": "Ankylosaurus",
+      "es": {
+        "label": "Tope de peso del Anky recolectando",
+        "description": "Hasta qué porcentaje de su peso llena el Anky recolectando en modo deambular. El default 0.75 es 75%. No puede pasar de 1: el juego no lo permite."
+      },
+      "en": {
+        "label": "Anky Max Gather Weight Limit",
+        "description": "The percentage of weight that the Anky will be able to wander harvest to, defaults to 0.75, ie 75%. It cannot go higher than 1, the game will not allow it."
+      }
+    },
+    {
+      "key": "PreventBetterTekDinos",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Tek Ankylosaurus",
+      "es": {
+        "label": "Desactivar el buff Tek de KBD",
+        "description": "KBD no le agrega su buff a NINGÚN dino Tek: se van el +2% de daño y resistencia y el Bio-Aceite en vez de caca. Está en la ficha del Tek Anky pero aplica a todos los Tek. No impide que aparezcan; para eso hay que usar las líneas de NPCReplacements de Game.ini. Ojo: el Bio-Aceite solo sale de caca de Tek y de Basilosaurus, y es ingrediente de recetas de la mod."
+      },
+      "en": {
+        "label": "Prevent Better Tek Dinos",
+        "description": "Setting to True will prevent the KBD Tek Buff from being added to all Tek Dinos. It will not stop any Tek dinos from spawning. Use the appropriate Game.Ini NPC Replacements lines if you wish to do that"
+      }
+    },
+    {
+      "key": "PreventBetterSpider",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Araneo (Spider)",
+      "es": {
+        "label": "Desactivar el Araneo (Spider) de KBD",
+        "description": "Activado, el Araneo (Spider) de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Spider",
+        "description": "Setting to True will prevent the Better Araneo from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventSpiderBola",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Araneo (Spider)",
+      "es": {
+        "label": "La araña sin ataque de bola de tela",
+        "description": "El Araneo deja de poder usar el ataque de bola de telaraña."
+      },
+      "en": {
+        "label": "Prevent Spider Bola",
+        "description": "Setting to True will prevent the Spider from using the Web Bola attack"
+      }
+    },
+    {
+      "key": "PreventBetterArcha",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Archaeopterex",
+      "es": {
+        "label": "Desactivar las mejoras de KBD en Archaeopterex",
+        "description": "Activado, KBD no le agrega su buff a Archaeopterex: la criatura queda exactamente como en el juego base. El resto de la mod sigue funcionando."
+      },
+      "en": {
+        "label": "Prevent Better Archa",
+        "description": "Setting to True will prevent the KBD Buff from being added"
+      }
+    },
+    {
+      "key": "PreventWildReins",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Argentavis",
+      "es": {
+        "label": "Sin Riendas Valyrias en el loot salvaje",
+        "description": "Wyverns, Rock Drakes y X-Argents dejan de soltar Riendas Valyrias y el disfraz de Wyvern Zombi. Está en la ficha del Argentavis pero aplica a todas esas especies."
+      },
+      "en": {
+        "label": "Prevent Wild Reins",
+        "description": "Set to true to prevent all types of Wyverns, Drakes and X-Argents from dropping Valyrian Reins or the Zombie Wyvern costume"
+      }
+    },
+    {
+      "key": "PreventBetterBary",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Baryonyx",
+      "es": {
+        "label": "Desactivar las mejoras de KBD en Baryonyx",
+        "description": "Activado, KBD no le agrega su buff a Baryonyx: la criatura queda exactamente como en el juego base. El resto de la mod sigue funcionando."
+      },
+      "en": {
+        "label": "Prevent Better Bary",
+        "description": "Setting to True will prevent the KBD Buff from being added"
+      }
+    },
+    {
+      "key": "PreventBetterBasilisk",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Basilisk",
+      "es": {
+        "label": "Desactivar las mejoras de KBD en Basilisk",
+        "description": "Activado, KBD no le agrega su buff a Basilisk: la criatura queda exactamente como en el juego base. El resto de la mod sigue funcionando."
+      },
+      "en": {
+        "label": "Prevent Better Basilisk",
+        "description": "Setting to True will prevent the KBD Buff from being added"
+      }
+    },
+    {
+      "key": "PreventBasiliskBreeding",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Basilisk",
+      "es": {
+        "label": "El Basilisco no se puede criar",
+        "description": "Saca la posibilidad de reproducir Basiliscos que agrega KBD."
+      },
+      "en": {
+        "label": "Prevent Basilisk Breeding",
+        "description": "Setting to True will prevent the basilisk from being able to breed"
+      }
+    },
+    {
+      "key": "AllowBasiliskIK",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Basilisk",
+      "es": {
+        "label": "Basilisco con IK experimental",
+        "description": "Activa los cambios experimentales de IK del Basilisco, que le permiten acompañar la inclinación del terreno. Venían prendidos y el autor los apagó porque daban problemas a mucha gente. Usalo bajo tu propio riesgo."
+      },
+      "en": {
+        "label": "Allow Basilisk IK",
+        "description": "Setting to True will allow the basilisk to use the experimental IK changes (which gives it the ability to rotate with terrain on slopes etc.) Enabled by default they were proving to be be problematic for a lot of users and causing unwanted effects and were disabled. Use these changes at your own risk"
+      }
+    },
+    {
+      "key": "PreventDesertBasilisk",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Basilisk",
+      "es": {
+        "label": "Sin Basiliscos en las Dunas",
+        "description": "Saca los Basiliscos que la mod agrega al spawner de las Dunas de Scorched Earth."
+      },
+      "en": {
+        "label": "Prevent Desert Basilisk",
+        "description": "Setting to True will remove the mods added spawning of Basilisks in the Dunes spawner"
+      }
+    },
+    {
+      "key": "PreventBetterBasilo",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Basilosaurus",
+      "es": {
+        "label": "Basilosaurus sin Bio-Aceite",
+        "description": "El Basilosaurus vuelve a dar aceite común en vez del Bio-Aceite de KBD. Ojo: si además desactivaste los dinos Tek, te quedás sin ninguna fuente de Bio-Aceite y varias recetas de la mod dejan de poder craftearse. El buff no se saca del todo, porque hace falta para que la Manta mejorada siga al Basilo."
+      },
+      "en": {
+        "label": "Prevent Better Basilo",
+        "description": "Setting to True will prevent the switch from regular oil to the special Bio-Oil, note that this will prevent the crafting of some of the recipes if Tek Dinos are also disabled as Tek Dino poop and Basilos are the only sources of the Bio-Oil and this is a key ingredient, it will not remove the buff entirely as it is still required to make sure that the Better Manta will follow the Basilo"
+      }
+    },
+    {
+      "key": "PreventBetterToad",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Beezlebufo",
+      "es": {
+        "label": "Desactivar el Beezlebufo de KBD",
+        "description": "Activado, el Beezlebufo de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Toad",
+        "description": "Setting to True will prevent the Better Beezlebufo from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventBetterBronto",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Brontosaurus",
+      "es": {
+        "label": "Desactivar el Brontosaurus de KBD",
+        "description": "Activado, el Brontosaurus de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Bronto",
+        "description": "Setting to True will prevent the Better Bronto from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventBrontoBreakStone",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Brontosaurus",
+      "es": {
+        "label": "El pisotón del Bronto no rompe piedra",
+        "description": "Cambia el tipo de daño del pisotón grande del Bronto por uno que no rompe rocas ni daña estructuras de piedra."
+      },
+      "en": {
+        "label": "Prevent Bronto Break Stone",
+        "description": "Setting to True will change the damage type of the Brontos big stomp attack to one that cannot break rocks or damage stone structures"
+      }
+    },
+    {
+      "key": "BrontoStompHarvestMultiplier",
+      "kind": "float_multiplier",
+      "default": 1,
+      "min": 0,
+      "max": 10,
+      "step": 0.1,
+      "presets": [
+        0.5,
+        1,
+        2,
+        5
+      ],
+      "tier": "expert",
+      "_group": "Brontosaurus",
+      "es": {
+        "label": "Recolección del pisotón del Bronto",
+        "description": "Multiplica lo que junta el pisotón grande del Bronto, y solo ese ataque. Bajalo si te parece que junta demasiado metal."
+      },
+      "en": {
+        "label": "Bronto Stomp Harvest Multiplier",
+        "description": "Will effect the amounts of materials gathered by the Big Stomp attack only, ie. if you feel the Bronto is able to gather too much metal for example, use this config to reduce it"
+      }
+    },
+    {
+      "key": "PreventBetterTurtle",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Carbonemys",
+      "es": {
+        "label": "Desactivar las mejoras de KBD en Carbonemys",
+        "description": "Activado, KBD no le agrega su buff a Carbonemys: la criatura queda exactamente como en el juego base. El resto de la mod sigue funcionando."
+      },
+      "en": {
+        "label": "Prevent Better Turtle",
+        "description": "Setting to True will prevent the KBD Buff from being added"
+      }
+    },
+    {
+      "key": "PreventBetterCarno",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Carnotaurus",
+      "es": {
+        "label": "Desactivar las mejoras de KBD en Carnotaurus",
+        "description": "Activado, KBD no le agrega su buff a Carnotaurus: la criatura queda exactamente como en el juego base. El resto de la mod sigue funcionando."
+      },
+      "en": {
+        "label": "Prevent Better Carno",
+        "description": "Setting to True will prevent the KBD Buff from being added"
+      }
+    },
+    {
+      "key": "PreventCarnoStepDamage",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Carnotaurus",
+      "es": {
+        "label": "La embestida del Carno no daña",
+        "description": "El Carno deja de hacer daño mientras embiste. Sigue rompiendo vegetación, pero no lastima dinos ni jugadores."
+      },
+      "en": {
+        "label": "Prevent Carno Step Damage",
+        "description": "Setting to True will prevent the Carno causing damage when charging. Will still damage foliage, just not dinos or players"
+      }
+    },
+    {
+      "key": "PreventBetterBeaver",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Castoroides (Beaver)",
+      "es": {
+        "label": "Desactivar las mejoras de KBD en Castoroides (Beaver)",
+        "description": "Activado, KBD no le agrega su buff a Castoroides (Beaver): la criatura queda exactamente como en el juego base. El resto de la mod sigue funcionando."
+      },
+      "en": {
+        "label": "Prevent Better Beaver",
+        "description": "Setting to True will prevent the KBD Buff from being added"
+      }
+    },
+    {
+      "key": "BeaverMaxGatherWeightLimit",
+      "kind": "float_multiplier",
+      "default": 0.75,
+      "min": 0.05,
+      "max": 1,
+      "step": 0.05,
+      "presets": [
+        0.5,
+        0.75,
+        0.9,
+        1
+      ],
+      "tier": "expert",
+      "_group": "Castoroides (Beaver)",
+      "es": {
+        "label": "Tope de peso del Castor recolectando",
+        "description": "Hasta qué porcentaje de su peso llena el Castoroides recolectando en modo deambular. El default 0.75 es 75%. No puede pasar de 1: el juego no lo permite."
+      },
+      "en": {
+        "label": "Beaver Max Gather Weight Limit",
+        "description": "The percentage of weight that the Beaver will be able to wander harvest to, defaults to 0.75, ie. 75%. It cannot go higher than 1, the game will not allow it."
+      }
+    },
+    {
+      "key": "PreventBetterJellyfish",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Cnidaria (Jellyfish)",
+      "es": {
+        "label": "Desactivar el Cnidaria (Jellyfish) de KBD",
+        "description": "Activado, el Cnidaria (Jellyfish) de KBD deja de aparecer y los salvajes vuelven a ser los del juego base. ⚠️ Los que ya tengas domados se DESTRUYEN: es un cambio con pérdida, no lo actives en un servidor en curso sin avisar."
+      },
+      "en": {
+        "label": "Prevent Better Jellyfish",
+        "description": "Setting to True will prevent the Better Cnidaria from spawning and revert all existing wild ones back to vanilla, already tamed ones will be destroyed"
+      }
+    },
+    {
+      "key": "AllowJellyfishOrders",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Cnidaria (Jellyfish)",
+      "es": {
+        "label": "La medusa acepta órdenes",
+        "description": "Permite darle órdenes a la Cnidaria en vez de dejarla siempre en deambular y agresiva."
+      },
+      "en": {
+        "label": "Allow Jellyfish Orders",
+        "description": "Setting to True will allow the Jellyfish to be ordered instead of always being on wandering and aggressive"
+      }
+    },
+    {
+      "key": "PreventJellyRandomSizes",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Cnidaria (Jellyfish)",
+      "es": {
+        "label": "Medusas sin tamaños aleatorios",
+        "description": "Las Cnidarias dejan de aparecer con tamaños variables."
+      },
+      "en": {
+        "label": "Prevent Jelly Random Sizes",
+        "description": "Setting to True will prevent Jellyfish from spawning with randomised sizes"
+      }
+    },
+    {
+      "key": "PreventJellyTaming",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Cnidaria (Jellyfish)",
+      "es": {
+        "label": "La medusa no se puede domar",
+        "description": "Saca el tameo de Cnidarias con Canastas de Pesca que agrega KBD."
+      },
+      "en": {
+        "label": "Prevent Jelly Taming",
+        "description": "Setting to True will prevent Jellyfish from being tamed via Fish Baskets"
+      }
+    },
+    {
+      "key": "JellyHarvestInterval",
+      "kind": "integer",
+      "default": 1800,
+      "min": 60,
+      "max": 86400,
+      "step": 60,
+      "tier": "expert",
+      "_group": "Cnidaria (Jellyfish)",
+      "es": {
+        "label": "Intervalo de Biotoxina de la medusa",
+        "description": "Segundos entre cosechas de Biotoxina en una Cnidaria domada. El default de 1800 son 30 minutos."
+      },
+      "en": {
+        "label": "Jelly Harvest Interval",
+        "description": "Amount of seconds between Biotoxin harvesting of tamed Jellyfish, the default of 1800 equals 30 minutes"
+      }
+    },
+    {
+      "key": "JellyMaxHarvest",
+      "kind": "integer",
+      "default": 200,
+      "min": 1,
+      "max": 5000,
+      "step": 10,
+      "tier": "expert",
+      "_group": "Cnidaria (Jellyfish)",
+      "es": {
+        "label": "Máximo de Biotoxina por cosecha",
+        "description": "Cuánta Biotoxina como máximo se saca de una Cnidaria domada desde el menú radial."
+      },
+      "en": {
+        "label": "Jelly Max Harvest",
+        "description": "The maximum amount of Biotoxin that can be harvested from a tamed Jellyfish via the radial menu"
+      }
+    },
+    {
+      "key": "PreventBetterCoel",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Coelacanth",
+      "es": {
+        "label": "Desactivar el Coelacanth de KBD",
+        "description": "Activado, el Coelacanth de KBD deja de aparecer y los salvajes vuelven a ser los del juego base. ⚠️ Los que ya tengas domados se DESTRUYEN: es un cambio con pérdida, no lo actives en un servidor en curso sin avisar."
+      },
+      "en": {
+        "label": "Prevent Better Coel",
+        "description": "Setting to True will prevent the Better Coel from spawning and revert all existing ones back to vanilla, already tamed ones will be destroyed"
+      }
+    },
+    {
+      "key": "CoelLootBlacklist",
+      "kind": "string_list",
+      "default": [],
+      "tier": "expert",
+      "_group": "Coelacanth",
+      "es": {
+        "label": "Recursos que el Coel no produce",
+        "description": "Nombres de los recursos que querés sacar de la producción pasiva del Coelacanth, separados por coma. Vacío por default: sin nada acá, el Coel puede producir todo lo de la lista de abajo."
+      },
+      "en": {
+        "label": "Coel Loot Blacklist",
+        "description": "This is left blank by default. See below for the available options and how to use the blacklist"
+      }
+    },
+    {
+      "key": "CoelBlacklist",
+      "kind": "string_list",
+      "default": [
+        "Sap",
+        "ChitinPaste",
+        "Silicon",
+        "Polymer",
+        "Ambergris",
+        "Charcoal",
+        "Metal",
+        "ArrowStone",
+        "ArrowTranq",
+        "CompoundBowArrow",
+        "TranqDart",
+        "Narcoberry",
+        "Stimberry",
+        "Mejoberry",
+        "Tintoberry",
+        "Amarberry",
+        "Azulberry",
+        "JellyVenom",
+        "LeechBlood",
+        "AmmoniteBlood",
+        "SquidOil",
+        "AnglerGel",
+        "Sulfur",
+        "Sand",
+        "Crystal",
+        "Obsidian",
+        "Clay",
+        "Substrate",
+        "Seed"
+      ],
+      "tier": "expert",
+      "_group": "Coel Blacklist Entries",
+      "es": {
+        "label": "Recursos que el Coel puede producir",
+        "description": "La lista completa de lo que el Coelacanth mejorado puede llegar a producir. Es la referencia para armar la lista de exclusión: copiá de acá los nombres que quieras bloquear."
+      },
+      "en": {
+        "label": "Coel Blacklist",
+        "description": "Only use the names that you wish to prevent the Coels from producing, making sure to separate each entry with a comma as demonstrated above."
+      }
+    },
+    {
+      "key": "PreventBetterCompy",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Compsognathus (Compy)",
+      "es": {
+        "label": "Desactivar el Compsognathus (Compy) de KBD",
+        "description": "Activado, el Compsognathus (Compy) de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Compy",
+        "description": "Setting to True will prevent the Better Compy from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventCompySummons",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Compsognathus (Compy)",
+      "es": {
+        "label": "El Compy no llama a su manada",
+        "description": "Los Compys domados dejan de poder invocar a sus amigos."
+      },
+      "en": {
+        "label": "Prevent Compy Summons",
+        "description": "Setting to True will prevent tamed Compies from being able to summon their pack of friends"
+      }
+    },
+    {
+      "key": "PreventCorruptDrakeEggs",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Corrupted Rock Drakes and Wyverns",
+      "es": {
+        "label": "El Rock Drake corrupto no pone huevos",
+        "description": "Saca la puesta de huevos del Rock Drake corrupto."
+      },
+      "en": {
+        "label": "Prevent Corrupt Drake Eggs",
+        "description": "Setting to True will prevent the Corrupted Rock Drake from laying eggs"
+      }
+    },
+    {
+      "key": "PreventCorruptWyvernEggs",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Corrupted Rock Drakes and Wyverns",
+      "es": {
+        "label": "El Wyvern corrupto no pone huevos",
+        "description": "Saca la puesta de huevos del Wyvern corrupto."
+      },
+      "en": {
+        "label": "Prevent Corrupt Wyvern Eggs",
+        "description": "Setting to True will prevent the Corrupted Wyvern from laying eggs"
+      }
+    },
+    {
+      "key": "AllowCorruptedCrystalEggs",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Corrupted Rock Drakes and Wyverns",
+      "es": {
+        "label": "Wyverns corruptos sueltan huevos de Cristal",
+        "description": "Permite que los Wyverns corruptos dejen huevos de Crystal Wyvern."
+      },
+      "en": {
+        "label": "Allow Corrupted Crystal Eggs",
+        "description": "Set to true to allow Corrupted Wyverns to drop Crystal Wyvern Eggs"
+      }
+    },
+    {
+      "key": "AllowCorruptedNightEggs",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Corrupted Rock Drakes and Wyverns",
+      "es": {
+        "label": "Wyverns corruptos sueltan huevos de Night Wyvern",
+        "description": "Permite que los Wyverns corruptos dejen huevos de Night Wyvern, la criatura de Additional Aberrant Dinos. Obviamente necesita esa mod instalada para hacer algo."
+      },
+      "en": {
+        "label": "Allow Corrupted Night Eggs",
+        "description": "Set to true to allow Corrupted Wyverns to drop Night Wyvern Eggs from Additional Aberrant Dinos. Obviously must have AAD installed for this to work"
+      }
+    },
+    {
+      "key": "PreventSwineFlesh",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Daeodon",
+      "es": {
+        "label": "Sin Carne Rica en Proteína",
+        "description": "Phiomias y Daeodons dejan de dar Carne Cruda Rica en Proteína al cosecharlos (el ítem se llamaba Swine Flesh antes). Está en la ficha del Daeodon pero aplica a las dos especies."
+      },
+      "en": {
+        "label": "Prevent Swine Flesh",
+        "description": "Setting to True will prevent both Phiomias and Daeodons from being harvested for Raw High Protein Meat (Swine Flesh was the old name for this item)"
+      }
+    },
+    {
+      "key": "PreventBetterDeathworm",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Deathworms",
+      "es": {
+        "label": "Deathworm sin loot extra",
+        "description": "Saca los objetos extra que KBD agrega al inventario de muerte del Deathworm."
+      },
+      "en": {
+        "label": "Prevent Better Deathworm",
+        "description": "Setting to True prevents the addition of extra items to Deathworms death inventory"
+      }
+    },
+    {
+      "key": "PreventBetterDeinon",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Deinonychus",
+      "es": {
+        "label": "Desactivar el Deinonychus de KBD",
+        "description": "Activado, el Deinonychus de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Deinon",
+        "description": "Setting to True will prevent the Better Deinon from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventDeinonEggsAnywhere",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Deinonychus",
+      "es": {
+        "label": "El Deinon de KBD no pone huevos salvajes",
+        "description": "El Deinonychus de KBD deja de poner huevos en el mundo."
+      },
+      "en": {
+        "label": "Prevent Deinon Eggs Anywhere",
+        "description": "Setting to True will prevent the KBD Deinon laying eggs in the wild"
+      }
+    },
+    {
+      "key": "PreventDeinonExtraLevels",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Deinonychus",
+      "es": {
+        "label": "Deinon sin niveles extra",
+        "description": "Los Deinonychus dejan de aparecer con niveles salvajes aumentados y vuelven al rango normal."
+      },
+      "en": {
+        "label": "Prevent Deinon Extra Levels",
+        "description": "Setting to True will prevent Deinons from spawning with increased wild levels and keep them as normal"
+      }
+    },
+    {
+      "key": "PreventBetterDilo",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Dilophosaurus",
+      "es": {
+        "label": "Desactivar el Dilophosaurus de KBD",
+        "description": "Activado, el Dilophosaurus de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Dilo",
+        "description": "Setting to True will prevent the Better Dilophosaurus from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventBigDilos",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Dilophosaurus",
+      "es": {
+        "label": "Sin Dilos grandes",
+        "description": "Saca la aparición de los Dilofosaurios grandes de KBD."
+      },
+      "en": {
+        "label": "Prevent Big Dilos",
+        "description": "Setting to True will prevent big Dilos from spawning"
+      }
+    },
+    {
+      "key": "BigDiloChance",
+      "kind": "float_multiplier",
+      "default": 0.2,
+      "min": 0,
+      "max": 10,
+      "step": 0.05,
+      "presets": [
+        0.2,
+        0.5,
+        1,
+        2
+      ],
+      "tier": "expert",
+      "_group": "Dilophosaurus",
+      "es": {
+        "label": "Peso de aparición del Dilo grande",
+        "description": "Cuanto más alto, más Dilos grandes aparecen. Es un peso, no un porcentaje: el Dilo chico pesa siempre 1, así que en 1 salen mitad y mitad, y por encima de 1 la balanza se inclina hacia los grandes."
+      },
+      "en": {
+        "label": "Big Dilo Chance",
+        "description": "The higher this number the higher the chance of Dilos spawning as big Dilos. As this is a Weighting config, you should bear in mind that the weighting of small Dilos spawn will always be 1, therefore setting this config to 1 would give both small and large dilos an equal chance of spawning, higher than 1 will tip the weighting towards Big Dilos"
+      }
+    },
+    {
+      "key": "PreventBetterDimetrodon",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Dimetrodon",
+      "es": {
+        "label": "Desactivar las mejoras de KBD en Dimetrodon",
+        "description": "Activado, KBD no le agrega su buff a Dimetrodon: la criatura queda exactamente como en el juego base. El resto de la mod sigue funcionando."
+      },
+      "en": {
+        "label": "Prevent Better Dimetrodon",
+        "description": "Setting to True will prevent the KBD Buff from being added"
+      }
+    },
+    {
+      "key": "PreventDimetrodonOverheat",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Dimetrodon",
+      "es": {
+        "label": "El Dimetrodon sin sobrecalentar",
+        "description": "Saca la habilidad de sobrecalentamiento (Overheat) del Dimetrodon."
+      },
+      "en": {
+        "label": "Prevent Dimetrodon Overheat",
+        "description": "Setting to True will prevent the Dimetrodon from being able to use the Overheat ability"
+      }
+    },
+    {
+      "key": "PreventBetterDiplo",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Diplodocus",
+      "es": {
+        "label": "Desactivar el Diplodocus de KBD",
+        "description": "Activado, el Diplodocus de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Diplo",
+        "description": "Setting to True will prevent the Better Diplodocus from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventDiploTamedStun",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Diplodocus",
+      "es": {
+        "label": "El coletazo del Diplo domado no aturde",
+        "description": "El coletazo del Diplodocus domado deja de causar aturdimiento."
+      },
+      "en": {
+        "label": "Prevent Diplo Tamed Stun",
+        "description": "Setting to True will prevent the Diplos tail whip attack from causing stun effect when tamed"
+      }
+    },
+    {
+      "key": "PreventDiploWildAttack",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Diplodocus",
+      "es": {
+        "label": "El Diplo salvaje no contraataca",
+        "description": "Los Diplodocus salvajes dejan de defenderse cuando bajan del 50% de vida."
+      },
+      "en": {
+        "label": "Prevent Diplo Wild Attack",
+        "description": "Setting to True will prevent the Diplos from attacking back in the wild when reduced to less than 50% health"
+      }
+    },
+    {
+      "key": "PreventBetterDoed",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Doedicurus",
+      "es": {
+        "label": "Desactivar el Doedicurus de KBD",
+        "description": "Activado, el Doedicurus de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Doed",
+        "description": "Setting to True will prevent the Better Doed from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventDoedEngrams",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Doedicurus",
+      "es": {
+        "label": "Sin crafteo de piedra en el Doed",
+        "description": "Saca la posibilidad de fabricar estructuras de piedra dentro del inventario del Doedicurus."
+      },
+      "en": {
+        "label": "Prevent Doed Engrams",
+        "description": "Setting to True will prevent the crafting of Stone structures in the Doeds Inventory"
+      }
+    },
+    {
+      "key": "PreventDoedCrystalHarvest",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Doedicurus",
+      "es": {
+        "label": "El Doed no junta cristal",
+        "description": "El Doedicurus deja de recolectar cristal. Sirve en Extinction, donde se usan Doeds sobre los faroles para sacar Polvo de Elemento y el cristal ensucia la cosecha."
+      },
+      "en": {
+        "label": "Prevent Doed Crystal Harvest",
+        "description": "Setting to True will prevent the Doed from gathering Crystal. This is useful on Extinction when using Doeds to harvest lamp posts for Element Dust"
+      }
+    },
+    {
+      "key": "DoedMaxGatherWeightLimit",
+      "kind": "float_multiplier",
+      "default": 0.75,
+      "min": 0.05,
+      "max": 1,
+      "step": 0.05,
+      "presets": [
+        0.5,
+        0.75,
+        0.9,
+        1
+      ],
+      "tier": "expert",
+      "_group": "Doedicurus",
+      "es": {
+        "label": "Tope de peso del Doed recolectando",
+        "description": "Hasta qué porcentaje de su peso llena el Doedicurus recolectando en modo deambular. El default 0.75 es 75%. No puede pasar de 1: el juego no lo permite."
+      },
+      "en": {
+        "label": "Doed Max Gather Weight Limit",
+        "description": "The percentage of weight that the Doed will be able to wander harvest to, defaults to 0.75, ie 75%. It cannot go higher than 1, the game will not allow it"
+      }
+    },
+    {
+      "key": "PreventBetterBeetle",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Dung Beetle",
+      "es": {
+        "label": "Desactivar el Dung Beetle de KBD",
+        "description": "Activado, el Dung Beetle de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Beetle",
+        "description": "Setting to True will prevent the Better Dung Beetle from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventBeetlePoopCollection",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Dung Beetle",
+      "es": {
+        "label": "El escarabajo no junta caca",
+        "description": "El Escarabajo Pelotero deja de recoger caca mientras deambula."
+      },
+      "en": {
+        "label": "Prevent Beetle Poop Collection",
+        "description": "Setting to True will prevent the Beetle from collecting poop whilst on wander"
+      }
+    },
+    {
+      "key": "PreventBeetleFertilizerDistribution",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Dung Beetle",
+      "es": {
+        "label": "El escarabajo no reparte fertilizante",
+        "description": "El Escarabajo Pelotero deja de repartir fertilizante a las parcelas de cultivo cercanas."
+      },
+      "en": {
+        "label": "Prevent Beetle Fertilizer Distribution",
+        "description": "Setting to True will prevent the Beetle from distributing fertiliser to nearby crop plots"
+      }
+    },
+    {
+      "key": "BeetlePoopCollectionRange",
+      "kind": "integer",
+      "default": 500,
+      "min": 100,
+      "max": 10000,
+      "step": 100,
+      "tier": "expert",
+      "_group": "Dung Beetle",
+      "es": {
+        "label": "Alcance para juntar caca",
+        "description": "Radio en unidades del juego dentro del cual el Escarabajo Pelotero junta caca. De referencia: un cimiento común mide 300 unidades."
+      },
+      "en": {
+        "label": "Beetle Poop Collection Range",
+        "description": "The range in 'Units' that the Dung Beetle will collect poop from. For reference a regular foundation is 300 Units"
+      }
+    },
+    {
+      "key": "BeetleFertilizerDistributionRange",
+      "kind": "integer",
+      "default": 1000,
+      "min": 100,
+      "max": 10000,
+      "step": 100,
+      "tier": "expert",
+      "_group": "Dung Beetle",
+      "es": {
+        "label": "Alcance para repartir fertilizante",
+        "description": "Radio en unidades del juego dentro del cual el Escarabajo Pelotero busca parcelas de cultivo para fertilizar. De referencia: un cimiento común mide 300 unidades."
+      },
+      "en": {
+        "label": "Beetle Fertilizer Distribution Range",
+        "description": "The range in 'Units' that the Dung Beetle will look for crop plots to distribute fertiliser to"
+      }
+    },
+    {
+      "key": "PreventBeetleMating",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Dung Beetle",
+      "es": {
+        "label": "El escarabajo no se puede criar",
+        "description": "Saca la reproducción de Escarabajos Peloteros que agrega KBD."
+      },
+      "en": {
+        "label": "Prevent Beetle Mating",
+        "description": "Set to true to prevent Beetles from being breedable"
+      }
+    },
+    {
+      "key": "PreventBetterDunk",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Dunkleosteus",
+      "es": {
+        "label": "Desactivar las mejoras de KBD en Dunkleosteus",
+        "description": "Activado, KBD no le agrega su buff a Dunkleosteus: la criatura queda exactamente como en el juego base. El resto de la mod sigue funcionando."
+      },
+      "en": {
+        "label": "Prevent Better Dunk",
+        "description": "Setting to True will prevent the KBD Buff from being added"
+      }
+    },
+    {
+      "key": "PreventBetterEuryp",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Eurypterid",
+      "es": {
+        "label": "Desactivar el Eurypterid de KBD",
+        "description": "Activado, el Eurypterid de KBD deja de aparecer. ⚠️ Los que ya tengas domados se DESTRUYEN: es un cambio con pérdida, no lo actives en un servidor en curso sin avisar."
+      },
+      "en": {
+        "label": "Prevent Better Euryp",
+        "description": "Setting to True will prevent the Better Eurypterid from spawning and destroy all existing tamed ones"
+      }
+    },
+    {
+      "key": "PreventEurypRandomSizes",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Eurypterid",
+      "es": {
+        "label": "Euryps sin tamaños aleatorios",
+        "description": "Los Eurypterid dejan de aparecer con tamaños variables. Los que ya existen no cambian."
+      },
+      "en": {
+        "label": "Prevent Euryp Random Sizes",
+        "description": "Setting to True will prevent Euryps from spawning with random sizes. Already existing ones will not be effected"
+      }
+    },
+    {
+      "key": "PreventEurypProduction",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Eurypterid",
+      "es": {
+        "label": "El Euryp no produce pasivamente",
+        "description": "Saca la producción pasiva de objetos del Eurypterid."
+      },
+      "en": {
+        "label": "Prevent Euryp Production",
+        "description": "Setting to True will prevent Euryps from passively producing items"
+      }
+    },
+    {
+      "key": "PreventEurypRiding",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Eurypterid",
+      "es": {
+        "label": "No se puede montar el Euryp",
+        "description": "Saca la posibilidad de montar Eurypterid de tamaño mayor a 2.0."
+      },
+      "en": {
+        "label": "Prevent Euryp Riding",
+        "description": "Setting to True will prevent riding of Euryps over 2.0 size"
+      }
+    },
+    {
+      "key": "PreventEurypMating",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Eurypterid",
+      "es": {
+        "label": "El Euryp no se puede criar",
+        "description": "Saca la reproducción de Eurypterid que agrega KBD."
+      },
+      "en": {
+        "label": "Prevent Euryp Mating",
+        "description": "Setting to True will prevent Euryps from being able to mate"
+      }
+    },
+    {
+      "key": "PreventBetterFerox",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Ferox",
+      "es": {
+        "label": "Desactivar el Ferox de KBD",
+        "description": "Activado, el Ferox de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Ferox",
+        "description": "Setting to True will prevent the Better Ferox from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "FeroxBreedingAddictionAmount",
+      "kind": "float_multiplier",
+      "default": 0.95,
+      "min": 0.05,
+      "max": 0.95,
+      "step": 0.05,
+      "presets": [
+        0.25,
+        0.5,
+        0.75,
+        0.95
+      ],
+      "tier": "expert",
+      "_group": "Ferox",
+      "es": {
+        "label": "Adicción necesaria para criar Ferox",
+        "description": "Qué porcentaje de adicción al Elemento necesita un Ferox chico para poder reproducirse. Tiene que estar entre 0.05 y 0.95; el default 0.95 es 95%."
+      },
+      "en": {
+        "label": "Ferox Breeding Addiction Amount",
+        "description": "This must be between 0.05 and 0.95. This is the percentage of Element addiction required to enable small Ferox's to breed. Defaults to 0.95"
+      }
+    },
+    {
+      "key": "AllowFeroxCleanBreeding",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Ferox",
+      "es": {
+        "label": "Criar Ferox sin adicción",
+        "description": "Permite reproducir el Ferox mejorado sin necesidad de ninguna adicción al Elemento."
+      },
+      "en": {
+        "label": "Allow Ferox Clean Breeding",
+        "description": "Setting to True will allow the Better Ferox to breed without having any addiction at all."
+      }
+    },
+    {
+      "key": "FeroxTameUseMultiplier",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Ferox",
+      "es": {
+        "label": "El Ferox respeta los multiplicadores de tameo",
+        "description": "Hace que el tameo del Ferox siga los multiplicadores de tameo del servidor en vez de ignorarlos."
+      },
+      "en": {
+        "label": "Ferox Tame Use Multiplier",
+        "description": "Set to True to have Ferox taming follow server taming mulipliers."
+      }
+    },
+    {
+      "key": "PreventFeroxStash",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Ferox",
+      "es": {
+        "label": "No se puede guardar Elemento en el Ferox",
+        "description": "Saca la posibilidad de guardar Elemento dentro de un Ferox chico."
+      },
+      "en": {
+        "label": "Prevent Ferox Stash",
+        "description": "Set to True to prevent the ability to stash Element on a small Ferox."
+      }
+    },
+    {
+      "key": "PreventBetterGalli",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Gallimimus",
+      "es": {
+        "label": "Desactivar las mejoras de KBD en Gallimimus",
+        "description": "Activado, KBD no le agrega su buff a Gallimimus: la criatura queda exactamente como en el juego base. El resto de la mod sigue funcionando."
+      },
+      "en": {
+        "label": "Prevent Better Galli",
+        "description": "Setting to True will prevent the KBD Buff from being added"
+      }
+    },
+    {
+      "key": "PreventBetterBigfoot",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Gigantopithicus (Bigfoot)",
+      "es": {
+        "label": "Desactivar el Gigantopithicus (Bigfoot) de KBD",
+        "description": "Activado, el Gigantopithicus (Bigfoot) de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Bigfoot",
+        "description": "Setting to True will prevent the Better Gigantopithicus from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventBigfootBarrelAttacks",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Gigantopithicus (Bigfoot)",
+      "es": {
+        "label": "El Bigfoot no tira barriles",
+        "description": "Saca el lanzamiento de barriles del Gigantopithecus mejorado."
+      },
+      "en": {
+        "label": "Prevent Bigfoot Barrel Attacks",
+        "description": "Setting to True will prevent the Better Gigantopithicus from using its Barrel Throwing ability"
+      }
+    },
+    {
+      "key": "PreventBigfootCropHarvesting",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Gigantopithicus (Bigfoot)",
+      "es": {
+        "label": "El Bigfoot no cosecha cultivos",
+        "description": "El Gigantopithecus mejorado deja de juntar Pasto Largo y Citronal con su ataque, y de cosechar parcelas en modo jardinería."
+      },
+      "en": {
+        "label": "Prevent Bigfoot Crop Harvesting",
+        "description": "Setting to True will prevent the Better Gigantopithicus from being able to gather Longgrass and Citronal with its melee attack or from gathering from crop plots in gardening mode"
+      }
+    },
+    {
+      "key": "PreventBigfootWeapons",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Gigantopithicus (Bigfoot)",
+      "es": {
+        "label": "El Bigfoot no usa armas",
+        "description": "Saca la posibilidad de equipar armas al Gigantopithecus mejorado."
+      },
+      "en": {
+        "label": "Prevent Bigfoot Weapons",
+        "description": "Setting to True will prevent the Better Gigantopithicus from being able to be equipped with weapons"
+      }
+    },
+    {
+      "key": "PreventBigfootArgentCarry",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Gigantopithicus (Bigfoot)",
+      "es": {
+        "label": "El Argentavis no puede llevar al Bigfoot",
+        "description": "Impide que los Argentavis levanten al Gigantopithecus mejorado, subiéndole el peso de arrastre."
+      },
+      "en": {
+        "label": "Prevent Bigfoot Argent Carry",
+        "description": "Setting to True will prevent the Better Gigantopithicus from being able to be carried by Argents by increasing their drag weight"
+      }
+    },
+    {
+      "key": "PreventBetterGriffin",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Griffin",
+      "es": {
+        "label": "Desactivar el Griffin de KBD",
+        "description": "Activado, el Griffin de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Griffin",
+        "description": "Setting to True will prevent the Better Griffin from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventGriffinGenders",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Griffin",
+      "es": {
+        "label": "El Grifo sin géneros",
+        "description": "Saca los géneros que KBD le agrega al Grifo. Sin géneros no hay cría."
+      },
+      "en": {
+        "label": "Prevent Griffin Genders",
+        "description": "Setting to True will prevent the Griffin from gaining genders"
+      }
+    },
+    {
+      "key": "PreventGriffinMating",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Griffin",
+      "es": {
+        "label": "El Grifo no se puede criar",
+        "description": "Saca la reproducción de Grifos que agrega KBD."
+      },
+      "en": {
+        "label": "Prevent Griffin Mating",
+        "description": "Setting to True will prevent the Griffin from from being able to mate"
+      }
+    },
+    {
+      "key": "PreventBetterHyaena",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Hyaenodon",
+      "es": {
+        "label": "Desactivar el Hyaenodon de KBD",
+        "description": "Activado, el Hyaenodon de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Hyaena",
+        "description": "Setting to True will prevent the Better Hyaenodon from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventHyaenaRandomSizes",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Hyaenodon",
+      "es": {
+        "label": "Hyaenodons sin tamaños aleatorios",
+        "description": "Los Hyaenodon dejan de aparecer con tamaños variables. Los que ya existen no cambian."
+      },
+      "en": {
+        "label": "Prevent Hyaena Random Sizes",
+        "description": "Setting to True will prevent the Hyaenodons from spawning with random sizes. Already existing ones will not be effected"
+      }
+    },
+    {
+      "key": "PreventHyaenaRiding",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Hyaenodon",
+      "es": {
+        "label": "No se puede montar el Hyaenodon",
+        "description": "Saca la posibilidad de montar Hyaenodons de tamaño 1.3."
+      },
+      "en": {
+        "label": "Prevent Hyaena Riding",
+        "description": "Setting to True will prevent Hyaenodons of 1.3 size from being ridden"
+      }
+    },
+    {
+      "key": "PreventBetterCrab",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Karkinos (Crab)",
+      "es": {
+        "label": "Desactivar el Karkinos (Crab) de KBD",
+        "description": "Activado, el Karkinos (Crab) de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Crab",
+        "description": "Setting to True will prevent the Better Karkinos from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventCrabMating",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Karkinos (Crab)",
+      "es": {
+        "label": "El Karkinos no se puede criar",
+        "description": "Saca la reproducción de Karkinos que agrega KBD."
+      },
+      "en": {
+        "label": "Prevent Crab Mating",
+        "description": "Setting to True will prevent the Karkinos from being able to mate"
+      }
+    },
+    {
+      "key": "PreventCrabFlyerGrab",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Karkinos (Crab)",
+      "es": {
+        "label": "El cangrejo no agarra voladores",
+        "description": "Impide que el Karkinos levante criaturas voladoras."
+      },
+      "en": {
+        "label": "Prevent Crab Flyer Grab",
+        "description": "Set to true to prevent crabs from being able to carry Flyers"
+      }
+    },
+    {
+      "key": "PreventPlatformsInBossArena",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Karkinos (Crab)",
+      "es": {
+        "label": "Sin plataformas en las arenas de jefe",
+        "description": "Mammoth, Trike y Karkinos de KBD no pueden entrar a las arenas de jefe si llevan silla-plataforma. Se logra subiéndoles el peso de arrastre a 565 mientras la tengan puesta. Está en la ficha del Karkinos pero aplica a las tres especies."
+      },
+      "en": {
+        "label": "Prevent Platforms In Boss Arena",
+        "description": "Set to true to prevent the BD Mammoth, Trike and Karkinos from entering Boss Arenas if they are equipped with platform saddles. Note that this is achieved by increasing the drag weight of these creatures to 565 whilst the platform saddle is equipped"
+      }
+    },
+    {
+      "key": "PreventBetterLamprey",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Lamprey and Leech",
+      "es": {
+        "label": "Desactivar el Lamprey and Leech de KBD",
+        "description": "Activado, el Lamprey and Leech de KBD deja de aparecer. ⚠️ Los que ya tengas domados se DESTRUYEN: es un cambio con pérdida, no lo actives en un servidor en curso sin avisar."
+      },
+      "en": {
+        "label": "Prevent Better Lamprey",
+        "description": "Setting to True will prevent the Better Lamprey from spawning and destroy all existing tamed ones"
+      }
+    },
+    {
+      "key": "PreventBetterLeech",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Lamprey and Leech",
+      "es": {
+        "label": "Desactivar el Lamprey and Leech de KBD",
+        "description": "Activado, el Lamprey and Leech de KBD deja de aparecer. ⚠️ Los que ya tengas domados se DESTRUYEN: es un cambio con pérdida, no lo actives en un servidor en curso sin avisar."
+      },
+      "en": {
+        "label": "Prevent Better Leech",
+        "description": "Setting to True will prevent the Better Leech from spawning and destroy all existing tamed ones"
+      }
+    },
+    {
+      "key": "LeechBloodHarvestMultiplier",
+      "kind": "integer",
+      "default": 1,
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "tier": "expert",
+      "_group": "Lamprey and Leech",
+      "es": {
+        "label": "Multiplicador de Sangre de Sanguijuela",
+        "description": "Multiplica cuánta Sangre de Sanguijuela sacás al cosechar una Sanguijuela domada desde el menú radial. Tiene que ser un número entero."
+      },
+      "en": {
+        "label": "Leech Blood Harvest Multiplier",
+        "description": "Will multiply the amount of Leech Blood you will receive when harvesting a tamed Leech via the radial menu. Must be an Integer (whole number)"
+      }
+    },
+    {
+      "key": "LeechDiseasedBileHarvestAmount",
+      "kind": "integer",
+      "default": 1,
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "tier": "expert",
+      "_group": "Lamprey and Leech",
+      "es": {
+        "label": "Multiplicador de Bilis Enferma",
+        "description": "Multiplica cuánta Bilis Enferma sacás al cosechar una Sanguijuela Enferma domada desde el menú radial. Tiene que ser un número entero."
+      },
+      "en": {
+        "label": "Leech Diseased Bile Harvest Amount",
+        "description": "Will multiply the amount of Diseased Bile you will receive when harvesting a tamed Diseased Leech via the radial menu. Must be an Integer"
+      }
+    },
+    {
+      "key": "LeechBloodBagMulti",
+      "kind": "integer",
+      "default": 1,
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "tier": "expert",
+      "_group": "Lamprey and Leech",
+      "es": {
+        "label": "Multiplicador de Bolsas de Sangre",
+        "description": "Multiplica cuántas Bolsas de Sangre te quedan cuando una Sanguijuela domada se te desprende. Tiene que ser un número entero; al ritmo normal son 2 bolsas por minuto."
+      },
+      "en": {
+        "label": "Leech Blood Bag Multi",
+        "description": "Will multiply the amount of Blood Bags you will receive when a tamed Leech drops from you. Must be an Integer. Bear in mind you will receive 2 bags per minute at the default rate"
+      }
+    },
+    {
+      "key": "PreventLeechMating",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Lamprey and Leech",
+      "es": {
+        "label": "La Sanguijuela no se puede criar",
+        "description": "Saca la reproducción de la Sanguijuela mejorada."
+      },
+      "en": {
+        "label": "Prevent Leech Mating",
+        "description": "Setting to True will prevent the Better Leech from being able to breed"
+      }
+    },
+    {
+      "key": "PreventLampreyMating",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Lamprey and Leech",
+      "es": {
+        "label": "La Lamprea no se puede criar",
+        "description": "Saca la reproducción de la Lamprea mejorada."
+      },
+      "en": {
+        "label": "Prevent Lamprey Mating",
+        "description": "Setting to True will prevent the Better Lamprey from being able to breed"
+      }
+    },
+    {
+      "key": "PreventLuckPotion",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Liopleurodon",
+      "es": {
+        "label": "Sin poción de suerte en el Liopleurodon",
+        "description": "Saca la fabricación de la poción de suerte Felix Felicis dentro del inventario del Liopleurodon."
+      },
+      "en": {
+        "label": "Prevent Luck Potion",
+        "description": "Setting to True will prevent the crafting of Felix Felicitas luck potion in the Liops inventory"
+      }
+    },
+    {
+      "key": "PreventBetterMoth",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Lymantria (Moth)",
+      "es": {
+        "label": "Desactivar el Lymantria (Moth) de KBD",
+        "description": "Activado, el Lymantria (Moth) de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Moth",
+        "description": "Setting to True will prevent the Better Lymantria from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventMothMelee",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Lymantria (Moth)",
+      "es": {
+        "label": "La Lymantria sin ataque cuerpo a cuerpo",
+        "description": "La Lymantria pierde el ataque de clic izquierdo que le agrega KBD."
+      },
+      "en": {
+        "label": "Prevent Moth Melee",
+        "description": "Setting to True will prevent the Lymantria from having its left click melee attack"
+      }
+    },
+    {
+      "key": "PreventBetterMammoth",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Mammoth",
+      "es": {
+        "label": "Desactivar el Mammoth de KBD",
+        "description": "Activado, el Mammoth de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Mammoth",
+        "description": "Setting to True will prevent the Better Mammoth from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventMammothBeaverDamage",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Mammoth",
+      "es": {
+        "label": "El Mamut sin bonus de madera",
+        "description": "El Mamut mantiene su tipo de daño normal en vez del mejorado para juntar madera."
+      },
+      "en": {
+        "label": "Prevent Mammoth Beaver Damage",
+        "description": "Setting to True will keep the Mammoth with its regular damage type instead of enhanced wood gathering"
+      }
+    },
+    {
+      "key": "PreventMammothEngrams",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Mammoth",
+      "es": {
+        "label": "Sin crafteo de madera en el Mamut",
+        "description": "Saca la fabricación de estructuras de madera dentro del inventario del Mamut."
+      },
+      "en": {
+        "label": "Prevent Mammoth Engrams",
+        "description": "Setting to True will prevent the crafting of Wooden Structures in the Mammoths inventory"
+      }
+    },
+    {
+      "key": "PreventManaExtraBreathRange",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Managarmr",
+      "es": {
+        "label": "El Managarmr sin alcance extra de aliento",
+        "description": "Saca el aumento de alcance del ataque de aliento del Managarmr."
+      },
+      "en": {
+        "label": "Prevent Mana Extra Breath Range",
+        "description": "Setting to True will prevent the Managarmrs breath attack range increase"
+      }
+    },
+    {
+      "key": "PreventBetterManta",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Manta",
+      "es": {
+        "label": "Desactivar el Manta de KBD",
+        "description": "Activado, el Manta de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Manta",
+        "description": "Setting to True will prevent the Better Manta from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventMantaKOTame",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Manta",
+      "es": {
+        "label": "La Manta vuelve a domarse por pasiva",
+        "description": "La Manta deja de domarse por KO y vuelve al tameo pasivo original, que el propio autor describe como molesto."
+      },
+      "en": {
+        "label": "Prevent Manta KO Tame",
+        "description": "Setting to True will prevent the Manta from being a KO tame and revert it instead back to being an annoying passive tame"
+      }
+    },
+    {
+      "key": "PreventBetterMantis",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Mantis",
+      "es": {
+        "label": "Desactivar el Mantis de KBD",
+        "description": "Activado, el Mantis de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Mantis",
+        "description": "Setting to True will prevent the Better Mantis from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventMantisWeightReduction",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Mantis",
+      "es": {
+        "label": "La Mantis sin reducción de peso",
+        "description": "Saca el 50% de reducción de peso en recursos que KBD le da a la Mantis."
+      },
+      "en": {
+        "label": "Prevent Mantis Weight Reduction",
+        "description": "Setting to True will prevent the Mantis from receiving its 50% weight reduction on resources"
+      }
+    },
+    {
+      "key": "PreventBetterMeglania",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Megalania",
+      "es": {
+        "label": "Desactivar las mejoras de KBD en Megalania",
+        "description": "Activado, KBD no le agrega su buff a Megalania: la criatura queda exactamente como en el juego base. El resto de la mod sigue funcionando."
+      },
+      "en": {
+        "label": "Prevent Better Meglania",
+        "description": "Setting to True will prevent the KBD Buff from being added"
+      }
+    },
+    {
+      "key": "PreventBetterDeer",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Megaloceros (Deer)",
+      "es": {
+        "label": "Desactivar el Megaloceros (Deer) de KBD",
+        "description": "Activado, el Megaloceros (Deer) de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Deer",
+        "description": "Setting to True will prevent the Better Megaloceros from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "AllowFemaleDeerAttack",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Megaloceros (Deer)",
+      "es": {
+        "label": "Las hembras de Megaloceros atacan",
+        "description": "Permite que las hembras usen el mismo ataque de clic izquierdo que los machos."
+      },
+      "en": {
+        "label": "Allow Female Deer Attack",
+        "description": "Setting to True will allow female Megaloceros to attack with the same Left Click attack as males"
+      }
+    },
+    {
+      "key": "VanillaDeerAttack",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Megaloceros (Deer)",
+      "es": {
+        "label": "Megaloceros con ataque del juego base",
+        "description": "El Megaloceros usa su ataque original en vez del de KBD, que agrega sangrado."
+      },
+      "en": {
+        "label": "Vanilla Deer Attack",
+        "description": "Setting to True will make the Megaloceros use its vanilla attack rather than the KBD one with the new bleed"
+      }
+    },
+    {
+      "key": "PreventDeerMilk",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Megaloceros (Deer)",
+      "es": {
+        "label": "Las hembras de Megaloceros no se ordeñan",
+        "description": "Saca la producción de Leche de Mamífero de las hembras de Megaloceros."
+      },
+      "en": {
+        "label": "Prevent Deer Milk",
+        "description": "Setting to True will prevent female Megaloceros from being milked"
+      }
+    },
+    {
+      "key": "PreventWildDeerAggro",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Megaloceros (Deer)",
+      "es": {
+        "label": "El Megaloceros salvaje no contraataca",
+        "description": "Los machos salvajes de Megaloceros dejan de defenderse cuando los atacás."
+      },
+      "en": {
+        "label": "Prevent Wild Deer Aggro",
+        "description": "Setting to True will prevent male Megaloceros from attacking back when wild"
+      }
+    },
+    {
+      "key": "DeerMilkInterval",
+      "kind": "integer",
+      "default": 1800,
+      "min": 60,
+      "max": 86400,
+      "step": 60,
+      "tier": "expert",
+      "_group": "Megaloceros (Deer)",
+      "es": {
+        "label": "Intervalo de leche del Megaloceros",
+        "description": "Segundos entre ordeñes de Leche de Mamífero en una hembra domada de Megaloceros. El default de 1800 son 30 minutos."
+      },
+      "en": {
+        "label": "Deer Milk Interval",
+        "description": "Amount of seconds between Mammal Milk harvesting of tamed female Megaloceros, the default of 1800 equals 30 minutes"
+      }
+    },
+    {
+      "key": "PreventBetterMegalodon",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Megalodon",
+      "es": {
+        "label": "Desactivar las mejoras de KBD en Megalodon",
+        "description": "Activado, KBD no le agrega su buff a Megalodon: la criatura queda exactamente como en el juego base. El resto de la mod sigue funcionando."
+      },
+      "en": {
+        "label": "Prevent Better Megalodon",
+        "description": "Setting to True will prevent the KBD Buff from being added"
+      }
+    },
+    {
+      "key": "PreventMegalodonBleed",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Megalodon",
+      "es": {
+        "label": "El Megalodón no provoca sangrado",
+        "description": "Saca el sangrado que el Megalodón inflige desde el TLC 3."
+      },
+      "en": {
+        "label": "Prevent Megalodon Bleed",
+        "description": "Setting to True will prevent the Megalodon from inflicting Bleed as introduced in TLC 3"
+      }
+    },
+    {
+      "key": "PreventBetterMegalo",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Megalosaurus",
+      "es": {
+        "label": "Desactivar las mejoras de KBD en Megalosaurus",
+        "description": "Activado, KBD no le agrega su buff a Megalosaurus: la criatura queda exactamente como en el juego base. El resto de la mod sigue funcionando."
+      },
+      "en": {
+        "label": "Prevent Better Megalo",
+        "description": "Setting to True will prevent the KBD Buff from being added"
+      }
+    },
+    {
+      "key": "PreventMegaloNightVision",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Megalosaurus",
+      "es": {
+        "label": "El Megalo sin visión nocturna",
+        "description": "Saca la visión nocturna del Megalosaurus."
+      },
+      "en": {
+        "label": "Prevent Megalo Night Vision",
+        "description": "Setting to True will prevent the Megalo from using its night vision ability"
+      }
+    },
+    {
+      "key": "PreventMegaloNoAIGrab",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Megalosaurus",
+      "es": {
+        "label": "El agarre del Megalo no se puede desactivar",
+        "description": "Deshace el cambio que convierte el agarre del Megalosaurus en un ataque especial de IA, que es lo que permite apagarlo desde el menú del dino."
+      },
+      "en": {
+        "label": "Prevent Megalo No AI Grab",
+        "description": "Setting to True will prevent the Megalos grab attack from being made into and AI special attack and therefore able to be disabled"
+      }
+    },
+    {
+      "key": "PreventMegaloDaytimeChanges",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Megalosaurus",
+      "es": {
+        "label": "El Megalo con su sueño original",
+        "description": "Saca los cambios de KBD a la mecánica de deuda de sueño del Megalosaurus."
+      },
+      "en": {
+        "label": "Prevent Megalo Daytime Changes",
+        "description": "Setting to True will prevent the changes to the Megalos sleep debt mechanics"
+      }
+    },
+    {
+      "key": "PreventBetterDragonfly",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Meganeura (Dragonfly)",
+      "es": {
+        "label": "Desactivar el Meganeura (Dragonfly) de KBD",
+        "description": "Activado, el Meganeura (Dragonfly) de KBD deja de aparecer. ⚠️ Los que ya tengas domados se DESTRUYEN: es un cambio con pérdida, no lo actives en un servidor en curso sin avisar."
+      },
+      "en": {
+        "label": "Prevent Better Dragonfly",
+        "description": "Setting to True will prevent the Better Meganeura from spawning and destroy all existing tamed ones"
+      }
+    },
+    {
+      "key": "PreventDragonflyBreeding",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Meganeura (Dragonfly)",
+      "es": {
+        "label": "La Meganeura no se puede criar",
+        "description": "Saca la reproducción de Meganeuras que agrega KBD."
+      },
+      "en": {
+        "label": "Prevent Dragonfly Breeding",
+        "description": "Setting to True will prevent the Meganeura from being able to breed"
+      }
+    },
+    {
+      "key": "PreventBetterMek",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Mek",
+      "es": {
+        "label": "Desactivar las mejoras de KBD en Mek",
+        "description": "Activado, KBD no le agrega su buff a Mek: la criatura queda exactamente como en el juego base. El resto de la mod sigue funcionando."
+      },
+      "en": {
+        "label": "Prevent Better Mek",
+        "description": "Setting to True will prevent the KBD Buff from being added"
+      }
+    },
+    {
+      "key": "PreventBetterMorellatops",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Morellatops",
+      "es": {
+        "label": "Desactivar las mejoras de KBD en Morellatops",
+        "description": "Activado, KBD no le agrega su buff a Morellatops: la criatura queda exactamente como en el juego base. El resto de la mod sigue funcionando."
+      },
+      "en": {
+        "label": "Prevent Better Morellatops",
+        "description": "Setting to True will prevent the KBD Buff from being added"
+      }
+    },
+    {
+      "key": "PreventMosaNoPitch",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Mosasaur",
+      "es": {
+        "label": "El Mosa no puede inclinarse",
+        "description": "Saca la inclinación hacia arriba y abajo que KBD le da al Mosasaurus."
+      },
+      "en": {
+        "label": "Prevent Mosa No Pitch",
+        "description": "Setting to True will prevent the Mosa from being able to pitch up and down"
+      }
+    },
+    {
+      "key": "PreventMosaNoTarget",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Mosasaur",
+      "es": {
+        "label": "El Mosa vuelve a ser blanco de todos",
+        "description": "Deshace el cambio de KBD y hace que todas las criaturas salvajes vuelvan a atacar al Mosasaurus."
+      },
+      "en": {
+        "label": "Prevent Mosa No Target",
+        "description": "Setting to True will make the Mosa targeted by all wild creatures again"
+      }
+    },
+    {
+      "key": "PreventBetterOviraptor",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Oviraptor",
+      "es": {
+        "label": "Desactivar el Oviraptor de KBD",
+        "description": "Activado, el Oviraptor de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Oviraptor",
+        "description": "Setting to True will prevent the Better Oviraptor from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventOviraptorEggCollection",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Oviraptor",
+      "es": {
+        "label": "El Oviraptor no junta huevos",
+        "description": "El Oviraptor mejorado deja de recoger huevos, de cualquier tipo."
+      },
+      "en": {
+        "label": "Prevent Oviraptor Egg Collection",
+        "description": "Setting to True will prevent the Better Oviraptor from being able to collect any eggs"
+      }
+    },
+    {
+      "key": "PreventOviFertilizedEggColl",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Oviraptor",
+      "es": {
+        "label": "El Oviraptor no junta huevos fertilizados",
+        "description": "El Oviraptor mejorado deja de recoger huevos fertilizados, pero sigue juntando los comunes."
+      },
+      "en": {
+        "label": "Prevent Ovi Fertilized Egg Coll",
+        "description": "Setting to True will prevent the Better Oviraptor from being able to collect Fertilized eggs, but will still be able to gather regular eggs"
+      }
+    },
+    {
+      "key": "OviNestMaxSlots",
+      "kind": "integer",
+      "default": 50,
+      "min": 1,
+      "max": 300,
+      "step": 5,
+      "tier": "expert",
+      "_group": "Oviraptor",
+      "es": {
+        "label": "Espacios del nido de Oviraptor",
+        "description": "Cuántos casilleros tiene el nido de Oviraptor que agrega KBD."
+      },
+      "en": {
+        "label": "Ovi Nest Max Slots",
+        "description": "Use to change the amount of slots that Oviraptor Nests have."
+      }
+    },
+    {
+      "key": "PreventSheepMilk",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Ovis (Sheep)",
+      "es": {
+        "label": "Las ovejas no se ordeñan",
+        "description": "Saca la producción de Leche de Mamífero de las hembras de Ovis."
+      },
+      "en": {
+        "label": "Prevent Sheep Milk",
+        "description": "Setting to True will prevent female Ovis from being milked"
+      }
+    },
+    {
+      "key": "SheepMilkInterval",
+      "kind": "integer",
+      "default": 1800,
+      "min": 60,
+      "max": 86400,
+      "step": 60,
+      "tier": "expert",
+      "_group": "Ovis (Sheep)",
+      "es": {
+        "label": "Intervalo de leche de oveja",
+        "description": "Segundos entre ordeñes de Leche de Mamífero en una hembra domada de Ovis. El default de 1800 son 30 minutos."
+      },
+      "en": {
+        "label": "Sheep Milk Interval",
+        "description": "Amount of seconds between Mammal Milk harvesting of tamed female Ovis, the default of 1800 equals 30 minutes"
+      }
+    },
+    {
+      "key": "AllowUnNerfedSheepHarvest",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Ovis (Sheep)",
+      "es": {
+        "label": "Cordero sin el recorte de cosecha",
+        "description": "Devuelve la cosecha de Cordero de la Ovis a las cantidades originales, deshaciendo el recorte."
+      },
+      "en": {
+        "label": "Allow Un Nerfed Sheep Harvest",
+        "description": "Setting to true will revert the Mutton harvesting nerf to Ovis back to its original amounts"
+      }
+    },
+    {
+      "key": "PreventBetterPachy",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Pachycephalosaurus",
+      "es": {
+        "label": "Desactivar el Pachycephalosaurus de KBD",
+        "description": "Activado, el Pachycephalosaurus de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Pachy",
+        "description": "Setting to True will prevent the Better Pachy from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventBetterPachyrhino",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Pachyrhinosaurus",
+      "es": {
+        "label": "Desactivar el Pachyrhinosaurus de KBD",
+        "description": "Activado, el Pachyrhinosaurus de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Pachyrhino",
+        "description": "Setting to True will prevent the Better Pachyrhino from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventBetterPego",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Pegomastax",
+      "es": {
+        "label": "Desactivar el Pegomastax de KBD",
+        "description": "Activado, el Pegomastax de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Pego",
+        "description": "Setting to True will prevent the Better Pego from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventPegoHarvestLoot",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Pegomastax",
+      "es": {
+        "label": "El Pego no encuentra equipo en los arbustos",
+        "description": "El Pegomastax deja de encontrar equipamiento al recolectar arbustos en modo deambular."
+      },
+      "en": {
+        "label": "Prevent Pego Harvest Loot",
+        "description": "Setting to True will prevent the Pegomastax from finding equipment in bushes when wander harvesting"
+      }
+    },
+    {
+      "key": "PegoLootBlacklist",
+      "kind": "string_list",
+      "default": [],
+      "tier": "expert",
+      "_group": "Pegomastax",
+      "es": {
+        "label": "Objetos que el Pego no encuentra",
+        "description": "Nombres de los objetos que querés sacar de lo que el Pegomastax puede encontrar en los arbustos, separados por coma. Vacío por default."
+      },
+      "en": {
+        "label": "Pego Loot Blacklist",
+        "description": "This is left blank by default. See below for the available options and how to use the blacklist"
+      }
+    },
+    {
+      "key": "PreventBetterPhiomia",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Phiomia",
+      "es": {
+        "label": "Desactivar las mejoras de KBD en Phiomia",
+        "description": "Activado, KBD no le agrega su buff a Phiomia: la criatura queda exactamente como en el juego base. El resto de la mod sigue funcionando."
+      },
+      "en": {
+        "label": "Prevent Better Phiomia",
+        "description": "Setting to True will prevent the KBD Buff from being added"
+      }
+    },
+    {
+      "key": "PreventPhiomiaMilk",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Phiomia",
+      "es": {
+        "label": "Las Phiomias no se ordeñan",
+        "description": "Saca la producción de Leche de Mamífero de las hembras de Phiomia."
+      },
+      "en": {
+        "label": "Prevent Phiomia Milk",
+        "description": "Setting to True will prevent female Phiomias from being milked"
+      }
+    },
+    {
+      "key": "PreventPhiomiaHarvestVeggies",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Phiomia",
+      "es": {
+        "label": "La Phiomia no junta verduras",
+        "description": "La Phiomia deja de conseguir Sabrosaraíz y Zanahárroca al recolectar arbustos."
+      },
+      "en": {
+        "label": "Prevent Phiomia Harvest Veggies",
+        "description": "Setting to True will prevent the Phiomia from being able to gather Savoroots and Rockarrots when harvesting bushes"
+      }
+    },
+    {
+      "key": "PhiomiaMilkInterval",
+      "kind": "integer",
+      "default": 2700,
+      "min": 60,
+      "max": 86400,
+      "step": 60,
+      "tier": "expert",
+      "_group": "Phiomia",
+      "es": {
+        "label": "Intervalo de leche de Phiomia",
+        "description": "Segundos entre ordeñes de Leche de Mamífero en una hembra domada de Phiomia. El default de 2700 son 45 minutos."
+      },
+      "en": {
+        "label": "Phiomia Milk Interval",
+        "description": "Amount of seconds between Mammal Milk harvesting of tamed female Phiomias, the default of 2700 equals 45 minutes"
+      }
+    },
+    {
+      "key": "PreventBetterPiranha",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Piranha",
+      "es": {
+        "label": "Desactivar el Piranha de KBD",
+        "description": "Activado, el Piranha de KBD deja de aparecer y los salvajes vuelven a ser los del juego base. ⚠️ Los que ya tengas domados se DESTRUYEN: es un cambio con pérdida, no lo actives en un servidor en curso sin avisar."
+      },
+      "en": {
+        "label": "Prevent Better Piranha",
+        "description": "Setting to True will prevent the Better Piranha from spawning and revert all existing ones back to vanilla, already tamed ones will be destroyed"
+      }
+    },
+    {
+      "key": "PreventPiranhaMating",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Piranha",
+      "es": {
+        "label": "La Piraña no se puede criar",
+        "description": "Saca la reproducción de Pirañas que agrega KBD."
+      },
+      "en": {
+        "label": "Prevent Piranha Mating",
+        "description": "Setting to True will prevent the Piranha from being able to breed"
+      }
+    },
+    {
+      "key": "PreventPlesiNoPitch",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Plesiosaur",
+      "es": {
+        "label": "El Plesio no puede inclinarse",
+        "description": "Saca la inclinación hacia arriba y abajo que KBD le da al Plesiosaurus."
+      },
+      "en": {
+        "label": "Prevent Plesi No Pitch",
+        "description": "Setting to True will prevent the Plesi from being able to pitch up and down"
+      }
+    },
+    {
+      "key": "PreventPlesiNoTarget",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Plesiosaur",
+      "es": {
+        "label": "El Plesio vuelve a ser blanco de todos",
+        "description": "Deshace el cambio de KBD y hace que todas las criaturas salvajes vuelvan a atacar al Plesiosaurus."
+      },
+      "en": {
+        "label": "Prevent Plesi No Target",
+        "description": "Setting to True will make the Plesi targeted by all wild creatures again"
+      }
+    },
+    {
+      "key": "PreventBetterScorp",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Pulmonoscorpius",
+      "es": {
+        "label": "Desactivar el Pulmonoscorpius de KBD",
+        "description": "Activado, el Pulmonoscorpius de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Scorp",
+        "description": "Setting to True will prevent the Better Scorpion from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventScorpVenom",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Pulmonoscorpius",
+      "es": {
+        "label": "El escorpión no produce veneno",
+        "description": "Saca la producción pasiva de Veneno de Escorpión del Pulmonoscorpius mejorado."
+      },
+      "en": {
+        "label": "Prevent Scorp Venom",
+        "description": "Setting to True will prevent the Better Scorpion from passively producing Scorpion Venom"
+      }
+    },
+    {
+      "key": "PreventBetterPurlovia",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Purlovia",
+      "es": {
+        "label": "Desactivar el Purlovia de KBD",
+        "description": "Activado, el Purlovia de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Purlovia",
+        "description": "Setting to True will prevent the Better Purlovia from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventBetterQuetz",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Quetzalcoatlus",
+      "es": {
+        "label": "Desactivar las mejoras de KBD en Quetzalcoatlus",
+        "description": "Activado, KBD no le agrega su buff a Quetzalcoatlus: la criatura queda exactamente como en el juego base. El resto de la mod sigue funcionando."
+      },
+      "en": {
+        "label": "Prevent Better Quetz",
+        "description": "Setting to True will prevent the KBD Buff from being added"
+      }
+    },
+    {
+      "key": "PreventQuetzChangedAttack",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Quetzalcoatlus",
+      "es": {
+        "label": "El Quetz con su daño original",
+        "description": "Deshace el cambio de tipo de daño del Quetzal, que con KBD pega más fuerte a criaturas chicas y más flojo a las grandes."
+      },
+      "en": {
+        "label": "Prevent Quetz Changed Attack",
+        "description": "Setting to True will prevent the Quetzals damage type being changed to the more damage against small creatures/less against larger"
+      }
+    },
+    {
+      "key": "PreventQuetzNoPitch",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Quetzalcoatlus",
+      "es": {
+        "label": "El Quetz no puede inclinarse",
+        "description": "Saca la inclinación hacia arriba y abajo que KBD le da al Quetzal."
+      },
+      "en": {
+        "label": "Prevent Quetz No Pitch",
+        "description": "Setting to True will prevent the Quetz from being able to pitch up and down"
+      }
+    },
+    {
+      "key": "PreventBetterRaptor",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Raptor",
+      "es": {
+        "label": "Desactivar las mejoras de KBD en Raptor",
+        "description": "Activado, KBD no le agrega su buff a Raptor: la criatura queda exactamente como en el juego base. El resto de la mod sigue funcionando."
+      },
+      "en": {
+        "label": "Prevent Better Raptor",
+        "description": "Setting to True will prevent the KBD Buff from being added"
+      }
+    },
+    {
+      "key": "AllowRaptorWildPounce",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Raptor",
+      "es": {
+        "label": "Los Raptors salvajes vuelven a saltar encima",
+        "description": "Devuelve el ataque de derribo a todos los Raptors salvajes."
+      },
+      "en": {
+        "label": "Allow Raptor Wild Pounce",
+        "description": "Setting to True will allow all wild Raptors to use their pounce attacks again"
+      }
+    },
+    {
+      "key": "AllowMissionRaptorPounce",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Raptor",
+      "es": {
+        "label": "Solo los Raptors de misión saltan encima",
+        "description": "Devuelve el ataque de derribo únicamente a los Raptors de misión de Genesis."
+      },
+      "en": {
+        "label": "Allow Mission Raptor Pounce",
+        "description": "Setting to True will allow only Mission Raptors to use their pounce attacks again"
+      }
+    },
+    {
+      "key": "AllowCorruptedRaptorPounce",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Raptor",
+      "es": {
+        "label": "Solo los Raptors corruptos saltan encima",
+        "description": "Devuelve el ataque de derribo únicamente a los Raptors corruptos."
+      },
+      "en": {
+        "label": "Allow Corrupted Raptor Pounce",
+        "description": "Setting to True will allow only Corrupted Raptors to use their pounce attacks again"
+      }
+    },
+    {
+      "key": "PreventReaperAcidBlood",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Reapers",
+      "es": {
+        "label": "El Reaper sin sangre ácida",
+        "description": "El Reaper deja de dañar a los enemigos cercanos cuando recibe un efecto de sangrado."
+      },
+      "en": {
+        "label": "Prevent Reaper Acid Blood",
+        "description": "Setting to True will prevent Reapers causing damage to nearby enemies when they receive a bleed type debuff"
+      }
+    },
+    {
+      "key": "PreventReindeerGiftPoop",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Reindeer",
+      "es": {
+        "label": "Los renos no cagan regalos",
+        "description": "Los renos dejan de dejar regalos durante el evento navideño."
+      },
+      "en": {
+        "label": "Prevent Reindeer Gift Poop",
+        "description": "Setting to True will prevent Reindeer from pooping gifts over the Xmas period, you Scrooge you"
+      }
+    },
+    {
+      "key": "PreventReindeerMaxDinoNose",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Reindeer",
+      "es": {
+        "label": "La nariz del reno no marca el nivel máximo",
+        "description": "El brillo de la nariz del reno deja de servir para identificar dinos de nivel máximo."
+      },
+      "en": {
+        "label": "Prevent Reindeer Max Dino Nose",
+        "description": "Setting to True will prevent Reindeer nose glow from helping identify max level dinos"
+      }
+    },
+    {
+      "key": "PreventBetterRex",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Rex",
+      "es": {
+        "label": "Desactivar las mejoras de KBD en Rex",
+        "description": "Activado, KBD no le agrega su buff a Rex: la criatura queda exactamente como en el juego base. El resto de la mod sigue funcionando."
+      },
+      "en": {
+        "label": "Prevent Better Rex",
+        "description": "Setting to True will prevent the KBD Buff from being added"
+      }
+    },
+    {
+      "key": "PreventJPRexRoars",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Rex",
+      "es": {
+        "label": "Rugido del Rex original",
+        "description": "El Rex vuelve a su rugido del juego base en vez del estilo Jurassic Park que le pone KBD."
+      },
+      "en": {
+        "label": "Prevent JP Rex Roars",
+        "description": "Setting to True will prevent the use of the JP Rex roar and will keep the vanilla instead"
+      }
+    },
+    {
+      "key": "PreventRockDrakeMating",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Rock Drake",
+      "es": {
+        "label": "El Rock Drake no se puede criar",
+        "description": "Saca la reproducción de Rock Drakes que agrega KBD."
+      },
+      "en": {
+        "label": "Prevent Rock Drake Mating",
+        "description": "Setting to True will prevent Rock Drakes from being able to breed"
+      }
+    },
+    {
+      "key": "PreventBetterGolem",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Rock Golem",
+      "es": {
+        "label": "Desactivar las mejoras de KBD en Rock Golem",
+        "description": "Activado, KBD no le agrega su buff a Rock Golem: la criatura queda exactamente como en el juego base. El resto de la mod sigue funcionando."
+      },
+      "en": {
+        "label": "Prevent Better Golem",
+        "description": "Setting to True will prevent the KBD Buff from being added"
+      }
+    },
+    {
+      "key": "PreventBetterRollRat",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Roll Rat",
+      "es": {
+        "label": "El Roll Rat sin giro mejorado",
+        "description": "Saca la mejora en la velocidad de rotación del Roll Rat. El buff no se saca del todo, porque hace falta para las mejoras del asiento de pasajero."
+      },
+      "en": {
+        "label": "Prevent Better Roll Rat",
+        "description": "Setting to True will prevent the improved Rotation Rates, will not remove the buff entirely as it's needed for passenger seat improvements"
+      }
+    },
+    {
+      "key": "PreventBetterSaber",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Sabretooth",
+      "es": {
+        "label": "Desactivar las mejoras de KBD en Sabretooth",
+        "description": "Activado, KBD no le agrega su buff a Sabretooth: la criatura queda exactamente como en el juego base. El resto de la mod sigue funcionando."
+      },
+      "en": {
+        "label": "Prevent Better Saber",
+        "description": "Setting to True will prevent the KBD Buff from being added"
+      }
+    },
+    {
+      "key": "PreventSaberAntiPack",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Sabretooth",
+      "es": {
+        "label": "El Sable sin bonus contra manadas",
+        "description": "Saca el daño extra que el Sabretooth recibe contra criaturas de manada o de banda."
+      },
+      "en": {
+        "label": "Prevent Saber Anti Pack",
+        "description": "Setting to True will prevent the Saber from receiving its anti-pack damage boosts"
+      }
+    },
+    {
+      "key": "SaberDamageBonusAmount",
+      "kind": "float_multiplier",
+      "default": 0.35,
+      "min": 0,
+      "max": 5,
+      "step": 0.05,
+      "presets": [
+        0.15,
+        0.35,
+        0.5,
+        1
+      ],
+      "tier": "expert",
+      "_group": "Sabretooth",
+      "es": {
+        "label": "Bonus de daño del Sable contra manadas",
+        "description": "Cuánto daño extra hace el Sabretooth contra criaturas de manada o de banda, por cada condición que se cumple. El default es 0.35."
+      },
+      "en": {
+        "label": "Saber Damage Bonus Amount",
+        "description": "Defaults to 0.35, this sets the amount of bonus damage done by sabers vs. Pack/Gang Dinos for each bonus damage condition"
+      }
+    },
+    {
+      "key": "PreventBetterSalmon",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Sabertooth Salmon",
+      "es": {
+        "label": "Desactivar el Sabertooth Salmon de KBD",
+        "description": "Activado, el Sabertooth Salmon de KBD deja de aparecer y los salvajes vuelven a ser los del juego base. ⚠️ Los que ya tengas domados se DESTRUYEN: es un cambio con pérdida, no lo actives en un servidor en curso sin avisar."
+      },
+      "en": {
+        "label": "Prevent Better Salmon",
+        "description": "Setting to True will prevent the Better Salmon from spawning and revert all existing ones back to vanilla, already tamed ones will be destroyed"
+      }
+    },
+    {
+      "key": "PreventSalmonMating",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Sabertooth Salmon",
+      "es": {
+        "label": "El Salmón no se puede criar",
+        "description": "Saca la reproducción de Salmones que agrega KBD."
+      },
+      "en": {
+        "label": "Prevent Salmon Mating",
+        "description": "Setting to True will prevent the Salmon from being able to breed"
+      }
+    },
+    {
+      "key": "PreventSalmonExtraHarvest",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Sabertooth Salmon",
+      "es": {
+        "label": "La cosecha del Salmón no escala con la vida",
+        "description": "El Salmón domado deja de cosechar más según su vida. Recomendado en servidores de tasas altas, donde salmones con vida enorme cosechando en masa pueden generar lag severo."
+      },
+      "en": {
+        "label": "Prevent Salmon Extra Harvest",
+        "description": "Setting to True will will prevent tamed Salmon harvesting scaling up with health. Recommended for high rate servers for whom mass high health salmon harvesting may cause extreme lag issues"
+      }
+    },
+    {
+      "key": "PreventBetterSpino",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Spinosaurus",
+      "es": {
+        "label": "Desactivar las mejoras de KBD en Spinosaurus",
+        "description": "Activado, KBD no le agrega su buff a Spinosaurus: la criatura queda exactamente como en el juego base. El resto de la mod sigue funcionando."
+      },
+      "en": {
+        "label": "Prevent Better Spino",
+        "description": "Setting to True will prevent the KBD Buff from being added"
+      }
+    },
+    {
+      "key": "PreventSpinoPitch",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Spinosaurus",
+      "es": {
+        "label": "El Spino no se inclina nadando",
+        "description": "Saca la inclinación del Spinosaurus mientras nada."
+      },
+      "en": {
+        "label": "Prevent Spino Pitch",
+        "description": "Setting to True will prevent the prevent the Spino from pitching whilst swimming"
+      }
+    },
+    {
+      "key": "PreventSpinoNewAnims",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Spinosaurus",
+      "es": {
+        "label": "El Spino con las animaciones originales",
+        "description": "El Spinosaurus deja de usar las animaciones nuevas de nado y de carrera que agrega KBD."
+      },
+      "en": {
+        "label": "Prevent Spino New Anims",
+        "description": "Setting to True will prevent the Spino using the new swimming and running animation"
+      }
+    },
+    {
+      "key": "PreventSpinoOldRun",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Spinosaurus",
+      "es": {
+        "label": "El Spino sin la animación vieja de carrera",
+        "description": "El Spinosaurus deja de usar la animación vieja de carrera."
+      },
+      "en": {
+        "label": "Prevent Spino Old Run",
+        "description": "Setting to True will prevent the Spino using the old running animation"
+      }
+    },
+    {
+      "key": "PreventSpinoNewSwim",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Spinosaurus",
+      "es": {
+        "label": "El Spino sin la animación nueva de nado",
+        "description": "El Spinosaurus deja de usar la animación nueva de nado."
+      },
+      "en": {
+        "label": "Prevent Spino New Swim",
+        "description": "Setting to True will prevent the Spino using the new swimming animation"
+      }
+    },
+    {
+      "key": "PreventSpinoNoTarget",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Spinosaurus",
+      "es": {
+        "label": "El Spino vuelve a ser blanco de todos",
+        "description": "Deshace el cambio de KBD y hace que todas las criaturas salvajes vuelvan a atacar al Spinosaurus."
+      },
+      "en": {
+        "label": "Prevent Spino No Target",
+        "description": "Setting to True will make the Spino targeted by all wild creatures again"
+      }
+    },
+    {
+      "key": "PreventBetterStego",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Stegosaurus",
+      "es": {
+        "label": "Desactivar las mejoras de KBD en Stegosaurus",
+        "description": "Activado, KBD no le agrega su buff a Stegosaurus: la criatura queda exactamente como en el juego base. El resto de la mod sigue funcionando."
+      },
+      "en": {
+        "label": "Prevent Better Stego",
+        "description": "Setting to True will prevent the KBD Buff from being added"
+      }
+    },
+    {
+      "key": "PreventStegoGallop",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Stegosaurus",
+      "es": {
+        "label": "El Stego sin galope",
+        "description": "Saca la animación de carrera mejorada que KBD le da al Stegosaurus."
+      },
+      "en": {
+        "label": "Prevent Stego Gallop",
+        "description": "Setting to True will prevent the Stego from receiving the new improved running animation"
+      }
+    },
+    {
+      "key": "PreventTapejaraPitching",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Tapejara",
+      "es": {
+        "label": "El Tapejara no puede inclinarse",
+        "description": "Saca la inclinación hacia arriba y abajo del Tapejara en vuelo."
+      },
+      "en": {
+        "label": "Prevent Tapejara Pitching",
+        "description": "Setting to True will prevent the Tapejara from pitching up and down when flying"
+      }
+    },
+    {
+      "key": "PreventBetterBoa",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Titanoboa",
+      "es": {
+        "label": "Desactivar el Titanoboa de KBD",
+        "description": "Activado, el Titanoboa de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Boa",
+        "description": "Setting to True will prevent the Better Titanoboa from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventBoaTurretMode",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Titanoboa",
+      "es": {
+        "label": "La Boa sin modo torreta",
+        "description": "Saca el modo torreta y el ataque de escupida nuevo de la Titanoboa."
+      },
+      "en": {
+        "label": "Prevent Boa Turret Mode",
+        "description": "Setting to True will prevent the Boa from using turret mode and the new spit attack"
+      }
+    },
+    {
+      "key": "PreventBoaGenders",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Titanoboa",
+      "es": {
+        "label": "La Boa sin géneros",
+        "description": "Saca los géneros que KBD le agrega a la Titanoboa. Sin géneros no hay cría."
+      },
+      "en": {
+        "label": "Prevent Boa Genders",
+        "description": "Setting to True will prevent the Boa from gaining genders"
+      }
+    },
+    {
+      "key": "PreventBoaNoFrills",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Titanoboa",
+      "es": {
+        "label": "Solo los machos de Boa tienen capucha",
+        "description": "Devuelve la capucha a los machos únicamente, como antes del cambio de KBD."
+      },
+      "en": {
+        "label": "Prevent Boa No Frills",
+        "description": "Setting to True will return the frills to male Boas only"
+      }
+    },
+    {
+      "key": "PreventBoaVenomHarvest",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Titanoboa",
+      "es": {
+        "label": "La Boa no da veneno",
+        "description": "Saca la cosecha de Veneno de Boa de las Titanoboas domadas."
+      },
+      "en": {
+        "label": "Prevent Boa Venom Harvest",
+        "description": "Setting to True will prevent the harvesting of Boa Venom from tamed Boas"
+      }
+    },
+    {
+      "key": "PreventBoaRandomSizes",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Titanoboa",
+      "es": {
+        "label": "Boas sin tamaños aleatorios",
+        "description": "Las Titanoboas dejan de aparecer con tamaños variables."
+      },
+      "en": {
+        "label": "Prevent Boa Random Sizes",
+        "description": "Setting to True will prevent Boas from gaining random sizes"
+      }
+    },
+    {
+      "key": "PreventBetterTrike",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Triceratops",
+      "es": {
+        "label": "Desactivar el Triceratops de KBD",
+        "description": "Activado, el Triceratops de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Trike",
+        "description": "Setting to True will prevent the Better Trike from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventTrikeGlowingBuff",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Triceratops",
+      "es": {
+        "label": "El Trike sin volante brillante",
+        "description": "Saca el efecto de brillo en el volante del Trike que marca al líder de manada."
+      },
+      "en": {
+        "label": "Prevent Trike Glowing Buff",
+        "description": "Setting to True will remove the glowing frill effects of the Trike pack leader buff"
+      }
+    },
+    {
+      "key": "PreventBetterTrilobite",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Trilobite",
+      "es": {
+        "label": "Desactivar el Trilobite de KBD",
+        "description": "Activado, el Trilobite de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Trilobite",
+        "description": "Setting to True will prevent the Better Trilobite from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventTrilobiteProduction",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Trilobite",
+      "es": {
+        "label": "El Trilobite no produce pasivamente",
+        "description": "Saca la producción pasiva de objetos del Trilobite."
+      },
+      "en": {
+        "label": "Prevent Trilobite Production",
+        "description": "Setting to True will prevent Trilobites passively producing items"
+      }
+    },
+    {
+      "key": "PreventBetterTropeo",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Tropeognathus",
+      "es": {
+        "label": "Desactivar el Tropeognathus de KBD",
+        "description": "Activado, el Tropeognathus de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Tropeo",
+        "description": "Setting to True will prevent the Better Tropeo from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventTropeNoBoostShoot",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Tropeognathus",
+      "es": {
+        "label": "El Tropeo solo dispara con impulso",
+        "description": "Deshace el cambio de KBD: el Tropeognathus vuelve a no poder disparar si no está usando el impulso."
+      },
+      "en": {
+        "label": "Prevent Trope No Boost Shoot",
+        "description": "Setting to True will prevent the Better Tropeo from being able to shoot when not boosting"
+      }
+    },
+    {
+      "key": "PreventTusoNoTarget",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Tusoteuthis",
+      "es": {
+        "label": "El Tuso vuelve a ser blanco de todos",
+        "description": "Deshace el cambio de KBD y hace que todas las criaturas salvajes vuelvan a atacar al Tusoteuthis."
+      },
+      "en": {
+        "label": "Prevent Tuso No Target",
+        "description": "Setting to True will make the Tuso targeted by all wild creatures again"
+      }
+    },
+    {
+      "key": "PreventBetterUnicorn",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Unicorn",
+      "es": {
+        "label": "Desactivar el Unicorn de KBD",
+        "description": "Activado, el Unicorn de KBD deja de aparecer y los que ya existan vuelven a ser los del juego base."
+      },
+      "en": {
+        "label": "Prevent Better Unicorn",
+        "description": "Setting to True will prevent the Better Unicorn from spawning and revert all existing ones back to vanilla"
+      }
+    },
+    {
+      "key": "PreventPegasus",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Unicorn",
+      "es": {
+        "label": "El Unicornio no se transforma en Pegaso",
+        "description": "Saca la transformación en Pegaso del Unicornio mejorado. Solo le quita la capacidad de volar: sigue dando su buff mágico a los aliados."
+      },
+      "en": {
+        "label": "Prevent Pegasus",
+        "description": "Setting to True will prevent the Better Unicorn from being able to transform into a Pegasus. This only prevents the Unicorn from being able to fly, it will still be able to provide its magical buff to allies"
+      }
+    },
+    {
+      "key": "PreventTamedWyvernMilk",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Wyverns",
+      "es": {
+        "label": "Las Wyverns domadas no se ordeñan",
+        "description": "Saca la producción de Leche de Wyvern de las hembras domadas."
+      },
+      "en": {
+        "label": "Prevent Tamed Wyvern Milk",
+        "description": "Setting to True will prevent female Wyverns from being able to be milked"
+      }
+    },
+    {
+      "key": "PreventTamedWyvernCrystal",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Wyverns",
+      "es": {
+        "label": "Las Crystal Wyvern domadas no dan Cristal Primigenio",
+        "description": "Saca la cosecha de Cristal Primigenio de las hembras domadas de Crystal Wyvern."
+      },
+      "en": {
+        "label": "Prevent Tamed Wyvern Crystal",
+        "description": "Setting to True will prevent female Crystal Wyverns from being able to be harvested for Primal Crystal"
+      }
+    },
+    {
+      "key": "PreventWyvernMating",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Wyverns",
+      "es": {
+        "label": "Las Wyverns no se pueden criar",
+        "description": "Saca la reproducción de Wyverns que agrega KBD."
+      },
+      "en": {
+        "label": "Prevent Wyvern Mating",
+        "description": "Setting to True will prevent Wyverns from being breedable"
+      }
+    },
+    {
+      "key": "PreventCrystalWyvernMating",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Wyverns",
+      "es": {
+        "label": "Las Crystal Wyvern no se pueden criar",
+        "description": "Saca la reproducción de Crystal Wyverns que agrega KBD."
+      },
+      "en": {
+        "label": "Prevent Crystal Wyvern Mating",
+        "description": "Setting to True will prevent Crystal Wyverns from being breedable"
+      }
+    },
+    {
+      "key": "WyvernMilkInterval",
+      "kind": "integer",
+      "default": 7200,
+      "min": 60,
+      "max": 86400,
+      "step": 60,
+      "tier": "expert",
+      "_group": "Wyverns",
+      "es": {
+        "label": "Intervalo de leche de Wyvern",
+        "description": "Segundos entre cosechas de Leche de Wyvern, Cristal Primigenio y Fragmentos de Elemento en las hembras domadas. El default de 7200 son 120 minutos (2 horas)."
+      },
+      "en": {
+        "label": "Wyvern Milk Interval",
+        "description": "Amount of seconds between Wyvern Milk, Primal Crystal, and Element Shard harvesting of tamed female Wyverns, the default of 7200 equals 120 minutes (2 hours)"
+      }
+    },
+    {
+      "key": "PreventBetterYuty",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "Yutyrannus",
+      "es": {
+        "label": "Desactivar las mejoras de KBD en Yutyrannus",
+        "description": "Activado, KBD no le agrega su buff a Yutyrannus: la criatura queda exactamente como en el juego base. El resto de la mod sigue funcionando."
+      },
+      "en": {
+        "label": "Prevent Better Yuty",
+        "description": "Setting to True will prevent the KBD Buff from being added"
+      }
+    },
+    {
+      "key": "PreventYutyAttackChanges",
+      "kind": "boolean",
+      "default": false,
+      "tier": "expert",
+      "_group": "Yutyrannus",
+      "es": {
+        "label": "El Yuty con sus animaciones de ataque originales",
+        "description": "Deshace los cambios de KBD a las animaciones de ataque del Yutyrannus."
+      },
+      "en": {
+        "label": "Prevent Yuty Attack Changes",
+        "description": "Setting to True will prevent the Yutys attack animations being altered"
+      }
+    },
+    {
+      "key": "AllowFlyerSpeed",
+      "kind": "boolean",
+      "default": false,
+      "tier": "basic",
+      "_group": "KBD Special Features",
+      "_source": "«This ability is not enabled by default and must be enabled using the .Ini option AllowFlyerSpeed=True» (sección KBD Special Features).",
+      "es": {
+        "label": "Permitir subir velocidad a los voladores",
+        "description": "Habilita el sistema de voladores veloces de KBD. Con esto prendido, cada volador se convierte a mano desde su menú radial («Convert to Speed Flyer») y recién ahí puede subir velocidad, +2% por punto. La conversión es reversible y devuelve los puntos gastados. No es lo mismo que el ajuste del juego base, que da +1% y aplica a todos los voladores sin convertir nada."
+      },
+      "en": {
+        "label": "Allow Flyer Speed",
+        "description": "Enables KBD's speed flyer system. Flyers must then be converted individually from their radial menu ('Convert to Speed Flyer') before they can level speed, gaining 2% per point. The conversion is reversible and refunds spent points."
+      }
+    },
+    {
+      "key": "RandomAberrants",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "KBD Special Features",
+      "_source": "«…or with a 10% chance of replacing KBD Ammonites on any map if using the RandomAberrants=True or RandomAberrantsBDOnly=True .Ini options» (repetido en las fichas de Ammonite, Dilo, Eurypterid, Lymantria, Megaloceros, Oviraptor, Pachyrhino y Unicorn).",
+      "es": {
+        "label": "Aberrantes aleatorios en cualquier mapa",
+        "description": "Da un 10% de probabilidad de que aparezca la versión aberrante de las criaturas que la tienen, en cualquier mapa y no solo en Aberration."
+      },
+      "en": {
+        "label": "Random Aberrants",
+        "description": "Gives a 10% chance for aberrant versions to spawn on any map, not just Aberration."
+      }
+    },
+    {
+      "key": "RandomAberrantsBDOnly",
+      "kind": "boolean",
+      "default": false,
+      "tier": "advanced",
+      "_group": "KBD Special Features",
+      "_source": "Misma cita que RandomAberrants.",
+      "es": {
+        "label": "Aberrantes aleatorios, solo los de KBD",
+        "description": "Igual que «Aberrantes aleatorios en cualquier mapa», pero limitado a las criaturas de KBD: las del juego base siguen apareciendo solo donde corresponde."
+      },
+      "en": {
+        "label": "Random Aberrants (KBD only)",
+        "description": "Same as Random Aberrants, but limited to KBD's own creatures — vanilla ones keep their normal spawn rules."
+      }
+    }
+  ],
+  "classNames": {
+    "dinos": [
+      {
+        "value": "BDAmmonite_Character_C",
+        "label": "Ammonite"
+      },
+      {
+        "value": "BDAmmonite_Character_Aberrant_C",
+        "label": "Aberrant Ammonite"
+      },
+      {
+        "value": "BDBionicAnkylo_Character_BP_C",
+        "label": "Tek Ankylosaurus"
+      },
+      {
+        "value": "SpiderS_Character_BP_C",
+        "label": "Araneo (Spider)"
+      },
+      {
+        "value": "SpiderS_Character_BP_Aberrant_C",
+        "label": "Araneo (Spider, Aberrant)"
+      },
+      {
+        "value": "Toad_Character_BP_C",
+        "label": "Beezlebufo"
+      },
+      {
+        "value": "Toad_Character_BP_Aberrant_C",
+        "label": "Beezlebufo (Aberrant)"
+      },
+      {
+        "value": "Sauropod_Character_BP_C",
+        "label": "Brontosaurus"
+      },
+      {
+        "value": "Sauropod_Character_BP_Rockwell_C",
+        "label": "Brontosaurus (Rockwell)"
+      },
+      {
+        "value": "BDCnidaria_Character_BP_C",
+        "label": "Cnidaria (Jellyfish)"
+      },
+      {
+        "value": "BDCnidaria_Character_BP_Aberrant_C",
+        "label": "Cnidaria (Jellyfish, Aberrant)"
+      },
+      {
+        "value": "BDCoel_Character_BP_C",
+        "label": "Coelacanth"
+      },
+      {
+        "value": "BDCoel_Character_BP_Aberrant_C",
+        "label": "Coelacanth (Aberrant)"
+      },
+      {
+        "value": "BDCoel_Character_BP_Ocean_C",
+        "label": "Coelacanth (Ocean)"
+      },
+      {
+        "value": "Compy_Character_BP_C",
+        "label": "Compsognathus (Compy)"
+      },
+      {
+        "value": "RockDrake_Character_BP_Corrupt_Egger_C",
+        "label": "Corrupted Rock Drakes and Wyverns (Corrupt, Egger)"
+      },
+      {
+        "value": "Wyvern_Character_BP_Fire_Corrupt_Egger_C",
+        "label": "Corrupted Rock Drakes and Wyverns (Fire, Corrupt, Egger)"
+      },
+      {
+        "value": "Deinonychus_Character_BP_C",
+        "label": "Deinonychus"
+      },
+      {
+        "value": "Dilo_Character_BP_C",
+        "label": "Dilophosaurus"
+      },
+      {
+        "value": "Dilo_Character_BP_Rockwell_C",
+        "label": "Dilophosaurus (Rockwell)"
+      },
+      {
+        "value": "Dilo_Character_BP_Aberrant_BD_C",
+        "label": "Dilophosaurus (Aberrant)"
+      },
+      {
+        "value": "Dilo_Character_BP_Paleo_BD_C",
+        "label": "Dilophosaurus (Paleo)"
+      },
+      {
+        "value": "Diplodocus_Character_BP_C",
+        "label": "Diplodocus"
+      },
+      {
+        "value": "Diplodocus_Character_BP_Aberrant_C",
+        "label": "Diplodocus (Aberrant)"
+      },
+      {
+        "value": "Doed_Character_BP_C",
+        "label": "Doedicurus"
+      },
+      {
+        "value": "Doed_Character_BP_Aberrant_C",
+        "label": "Doedicurus (Aberrant)"
+      },
+      {
+        "value": "DungBeetle_Character_BP_C",
+        "label": "Dung Beetle"
+      },
+      {
+        "value": "DungBeetle_Character_BP_Aberrant_C",
+        "label": "Dung Beetle (Aberrant)"
+      },
+      {
+        "value": "BDEuryp_Character_C",
+        "label": "Eurypterid"
+      },
+      {
+        "value": "BDEuryp_Character_Aberrant_C",
+        "label": "Aberrant Eurypterid"
+      },
+      {
+        "value": "Shapeshifter_Small_Character_BP_C",
+        "label": "Ferox"
+      },
+      {
+        "value": "Bigfoot_Character_BP_C",
+        "label": "Gigantopithicus (Bigfoot)"
+      },
+      {
+        "value": "Bigfoot_Character_BP_Aberrant_C",
+        "label": "Gigantopithicus (Bigfoot, Aberrant)"
+      },
+      {
+        "value": "BionicGigant_Character_BP_C",
+        "label": "Tek Giganotosaurus"
+      },
+      {
+        "value": "Griffin_Character_BP_C",
+        "label": "Griffin"
+      },
+      {
+        "value": "BDBionicGriffin_Character_BP_C",
+        "label": "Tek Griffin"
+      },
+      {
+        "value": "BionicGriffin_Character_BP_Vanilla_C",
+        "label": "Tek Griffin (Vanilla)"
+      },
+      {
+        "value": "Hesperornis_Character_BP_BDWild_C",
+        "label": "Wild Hesperornis"
+      },
+      {
+        "value": "Hyaenodon_Character_BP_C",
+        "label": "Hyaenodon"
+      },
+      {
+        "value": "Ichthyornis_Character_BP_BDWild_C",
+        "label": "Wild Ichthyornis"
+      },
+      {
+        "value": "Crab_Character_BP_C",
+        "label": "Karkinos (Crab)"
+      },
+      {
+        "value": "BDLeech_Character_C",
+        "label": "Lamprey and Leech"
+      },
+      {
+        "value": "BDLeech_Character_Diseased_C",
+        "label": "Lamprey and Leech (Diseased)"
+      },
+      {
+        "value": "BDLamprey_Character_C",
+        "label": "Lamprey and Leech"
+      },
+      {
+        "value": "Liop_Character_BP_C",
+        "label": "Liopleurodon"
+      },
+      {
+        "value": "Ocean_Liop_Character_BP_C",
+        "label": "Liopleurodon"
+      },
+      {
+        "value": "Moth_Character_BP_C",
+        "label": "Lymantria (Moth)"
+      },
+      {
+        "value": "Moth_Character_BP_Aberrant_BD_C",
+        "label": "Aberrant Lymantria"
+      },
+      {
+        "value": "Mammoth_Character_BP_C",
+        "label": "Mammoth"
+      },
+      {
+        "value": "Manta_Character_BP_C",
+        "label": "Manta"
+      },
+      {
+        "value": "Manta_Character_BP_Aberrant_C",
+        "label": "Manta (Aberrant)"
+      },
+      {
+        "value": "Stag_Character_BP_C",
+        "label": "Megaloceros (Deer)"
+      },
+      {
+        "value": "Stag_Character_BP_Aberrant_BD_C",
+        "label": "Aberrant Megaloceros"
+      },
+      {
+        "value": "BDDragonfly_Character_BP_C",
+        "label": "Meganeura (Dragonfly)"
+      },
+      {
+        "value": "BDDragonfly_Character_BP_Aberrant_C",
+        "label": "Meganeura (Dragonfly, Aberrant)"
+      },
+      {
+        "value": "BionicMosa_Character_BP_C",
+        "label": "Tek Mosasaur"
+      },
+      {
+        "value": "Oviraptor_Character_BP_C",
+        "label": "Oviraptor"
+      },
+      {
+        "value": "Oviraptor_Character_BP_Aberrant_BD_C",
+        "label": "Aberrant Oviraptor"
+      },
+      {
+        "value": "Pachy_Character_BP_C",
+        "label": "Pachycephalosaurus"
+      },
+      {
+        "value": "Pachyrhino_Character_BP_C",
+        "label": "Pachyrhinosaurus"
+      },
+      {
+        "value": "Pachyrhino_Character_BP_Rockwell_C",
+        "label": "Pachyrhinosaurus (Rockwell)"
+      },
+      {
+        "value": "Pachyrhino_Character_BP_Rockwell_Vanilla_C",
+        "label": "Pachyrhinosaurus (Rockwell, Vanilla)"
+      },
+      {
+        "value": "Pachyrhino_Character_BP_Aberrant_BD_C",
+        "label": "Pachyrhinosaurus (Aberrant)"
+      },
+      {
+        "value": "Pegomastax_Character_BP_C",
+        "label": "Pegomastax"
+      },
+      {
+        "value": "BDPiranha_Character_BP_C",
+        "label": "Piranha"
+      },
+      {
+        "value": "BDPiranha_Character_BP_Aberrant_C",
+        "label": "Piranha (Aberrant)"
+      },
+      {
+        "value": "Scorpion_Character_BP_C",
+        "label": "Pulmonoscorpius"
+      },
+      {
+        "value": "Scorpion_Character_BP_Aberrant_C",
+        "label": "Pulmonoscorpius (Aberrant)"
+      },
+      {
+        "value": "Purlovia_Character_BP_C",
+        "label": "Purlovia"
+      },
+      {
+        "value": "Purlovia_Character_BP_Aberrant_C",
+        "label": "Purlovia (Aberrant)"
+      },
+      {
+        "value": "ReindeerBD_Character_BP_C",
+        "label": "Reindeer"
+      },
+      {
+        "value": "BDSalmon_Character_C",
+        "label": "Sabertooth Salmon"
+      },
+      {
+        "value": "BDSalmon_Character_Aberrant_C",
+        "label": "Sabertooth Salmon (Aberrant)"
+      },
+      {
+        "value": "BDSalmon_Character_Lunar_C",
+        "label": "Sabertooth Salmon (Lunar)"
+      },
+      {
+        "value": "BDSalmon_Character_Lunar_Rare_C",
+        "label": "Sabertooth Salmon (Lunar, Rare)"
+      },
+      {
+        "value": "BDStygi_Character_BP_C",
+        "label": "Stygimoloch"
+      },
+      {
+        "value": "BDStygi_Character_BP_Aberrant_C",
+        "label": "Stygimoloch (Aberrant)"
+      },
+      {
+        "value": "BDStyrac_Character_BP_C",
+        "label": "Styracosaurus"
+      },
+      {
+        "value": "BDStyrac_Character_BP_Aberrant_C",
+        "label": "Styracosaurus (Aberrant)"
+      },
+      {
+        "value": "BoaFrill_Character_BP_C",
+        "label": "Titanoboa"
+      },
+      {
+        "value": "BoaFrill_Character_BP_Aberrant_C",
+        "label": "Titanoboa (Aberrant)"
+      },
+      {
+        "value": "Trike_Character_BP_C",
+        "label": "Triceratops"
+      },
+      {
+        "value": "Trike_Character_BP_Aberrant_C",
+        "label": "Triceratops (Aberrant)"
+      },
+      {
+        "value": "Volcano_Trike_Character_BP_C",
+        "label": "Triceratops"
+      },
+      {
+        "value": "Trike_Character_BP_Paleo_BD_C",
+        "label": "Triceratops (Paleo)"
+      },
+      {
+        "value": "BDBionicTrike_Character_BP_C",
+        "label": "Tek Triceratops"
+      },
+      {
+        "value": "BDTrilobite_Character_C",
+        "label": "Trilobite"
+      },
+      {
+        "value": "BDTrilobite_Character_Aberrant_C",
+        "label": "Trilobite (Aberrant)"
+      },
+      {
+        "value": "Tropeognathus_Character_BP_C",
+        "label": "Tropeognathus"
+      },
+      {
+        "value": "Equus_Character_BP_Unicorn_C",
+        "label": "Unicorn"
+      },
+      {
+        "value": "Equus_Character_BP_Unicorn_Eden_C",
+        "label": "Unicorn (Eden)"
+      },
+      {
+        "value": "Equus_Character_BP_Unicorn_Aberrant_C",
+        "label": "Unicorn (Aberrant)"
+      }
+    ],
+    "items": [
+      {
+        "value": "/Game/Mods/BetterDinosTest/Dilo/Saddle/PrimalItemArmor_DiloSaddle.PrimalItemArmor_DiloSaddle",
+        "label": "Dilophosaurus Saddle"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Diplo/PrimalItemArmor_DiplodocusSaddle3Seater.PrimalItemArmor_DiplodocusSaddle3Seater",
+        "label": "Diplodocus 3 Seater Saddle"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Direwolf/PrimalItemArmor_DireWolfSaddle.PrimalItemArmor_DireWolfSaddle",
+        "label": "Direwolf Saddle"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Enforcer/PrimalItemArmor_EnforcerSaddle.PrimalItemArmor_EnforcerSaddle",
+        "label": "Enforcer"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Apes/PrimalItemArmor_ApeSaddle.PrimalItemArmor_ApeSaddle",
+        "label": "Ape Armour"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Apes/Barrel/PrimalItemResource_Barrel.PrimalItemResource_Barrel",
+        "label": "Oil Barrels and Barrel o' Monkeys"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Apes/Barrel/PrimalItemResource_Barrel_Monkey.PrimalItemResource_Barrel_Monkey",
+        "label": "Oil Barrels and Barrel o' Monkeys"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Crab/PrimalItemArmor_CrabSaddle_Platform.PrimalItemArmor_CrabSaddle_Platform",
+        "label": "Karkinos Platform Saddle"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/BetterLiopleurodon/PrimalItemArmor_LiopSaddle.PrimalItemArmor_LiopSaddle",
+        "label": "Liopleurodon Saddle"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Mammoth/PlatformSaddle/PrimalItemArmor_MammothPlatformSaddle.PrimalItemArmor_MammothPlatformSaddle",
+        "label": "Mammoth Platform Saddle"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Pachyrhino/Saddle/PrimalItemArmor_PachyrhinoSaddle1Seater.PrimalItemArmor_PachyrhinoSaddle1Seater",
+        "label": "Pachyrhino Single Seater Saddle"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Purlovia/Saddle/PrimalItemArmor_PurloviaSaddle.PrimalItemArmor_PurloviaSaddle",
+        "label": "Purlovia Saddle"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/RollRat/PrimalItemArmor_RollRatStarterSaddle.PrimalItemArmor_RollRatStarterSaddle",
+        "label": "Roll Rat Starter Saddle"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Stygi/PrimalItemArmor_StygiSaddle.PrimalItemArmor_StygiSaddle",
+        "label": "Stygimoloch Saddle"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Styracosaurus/PrimalItemArmor_StyracSaddle.PrimalItemArmor_StyracSaddle",
+        "label": "Styracosaurus Saddle"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Trike/PlatformSaddle/PrimalItemArmor_TrikeSaddle_Platform.PrimalItemArmor_TrikeSaddle_Platform",
+        "label": "Trike Saddle"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Tropeo/PrimalItemArmor_TropeoPrimSaddle.PrimalItemArmor_TropeoPrimSaddle",
+        "label": "Tropeognathus"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_Saddle_Dilophosaurus_C",
+        "label": "Dilophosaurus Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Diplodocus3Seater_C",
+        "label": "Diplodocus 3 Seater Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Direwolf_C",
+        "label": "Direwolf Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Enforcer_C",
+        "label": "Enforcer"
+      },
+      {
+        "value": "EngramEntry_Saddle_ApeArmour_C",
+        "label": "Ape Armour"
+      },
+      {
+        "value": "EngramEntry_Saddle_CrabPlatform_C",
+        "label": "Karkinos Platform Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Liop_C",
+        "label": "Liopleurodon Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_MammothPlatform_C",
+        "label": "Mammoth Platform Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Pachyrhino1Seater_C",
+        "label": "Pachyrhino Single Seater Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Purlovia_C",
+        "label": "Purlovia Saddle"
+      },
+      {
+        "value": "EngramEntry_RollratStarterSaddle_C",
+        "label": "Roll Rat Starter Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Stygi_C",
+        "label": "Stygimoloch Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Styrac_C",
+        "label": "Styracosaurus Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_TrikePlatform_C",
+        "label": "Trike Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_TropeoPrimitive_C",
+        "label": "Tropeognathus"
+      }
+    ]
+  },
+  "_classnamesSource": {
+    "dinos": {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2071693170",
+      "fetchedAt": "2026-08-20",
+      "note": "Bloques 'Spawn Codes:' de la guia oficial. El classname sale del path del spawndino, que es la forma canonica; el rotulo es el encabezado que le puso el autor mas la variante del sufijo."
+    },
+    "items": {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2071693170",
+      "fetchedAt": "2026-08-20",
+      "note": "Blueprint paths de las sillas y objetos, publicados sueltos abajo del engrama de cada uno."
+    },
+    "engrams": {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2071693170",
+      "fetchedAt": "2026-08-20",
+      "note": "Los EngramEntry_*_C que la guia lista arriba del path de cada silla."
+    }
+  }
+}

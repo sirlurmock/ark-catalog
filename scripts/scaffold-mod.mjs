@@ -130,7 +130,15 @@ function runSpecMode(specPath) {
     // `default`): con el flag, el valor que eligió el usuario llega al .ini
     // sin importar cuál sea el default interno de la mod.
     const { key, kind, tier, es, en, section, alwaysEmit, ...rest } = s;
-    const control = { kind, ...rest };
+    // Los campos con guion bajo son notas para quien lee el spec (de que
+    // criatura es cada clave en Kraken's Better Dinos, de donde salio un
+    // default), no datos del catalogo. Misma regla que a nivel spec: lo que
+    // empieza con `_` no se publica. Sin esto se colarian dentro de `control`,
+    // que es donde cae todo el resto.
+    const control = { kind };
+    for (const [field, value] of Object.entries(rest)) {
+      if (!field.startsWith("_")) control[field] = value;
+    }
     // En un `enum` cada opción lleva su propia traducción. El spec las escribe
     // como `{ value, es, en }` y acá se convierten en `{ value, i18nKey }`,
     // que es lo que consume el control; los textos se emiten más abajo junto

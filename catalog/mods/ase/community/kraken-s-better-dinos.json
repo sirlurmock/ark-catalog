@@ -1,0 +1,5534 @@
+{
+  "modId": "BetterDinos",
+  "name": "Kraken's Better Dinos",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1565015734",
+  "searchAliases": [
+    "kbd",
+    "krakens",
+    "better dinos",
+    "dinos mejorados",
+    "bebes salvajes",
+    "huevos salvajes",
+    "voladores con velocidad"
+  ],
+  "settings": [
+    {
+      "id": "krakens_better_dinos_wild_babies",
+      "key": "WildBabies",
+      "category": "mod_krakens_better_dinos",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.wild_babies"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_angry_adults",
+      "key": "PreventAngryAdults",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_angry_adults"
+    },
+    {
+      "id": "krakens_better_dinos_wild_chance_of_baby",
+      "key": "WildChanceOfBaby",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.05,
+        "min": 0.01,
+        "max": 1,
+        "step": 0.01,
+        "presets": [
+          0.05,
+          0.1,
+          0.25,
+          0.5
+        ]
+      },
+      "i18nKey": "mods.krakens_better_dinos.wild_chance_of_baby"
+    },
+    {
+      "id": "krakens_better_dinos_passive_tame_baby_food_multi",
+      "key": "PassiveTameBabyFoodMulti",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 5,
+        "min": 0.1,
+        "max": 50,
+        "step": 0.5,
+        "presets": [
+          1,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.krakens_better_dinos.passive_tame_baby_food_multi"
+    },
+    {
+      "id": "krakens_better_dinos_wild_eggs",
+      "key": "WildEggs",
+      "category": "mod_krakens_better_dinos",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.wild_eggs"
+    },
+    {
+      "id": "krakens_better_dinos_wild_chance_of_egg",
+      "key": "WildChanceOfEgg",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 5,
+        "min": 1,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.krakens_better_dinos.wild_chance_of_egg"
+    },
+    {
+      "id": "krakens_better_dinos_untameable_adults",
+      "key": "UntameableAdults",
+      "category": "mod_krakens_better_dinos",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.untameable_adults"
+    },
+    {
+      "id": "krakens_better_dinos_passive_tame_babies",
+      "key": "PassiveTameBabies",
+      "category": "mod_krakens_better_dinos",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.passive_tame_babies"
+    },
+    {
+      "id": "krakens_better_dinos_wild_baby_blacklist",
+      "key": "WildBabyBlacklist",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "dino_name_tags"
+      },
+      "i18nKey": "mods.krakens_better_dinos.wild_baby_blacklist"
+    },
+    {
+      "id": "krakens_better_dinos_wild_eggs_blacklist",
+      "key": "WildEggsBlacklist",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "dino_name_tags"
+      },
+      "i18nKey": "mods.krakens_better_dinos.wild_eggs_blacklist"
+    },
+    {
+      "id": "krakens_better_dinos_passive_tame_baby_blacklist",
+      "key": "PassiveTameBabyBlacklist",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "dino_name_tags"
+      },
+      "i18nKey": "mods.krakens_better_dinos.passive_tame_baby_blacklist"
+    },
+    {
+      "id": "krakens_better_dinos_untameable_adult_blacklist",
+      "key": "UntameableAdultBlacklist",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "dino_name_tags"
+      },
+      "i18nKey": "mods.krakens_better_dinos.untameable_adult_blacklist"
+    },
+    {
+      "id": "krakens_better_dinos_wild_baby_whitelist",
+      "key": "WildBabyWhitelist",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "dino_name_tags"
+      },
+      "i18nKey": "mods.krakens_better_dinos.wild_baby_whitelist"
+    },
+    {
+      "id": "krakens_better_dinos_untameable_adult_whitelist",
+      "key": "UntameableAdultWhitelist",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "dino_name_tags"
+      },
+      "i18nKey": "mods.krakens_better_dinos.untameable_adult_whitelist"
+    },
+    {
+      "id": "krakens_better_dinos_passive_tame_baby_whitelist",
+      "key": "PassiveTameBabyWhitelist",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "dino_name_tags"
+      },
+      "i18nKey": "mods.krakens_better_dinos.passive_tame_baby_whitelist"
+    },
+    {
+      "id": "krakens_better_dinos_wild_eggs_whitelist",
+      "key": "WildEggsWhitelist",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [],
+        "suggestions": "dino_name_tags"
+      },
+      "i18nKey": "mods.krakens_better_dinos.wild_eggs_whitelist"
+    },
+    {
+      "id": "krakens_better_dinos_passive_tame_baby_min_level",
+      "key": "PassiveTameBabyMinLevel",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.krakens_better_dinos.passive_tame_baby_min_level"
+    },
+    {
+      "id": "krakens_better_dinos_buffs_include_source",
+      "key": "BuffsIncludeSource",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.krakens_better_dinos.buffs_include_source"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_snail",
+      "key": "PreventBetterSnail",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_snail"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_ammonite",
+      "key": "PreventBetterAmmonite",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_ammonite"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_random_ammonite_size",
+      "key": "PreventRandomAmmoniteSize",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_random_ammonite_size"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_angler_gel_harvest",
+      "key": "PreventAnglerGelHarvest",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_angler_gel_harvest"
+    },
+    {
+      "id": "krakens_better_dinos_angler_gel_interval",
+      "key": "AnglerGelInterval",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1800,
+        "min": 60,
+        "max": 86400,
+        "step": 60
+      },
+      "i18nKey": "mods.krakens_better_dinos.angler_gel_interval"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_allo",
+      "key": "PreventBetterAllo",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_allo"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_water_alpha_carrying",
+      "key": "PreventWaterAlphaCarrying",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_water_alpha_carrying"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_anky",
+      "key": "PreventBetterAnky",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_anky"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_anky_wander_harvest",
+      "key": "PreventAnkyWanderHarvest",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_anky_wander_harvest"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_anky_reflective_damage",
+      "key": "PreventAnkyReflectiveDamage",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_anky_reflective_damage"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_anky_damage_modifiers",
+      "key": "PreventAnkyDamageModifiers",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_anky_damage_modifiers"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_tough_hide",
+      "key": "PreventToughHide",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_tough_hide"
+    },
+    {
+      "id": "krakens_better_dinos_anky_max_gather_weight_limit",
+      "key": "AnkyMaxGatherWeightLimit",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.75,
+        "min": 0.05,
+        "max": 1,
+        "step": 0.05,
+        "presets": [
+          0.5,
+          0.75,
+          0.9,
+          1
+        ]
+      },
+      "i18nKey": "mods.krakens_better_dinos.anky_max_gather_weight_limit"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_tek_dinos",
+      "key": "PreventBetterTekDinos",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_tek_dinos"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_spider",
+      "key": "PreventBetterSpider",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_spider"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_spider_bola",
+      "key": "PreventSpiderBola",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_spider_bola"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_archa",
+      "key": "PreventBetterArcha",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_archa"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_wild_reins",
+      "key": "PreventWildReins",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_wild_reins"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_bary",
+      "key": "PreventBetterBary",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_bary"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_basilisk",
+      "key": "PreventBetterBasilisk",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_basilisk"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_basilisk_breeding",
+      "key": "PreventBasiliskBreeding",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_basilisk_breeding"
+    },
+    {
+      "id": "krakens_better_dinos_allow_basilisk_ik",
+      "key": "AllowBasiliskIK",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.allow_basilisk_ik"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_desert_basilisk",
+      "key": "PreventDesertBasilisk",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_desert_basilisk"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_basilo",
+      "key": "PreventBetterBasilo",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_basilo"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_toad",
+      "key": "PreventBetterToad",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_toad"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_bronto",
+      "key": "PreventBetterBronto",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_bronto"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_bronto_break_stone",
+      "key": "PreventBrontoBreakStone",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_bronto_break_stone"
+    },
+    {
+      "id": "krakens_better_dinos_bronto_stomp_harvest_multiplier",
+      "key": "BrontoStompHarvestMultiplier",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 10,
+        "step": 0.1,
+        "presets": [
+          0.5,
+          1,
+          2,
+          5
+        ]
+      },
+      "i18nKey": "mods.krakens_better_dinos.bronto_stomp_harvest_multiplier"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_turtle",
+      "key": "PreventBetterTurtle",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_turtle"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_carno",
+      "key": "PreventBetterCarno",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_carno"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_carno_step_damage",
+      "key": "PreventCarnoStepDamage",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_carno_step_damage"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_beaver",
+      "key": "PreventBetterBeaver",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_beaver"
+    },
+    {
+      "id": "krakens_better_dinos_beaver_max_gather_weight_limit",
+      "key": "BeaverMaxGatherWeightLimit",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.75,
+        "min": 0.05,
+        "max": 1,
+        "step": 0.05,
+        "presets": [
+          0.5,
+          0.75,
+          0.9,
+          1
+        ]
+      },
+      "i18nKey": "mods.krakens_better_dinos.beaver_max_gather_weight_limit"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_jellyfish",
+      "key": "PreventBetterJellyfish",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_jellyfish"
+    },
+    {
+      "id": "krakens_better_dinos_allow_jellyfish_orders",
+      "key": "AllowJellyfishOrders",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.allow_jellyfish_orders"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_jelly_random_sizes",
+      "key": "PreventJellyRandomSizes",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_jelly_random_sizes"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_jelly_taming",
+      "key": "PreventJellyTaming",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_jelly_taming"
+    },
+    {
+      "id": "krakens_better_dinos_jelly_harvest_interval",
+      "key": "JellyHarvestInterval",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1800,
+        "min": 60,
+        "max": 86400,
+        "step": 60
+      },
+      "i18nKey": "mods.krakens_better_dinos.jelly_harvest_interval"
+    },
+    {
+      "id": "krakens_better_dinos_jelly_max_harvest",
+      "key": "JellyMaxHarvest",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 200,
+        "min": 1,
+        "max": 5000,
+        "step": 10
+      },
+      "i18nKey": "mods.krakens_better_dinos.jelly_max_harvest"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_coel",
+      "key": "PreventBetterCoel",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_coel"
+    },
+    {
+      "id": "krakens_better_dinos_coel_loot_blacklist",
+      "key": "CoelLootBlacklist",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.krakens_better_dinos.coel_loot_blacklist"
+    },
+    {
+      "id": "krakens_better_dinos_coel_blacklist",
+      "key": "CoelBlacklist",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": [
+          "Sap",
+          "ChitinPaste",
+          "Silicon",
+          "Polymer",
+          "Ambergris",
+          "Charcoal",
+          "Metal",
+          "ArrowStone",
+          "ArrowTranq",
+          "CompoundBowArrow",
+          "TranqDart",
+          "Narcoberry",
+          "Stimberry",
+          "Mejoberry",
+          "Tintoberry",
+          "Amarberry",
+          "Azulberry",
+          "JellyVenom",
+          "LeechBlood",
+          "AmmoniteBlood",
+          "SquidOil",
+          "AnglerGel",
+          "Sulfur",
+          "Sand",
+          "Crystal",
+          "Obsidian",
+          "Clay",
+          "Substrate",
+          "Seed"
+        ]
+      },
+      "i18nKey": "mods.krakens_better_dinos.coel_blacklist"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_compy",
+      "key": "PreventBetterCompy",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_compy"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_compy_summons",
+      "key": "PreventCompySummons",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_compy_summons"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_corrupt_drake_eggs",
+      "key": "PreventCorruptDrakeEggs",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_corrupt_drake_eggs"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_corrupt_wyvern_eggs",
+      "key": "PreventCorruptWyvernEggs",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_corrupt_wyvern_eggs"
+    },
+    {
+      "id": "krakens_better_dinos_allow_corrupted_crystal_eggs",
+      "key": "AllowCorruptedCrystalEggs",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.allow_corrupted_crystal_eggs"
+    },
+    {
+      "id": "krakens_better_dinos_allow_corrupted_night_eggs",
+      "key": "AllowCorruptedNightEggs",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.allow_corrupted_night_eggs"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_swine_flesh",
+      "key": "PreventSwineFlesh",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_swine_flesh"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_deathworm",
+      "key": "PreventBetterDeathworm",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_deathworm"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_deinon",
+      "key": "PreventBetterDeinon",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_deinon"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_deinon_eggs_anywhere",
+      "key": "PreventDeinonEggsAnywhere",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_deinon_eggs_anywhere"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_deinon_extra_levels",
+      "key": "PreventDeinonExtraLevels",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_deinon_extra_levels"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_dilo",
+      "key": "PreventBetterDilo",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_dilo"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_big_dilos",
+      "key": "PreventBigDilos",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_big_dilos"
+    },
+    {
+      "id": "krakens_better_dinos_big_dilo_chance",
+      "key": "BigDiloChance",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.2,
+        "min": 0,
+        "max": 10,
+        "step": 0.05,
+        "presets": [
+          0.2,
+          0.5,
+          1,
+          2
+        ]
+      },
+      "i18nKey": "mods.krakens_better_dinos.big_dilo_chance"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_dimetrodon",
+      "key": "PreventBetterDimetrodon",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_dimetrodon"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_dimetrodon_overheat",
+      "key": "PreventDimetrodonOverheat",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_dimetrodon_overheat"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_diplo",
+      "key": "PreventBetterDiplo",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_diplo"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_diplo_tamed_stun",
+      "key": "PreventDiploTamedStun",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_diplo_tamed_stun"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_diplo_wild_attack",
+      "key": "PreventDiploWildAttack",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_diplo_wild_attack"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_doed",
+      "key": "PreventBetterDoed",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_doed"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_doed_engrams",
+      "key": "PreventDoedEngrams",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_doed_engrams"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_doed_crystal_harvest",
+      "key": "PreventDoedCrystalHarvest",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_doed_crystal_harvest"
+    },
+    {
+      "id": "krakens_better_dinos_doed_max_gather_weight_limit",
+      "key": "DoedMaxGatherWeightLimit",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.75,
+        "min": 0.05,
+        "max": 1,
+        "step": 0.05,
+        "presets": [
+          0.5,
+          0.75,
+          0.9,
+          1
+        ]
+      },
+      "i18nKey": "mods.krakens_better_dinos.doed_max_gather_weight_limit"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_beetle",
+      "key": "PreventBetterBeetle",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_beetle"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_beetle_poop_collection",
+      "key": "PreventBeetlePoopCollection",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_beetle_poop_collection"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_beetle_fertilizer_distribution",
+      "key": "PreventBeetleFertilizerDistribution",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_beetle_fertilizer_distribution"
+    },
+    {
+      "id": "krakens_better_dinos_beetle_poop_collection_range",
+      "key": "BeetlePoopCollectionRange",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 500,
+        "min": 100,
+        "max": 10000,
+        "step": 100
+      },
+      "i18nKey": "mods.krakens_better_dinos.beetle_poop_collection_range"
+    },
+    {
+      "id": "krakens_better_dinos_beetle_fertilizer_distribution_range",
+      "key": "BeetleFertilizerDistributionRange",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1000,
+        "min": 100,
+        "max": 10000,
+        "step": 100
+      },
+      "i18nKey": "mods.krakens_better_dinos.beetle_fertilizer_distribution_range"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_beetle_mating",
+      "key": "PreventBeetleMating",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_beetle_mating"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_dunk",
+      "key": "PreventBetterDunk",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_dunk"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_euryp",
+      "key": "PreventBetterEuryp",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_euryp"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_euryp_random_sizes",
+      "key": "PreventEurypRandomSizes",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_euryp_random_sizes"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_euryp_production",
+      "key": "PreventEurypProduction",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_euryp_production"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_euryp_riding",
+      "key": "PreventEurypRiding",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_euryp_riding"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_euryp_mating",
+      "key": "PreventEurypMating",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_euryp_mating"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_ferox",
+      "key": "PreventBetterFerox",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_ferox"
+    },
+    {
+      "id": "krakens_better_dinos_ferox_breeding_addiction_amount",
+      "key": "FeroxBreedingAddictionAmount",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.95,
+        "min": 0.05,
+        "max": 0.95,
+        "step": 0.05,
+        "presets": [
+          0.25,
+          0.5,
+          0.75,
+          0.95
+        ]
+      },
+      "i18nKey": "mods.krakens_better_dinos.ferox_breeding_addiction_amount"
+    },
+    {
+      "id": "krakens_better_dinos_allow_ferox_clean_breeding",
+      "key": "AllowFeroxCleanBreeding",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.allow_ferox_clean_breeding"
+    },
+    {
+      "id": "krakens_better_dinos_ferox_tame_use_multiplier",
+      "key": "FeroxTameUseMultiplier",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.ferox_tame_use_multiplier"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_ferox_stash",
+      "key": "PreventFeroxStash",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_ferox_stash"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_galli",
+      "key": "PreventBetterGalli",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_galli"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_bigfoot",
+      "key": "PreventBetterBigfoot",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_bigfoot"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_bigfoot_barrel_attacks",
+      "key": "PreventBigfootBarrelAttacks",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_bigfoot_barrel_attacks"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_bigfoot_crop_harvesting",
+      "key": "PreventBigfootCropHarvesting",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_bigfoot_crop_harvesting"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_bigfoot_weapons",
+      "key": "PreventBigfootWeapons",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_bigfoot_weapons"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_bigfoot_argent_carry",
+      "key": "PreventBigfootArgentCarry",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_bigfoot_argent_carry"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_griffin",
+      "key": "PreventBetterGriffin",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_griffin"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_griffin_genders",
+      "key": "PreventGriffinGenders",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_griffin_genders"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_griffin_mating",
+      "key": "PreventGriffinMating",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_griffin_mating"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_hyaena",
+      "key": "PreventBetterHyaena",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_hyaena"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_hyaena_random_sizes",
+      "key": "PreventHyaenaRandomSizes",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_hyaena_random_sizes"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_hyaena_riding",
+      "key": "PreventHyaenaRiding",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_hyaena_riding"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_crab",
+      "key": "PreventBetterCrab",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_crab"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_crab_mating",
+      "key": "PreventCrabMating",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_crab_mating"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_crab_flyer_grab",
+      "key": "PreventCrabFlyerGrab",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_crab_flyer_grab"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_platforms_in_boss_arena",
+      "key": "PreventPlatformsInBossArena",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_platforms_in_boss_arena"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_lamprey",
+      "key": "PreventBetterLamprey",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_lamprey"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_leech",
+      "key": "PreventBetterLeech",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_leech"
+    },
+    {
+      "id": "krakens_better_dinos_leech_blood_harvest_multiplier",
+      "key": "LeechBloodHarvestMultiplier",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1,
+        "min": 1,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.krakens_better_dinos.leech_blood_harvest_multiplier"
+    },
+    {
+      "id": "krakens_better_dinos_leech_diseased_bile_harvest_amount",
+      "key": "LeechDiseasedBileHarvestAmount",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1,
+        "min": 1,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.krakens_better_dinos.leech_diseased_bile_harvest_amount"
+    },
+    {
+      "id": "krakens_better_dinos_leech_blood_bag_multi",
+      "key": "LeechBloodBagMulti",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1,
+        "min": 1,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.krakens_better_dinos.leech_blood_bag_multi"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_leech_mating",
+      "key": "PreventLeechMating",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_leech_mating"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_lamprey_mating",
+      "key": "PreventLampreyMating",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_lamprey_mating"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_luck_potion",
+      "key": "PreventLuckPotion",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_luck_potion"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_moth",
+      "key": "PreventBetterMoth",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_moth"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_moth_melee",
+      "key": "PreventMothMelee",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_moth_melee"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_mammoth",
+      "key": "PreventBetterMammoth",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_mammoth"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_mammoth_beaver_damage",
+      "key": "PreventMammothBeaverDamage",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_mammoth_beaver_damage"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_mammoth_engrams",
+      "key": "PreventMammothEngrams",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_mammoth_engrams"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_mana_extra_breath_range",
+      "key": "PreventManaExtraBreathRange",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_mana_extra_breath_range"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_manta",
+      "key": "PreventBetterManta",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_manta"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_manta_kotame",
+      "key": "PreventMantaKOTame",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_manta_kotame"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_mantis",
+      "key": "PreventBetterMantis",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_mantis"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_mantis_weight_reduction",
+      "key": "PreventMantisWeightReduction",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_mantis_weight_reduction"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_meglania",
+      "key": "PreventBetterMeglania",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_meglania"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_deer",
+      "key": "PreventBetterDeer",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_deer"
+    },
+    {
+      "id": "krakens_better_dinos_allow_female_deer_attack",
+      "key": "AllowFemaleDeerAttack",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.allow_female_deer_attack"
+    },
+    {
+      "id": "krakens_better_dinos_vanilla_deer_attack",
+      "key": "VanillaDeerAttack",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.vanilla_deer_attack"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_deer_milk",
+      "key": "PreventDeerMilk",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_deer_milk"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_wild_deer_aggro",
+      "key": "PreventWildDeerAggro",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_wild_deer_aggro"
+    },
+    {
+      "id": "krakens_better_dinos_deer_milk_interval",
+      "key": "DeerMilkInterval",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1800,
+        "min": 60,
+        "max": 86400,
+        "step": 60
+      },
+      "i18nKey": "mods.krakens_better_dinos.deer_milk_interval"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_megalodon",
+      "key": "PreventBetterMegalodon",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_megalodon"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_megalodon_bleed",
+      "key": "PreventMegalodonBleed",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_megalodon_bleed"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_megalo",
+      "key": "PreventBetterMegalo",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_megalo"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_megalo_night_vision",
+      "key": "PreventMegaloNightVision",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_megalo_night_vision"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_megalo_no_aigrab",
+      "key": "PreventMegaloNoAIGrab",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_megalo_no_aigrab"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_megalo_daytime_changes",
+      "key": "PreventMegaloDaytimeChanges",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_megalo_daytime_changes"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_dragonfly",
+      "key": "PreventBetterDragonfly",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_dragonfly"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_dragonfly_breeding",
+      "key": "PreventDragonflyBreeding",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_dragonfly_breeding"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_mek",
+      "key": "PreventBetterMek",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_mek"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_morellatops",
+      "key": "PreventBetterMorellatops",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_morellatops"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_mosa_no_pitch",
+      "key": "PreventMosaNoPitch",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_mosa_no_pitch"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_mosa_no_target",
+      "key": "PreventMosaNoTarget",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_mosa_no_target"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_oviraptor",
+      "key": "PreventBetterOviraptor",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_oviraptor"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_oviraptor_egg_collection",
+      "key": "PreventOviraptorEggCollection",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_oviraptor_egg_collection"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_ovi_fertilized_egg_coll",
+      "key": "PreventOviFertilizedEggColl",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_ovi_fertilized_egg_coll"
+    },
+    {
+      "id": "krakens_better_dinos_ovi_nest_max_slots",
+      "key": "OviNestMaxSlots",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 50,
+        "min": 1,
+        "max": 300,
+        "step": 5
+      },
+      "i18nKey": "mods.krakens_better_dinos.ovi_nest_max_slots"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_sheep_milk",
+      "key": "PreventSheepMilk",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_sheep_milk"
+    },
+    {
+      "id": "krakens_better_dinos_sheep_milk_interval",
+      "key": "SheepMilkInterval",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1800,
+        "min": 60,
+        "max": 86400,
+        "step": 60
+      },
+      "i18nKey": "mods.krakens_better_dinos.sheep_milk_interval"
+    },
+    {
+      "id": "krakens_better_dinos_allow_un_nerfed_sheep_harvest",
+      "key": "AllowUnNerfedSheepHarvest",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.allow_un_nerfed_sheep_harvest"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_pachy",
+      "key": "PreventBetterPachy",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_pachy"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_pachyrhino",
+      "key": "PreventBetterPachyrhino",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_pachyrhino"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_pego",
+      "key": "PreventBetterPego",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_pego"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_pego_harvest_loot",
+      "key": "PreventPegoHarvestLoot",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_pego_harvest_loot"
+    },
+    {
+      "id": "krakens_better_dinos_pego_loot_blacklist",
+      "key": "PegoLootBlacklist",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.krakens_better_dinos.pego_loot_blacklist"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_phiomia",
+      "key": "PreventBetterPhiomia",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_phiomia"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_phiomia_milk",
+      "key": "PreventPhiomiaMilk",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_phiomia_milk"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_phiomia_harvest_veggies",
+      "key": "PreventPhiomiaHarvestVeggies",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_phiomia_harvest_veggies"
+    },
+    {
+      "id": "krakens_better_dinos_phiomia_milk_interval",
+      "key": "PhiomiaMilkInterval",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 2700,
+        "min": 60,
+        "max": 86400,
+        "step": 60
+      },
+      "i18nKey": "mods.krakens_better_dinos.phiomia_milk_interval"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_piranha",
+      "key": "PreventBetterPiranha",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_piranha"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_piranha_mating",
+      "key": "PreventPiranhaMating",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_piranha_mating"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_plesi_no_pitch",
+      "key": "PreventPlesiNoPitch",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_plesi_no_pitch"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_plesi_no_target",
+      "key": "PreventPlesiNoTarget",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_plesi_no_target"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_scorp",
+      "key": "PreventBetterScorp",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_scorp"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_scorp_venom",
+      "key": "PreventScorpVenom",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_scorp_venom"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_purlovia",
+      "key": "PreventBetterPurlovia",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_purlovia"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_quetz",
+      "key": "PreventBetterQuetz",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_quetz"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_quetz_changed_attack",
+      "key": "PreventQuetzChangedAttack",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_quetz_changed_attack"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_quetz_no_pitch",
+      "key": "PreventQuetzNoPitch",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_quetz_no_pitch"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_raptor",
+      "key": "PreventBetterRaptor",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_raptor"
+    },
+    {
+      "id": "krakens_better_dinos_allow_raptor_wild_pounce",
+      "key": "AllowRaptorWildPounce",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.allow_raptor_wild_pounce"
+    },
+    {
+      "id": "krakens_better_dinos_allow_mission_raptor_pounce",
+      "key": "AllowMissionRaptorPounce",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.allow_mission_raptor_pounce"
+    },
+    {
+      "id": "krakens_better_dinos_allow_corrupted_raptor_pounce",
+      "key": "AllowCorruptedRaptorPounce",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.allow_corrupted_raptor_pounce"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_reaper_acid_blood",
+      "key": "PreventReaperAcidBlood",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_reaper_acid_blood"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_reindeer_gift_poop",
+      "key": "PreventReindeerGiftPoop",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_reindeer_gift_poop"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_reindeer_max_dino_nose",
+      "key": "PreventReindeerMaxDinoNose",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_reindeer_max_dino_nose"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_rex",
+      "key": "PreventBetterRex",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_rex"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_jprex_roars",
+      "key": "PreventJPRexRoars",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_jprex_roars"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_rock_drake_mating",
+      "key": "PreventRockDrakeMating",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_rock_drake_mating"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_golem",
+      "key": "PreventBetterGolem",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_golem"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_roll_rat",
+      "key": "PreventBetterRollRat",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_roll_rat"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_saber",
+      "key": "PreventBetterSaber",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_saber"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_saber_anti_pack",
+      "key": "PreventSaberAntiPack",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_saber_anti_pack"
+    },
+    {
+      "id": "krakens_better_dinos_saber_damage_bonus_amount",
+      "key": "SaberDamageBonusAmount",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0.35,
+        "min": 0,
+        "max": 5,
+        "step": 0.05,
+        "presets": [
+          0.15,
+          0.35,
+          0.5,
+          1
+        ]
+      },
+      "i18nKey": "mods.krakens_better_dinos.saber_damage_bonus_amount"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_salmon",
+      "key": "PreventBetterSalmon",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_salmon"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_salmon_mating",
+      "key": "PreventSalmonMating",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_salmon_mating"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_salmon_extra_harvest",
+      "key": "PreventSalmonExtraHarvest",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_salmon_extra_harvest"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_spino",
+      "key": "PreventBetterSpino",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_spino"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_spino_pitch",
+      "key": "PreventSpinoPitch",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_spino_pitch"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_spino_new_anims",
+      "key": "PreventSpinoNewAnims",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_spino_new_anims"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_spino_old_run",
+      "key": "PreventSpinoOldRun",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_spino_old_run"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_spino_new_swim",
+      "key": "PreventSpinoNewSwim",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_spino_new_swim"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_spino_no_target",
+      "key": "PreventSpinoNoTarget",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_spino_no_target"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_stego",
+      "key": "PreventBetterStego",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_stego"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_stego_gallop",
+      "key": "PreventStegoGallop",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_stego_gallop"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_tapejara_pitching",
+      "key": "PreventTapejaraPitching",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_tapejara_pitching"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_boa",
+      "key": "PreventBetterBoa",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_boa"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_boa_turret_mode",
+      "key": "PreventBoaTurretMode",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_boa_turret_mode"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_boa_genders",
+      "key": "PreventBoaGenders",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_boa_genders"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_boa_no_frills",
+      "key": "PreventBoaNoFrills",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_boa_no_frills"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_boa_venom_harvest",
+      "key": "PreventBoaVenomHarvest",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_boa_venom_harvest"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_boa_random_sizes",
+      "key": "PreventBoaRandomSizes",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_boa_random_sizes"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_trike",
+      "key": "PreventBetterTrike",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_trike"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_trike_glowing_buff",
+      "key": "PreventTrikeGlowingBuff",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_trike_glowing_buff"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_trilobite",
+      "key": "PreventBetterTrilobite",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_trilobite"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_trilobite_production",
+      "key": "PreventTrilobiteProduction",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_trilobite_production"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_tropeo",
+      "key": "PreventBetterTropeo",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_tropeo"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_trope_no_boost_shoot",
+      "key": "PreventTropeNoBoostShoot",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_trope_no_boost_shoot"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_tuso_no_target",
+      "key": "PreventTusoNoTarget",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_tuso_no_target"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_unicorn",
+      "key": "PreventBetterUnicorn",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_unicorn"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_pegasus",
+      "key": "PreventPegasus",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_pegasus"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_tamed_wyvern_milk",
+      "key": "PreventTamedWyvernMilk",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_tamed_wyvern_milk"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_tamed_wyvern_crystal",
+      "key": "PreventTamedWyvernCrystal",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_tamed_wyvern_crystal"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_wyvern_mating",
+      "key": "PreventWyvernMating",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_wyvern_mating"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_crystal_wyvern_mating",
+      "key": "PreventCrystalWyvernMating",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_crystal_wyvern_mating"
+    },
+    {
+      "id": "krakens_better_dinos_wyvern_milk_interval",
+      "key": "WyvernMilkInterval",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 7200,
+        "min": 60,
+        "max": 86400,
+        "step": 60
+      },
+      "i18nKey": "mods.krakens_better_dinos.wyvern_milk_interval"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_better_yuty",
+      "key": "PreventBetterYuty",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_better_yuty"
+    },
+    {
+      "id": "krakens_better_dinos_prevent_yuty_attack_changes",
+      "key": "PreventYutyAttackChanges",
+      "category": "mod_krakens_better_dinos",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.prevent_yuty_attack_changes"
+    },
+    {
+      "id": "krakens_better_dinos_allow_flyer_speed",
+      "key": "AllowFlyerSpeed",
+      "category": "mod_krakens_better_dinos",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.allow_flyer_speed"
+    },
+    {
+      "id": "krakens_better_dinos_random_aberrants",
+      "key": "RandomAberrants",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.random_aberrants"
+    },
+    {
+      "id": "krakens_better_dinos_random_aberrants_bdonly",
+      "key": "RandomAberrantsBDOnly",
+      "category": "mod_krakens_better_dinos",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "BetterDinos",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.krakens_better_dinos.random_aberrants_bdonly"
+    }
+  ],
+  "classNames": {
+    "dinos": [
+      {
+        "value": "BDAmmonite_Character_C",
+        "label": "Ammonite"
+      },
+      {
+        "value": "BDAmmonite_Character_Aberrant_C",
+        "label": "Aberrant Ammonite"
+      },
+      {
+        "value": "BDBionicAnkylo_Character_BP_C",
+        "label": "Tek Ankylosaurus"
+      },
+      {
+        "value": "SpiderS_Character_BP_C",
+        "label": "Araneo (Spider)"
+      },
+      {
+        "value": "SpiderS_Character_BP_Aberrant_C",
+        "label": "Araneo (Spider, Aberrant)"
+      },
+      {
+        "value": "Toad_Character_BP_C",
+        "label": "Beezlebufo"
+      },
+      {
+        "value": "Toad_Character_BP_Aberrant_C",
+        "label": "Beezlebufo (Aberrant)"
+      },
+      {
+        "value": "Sauropod_Character_BP_C",
+        "label": "Brontosaurus"
+      },
+      {
+        "value": "Sauropod_Character_BP_Rockwell_C",
+        "label": "Brontosaurus (Rockwell)"
+      },
+      {
+        "value": "BDCnidaria_Character_BP_C",
+        "label": "Cnidaria (Jellyfish)"
+      },
+      {
+        "value": "BDCnidaria_Character_BP_Aberrant_C",
+        "label": "Cnidaria (Jellyfish, Aberrant)"
+      },
+      {
+        "value": "BDCoel_Character_BP_C",
+        "label": "Coelacanth"
+      },
+      {
+        "value": "BDCoel_Character_BP_Aberrant_C",
+        "label": "Coelacanth (Aberrant)"
+      },
+      {
+        "value": "BDCoel_Character_BP_Ocean_C",
+        "label": "Coelacanth (Ocean)"
+      },
+      {
+        "value": "Compy_Character_BP_C",
+        "label": "Compsognathus (Compy)"
+      },
+      {
+        "value": "RockDrake_Character_BP_Corrupt_Egger_C",
+        "label": "Corrupted Rock Drakes and Wyverns (Corrupt, Egger)"
+      },
+      {
+        "value": "Wyvern_Character_BP_Fire_Corrupt_Egger_C",
+        "label": "Corrupted Rock Drakes and Wyverns (Fire, Corrupt, Egger)"
+      },
+      {
+        "value": "Deinonychus_Character_BP_C",
+        "label": "Deinonychus"
+      },
+      {
+        "value": "Dilo_Character_BP_C",
+        "label": "Dilophosaurus"
+      },
+      {
+        "value": "Dilo_Character_BP_Rockwell_C",
+        "label": "Dilophosaurus (Rockwell)"
+      },
+      {
+        "value": "Dilo_Character_BP_Aberrant_BD_C",
+        "label": "Dilophosaurus (Aberrant)"
+      },
+      {
+        "value": "Dilo_Character_BP_Paleo_BD_C",
+        "label": "Dilophosaurus (Paleo)"
+      },
+      {
+        "value": "Diplodocus_Character_BP_C",
+        "label": "Diplodocus"
+      },
+      {
+        "value": "Diplodocus_Character_BP_Aberrant_C",
+        "label": "Diplodocus (Aberrant)"
+      },
+      {
+        "value": "Doed_Character_BP_C",
+        "label": "Doedicurus"
+      },
+      {
+        "value": "Doed_Character_BP_Aberrant_C",
+        "label": "Doedicurus (Aberrant)"
+      },
+      {
+        "value": "DungBeetle_Character_BP_C",
+        "label": "Dung Beetle"
+      },
+      {
+        "value": "DungBeetle_Character_BP_Aberrant_C",
+        "label": "Dung Beetle (Aberrant)"
+      },
+      {
+        "value": "BDEuryp_Character_C",
+        "label": "Eurypterid"
+      },
+      {
+        "value": "BDEuryp_Character_Aberrant_C",
+        "label": "Aberrant Eurypterid"
+      },
+      {
+        "value": "Shapeshifter_Small_Character_BP_C",
+        "label": "Ferox"
+      },
+      {
+        "value": "Bigfoot_Character_BP_C",
+        "label": "Gigantopithicus (Bigfoot)"
+      },
+      {
+        "value": "Bigfoot_Character_BP_Aberrant_C",
+        "label": "Gigantopithicus (Bigfoot, Aberrant)"
+      },
+      {
+        "value": "BionicGigant_Character_BP_C",
+        "label": "Tek Giganotosaurus"
+      },
+      {
+        "value": "Griffin_Character_BP_C",
+        "label": "Griffin"
+      },
+      {
+        "value": "BDBionicGriffin_Character_BP_C",
+        "label": "Tek Griffin"
+      },
+      {
+        "value": "BionicGriffin_Character_BP_Vanilla_C",
+        "label": "Tek Griffin (Vanilla)"
+      },
+      {
+        "value": "Hesperornis_Character_BP_BDWild_C",
+        "label": "Wild Hesperornis"
+      },
+      {
+        "value": "Hyaenodon_Character_BP_C",
+        "label": "Hyaenodon"
+      },
+      {
+        "value": "Ichthyornis_Character_BP_BDWild_C",
+        "label": "Wild Ichthyornis"
+      },
+      {
+        "value": "Crab_Character_BP_C",
+        "label": "Karkinos (Crab)"
+      },
+      {
+        "value": "BDLeech_Character_C",
+        "label": "Lamprey and Leech"
+      },
+      {
+        "value": "BDLeech_Character_Diseased_C",
+        "label": "Lamprey and Leech (Diseased)"
+      },
+      {
+        "value": "BDLamprey_Character_C",
+        "label": "Lamprey and Leech"
+      },
+      {
+        "value": "Liop_Character_BP_C",
+        "label": "Liopleurodon"
+      },
+      {
+        "value": "Ocean_Liop_Character_BP_C",
+        "label": "Liopleurodon"
+      },
+      {
+        "value": "Moth_Character_BP_C",
+        "label": "Lymantria (Moth)"
+      },
+      {
+        "value": "Moth_Character_BP_Aberrant_BD_C",
+        "label": "Aberrant Lymantria"
+      },
+      {
+        "value": "Mammoth_Character_BP_C",
+        "label": "Mammoth"
+      },
+      {
+        "value": "Manta_Character_BP_C",
+        "label": "Manta"
+      },
+      {
+        "value": "Manta_Character_BP_Aberrant_C",
+        "label": "Manta (Aberrant)"
+      },
+      {
+        "value": "Stag_Character_BP_C",
+        "label": "Megaloceros (Deer)"
+      },
+      {
+        "value": "Stag_Character_BP_Aberrant_BD_C",
+        "label": "Aberrant Megaloceros"
+      },
+      {
+        "value": "BDDragonfly_Character_BP_C",
+        "label": "Meganeura (Dragonfly)"
+      },
+      {
+        "value": "BDDragonfly_Character_BP_Aberrant_C",
+        "label": "Meganeura (Dragonfly, Aberrant)"
+      },
+      {
+        "value": "BionicMosa_Character_BP_C",
+        "label": "Tek Mosasaur"
+      },
+      {
+        "value": "Oviraptor_Character_BP_C",
+        "label": "Oviraptor"
+      },
+      {
+        "value": "Oviraptor_Character_BP_Aberrant_BD_C",
+        "label": "Aberrant Oviraptor"
+      },
+      {
+        "value": "Pachy_Character_BP_C",
+        "label": "Pachycephalosaurus"
+      },
+      {
+        "value": "Pachyrhino_Character_BP_C",
+        "label": "Pachyrhinosaurus"
+      },
+      {
+        "value": "Pachyrhino_Character_BP_Rockwell_C",
+        "label": "Pachyrhinosaurus (Rockwell)"
+      },
+      {
+        "value": "Pachyrhino_Character_BP_Rockwell_Vanilla_C",
+        "label": "Pachyrhinosaurus (Rockwell, Vanilla)"
+      },
+      {
+        "value": "Pachyrhino_Character_BP_Aberrant_BD_C",
+        "label": "Pachyrhinosaurus (Aberrant)"
+      },
+      {
+        "value": "Pegomastax_Character_BP_C",
+        "label": "Pegomastax"
+      },
+      {
+        "value": "BDPiranha_Character_BP_C",
+        "label": "Piranha"
+      },
+      {
+        "value": "BDPiranha_Character_BP_Aberrant_C",
+        "label": "Piranha (Aberrant)"
+      },
+      {
+        "value": "Scorpion_Character_BP_C",
+        "label": "Pulmonoscorpius"
+      },
+      {
+        "value": "Scorpion_Character_BP_Aberrant_C",
+        "label": "Pulmonoscorpius (Aberrant)"
+      },
+      {
+        "value": "Purlovia_Character_BP_C",
+        "label": "Purlovia"
+      },
+      {
+        "value": "Purlovia_Character_BP_Aberrant_C",
+        "label": "Purlovia (Aberrant)"
+      },
+      {
+        "value": "ReindeerBD_Character_BP_C",
+        "label": "Reindeer"
+      },
+      {
+        "value": "BDSalmon_Character_C",
+        "label": "Sabertooth Salmon"
+      },
+      {
+        "value": "BDSalmon_Character_Aberrant_C",
+        "label": "Sabertooth Salmon (Aberrant)"
+      },
+      {
+        "value": "BDSalmon_Character_Lunar_C",
+        "label": "Sabertooth Salmon (Lunar)"
+      },
+      {
+        "value": "BDSalmon_Character_Lunar_Rare_C",
+        "label": "Sabertooth Salmon (Lunar, Rare)"
+      },
+      {
+        "value": "BDStygi_Character_BP_C",
+        "label": "Stygimoloch"
+      },
+      {
+        "value": "BDStygi_Character_BP_Aberrant_C",
+        "label": "Stygimoloch (Aberrant)"
+      },
+      {
+        "value": "BDStyrac_Character_BP_C",
+        "label": "Styracosaurus"
+      },
+      {
+        "value": "BDStyrac_Character_BP_Aberrant_C",
+        "label": "Styracosaurus (Aberrant)"
+      },
+      {
+        "value": "BoaFrill_Character_BP_C",
+        "label": "Titanoboa"
+      },
+      {
+        "value": "BoaFrill_Character_BP_Aberrant_C",
+        "label": "Titanoboa (Aberrant)"
+      },
+      {
+        "value": "Trike_Character_BP_C",
+        "label": "Triceratops"
+      },
+      {
+        "value": "Trike_Character_BP_Aberrant_C",
+        "label": "Triceratops (Aberrant)"
+      },
+      {
+        "value": "Volcano_Trike_Character_BP_C",
+        "label": "Triceratops"
+      },
+      {
+        "value": "Trike_Character_BP_Paleo_BD_C",
+        "label": "Triceratops (Paleo)"
+      },
+      {
+        "value": "BDBionicTrike_Character_BP_C",
+        "label": "Tek Triceratops"
+      },
+      {
+        "value": "BDTrilobite_Character_C",
+        "label": "Trilobite"
+      },
+      {
+        "value": "BDTrilobite_Character_Aberrant_C",
+        "label": "Trilobite (Aberrant)"
+      },
+      {
+        "value": "Tropeognathus_Character_BP_C",
+        "label": "Tropeognathus"
+      },
+      {
+        "value": "Equus_Character_BP_Unicorn_C",
+        "label": "Unicorn"
+      },
+      {
+        "value": "Equus_Character_BP_Unicorn_Eden_C",
+        "label": "Unicorn (Eden)"
+      },
+      {
+        "value": "Equus_Character_BP_Unicorn_Aberrant_C",
+        "label": "Unicorn (Aberrant)"
+      }
+    ],
+    "items": [
+      {
+        "value": "/Game/Mods/BetterDinosTest/Dilo/Saddle/PrimalItemArmor_DiloSaddle.PrimalItemArmor_DiloSaddle",
+        "label": "Dilophosaurus Saddle"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Diplo/PrimalItemArmor_DiplodocusSaddle3Seater.PrimalItemArmor_DiplodocusSaddle3Seater",
+        "label": "Diplodocus 3 Seater Saddle"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Direwolf/PrimalItemArmor_DireWolfSaddle.PrimalItemArmor_DireWolfSaddle",
+        "label": "Direwolf Saddle"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Enforcer/PrimalItemArmor_EnforcerSaddle.PrimalItemArmor_EnforcerSaddle",
+        "label": "Enforcer"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Apes/PrimalItemArmor_ApeSaddle.PrimalItemArmor_ApeSaddle",
+        "label": "Ape Armour"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Apes/Barrel/PrimalItemResource_Barrel.PrimalItemResource_Barrel",
+        "label": "Oil Barrels and Barrel o' Monkeys"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Apes/Barrel/PrimalItemResource_Barrel_Monkey.PrimalItemResource_Barrel_Monkey",
+        "label": "Oil Barrels and Barrel o' Monkeys"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Crab/PrimalItemArmor_CrabSaddle_Platform.PrimalItemArmor_CrabSaddle_Platform",
+        "label": "Karkinos Platform Saddle"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/BetterLiopleurodon/PrimalItemArmor_LiopSaddle.PrimalItemArmor_LiopSaddle",
+        "label": "Liopleurodon Saddle"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Mammoth/PlatformSaddle/PrimalItemArmor_MammothPlatformSaddle.PrimalItemArmor_MammothPlatformSaddle",
+        "label": "Mammoth Platform Saddle"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Pachyrhino/Saddle/PrimalItemArmor_PachyrhinoSaddle1Seater.PrimalItemArmor_PachyrhinoSaddle1Seater",
+        "label": "Pachyrhino Single Seater Saddle"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Purlovia/Saddle/PrimalItemArmor_PurloviaSaddle.PrimalItemArmor_PurloviaSaddle",
+        "label": "Purlovia Saddle"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/RollRat/PrimalItemArmor_RollRatStarterSaddle.PrimalItemArmor_RollRatStarterSaddle",
+        "label": "Roll Rat Starter Saddle"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Stygi/PrimalItemArmor_StygiSaddle.PrimalItemArmor_StygiSaddle",
+        "label": "Stygimoloch Saddle"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Styracosaurus/PrimalItemArmor_StyracSaddle.PrimalItemArmor_StyracSaddle",
+        "label": "Styracosaurus Saddle"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Trike/PlatformSaddle/PrimalItemArmor_TrikeSaddle_Platform.PrimalItemArmor_TrikeSaddle_Platform",
+        "label": "Trike Saddle"
+      },
+      {
+        "value": "/Game/Mods/BetterDinosTest/Tropeo/PrimalItemArmor_TropeoPrimSaddle.PrimalItemArmor_TropeoPrimSaddle",
+        "label": "Tropeognathus"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_Saddle_Dilophosaurus_C",
+        "label": "Dilophosaurus Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Diplodocus3Seater_C",
+        "label": "Diplodocus 3 Seater Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Direwolf_C",
+        "label": "Direwolf Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Enforcer_C",
+        "label": "Enforcer"
+      },
+      {
+        "value": "EngramEntry_Saddle_ApeArmour_C",
+        "label": "Ape Armour"
+      },
+      {
+        "value": "EngramEntry_Saddle_CrabPlatform_C",
+        "label": "Karkinos Platform Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Liop_C",
+        "label": "Liopleurodon Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_MammothPlatform_C",
+        "label": "Mammoth Platform Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Pachyrhino1Seater_C",
+        "label": "Pachyrhino Single Seater Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Purlovia_C",
+        "label": "Purlovia Saddle"
+      },
+      {
+        "value": "EngramEntry_RollratStarterSaddle_C",
+        "label": "Roll Rat Starter Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Stygi_C",
+        "label": "Stygimoloch Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Styrac_C",
+        "label": "Styracosaurus Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_TrikePlatform_C",
+        "label": "Trike Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_TropeoPrimitive_C",
+        "label": "Tropeognathus"
+      }
+    ]
+  }
+}
