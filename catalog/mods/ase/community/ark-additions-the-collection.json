@@ -12,7 +12,58 @@
     "additions",
     "dinos nuevos"
   ],
-  "settings": [],
+  "settings": [
+    {
+      "id": "ark_additions_add_buff_overlay",
+      "key": "AddBuffOverlay",
+      "category": "mod_ark_additions",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "ARK_Additions_Acrocanthosaurus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.ark_additions.add_buff_overlay"
+    },
+    {
+      "id": "ark_additions_harvesting_multiplier",
+      "key": "HarvestingMultiplier",
+      "category": "mod_ark_additions",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "ARK_Additions_Brachiosaurus",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0,
+        "max": 10,
+        "presets": [
+          1,
+          2,
+          3,
+          5
+        ]
+      },
+      "i18nKey": "mods.ark_additions.harvesting_multiplier"
+    }
+  ],
   "classNames": {
     "dinos": [
       {
@@ -127,11 +178,11 @@
     "dino_name_tags": [
       {
         "value": "Acro",
-        "label": "Acro"
+        "label": "Acrocanthosaurus"
       },
       {
         "value": "AdditionsBrachio",
-        "label": "AdditionsBrachio"
+        "label": "Brachiosaurus"
       },
       {
         "value": "Archelon",
@@ -147,15 +198,15 @@
       },
       {
         "value": "Deino",
-        "label": "Deino"
+        "label": "Deinosuchus"
       },
       {
         "value": "Indom",
-        "label": "Indom"
+        "label": "Domination Rex"
       },
       {
         "value": "Xiph",
-        "label": "Xiph"
+        "label": "Xiphactinus"
       }
     ],
     "items": [

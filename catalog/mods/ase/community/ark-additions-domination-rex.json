@@ -1,0 +1,70 @@
+{
+  "_source": "Páginas individuales de ark.fandom.com (namespace Mod), campo blueprintpath de cada infobox, vía scripts/fetch-fandom-mod-items.mjs --prefix 'ARK Additions' --folder Indominus, el 2026-08-23. NO se usó la tabla índice 'Mod:ARK Additions/Item Codes': está desalineada (tres saddles con el blueprint de la fila anterior y dos disfraces intercambiados) — el detalle está en el encabezado del script.",
+  "_scope": "Todo lo que la mod pone bajo /Game/Mods/Indominus/: las 5 variantes de criatura, la montura, el huevo sintético y los 3 disfraces. El classname de criatura se deriva del leaf del path (forma canónica _C, precedente KBD); en items va el blueprint path entero, que es lo que necesita 'Dar item'.",
+  "_modId": "1445395055 es el ID del Workshop de la mod standalone. Sus classnames también aparecen en ARK Additions: The Collection (1522327484), que la incluye: no es duplicación errónea, son dos mods que shippean la misma criatura y el usuario puede tener cualquiera de las dos.",
+  "modId": "1445395055",
+  "name": "ARK Additions: Domination Rex!",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1445395055",
+  "searchAliases": [
+    "criaturas",
+    "indominus",
+    "rex",
+    "jurassic",
+    "dominador"
+  ],
+  "settings": [],
+  "classNames": {
+    "dinos": [
+      {
+        "value": "Indominus_Character_BP_C",
+        "label": "Domination Rex"
+      },
+      {
+        "value": "Indominus_Character_AB_BP_C",
+        "label": "Aberrant Domination Rex"
+      },
+      {
+        "value": "Indominus_Character_SE_BP_C",
+        "label": "Scorched Domination Rex"
+      },
+      {
+        "value": "Indominus_Character_Extinction_BP_C",
+        "label": "Extinction Domination Rex"
+      },
+      {
+        "value": "Indominus_Character_Gen_BP_C",
+        "label": "Tek Domination Rex"
+      }
+    ],
+    "dino_name_tags": [
+      {
+        "value": "Indom",
+        "label": "Domination Rex"
+      }
+    ],
+    "items": [
+      {
+        "value": "/Game/Mods/Indominus/Blueprints/PrimalitemArmor_IndominusSaddle.PrimalitemArmor_IndominusSaddle",
+        "label": "Domination Rex Saddle"
+      },
+      {
+        "value": "/Game/Mods/Indominus/Blueprints/PrimalitemConsumable_Egg_IndominusRex.PrimalitemConsumable_Egg_IndominusRex",
+        "label": "Domination Rex Egg"
+      },
+      {
+        "value": "/Game/Mods/Indominus/Blueprints/PrimalItemCostume_BogIndominus.PrimalItemCostume_BogIndominus",
+        "label": "Bog Domination Costume"
+      },
+      {
+        "value": "/Game/Mods/Indominus/Blueprints/PrimalItemCostume_SnowIndominus.PrimalItemCostume_SnowIndominus",
+        "label": "Snowy Domination Costume"
+      },
+      {
+        "value": "/Game/Mods/Indominus/Blueprints/PrimalItemCostume_VolcanicIndominus.PrimalItemCostume_VolcanicIndominus",
+        "label": "Volcanic Domination Costume"
+      }
+    ]
+  }
+}

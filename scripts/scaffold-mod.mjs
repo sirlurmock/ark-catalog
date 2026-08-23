@@ -208,6 +208,27 @@ function runSpecMode(specPath) {
     };
   });
 
+  const dest = args.out ?? existingEntryFor(spec) ?? `catalog/mods/${spec.game}/community/${slugify(spec.name)}.json`;
+
+  /**
+   * Los classnames de una entrada que ya existe se CONSERVAN si el spec no
+   * trae los suyos. Sin esto, agregarle ajustes a una mod ya catalogada le
+   * borraba las criaturas e items en silencio: ARK Additions: The Collection
+   * tenia 60 classnames y cero settings, y catalogarle los 2 ajustes de su
+   * pagina de configuracion los habria tirado a todos. Un spec que SI declara
+   * classNames sigue pisando, que es lo que hace falta para regenerarlos.
+   */
+  const existingClassNames = (() => {
+    if (spec.classNames) return spec.classNames;
+    if (!existsSync(dest)) return null;
+    try {
+      const current = JSON.parse(readFileSync(dest, "utf8"));
+      return current.classNames ?? null;
+    } catch {
+      return null;
+    }
+  })();
+
   const modJson = {
     modId: spec.modId,
     name: spec.name,
@@ -220,10 +241,8 @@ function runSpecMode(specPath) {
     // Bloque de classnames de la mod (prompt 22): va tal cual al JSON. La
     // fuente citable queda en `_classnamesSource` del spec, que como todo
     // campo con guion bajo no se publica.
-    ...(spec.classNames ? { classNames: spec.classNames } : {}),
+    ...(existingClassNames ? { classNames: existingClassNames } : {}),
   };
-
-  const dest = args.out ?? existingEntryFor(spec) ?? `catalog/mods/${spec.game}/community/${slugify(spec.name)}.json`;
   const byTier = settings.reduce((acc, s) => {
     acc[s.tier] = (acc[s.tier] ?? 0) + 1;
     return acc;

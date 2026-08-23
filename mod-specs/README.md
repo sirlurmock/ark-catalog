@@ -174,6 +174,41 @@ Tres cosas aprendidas peleandola, que conviene no re-descubrir:
   y encima con la carpeta `StructurePlusMod` en singular—. El parser lo marca y
   el script lo excluye nombrandolo, en vez de meter un path roto al catalogo.
 
+### La tercera fuente: ark.fandom.com
+
+`fetch-fandom-mod-items.mjs` cubre lo que ark.wiki.gg no tiene. **ARK
+Additions** es el caso: no existe en el wiki nuevo y en Fandom tiene 174
+paginas bajo el namespace `Mod` (id 10004), con un `blueprintpath` por infobox.
+
+```bash
+node scripts/fetch-fandom-mod-items.mjs --prefix "ARK Additions" \
+  --folder Indominus --out scripts/mod-specs/_scraped/domination-rex.json
+```
+
+`--folder` filtra por la carpeta de assets, que es lo que separa a las mods de
+una misma familia: `/Game/Mods/Additions_Pack/` es *The Collection* y
+`/Game/Mods/Indominus/` es *Domination Rex*, que se publica aparte.
+
+**La tabla indice de Fandom esta DESALINEADA y no se puede usar.**
+`Mod:ARK Additions/Item Codes` dice de si misma "Nothing is deliberately
+missing from this article" y seria una sola request en vez de cientos, pero
+verificada contra las paginas individuales (2026-08-23):
+
+| fila de la tabla | blueprint que trae | de quien es en realidad |
+|---|---|---|
+| Brachiosaurus Saddle | `PrimalItemCostume_SnowIndominus` | un disfraz de otra mod |
+| Concavenator Saddle | `PrimalItemArmor_BrachioSaddle` | del Brachio (corrida 1 fila) |
+| Cryolophosaurus Saddle | `PrimalItemArmor_ConcaSaddle` | del Conca (corrida 1 fila) |
+| Ghost Acro Costume | `PrimalItemCostume_SavageAcro` | intercambiado con el Savage |
+
+O sea: la columna de blueprint esta corrida respecto de la de nombre en un
+tramo, mas un swap aparte. **Una pagina = un objeto = no hay forma de que se
+corra una fila**, por eso el script va pagina por pagina aunque sea mas caro.
+Ojo con esto si aparece otra tabla indice tentadora en cualquier wiki.
+
+Y **eco's Garden Decor no esta en Fandom** (0 paginas con ese prefijo en el
+namespace `Mod`): esa mod, con 970k suscriptores, sigue sin fuente citable.
+
 Sembradas hasta ahora: Super Structures (401 objetos), Kraken's Better Dinos
 (92 criaturas + 17 items + 15 engramas), Structures Plus (181 objetos), Upgrade
 Station (15), Dino Storage v2 (5), Super Spyglass Plus (4 + 4 engramas), Awesome

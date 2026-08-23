@@ -3408,7 +3408,12 @@
     "no_settings_but_classnames": "Esta mod no tiene ajustes de servidor propios, pero sus criaturas y objetos ya aparecen en el autocompletado de spawns, recetas y comandos mientras la tengas activa.",
     "prehistoric_beasts": {},
     "kami_creations": {},
-    "ark_additions": {},
+    "ark_additions": {
+      "add_buff_overlay": "Overlay del buff Adrenalina (Acrocanthosaurus)",
+      "add_buff_overlay.description": "Muestra en pantalla el indicador del buff Adrenalina del Acrocanthosaurus. Apagarlo no quita el buff, solo su cartel. Default: activado.",
+      "harvesting_multiplier": "Multiplicador de cosecha del Brachiosaurus",
+      "harvesting_multiplier.description": "Multiplica lo que recolecta el Brachiosaurus. x3 = tres veces mas recursos por golpe. Solo afecta a esta criatura, no al resto del servidor. Default 1.0."
+    },
     "marniimods_wildlife": {},
     "moros_indominus": {},
     "marniimods_horses": {},

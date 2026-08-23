@@ -1,6 +1,6 @@
 {
-  "_source": "Mod de CRIATURAS: no expone ajustes de servidor propios. La entrada existe por sus classnames, tags y sillas.",
-  "_scope": "settings vacío A PROPÓSITO.",
+  "_source": "Los classnames salieron de los spawn codes del autor (prompt 22). Los 2 ajustes y las etiquetas humanas de los tags salen de ark.fandom.com: paginas Mod:ARK Additions/Configuration Options y /Name Tags, transcritas el 2026-08-23.",
+  "_scope": "Las 2 opciones que documenta su pagina de configuracion. La mod es sobre todo criaturas, por eso son pocas — antes la entrada tenia settings vacio a proposito, y ahora deja de estarlo.",
   "modId": "1522327484",
   "name": "ARK Additions: The Collection!",
   "game": "ase",
@@ -12,7 +12,46 @@
     "additions",
     "dinos nuevos"
   ],
-  "settings": [],
+  "settings": [
+    {
+      "key": "AddBuffOverlay",
+      "section": "ARK_Additions_Acrocanthosaurus",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": true,
+      "es": {
+        "label": "Overlay del buff Adrenalina (Acrocanthosaurus)",
+        "description": "Muestra en pantalla el indicador del buff Adrenalina del Acrocanthosaurus. Apagarlo no quita el buff, solo su cartel. Default: activado."
+      },
+      "en": {
+        "label": "Adrenaline buff overlay (Acrocanthosaurus)",
+        "description": "Shows the on-screen indicator for the Acrocanthosaurus' Adrenaline buff. Turning it off does not remove the buff, only its overlay. Default: enabled."
+      }
+    },
+    {
+      "key": "HarvestingMultiplier",
+      "section": "ARK_Additions_Brachiosaurus",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 1,
+      "min": 0,
+      "max": 10,
+      "presets": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "es": {
+        "label": "Multiplicador de cosecha del Brachiosaurus",
+        "description": "Multiplica lo que recolecta el Brachiosaurus. x3 = tres veces mas recursos por golpe. Solo afecta a esta criatura, no al resto del servidor. Default 1.0."
+      },
+      "en": {
+        "label": "Brachiosaurus harvesting multiplier",
+        "description": "Multiplies what the Brachiosaurus gathers. x3 = three times the resources per hit. Only affects this creature, not the rest of the server. Default 1.0."
+      }
+    }
+  ],
   "classNames": {
     "dinos": [
       {
@@ -127,11 +166,11 @@
     "dino_name_tags": [
       {
         "value": "Acro",
-        "label": "Acro"
+        "label": "Acrocanthosaurus"
       },
       {
         "value": "AdditionsBrachio",
-        "label": "AdditionsBrachio"
+        "label": "Brachiosaurus"
       },
       {
         "value": "Archelon",
@@ -147,15 +186,15 @@
       },
       {
         "value": "Deino",
-        "label": "Deino"
+        "label": "Deinosuchus"
       },
       {
         "value": "Indom",
-        "label": "Indom"
+        "label": "Domination Rex"
       },
       {
         "value": "Xiph",
-        "label": "Xiph"
+        "label": "Xiphactinus"
       }
     ],
     "items": [
@@ -295,30 +334,11 @@
       }
     ]
   },
-  "_classnamesSource": {
-    "dinos": {
-      "url": "https://ark.fandom.com/wiki/Mod:ARK_Additions/Item_Codes",
-      "fetchedAt": "2026-08-20",
-      "note": "Tabla oficial de Item Codes de la wiki (nombre + Character Tag + blueprint path por fila); snapshot en _scraped/ark-additions-item-codes.html. Reemplaza al hilo del Workshop, que solo cubría 3 especies y remitía a esta wiki. El classname sale del path: R-Acrocanthosaurus vive en un archivo BAcrocanthosaurus… pero su objeto es Acrocanthosaurus_Character_BP_Eden, que es el bueno. Labels verificados uno a uno contra su classname."
-    },
-    "dino_name_tags": {
-      "url": "https://ark.fandom.com/wiki/Mod:ARK_Additions/Item_Codes",
-      "fetchedAt": "2026-08-20",
-      "note": "Columna Character Tag de la misma tabla."
-    },
-    "items": {
-      "url": "https://ark.fandom.com/wiki/Mod:ARK_Additions/Item_Codes",
-      "fetchedAt": "2026-08-20",
-      "note": "ATENCIÓN: los labels salen del CLASSNAME, no de la columna de nombre de la wiki, porque esa columna está CORRIDA en la tabla real (la fila rotulada «Concavenator Saddle» apunta a PrimalItemArmor_BrachioSaddle) y los chibis arrastran el «File:….png» de su imagen. El classname es el dato duro."
-    },
-    "engrams": {
-      "url": "https://ark.fandom.com/wiki/Mod:ARK_Additions/Item_Codes",
-      "fetchedAt": "2026-08-20",
-      "note": "Tabla de engramas de la misma página (nombre + EngramEntry_… + nivel + costo). Ahí los nombres SÍ están alineados con su clase, verificado."
-    }
-  },
+  "_classnamesSource": "Spawn codes del autor (prompt 22) para dinos/items/engramas. Las etiquetas de los 8 dino_name_tags salen de Mod:ARK Additions/Name Tags de Fandom: antes la etiqueta repetia el tag (Acro -> Acro) y ahora nombra a la criatura (Acro -> Acrocanthosaurus).",
   "alsoWorkshopIds": [
     "1445395055"
   ],
-  "_alsoWorkshopIds": "ARK Additions: Domination Rex! (1445395055) es una mod aparte en el Workshop, pero sus 5 criaturas (Indominus_Character_*) y su tag Indom son EXACTAMENTE los que documenta la wiki de The Collection y ya están en esta entrada. Sin el alias, quien tuviera solo la standalone instalada no encontraría nada."
+  "_alsoWorkshopIds": "ARK Additions: Domination Rex! (1445395055) es una mod aparte en el Workshop, pero sus 5 criaturas (Indominus_Character_*) y su tag Indom son EXACTAMENTE los que documenta la wiki de The Collection y ya están en esta entrada. Sin el alias, quien tuviera solo la standalone instalada no encontraría nada.",
+  "_defaults": "Los dos son los declarados en la columna Default de la tabla del autor: AddBuffOverlay=True, HarvestingMultiplier=1.0.",
+  "_sections": "Cada ajuste va en SU PROPIA seccion de GameUserSettings.ini ([ARK_Additions_Acrocanthosaurus] y [ARK_Additions_Brachiosaurus]), como dice la pagina. Precedente multi-seccion: Weapons+ (3) y Boosted Fabricator+ (2)."
 }
