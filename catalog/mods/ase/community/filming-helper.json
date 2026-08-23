@@ -1,0 +1,29 @@
+{
+  "_source": "Spawn code y override de engrama transcritos verbatim de la descripción del Workshop (https://steamcommunity.com/sharedfiles/filedetails/?id=2867390168) el 2026-08-23. El engrama va SIN sufijo _C a propósito: es la forma exacta que el autor documenta en su línea de OverrideNamedEngramEntries. Mod de items para filmar, sin ajustes INI.",
+  "modId": "2867390168",
+  "name": "Filming Helper",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2867390168",
+  "searchAliases": [
+    "filmar",
+    "grabacion",
+    "invisibilidad",
+    "camara"
+  ],
+  "settings": [],
+  "classNames": {
+    "items": [
+      {
+        "value": "/Game/Mods/FilmingHelper/InvisibilityPotion/PrimalItemConsumable_FilmingHelper_InvisibilityPotion.PrimalItemConsumable_FilmingHelper_InvisibilityPotion",
+        "label": "Invisibility Potion"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_FilmingHelper_InvisibilityPotion",
+        "label": "Invisibility Potion"
+      }
+    ]
+  }
+}

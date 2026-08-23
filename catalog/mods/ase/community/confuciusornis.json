@@ -1,0 +1,47 @@
+{
+  "_source": "Spawn codes y DinoTag transcritos verbatim de la descripción del Workshop (https://steamcommunity.com/sharedfiles/filedetails/?id=1139775728) el 2026-08-23. Mod de criatura sin ajustes INI.",
+  "modId": "1139775728",
+  "name": "Confuciusornis",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1139775728",
+  "searchAliases": [
+    "criaturas",
+    "confu",
+    "pajaro",
+    "huevos"
+  ],
+  "settings": [],
+  "classNames": {
+    "dinos": [
+      {
+        "value": "Confu_Character_BP_C",
+        "label": "Confuciusornis"
+      },
+      {
+        "value": "Confu_Character_BP_Aberrant_C",
+        "label": "Aberrant Confuciusornis"
+      },
+      {
+        "value": "Confu_Character_BP_Corrupt_C",
+        "label": "Corrupted Confuciusornis"
+      },
+      {
+        "value": "Confu_Character_BP_X_C",
+        "label": "X-Confuciusornis"
+      }
+    ],
+    "dino_name_tags": [
+      {
+        "value": "Confu",
+        "label": "Confuciusornis"
+      }
+    ],
+    "items": [
+      {
+        "value": "/Game/Mods/Confuciusornis/Confu/Nest/PrimalItemStructure_ConfuNest.PrimalItemStructure_ConfuNest",
+        "label": "Confu Nest"
+      }
+    ]
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "modId": "2182894352",
+  "name": "Custom Dino Levels",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2182894352",
+  "searchAliases": [
+    "niveles",
+    "niveles de dinos",
+    "level distribution",
+    "custom levels"
+  ],
+  "settings": [
+    {
+      "id": "custom_dino_levels_ase_wants_equal_levels",
+      "key": "WantsEqualLevels",
+      "category": "mod_custom_dino_levels_ase",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "CustomLevelDistrib",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.custom_dino_levels_ase.wants_equal_levels"
+    },
+    {
+      "id": "custom_dino_levels_ase_wants_rag_levels",
+      "key": "WantsRagLevels",
+      "category": "mod_custom_dino_levels_ase",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "CustomLevelDistrib",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.custom_dino_levels_ase.wants_rag_levels"
+    },
+    {
+      "id": "custom_dino_levels_ase_wants_high_levels",
+      "key": "WantsHighLevels",
+      "category": "mod_custom_dino_levels_ase",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "CustomLevelDistrib",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.custom_dino_levels_ase.wants_high_levels"
+    },
+    {
+      "id": "custom_dino_levels_ase_min_level",
+      "key": "MinLevel",
+      "category": "mod_custom_dino_levels_ase",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "CustomLevelDistrib",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 1,
+        "max": 100
+      },
+      "i18nKey": "mods.custom_dino_levels_ase.min_level"
+    },
+    {
+      "id": "custom_dino_levels_ase_max_level",
+      "key": "MaxLevel",
+      "category": "mod_custom_dino_levels_ase",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "CustomLevelDistrib",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 30,
+        "min": 1,
+        "max": 100
+      },
+      "i18nKey": "mods.custom_dino_levels_ase.max_level"
+    },
+    {
+      "id": "custom_dino_levels_ase_prevent_titan",
+      "key": "PreventTitan",
+      "category": "mod_custom_dino_levels_ase",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "CustomLevelDistrib",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.custom_dino_levels_ase.prevent_titan"
+    },
+    {
+      "id": "custom_dino_levels_ase_prevent_bee",
+      "key": "PreventBee",
+      "category": "mod_custom_dino_levels_ase",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "CustomLevelDistrib",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.custom_dino_levels_ase.prevent_bee"
+    },
+    {
+      "id": "custom_dino_levels_ase_max_drake_level",
+      "key": "MaxDrakeLevel",
+      "category": "mod_custom_dino_levels_ase",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "CustomLevelDistrib",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 38,
+        "min": 1,
+        "max": 100
+      },
+      "i18nKey": "mods.custom_dino_levels_ase.max_drake_level"
+    },
+    {
+      "id": "custom_dino_levels_ase_min_drake_level",
+      "key": "MinDrakeLevel",
+      "category": "mod_custom_dino_levels_ase",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CustomLevelDistrib",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 1,
+        "max": 100
+      },
+      "i18nKey": "mods.custom_dino_levels_ase.min_drake_level"
+    },
+    {
+      "id": "custom_dino_levels_ase_max_deinon_level",
+      "key": "MaxDeinonLevel",
+      "category": "mod_custom_dino_levels_ase",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CustomLevelDistrib",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 30,
+        "min": 1,
+        "max": 100
+      },
+      "i18nKey": "mods.custom_dino_levels_ase.max_deinon_level"
+    },
+    {
+      "id": "custom_dino_levels_ase_min_deinon_level",
+      "key": "MinDeinonLevel",
+      "category": "mod_custom_dino_levels_ase",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CustomLevelDistrib",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 1,
+        "max": 100
+      },
+      "i18nKey": "mods.custom_dino_levels_ase.min_deinon_level"
+    },
+    {
+      "id": "custom_dino_levels_ase_max_magma_level",
+      "key": "MaxMagmaLevel",
+      "category": "mod_custom_dino_levels_ase",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CustomLevelDistrib",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 30,
+        "min": 1,
+        "max": 100
+      },
+      "i18nKey": "mods.custom_dino_levels_ase.max_magma_level"
+    },
+    {
+      "id": "custom_dino_levels_ase_min_magma_level",
+      "key": "MinMagmaLevel",
+      "category": "mod_custom_dino_levels_ase",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "CustomLevelDistrib",
+      "games": [
+        "ase"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 1,
+        "max": 100
+      },
+      "i18nKey": "mods.custom_dino_levels_ase.min_magma_level"
+    }
+  ]
+}

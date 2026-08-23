@@ -1,0 +1,219 @@
+{
+  "_source": "Hilo fijado del autor (KitzyKatty) 'How to: Using the .ini configs' (https://steamcommunity.com/workshop/filedetails/discussion/2182894352/2794998850882765005/, editado por última vez el 2021-08-02) más los change notes de la mod (2020-12-05: PreventTitan/PreventBee/MaxDrakeLevel/MaxDeinonLevel; 2021-08-01: MinDrakeLevel; 2022-12-09: MinDeinonLevel/MinMagmaLevel/MaxMagmaLevel). Sección [CustomLevelDistrib] de GameUserSettings.ini, dicho textual en el hilo. Transcrito el 2026-08-23.",
+  "_defaults": "Todos con default declarado por el autor: el hilo da el 'default setup' (WantsEqualLevels=True con Rag/High en False, MinLevel=1.0, MaxLevel=30.0) y los change notes declaran 'Default value set to True' para PreventTitan/PreventBee, 38.0 para MaxDrakeLevel, 1.0 para MinDrakeLevel/MinDeinonLevel/MinMagmaLevel y 30.0 para MaxDeinonLevel/MaxMagmaLevel.",
+  "_scope": "Las 13 claves documentadas por el autor. FUERA con nombre: LowWeight/MediumWeight/HighWeight/TinyWeight (la mod las escribe sola con defaults idénticos en dos .ini independientes — 0.5/0.25/0.1/1.0 — pero el autor nunca documentó qué hacen; catalogarlas sin poder describirlas sería inventar. Se preservan al importar) y WantsCustom (existe en la versión ASA; en ASE no hay doc ni aparece en el .ini real).",
+  "_modId": "El modId es el ID del Workshop y no el nombre de sección: la versión ASA ya usa modId 'CustomLevelDistrib' y modsById indexa por modId sin distinguir juego (precedente Awesome Teleporters ASE). Namespace i18n propio porque el set Y los defaults difieren de la ASA (ASE tiene WantsRagLevels/WantsHighLevels y defaults documentados True para WantsEqualLevels/PreventBee/PreventTitan y 38 para MaxDrakeLevel; la entrada ASA salió del .ini real sin doc del autor).",
+  "modId": "2182894352",
+  "section": "CustomLevelDistrib",
+  "name": "Custom Dino Levels",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2182894352",
+  "prefix": "custom_dino_levels_ase",
+  "searchAliases": [
+    "niveles",
+    "niveles de dinos",
+    "level distribution",
+    "custom levels"
+  ],
+  "settings": [
+    {
+      "key": "WantsEqualLevels",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": true,
+      "es": {
+        "label": "Niveles equalizados",
+        "description": "Todos los niveles salen con la misma probabilidad, en vez del sesgo vanilla hacia niveles bajos. Es el modo default de la mod, y el único donde aplican MinLevel/MaxLevel y los topes por criatura. CRÍTICO (palabra del autor): solo UNO de los tres modos Wants* puede estar en True a la vez — con dos o más la mod se apaga sola. Default: activado."
+      },
+      "en": {
+        "label": "Equalized levels",
+        "description": "All levels spawn with equal probability instead of the vanilla low-level skew. This is the mod's default mode, and the only one where MinLevel/MaxLevel and the per-creature caps apply. CRITICAL (author's word): only ONE of the three Wants* modes can be True at a time — with two or more the mod goes dormant. Default: enabled."
+      }
+    },
+    {
+      "key": "WantsRagLevels",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Niveles estilo Ragnarok",
+        "description": "Usa la distribución de niveles de Ragnarok (más generosa que la de The Island) en cualquier mapa. Solo UNO de los tres modos Wants* puede estar en True a la vez. Default: desactivado."
+      },
+      "en": {
+        "label": "Ragnarok-style levels",
+        "description": "Uses Ragnarok's level distribution (more generous than The Island's) on any map. Only ONE of the three Wants* modes can be True at a time. Default: disabled."
+      }
+    },
+    {
+      "key": "WantsHighLevels",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Sesgo hacia niveles altos",
+        "description": "Invierte el sesgo vanilla: los niveles altos se vuelven los más comunes. Solo UNO de los tres modos Wants* puede estar en True a la vez. Default: desactivado."
+      },
+      "en": {
+        "label": "High-level skew",
+        "description": "Inverts the vanilla skew: high levels become the most common. Only ONE of the three Wants* modes can be True at a time. Default: disabled."
+      }
+    },
+    {
+      "key": "MinLevel",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 1,
+      "min": 1,
+      "max": 100,
+      "es": {
+        "label": "Nivel base mínimo",
+        "description": "Nivel base mínimo que puede salir (solo con Niveles equalizados en True). Valor = nivel deseado ÷ dificultad: para que en dificultad 5 el mínimo sea 50, poné 10. Default 1.0."
+      },
+      "en": {
+        "label": "Minimum base level",
+        "description": "Minimum base level that can spawn (only with Equalized levels set to True). Value = desired level ÷ difficulty: for a minimum of 50 at difficulty 5, use 10. Default 1.0."
+      }
+    },
+    {
+      "key": "MaxLevel",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 30,
+      "min": 1,
+      "max": 100,
+      "es": {
+        "label": "Nivel base máximo",
+        "description": "Nivel base máximo que puede salir (solo con Niveles equalizados en True). Valor = nivel deseado ÷ dificultad: 30 en dificultad 5 = nivel 150, como vanilla. Subirlo mucho dispara los niveles (125 en dificultad 5 = ¡nivel 625!). Default 30.0."
+      },
+      "en": {
+        "label": "Maximum base level",
+        "description": "Maximum base level that can spawn (only with Equalized levels set to True). Value = desired level ÷ difficulty: 30 at difficulty 5 = level 150, like vanilla. Raising it a lot explodes the levels (125 at difficulty 5 = level 625!). Default 30.0."
+      }
+    },
+    {
+      "key": "PreventTitan",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": true,
+      "es": {
+        "label": "Excluir al Titanosaurio",
+        "description": "En True el Titanosaurio se comporta como vanilla: siempre aparece al nivel más bajo, sin que la mod lo toque. En False sale con niveles variados como el resto. Default: activado (vanilla)."
+      },
+      "en": {
+        "label": "Exclude the Titanosaur",
+        "description": "When True the Titanosaur behaves like vanilla: always spawns at the lowest level, untouched by the mod. When False it spawns at varied levels like everything else. Default: enabled (vanilla)."
+      }
+    },
+    {
+      "key": "PreventBee",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": true,
+      "es": {
+        "label": "Excluir a la Abeja Reina",
+        "description": "En True la Abeja Reina gigante se comporta como vanilla: siempre al nivel más bajo. En False sale con niveles variados. Default: activado (vanilla)."
+      },
+      "en": {
+        "label": "Exclude the Queen Bee",
+        "description": "When True the giant Queen Bee behaves like vanilla: always at the lowest level. When False it spawns at varied levels. Default: enabled (vanilla)."
+      }
+    },
+    {
+      "key": "MaxDrakeLevel",
+      "kind": "float_multiplier",
+      "tier": "advanced",
+      "default": 38,
+      "min": 1,
+      "max": 100,
+      "es": {
+        "label": "Nivel base máximo de wyverns y drakes",
+        "description": "Tope de nivel base para wyverns Y rock drakes a la vez (solo con Niveles equalizados). Se multiplica por la dificultad: 38 × 5 = nivel 190, el tope vanilla. Para wyverns de 225 en dificultad 5, poné 45. Default 38.0 (vanilla)."
+      },
+      "en": {
+        "label": "Max base level for wyverns and drakes",
+        "description": "Base level cap for BOTH wyverns AND rock drakes (only with Equalized levels). Multiplied by difficulty: 38 × 5 = level 190, the vanilla cap. For level-225 wyverns at difficulty 5, use 45. Default 38.0 (vanilla)."
+      }
+    },
+    {
+      "key": "MinDrakeLevel",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 1,
+      "min": 1,
+      "max": 100,
+      "es": {
+        "label": "Nivel base mínimo de wyverns y drakes",
+        "description": "Piso de nivel base solo para wyverns y rock drakes, para acotar su rango por abajo. Default 1.0."
+      },
+      "en": {
+        "label": "Min base level for wyverns and drakes",
+        "description": "Base level floor only for wyverns and rock drakes, to narrow their range from below. Default 1.0."
+      }
+    },
+    {
+      "key": "MaxDeinonLevel",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 30,
+      "min": 1,
+      "max": 100,
+      "es": {
+        "label": "Nivel base máximo del Deinonychus",
+        "description": "Tope de nivel base del Deinonychus (solo con Niveles equalizados). Misma cuenta que los drakes: valor × dificultad = nivel máximo. Default 30.0."
+      },
+      "en": {
+        "label": "Max base level for Deinonychus",
+        "description": "Base level cap for the Deinonychus (only with Equalized levels). Same math as drakes: value × difficulty = max level. Default 30.0."
+      }
+    },
+    {
+      "key": "MinDeinonLevel",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 1,
+      "min": 1,
+      "max": 100,
+      "es": {
+        "label": "Nivel base mínimo del Deinonychus",
+        "description": "Piso de nivel base del Deinonychus. Default 1.0."
+      },
+      "en": {
+        "label": "Min base level for Deinonychus",
+        "description": "Base level floor for the Deinonychus. Default 1.0."
+      }
+    },
+    {
+      "key": "MaxMagmaLevel",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 30,
+      "min": 1,
+      "max": 100,
+      "es": {
+        "label": "Nivel base máximo del Magmasaur",
+        "description": "Tope de nivel base del Magmasaur (solo con Niveles equalizados). Valor × dificultad = nivel máximo. Default 30.0 (vanilla)."
+      },
+      "en": {
+        "label": "Max base level for Magmasaur",
+        "description": "Base level cap for the Magmasaur (only with Equalized levels). Value × difficulty = max level. Default 30.0 (vanilla)."
+      }
+    },
+    {
+      "key": "MinMagmaLevel",
+      "kind": "float_multiplier",
+      "tier": "expert",
+      "default": 1,
+      "min": 1,
+      "max": 100,
+      "es": {
+        "label": "Nivel base mínimo del Magmasaur",
+        "description": "Piso de nivel base del Magmasaur. Default 1.0."
+      },
+      "en": {
+        "label": "Min base level for Magmasaur",
+        "description": "Base level floor for the Magmasaur. Default 1.0."
+      }
+    }
+  ]
+}

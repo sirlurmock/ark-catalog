@@ -1,0 +1,32 @@
+{
+  "_source": "Spawn codes transcritos verbatim de la descripción del Workshop (https://steamcommunity.com/sharedfiles/filedetails/?id=1065416475) el 2026-08-23. Mod de criatura sin ajustes INI.",
+  "modId": "1065416475",
+  "name": "Colossuscorpius",
+  "game": "ase",
+  "source": "community",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1065416475",
+  "searchAliases": [
+    "criaturas",
+    "escorpion",
+    "scorpion"
+  ],
+  "settings": [],
+  "classNames": {
+    "dinos": [
+      {
+        "value": "ColossalScorpion_Character_BP_C",
+        "label": "Colossuscorpius"
+      }
+    ],
+    "items": [
+      {
+        "value": "/Game/Mods/Colossuscorpius/PrimalItemArmor_ColossalScorpionSaddle.PrimalItemArmor_ColossalScorpionSaddle",
+        "label": "Colossuscorpius Saddle"
+      },
+      {
+        "value": "/Game/Mods/Colossuscorpius/PrimalItemArmor_ColossalScorpionSaddle_Platform.PrimalItemArmor_ColossalScorpionSaddle_Platform",
+        "label": "Colossuscorpius Platform Saddle"
+      }
+    ]
+  }
+}
