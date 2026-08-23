@@ -250,5 +250,23 @@
       "default": false
     },
     "i18nKey": "settings.breeding.disable_imprint_dino_buff"
+  },
+  {
+    "id": "mating_speed_multiplier",
+    "key": "MatingSpeedMultiplier",
+    "category": "breeding",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "float_multiplier",
+      "default": 1,
+      "min": 0.01,
+      "max": 100,
+      "presets": [1, 2, 5, 10]
+    },
+    "i18nKey": "settings.breeding.mating_speed_multiplier"
   }
 ]

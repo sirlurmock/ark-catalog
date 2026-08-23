@@ -205,13 +205,17 @@
       "auto_pve_stop_time": "Auto-PvE stop time (seconds)",
       "auto_pve_stop_time.description": "Second of the day when auto-PvE ends (0 to 86400).",
       "disable_friendly_fire": "Disable friendly fire",
-      "disable_friendly_fire.description": "Prevents damage between tribe mates, their tames and their structures."
+      "disable_friendly_fire.description": "Prevents damage between tribe mates, their tames and their structures.",
+      "only_allow_specified_engrams": "Only allow specified engrams",
+      "only_allow_specified_engrams.description": "When True, only engrams explicitly configured in the engram overrides can be learned; the rest stay hidden. For servers with fully curated progression. Default: disabled."
     },
     "taming": {
       "taming_speed": "Taming speed multiplier",
       "taming_speed.description": "How fast the taming process completes. x5 = five times faster. Default 1.0 (vanilla).",
       "allow_speed_leveling": "Allow movement speed leveling",
       "allow_speed_leveling.description": "When True, points can again be spent on Movement Speed, which ASA disabled by default. Flyers additionally need bAllowFlyerSpeedLeveling. Default False.",
+      "override_max_experience_points_dino": "Tame XP cap",
+      "override_max_experience_points_dino.description": "Overrides the maximum experience points a tamed creature can accumulate, with the exact value you set. 0 = use the game's normal cap (the key is not written). Default 0.",
       "dino_count": "Wild dino count multiplier",
       "dino_count.description": "Multiplier for how many wild dinos spawn on the map. High values can reduce server performance. Default 1.0 (vanilla).",
       "dino_damage": "Wild dino damage multiplier",
@@ -253,7 +257,9 @@
       "allow_anyone_baby_imprint_cuddle": "Allow any player to cuddle",
       "allow_anyone_baby_imprint_cuddle.description": "Any player can cuddle any baby (not just the original imprinter). Useful in collaborative tribes. Default: disabled.",
       "disable_imprint_dino_buff": "Disable imprint stat bonus",
-      "disable_imprint_dino_buff.description": "Removes the stat buff that imprint gives when the baby grows up. Default: disabled (imprint gives bonus)."
+      "disable_imprint_dino_buff.description": "Removes the stat buff that imprint gives when the baby grows up. Default: disabled (imprint gives bonus).",
+      "mating_speed_multiplier": "Mating speed",
+      "mating_speed_multiplier.description": "How fast the mating itself completes (the mating bar). x10 = ten times faster. Not to be confused with the interval BETWEEN matings, which is a separate setting. Default 1.0 (vanilla)."
     },
     "stats": {
       "per_level_player": "Per-level stat multipliers (player)",
@@ -315,7 +321,9 @@
       "increase_pvp_respawn_check_period": "PvP respawn: window (seconds)",
       "increase_pvp_respawn_check_period.description": "Time window within which consecutive deaths keep scaling the respawn time.",
       "increase_pvp_respawn_multiplier": "PvP respawn: scaling",
-      "increase_pvp_respawn_multiplier.description": "Multiplier applied to the extra time with each death inside the window. x2 = every death doubles the wait."
+      "increase_pvp_respawn_multiplier.description": "Multiplier applied to the extra time with each death inside the window. x2 = every death doubles the wait.",
+      "override_max_experience_points_player": "Player XP cap",
+      "override_max_experience_points_player.description": "Overrides the maximum experience points a player can accumulate, with the exact value you set. 0 = use the game's normal cap (the key is not written). Default 0."
     },
     "world": {
       "resources_respawn": "Resource respawn speed",
@@ -353,7 +361,11 @@
       "config_override_item_max_quantity": "Per-item stack size",
       "config_override_item_max_quantity.description": "Sets the stack size of a specific item, overriding the global multiplier. With bIgnoreMultiplier True the quantity is used as-is; with False it gets multiplied by the global stack size multiplier.",
       "disable_loot_crates": "Disable loot crates",
-      "disable_loot_crates.description": "Map loot beacons/crates no longer spawn (artifact crates still do)."
+      "disable_loot_crates.description": "Map loot beacons/crates no longer spawn (artifact crates still do).",
+      "force_allow_cave_flyers": "Allow flyers in caves",
+      "force_allow_cave_flyers.description": "Forces flying creatures to be allowed into the map's caves (custom maps already allow them by default). A PvP server classic for raids. Default: disabled.",
+      "show_floating_damage_text": "Floating damage text",
+      "show_floating_damage_text.description": "Shows damage as RPG-style floating popup numbers on hit. Default: disabled."
     },
     "structures": {
       "structure_damage": "Structure damage multiplier",

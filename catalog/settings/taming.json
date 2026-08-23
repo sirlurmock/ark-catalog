@@ -178,5 +178,17 @@
       "default": false
     },
     "i18nKey": "settings.taming.allow_speed_leveling"
+  },
+  {
+    "id": "override_max_experience_points_dino",
+    "key": "OverrideMaxExperiencePointsDino",
+    "category": "taming",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "integer", "default": 0, "min": 0, "step": 1000 },
+    "i18nKey": "settings.taming.override_max_experience_points_dino"
   }
 ]

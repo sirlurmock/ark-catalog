@@ -205,13 +205,17 @@
       "auto_pve_stop_time": "Fin del PvE automático (segundos)",
       "auto_pve_stop_time.description": "Segundo del día en que termina el PvE automático (0 a 86400).",
       "disable_friendly_fire": "Desactivar fuego amigo",
-      "disable_friendly_fire.description": "Impide el daño entre compañeros de tribu, sus criaturas y sus estructuras."
+      "disable_friendly_fire.description": "Impide el daño entre compañeros de tribu, sus criaturas y sus estructuras.",
+      "only_allow_specified_engrams": "Solo engramas especificados",
+      "only_allow_specified_engrams.description": "En True, solo se pueden aprender los engramas configurados explícitamente en los overrides de engramas; el resto queda oculto. Para servidores con progresión totalmente curada. Default: desactivado."
     },
     "taming": {
       "taming_speed": "Velocidad de doma",
       "taming_speed.description": "Qué tan rápido se completa el proceso de doma. x5 = cinco veces más rápido. Default 1.0 (vanilla).",
       "allow_speed_leveling": "Permitir subir Velocidad de movimiento",
       "allow_speed_leveling.description": "En True se puede volver a invertir puntos en Velocidad de movimiento, que ASA deshabilitó por default. Para voladores hace falta además bAllowFlyerSpeedLeveling. Default False.",
+      "override_max_experience_points_dino": "Tope de XP de domesticados",
+      "override_max_experience_points_dino.description": "Reemplaza el máximo de puntos de experiencia que puede acumular una criatura domesticada, con el valor exacto que pongas. 0 = usar el tope normal del juego (la clave no se escribe). Default 0.",
       "dino_count": "Cantidad de dinos salvajes",
       "dino_count.description": "Multiplicador de cuántos dinos salvajes spawnean en el mapa. Valores altos pueden reducir el rendimiento del servidor. Default 1.0 (vanilla).",
       "dino_damage": "Daño de dinos salvajes",
@@ -253,7 +257,9 @@
       "allow_anyone_baby_imprint_cuddle": "Permitir mimos a cualquier jugador",
       "allow_anyone_baby_imprint_cuddle.description": "Cualquier jugador puede mimar a cualquier bebé (no solo el dueño original). Útil en tribus colaborativas. Default: desactivado.",
       "disable_imprint_dino_buff": "Desactivar bonus de imprint",
-      "disable_imprint_dino_buff.description": "Quita el buff de stats que da el imprint cuando el bebé crece. Default: desactivado (imprint da bonus)."
+      "disable_imprint_dino_buff.description": "Quita el buff de stats que da el imprint cuando el bebé crece. Default: desactivado (imprint da bonus).",
+      "mating_speed_multiplier": "Velocidad de apareamiento",
+      "mating_speed_multiplier.description": "Qué tan rápido se completa el apareamiento en sí (la barra de mating). x10 = diez veces más rápido. No confundir con el intervalo ENTRE apareamientos, que es otro ajuste. Default 1.0 (vanilla)."
     },
     "stats": {
       "per_level_player": "Multiplicadores de stat por nivel (jugador)",
@@ -315,7 +321,9 @@
       "increase_pvp_respawn_check_period": "Respawn PvP: ventana (segundos)",
       "increase_pvp_respawn_check_period.description": "Ventana de tiempo dentro de la cual las muertes seguidas escalan el tiempo de reaparición.",
       "increase_pvp_respawn_multiplier": "Respawn PvP: escala",
-      "increase_pvp_respawn_multiplier.description": "Multiplicador que se aplica al tiempo extra con cada muerte dentro de la ventana. x2 = cada muerte duplica la espera."
+      "increase_pvp_respawn_multiplier.description": "Multiplicador que se aplica al tiempo extra con cada muerte dentro de la ventana. x2 = cada muerte duplica la espera.",
+      "override_max_experience_points_player": "Tope de XP de jugadores",
+      "override_max_experience_points_player.description": "Reemplaza el máximo de puntos de experiencia que puede acumular un jugador, con el valor exacto que pongas. 0 = usar el tope normal del juego (la clave no se escribe). Default 0."
     },
     "world": {
       "resources_respawn": "Velocidad de reaparición de recursos",
@@ -353,7 +361,11 @@
       "config_override_item_max_quantity": "Tamaño de pila por item",
       "config_override_item_max_quantity.description": "Fija el tamaño de pila de un item concreto, por encima del multiplicador global. Con bIgnoreMultiplier en True usa la cantidad tal cual; en False, la cantidad se multiplica por el multiplicador global de pilas.",
       "disable_loot_crates": "Desactivar los drops de loot",
-      "disable_loot_crates.description": "No aparecen más los beacons/cofres de loot del mapa (los de artefactos siguen apareciendo)."
+      "disable_loot_crates.description": "No aparecen más los beacons/cofres de loot del mapa (los de artefactos siguen apareciendo).",
+      "force_allow_cave_flyers": "Permitir voladores en cuevas",
+      "force_allow_cave_flyers.description": "Fuerza que las criaturas voladoras puedan entrar a las cuevas del mapa (en los mapas custom ya pueden por default). Clásico de servidores PvP para raids. Default: desactivado.",
+      "show_floating_damage_text": "Texto de daño flotante",
+      "show_floating_damage_text.description": "Muestra el daño como números flotantes estilo RPG al golpear. Default: desactivado."
     },
     "structures": {
       "structure_damage": "Daño recibido por estructuras",

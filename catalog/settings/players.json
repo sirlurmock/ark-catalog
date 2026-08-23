@@ -374,5 +374,17 @@
     "validIn": ["single_player", "host_local", "dedicated"],
     "control": { "kind": "float_multiplier", "default": 2, "min": 1, "max": 10, "step": 0.5 },
     "i18nKey": "settings.players.increase_pvp_respawn_multiplier"
+  },
+  {
+    "id": "override_max_experience_points_player",
+    "key": "OverrideMaxExperiencePointsPlayer",
+    "category": "players",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "integer", "default": 0, "min": 0, "step": 1000 },
+    "i18nKey": "settings.players.override_max_experience_points_player"
   }
 ]

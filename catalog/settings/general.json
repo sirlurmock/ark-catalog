@@ -945,5 +945,17 @@
     "validIn": ["single_player", "host_local", "dedicated"],
     "control": { "kind": "boolean", "default": false },
     "i18nKey": "settings.general.disable_friendly_fire"
+  },
+  {
+    "id": "only_allow_specified_engrams",
+    "key": "OnlyAllowSpecifiedEngrams",
+    "category": "general",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "boolean", "default": false },
+    "i18nKey": "settings.general.only_allow_specified_engrams"
   }
 ]

@@ -322,5 +322,29 @@
     "validIn": ["single_player", "host_local", "dedicated"],
     "control": { "kind": "boolean", "default": false },
     "i18nKey": "settings.world.disable_loot_crates"
+  },
+  {
+    "id": "force_allow_cave_flyers",
+    "key": "ForceAllowCaveFlyers",
+    "category": "world",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "boolean", "default": false },
+    "i18nKey": "settings.world.force_allow_cave_flyers"
+  },
+  {
+    "id": "show_floating_damage_text",
+    "key": "ShowFloatingDamageText",
+    "category": "world",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": { "kind": "boolean", "default": false },
+    "i18nKey": "settings.world.show_floating_damage_text"
   }
 ]
