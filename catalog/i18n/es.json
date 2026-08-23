@@ -44,6 +44,7 @@
     "client": "Gráficos / Cliente"
   },
   "presets": {
+    "wild_level_line": "Dinos salvajes hasta nivel {level}",
     "section_speed": "Velocidad",
     "section_mode": "Modos de juego",
     "section_focal": "Ajustes rápidos",
@@ -3932,6 +3933,7 @@
     "preset": {
       "title": "¿Qué estilo de juego?",
       "subtitle": "Puedes ajustar cualquier valor después en el editor",
+      "map_difficulty_hint": "En {map}, la dificultad oficial deja a los dinos salvajes hasta nivel {level}. Los presets que fijan la dificultad la pisan.",
       "from_scratch": {
         "label": "Configurar desde cero",
         "description": "Empieza con todos los settings al default de ARK y modifica lo que quieras manualmente."
@@ -4684,7 +4686,7 @@
     "import_recognized": "{count} ajustes reconocidos por el catálogo",
     "import_unrecognized": "{count} claves desconocidas (preservadas para el próximo export)",
     "import_skipped": "{count} ajustes ignorados por incompatibilidad de tipo",
-    "import_parser_errors": "{count} líneas con error de parseo (omitidas)",
+    "import_parser_errors": "{count} líneas que el catálogo no supo interpretar — se conservan tal cual en el export",
     "export_written_in": "Archivos escritos en",
     "export_warnings": "Advertencias del exporter:",
     "preset_applied": "Preset aplicado",

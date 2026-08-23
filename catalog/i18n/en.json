@@ -44,6 +44,7 @@
     "client": "Graphics / Client"
   },
   "presets": {
+    "wild_level_line": "Wild dinos up to level {level}",
     "section_speed": "Speed",
     "section_mode": "Game modes",
     "section_focal": "Quick adjustments",
@@ -3932,6 +3933,7 @@
     "preset": {
       "title": "What playstyle?",
       "subtitle": "You can adjust any value later in the editor",
+      "map_difficulty_hint": "On {map}, official difficulty caps wild dinos at level {level}. Presets that set difficulty override it.",
       "from_scratch": {
         "label": "Configure from scratch",
         "description": "Start with all ARK defaults and modify what you want manually."
@@ -4684,7 +4686,7 @@
     "import_recognized": "{count} settings recognised by the catalog",
     "import_unrecognized": "{count} unknown keys (preserved for the next export)",
     "import_skipped": "{count} settings skipped due to a type mismatch",
-    "import_parser_errors": "{count} lines with parse errors (skipped)",
+    "import_parser_errors": "{count} lines the catalog could not interpret — kept verbatim in the export",
     "export_written_in": "Files written to",
     "export_warnings": "Exporter warnings:",
     "preset_applied": "Preset applied",

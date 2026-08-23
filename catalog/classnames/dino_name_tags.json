@@ -1,36 +1,1173 @@
 [
-  { "value": "Allo", "label": "Allosaurus" },
-  { "value": "Ankylo", "label": "Ankylosaurus" },
-  { "value": "Argent", "label": "Argentavis" },
-  { "value": "Beaver", "label": "Castoroides" },
-  { "value": "Bronto", "label": "Brontosaurus" },
-  { "value": "Carno", "label": "Carnotaurus" },
-  { "value": "Compy", "label": "Compy" },
-  { "value": "Daeodon", "label": "Daeodon" },
-  { "value": "Dilo", "label": "Dilophosaur" },
-  { "value": "Direbear", "label": "Dire Bear" },
-  { "value": "Direwolf", "label": "Direwolf" },
-  { "value": "Dodo", "label": "Dodo" },
-  { "value": "Doed", "label": "Doedicurus" },
-  { "value": "Equus", "label": "Equus" },
-  { "value": "Galli", "label": "Gallimimus" },
-  { "value": "Giga", "label": "Giganotosaurus" },
-  { "value": "Mammoth", "label": "Mammoth" },
-  { "value": "Megalodon", "label": "Megalodon" },
-  { "value": "Mosa", "label": "Mosasaurus" },
-  { "value": "Pachy", "label": "Pachycephalosaurus" },
-  { "value": "Paracer", "label": "Paraceratherium" },
-  { "value": "Para", "label": "Parasaur" },
-  { "value": "Ptero", "label": "Pteranodon" },
-  { "value": "Quetz", "label": "Quetzal" },
-  { "value": "Raptor", "label": "Raptor" },
-  { "value": "Rex", "label": "Tyrannosaurus" },
-  { "value": "Saber", "label": "Sabertooth" },
-  { "value": "Sarco", "label": "Sarcosuchus" },
-  { "value": "Spino", "label": "Spinosaurus" },
-  { "value": "Stego", "label": "Stegosaurus" },
-  { "value": "Therizino", "label": "Therizinosaur" },
-  { "value": "Trike", "label": "Triceratops" },
-  { "value": "Wyvern", "label": "Wyvern" },
-  { "value": "Yutyrannus", "label": "Yutyrannus" }
+  {
+    "value": "Achatina",
+    "label": "Achatina"
+  },
+  {
+    "value": "Acro",
+    "label": "X-Acrocanthosaurus — Genesis: Part 1",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Acrocanthosaurus",
+    "label": "Acrocanthosaurus",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Allo",
+    "label": "Allosaurus"
+  },
+  {
+    "value": "Amarga",
+    "label": "Amargasaurus — Lost Island",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Ammonite",
+    "label": "Ammonite"
+  },
+  {
+    "value": "Andrewsarchus",
+    "label": "Andrewsarchus — Fjordur",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "AngelFox",
+    "label": "Solwyn — Lost Colony",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Angler",
+    "label": "Anglerfish"
+  },
+  {
+    "value": "Anky",
+    "label": "Ankylosaurus"
+  },
+  {
+    "value": "Ant",
+    "label": "Titanomyrma"
+  },
+  {
+    "value": "Archa",
+    "label": "Archaeopteryx"
+  },
+  {
+    "value": "Archelon",
+    "label": "Archelon"
+  },
+  {
+    "value": "Argent",
+    "label": "Argentavis"
+  },
+  {
+    "value": "Arthro",
+    "label": "Arthropluera"
+  },
+  {
+    "value": "Arthro Corrupt",
+    "label": "Corrupted Arthropluera — Extinction"
+  },
+  {
+    "value": "Astrodelphis",
+    "label": "Astrodelphis — Genesis: Part 2",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Axolotl_Large",
+    "label": "Tidepup (Large)",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Axolotl_Small",
+    "label": "Tidepup",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Baryonyx",
+    "label": "Baryonyx"
+  },
+  {
+    "value": "Basilisk",
+    "label": "Basilisk — Aberration"
+  },
+  {
+    "value": "Basilosaurus",
+    "label": "Basilosaurus"
+  },
+  {
+    "value": "Bat",
+    "label": "Onyc"
+  },
+  {
+    "value": "Beaver",
+    "label": "Castoroides"
+  },
+  {
+    "value": "Bee",
+    "label": "Giant Bee"
+  },
+  {
+    "value": "Beetle",
+    "label": "Dung Beetle"
+  },
+  {
+    "value": "Bigfoot",
+    "label": "Yeti"
+  },
+  {
+    "value": "Bigly",
+    "label": "Brute Ferox — Genesis: Part 1",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Bison",
+    "label": "Bison",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Bloodstalker",
+    "label": "Bloodstalker — Genesis: Part 1",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Bone Raptor",
+    "label": "Skeletal Raptor"
+  },
+  {
+    "value": "Bone Rex",
+    "label": "Skeletal Rex"
+  },
+  {
+    "value": "BossBat",
+    "label": "Gigadesmodus — Lost Colony",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "BrainSlug",
+    "label": "Noglin — Genesis: Part 2",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Bronto",
+    "label": "Brontosaurus"
+  },
+  {
+    "value": "Camelsaurus",
+    "label": "Morellatops — Scorched Earth"
+  },
+  {
+    "value": "Carcha",
+    "label": "Carcharodontosaurus"
+  },
+  {
+    "value": "Carno",
+    "label": "Carnotaurus"
+  },
+  {
+    "value": "Carno Corrupt",
+    "label": "Corrupted Carnotaurus — Extinction"
+  },
+  {
+    "value": "Cat",
+    "label": "Cat",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "CaveCrab",
+    "label": "Karkinos — Aberration"
+  },
+  {
+    "value": "CaveWolf",
+    "label": "Ravager — Aberration"
+  },
+  {
+    "value": "CeratosaurusAA",
+    "label": "Ceratosaurus",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Chalico",
+    "label": "Corrupted Chalicotherium — Extinction"
+  },
+  {
+    "value": "Chalicotherium",
+    "label": "Chalicotherium"
+  },
+  {
+    "value": "Chupacabra",
+    "label": "Nameless — Aberration"
+  },
+  {
+    "value": "Cnidaria",
+    "label": "Cnidaria"
+  },
+  {
+    "value": "Coel",
+    "label": "Coelacanth"
+  },
+  {
+    "value": "Compy",
+    "label": "Compy"
+  },
+  {
+    "value": "Cryolophosaurus",
+    "label": "Cryolophosaurus"
+  },
+  {
+    "value": "Daeodon",
+    "label": "Daeodon"
+  },
+  {
+    "value": "DarkPegasus",
+    "label": "Dreadmare",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Deathworm",
+    "label": "Deathworm — Scorched Earth"
+  },
+  {
+    "value": "Deinonychus",
+    "label": "Deinonychus"
+  },
+  {
+    "value": "Deinosuchus",
+    "label": "X-Deinosuchus — Genesis: Part 1",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "DeinosuchusAA",
+    "label": "Deinosuchus",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "DeinotheriumASA",
+    "label": "Deinotherium",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "DesertTitan",
+    "label": "Desert Titan — Extinction"
+  },
+  {
+    "value": "Desmodus",
+    "label": "Desmodus — Fjordur",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "DevilFox",
+    "label": "Malwyn — Lost Colony",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Dilo",
+    "label": "Dilophosaur"
+  },
+  {
+    "value": "Dilo Corrupt",
+    "label": "Corrupted Dilophosaur — Extinction"
+  },
+  {
+    "value": "Dimetro",
+    "label": "Dimetrodon"
+  },
+  {
+    "value": "Dimorph",
+    "label": "Dimorphodon"
+  },
+  {
+    "value": "Dimorph Corrupt",
+    "label": "Corrupted Dimorphodon — Extinction"
+  },
+  {
+    "value": "Dinopithecus",
+    "label": "Dinopithecus — Lost Island",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Diplo",
+    "label": "Diplodocus"
+  },
+  {
+    "value": "Diplocaulus",
+    "label": "Diplocaulus"
+  },
+  {
+    "value": "Direbear",
+    "label": "Dire Bear"
+  },
+  {
+    "value": "Direwolf",
+    "label": "Direwolf"
+  },
+  {
+    "value": "Dodo",
+    "label": "Dodo"
+  },
+  {
+    "value": "DodoRex",
+    "label": "DodoRex"
+  },
+  {
+    "value": "Doed",
+    "label": "Doedicurus"
+  },
+  {
+    "value": "Doggo",
+    "label": "Armadoggo",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Dolphin",
+    "label": "Ichthyosaurus"
+  },
+  {
+    "value": "Dragonfly",
+    "label": "Meganeura"
+  },
+  {
+    "value": "Dreadnoughtus",
+    "label": "Dreadnoughtus",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Dunkle",
+    "label": "Dunkleosteus"
+  },
+  {
+    "value": "Eel",
+    "label": "Electrophorus"
+  },
+  {
+    "value": "EelBoss",
+    "label": "Beta Moeder, Master of the Ocean — Genesis: Part 1",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Elite Basilisk",
+    "label": "Alpha Basilisk — Aberration"
+  },
+  {
+    "value": "Elite Carno",
+    "label": "Alpha Carno"
+  },
+  {
+    "value": "Elite CaveCrab",
+    "label": "Alpha Karkinos — Aberration"
+  },
+  {
+    "value": "Elite Mega",
+    "label": "Alpha Megalodon"
+  },
+  {
+    "value": "Elite Raptor",
+    "label": "Alpha Raptor"
+  },
+  {
+    "value": "Elite Rex",
+    "label": "Alpha T-Rex"
+  },
+  {
+    "value": "Elite Rex Corrupt",
+    "label": "Enraged Corrupted Rex — Extinction"
+  },
+  {
+    "value": "Elite Xenomorph",
+    "label": "Alpha Surface Reaper King — Aberration"
+  },
+  {
+    "value": "EndTank",
+    "label": "Defense Unit — Extinction"
+  },
+  {
+    "value": "Enforcer",
+    "label": "Enforcer — Extinction"
+  },
+  {
+    "value": "Equus",
+    "label": "Equus"
+  },
+  {
+    "value": "Euryp",
+    "label": "Eurypterid"
+  },
+  {
+    "value": "Exosuit",
+    "label": "Exo-Mek — Genesis: Part 2",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Fasola",
+    "label": "Fasolasuchus",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Fenrir Wolf",
+    "label": "Fenrir — Fjordur",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "FireLion",
+    "label": "Pyromane",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Fjordhawk",
+    "label": "Fjordhawk — Fjordur",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Flock",
+    "label": "Desert Titan Flock — Extinction"
+  },
+  {
+    "value": "ForestTitan",
+    "label": "Forest Titan — Extinction"
+  },
+  {
+    "value": "Gacha",
+    "label": "Gacha — Extinction"
+  },
+  {
+    "value": "Galli",
+    "label": "Gallimimus"
+  },
+  {
+    "value": "GasBags",
+    "label": "Gasbags"
+  },
+  {
+    "value": "GiantTurtle",
+    "label": "Megachelon — Genesis: Part 1",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Gigant",
+    "label": "Giganotosaurus"
+  },
+  {
+    "value": "Gigant Corrupt",
+    "label": "Corrupted Giganotosaurus — Extinction"
+  },
+  {
+    "value": "Gigantoraptor",
+    "label": "Gigantoraptor",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "GrandTortugar",
+    "label": "Grand Tortugar",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Gremlin",
+    "label": "Ferox — Genesis: Part 1",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Griffin",
+    "label": "Griffin"
+  },
+  {
+    "value": "Helicoprion",
+    "label": "Helicoprion"
+  },
+  {
+    "value": "Hesperornis",
+    "label": "Hesperornis"
+  },
+  {
+    "value": "Hover Skiff",
+    "label": "Hover Skiff — Genesis: Part 1",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Hyaenodon",
+    "label": "Hyaenodon"
+  },
+  {
+    "value": "IceTitan",
+    "label": "Ice Titan — Extinction"
+  },
+  {
+    "value": "Ichthyornis",
+    "label": "Ichthyornis"
+  },
+  {
+    "value": "Iguanodon",
+    "label": "Iguanodon"
+  },
+  {
+    "value": "InsectSwarm",
+    "label": "Insect Swarm — Genesis: Part 1",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Jerboa",
+    "label": "Jerboa — Scorched Earth"
+  },
+  {
+    "value": "Jugbug",
+    "label": "Jug Bug — Scorched Earth"
+  },
+  {
+    "value": "JumpingSpider",
+    "label": "Cosmo",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Kairu",
+    "label": "Kairuku"
+  },
+  {
+    "value": "Kangaroo",
+    "label": "Procoptodon"
+  },
+  {
+    "value": "Kaprosuchus",
+    "label": "Kaprosuchus"
+  },
+  {
+    "value": "Kentro",
+    "label": "Kentrosaurus"
+  },
+  {
+    "value": "King Titan",
+    "label": "Beta King Titan — Extinction"
+  },
+  {
+    "value": "KingTitanAlpha",
+    "label": "Alpha King Titan — Extinction"
+  },
+  {
+    "value": "Lamprey",
+    "label": "Lamprey — Aberration"
+  },
+  {
+    "value": "Lantern Bird",
+    "label": "Featherlight — Aberration"
+  },
+  {
+    "value": "Lantern Goat",
+    "label": "Shinehorn — Aberration"
+  },
+  {
+    "value": "Lantern Lizard",
+    "label": "Glowtail — Aberration"
+  },
+  {
+    "value": "LavaLizard",
+    "label": "Magmasaur — Genesis: Part 1",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Leech",
+    "label": "Leech"
+  },
+  {
+    "value": "Leedsichthys",
+    "label": "Leedsichthys"
+  },
+  {
+    "value": "Lightbug",
+    "label": "Glowbug — Aberration"
+  },
+  {
+    "value": "Lionfish Lion",
+    "label": "Shadowmane — Genesis: Part 2",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Liopleurodon",
+    "label": "Liopleurodon"
+  },
+  {
+    "value": "LostCharge",
+    "label": "Gloon — Lost Colony",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Lystro",
+    "label": "Lystrosaurus"
+  },
+  {
+    "value": "Macrophage",
+    "label": "Macrophage — Genesis: Part 2",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Maelizard",
+    "label": "Maeguana",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Maewing",
+    "label": "Maewing — Genesis: Part 2",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Mammoth",
+    "label": "Mammoth"
+  },
+  {
+    "value": "Managarmr",
+    "label": "Managarmr — Extinction"
+  },
+  {
+    "value": "Manta",
+    "label": "Manta"
+  },
+  {
+    "value": "Manticore",
+    "label": "Manticore (Beta) — Scorched Earth"
+  },
+  {
+    "value": "Mantis",
+    "label": "Mantis — Scorched Earth"
+  },
+  {
+    "value": "Mega",
+    "label": "Megalodon"
+  },
+  {
+    "value": "Megalania",
+    "label": "Megalania"
+  },
+  {
+    "value": "Megalosaurus",
+    "label": "Megalosaurus"
+  },
+  {
+    "value": "MegaMek",
+    "label": "Mega Mek — Extinction"
+  },
+  {
+    "value": "Megaraptor",
+    "label": "Megaraptor",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Megatherium",
+    "label": "Megatherium"
+  },
+  {
+    "value": "Mek",
+    "label": "Mek — Extinction"
+  },
+  {
+    "value": "Microraptor",
+    "label": "Microraptor"
+  },
+  {
+    "value": "MoleRat",
+    "label": "Roll Rat — Aberration"
+  },
+  {
+    "value": "Monkey",
+    "label": "Mesopithecus"
+  },
+  {
+    "value": "Mosasaur",
+    "label": "Mosasaurus"
+  },
+  {
+    "value": "Moschops",
+    "label": "Moschops"
+  },
+  {
+    "value": "Moth",
+    "label": "Lymantria — Scorched Earth"
+  },
+  {
+    "value": "Oasisaur",
+    "label": "Oasisaur",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Otter",
+    "label": "Otter"
+  },
+  {
+    "value": "Ovi",
+    "label": "Oviraptor"
+  },
+  {
+    "value": "Oviraptor",
+    "label": "Aberrant Oviraptor"
+  },
+  {
+    "value": "Owl",
+    "label": "Snow Owl"
+  },
+  {
+    "value": "Pachy",
+    "label": "Pachy"
+  },
+  {
+    "value": "Pachyrhinosaurus",
+    "label": "Pachyrhinosaurus"
+  },
+  {
+    "value": "Paleoctopus",
+    "label": "Palaeoctopus",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Para",
+    "label": "Parasaur"
+  },
+  {
+    "value": "Paracer",
+    "label": "Paraceratherium"
+  },
+  {
+    "value": "Parrot",
+    "label": "Parrot",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Pegomastax",
+    "label": "Pegomastax"
+  },
+  {
+    "value": "Pela",
+    "label": "Pelagornis"
+  },
+  {
+    "value": "Phiomia",
+    "label": "Phiomia"
+  },
+  {
+    "value": "Phoenix",
+    "label": "Phoenix — Scorched Earth"
+  },
+  {
+    "value": "Piranha",
+    "label": "Piranha"
+  },
+  {
+    "value": "Plesiosaur",
+    "label": "Plesiosaur"
+  },
+  {
+    "value": "Ptera",
+    "label": "Pteranodon"
+  },
+  {
+    "value": "Ptera Corrupt",
+    "label": "Corrupted Pteranodon — Extinction"
+  },
+  {
+    "value": "Pug",
+    "label": "Bulbdog — Aberration"
+  },
+  {
+    "value": "Purlovia",
+    "label": "Purlovia"
+  },
+  {
+    "value": "Quetz",
+    "label": "Quetzal"
+  },
+  {
+    "value": "Raptor",
+    "label": "Raptor"
+  },
+  {
+    "value": "Raptor Corrupt",
+    "label": "Corrupted Raptor — Extinction"
+  },
+  {
+    "value": "RareSalmon",
+    "label": "Rare X-Sabertooth Salmon — Genesis: Part 1",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Rex",
+    "label": "Rex"
+  },
+  {
+    "value": "Rex Corrupt",
+    "label": "Corrupted Rex — Extinction"
+  },
+  {
+    "value": "Rhino",
+    "label": "Woolly Rhino"
+  },
+  {
+    "value": "Rhynio",
+    "label": "Rhyniognatha"
+  },
+  {
+    "value": "RockDrake",
+    "label": "Rock Drake — Aberration"
+  },
+  {
+    "value": "RockDrake Corrupt",
+    "label": "Corrupted Rock Drake — Extinction"
+  },
+  {
+    "value": "RockElemental",
+    "label": "Rock Elemental"
+  },
+  {
+    "value": "Rockwell",
+    "label": "Rockwell — Aberration"
+  },
+  {
+    "value": "RockwellPrime",
+    "label": "Rockwell Prime — Genesis: Part 2",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "RockwellTentacle",
+    "label": "Rockwell Tentacle — Aberration"
+  },
+  {
+    "value": "Sabertooth",
+    "label": "Sabertooth"
+  },
+  {
+    "value": "Salmon",
+    "label": "Sabertooth Salmon"
+  },
+  {
+    "value": "Sarco",
+    "label": "Sarco"
+  },
+  {
+    "value": "Scorpion",
+    "label": "Pulmonoscorpius"
+  },
+  {
+    "value": "Scout",
+    "label": "Scout — Extinction"
+  },
+  {
+    "value": "Seeker",
+    "label": "Seeker"
+  },
+  {
+    "value": "Shasta",
+    "label": "Shastasaurus",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Sheep",
+    "label": "Ovis"
+  },
+  {
+    "value": "ShoulderDragon",
+    "label": "Autumn Drakeling",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Sino",
+    "label": "Sinomacrops — Lost Island",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "SnowDragon",
+    "label": "Aureliax — Lost Colony",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "SnowMonster",
+    "label": "Ossidon — Lost Colony",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Space Whale",
+    "label": "Astrocetus — Genesis: Part 1",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Spider",
+    "label": "Araneo"
+  },
+  {
+    "value": "SpineyLizard",
+    "label": "Thorny Dragon — Scorched Earth"
+  },
+  {
+    "value": "Spino",
+    "label": "Spino"
+  },
+  {
+    "value": "Spino Corrupt",
+    "label": "Corrupted Spino — Extinction"
+  },
+  {
+    "value": "SpiritBear",
+    "label": "Elderclaw",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Stag",
+    "label": "Megaloceros"
+  },
+  {
+    "value": "Stego",
+    "label": "Stegosaurus"
+  },
+  {
+    "value": "Stego Corrupt",
+    "label": "Corrupted Stegosaurus — Extinction"
+  },
+  {
+    "value": "Summoner",
+    "label": "Summoner — Genesis: Part 2",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Swarm",
+    "label": "Parakeet Fish School — Genesis: Part 1",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "Tapejara",
+    "label": "Tapejara"
+  },
+  {
+    "value": "TekStrider",
+    "label": "Tek Stryder — Genesis: Part 2",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "TekWyvern",
+    "label": "Voidwyrm — Genesis: Part 2",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "TerrorBird",
+    "label": "Terror Bird"
+  },
+  {
+    "value": "Therizinosaurus",
+    "label": "Therizinosaur"
+  },
+  {
+    "value": "Thylacoleo",
+    "label": "Thylacoleo"
+  },
+  {
+    "value": "Titan",
+    "label": "Titanosaur"
+  },
+  {
+    "value": "Titanboa",
+    "label": "Aberrant Titanoboa"
+  },
+  {
+    "value": "TitanBoa",
+    "label": "Titanoboa"
+  },
+  {
+    "value": "Toad",
+    "label": "Beelzebufo"
+  },
+  {
+    "value": "Trike",
+    "label": "Triceratops"
+  },
+  {
+    "value": "Trilobite",
+    "label": "Trilobite"
+  },
+  {
+    "value": "Troodon",
+    "label": "Troodon"
+  },
+  {
+    "value": "Tropeognathus",
+    "label": "Tropeognathus"
+  },
+  {
+    "value": "Turtle",
+    "label": "Carbonemys"
+  },
+  {
+    "value": "Tusoteuthis",
+    "label": "Tusoteuthis"
+  },
+  {
+    "value": "Umbra",
+    "label": "Umbra — Dragontopia",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Velonasaur",
+    "label": "Velonasaur"
+  },
+  {
+    "value": "Vulture",
+    "label": "Vulture — Scorched Earth"
+  },
+  {
+    "value": "Wyvern",
+    "label": "Wyvern"
+  },
+  {
+    "value": "Xenomorph",
+    "label": "Reaper King"
+  },
+  {
+    "value": "Xenomorph Corrupt",
+    "label": "Corrupted Reaper King — Extinction"
+  },
+  {
+    "value": "Xiphactinus",
+    "label": "X-Xiphactinus — Genesis: Part 1",
+    "games": [
+      "ase"
+    ]
+  },
+  {
+    "value": "XiphactinusAA",
+    "label": "Xiphactinus",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "YiLing",
+    "label": "Yi Ling",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "YoungIceFox",
+    "label": "Veilwyn — Lost Colony",
+    "games": [
+      "asa"
+    ]
+  },
+  {
+    "value": "Yutyrannus",
+    "label": "Yutyrannus"
+  }
 ]
