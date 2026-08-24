@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-08-24T14:01:13.617Z",
+  "catalogVersion": "0.1.0",
+  "coreSettings": 252,
+  "categories": 11,
+  "mods": 52,
+  "modSettings": 1495,
+  "topMods": [
+    {
+      "name": "Structures Plus",
+      "game": "ase",
+      "settings": 288
+    },
+    {
+      "name": "Super Structures",
+      "game": "ase",
+      "settings": 274
+    },
+    {
+      "name": "Kraken's Better Dinos",
+      "game": "ase",
+      "settings": 231
+    }
+  ],
+  "workshopRegistry": 1000,
+  "presets": 16,
+  "commands": 118,
+  "commandCategories": 7,
+  "items": 1542,
+  "dinos": 167,
+  "engrams": 536,
+  "maps": 13,
+  "breedingSpecies": 130
+}

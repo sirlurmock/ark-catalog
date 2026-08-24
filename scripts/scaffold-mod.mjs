@@ -235,6 +235,13 @@ function runSpecMode(specPath) {
     game: spec.game,
     source: spec.source ?? "community",
     ...(spec.workshopUrl ? { workshopUrl: spec.workshopUrl } : {}),
+    // Las mods de ASA viven en CurseForge, no en el Workshop: sin esto la URL
+    // del spec se perdia en silencio y la entrada quedaba sin link.
+    ...(spec.curseforgeUrl ? { curseforgeUrl: spec.curseforgeUrl } : {}),
+    // El ID numerico de CurseForge NO esta en la URL (que lleva el slug) y es
+    // distinto al del Workshop de la misma mod en ASE. Es lo que necesita
+    // `-mods=` para arrancar un dedicado ASA con las mods puestas.
+    ...(spec.curseforgeId ? { curseforgeId: String(spec.curseforgeId) } : {}),
     ...(spec.alsoWorkshopIds ? { alsoWorkshopIds: spec.alsoWorkshopIds } : {}),
     ...(spec.searchAliases ? { searchAliases: spec.searchAliases } : {}),
     settings,

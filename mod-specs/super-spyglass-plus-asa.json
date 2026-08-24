@@ -1,0 +1,300 @@
+{
+  "_source": "Página de CurseForge de la versión ASA (https://www.curseforge.com/ark-survival-ascended/mods/super-spyglass-plus, project 929420), sección [SuperSpyglassPlus] de GameUserSettings.ini. Corroborado contra arkcodes.com/mods/929420/super-spyglass-plus/ el 2026-08-24: las dos fuentes coinciden en las 20 claves, tipos y defaults.",
+  "_diff_ase": "La versión ASA expone las 14 claves de ASE (ver super-spyglass-plus.json) más 6: OutlineRange, UseESPOutline, UseESPOutlineFill, DontShowAnyStatsOnWildDino, DisableGeneTraitInfo y DisableStatCompare. DisableGeneTraitInfo es coherente con que los rasgos genéticos son exclusivos de ASA.",
+  "_modid": "Es SuperSpyglassPlusASA y no SuperSpyglassPlus a propósito: el loader indexa `modsById` por modId sin el juego, así que dos entradas con el mismo modId se pisan en silencio. La sección del .ini sí es SuperSpyglassPlus, declarada abajo en `section`.",
+  "_classnames": "Sin classnames: los blueprint paths de ASA no son necesariamente los de ASE y no encontré una fuente que los liste para esta versión. Un path inventado le da al usuario un comando GiveItem que falla, que es peor que no ofrecer autocompletado.",
+  "modId": "SuperSpyglassPlusASA",
+  "name": "Super Spyglass Plus",
+  "game": "asa",
+  "source": "community",
+  "section": "SuperSpyglassPlus",
+  "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/super-spyglass-plus",
+  "curseforgeId": "929420",
+  "prefix": "super_spyglass_plus_asa",
+  "searchAliases": ["catalejo", "spyglass", "mirilla", "super catalejo"],
+  "settings": [
+    {
+      "key": "DisableNightVision",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Desactivar visión nocturna",
+        "description": "Quita la visión nocturna del catalejo. Default: desactivado (visión nocturna disponible)."
+      },
+      "en": {
+        "label": "Disable night vision",
+        "description": "Removes the spyglass night vision. Default: disabled (night vision available)."
+      }
+    },
+    {
+      "key": "DisablePredatorVision",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Desactivar visión de depredador",
+        "description": "Quita el modo de visión de depredador del catalejo. Default: desactivado (disponible)."
+      },
+      "en": {
+        "label": "Disable predator vision",
+        "description": "Removes the spyglass predator vision mode. Default: disabled (available)."
+      }
+    },
+    {
+      "key": "DisableOutlineMode",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Desactivar modo contorno",
+        "description": "Quita el resaltado con contorno de las criaturas y estructuras vistas por el catalejo. Default: desactivado (contorno disponible)."
+      },
+      "en": {
+        "label": "Disable outline mode",
+        "description": "Removes the outline highlight on creatures and structures seen through the spyglass. Default: disabled (outline available)."
+      }
+    },
+    {
+      "key": "DisableSupplyDropInfo",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Ocultar contenido de las balizas",
+        "description": "Deja de mostrar qué trae un supply drop al apuntarle. En servidores PvP es lo que evita que se camping-een las balizas buenas. Default: desactivado (se muestra el contenido)."
+      },
+      "en": {
+        "label": "Hide supply drop contents",
+        "description": "Stops showing what a supply drop contains when you aim at it. On PvP servers this is what keeps good drops from being camped. Default: disabled (contents are shown)."
+      }
+    },
+    {
+      "key": "DisableItembagInfo",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Ocultar contenido de las bolsas",
+        "description": "Deja de mostrar qué hay dentro de una bolsa de items (death bag) al apuntarle. Default: desactivado (se muestra el contenido)."
+      },
+      "en": {
+        "label": "Hide item bag contents",
+        "description": "Stops showing what is inside a dropped item bag (death bag) when you aim at it. Default: disabled (contents are shown)."
+      }
+    },
+    {
+      "key": "DisableStructureInfo",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Ocultar info de estructuras",
+        "description": "Deja de mostrar los datos de una estructura (vida, tribu, estado) al apuntarle. Default: desactivado (se muestra la info)."
+      },
+      "en": {
+        "label": "Hide structure info",
+        "description": "Stops showing a structure's data (health, tribe, state) when you aim at it. Default: disabled (info is shown)."
+      }
+    },
+    {
+      "key": "DisableBuffInfo",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Ocultar buffs activos",
+        "description": "Deja de mostrar los buffs y debuffs que tiene encima el objetivo. Default: desactivado (se muestran)."
+      },
+      "en": {
+        "label": "Hide active buffs",
+        "description": "Stops showing the buffs and debuffs the target currently has. Default: disabled (they are shown)."
+      }
+    },
+    {
+      "key": "DisableTameFoodInfo",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Ocultar comida de doma",
+        "description": "Deja de mostrar qué come una criatura salvaje y cuánto necesita para domarla. Default: desactivado (se muestra)."
+      },
+      "en": {
+        "label": "Hide taming food info",
+        "description": "Stops showing what a wild creature eats and how much it needs to be tamed. Default: disabled (it is shown)."
+      }
+    },
+    {
+      "key": "DisableEggInfo",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Ocultar info de huevos",
+        "description": "Deja de mostrar los datos de un huevo (especie, stats, progreso de incubación) al apuntarle. Default: desactivado (se muestra)."
+      },
+      "en": {
+        "label": "Hide egg info",
+        "description": "Stops showing an egg's data (species, stats, incubation progress) when you aim at it. Default: disabled (it is shown)."
+      }
+    },
+    {
+      "key": "DisableTheSpyglassOnEnemyTribes",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Inutilizar el catalejo con tribus enemigas",
+        "description": "El catalejo no da información sobre nada que pertenezca a otra tribu. El ajuste PvP más fuerte de la mod: sin él, el catalejo es reconocimiento gratis. Default: desactivado (funciona con todos)."
+      },
+      "en": {
+        "label": "Disable the spyglass on enemy tribes",
+        "description": "The spyglass gives no information about anything belonging to another tribe. The mod's strongest PvP setting: without it, the spyglass is free recon. Default: disabled (works on everyone)."
+      }
+    },
+    {
+      "key": "OnlyShowStatsForTames",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Mostrar stats solo de criaturas domadas",
+        "description": "Los stats aparecen únicamente en criaturas ya domadas, no en salvajes. Obliga a domar para saber qué te llevás, sin quitar el catalejo del juego. Default: desactivado (también en salvajes)."
+      },
+      "en": {
+        "label": "Only show stats for tames",
+        "description": "Stats only appear on already-tamed creatures, not on wild ones. Forces you to tame to find out what you got, without removing the spyglass from the game. Default: disabled (wild ones too)."
+      }
+    },
+    {
+      "key": "DisableGPS",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Desactivar GPS",
+        "description": "Quita las coordenadas que el catalejo muestra en pantalla. Default: desactivado (GPS visible)."
+      },
+      "en": {
+        "label": "Disable GPS",
+        "description": "Removes the coordinates the spyglass shows on screen. Default: disabled (GPS visible)."
+      }
+    },
+    {
+      "key": "DisableCrosshair",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Desactivar mira",
+        "description": "Quita la retícula del catalejo. Default: desactivado (mira visible)."
+      },
+      "en": {
+        "label": "Disable crosshair",
+        "description": "Removes the spyglass reticle. Default: disabled (crosshair visible)."
+      }
+    },
+    {
+      "key": "OnlyHPonEnemyTribeDinos",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "De criaturas enemigas, solo la vida",
+        "description": "En criaturas de otra tribu el catalejo muestra únicamente la vida, sin el resto de los stats. Término medio entre el catalejo completo y desactivarlo del todo en PvP. Default: desactivado (muestra todo)."
+      },
+      "en": {
+        "label": "Only HP on enemy tribe creatures",
+        "description": "On creatures from another tribe the spyglass shows health only, without the rest of the stats. A middle ground between the full spyglass and disabling it entirely in PvP. Default: disabled (shows everything)."
+      }
+    },
+    {
+      "key": "OutlineRange",
+      "kind": "integer",
+      "tier": "advanced",
+      "default": 15000,
+      "min": 0,
+      "max": 50000,
+      "step": 1000,
+      "es": {
+        "label": "Alcance del contorno",
+        "description": "Distancia en unidades de Unreal hasta la que el catalejo dibuja el contorno de lo que apuntás (15000 ≈ 150 m). Subirlo mucho en un servidor lleno cuesta rendimiento. Default: 15000."
+      },
+      "en": {
+        "label": "Outline range",
+        "description": "Distance in Unreal units up to which the spyglass draws the outline of what you aim at (15000 ≈ 150 m). Raising it a lot on a busy server costs performance. Default: 15000."
+      }
+    },
+    {
+      "key": "UseESPOutline",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Contorno tipo ESP",
+        "description": "El contorno se dibuja atravesando paredes y terreno, así que el objetivo se ve incluso tapado. Es reconocimiento a través de obstáculos: en PvP conviene pensarlo dos veces. Default: desactivado."
+      },
+      "en": {
+        "label": "ESP-style outline",
+        "description": "The outline draws through walls and terrain, so the target is visible even when covered. This is recon through obstacles: worth thinking twice about in PvP. Default: disabled."
+      }
+    },
+    {
+      "key": "UseESPOutlineFill",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Rellenar el contorno ESP",
+        "description": "Pinta la silueta completa en vez de solo el borde. Necesita el contorno tipo ESP activado. Default: desactivado."
+      },
+      "en": {
+        "label": "Fill the ESP outline",
+        "description": "Paints the whole silhouette instead of just its edge. Requires the ESP-style outline to be on. Default: disabled."
+      }
+    },
+    {
+      "key": "DontShowAnyStatsOnWildDino",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Ningún stat en criaturas salvajes",
+        "description": "El catalejo no muestra ni un stat de las criaturas salvajes: ni nivel repartido, ni vida, ni nada. Más estricto que «solo domadas», que sí deja ver el nivel. Default: desactivado."
+      },
+      "en": {
+        "label": "No stats at all on wild creatures",
+        "description": "The spyglass shows not a single stat on wild creatures: no stat distribution, no health, nothing. Stricter than \"tames only\", which still shows the level. Default: disabled."
+      }
+    },
+    {
+      "key": "DisableGeneTraitInfo",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Ocultar rasgos genéticos",
+        "description": "Deja de mostrar los rasgos genéticos (gene traits) de la criatura apuntada. Exclusivo de ASA: en ASE no existen. Default: desactivado (se muestran)."
+      },
+      "en": {
+        "label": "Hide gene traits",
+        "description": "Stops showing the gene traits of the creature you aim at. ASA-only: they do not exist in ASE. Default: disabled (they are shown)."
+      }
+    },
+    {
+      "key": "DisableStatCompare",
+      "kind": "boolean",
+      "tier": "advanced",
+      "default": false,
+      "es": {
+        "label": "Desactivar comparación de stats",
+        "description": "Quita la comparación que marca si un stat de la criatura apuntada es mejor o peor que el de la última que miraste. Default: desactivado (compara)."
+      },
+      "en": {
+        "label": "Disable stat comparison",
+        "description": "Removes the comparison that marks whether a stat on the creature you aim at is better or worse than the last one you looked at. Default: disabled (it compares)."
+      }
+    }
+  ]
+}
