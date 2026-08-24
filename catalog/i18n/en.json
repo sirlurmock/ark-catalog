@@ -4086,6 +4086,12 @@
       "curseforge_link": "View on CurseForge",
       "updated_at": "Updated on {date}",
       "verified_at": "Verified on {date} by {by}, against the author’s documentation"
+    },
+    "colossuscorpius_asa": {
+      "colossuscorpius_breeding": "Allow Colossuscorpius breeding",
+      "colossuscorpius_breeding.description": "Enables breeding for the creature. Set to False to disable it. Default: on.",
+      "colossuscorpius_damage_multiplier": "Colossuscorpius damage multiplier",
+      "colossuscorpius_damage_multiplier.description": "Scales the damage the creature deals. The author documents a 0.1 to 1.0 range: it can only bring the damage down, never up. Default 1.0."
     }
   },
   "mods_structures_plus": {

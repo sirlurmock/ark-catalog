@@ -1,0 +1,52 @@
+{
+  "_source": "Descripcion oficial del autor en CurseForge (https://www.curseforge.com/ark-survival-ascended/mods/colossuscorpius, proyecto 950891, autor GryphePadar), bloque de configuracion agregado en la actualizacion del 2024-02-20: seccion [Colossuscorpius] de GameUserSettings.ini con sus dos claves y sus defaults. Transcrito el 2026-08-24.",
+  "_seccion": "La pagina nombra DOS secciones y no son lo mismo: las dos claves de la mod van bajo [Colossuscorpius], y aparte menciona CrossARKAllowForeignDinoDownloads=True bajo [ServerSettings] como remedio para el error 'Class Disallowed' al transferir la criatura entre servidores. Esa segunda es una clave del juego, no de la mod, asi que no entra en esta entrada.",
+  "_pendiente": "CrossARKAllowForeignDinoDownloads no esta en el catalogo core. Es del juego base y aplica a cualquier mod de criaturas con transferencia entre ARKs, asi que su lugar es catalog/settings/general.json, no aca.",
+  "_rango": "El rango 0.1-1.0 del multiplicador de dano es el que declara el autor: la clave sirve para BAJARLE el dano a la criatura, no para subirlo. Se cataloga tal cual y no se extiende el maximo por las dudas.",
+  "_classnames": "Los spawn codes de la criatura ya estan en la entrada ASE (modId 1065416475), transcritos de su pagina del Workshop. No se copian aca: la publicacion de ASA es otra y sus classnames tendrian que salir de su propia pagina.",
+  "modId": "Colossuscorpius",
+  "name": "Colossuscorpius",
+  "game": "asa",
+  "source": "verified",
+  "verifiedBy": ["sirlurmock"],
+  "verifiedAt": "2026-08-24",
+  "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/colossuscorpius",
+  "curseforgeId": "950891",
+  "prefix": "colossuscorpius_asa",
+  "section": "Colossuscorpius",
+  "searchAliases": ["escorpion", "escorpion gigante", "colossus"],
+  "settings": [
+    {
+      "key": "ColossuscorpiusBreeding",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": true,
+      "es": {
+        "label": "Permitir la cría del Colossuscorpius",
+        "description": "Habilita la reproducción de la criatura. En False no se puede criar. Default: activado."
+      },
+      "en": {
+        "label": "Allow Colossuscorpius breeding",
+        "description": "Enables breeding for the creature. Set to False to disable it. Default: on."
+      }
+    },
+    {
+      "key": "ColossuscorpiusDamageMultiplier",
+      "kind": "float_multiplier",
+      "tier": "basic",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 1.0,
+      "step": 0.05,
+      "presets": [1, 0.5, 0.25, 0.1],
+      "es": {
+        "label": "Multiplicador de daño del Colossuscorpius",
+        "description": "Escala el daño que hace la criatura. El autor documenta un rango de 0.1 a 1.0: solo sirve para bajárselo, no para subirlo. Default 1.0."
+      },
+      "en": {
+        "label": "Colossuscorpius damage multiplier",
+        "description": "Scales the damage the creature deals. The author documents a 0.1 to 1.0 range: it can only bring the damage down, never up. Default 1.0."
+      }
+    }
+  ]
+}

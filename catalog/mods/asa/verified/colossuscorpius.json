@@ -1,0 +1,70 @@
+{
+  "modId": "Colossuscorpius",
+  "name": "Colossuscorpius",
+  "game": "asa",
+  "source": "verified",
+  "verifiedBy": [
+    "sirlurmock"
+  ],
+  "verifiedAt": "2026-08-24",
+  "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/colossuscorpius",
+  "curseforgeId": "950891",
+  "searchAliases": [
+    "escorpion",
+    "escorpion gigante",
+    "colossus"
+  ],
+  "settings": [
+    {
+      "id": "colossuscorpius_asa_colossuscorpius_breeding",
+      "key": "ColossuscorpiusBreeding",
+      "category": "mod_colossuscorpius_asa",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "Colossuscorpius",
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.colossuscorpius_asa.colossuscorpius_breeding"
+    },
+    {
+      "id": "colossuscorpius_asa_colossuscorpius_damage_multiplier",
+      "key": "ColossuscorpiusDamageMultiplier",
+      "category": "mod_colossuscorpius_asa",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "Colossuscorpius",
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1,
+        "min": 0.1,
+        "max": 1,
+        "step": 0.05,
+        "presets": [
+          1,
+          0.5,
+          0.25,
+          0.1
+        ]
+      },
+      "i18nKey": "mods.colossuscorpius_asa.colossuscorpius_damage_multiplier"
+    }
+  ]
+}
