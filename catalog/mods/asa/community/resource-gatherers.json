@@ -219,8 +219,8 @@
       ],
       "control": {
         "kind": "float_multiplier",
-        "default": 1.0,
-        "min": 0.0,
+        "default": 1,
+        "min": 0,
         "max": 100,
         "presets": [
           1,
@@ -425,5 +425,79 @@
       },
       "i18nKey": "mods.resource_gatherers.resource_overrides"
     }
-  ]
+  ],
+  "classNames": {
+    "items": [
+      {
+        "value": "/ResourceGatherers/Crafter/PrimalItemStructure_ResourceCrafter.PrimalItemStructure_ResourceCrafter",
+        "label": "RG: Crafter"
+      },
+      {
+        "value": "/ResourceGatherers/Gatherers/TierOne/PrimalItemStructure_Gatherer_TierOne.PrimalItemStructure_Gatherer_TierOne",
+        "label": "RG: Gatherer — tier 1"
+      },
+      {
+        "value": "/ResourceGatherers/Gatherers/TierThree/PrimalItemStructure_Gatherer_TierThree.PrimalItemStructure_Gatherer_TierThree",
+        "label": "RG: Gatherer — tier 3"
+      },
+      {
+        "value": "/ResourceGatherers/Gatherers/TierTwo/PrimalItemStructure_Gatherer_TierTwo.PrimalItemStructure_Gatherer_TierTwo",
+        "label": "RG: Gatherer — tier 2"
+      },
+      {
+        "value": "/ResourceGatherers/SpoilableDedicatedStorage/Engrams/PrimalItemStructure_RG_To_Vanilla.PrimalItemStructure_RG_To_Vanilla",
+        "label": "RG → Vanilla converter"
+      },
+      {
+        "value": "/ResourceGatherers/SpoilableDedicatedStorage/Engrams/PrimalItemStructure_Vanilla_To_RG.PrimalItemStructure_Vanilla_To_RG",
+        "label": "Vanilla → RG converter"
+      },
+      {
+        "value": "/ResourceGatherers/SpoilableDedicatedStorage/PrimalItemStructure_SpoilableDedicatedStorage.PrimalItemStructure_SpoilableDedicatedStorage",
+        "label": "Spoilable Dedicated Storage"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_ResourceCrafter_C",
+        "label": "RG: Crafter"
+      },
+      {
+        "value": "EngramEntry_Gatherer_TierOne_C",
+        "label": "RG: Gatherer — tier 1"
+      },
+      {
+        "value": "EngramEntry_Gatherer_TierThree_C",
+        "label": "RG: Gatherer — tier 3"
+      },
+      {
+        "value": "EngramEntry_Gatherer_TierTwo_C",
+        "label": "RG: Gatherer — tier 2"
+      },
+      {
+        "value": "EngramEntry_SpoilableDedicatedStorage_C",
+        "label": "Spoilable Dedicated Storage"
+      },
+      {
+        "value": "EngramEntry_RG_To_Vanilla_C",
+        "label": "RG → Vanilla converter"
+      },
+      {
+        "value": "EngramEntry_Vanilla_To_RG_C",
+        "label": "Vanilla → RG converter"
+      }
+    ]
+  },
+  "_classnamesSource": {
+    "items": {
+      "url": "https://arkcodes.com/mods/932365/resource-gatherers/items",
+      "fetchedAt": "2026-08-24",
+      "note": "arkcodes documenta la version ASA (proyecto 932365), que es la de esta entrada. SOLO entran las estructuras de la mod. Sus plantillas PrimalItemResource_Resource_* quedan AFUERA a proposito: la lista de arkcodes corta alfabeticamente en la B (ultimo item \"Beer\", ultimo engrama \"Berry\") y la mod cubre cientos de recursos, asi que catalogar ese pedazo sugeriria que del C en adelante no existe ninguno. Media lista es peor que ninguna. Para completarlas hace falta una fuente que las liste enteras."
+    },
+    "engrams": {
+      "url": "https://arkcodes.com/mods/932365/resource-gatherers/engrams",
+      "fetchedAt": "2026-08-24",
+      "note": "arkcodes documenta la version ASA (proyecto 932365), que es la de esta entrada. SOLO entran las estructuras de la mod. Sus plantillas PrimalItemResource_Resource_* quedan AFUERA a proposito: la lista de arkcodes corta alfabeticamente en la B (ultimo item \"Beer\", ultimo engrama \"Berry\") y la mod cubre cientos de recursos, asi que catalogar ese pedazo sugeriria que del C en adelante no existe ninguno. Media lista es peor que ninguna. Para completarlas hace falta una fuente que las liste enteras."
+    }
+  }
 }

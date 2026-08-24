@@ -66,5 +66,27 @@
       },
       "i18nKey": "mods.colossuscorpius_asa.colossuscorpius_damage_multiplier"
     }
-  ]
+  ],
+  "classNames": {
+    "items": [
+      {
+        "value": "/Colossuscorpius/Saddles/Platform/PrimalItemArmor_ColossuscorpiusSaddle_Platform.PrimalItemArmor_ColossuscorpiusSaddle_Platform",
+        "label": "Colossuscorpius Platform Saddle"
+      },
+      {
+        "value": "/Colossuscorpius/Saddles/Simple/PrimalItemArmor_ColossuscorpiusSaddle.PrimalItemArmor_ColossuscorpiusSaddle",
+        "label": "Colossuscorpius Saddle"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_Saddle_Colossuscorpius_Platform_C",
+        "label": "Colossuscorpius Platform Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Colossuscorpius_C",
+        "label": "Colossuscorpius Saddle"
+      }
+    ]
+  }
 }

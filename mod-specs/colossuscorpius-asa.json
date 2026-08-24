@@ -3,18 +3,24 @@
   "_seccion": "La pagina nombra DOS secciones y no son lo mismo: las dos claves de la mod van bajo [Colossuscorpius], y aparte menciona CrossARKAllowForeignDinoDownloads=True bajo [ServerSettings] como remedio para el error 'Class Disallowed' al transferir la criatura entre servidores. Esa segunda es una clave del juego, no de la mod, asi que no entra en esta entrada.",
   "_pendiente": "CrossARKAllowForeignDinoDownloads no esta en el catalogo core. Es del juego base y aplica a cualquier mod de criaturas con transferencia entre ARKs, asi que su lugar es catalog/settings/general.json, no aca.",
   "_rango": "El rango 0.1-1.0 del multiplicador de dano es el que declara el autor: la clave sirve para BAJARLE el dano a la criatura, no para subirlo. Se cataloga tal cual y no se extiende el maximo por las dudas.",
-  "_classnames": "Los spawn codes de la criatura ya estan en la entrada ASE (modId 1065416475), transcritos de su pagina del Workshop. No se copian aca: la publicacion de ASA es otra y sus classnames tendrian que salir de su propia pagina.",
+  "_classnames": "Las dos monturas salen de arkcodes, que documenta la version ASA (proyecto 950891) — la misma publicacion que esta entrada. NO se copian de la entrada ASE (modId 1065416475): sus paths llevan el prefijo /Game/Mods/ y los de ASA no. Falta la criatura en si: arkcodes tiene sus spawn codes en otra pagina y fetch-mod-classnames.mjs todavia solo sabe leer items y engramas.",
   "modId": "Colossuscorpius",
   "name": "Colossuscorpius",
   "game": "asa",
   "source": "verified",
-  "verifiedBy": ["sirlurmock"],
+  "verifiedBy": [
+    "sirlurmock"
+  ],
   "verifiedAt": "2026-08-24",
   "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/colossuscorpius",
   "curseforgeId": "950891",
   "prefix": "colossuscorpius_asa",
   "section": "Colossuscorpius",
-  "searchAliases": ["escorpion", "escorpion gigante", "colossus"],
+  "searchAliases": [
+    "escorpion",
+    "escorpion gigante",
+    "colossus"
+  ],
   "settings": [
     {
       "key": "ColossuscorpiusBreeding",
@@ -34,11 +40,16 @@
       "key": "ColossuscorpiusDamageMultiplier",
       "kind": "float_multiplier",
       "tier": "basic",
-      "default": 1.0,
+      "default": 1,
       "min": 0.1,
-      "max": 1.0,
+      "max": 1,
       "step": 0.05,
-      "presets": [1, 0.5, 0.25, 0.1],
+      "presets": [
+        1,
+        0.5,
+        0.25,
+        0.1
+      ],
       "es": {
         "label": "Multiplicador de daño del Colossuscorpius",
         "description": "Escala el daño que hace la criatura. El autor documenta un rango de 0.1 a 1.0: solo sirve para bajárselo, no para subirlo. Default 1.0."
@@ -48,5 +59,39 @@
         "description": "Scales the damage the creature deals. The author documents a 0.1 to 1.0 range: it can only bring the damage down, never up. Default 1.0."
       }
     }
-  ]
+  ],
+  "classNames": {
+    "items": [
+      {
+        "value": "/Colossuscorpius/Saddles/Platform/PrimalItemArmor_ColossuscorpiusSaddle_Platform.PrimalItemArmor_ColossuscorpiusSaddle_Platform",
+        "label": "Colossuscorpius Platform Saddle"
+      },
+      {
+        "value": "/Colossuscorpius/Saddles/Simple/PrimalItemArmor_ColossuscorpiusSaddle.PrimalItemArmor_ColossuscorpiusSaddle",
+        "label": "Colossuscorpius Saddle"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_Saddle_Colossuscorpius_Platform_C",
+        "label": "Colossuscorpius Platform Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Colossuscorpius_C",
+        "label": "Colossuscorpius Saddle"
+      }
+    ]
+  },
+  "_classnamesSource": {
+    "items": {
+      "url": "https://arkcodes.com/mods/950891/colossuscorpius/items",
+      "fetchedAt": "2026-08-24",
+      "note": "arkcodes, proyecto 950891 (la version ASA de esta entrada). Labels puestos a mano."
+    },
+    "engrams": {
+      "url": "https://arkcodes.com/mods/950891/colossuscorpius/engrams",
+      "fetchedAt": "2026-08-24",
+      "note": "arkcodes, proyecto 950891 (la version ASA de esta entrada). Labels puestos a mano."
+    }
+  }
 }

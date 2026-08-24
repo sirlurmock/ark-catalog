@@ -82,5 +82,143 @@
       },
       "i18nKey": "mods.bangin_tranqs.tier3_effect"
     }
-  ]
+  ],
+  "classNames": {
+    "items": [
+      {
+        "value": "/BanginTranqs/Blueprints/Arrows/Tier1/PrimalItemAmmo_BangArrowTranq.PrimalItemAmmo_BangArrowTranq",
+        "label": "Tranq Arrow — tier 1"
+      },
+      {
+        "value": "/BanginTranqs/Blueprints/Arrows/Tier2/PrimalItemAmmo_BangArrowTranq2.PrimalItemAmmo_BangArrowTranq2",
+        "label": "Tranq Arrow — tier 2"
+      },
+      {
+        "value": "/BanginTranqs/Blueprints/Arrows/Tier3/PrimalItemAmmo_BangArrowTranq3.PrimalItemAmmo_BangArrowTranq3",
+        "label": "Tranq Arrow — tier 3"
+      },
+      {
+        "value": "/BanginTranqs/Blueprints/Bullets/Tier1/PrimalItemAmmo_BangTranqSniperBullet.PrimalItemAmmo_BangTranqSniperBullet",
+        "label": "Tranq Sniper Bullet"
+      },
+      {
+        "value": "/BanginTranqs/Blueprints/Bullets/Tier1/PrimalItem_WeaponTranqSniper.PrimalItem_WeaponTranqSniper",
+        "label": "Tranq Sniper"
+      },
+      {
+        "value": "/BanginTranqs/Blueprints/Cannon/PrimalItemAmmo_CannonBall_Bang.PrimalItemAmmo_CannonBall_Bang",
+        "label": "Tranq Cannon Ball"
+      },
+      {
+        "value": "/BanginTranqs/Blueprints/Cannon/PrimalItemStructure_Cannon_Bang.PrimalItemStructure_Cannon_Bang",
+        "label": "Tranq Cannon"
+      },
+      {
+        "value": "/BanginTranqs/Blueprints/Club/PrimalItem_StoneBat.PrimalItem_StoneBat",
+        "label": "Stone Bat"
+      },
+      {
+        "value": "/BanginTranqs/Blueprints/Dart/PrimalItemAmmo_BangTranqDart.PrimalItemAmmo_BangTranqDart",
+        "label": "Tranq Dart — tier 1"
+      },
+      {
+        "value": "/BanginTranqs/Blueprints/Dart/PrimalItemAmmo_BangTranqDart_2.PrimalItemAmmo_BangTranqDart_2",
+        "label": "Tranq Dart — tier 2"
+      },
+      {
+        "value": "/BanginTranqs/Blueprints/Dart/PrimalItemAmmo_BangTranqDart_3.PrimalItemAmmo_BangTranqDart_3",
+        "label": "Tranq Dart — tier 3"
+      },
+      {
+        "value": "/BanginTranqs/Blueprints/Dart/PrimalItemAmmo_EpiDart.PrimalItemAmmo_EpiDart",
+        "label": "Epi Dart"
+      },
+      {
+        "value": "/BanginTranqs/Blueprints/Gloves/PrimalItemArmor_TekGloves_Tranq.PrimalItemArmor_TekGloves_Tranq",
+        "label": "Tek Tranq Gauntlets"
+      },
+      {
+        "value": "/BanginTranqs/Blueprints/Map-Specific/PrimalItemConsumable_BangJellyVenom.PrimalItemConsumable_BangJellyVenom",
+        "label": "Jelly Venom"
+      },
+      {
+        "value": "/BanginTranqs/Blueprints/Map-Specific/PrimalItemResource_ApexDrop_BangMegalania.PrimalItemResource_ApexDrop_BangMegalania",
+        "label": "Megalania Apex Drop"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_BangArrowTranq_C",
+        "label": "Tranq Arrow — tier 1"
+      },
+      {
+        "value": "EngramEntry_BangArrowTranq2_C",
+        "label": "Tranq Arrow — tier 2"
+      },
+      {
+        "value": "EngramEntry_BangArrowTranq3_C",
+        "label": "Tranq Arrow — tier 3"
+      },
+      {
+        "value": "EngramEntry_TranqSniper_C",
+        "label": "Tranq Sniper"
+      },
+      {
+        "value": "EngramEntry_TranqSniperBullet_C",
+        "label": "Tranq Sniper Bullet"
+      },
+      {
+        "value": "EngramEntry_CannonBall_Bang_C",
+        "label": "Tranq Cannon Ball"
+      },
+      {
+        "value": "EngramEntry_Cannon_Bang_C",
+        "label": "Tranq Cannon"
+      },
+      {
+        "value": "EngramEntry_StoneBat_C",
+        "label": "Stone Bat"
+      },
+      {
+        "value": "EngramEntry_BangTranqDart_C",
+        "label": "Tranq Dart — tier 1"
+      },
+      {
+        "value": "EngramEntry_BangTranqDart_2_C",
+        "label": "Tranq Dart — tier 2"
+      },
+      {
+        "value": "EngramEntry_BangTranqDart_3_C",
+        "label": "Tranq Dart — tier 3"
+      },
+      {
+        "value": "EngramEntry_EpiDart_C",
+        "label": "Epi Dart"
+      },
+      {
+        "value": "EngramEntry_TekGloves_Tranq_C",
+        "label": "Tek Tranq Gauntlets"
+      },
+      {
+        "value": "EngramEntry_BangApexDropMegalania_C",
+        "label": "Megalania Apex Drop"
+      },
+      {
+        "value": "EngramEntry_BangJellyVenom_C",
+        "label": "Jelly Venom"
+      }
+    ]
+  },
+  "_classnamesSource": {
+    "items": {
+      "url": "https://arkcodes.com/mods/929038/bangin-tranqs/items",
+      "fetchedAt": "2026-08-24",
+      "note": "arkcodes documenta la version ASA (proyecto 929038), que es la de esta entrada. Es la unica fuente: el autor manda la config y los codigos a su Discord y no publica nada en la pagina. Los tres tiers de flecha y de dardo coinciden con los \"3 new arrow types\" que si describe ahi. Labels puestos a mano."
+    },
+    "engrams": {
+      "url": "https://arkcodes.com/mods/929038/bangin-tranqs/engrams",
+      "fetchedAt": "2026-08-24",
+      "note": "arkcodes documenta la version ASA (proyecto 929038), que es la de esta entrada. Es la unica fuente: el autor manda la config y los codigos a su Discord y no publica nada en la pagina. Los tres tiers de flecha y de dardo coinciden con los \"3 new arrow types\" que si describe ahi. Labels puestos a mano."
+    }
+  }
 }

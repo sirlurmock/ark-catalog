@@ -258,5 +258,43 @@
       "i18nKey": "mods.improved_egg_incubator.remove_water_tame_kill_checks"
     }
   ],
-  "_source": "Descripcion oficial del autor en CurseForge (https://www.curseforge.com/ark-survival-ascended/mods/improved-incubator, proyecto 935399): la tabla de configuracion con las 11 claves, su default y que hace cada una, seccion [ImprovedEggIncubator]. Transcrita el 2026-08-24. La entrada anterior tenia 6 claves con tipos DEDUCIDOS del .ini real del autor de la app (Sprint A.7), GestationSpeed con default 1 cuando el autor documenta 3, y BonusHatchRates descrito como un bonus generico cuando el autor aclara que solo afecta huevos de giga y quetzal."
+  "_source": "Descripcion oficial del autor en CurseForge (https://www.curseforge.com/ark-survival-ascended/mods/improved-incubator, proyecto 935399): la tabla de configuracion con las 11 claves, su default y que hace cada una, seccion [ImprovedEggIncubator]. Transcrita el 2026-08-24. La entrada anterior tenia 6 claves con tipos DEDUCIDOS del .ini real del autor de la app (Sprint A.7), GestationSpeed con default 1 cuando el autor documenta 3, y BonusHatchRates descrito como un bonus generico cuando el autor aclara que solo afecta huevos de giga y quetzal.",
+  "classNames": {
+    "items": [
+      {
+        "value": "/ModIncubator/ImprovedIncubator/PrimalItemStructure_CryoStorage.PrimalItemStructure_CryoStorage",
+        "label": "Cryo Storage"
+      },
+      {
+        "value": "/ModIncubator/ImprovedIncubator/PrimalItemStructure_ImprovedEggIncubator.PrimalItemStructure_ImprovedEggIncubator",
+        "label": "Improved Egg Incubator"
+      },
+      {
+        "value": "/ModIncubator/ImprovedIncubator/PrimalItem_WeaponCryoStorageDevice.PrimalItem_WeaponCryoStorageDevice",
+        "label": "Cryo Storage Device"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_CryoStorage_C",
+        "label": "Cryo Storage"
+      },
+      {
+        "value": "EngramEntry_ImprovedEggIncubator_C",
+        "label": "Improved Egg Incubator"
+      }
+    ]
+  },
+  "_classnamesSource": {
+    "items": {
+      "url": "https://arkcodes.com/mods/935399/improved-egg-incubator/items",
+      "fetchedAt": "2026-08-24",
+      "note": "arkcodes documenta la version ASA (proyecto 935399), que es la de esta entrada. La pagina del autor no publica paths: los unicos classnames que trae son de huevos VANILLA, como ejemplo de BonusHatchAdditionalEggs. Labels puestos a mano."
+    },
+    "engrams": {
+      "url": "https://arkcodes.com/mods/935399/improved-egg-incubator/engrams",
+      "fetchedAt": "2026-08-24",
+      "note": "arkcodes documenta la version ASA (proyecto 935399), que es la de esta entrada. La pagina del autor no publica paths: los unicos classnames que trae son de huevos VANILLA, como ejemplo de BonusHatchAdditionalEggs. Labels puestos a mano. Son 2 y no 3: el Cryo Storage Device no tiene engrama propio."
+    }
+  }
 }

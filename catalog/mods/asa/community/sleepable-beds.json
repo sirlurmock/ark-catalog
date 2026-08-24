@@ -5,7 +5,10 @@
   "source": "community",
   "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/sleepable-beds",
   "curseforgeId": "928919",
-  "searchAliases": ["camas para dormir", "dormir"],
+  "searchAliases": [
+    "camas para dormir",
+    "dormir"
+  ],
   "settings": [
     {
       "id": "sb_earliest_hour_sleeping_allowed",
@@ -14,9 +17,21 @@
       "tier": "basic",
       "file": "GameUserSettings.ini",
       "section": "SleepableBeds",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "integer", "default": 21, "min": 0, "max": 23, "step": 1 },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 21,
+        "min": 0,
+        "max": 23,
+        "step": 1
+      },
       "i18nKey": "mods.sleepable_beds.earliest_hour_sleeping_allowed"
     },
     {
@@ -26,9 +41,21 @@
       "tier": "basic",
       "file": "GameUserSettings.ini",
       "section": "SleepableBeds",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "integer", "default": 5, "min": 0, "max": 23, "step": 1 },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 5,
+        "min": 0,
+        "max": 23,
+        "step": 1
+      },
       "i18nKey": "mods.sleepable_beds.wake_up_time"
     },
     {
@@ -38,9 +65,21 @@
       "tier": "advanced",
       "file": "GameUserSettings.ini",
       "section": "SleepableBeds",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "integer", "default": 300, "min": 0, "max": 3600, "step": 30 },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 300,
+        "min": 0,
+        "max": 3600,
+        "step": 30
+      },
       "i18nKey": "mods.sleepable_beds.bed_cooldown_time_in_seconds"
     },
     {
@@ -50,9 +89,18 @@
       "tier": "advanced",
       "file": "GameUserSettings.ini",
       "section": "SleepableBeds",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "boolean", "default": true },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
       "i18nKey": "mods.sleepable_beds.show_server_message"
     },
     {
@@ -62,10 +110,80 @@
       "tier": "advanced",
       "file": "GameUserSettings.ini",
       "section": "SleepableBeds",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "integer", "default": 100, "min": 1, "max": 100, "step": 1 },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 100,
+        "step": 1
+      },
       "i18nKey": "mods.sleepable_beds.percent_of_players_have_to_be_in_bed"
     }
-  ]
+  ],
+  "classNames": {
+    "items": [
+      {
+        "value": "/SleepableBeds/src/PrimalItemStructure_SleepableBed.PrimalItemStructure_SleepableBed",
+        "label": "Bed"
+      },
+      {
+        "value": "/SleepableBeds/src/PrimalItemStructure_SleepableModernBed.PrimalItemStructure_SleepableModernBed",
+        "label": "Modern Bed"
+      },
+      {
+        "value": "/SleepableBeds/src/PrimalItemStructure_SleepablePillow.PrimalItemStructure_SleepablePillow",
+        "label": "Comfy Pillow"
+      },
+      {
+        "value": "/SleepableBeds/src/PrimalItemStructure_SleepableSleepingbag.PrimalItemStructure_SleepableSleepingbag",
+        "label": "Sleeping Bag"
+      },
+      {
+        "value": "/SleepableBeds/src/PrimalItemStructure_Sleepable_Bed_Tek.PrimalItemStructure_Sleepable_Bed_Tek",
+        "label": "Tek Sleeping Pod"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_SleepableModernBed_C",
+        "label": "Modern Bed"
+      },
+      {
+        "value": "EngramEntry_SleepablePillow_C",
+        "label": "Comfy Pillow"
+      },
+      {
+        "value": "EngramEntry_SleepableSimpleBed_C",
+        "label": "Bed"
+      },
+      {
+        "value": "EngramEntry_SleepableSleepingbag_C",
+        "label": "Sleeping Bag"
+      },
+      {
+        "value": "EngramEntry_SleepableTekBed_C",
+        "label": "Tek Sleeping Pod"
+      }
+    ]
+  },
+  "_classnamesSource": {
+    "items": {
+      "url": "https://arkcodes.com/mods/928919/sleepable-beds/items",
+      "fetchedAt": "2026-08-24",
+      "note": "arkcodes documenta la version ASA (proyecto 928919), que es la de esta entrada. Los 5 objetos coinciden uno a uno con los GFI que publica el autor en su pagina de CurseForge; los GFI no traen el blueprint path y por eso esta mod estuvo sin bloque hasta ahora. Labels puestos a mano con los nombres del autor."
+    },
+    "engrams": {
+      "url": "https://arkcodes.com/mods/928919/sleepable-beds/engrams",
+      "fetchedAt": "2026-08-24",
+      "note": "Misma fuente. Ojo con el desfase de nombres: el item es SleepableBed y su engrama es SleepableSimpleBed."
+    }
+  }
 }

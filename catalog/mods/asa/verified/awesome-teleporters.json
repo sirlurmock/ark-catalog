@@ -548,5 +548,47 @@
       "i18nKey": "mods.awesome_teleporters.disable_teleporting_dino_classes"
     }
   ],
-  "_source": "Descripcion oficial del autor en CurseForge (https://www.curseforge.com/ark-survival-ascended/mods/awesometeleporters, proyecto 950914): la tabla de GameUserSettings.ini con las 24 claves, su descripcion y su default, seccion [AwesomeTeleporters]. Transcrita el 2026-08-24. La entrada anterior tenia 16 claves con tipos DEDUCIDOS del .ini real del autor de la app (Sprint A.7) y dos datos mal: AllowTeleportingIntoPreventionZones venia en True cuando el autor lo documenta en False, y BubbleDuration no es cuanto dura la burbuja sino los segundos que tarda en ejecutarse el teleport."
+  "_source": "Descripcion oficial del autor en CurseForge (https://www.curseforge.com/ark-survival-ascended/mods/awesometeleporters, proyecto 950914): la tabla de GameUserSettings.ini con las 24 claves, su descripcion y su default, seccion [AwesomeTeleporters]. Transcrita el 2026-08-24. La entrada anterior tenia 16 claves con tipos DEDUCIDOS del .ini real del autor de la app (Sprint A.7) y dos datos mal: AllowTeleportingIntoPreventionZones venia en True cuando el autor lo documenta en False, y BubbleDuration no es cuanto dura la burbuja sino los segundos que tarda en ejecutarse el teleport.",
+  "classNames": {
+    "items": [
+      {
+        "value": "/AwesomeTeleporters/Blueprints/Remote/PrimalItem_AwesomeTeleporters_Remote.PrimalItem_AwesomeTeleporters_Remote",
+        "label": "Remote"
+      },
+      {
+        "value": "/AwesomeTeleporters/Blueprints/Teleporter/PrimalItem_AwesomeTeleporters_Teleporter.PrimalItem_AwesomeTeleporters_Teleporter",
+        "label": "Teleporter"
+      },
+      {
+        "value": "/AwesomeTeleporters/Blueprints/Tracker/PrimalItemConsumable_AwesomeTeleporters_DinoTracker.PrimalItemConsumable_AwesomeTeleporters_DinoTracker",
+        "label": "Awesome Dino Tracker"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_AwesomeTeleporters_Remote_C",
+        "label": "Remote"
+      },
+      {
+        "value": "EngramEntry_AwesomeTeleporters_Teleporter_C",
+        "label": "Teleporter"
+      },
+      {
+        "value": "EngramEntry_AwesomeTeleporters_DinoTracker_C",
+        "label": "Awesome Dino Tracker"
+      }
+    ]
+  },
+  "_classnamesSource": {
+    "items": {
+      "url": "https://arkcodes.com/mods/950914/awesome-teleporters/items",
+      "fetchedAt": "2026-08-24",
+      "note": "arkcodes documenta la version ASA (proyecto 950914), que es la de esta entrada. Son los 3 objetos que la descripcion del autor nombra como sus features (teleporter, remoto y Awesome Dino Tracker), aunque el autor no publica sus paths. Labels puestos a mano con los nombres del autor."
+    },
+    "engrams": {
+      "url": "https://arkcodes.com/mods/950914/awesome-teleporters/engrams",
+      "fetchedAt": "2026-08-24",
+      "note": "arkcodes documenta la version ASA (proyecto 950914), que es la de esta entrada. Son los 3 objetos que la descripcion del autor nombra como sus features (teleporter, remoto y Awesome Dino Tracker), aunque el autor no publica sus paths. Labels puestos a mano con los nombres del autor."
+    }
+  }
 }
