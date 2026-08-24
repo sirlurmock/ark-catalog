@@ -190,6 +190,100 @@
         "value": "EngramEntry_Saddle_PaleoMoschops_C",
         "label": "Paleo Moschops Saddle"
       }
+    ],
+    "dinos": [
+      {
+        "value": "Barbatos_Character_BP_C",
+        "label": "Barbatos"
+      },
+      {
+        "value": "Paleo_Yutyrannus_Character_BP_C",
+        "label": "Paleo Yutyrannus"
+      },
+      {
+        "value": "Paleo_Carcha_Character_BP_C",
+        "label": "Paleo Carcha"
+      },
+      {
+        "value": "Paleo_Ceratosaurus_Character_BP_ASA_C",
+        "label": "Paleo Ceratosaurus"
+      },
+      {
+        "value": "Paleo_DeinosuchusASA_Character_BP_C",
+        "label": "Paleo Deinosuchus"
+      },
+      {
+        "value": "Paleo_DeinotheriumASA_Character_BP_C",
+        "label": "Paleo Deinotherium"
+      },
+      {
+        "value": "Paleo_Dreadnoughtus_Character_BP_C",
+        "label": "Paleo Dreadnoughtus"
+      },
+      {
+        "value": "Paleo_Fasola_Character_BP_C",
+        "label": "Paleo Fasola"
+      },
+      {
+        "value": "Paleo_Gigantoraptor_Character_BP_C",
+        "label": "Paleo Gigantoraptor"
+      },
+      {
+        "value": "Paleo_Kentro_Character_BP_C",
+        "label": "Paleo Kentro"
+      },
+      {
+        "value": "Paleo_Mammoth_Character_BP_C",
+        "label": "Paleo Mammoth"
+      },
+      {
+        "value": "Paleo_Megalosaurus_Character_BP_C",
+        "label": "Paleo Megalosaurus"
+      },
+      {
+        "value": "Paleo_ValMegaraptor_Character_BP_C",
+        "label": "Paleo Val Megaraptor"
+      },
+      {
+        "value": "Paleo_Moschops_Character_BP_C",
+        "label": "Paleo Moschops"
+      },
+      {
+        "value": "Paleo_Otter_Character_BP_C",
+        "label": "Paleo Otter"
+      },
+      {
+        "value": "Paleo_Purlovia_Character_BP_C",
+        "label": "Paleo Purlovia"
+      },
+      {
+        "value": "Paleo_AlphaRaptor_Character_BP_C",
+        "label": "Paleo Alpha Raptor"
+      },
+      {
+        "value": "Paleo_Raptor_Character_BP_C",
+        "label": "Paleo Raptor"
+      },
+      {
+        "value": "Paleo_Sarco_Character_BP_C",
+        "label": "Paleo Sarco"
+      },
+      {
+        "value": "Paleo_Spino_Character_BP_C",
+        "label": "Paleo Spino"
+      },
+      {
+        "value": "Paleo_Stego_Character_BP_C",
+        "label": "Paleo Stego"
+      },
+      {
+        "value": "Paleo_Thylacoleo_Character_BP_C",
+        "label": "Paleo Thylacoleo"
+      },
+      {
+        "value": "Paleo_Trike_Character_BP_C",
+        "label": "Paleo Trike"
+      }
     ]
   },
   "_classnamesSource": {
@@ -202,6 +296,11 @@
       "url": "https://arkcodes.com/mods/986540/paleo-ark-ascension/engrams",
       "fetchedAt": "2026-08-24",
       "note": "arkcodes, proyecto 986540 — Paleo ARK Ascension (Crossplay!), que es la publicacion que el autor de la app tiene instalada. Los huevos son de las variantes paleo de cada criatura; las CRIATURAS en si todavia no estan: sus spawn codes viven en otra pagina de arkcodes y fetch-mod-classnames.mjs solo lee items y engramas. Labels puestos a mano. Solo hay 2 engramas: las dos monturas que la mod agrega."
+    },
+    "dinos": {
+      "url": "https://arkcodes.com/mods/986540/paleo-ark-ascension/dinos",
+      "fetchedAt": "2026-08-24",
+      "note": "arkcodes, proyecto 986540. 23 criaturas. El sufijo ASA que algunos classnames arrastran no es parte del nombre y se saca del label; Barbatos es la unica que no lleva el prefijo Paleo, tal como la publica el autor."
     }
   }
 }

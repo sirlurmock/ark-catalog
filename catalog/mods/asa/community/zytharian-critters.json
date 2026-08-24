@@ -137,6 +137,44 @@
         "value": "EngramEntry_Saddle_Vepent_C",
         "label": "Vepent Saddle"
       }
+    ],
+    "dinos": [
+      {
+        "value": "Geode_Character_BP_C",
+        "label": "Geode"
+      },
+      {
+        "value": "Geodog_Character_BP_C",
+        "label": "Geodog"
+      },
+      {
+        "value": "Quadlodon_Character_BP_ZC_C",
+        "label": "Quadlodon"
+      },
+      {
+        "value": "Skrill_Character_BP_C",
+        "label": "Skrillsaur"
+      },
+      {
+        "value": "Trovant_Character_BP_C",
+        "label": "Trovant"
+      },
+      {
+        "value": "Vepent2_Character_BP_C",
+        "label": "Vepent (variant 2)"
+      },
+      {
+        "value": "Vepent_Character_BP_C",
+        "label": "Vepent"
+      },
+      {
+        "value": "Wyvern_Character_BP_Metal_C",
+        "label": "Metal Wyvern"
+      },
+      {
+        "value": "Wyvern_Character_BP_Plate_C",
+        "label": "Plate Wyvern"
+      }
     ]
   },
   "_classnamesSource": {
@@ -149,6 +187,11 @@
       "url": "https://arkcodes.com/mods/948406/zytharian-critters-custom-collection/engrams",
       "fetchedAt": "2026-08-24",
       "note": "arkcodes, proyecto 948406 — Zytharian Critters: Additional Custom Dinos Collection, que es la coleccion que el autor de la app tiene instalada (son 5 distintas). La pagina del autor nombra sus ocho criaturas (Geode, Quadlodon, Skrillsaur, Metal Wyvern, Plate Wyvern, Vepent, Trovant y Geodog) y los huevos y monturas de acá son las de esas. Las CRIATURAS en si todavia no estan: mismo pendiente que Paleo ARK y Colossuscorpius. Labels puestos a mano; los \"Armor\" del classname son monturas."
+    },
+    "dinos": {
+      "url": "https://arkcodes.com/mods/948406/zytharian-critters-custom-collection/dinos",
+      "fetchedAt": "2026-08-24",
+      "note": "arkcodes, proyecto 948406. Los labels usan los nombres con los que el autor presenta a sus criaturas en CurseForge (Geode, Quadlodon, Skrillsaur, Metal Wyvern, Plate Wyvern, Vepent, Trovant, Geodog): el classname dice Skrill y Wyvern, que son los del juego base y confundirian. Son NUEVE classnames para las ocho criaturas que el autor nombra: hay un Vepent2 que el no menciona, catalogado como variante y sin inventarle nada mas."
     }
   }
 }

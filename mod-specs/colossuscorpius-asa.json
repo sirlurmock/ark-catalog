@@ -3,7 +3,7 @@
   "_seccion": "La pagina nombra DOS secciones y no son lo mismo: las dos claves de la mod van bajo [Colossuscorpius], y aparte menciona CrossARKAllowForeignDinoDownloads=True bajo [ServerSettings] como remedio para el error 'Class Disallowed' al transferir la criatura entre servidores. Esa segunda es una clave del juego, no de la mod, asi que no entra en esta entrada.",
   "_pendiente": "CrossARKAllowForeignDinoDownloads no esta en el catalogo core. Es del juego base y aplica a cualquier mod de criaturas con transferencia entre ARKs, asi que su lugar es catalog/settings/general.json, no aca.",
   "_rango": "El rango 0.1-1.0 del multiplicador de dano es el que declara el autor: la clave sirve para BAJARLE el dano a la criatura, no para subirlo. Se cataloga tal cual y no se extiende el maximo por las dudas.",
-  "_classnames": "Las dos monturas salen de arkcodes, que documenta la version ASA (proyecto 950891) — la misma publicacion que esta entrada. NO se copian de la entrada ASE (modId 1065416475): sus paths llevan el prefijo /Game/Mods/ y los de ASA no. Falta la criatura en si: arkcodes tiene sus spawn codes en otra pagina y fetch-mod-classnames.mjs todavia solo sabe leer items y engramas.",
+  "_classnames": "Las dos monturas y las dos criaturas salen de arkcodes, que documenta la version ASA (proyecto 950891) — la misma publicacion que esta entrada. NO se copian de la entrada ASE (modId 1065416475): alla los paths llevan el prefijo /Game/Mods/ y la criatura se llama ColossalScorpion_Character_BP_C, otro classname.",
   "modId": "Colossuscorpius",
   "name": "Colossuscorpius",
   "game": "asa",
@@ -80,6 +80,16 @@
         "value": "EngramEntry_Saddle_Colossuscorpius_C",
         "label": "Colossuscorpius Saddle"
       }
+    ],
+    "dinos": [
+      {
+        "value": "Colossuscorpius_Character_BP_C",
+        "label": "Colossuscorpius"
+      },
+      {
+        "value": "Colossuscorpius_Character_BP_AB_C",
+        "label": "Colossuscorpius (variante AB)"
+      }
     ]
   },
   "_classnamesSource": {
@@ -92,6 +102,11 @@
       "url": "https://arkcodes.com/mods/950891/colossuscorpius/engrams",
       "fetchedAt": "2026-08-24",
       "note": "arkcodes, proyecto 950891 (la version ASA de esta entrada). Labels puestos a mano."
+    },
+    "dinos": {
+      "url": "https://arkcodes.com/mods/950891/colossuscorpius/dinos",
+      "fetchedAt": "2026-08-24",
+      "note": "arkcodes, proyecto 950891. Son dos classnames: el base y uno con sufijo AB que el autor no nombra en su pagina, catalogado como variante sin suponer a que corresponde. OJO: el classname de ASA (Colossuscorpius_Character_BP_C) NO es el de la entrada ASE, que es ColossalScorpion_Character_BP_C."
     }
   }
 }

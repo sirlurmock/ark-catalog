@@ -43,6 +43,20 @@ export function humanizeClassName(className) {
 }
 
 /**
+ * `Geode_Character_BP_C` → `Geode`.
+ *
+ * Las criaturas no llevan ninguno de los prefijos `PrimalItem*`: lo que sobra
+ * es el sufijo. Sin quitarlo, el label queda "Geode Character BP", que es el
+ * classname con espacios y no el nombre de nada.
+ *
+ * Las variantes SÍ se conservan (`Wyvern_Character_BP_Metal_C` → `Wyvern
+ * Metal`): son criaturas distintas y la mod las trata como tales.
+ */
+export function humanizeDinoClassName(className) {
+  return humanizeClassName(className.replace(/_Character_BP/, "_"));
+}
+
+/**
  * Devuelve `{ entries, discarded }`. Cada entry es `{ value, label, className }`
  * con `value` = blueprint path verbatim (lo que pide GiveItem; los campos
  * ItemClassString derivan el `_C` en el consumo). `discarded` trae los motivos,

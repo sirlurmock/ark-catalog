@@ -168,6 +168,16 @@ Reglas:
   sirven tal cual para una entrada ASE (`/Game/Mods/<carpeta>/…`, y a veces
   distinto set de items). `fetch-mod-classnames.mjs` sirve como borrador;
   para ASE, corregir con una fuente nativa (hilo de spawncodes del Workshop).
+  Del otro lado eso mismo la vuelve **la fuente correcta para las entradas de
+  ASA**, que es de donde salieron sus 165 classnames. Tiene tres páginas por
+  mod —`/items`, `/engrams` y `/dinos`— con la misma forma, y el scraper las
+  lee con `--list`. Para una entrada sin spec, `--entry`.
+- **Los dinos van por classname, no por path** (`Geode_Character_BP_C`): es lo
+  que piden `summon` y los spawn entries, igual que en el catálogo core. Ojo
+  con los labels: el humanizador deja "Geode Character BP", y cuando el autor
+  le puso otro nombre a la criatura manda el del autor — Zytharian publica
+  como *Skrillsaur* algo cuyo classname dice `Skrill`, que es el del juego
+  base y confundiría.
 - Los labels del scraper salen humanizados del classname y son borrador:
   revisarlos a mano antes de regenerar.
 - **Una fuente que solo da classnames `_C` no alcanza para `items`.** El value

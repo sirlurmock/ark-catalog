@@ -87,6 +87,16 @@
         "value": "EngramEntry_Saddle_Colossuscorpius_C",
         "label": "Colossuscorpius Saddle"
       }
+    ],
+    "dinos": [
+      {
+        "value": "Colossuscorpius_Character_BP_C",
+        "label": "Colossuscorpius"
+      },
+      {
+        "value": "Colossuscorpius_Character_BP_AB_C",
+        "label": "Colossuscorpius (variante AB)"
+      }
     ]
   }
 }
