@@ -3,7 +3,12 @@
   "name": "Zytharian Critters",
   "game": "asa",
   "source": "community",
-  "searchAliases": ["criaturas", "mascotas"],
+  "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/zytharian-critters-custom-collection",
+  "curseforgeId": "948406",
+  "searchAliases": [
+    "criaturas",
+    "mascotas"
+  ],
   "settings": [
     {
       "id": "zc_solo_chance",
@@ -12,9 +17,21 @@
       "tier": "basic",
       "file": "GameUserSettings.ini",
       "section": "ZytharianCritters",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "integer", "default": 5, "min": 0, "max": 100, "step": 1 },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 5,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
       "i18nKey": "mods.zytharian_critters.solo_chance"
     },
     {
@@ -24,10 +41,114 @@
       "tier": "basic",
       "file": "GameUserSettings.ini",
       "section": "ZytharianCritters",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "boolean", "default": true },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
       "i18nKey": "mods.zytharian_critters.spawn_solo"
     }
-  ]
+  ],
+  "_curseforgeId": "Zytharian Critters - Additional Custom Dinos Collection de Zythara_, identificada por el autor de la app como la publicacion que tiene instalada: son 5 colecciones distintas y ninguna documenta la seccion [ZytharianCritters].",
+  "classNames": {
+    "items": [
+      {
+        "value": "/Zytharian_Critters_Custom_Collection/Creatures/Geode/PrimalItemConsumable_Egg_Geode_Fertilized.PrimalItemConsumable_Egg_Geode_Fertilized",
+        "label": "Geode Egg (fertilized)"
+      },
+      {
+        "value": "/Zytharian_Critters_Custom_Collection/Creatures/Skrillsaur/PrimalItemConsumable_Egg_Skrill.PrimalItemConsumable_Egg_Skrill",
+        "label": "Skrillsaur Egg"
+      },
+      {
+        "value": "/Zytharian_Critters_Custom_Collection/Creatures/Skrillsaur/PrimalItemConsumable_Egg_Skrill_Fertilized.PrimalItemConsumable_Egg_Skrill_Fertilized",
+        "label": "Skrillsaur Egg (fertilized)"
+      },
+      {
+        "value": "/Zytharian_Critters_Custom_Collection/Creatures/Vepent/PrimalItemConsumable_UnderwaterEgg_Vepent.PrimalItemConsumable_UnderwaterEgg_Vepent",
+        "label": "Vepent Underwater Egg"
+      },
+      {
+        "value": "/Zytharian_Critters_Custom_Collection/Creatures/Wyvern_Metal/PrimalItemConsumable_Egg_Wyvern_Fertilized_Metal.PrimalItemConsumable_Egg_Wyvern_Fertilized_Metal",
+        "label": "Metal Wyvern Egg (fertilized)"
+      },
+      {
+        "value": "/Zytharian_Critters_Custom_Collection/Creatures/Wyvern_Plate/Loot/PrimalItemResource_ApexDrop_PlateWyvern.PrimalItemResource_ApexDrop_PlateWyvern",
+        "label": "Plate Wyvern Apex Drop"
+      },
+      {
+        "value": "/Zytharian_Critters_Custom_Collection/Creatures/Wyvern_Plate/PrimalItemConsumable_Egg_Wyvern_Fertilized_Plate.PrimalItemConsumable_Egg_Wyvern_Fertilized_Plate",
+        "label": "Plate Wyvern Egg (fertilized)"
+      },
+      {
+        "value": "/Zytharian_Critters_Custom_Collection/Items/Saddles/PrimalItemArmor_GeodeArmor.PrimalItemArmor_GeodeArmor",
+        "label": "Geode Saddle"
+      },
+      {
+        "value": "/Zytharian_Critters_Custom_Collection/Items/Saddles/PrimalItemArmor_GeodogArmor.PrimalItemArmor_GeodogArmor",
+        "label": "Geodog Saddle"
+      },
+      {
+        "value": "/Zytharian_Critters_Custom_Collection/Items/Saddles/PrimalItemArmor_QuadlodonSaddle.PrimalItemArmor_QuadlodonSaddle",
+        "label": "Quadlodon Saddle"
+      },
+      {
+        "value": "/Zytharian_Critters_Custom_Collection/Items/Saddles/PrimalItemArmor_SkrillsaurSaddle.PrimalItemArmor_SkrillsaurSaddle",
+        "label": "Skrillsaur Saddle"
+      },
+      {
+        "value": "/Zytharian_Critters_Custom_Collection/Items/Saddles/PrimalItemArmor_TrovantArmor.PrimalItemArmor_TrovantArmor",
+        "label": "Trovant Saddle"
+      },
+      {
+        "value": "/Zytharian_Critters_Custom_Collection/Items/Saddles/PrimalItemArmor_VepentSaddle.PrimalItemArmor_VepentSaddle",
+        "label": "Vepent Saddle"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_Saddle_Geode_C",
+        "label": "Geode Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Geodog_C",
+        "label": "Geodog Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Quadlodon_C",
+        "label": "Quadlodon Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Skrill_C",
+        "label": "Skrillsaur Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Trovant_C",
+        "label": "Trovant Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_Vepent_C",
+        "label": "Vepent Saddle"
+      }
+    ]
+  },
+  "_classnamesSource": {
+    "items": {
+      "url": "https://arkcodes.com/mods/948406/zytharian-critters-custom-collection/items",
+      "fetchedAt": "2026-08-24",
+      "note": "arkcodes, proyecto 948406 — Zytharian Critters: Additional Custom Dinos Collection, que es la coleccion que el autor de la app tiene instalada (son 5 distintas). La pagina del autor nombra sus ocho criaturas (Geode, Quadlodon, Skrillsaur, Metal Wyvern, Plate Wyvern, Vepent, Trovant y Geodog) y los huevos y monturas de acá son las de esas. Las CRIATURAS en si todavia no estan: mismo pendiente que Paleo ARK y Colossuscorpius. Labels puestos a mano; los \"Armor\" del classname son monturas."
+    },
+    "engrams": {
+      "url": "https://arkcodes.com/mods/948406/zytharian-critters-custom-collection/engrams",
+      "fetchedAt": "2026-08-24",
+      "note": "arkcodes, proyecto 948406 — Zytharian Critters: Additional Custom Dinos Collection, que es la coleccion que el autor de la app tiene instalada (son 5 distintas). La pagina del autor nombra sus ocho criaturas (Geode, Quadlodon, Skrillsaur, Metal Wyvern, Plate Wyvern, Vepent, Trovant y Geodog) y los huevos y monturas de acá son las de esas. Las CRIATURAS en si todavia no estan: mismo pendiente que Paleo ARK y Colossuscorpius. Labels puestos a mano; los \"Armor\" del classname son monturas."
+    }
+  }
 }

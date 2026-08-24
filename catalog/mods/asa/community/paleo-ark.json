@@ -3,6 +3,8 @@
   "name": "Paleo ARK",
   "game": "asa",
   "source": "community",
+  "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/paleo-ark-ascension",
+  "curseforgeId": "986540",
   "searchAliases": [
     "criaturas",
     "paleo",
@@ -94,5 +96,112 @@
       },
       "i18nKey": "mods.paleo_ark.allow_conversion_to_evo_giga"
     }
-  ]
+  ],
+  "_curseforgeId": "Paleo ARK Ascension (Crossplay!) de UpFromTheDepths, identificada por el autor de la app como la publicacion que tiene instalada: su nombre corresponde a 6 mods distintas del mismo autor en CurseForge y ninguna documenta la seccion [PaleoArk], asi que el ID no se podia deducir.",
+  "classNames": {
+    "items": [
+      {
+        "value": "/PA_Ascension/Cosmetics/StrawHat/PrimalItemArmor_Strawhat.PrimalItemArmor_Strawhat",
+        "label": "Straw Hat"
+      },
+      {
+        "value": "/PA_Ascension/Dinos/GreaterYuty/PrimalItemConsumable_Egg_Paleo_Yuty_Fertilized.PrimalItemConsumable_Egg_Paleo_Yuty_Fertilized",
+        "label": "Paleo Yuty Egg (fertilized)"
+      },
+      {
+        "value": "/PA_Ascension/Dinos/PaleoCarcha/PrimalItemConsumable_Egg_Paleo_Carcha_Fertilized.PrimalItemConsumable_Egg_Paleo_Carcha_Fertilized",
+        "label": "Paleo Carcha Egg (fertilized)"
+      },
+      {
+        "value": "/PA_Ascension/Dinos/PaleoCerato/PrimalItemConsumable_Egg_PaleoCerato_Fertilized.PrimalItemConsumable_Egg_PaleoCerato_Fertilized",
+        "label": "Paleo Cerato Egg (fertilized)"
+      },
+      {
+        "value": "/PA_Ascension/Dinos/PaleoDeinosuchus/PrimalItemConsumable_Egg_PaleoDeinosuchus_Fertilized_ASA.PrimalItemConsumable_Egg_PaleoDeinosuchus_Fertilized_ASA",
+        "label": "Paleo Deinosuchus Egg (fertilized)"
+      },
+      {
+        "value": "/PA_Ascension/Dinos/PaleoDreadnoughtus/PrimalItemConsumable_Egg_PaleoDreadnoughtus_Fertilized.PrimalItemConsumable_Egg_PaleoDreadnoughtus_Fertilized",
+        "label": "Paleo Dreadnoughtus Egg (fertilized)"
+      },
+      {
+        "value": "/PA_Ascension/Dinos/PaleoFasola/PrimalItemConsumable_Egg_Paleo_Fasola_Fertilized.PrimalItemConsumable_Egg_Paleo_Fasola_Fertilized",
+        "label": "Paleo Fasola Egg (fertilized)"
+      },
+      {
+        "value": "/PA_Ascension/Dinos/PaleoGigantoraptor/PrimalItemConsumable_Egg_Paleo_Gigantoraptor_Fertilized.PrimalItemConsumable_Egg_Paleo_Gigantoraptor_Fertilized",
+        "label": "Paleo Gigantoraptor Egg (fertilized)"
+      },
+      {
+        "value": "/PA_Ascension/Dinos/PaleoKentro/PrimalItemArmor_Paleo_Kentro_Saddle.PrimalItemArmor_Paleo_Kentro_Saddle",
+        "label": "Paleo Kentro Saddle"
+      },
+      {
+        "value": "/PA_Ascension/Dinos/PaleoKentro/PrimalItemConsumable_Egg_Paleo_Kentro_Fertilized.PrimalItemConsumable_Egg_Paleo_Kentro_Fertilized",
+        "label": "Paleo Kentro Egg (fertilized)"
+      },
+      {
+        "value": "/PA_Ascension/Dinos/PaleoMammoth/PrimalItemConsumable_Embryo_PaleoMammoth.PrimalItemConsumable_Embryo_PaleoMammoth",
+        "label": "Paleo Mammoth Embryo"
+      },
+      {
+        "value": "/PA_Ascension/Dinos/PaleoMegalosaur/PrimalItemConsumable_Egg_Paleo_Megalosaurus_Fertilized.PrimalItemConsumable_Egg_Paleo_Megalosaurus_Fertilized",
+        "label": "Paleo Megalosaurus Egg (fertilized)"
+      },
+      {
+        "value": "/PA_Ascension/Dinos/PaleoMegaraptor/PrimalItemConsumable_Egg_Paleo_ValMegaraptor_Fertilized.PrimalItemConsumable_Egg_Paleo_ValMegaraptor_Fertilized",
+        "label": "Paleo Val Megaraptor Egg (fertilized)"
+      },
+      {
+        "value": "/PA_Ascension/Dinos/PaleoMoschops/PrimalItemConsumable_Egg_Paleo_Moschops_Fertilized.PrimalItemConsumable_Egg_Paleo_Moschops_Fertilized",
+        "label": "Paleo Moschops Egg (fertilized)"
+      },
+      {
+        "value": "/PA_Ascension/Dinos/PaleoMoschops/Saddle/PrimalItemArmor_PaleoMoschopsSaddle.PrimalItemArmor_PaleoMoschopsSaddle",
+        "label": "Paleo Moschops Saddle"
+      },
+      {
+        "value": "/PA_Ascension/Dinos/PaleoRaptor/PrimalItemConsumable_Egg_Paleo_Raptor_Fertilized.PrimalItemConsumable_Egg_Paleo_Raptor_Fertilized",
+        "label": "Paleo Raptor Egg (fertilized)"
+      },
+      {
+        "value": "/PA_Ascension/Dinos/PaleoSarco/PrimalItemConsumable_Egg_Paleo_Sarco_Fertilized.PrimalItemConsumable_Egg_Paleo_Sarco_Fertilized",
+        "label": "Paleo Sarco Egg (fertilized)"
+      },
+      {
+        "value": "/PA_Ascension/Dinos/PaleoSpino/PrimalItemConsumable_Egg_Paleo_Spino_Fertilized.PrimalItemConsumable_Egg_Paleo_Spino_Fertilized",
+        "label": "Paleo Spino Egg (fertilized)"
+      },
+      {
+        "value": "/PA_Ascension/Dinos/PaleoStego/PrimalItemConsumable_Egg_Paleo_Stego_Fertilized.PrimalItemConsumable_Egg_Paleo_Stego_Fertilized",
+        "label": "Paleo Stego Egg (fertilized)"
+      },
+      {
+        "value": "/PA_Ascension/Dinos/PaleoTrike/PrimalItemConsumable_Egg_Paleo_Trike_Fertilized.PrimalItemConsumable_Egg_Paleo_Trike_Fertilized",
+        "label": "Paleo Trike Egg (fertilized)"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_Saddle_PaleoKentro_C",
+        "label": "Paleo Kentro Saddle"
+      },
+      {
+        "value": "EngramEntry_Saddle_PaleoMoschops_C",
+        "label": "Paleo Moschops Saddle"
+      }
+    ]
+  },
+  "_classnamesSource": {
+    "items": {
+      "url": "https://arkcodes.com/mods/986540/paleo-ark-ascension/items",
+      "fetchedAt": "2026-08-24",
+      "note": "arkcodes, proyecto 986540 — Paleo ARK Ascension (Crossplay!), que es la publicacion que el autor de la app tiene instalada. Los huevos son de las variantes paleo de cada criatura; las CRIATURAS en si todavia no estan: sus spawn codes viven en otra pagina de arkcodes y fetch-mod-classnames.mjs solo lee items y engramas. Labels puestos a mano."
+    },
+    "engrams": {
+      "url": "https://arkcodes.com/mods/986540/paleo-ark-ascension/engrams",
+      "fetchedAt": "2026-08-24",
+      "note": "arkcodes, proyecto 986540 — Paleo ARK Ascension (Crossplay!), que es la publicacion que el autor de la app tiene instalada. Los huevos son de las variantes paleo de cada criatura; las CRIATURAS en si todavia no estan: sus spawn codes viven en otra pagina de arkcodes y fetch-mod-classnames.mjs solo lee items y engramas. Labels puestos a mano. Solo hay 2 engramas: las dos monturas que la mod agrega."
+    }
+  }
 }
