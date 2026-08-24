@@ -2,12 +2,20 @@
   "modId": "CKF_Config",
   "name": "Castles, Keeps and Forts (Remastered + Sci-Fi)",
   "game": "ase",
-  "source": "community",
+  "source": "verified",
+  "verifiedBy": [
+    "sirlurmock"
+  ],
+  "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1814953878",
   "alsoWorkshopIds": [
     "2121156303"
   ],
-  "searchAliases": ["castillos", "fuertes", "construcción medieval"],
+  "searchAliases": [
+    "castillos",
+    "fuertes",
+    "construcción medieval"
+  ],
   "settings": [
     {
       "id": "ckf_disable_pickup",

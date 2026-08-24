@@ -4,7 +4,11 @@
   "modId": "SuperSpyglassPlus",
   "name": "Super Spyglass Plus",
   "game": "ase",
-  "source": "community",
+  "source": "verified",
+  "verifiedBy": [
+    "sirlurmock"
+  ],
+  "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2594067220",
   "prefix": "super_spyglass_plus",
   "searchAliases": [

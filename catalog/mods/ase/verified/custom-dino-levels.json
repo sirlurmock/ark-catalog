@@ -2,7 +2,11 @@
   "modId": "2182894352",
   "name": "Custom Dino Levels",
   "game": "ase",
-  "source": "community",
+  "source": "verified",
+  "verifiedBy": [
+    "sirlurmock"
+  ],
+  "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2182894352",
   "searchAliases": [
     "niveles",

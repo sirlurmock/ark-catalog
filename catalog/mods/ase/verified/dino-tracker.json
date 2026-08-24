@@ -2,9 +2,16 @@
   "modId": "DinoTracker",
   "name": "Dino Tracker",
   "game": "ase",
-  "source": "community",
+  "source": "verified",
+  "verifiedBy": [
+    "sirlurmock"
+  ],
+  "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=924933745",
-  "searchAliases": ["rastreador de dinos", "rastrear dinos"],
+  "searchAliases": [
+    "rastreador de dinos",
+    "rastrear dinos"
+  ],
   "settings": [
     {
       "id": "dino_tracker_disable_wild_tracking",

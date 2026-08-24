@@ -7,10 +7,19 @@
   "section": "SleepableBeds",
   "name": "Sleep able bed",
   "game": "ase",
-  "source": "community",
+  "source": "verified",
+  "verifiedBy": [
+    "sirlurmock"
+  ],
+  "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1650069767",
   "prefix": "sleepable_beds",
-  "searchAliases": ["dormir", "cama", "pasar la noche", "saltar la noche"],
+  "searchAliases": [
+    "dormir",
+    "cama",
+    "pasar la noche",
+    "saltar la noche"
+  ],
   "settings": [
     {
       "key": "EarliestHourSleepingAllowed",

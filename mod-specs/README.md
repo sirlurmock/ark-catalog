@@ -57,6 +57,47 @@ salió un default o a qué criatura pertenece una clave
 muestra solo `basic`, así que ahí van los tres o cuatro parámetros por los que
 alguien instala la mod; el resto va a `advanced` y los ajustes finos a `expert`.
 
+## `verified` vs `community`: qué significa el badge
+
+La app pinta un badge por cada mod: **Verificado** (verde) o **Comunidad**
+(amarillo). No es decorativo — le dice al usuario cuánta confianza tiene el
+dato que está por escribir en su servidor. El criterio es este, y **el spec es
+donde se demuestra**.
+
+Una entrada es **`"source": "verified"`** cuando cumple las cuatro:
+
+1. **Fuente oficial del autor de la mod**, con URL en `_source`: su página del
+   Workshop o de CurseForge, su guía, su hoja de configuración, su sitio, o un
+   hilo fijado suyo. Una wiki de terceros, un agregador o el `.ini` de alguien
+   NO alcanzan para verificar, por buenos que sean.
+2. **Transcripción, no deducción.** Claves, tipos, defaults, archivo y sección
+   salen de esa fuente. Toda excepción va **declarada en el spec** con su
+   motivo: un default tomado de un ejemplo, un rango usable que el autor no
+   documenta, o el archivo confirmado contra un `.ini` real porque el autor no
+   lo dice. Lo que se dedujo sin poder declararlo deja la mod en `community` —
+   así quedó GlassMetal, cuyos defaults el propio autor presenta como ejemplo
+   de color y no como valores de fábrica.
+3. **Cobertura declarada.** Todo lo que la fuente documenta está catalogado, o
+   lo que queda afuera está listado con su razón en `_scope` / `_skipped`.
+4. **Firma y fecha**: `verifiedBy` y `verifiedAt` en el spec y en la entrada.
+   **Caduca**: si la mod se actualiza después de `verifiedAt`, la entrada pide
+   revisión — el autor pudo agregar, renombrar o borrar claves.
+
+Todo lo demás es **`community`**, que no significa "malo": significa "esto
+funciona, y de dónde salió está escrito, pero no lo firmó nadie contra la doc
+del autor". Hoy son de tres tipos:
+
+- **Tipos inferidos de un `.ini` real** — las 8 entradas de ASA del Sprint A.7
+  salieron del `.ini` del autor de la app: las claves existen de verdad (mejor
+  evidencia que cualquier doc), pero el tipo, el default y el significado se
+  dedujeron del volcado. Es el bucket con más valor por rescatar: conseguir la
+  doc del autor de cada una las promueve.
+- **Fuente de terceros** — Dino Storage v2 sale de la tabla de `ark.wiki.gg`, y
+  ARK Additions de Fandom. Buenas fuentes, pero no son el autor.
+- **Solo classnames** (`settings: []`) — el criterio de arriba habla de
+  ajustes; para estas entradas todavía no está escrito qué habría que exigirle
+  a una lista de classnames. Quedan en `community` hasta entonces.
+
 ## Convención de `default`
 
 El default del spec tiene que ser **el de la mod**, no el que tenga el usuario en

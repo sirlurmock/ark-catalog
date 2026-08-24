@@ -2,7 +2,11 @@
   "modId": "SuperSpyglassPlusASA",
   "name": "Super Spyglass Plus",
   "game": "asa",
-  "source": "community",
+  "source": "verified",
+  "verifiedBy": [
+    "sirlurmock"
+  ],
+  "verifiedAt": "2026-08-24",
   "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/super-spyglass-plus",
   "curseforgeId": "929420",
   "searchAliases": [

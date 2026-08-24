@@ -2,9 +2,17 @@
   "modId": "CastleModifiers",
   "name": "Castles, Keeps and Forts (Legacy)",
   "game": "ase",
-  "source": "community",
+  "source": "verified",
+  "verifiedBy": [
+    "sirlurmock"
+  ],
+  "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=764755314",
-  "searchAliases": ["castillos", "fuertes", "construcción medieval"],
+  "searchAliases": [
+    "castillos",
+    "fuertes",
+    "construcción medieval"
+  ],
   "settings": [
     {
       "id": "ckf_legacy_is_primitive",

@@ -6,10 +6,18 @@
   "modId": "CastleModifiers",
   "name": "Castles, Keeps and Forts (Legacy)",
   "game": "ase",
-  "source": "community",
+  "source": "verified",
+  "verifiedBy": [
+    "sirlurmock"
+  ],
+  "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=764755314",
   "prefix": "ckf_legacy",
-  "searchAliases": ["castillos", "fuertes", "construcción medieval"],
+  "searchAliases": [
+    "castillos",
+    "fuertes",
+    "construcción medieval"
+  ],
   "settings": [
     {
       "key": "IsPrimitive",
@@ -59,9 +67,21 @@
       "tier": "advanced",
       "default": "wood",
       "options": [
-        { "value": "wood", "es": "Madera (default)", "en": "Wood (default)" },
-        { "value": "stone", "es": "Piedra", "en": "Stone" },
-        { "value": "metal", "es": "Metal", "en": "Metal" }
+        {
+          "value": "wood",
+          "es": "Madera (default)",
+          "en": "Wood (default)"
+        },
+        {
+          "value": "stone",
+          "es": "Piedra",
+          "en": "Stone"
+        },
+        {
+          "value": "metal",
+          "es": "Metal",
+          "en": "Metal"
+        }
       ],
       "es": {
         "label": "Resistencia de los andamios",
@@ -78,9 +98,21 @@
       "tier": "advanced",
       "default": "wood",
       "options": [
-        { "value": "wood", "es": "Madera (default)", "en": "Wood (default)" },
-        { "value": "stone", "es": "Piedra", "en": "Stone" },
-        { "value": "metal", "es": "Metal", "en": "Metal" }
+        {
+          "value": "wood",
+          "es": "Madera (default)",
+          "en": "Wood (default)"
+        },
+        {
+          "value": "stone",
+          "es": "Piedra",
+          "en": "Stone"
+        },
+        {
+          "value": "metal",
+          "es": "Metal",
+          "en": "Metal"
+        }
       ],
       "es": {
         "label": "Resistencia del tier Settler",
@@ -97,9 +129,21 @@
       "tier": "advanced",
       "default": "stone",
       "options": [
-        { "value": "wood", "es": "Madera", "en": "Wood" },
-        { "value": "stone", "es": "Piedra (default)", "en": "Stone (default)" },
-        { "value": "metal", "es": "Metal", "en": "Metal" }
+        {
+          "value": "wood",
+          "es": "Madera",
+          "en": "Wood"
+        },
+        {
+          "value": "stone",
+          "es": "Piedra (default)",
+          "en": "Stone (default)"
+        },
+        {
+          "value": "metal",
+          "es": "Metal",
+          "en": "Metal"
+        }
       ],
       "es": {
         "label": "Resistencia del tier Villager",
@@ -116,9 +160,21 @@
       "tier": "expert",
       "default": "stone",
       "options": [
-        { "value": "wood", "es": "Madera", "en": "Wood" },
-        { "value": "stone", "es": "Piedra (default)", "en": "Stone (default)" },
-        { "value": "metal", "es": "Metal", "en": "Metal" }
+        {
+          "value": "wood",
+          "es": "Madera",
+          "en": "Wood"
+        },
+        {
+          "value": "stone",
+          "es": "Piedra (default)",
+          "en": "Stone (default)"
+        },
+        {
+          "value": "metal",
+          "es": "Metal",
+          "en": "Metal"
+        }
       ],
       "es": {
         "label": "Resistencia de las empalizadas",

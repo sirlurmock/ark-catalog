@@ -5,10 +5,17 @@
   "modId": "B2kBinocular",
   "name": "Bitou2k's Binocular",
   "game": "ase",
-  "source": "community",
+  "source": "verified",
+  "verifiedBy": [
+    "sirlurmock"
+  ],
+  "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1136125765",
   "prefix": "b2k_binocular",
-  "searchAliases": ["binoculares", "prismáticos"],
+  "searchAliases": [
+    "binoculares",
+    "prismáticos"
+  ],
   "settings": [
     {
       "key": "PreventEnemyStats",

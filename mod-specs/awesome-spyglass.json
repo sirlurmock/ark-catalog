@@ -4,10 +4,16 @@
   "modId": "AwesomeSpyGlass",
   "name": "Awesome SpyGlass!",
   "game": "ase",
-  "source": "community",
+  "source": "verified",
+  "verifiedBy": [
+    "sirlurmock"
+  ],
+  "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1404697612",
   "prefix": "awesome_spyglass",
-  "searchAliases": ["catalejo"],
+  "searchAliases": [
+    "catalejo"
+  ],
   "settings": [
     {
       "key": "AllowGPS",

@@ -2,9 +2,16 @@
   "modId": "CraftingSkillPotion",
   "name": "Crafting Skill Potion",
   "game": "ase",
-  "source": "community",
+  "source": "verified",
+  "verifiedBy": [
+    "sirlurmock"
+  ],
+  "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2307661303",
-  "searchAliases": ["poción de crafteo", "habilidad de fabricación"],
+  "searchAliases": [
+    "poción de crafteo",
+    "habilidad de fabricación"
+  ],
   "settings": [
     {
       "id": "crafting_potion_crafting_skill_duration",

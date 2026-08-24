@@ -4,10 +4,17 @@
   "modId": "MutationKibble",
   "name": "Mutation Kibble",
   "game": "ase",
-  "source": "community",
+  "source": "verified",
+  "verifiedBy": [
+    "sirlurmock"
+  ],
+  "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1701679918",
   "prefix": "mutation_kibble",
-  "searchAliases": ["croqueta de mutación", "mutaciones"],
+  "searchAliases": [
+    "croqueta de mutación",
+    "mutaciones"
+  ],
   "settings": [
     {
       "key": "Basic",

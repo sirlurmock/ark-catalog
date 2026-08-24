@@ -6,7 +6,11 @@
   "modId": "BetterDinos",
   "name": "Kraken's Better Dinos",
   "game": "ase",
-  "source": "community",
+  "source": "verified",
+  "verifiedBy": [
+    "sirlurmock"
+  ],
+  "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1565015734",
   "prefix": "krakens_better_dinos",
   "file": "GameUserSettings.ini",

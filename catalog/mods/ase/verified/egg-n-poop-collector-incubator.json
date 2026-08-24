@@ -2,9 +2,17 @@
   "modId": "JoanCollector",
   "name": "Egg N Poop Collector / Incubator",
   "game": "ase",
-  "source": "community",
+  "source": "verified",
+  "verifiedBy": [
+    "sirlurmock"
+  ],
+  "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=554678442",
-  "searchAliases": ["recolector de huevos", "incubadora", "recolector de caca"],
+  "searchAliases": [
+    "recolector de huevos",
+    "incubadora",
+    "recolector de caca"
+  ],
   "settings": [
     {
       "id": "egg_n_poop_max_poop_stacks",

@@ -4,7 +4,11 @@
   "modId": "UpgradeStation",
   "name": "Upgrade Station",
   "game": "ase",
-  "source": "community",
+  "source": "verified",
+  "verifiedBy": [
+    "sirlurmock"
+  ],
+  "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=821530042",
   "prefix": "upgrade_station",
   "searchAliases": [

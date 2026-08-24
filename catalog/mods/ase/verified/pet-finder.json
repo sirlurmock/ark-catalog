@@ -2,9 +2,16 @@
   "modId": "JoanPetFind",
   "name": "Pet Finder",
   "game": "ase",
-  "source": "community",
+  "source": "verified",
+  "verifiedBy": [
+    "sirlurmock"
+  ],
+  "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=566887000",
-  "searchAliases": ["buscar mascotas", "encontrar mascotas perdidas"],
+  "searchAliases": [
+    "buscar mascotas",
+    "encontrar mascotas perdidas"
+  ],
   "settings": [
     {
       "id": "pet_finder_bed_prevent_range",

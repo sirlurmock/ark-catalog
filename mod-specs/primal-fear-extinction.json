@@ -5,10 +5,16 @@
   "modId": "PrimalFearExtinctionExpansion",
   "name": "Primal Fear Extinction Expansion",
   "game": "ase",
-  "source": "community",
+  "source": "verified",
+  "verifiedBy": [
+    "sirlurmock"
+  ],
+  "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1681125667",
   "prefix": "pf_extinction",
-  "searchAliases": ["extinción"],
+  "searchAliases": [
+    "extinción"
+  ],
   "settings": [
     {
       "key": "DisableVanillaExtinctionDinos",

@@ -3,7 +3,12 @@
   "name": "Bangin' Tranqs",
   "game": "asa",
   "source": "community",
-  "searchAliases": ["tranquilizantes", "dardos tranquilizantes"],
+  "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/bangin-tranqs",
+  "curseforgeId": "929038",
+  "searchAliases": [
+    "tranquilizantes",
+    "dardos tranquilizantes"
+  ],
   "settings": [
     {
       "id": "bt_tier1_effect",
@@ -12,9 +17,21 @@
       "tier": "basic",
       "file": "GameUserSettings.ini",
       "section": "BanginTranqs",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "integer", "default": 5, "min": 1, "max": 1000, "step": 1 },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 5,
+        "min": 1,
+        "max": 1000,
+        "step": 1
+      },
       "i18nKey": "mods.bangin_tranqs.tier1_effect"
     },
     {
@@ -24,9 +41,21 @@
       "tier": "basic",
       "file": "GameUserSettings.ini",
       "section": "BanginTranqs",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "integer", "default": 25, "min": 1, "max": 5000, "step": 1 },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 25,
+        "min": 1,
+        "max": 5000,
+        "step": 1
+      },
       "i18nKey": "mods.bangin_tranqs.tier2_effect"
     },
     {
@@ -36,9 +65,21 @@
       "tier": "basic",
       "file": "GameUserSettings.ini",
       "section": "BanginTranqs",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "integer", "default": 125, "min": 1, "max": 50000, "step": 1 },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 125,
+        "min": 1,
+        "max": 50000,
+        "step": 1
+      },
       "i18nKey": "mods.bangin_tranqs.tier3_effect"
     }
   ]

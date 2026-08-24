@@ -2,9 +2,16 @@
   "modId": "BoostedFab",
   "name": "Boosted Fabricator+",
   "game": "ase",
-  "source": "community",
+  "source": "verified",
+  "verifiedBy": [
+    "sirlurmock"
+  ],
+  "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=778345456",
-  "searchAliases": ["fabricador mejorado", "fabricador"],
+  "searchAliases": [
+    "fabricador mejorado",
+    "fabricador"
+  ],
   "settings": [
     {
       "id": "boosted_fab_smithy_craft_speed",

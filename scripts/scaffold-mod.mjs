@@ -160,7 +160,12 @@ function runSpecMode(specPath) {
     // doc de la mod no declara el default real (ver README, convención de
     // `default`): con el flag, el valor que eligió el usuario llega al .ini
     // sin importar cuál sea el default interno de la mod.
-    const { key, kind, tier, es, en, section, alwaysEmit, ...rest } = s;
+    // `file` y `validIn` tambien son por setting, por el mismo motivo que
+    // `section`: Creature Finder Deluxe documenta sus 5 ajustes de servidor en
+    // GameUserSettings.ini y sus 4 teclas en [CFD] de Game.ini, que ademas son
+    // del cliente y no tienen sentido en un dedicado (mismo criterio que los
+    // ajustes de calidad grafica del catalogo core).
+    const { key, kind, tier, es, en, section, file, validIn, alwaysEmit, ...rest } = s;
     // Los campos con guion bajo son notas para quien lee el spec (de que
     // criatura es cada clave en Kraken's Better Dinos, de donde salio un
     // default), no datos del catalogo. Misma regla que a nivel spec: lo que
@@ -198,10 +203,10 @@ function runSpecMode(specPath) {
       key,
       category,
       tier: tier ?? "advanced",
-      file: spec.file ?? "GameUserSettings.ini",
+      file: file ?? spec.file ?? "GameUserSettings.ini",
       section: section ?? spec.section ?? spec.modId,
       games: [spec.game],
-      validIn: ["single_player", "host_local", "dedicated"],
+      validIn: validIn ?? ["single_player", "host_local", "dedicated"],
       ...(alwaysEmit === true ? { alwaysEmit: true } : {}),
       control,
       i18nKey: `mods.${ns}.${snake(key)}`,
@@ -234,6 +239,12 @@ function runSpecMode(specPath) {
     name: spec.name,
     game: spec.game,
     source: spec.source ?? "community",
+    // La firma de quien verifico y cuando. Sin esto, regenerar una mod
+    // verificada la devolvia a `community` de hecho: el badge seguia verde
+    // pero se perdia contra que se verifico y en que fecha, que es lo unico
+    // que permite saber si caduco (ver README de specs).
+    ...(spec.verifiedBy ? { verifiedBy: spec.verifiedBy } : {}),
+    ...(spec.verifiedAt ? { verifiedAt: spec.verifiedAt } : {}),
     ...(spec.workshopUrl ? { workshopUrl: spec.workshopUrl } : {}),
     // Las mods de ASA viven en CurseForge, no en el Workshop: sin esto la URL
     // del spec se perdia en silencio y la entrada quedaba sin link.

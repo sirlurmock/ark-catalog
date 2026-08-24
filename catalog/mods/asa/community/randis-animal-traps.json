@@ -3,7 +3,12 @@
   "name": "Randi's Animal Traps",
   "game": "asa",
   "source": "community",
-  "searchAliases": ["trampas de animales", "trampas"],
+  "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/randisanimaltraps",
+  "curseforgeId": "948945",
+  "searchAliases": [
+    "trampas de animales",
+    "trampas"
+  ],
   "settings": [
     {
       "id": "rat_small_wooden_trap_health",
@@ -12,9 +17,21 @@
       "tier": "advanced",
       "file": "GameUserSettings.ini",
       "section": "RandisAnimalTrapsMod",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "integer", "default": 20000, "min": 100, "max": 500000, "step": 1000 },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 20000,
+        "min": 100,
+        "max": 500000,
+        "step": 1000
+      },
       "i18nKey": "mods.randis_animal_traps.small_wooden_trap_health"
     },
     {
@@ -24,9 +41,21 @@
       "tier": "advanced",
       "file": "GameUserSettings.ini",
       "section": "RandisAnimalTrapsMod",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "integer", "default": 50, "min": 1, "max": 1000, "step": 1 },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 50,
+        "min": 1,
+        "max": 1000,
+        "step": 1
+      },
       "i18nKey": "mods.randis_animal_traps.small_wooden_trap_weight"
     },
     {
@@ -36,9 +65,21 @@
       "tier": "advanced",
       "file": "GameUserSettings.ini",
       "section": "RandisAnimalTrapsMod",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "integer", "default": 20000, "min": 100, "max": 500000, "step": 1000 },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 20000,
+        "min": 100,
+        "max": 500000,
+        "step": 1000
+      },
       "i18nKey": "mods.randis_animal_traps.small_trap_health"
     },
     {
@@ -48,9 +89,21 @@
       "tier": "advanced",
       "file": "GameUserSettings.ini",
       "section": "RandisAnimalTrapsMod",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "integer", "default": 50, "min": 1, "max": 1000, "step": 1 },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 50,
+        "min": 1,
+        "max": 1000,
+        "step": 1
+      },
       "i18nKey": "mods.randis_animal_traps.small_trap_weight"
     },
     {
@@ -60,9 +113,21 @@
       "tier": "advanced",
       "file": "GameUserSettings.ini",
       "section": "RandisAnimalTrapsMod",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "integer", "default": 25000, "min": 100, "max": 500000, "step": 1000 },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 25000,
+        "min": 100,
+        "max": 500000,
+        "step": 1000
+      },
       "i18nKey": "mods.randis_animal_traps.medium_trap_health"
     },
     {
@@ -72,9 +137,21 @@
       "tier": "advanced",
       "file": "GameUserSettings.ini",
       "section": "RandisAnimalTrapsMod",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "integer", "default": 100, "min": 1, "max": 2000, "step": 1 },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 2000,
+        "step": 1
+      },
       "i18nKey": "mods.randis_animal_traps.medium_trap_weight"
     },
     {
@@ -84,9 +161,21 @@
       "tier": "advanced",
       "file": "GameUserSettings.ini",
       "section": "RandisAnimalTrapsMod",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "integer", "default": 50000, "min": 100, "max": 1000000, "step": 1000 },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 50000,
+        "min": 100,
+        "max": 1000000,
+        "step": 1000
+      },
       "i18nKey": "mods.randis_animal_traps.large_trap_health"
     },
     {
@@ -96,9 +185,21 @@
       "tier": "advanced",
       "file": "GameUserSettings.ini",
       "section": "RandisAnimalTrapsMod",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "integer", "default": 200, "min": 1, "max": 5000, "step": 1 },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 200,
+        "min": 1,
+        "max": 5000,
+        "step": 1
+      },
       "i18nKey": "mods.randis_animal_traps.large_trap_weight"
     },
     {
@@ -108,9 +209,21 @@
       "tier": "advanced",
       "file": "GameUserSettings.ini",
       "section": "RandisAnimalTrapsMod",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "integer", "default": 25000, "min": 100, "max": 500000, "step": 1000 },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 25000,
+        "min": 100,
+        "max": 500000,
+        "step": 1000
+      },
       "i18nKey": "mods.randis_animal_traps.sky_trap_health"
     },
     {
@@ -120,9 +233,21 @@
       "tier": "advanced",
       "file": "GameUserSettings.ini",
       "section": "RandisAnimalTrapsMod",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "integer", "default": 100, "min": 1, "max": 2000, "step": 1 },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 2000,
+        "step": 1
+      },
       "i18nKey": "mods.randis_animal_traps.sky_trap_weight"
     },
     {
@@ -132,9 +257,21 @@
       "tier": "advanced",
       "file": "GameUserSettings.ini",
       "section": "RandisAnimalTrapsMod",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "integer", "default": 25000, "min": 100, "max": 500000, "step": 1000 },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 25000,
+        "min": 100,
+        "max": 500000,
+        "step": 1000
+      },
       "i18nKey": "mods.randis_animal_traps.underwater_trap_health"
     },
     {
@@ -144,9 +281,21 @@
       "tier": "advanced",
       "file": "GameUserSettings.ini",
       "section": "RandisAnimalTrapsMod",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "integer", "default": 100, "min": 1, "max": 2000, "step": 1 },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 100,
+        "min": 1,
+        "max": 2000,
+        "step": 1
+      },
       "i18nKey": "mods.randis_animal_traps.underwater_trap_weight"
     },
     {
@@ -156,9 +305,27 @@
       "tier": "expert",
       "file": "GameUserSettings.ini",
       "section": "RandisAnimalTrapsMod",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "float_multiplier", "default": 1.0, "min": 0.0, "max": 10, "presets": [1, 0.5, 0.25, 2, 5] },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.0,
+        "min": 0.0,
+        "max": 10,
+        "presets": [
+          1,
+          0.5,
+          0.25,
+          2,
+          5
+        ]
+      },
       "i18nKey": "mods.randis_animal_traps.small_wood_trap_craft_cost"
     },
     {
@@ -168,9 +335,27 @@
       "tier": "expert",
       "file": "GameUserSettings.ini",
       "section": "RandisAnimalTrapsMod",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "float_multiplier", "default": 1.0, "min": 0.0, "max": 10, "presets": [1, 0.5, 0.25, 2, 5] },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.0,
+        "min": 0.0,
+        "max": 10,
+        "presets": [
+          1,
+          0.5,
+          0.25,
+          2,
+          5
+        ]
+      },
       "i18nKey": "mods.randis_animal_traps.small_trap_craft_cost"
     },
     {
@@ -180,9 +365,27 @@
       "tier": "expert",
       "file": "GameUserSettings.ini",
       "section": "RandisAnimalTrapsMod",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "float_multiplier", "default": 1.0, "min": 0.0, "max": 10, "presets": [1, 0.5, 0.25, 2, 5] },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.0,
+        "min": 0.0,
+        "max": 10,
+        "presets": [
+          1,
+          0.5,
+          0.25,
+          2,
+          5
+        ]
+      },
       "i18nKey": "mods.randis_animal_traps.medium_trap_craft_cost"
     },
     {
@@ -192,9 +395,27 @@
       "tier": "expert",
       "file": "GameUserSettings.ini",
       "section": "RandisAnimalTrapsMod",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "float_multiplier", "default": 1.0, "min": 0.0, "max": 10, "presets": [1, 0.5, 0.25, 2, 5] },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.0,
+        "min": 0.0,
+        "max": 10,
+        "presets": [
+          1,
+          0.5,
+          0.25,
+          2,
+          5
+        ]
+      },
       "i18nKey": "mods.randis_animal_traps.large_trap_craft_cost"
     },
     {
@@ -204,9 +425,27 @@
       "tier": "expert",
       "file": "GameUserSettings.ini",
       "section": "RandisAnimalTrapsMod",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "float_multiplier", "default": 1.0, "min": 0.0, "max": 10, "presets": [1, 0.5, 0.25, 2, 5] },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.0,
+        "min": 0.0,
+        "max": 10,
+        "presets": [
+          1,
+          0.5,
+          0.25,
+          2,
+          5
+        ]
+      },
       "i18nKey": "mods.randis_animal_traps.sky_trap_craft_cost"
     },
     {
@@ -216,9 +455,27 @@
       "tier": "expert",
       "file": "GameUserSettings.ini",
       "section": "RandisAnimalTrapsMod",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "float_multiplier", "default": 1.0, "min": 0.0, "max": 10, "presets": [1, 0.5, 0.25, 2, 5] },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.0,
+        "min": 0.0,
+        "max": 10,
+        "presets": [
+          1,
+          0.5,
+          0.25,
+          2,
+          5
+        ]
+      },
       "i18nKey": "mods.randis_animal_traps.underwater_trap_craft_cost"
     }
   ]

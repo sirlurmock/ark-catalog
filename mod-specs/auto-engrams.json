@@ -4,10 +4,18 @@
   "modId": "AutoEngrams",
   "name": "Auto Engrams!",
   "game": "ase",
-  "source": "community",
+  "source": "verified",
+  "verifiedBy": [
+    "sirlurmock"
+  ],
+  "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1428596566",
   "prefix": "auto_engrams",
-  "searchAliases": ["engramas", "desbloquear engramas", "engramas automáticos"],
+  "searchAliases": [
+    "engramas",
+    "desbloquear engramas",
+    "engramas automáticos"
+  ],
   "settings": [
     {
       "key": "ForceUnlock",

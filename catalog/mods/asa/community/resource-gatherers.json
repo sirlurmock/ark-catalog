@@ -3,7 +3,12 @@
   "name": "Resource Gatherers",
   "game": "asa",
   "source": "community",
-  "searchAliases": ["recolectores de recursos", "recolección automática"],
+  "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/resource-gatherers",
+  "curseforgeId": "932365",
+  "searchAliases": [
+    "recolectores de recursos",
+    "recolección automática"
+  ],
   "settings": [
     {
       "id": "rg_require_online_player",
@@ -12,9 +17,18 @@
       "tier": "basic",
       "file": "GameUserSettings.ini",
       "section": "ResourceGatherers",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "boolean", "default": false },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
       "i18nKey": "mods.resource_gatherers.require_online_player"
     },
     {
@@ -24,9 +38,18 @@
       "tier": "advanced",
       "file": "GameUserSettings.ini",
       "section": "ResourceGatherers",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "boolean", "default": true },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
       "i18nKey": "mods.resource_gatherers.use_dedicated_storage"
     },
     {
@@ -36,9 +59,21 @@
       "tier": "advanced",
       "file": "GameUserSettings.ini",
       "section": "ResourceGatherers",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "integer", "default": 3000, "min": 100, "max": 50000, "step": 100 },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 3000,
+        "min": 100,
+        "max": 50000,
+        "step": 100
+      },
       "i18nKey": "mods.resource_gatherers.dedicated_storage_range"
     },
     {
@@ -48,9 +83,18 @@
       "tier": "advanced",
       "file": "GameUserSettings.ini",
       "section": "ResourceGatherers",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "boolean", "default": true },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
       "i18nKey": "mods.resource_gatherers.templates_can_be_uploaded"
     },
     {
@@ -60,9 +104,18 @@
       "tier": "basic",
       "file": "GameUserSettings.ini",
       "section": "ResourceGatherers",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "boolean", "default": false },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
       "i18nKey": "mods.resource_gatherers.play_audio"
     },
     {
@@ -72,9 +125,18 @@
       "tier": "expert",
       "file": "GameUserSettings.ini",
       "section": "ResourceGatherers",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "boolean", "default": false },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
       "i18nKey": "mods.resource_gatherers.use_experimental_dedi_compat"
     },
     {
@@ -84,9 +146,18 @@
       "tier": "expert",
       "file": "GameUserSettings.ini",
       "section": "ResourceGatherers",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "boolean", "default": true },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
       "i18nKey": "mods.resource_gatherers.send_data_metrics"
     },
     {
@@ -96,9 +167,18 @@
       "tier": "advanced",
       "file": "GameUserSettings.ini",
       "section": "ResourceGatherers",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "boolean", "default": false },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
       "i18nKey": "mods.resource_gatherers.auto_enable_dedicated_sending"
     },
     {
@@ -108,9 +188,18 @@
       "tier": "advanced",
       "file": "GameUserSettings.ini",
       "section": "ResourceGatherers",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "boolean", "default": false },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
       "i18nKey": "mods.resource_gatherers.new_templates_disabled_by_default"
     },
     {
@@ -120,9 +209,27 @@
       "tier": "basic",
       "file": "GameUserSettings.ini",
       "section": "ResourceGatherers",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "float_multiplier", "default": 1.0, "min": 0.0, "max": 100, "presets": [1, 2, 5, 10, 20] },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.0,
+        "min": 0.0,
+        "max": 100,
+        "presets": [
+          1,
+          2,
+          5,
+          10,
+          20
+        ]
+      },
       "i18nKey": "mods.resource_gatherers.global_production_multiplier"
     },
     {
@@ -132,8 +239,14 @@
       "tier": "advanced",
       "file": "GameUserSettings.ini",
       "section": "ResourceGatherers",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
       "control": {
         "kind": "struct_array",
         "default": [],
@@ -277,10 +390,37 @@
           "WyvernMilk"
         ],
         "fields": [
-          { "suffix": "Multiplier", "type": "float", "i18nKey": "mods.resource_gatherers.resource_overrides.multiplier", "default": 1, "min": 0, "max": 100, "step": 0.1 },
-          { "suffix": "MaxItems", "type": "integer", "i18nKey": "mods.resource_gatherers.resource_overrides.max_items", "default": 1000, "min": 0, "max": 1000000 },
-          { "suffix": "Enabled", "type": "boolean", "i18nKey": "mods.resource_gatherers.resource_overrides.enabled", "default": true },
-          { "suffix": "MinTier", "type": "integer", "i18nKey": "mods.resource_gatherers.resource_overrides.min_tier", "default": 1, "min": 1, "max": 3 }
+          {
+            "suffix": "Multiplier",
+            "type": "float",
+            "i18nKey": "mods.resource_gatherers.resource_overrides.multiplier",
+            "default": 1,
+            "min": 0,
+            "max": 100,
+            "step": 0.1
+          },
+          {
+            "suffix": "MaxItems",
+            "type": "integer",
+            "i18nKey": "mods.resource_gatherers.resource_overrides.max_items",
+            "default": 1000,
+            "min": 0,
+            "max": 1000000
+          },
+          {
+            "suffix": "Enabled",
+            "type": "boolean",
+            "i18nKey": "mods.resource_gatherers.resource_overrides.enabled",
+            "default": true
+          },
+          {
+            "suffix": "MinTier",
+            "type": "integer",
+            "i18nKey": "mods.resource_gatherers.resource_overrides.min_tier",
+            "default": 1,
+            "min": 1,
+            "max": 3
+          }
         ]
       },
       "i18nKey": "mods.resource_gatherers.resource_overrides"

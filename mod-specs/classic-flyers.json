@@ -5,7 +5,11 @@
   "modId": "ClassicFlyers",
   "name": "Classic Flyers",
   "game": "ase",
-  "source": "community",
+  "source": "verified",
+  "verifiedBy": [
+    "sirlurmock"
+  ],
+  "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=895711211",
   "prefix": "classic_flyers",
   "searchAliases": [

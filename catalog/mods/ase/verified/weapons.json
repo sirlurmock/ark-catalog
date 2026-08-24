@@ -2,9 +2,15 @@
   "modId": "WeaponsPlus",
   "name": "Weapons+",
   "game": "ase",
-  "source": "community",
+  "source": "verified",
+  "verifiedBy": [
+    "sirlurmock"
+  ],
+  "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=812639416",
-  "searchAliases": ["armas"],
+  "searchAliases": [
+    "armas"
+  ],
   "settings": [
     {
       "id": "weapons_plus_boomerang_damage",

@@ -3,7 +3,12 @@
   "name": "Improved Egg Incubator",
   "game": "asa",
   "source": "community",
-  "searchAliases": ["incubadora mejorada", "incubadora"],
+  "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/improved-incubator",
+  "curseforgeId": "935399",
+  "searchAliases": [
+    "incubadora mejorada",
+    "incubadora"
+  ],
   "settings": [
     {
       "id": "iei_prevent_egg_filtering_on_pickup",
@@ -12,9 +17,18 @@
       "tier": "advanced",
       "file": "GameUserSettings.ini",
       "section": "ImprovedEggIncubator",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "boolean", "default": true },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
       "i18nKey": "mods.improved_egg_incubator.prevent_egg_filtering_on_pickup"
     },
     {
@@ -24,9 +38,18 @@
       "tier": "basic",
       "file": "GameUserSettings.ini",
       "section": "ImprovedEggIncubator",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "boolean", "default": true },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
       "i18nKey": "mods.improved_egg_incubator.bonus_hatch_rates"
     },
     {
@@ -36,9 +59,18 @@
       "tier": "basic",
       "file": "GameUserSettings.ini",
       "section": "ImprovedEggIncubator",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "boolean", "default": true },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
       "i18nKey": "mods.improved_egg_incubator.bonus_gestation"
     },
     {
@@ -48,9 +80,18 @@
       "tier": "advanced",
       "file": "GameUserSettings.ini",
       "section": "ImprovedEggIncubator",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "boolean", "default": true },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
       "i18nKey": "mods.improved_egg_incubator.exp_from_eggs"
     },
     {
@@ -60,9 +101,18 @@
       "tier": "advanced",
       "file": "GameUserSettings.ini",
       "section": "ImprovedEggIncubator",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "boolean", "default": true },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
       "i18nKey": "mods.improved_egg_incubator.allow_stat_filtering"
     },
     {
@@ -72,9 +122,21 @@
       "tier": "basic",
       "file": "GameUserSettings.ini",
       "section": "ImprovedEggIncubator",
-      "games": ["asa"],
-      "validIn": ["single_player", "host_local", "dedicated"],
-      "control": { "kind": "integer", "default": 1, "min": 1, "max": 50, "step": 1 },
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 1,
+        "min": 1,
+        "max": 50,
+        "step": 1
+      },
       "i18nKey": "mods.improved_egg_incubator.gestation_speed"
     }
   ]
