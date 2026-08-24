@@ -32,12 +32,68 @@
         "label": "Engineering Station"
       },
       {
+        "value": "/Moros_Indomitable_Duo/IndominusRex/DNAMachines/DNA_FullVials/DNA_Vial_Carno.DNA_Vial_Carno",
+        "label": "Carno DNA Vial"
+      },
+      {
+        "value": "/Moros_Indomitable_Duo/IndominusRex/DNAMachines/DNA_FullVials/DNA_Vial_Giga.DNA_Vial_Giga",
+        "label": "Giga DNA Vial"
+      },
+      {
+        "value": "/Moros_Indomitable_Duo/IndominusRex/DNAMachines/DNA_FullVials/DNA_Vial_MoroRaptor.DNA_Vial_MoroRaptor",
+        "label": "MoroRaptor DNA Vial"
+      },
+      {
+        "value": "/Moros_Indomitable_Duo/IndominusRex/DNAMachines/DNA_FullVials/DNA_Vial_MoroRex.DNA_Vial_MoroRex",
+        "label": "MoroRex DNA Vial"
+      },
+      {
+        "value": "/Moros_Indomitable_Duo/IndominusRex/DNAMachines/DNA_FullVials/DNA_Vial_Raptor.DNA_Vial_Raptor",
+        "label": "Raptor DNA Vial"
+      },
+      {
+        "value": "/Moros_Indomitable_Duo/IndominusRex/DNAMachines/DNA_FullVials/DNA_Vial_Rex.DNA_Vial_Rex",
+        "label": "Rex DNA Vial"
+      },
+      {
+        "value": "/Moros_Indomitable_Duo/IndominusRex/DNAMachines/DNA_FullVials/DNA_Vial_Therizino.DNA_Vial_Therizino",
+        "label": "Theri DNA Vial"
+      },
+      {
         "value": "/Moros_Indomitable_Duo/IndominusRex/DNAMachines/Extractor/PrimalItemStructure_DNA_Extractor.PrimalItemStructure_DNA_Extractor",
         "label": "DNA Extractor"
       },
       {
         "value": "/Moros_Indomitable_Duo/IndominusRex/DNAMachines/Incubator/PrimalItemStructure_DNA_Incubator.PrimalItemStructure_DNA_Incubator",
-        "label": "DNA Incubator"
+        "label": "GMH Incubator"
+      },
+      {
+        "value": "/Moros_Indomitable_Duo/IndominusRex/DNAMachines/PetriDishes/Petri_Dish_Carno.Petri_Dish_Carno",
+        "label": "Carno Petri Dish"
+      },
+      {
+        "value": "/Moros_Indomitable_Duo/IndominusRex/DNAMachines/PetriDishes/Petri_Dish_Giga.Petri_Dish_Giga",
+        "label": "Giga Petri Dish"
+      },
+      {
+        "value": "/Moros_Indomitable_Duo/IndominusRex/DNAMachines/PetriDishes/Petri_Dish_IndoRaptor.Petri_Dish_IndoRaptor",
+        "label": "MoroRaptor Petri Dish"
+      },
+      {
+        "value": "/Moros_Indomitable_Duo/IndominusRex/DNAMachines/PetriDishes/Petri_Dish_Indom.Petri_Dish_Indom",
+        "label": "MoroRex Petri Dish"
+      },
+      {
+        "value": "/Moros_Indomitable_Duo/IndominusRex/DNAMachines/PetriDishes/Petri_Dish_Raptor.Petri_Dish_Raptor",
+        "label": "Raptor Petri Dish"
+      },
+      {
+        "value": "/Moros_Indomitable_Duo/IndominusRex/DNAMachines/PetriDishes/Petri_Dish_Rex.Petri_Dish_Rex",
+        "label": "Rex Petri Dish"
+      },
+      {
+        "value": "/Moros_Indomitable_Duo/IndominusRex/DNAMachines/PetriDishes/Petri_Dish_Therizino.Petri_Dish_Therizino",
+        "label": "Theri Petri Dish"
       },
       {
         "value": "/Moros_Indomitable_Duo/IndominusRex/DNAMachines/Sequencer/PrimalItemStructure_DNA_Sequencer.PrimalItemStructure_DNA_Sequencer",
@@ -69,11 +125,11 @@
       },
       {
         "value": "/Moros_Indomitable_Duo/IndominusRex/IndoRaptor/GeneticallyEngineeredIndoRaptorEgg/PrimalItem_MoroRaptorGen2_GM_Egg.PrimalItem_MoroRaptorGen2_GM_Egg",
-        "label": "Moro Raptor Gen2 GM Egg"
+        "label": "GE MoroRaptor Gen 2 Egg"
       },
       {
         "value": "/Moros_Indomitable_Duo/IndominusRex/IndoRaptor/GeneticallyEngineeredIndoRaptorEgg/PrimalItem_MoroRaptor_GM_Egg.PrimalItem_MoroRaptor_GM_Egg",
-        "label": "Moro Raptor GM Egg"
+        "label": "GE MoroRaptor Egg"
       },
       {
         "value": "/Moros_Indomitable_Duo/IndominusRex/IndoRaptor/IndoRaptorBlueprints/PrimalItemArmor_ForIndoRaptor.PrimalItemArmor_ForIndoRaptor",
@@ -81,19 +137,19 @@
       },
       {
         "value": "/Moros_Indomitable_Duo/IndominusRex/IndoRaptor/PrimalItemResource_ApexDrop_MoroRaptor.PrimalItemResource_ApexDrop_MoroRaptor",
-        "label": "Moro Raptor Apex Drop"
+        "label": "MoroRaptor Tooth"
       },
       {
         "value": "/Moros_Indomitable_Duo/IndominusRex/IndoRaptor/PrimalItemResource_ApexDrop_MoroRex.PrimalItemResource_ApexDrop_MoroRex",
-        "label": "Moro Rex Apex Drop"
+        "label": "MoroRex Rib"
       },
       {
         "value": "/Moros_Indomitable_Duo/IndominusRex/IndoRaptor/Props/TrikeMonument/PrimalItemStructure_TrikeMonument.PrimalItemStructure_TrikeMonument",
-        "label": "Trike Monument"
+        "label": "Trike Bone Monument"
       },
       {
         "value": "/Moros_Indomitable_Duo/IndominusRex/Items/SpawnItem/PrimalItem_IndoRex_Deed.PrimalItem_IndoRex_Deed",
-        "label": "IndoRex Deed"
+        "label": "Genetically Engineered MoroRex Egg"
       },
       {
         "value": "/Moros_Indomitable_Duo/MoroRex_Gen2/Blueprints/Eggs/PrimalItemConsumable_Egg_MoroRexGen2.PrimalItemConsumable_Egg_MoroRexGen2",
@@ -105,7 +161,7 @@
       },
       {
         "value": "/Moros_Indomitable_Duo/MoroRex_Gen2/Blueprints/Eggs/PrimalItem_MoroRexGen2_GM_Egg.PrimalItem_MoroRexGen2_GM_Egg",
-        "label": "Moro Rex Gen2 GM Egg"
+        "label": "GE MoroRex Gen 2 Egg"
       },
       {
         "value": "/Moros_Indomitable_Duo/MoroRex_Gen2/Blueprints/PrimalItemArmor_MoroRexGen2.PrimalItemArmor_MoroRexGen2",
@@ -212,34 +268,40 @@
     ],
     "dinos": [
       {
-        "value": "MoroRaptor_Character_BP_C",
-        "label": "Moro Raptor"
-      },
-      {
         "value": "MorosRex_Character_BP_C",
-        "label": "Moro Rex"
+        "label": "MoroRex"
       },
       {
         "value": "MoroRexGen2_Character_BP_C",
-        "label": "Moro Rex Gen2"
+        "label": "MoroRex Gen 2"
+      },
+      {
+        "value": "MoroRaptor_Character_BP_C",
+        "label": "MoroRaptor"
+      },
+      {
+        "value": "Gen2MoroRaptor_C",
+        "label": "MoroRaptor Gen2"
       }
     ]
   },
   "_classnamesSource": {
     "items": {
-      "url": "https://arkcodes.com/mods/928824/moros-indomitable-duo/items",
+      "url": "https://drive.google.com/drive/folders/1vvQBzspmROzT4gxssXBitT-zi0geXYQn",
       "fetchedAt": "2026-08-24",
-      "note": "arkcodes, proyecto 928824 (la version ASA de esta mod). Es la unica fuente con los codigos: su autor los manda a una carpeta de Google Drive y a su Discord, y la config de la mod se toca desde un mando de admin in-game. La wiki oficial que el mismo linkea (ark.wiki.gg/wiki/Mod:Moro's_Indomitable_Duo, con una subpagina por criatura) corrobora los nombres: MoroRex y MoroRaptor son los nuevos, Moro's Indominus Rex y Moro's IndoRaptor los viejos. Labels puestos a mano; los PrimalItemArmor_* son monturas."
+      "note": "Carpeta de documentacion del autor, la que linkea desde CurseForge: documentos \"Item SpawnCodes\" y \"File Paths for items\". De ahi salen los NOMBRES (el autor llama GMH Incubator a la incubadora, Trike Bone Monument al monumento, MoroRaptor Tooth y MoroRex Rib a los apex drops) y las 14 entradas que arkcodes no lista: las 7 placas de Petri y los 7 viales de ADN como OBJETOS. Los paths de los otros 24 salen de arkcodes (proyecto 928824), que los trae completos; los del doc a veces vienen sin el sufijo de clase o con un segmento Content/ del editor."
     },
     "engrams": {
       "url": "https://arkcodes.com/mods/928824/moros-indomitable-duo/engrams",
       "fetchedAt": "2026-08-24",
-      "note": "Misma fuente. Los engramas incluyen los viales de ADN de criaturas VANILLA (Rex, Raptor, Carno, Giga, Therizino): son parte del sistema de ADN de la mod, no del juego base."
+      "note": "arkcodes, proyecto 928824. El doc del autor confirma seis de estos por su nombre de EngramEntry en los ejemplos de EngramEntryAutoUnlocks y OverrideNamedEngramEntries (DNA_Extractor, DNA_Incubator, DNA_Sequencer, DNA_Synthesizer, Engineering_Station y SaddleTylosaurus)."
     },
     "dinos": {
-      "url": "https://arkcodes.com/mods/928824/moros-indomitable-duo/dinos",
+      "url": "https://drive.google.com/drive/folders/1vvQBzspmROzT4gxssXBitT-zi0geXYQn",
       "fetchedAt": "2026-08-24",
-      "note": "Misma fuente. Tres criaturas: Moro Rex, su Gen2 y Moro Raptor. Los classnames NO son los de la entrada ASE (IndominusRex_Character_BP_C / NewIndoRaptor_Character_BP_C / Gen2IndoRaptor_C): el autor las renombro al pasar a ASA."
+      "note": "Documento \"IndoDuo Creature SpawnCodes\" del autor: son CUATRO criaturas, no tres. arkcodes se pierde la Gen2 del raptor porque su classname es Gen2MoroRaptor y no sigue el patron *_Character_BP_C. Los nombres son los del autor. OJO: sus ejemplos de DinoClassDamageMultipliers mencionan ademas MoroTylosaurus_character_bp_C, que NO esta catalogada: ningun documento suyo la lista como criatura de esta mod."
     }
-  }
+  },
+  "_source": "Mod de CRIATURAS sin ajustes catalogables, y ahora con el motivo en palabras del autor. Su carpeta de documentacion (https://drive.google.com/drive/folders/1vvQBzspmROzT4gxssXBitT-zi0geXYQn, la que linkea desde CurseForge) tiene un documento \"INI Settings / Server Configurations\" con una seccion [MoroIndomDuoMod] y cinco claves (MaxMoroRaptorSpawns=4, MaxMoroRexSpawns=2, IndosSpawnChance=0.2, DisableIndoSpawns=False, IndosSpawnAttemptDelay=30), pero arriba de todo aclara en mayusculas: \"INI SETTINGS NO LONGER WORK ON ASA, YOU MUST USE THE INGAME ADMIN REMOTE TO CHANGE THESE SETTINGS. REGULAR INI SETTINGS STILL WORK JUST NOT CUSTOM ONES. (STILL WORK IN ASE)\". Catalogarlas para ASA seria escribir claves muertas en el .ini del usuario, asi que NO entran. La configuracion de esta mod en ASA se toca desde el mando de admin in-game.",
+  "_pendiente_ase": "Ese mismo documento dice que las cinco claves SI funcionan en ASE. Antes de catalogarlas en la entrada de ASE (Moro's Indomitable Rex, Workshop 2932656301) falta confirmar que alla la seccion se llame igual [MoroIndomDuoMod]: el nombre \"Duo\" es el de la publicacion de ASA, el doc vive en su carpeta y sus ejemplos usan los classnames de ASA. La pagina y los cuatro hilos de la version ASE no mencionan ninguna clave."
 }
