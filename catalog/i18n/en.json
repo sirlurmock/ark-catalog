@@ -655,6 +655,10 @@
   "summary": {
     "title": "Server summary",
     "no_changes": "No changes. Your configuration is at ARK defaults.",
+    "collapse": "Collapse the summary",
+    "expand": "Show the summary",
+    "show_all": "Show the other {count}",
+    "show_less": "Show less",
     "changes_section": "Changes ({count})",
     "warnings_section": "Warnings ({count})",
     "fallback": {

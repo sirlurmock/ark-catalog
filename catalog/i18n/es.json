@@ -655,6 +655,10 @@
   "summary": {
     "title": "Resumen de tu servidor",
     "no_changes": "Sin cambios. Tu configuración está al default de ARK.",
+    "collapse": "Plegar el resumen",
+    "expand": "Mostrar el resumen",
+    "show_all": "Ver los {count} restantes",
+    "show_less": "Ver menos",
     "changes_section": "Cambios ({count})",
     "warnings_section": "Advertencias ({count})",
     "fallback": {
