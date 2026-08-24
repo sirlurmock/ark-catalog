@@ -1,5 +1,5 @@
 {
-  "_source": "Hilo fijado del autor (KitzyKatty) 'How to: Using the .ini configs' (https://steamcommunity.com/workshop/filedetails/discussion/2182894352/2794998850882765005/, editado por última vez el 2021-08-02) más los change notes de la mod (2020-12-05: PreventTitan/PreventBee/MaxDrakeLevel/MaxDeinonLevel; 2021-08-01: MinDrakeLevel; 2022-12-09: MinDeinonLevel/MinMagmaLevel/MaxMagmaLevel). Sección [CustomLevelDistrib] de GameUserSettings.ini, dicho textual en el hilo. Transcrito el 2026-08-23.",
+  "_source": "Hilo fijado del autor (KitzyKatty) 'How to: Using the .ini configs' (https://steamcommunity.com/workshop/filedetails/discussion/2182894352/2794998850882765005/, editado por última vez el 2021-08-02) más los change notes de la mod (2020-12-05: PreventTitan/PreventBee/MaxDrakeLevel/MaxDeinonLevel; 2021-08-01: MinDrakeLevel; 2022-12-09: MinDeinonLevel/MinMagmaLevel/MaxMagmaLevel). Sección [CustomLevelDistrib] de GameUserSettings.ini, dicho textual en el hilo. Transcrito el 2026-08-23. SEGUNDA FUENTE DEL MISMO AUTOR (2026-08-24): su hilo fijado \"Questions & Answers\" (https://steamcommunity.com/workshop/filedetails/discussion/2182894352/2794998850882747277/), que explica que hace cada una de las tres distribuciones, confirma que la equalizada es el default de la mod y que es la unica con la que sirven MinLevel/MaxLevel, y aclara que PreventBee/PreventTitan NO impiden el spawn: dejan a esas dos criaturas fuera del reparto de la mod. Ahi tambien dice que la mod no toca la dificultad: para ver 150 hay que poner OverrideOfficialDifficulty=5.0 en [ServerSettings], que ya esta en el catalogo core.",
   "_defaults": "Todos con default declarado por el autor: el hilo da el 'default setup' (WantsEqualLevels=True con Rag/High en False, MinLevel=1.0, MaxLevel=30.0) y los change notes declaran 'Default value set to True' para PreventTitan/PreventBee, 38.0 para MaxDrakeLevel, 1.0 para MinDrakeLevel/MinDeinonLevel/MinMagmaLevel y 30.0 para MaxDeinonLevel/MaxMagmaLevel.",
   "_scope": "Las 13 claves documentadas por el autor. FUERA con nombre: LowWeight/MediumWeight/HighWeight/TinyWeight (la mod las escribe sola con defaults idénticos en dos .ini independientes — 0.5/0.25/0.1/1.0 — pero el autor nunca documentó qué hacen; catalogarlas sin poder describirlas sería inventar. Se preservan al importar) y WantsCustom (existe en la versión ASA; en ASE no hay doc ni aparece en el .ini real).",
   "_modId": "El modId es el ID del Workshop y no el nombre de sección: la versión ASA ya usa modId 'CustomLevelDistrib' y modsById indexa por modId sin distinguir juego (precedente Awesome Teleporters ASE). Namespace i18n propio porque el set Y los defaults difieren de la ASA (ASE tiene WantsRagLevels/WantsHighLevels y defaults documentados True para WantsEqualLevels/PreventBee/PreventTitan y 38 para MaxDrakeLevel; la entrada ASA salió del .ini real sin doc del autor).",
@@ -42,11 +42,11 @@
       "default": false,
       "es": {
         "label": "Niveles estilo Ragnarok",
-        "description": "Usa la distribución de niveles de Ragnarok (más generosa que la de The Island) en cualquier mapa. Solo UNO de los tres modos Wants* puede estar en True a la vez. Default: desactivado."
+        "description": "Usa la distribución de niveles de Ragnarok (más generosa que la de The Island) en cualquier mapa. Solo UNO de los tres modos Wants* puede estar en True a la vez. Default: desactivado. El autor detalla que con esta distribucion hay niveles que directamente NO aparecen: en dificultad maxima, los niveles 5, 10, 30, 35, 40, 65, 70, 75, 80, 105, 110, 115, 120 y 125 nunca salen."
       },
       "en": {
         "label": "Ragnarok-style levels",
-        "description": "Uses Ragnarok's level distribution (more generous than The Island's) on any map. Only ONE of the three Wants* modes can be True at a time. Default: disabled."
+        "description": "Uses Ragnarok's level distribution (more generous than The Island's) on any map. Only ONE of the three Wants* modes can be True at a time. Default: disabled. The author spells out that some levels simply never spawn with this one: at max difficulty, levels 5, 10, 30, 35, 40, 65, 70, 75, 80, 105, 110, 115, 120 and 125 are never rolled."
       }
     },
     {
@@ -88,11 +88,11 @@
       "max": 100,
       "es": {
         "label": "Nivel base máximo",
-        "description": "Nivel base máximo que puede salir (solo con Niveles equalizados en True). Valor = nivel deseado ÷ dificultad: 30 en dificultad 5 = nivel 150, como vanilla. Subirlo mucho dispara los niveles (125 en dificultad 5 = ¡nivel 625!). Default 30.0."
+        "description": "Nivel base máximo que puede salir (solo con Niveles equalizados en True). Valor = nivel deseado ÷ dificultad: 30 en dificultad 5 = nivel 150, como vanilla. Subirlo mucho dispara los niveles (125 en dificultad 5 = ¡nivel 625!). Default 30.0. Ojo: la mod no toca la dificultad del servidor. Para que 30 se convierta en 150 hace falta OverrideOfficialDifficulty=5.0, que esta en la categoria General del catalogo."
       },
       "en": {
         "label": "Maximum base level",
-        "description": "Maximum base level that can spawn (only with Equalized levels set to True). Value = desired level ÷ difficulty: 30 at difficulty 5 = level 150, like vanilla. Raising it a lot explodes the levels (125 at difficulty 5 = level 625!). Default 30.0."
+        "description": "Maximum base level that can spawn (only with Equalized levels set to True). Value = desired level ÷ difficulty: 30 at difficulty 5 = level 150, like vanilla. Raising it a lot explodes the levels (125 at difficulty 5 = level 625!). Default 30.0. Note: the mod does not change server difficulty. For 30 to become 150 you still need OverrideOfficialDifficulty=5.0, which lives in the General category of the catalog."
       }
     },
     {
@@ -102,11 +102,11 @@
       "default": true,
       "es": {
         "label": "Excluir al Titanosaurio",
-        "description": "En True el Titanosaurio se comporta como vanilla: siempre aparece al nivel más bajo, sin que la mod lo toque. En False sale con niveles variados como el resto. Default: activado (vanilla)."
+        "description": "En True el Titanosaurio se comporta como vanilla: siempre aparece al nivel más bajo, sin que la mod lo toque. En False sale con niveles variados como el resto. Default: activado (vanilla). Dicho por el autor: no impide que el Titanosaurio aparezca, lo deja fuera del reparto de niveles de la mod."
       },
       "en": {
         "label": "Exclude the Titanosaur",
-        "description": "When True the Titanosaur behaves like vanilla: always spawns at the lowest level, untouched by the mod. When False it spawns at varied levels like everything else. Default: enabled (vanilla)."
+        "description": "When True the Titanosaur behaves like vanilla: always spawns at the lowest level, untouched by the mod. When False it spawns at varied levels like everything else. Default: enabled (vanilla). In the author’s words: it does not stop the Titanosaur from spawning, it leaves it out of the mod’s level spread."
       }
     },
     {
@@ -116,11 +116,11 @@
       "default": true,
       "es": {
         "label": "Excluir a la Abeja Reina",
-        "description": "En True la Abeja Reina gigante se comporta como vanilla: siempre al nivel más bajo. En False sale con niveles variados. Default: activado (vanilla)."
+        "description": "En True la Abeja Reina gigante se comporta como vanilla: siempre al nivel más bajo. En False sale con niveles variados. Default: activado (vanilla). Dicho por el autor: no impide que la Abeja Reina aparezca, la deja fuera del reparto de niveles de la mod."
       },
       "en": {
         "label": "Exclude the Queen Bee",
-        "description": "When True the giant Queen Bee behaves like vanilla: always at the lowest level. When False it spawns at varied levels. Default: enabled (vanilla)."
+        "description": "When True the giant Queen Bee behaves like vanilla: always at the lowest level. When False it spawns at varied levels. Default: enabled (vanilla). In the author’s words: it does not stop the Queen Bee from spawning, it leaves it out of the mod’s level spread."
       }
     },
     {
@@ -219,5 +219,6 @@
         "description": "Base level floor for the Magmasaur. Default 1.0."
       }
     }
-  ]
+  ],
+  "_alcance_confirmado": "El hilo \"How to\" lista las claves como: WantsRagLevels, WantsEqualLevels, WantsHighLevels, MinLevel, MaxLevel, PreventBee, PreventTitan, MaxDrakeLevel, MinDrakeLevel, MaxDeinonLevel. Los change notes suman MinDeinonLevel, MinMagmaLevel y MaxMagmaLevel. Son las 13 catalogadas: el segundo hilo no agrega ninguna clave nueva."
 }

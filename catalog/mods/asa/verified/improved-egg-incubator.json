@@ -1,0 +1,262 @@
+{
+  "modId": "ImprovedEggIncubator",
+  "name": "Improved Egg Incubator",
+  "game": "asa",
+  "source": "verified",
+  "verifiedBy": [
+    "sirlurmock"
+  ],
+  "verifiedAt": "2026-08-24",
+  "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/improved-incubator",
+  "curseforgeId": "935399",
+  "searchAliases": [
+    "incubadora mejorada",
+    "incubadora"
+  ],
+  "settings": [
+    {
+      "id": "iei_bonus_hatch_rates",
+      "key": "BonusHatchRates",
+      "category": "mod_improved_egg_incubator",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "ImprovedEggIncubator",
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.improved_egg_incubator.bonus_hatch_rates"
+    },
+    {
+      "id": "iei_bonus_gestation",
+      "key": "BonusGestation",
+      "category": "mod_improved_egg_incubator",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "ImprovedEggIncubator",
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.improved_egg_incubator.bonus_gestation"
+    },
+    {
+      "id": "iei_bonus_hatch_speed",
+      "key": "BonusHatchSpeed",
+      "category": "mod_improved_egg_incubator",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "ImprovedEggIncubator",
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 1.2,
+        "min": 1,
+        "max": 50,
+        "step": 0.1,
+        "presets": [
+          1.2,
+          2,
+          5,
+          10
+        ]
+      },
+      "i18nKey": "mods.improved_egg_incubator.bonus_hatch_speed"
+    },
+    {
+      "id": "iei_gestation_speed",
+      "key": "GestationSpeed",
+      "category": "mod_improved_egg_incubator",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "ImprovedEggIncubator",
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 3,
+        "min": 1,
+        "max": 50,
+        "step": 1
+      },
+      "i18nKey": "mods.improved_egg_incubator.gestation_speed"
+    },
+    {
+      "id": "iei_exp_from_eggs",
+      "key": "ExpFromEggs",
+      "category": "mod_improved_egg_incubator",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "ImprovedEggIncubator",
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.improved_egg_incubator.exp_from_eggs"
+    },
+    {
+      "id": "iei_prevent_egg_filtering_on_pickup",
+      "key": "PreventEggFilteringOnPickup",
+      "category": "mod_improved_egg_incubator",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "ImprovedEggIncubator",
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.improved_egg_incubator.prevent_egg_filtering_on_pickup"
+    },
+    {
+      "id": "iei_allow_stat_filtering",
+      "key": "AllowStatFiltering",
+      "category": "mod_improved_egg_incubator",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "ImprovedEggIncubator",
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.improved_egg_incubator.allow_stat_filtering"
+    },
+    {
+      "id": "iei_prevent_baby_healing",
+      "key": "PreventBabyHealing",
+      "category": "mod_improved_egg_incubator",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "ImprovedEggIncubator",
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.improved_egg_incubator.prevent_baby_healing"
+    },
+    {
+      "id": "iei_bonus_hatch_additional_eggs",
+      "key": "BonusHatchAdditionalEggs",
+      "category": "mod_improved_egg_incubator",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "ImprovedEggIncubator",
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.improved_egg_incubator.bonus_hatch_additional_eggs"
+    },
+    {
+      "id": "iei_prevent_stasis",
+      "key": "PreventStasis",
+      "category": "mod_improved_egg_incubator",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "ImprovedEggIncubator",
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.improved_egg_incubator.prevent_stasis"
+    },
+    {
+      "id": "iei_remove_water_tame_kill_checks",
+      "key": "RemoveWaterTameKillChecks",
+      "category": "mod_improved_egg_incubator",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "ImprovedEggIncubator",
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.improved_egg_incubator.remove_water_tame_kill_checks"
+    }
+  ],
+  "_source": "Descripcion oficial del autor en CurseForge (https://www.curseforge.com/ark-survival-ascended/mods/improved-incubator, proyecto 935399): la tabla de configuracion con las 11 claves, su default y que hace cada una, seccion [ImprovedEggIncubator]. Transcrita el 2026-08-24. La entrada anterior tenia 6 claves con tipos DEDUCIDOS del .ini real del autor de la app (Sprint A.7), GestationSpeed con default 1 cuando el autor documenta 3, y BonusHatchRates descrito como un bonus generico cuando el autor aclara que solo afecta huevos de giga y quetzal."
+}

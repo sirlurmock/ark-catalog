@@ -2,7 +2,11 @@
   "modId": "AwesomeTeleporters",
   "name": "Awesome Teleporters",
   "game": "asa",
-  "source": "community",
+  "source": "verified",
+  "verifiedBy": [
+    "sirlurmock"
+  ],
+  "verifiedAt": "2026-08-24",
   "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/awesometeleporters",
   "curseforgeId": "950914",
   "searchAliases": [
@@ -237,7 +241,7 @@
       ],
       "control": {
         "kind": "boolean",
-        "default": true
+        "default": false
       },
       "i18nKey": "mods.awesome_teleporters.allow_teleporting_into_prevention"
     },
@@ -326,6 +330,150 @@
       "i18nKey": "mods.awesome_teleporters.mesh_detection"
     },
     {
+      "id": "at_enemy_foundation_prevention_range",
+      "key": "EnemyFoundationPreventionRange",
+      "category": "mod_awesome_teleporters",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "i18nKey": "mods.awesome_teleporters.enemy_foundation_prevention_range"
+    },
+    {
+      "id": "at_max_teleporters_per_tribe",
+      "key": "MaxTeleportersPerTribe",
+      "category": "mod_awesome_teleporters",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.awesome_teleporters.max_teleporters_per_tribe"
+    },
+    {
+      "id": "at_max_teleporters_per_player",
+      "key": "MaxTeleportersPerPlayer",
+      "category": "mod_awesome_teleporters",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 1
+      },
+      "i18nKey": "mods.awesome_teleporters.max_teleporters_per_player"
+    },
+    {
+      "id": "at_teleport_cooldown",
+      "key": "TeleportCooldown",
+      "category": "mod_awesome_teleporters",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 3600,
+        "step": 1
+      },
+      "i18nKey": "mods.awesome_teleporters.teleport_cooldown"
+    },
+    {
+      "id": "at_combat_cooldown",
+      "key": "CombatCooldown",
+      "category": "mod_awesome_teleporters",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 3600,
+        "step": 1
+      },
+      "i18nKey": "mods.awesome_teleporters.combat_cooldown"
+    },
+    {
+      "id": "at_find_dino_cooldown",
+      "key": "FindDinoCooldown",
+      "category": "mod_awesome_teleporters",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "integer",
+        "default": 0,
+        "min": 0,
+        "max": 3600,
+        "step": 1
+      },
+      "i18nKey": "mods.awesome_teleporters.find_dino_cooldown"
+    },
+    {
       "id": "at_bubble_duration",
       "key": "BubbleDuration",
       "category": "mod_awesome_teleporters",
@@ -343,11 +491,62 @@
       "control": {
         "kind": "integer",
         "default": 5,
-        "min": 0,
-        "max": 60,
+        "min": 1,
+        "max": 100,
         "step": 1
       },
       "i18nKey": "mods.awesome_teleporters.bubble_duration"
+    },
+    {
+      "id": "at_remote_uses_durability",
+      "key": "RemoteUsesDurability",
+      "category": "mod_awesome_teleporters",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "float_multiplier",
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "step": 0.05,
+        "presets": [
+          0,
+          0.5,
+          1
+        ]
+      },
+      "i18nKey": "mods.awesome_teleporters.remote_uses_durability"
+    },
+    {
+      "id": "at_disable_teleporting_dino_classes",
+      "key": "DisableTeleportingDinoClasses",
+      "category": "mod_awesome_teleporters",
+      "tier": "expert",
+      "file": "GameUserSettings.ini",
+      "section": "AwesomeTeleporters",
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "string_list",
+        "default": []
+      },
+      "i18nKey": "mods.awesome_teleporters.disable_teleporting_dino_classes"
     }
-  ]
+  ],
+  "_source": "Descripcion oficial del autor en CurseForge (https://www.curseforge.com/ark-survival-ascended/mods/awesometeleporters, proyecto 950914): la tabla de GameUserSettings.ini con las 24 claves, su descripcion y su default, seccion [AwesomeTeleporters]. Transcrita el 2026-08-24. La entrada anterior tenia 16 claves con tipos DEDUCIDOS del .ini real del autor de la app (Sprint A.7) y dos datos mal: AllowTeleportingIntoPreventionZones venia en True cuando el autor lo documenta en False, y BubbleDuration no es cuanto dura la burbuja sino los segundos que tarda en ejecutarse el teleport."
 }

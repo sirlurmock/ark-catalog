@@ -69,7 +69,10 @@ Una entrada es **`"source": "verified"`** cuando cumple las cuatro:
 1. **Fuente oficial del autor de la mod**, con URL en `_source`: su página del
    Workshop o de CurseForge, su guía, su hoja de configuración, su sitio, o un
    hilo fijado suyo. Una wiki de terceros, un agregador o el `.ini` de alguien
-   NO alcanzan para verificar, por buenos que sean.
+   NO alcanzan para verificar, por buenos que sean. Las entradas que no tienen
+   spec —las que se mantienen a mano— llevan ese mismo `_source` dentro del
+   propio JSON del catálogo: el loader ignora las claves con guion bajo, así
+   que la fuente viaja con el dato y se publica con él.
 2. **Transcripción, no deducción.** Claves, tipos, defaults, archivo y sección
    salen de esa fuente. Toda excepción va **declarada en el spec** con su
    motivo: un default tomado de un ejemplo, un rango usable que el autor no
@@ -87,11 +90,15 @@ Todo lo demás es **`community`**, que no significa "malo": significa "esto
 funciona, y de dónde salió está escrito, pero no lo firmó nadie contra la doc
 del autor". Hoy son de tres tipos:
 
-- **Tipos inferidos de un `.ini` real** — las 8 entradas de ASA del Sprint A.7
+- **Tipos inferidos de un `.ini` real** — las entradas de ASA del Sprint A.7
   salieron del `.ini` del autor de la app: las claves existen de verdad (mejor
   evidencia que cualquier doc), pero el tipo, el default y el significado se
-  dedujeron del volcado. Es el bucket con más valor por rescatar: conseguir la
-  doc del autor de cada una las promueve.
+  dedujeron del volcado. Es el bucket con más valor por rescatar, y ya se
+  rescataron tres (Awesome Teleporters, Improved Egg Incubator y Custom Level
+  Distribution): con la doc de su autor aparecieron **15 claves que faltaban y
+  cuatro defaults mal**, porque un `.ini` real muestra los valores que ESE
+  usuario tenía, no los de fábrica. Quedan seis: Randi's Animal Traps, Resource
+  Gatherers, Sleepable Beds, Paleo ARK, Bangin' Tranqs y Zytharian Critters.
 - **Fuente de terceros** — Dino Storage v2 sale de la tabla de `ark.wiki.gg`, y
   ARK Additions de Fandom. Buenas fuentes, pero no son el autor.
 - **Solo classnames** (`settings: []`) — el criterio de arriba habla de

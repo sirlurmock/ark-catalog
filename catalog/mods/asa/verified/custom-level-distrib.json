@@ -2,7 +2,11 @@
   "modId": "CustomLevelDistrib",
   "name": "Custom Level Distribution",
   "game": "asa",
-  "source": "community",
+  "source": "verified",
+  "verifiedBy": [
+    "sirlurmock"
+  ],
+  "verifiedAt": "2026-08-24",
   "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/custom-dino-levels",
   "curseforgeId": "928708",
   "searchAliases": [
@@ -10,6 +14,69 @@
     "niveles personalizados"
   ],
   "settings": [
+    {
+      "id": "cld_wants_equal_levels",
+      "key": "WantsEqualLevels",
+      "category": "mod_custom_level_distrib",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "CustomLevelDistrib",
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.custom_level_distrib.wants_equal_levels"
+    },
+    {
+      "id": "cld_wants_rag_levels",
+      "key": "WantsRagLevels",
+      "category": "mod_custom_level_distrib",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "CustomLevelDistrib",
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.custom_level_distrib.wants_rag_levels"
+    },
+    {
+      "id": "cld_wants_high_levels",
+      "key": "WantsHighLevels",
+      "category": "mod_custom_level_distrib",
+      "tier": "basic",
+      "file": "GameUserSettings.ini",
+      "section": "CustomLevelDistrib",
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": false
+      },
+      "i18nKey": "mods.custom_level_distrib.wants_high_levels"
+    },
     {
       "id": "cld_min_level",
       "key": "MinLevel",
@@ -59,27 +126,6 @@
       "i18nKey": "mods.custom_level_distrib.max_level"
     },
     {
-      "id": "cld_wants_equal_levels",
-      "key": "WantsEqualLevels",
-      "category": "mod_custom_level_distrib",
-      "tier": "advanced",
-      "file": "GameUserSettings.ini",
-      "section": "CustomLevelDistrib",
-      "games": [
-        "asa"
-      ],
-      "validIn": [
-        "single_player",
-        "host_local",
-        "dedicated"
-      ],
-      "control": {
-        "kind": "boolean",
-        "default": false
-      },
-      "i18nKey": "mods.custom_level_distrib.wants_equal_levels"
-    },
-    {
       "id": "cld_min_drake_level",
       "key": "MinDrakeLevel",
       "category": "mod_custom_level_distrib",
@@ -120,7 +166,7 @@
       ],
       "control": {
         "kind": "integer",
-        "default": 30,
+        "default": 38,
         "min": 1,
         "max": 1000,
         "step": 1
@@ -224,27 +270,6 @@
       "i18nKey": "mods.custom_level_distrib.max_magma_level"
     },
     {
-      "id": "cld_prevent_titan",
-      "key": "PreventTitan",
-      "category": "mod_custom_level_distrib",
-      "tier": "advanced",
-      "file": "GameUserSettings.ini",
-      "section": "CustomLevelDistrib",
-      "games": [
-        "asa"
-      ],
-      "validIn": [
-        "single_player",
-        "host_local",
-        "dedicated"
-      ],
-      "control": {
-        "kind": "boolean",
-        "default": false
-      },
-      "i18nKey": "mods.custom_level_distrib.prevent_titan"
-    },
-    {
       "id": "cld_prevent_bee",
       "key": "PreventBee",
       "category": "mod_custom_level_distrib",
@@ -261,9 +286,30 @@
       ],
       "control": {
         "kind": "boolean",
-        "default": false
+        "default": true
       },
       "i18nKey": "mods.custom_level_distrib.prevent_bee"
+    },
+    {
+      "id": "cld_prevent_titan",
+      "key": "PreventTitan",
+      "category": "mod_custom_level_distrib",
+      "tier": "advanced",
+      "file": "GameUserSettings.ini",
+      "section": "CustomLevelDistrib",
+      "games": [
+        "asa"
+      ],
+      "validIn": [
+        "single_player",
+        "host_local",
+        "dedicated"
+      ],
+      "control": {
+        "kind": "boolean",
+        "default": true
+      },
+      "i18nKey": "mods.custom_level_distrib.prevent_titan"
     },
     {
       "id": "cld_wants_custom",
@@ -306,6 +352,7 @@
         "default": 1.0,
         "min": 0.0,
         "max": 5,
+        "step": 0.05,
         "presets": [
           1,
           0.5,
@@ -334,6 +381,7 @@
         "default": 0.5,
         "min": 0.0,
         "max": 5,
+        "step": 0.05,
         "presets": [
           0.5,
           0.25,
@@ -362,6 +410,7 @@
         "default": 0.25,
         "min": 0.0,
         "max": 5,
+        "step": 0.05,
         "presets": [
           0.25,
           0.1,
@@ -390,6 +439,7 @@
         "default": 0.1,
         "min": 0.0,
         "max": 5,
+        "step": 0.05,
         "presets": [
           0.1,
           0.05,
@@ -398,5 +448,6 @@
       },
       "i18nKey": "mods.custom_level_distrib.high_weight"
     }
-  ]
+  ],
+  "_source": "Descripcion oficial del autor en CurseForge (https://www.curseforge.com/ark-survival-ascended/mods/custom-dino-levels, proyecto 928708): la tabla con las 18 claves y sus defaults, seccion [CustomLevelDistrib] de GameUserSettings.ini. Transcrita el 2026-08-24, y corroborada por los dos hilos del autor en el Workshop de la version ASE (https://steamcommunity.com/workshop/filedetails/discussion/2182894352/2794998850882765005/ y .../2794998850882747277/), que explican que hacen las tres distribuciones y la regla critica. La entrada anterior tenia 16 claves con tipos DEDUCIDOS del .ini real del autor de la app (Sprint A.7) y CUATRO defaults mal: WantsEqualLevels, PreventBee y PreventTitan venian en False cuando el autor los documenta en True, y MaxDrakeLevel en 30 cuando son 38."
 }
