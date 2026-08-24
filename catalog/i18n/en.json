@@ -4092,7 +4092,8 @@
       "colossuscorpius_breeding.description": "Enables breeding for the creature. Set to False to disable it. Default: on.",
       "colossuscorpius_damage_multiplier": "Colossuscorpius damage multiplier",
       "colossuscorpius_damage_multiplier.description": "Scales the damage the creature deals. The author documents a 0.1 to 1.0 range: it can only bring the damage down, never up. Default 1.0."
-    }
+    },
+    "moros_indomitable_duo": {}
   },
   "mods_structures_plus": {
     "category": "Structures Plus",

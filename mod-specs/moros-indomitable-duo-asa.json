@@ -1,0 +1,14 @@
+{
+  "_source": "Mod de CRIATURAS: no expone ajustes de servidor propios en ninguna fuente citable. Su pagina de CurseForge (https://www.curseforge.com/ark-survival-ascended/mods/moros-indomitable-duo, proyecto 928824, autor MoroNada) manda los spawn codes y los 'Ini settings' a una carpeta de Google Drive y a su Discord, y la configuracion del juego se toca desde un mando de admin in-game (rueda radial). La entrada existe por sus classnames.",
+  "_scope": "settings vacio A PROPOSITO. PENDIENTE: si aparece un enlace citable a esa carpeta de Drive, revisar si documenta claves de .ini de verdad.",
+  "_relacion_con_ase": "Es la version ASA de la entrada 'Moro's Indomitable Rex' (Workshop 2932656301), renombrada por el autor: alla son Indominus Rex e IndoRaptor y aca Moro Rex y Moro Raptor. Los classnames NO coinciden (IndominusRex_Character_BP_C vs MorosRex_Character_BP_C), asi que son dos entradas y no una con dos juegos. El autor dice en su pagina del Workshop que dejo de actualizar la de ASE.",
+  "modId": "MorosIndomitableDuo",
+  "name": "Moro's Indomitable Duo",
+  "game": "asa",
+  "source": "community",
+  "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/moros-indomitable-duo",
+  "curseforgeId": "928824",
+  "prefix": "moros_indomitable_duo",
+  "searchAliases": ["indominus", "indoraptor", "moro", "jurassic", "criaturas"],
+  "settings": []
+}

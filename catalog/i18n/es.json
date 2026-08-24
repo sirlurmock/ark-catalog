@@ -4092,7 +4092,8 @@
       "colossuscorpius_breeding.description": "Habilita la reproducción de la criatura. En False no se puede criar. Default: activado.",
       "colossuscorpius_damage_multiplier": "Multiplicador de daño del Colossuscorpius",
       "colossuscorpius_damage_multiplier.description": "Escala el daño que hace la criatura. El autor documenta un rango de 0.1 a 1.0: solo sirve para bajárselo, no para subirlo. Default 1.0."
-    }
+    },
+    "moros_indomitable_duo": {}
   },
   "mods_structures_plus": {
     "category": "Structures Plus",
