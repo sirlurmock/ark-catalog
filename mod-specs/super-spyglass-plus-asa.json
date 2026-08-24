@@ -305,5 +305,47 @@
         "description": "Removes the comparison that marks whether a stat on the creature you aim at is better or worse than the last one you looked at. Default: disabled (it compares)."
       }
     }
-  ]
+  ],
+  "classNames": {
+    "items": [
+      {
+        "value": "/SuperSpyglassPlus/Spyglass/PrimalItemWeapon_SuperSpyglassPlus.PrimalItemWeapon_SuperSpyglassPlus",
+        "label": "Super Spyglass Plus"
+      },
+      {
+        "value": "/SuperSpyglassPlus/Spyglass/PrimalItemSkin_SSP.PrimalItemSkin_SSP",
+        "label": "Spyglass Skin (SSP)"
+      },
+      {
+        "value": "/SuperSpyglassPlus/Spyglass/PrimalItem_SSP_Consumable.PrimalItem_SSP_Consumable",
+        "label": "SSP Consumable"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_SuperSpyglassPlus_C",
+        "label": "Super Spyglass Plus"
+      },
+      {
+        "value": "EngramEntry_SSP_SpyglassSkin_C",
+        "label": "Spyglass Skin (SSP)"
+      },
+      {
+        "value": "EngramEntry_SuperSpyglassPlus_Consumable_C",
+        "label": "SSP Consumable"
+      }
+    ]
+  },
+  "_classnamesSource": {
+    "items": {
+      "url": "https://www.curseforge.com/ark-survival-ascended/mods/super-spyglass-plus",
+      "fetchedAt": "2026-08-24",
+      "note": "Bloque \"Spawn Codes\" de la pagina del autor (proyecto 929420), verbatim. Corroborado contra el snapshot de arkcodes en _scraped/super-spyglass-plus-items.html, que es de ESE proyecto (929420) y trae los mismos paths para los dos items que lista. OJO: los paths de ASA NO llevan el prefijo /Game/Mods/ que si usa la entrada ASE, y la ASA no tiene el Remote: son 3 items contra 4."
+    },
+    "engrams": {
+      "url": "https://www.curseforge.com/ark-survival-ascended/mods/super-spyglass-plus",
+      "fetchedAt": "2026-08-24",
+      "note": "Bloque \"Engram Entries\" de la pagina del autor, verbatim. Son 3: la ASE tiene ademas EngramEntry_SSP_Remote_C, que en ASA no existe."
+    }
+  }
 }

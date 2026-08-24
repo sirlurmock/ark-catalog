@@ -478,5 +478,83 @@
       },
       "i18nKey": "mods.randis_animal_traps.underwater_trap_craft_cost"
     }
-  ]
+  ],
+  "classNames": {
+    "items": [
+      {
+        "value": "/RandisAnimalTraps/AnimalTrapCraftingTable/PrimalItemStructure_AnimalTrapsCraftingTable.PrimalItemStructure_AnimalTrapsCraftingTable",
+        "label": "Animal Traps Crafting Table"
+      },
+      {
+        "value": "/RandisAnimalTraps/SmallWoodenAnimalTrap/PrimalItemStructure_SmallWoodenAnimalTrap.PrimalItemStructure_SmallWoodenAnimalTrap",
+        "label": "Small Wooden Animal Trap"
+      },
+      {
+        "value": "/RandisAnimalTraps/SmallAnimalTrap/PrimalItemStructure_SmallAnimalTrap.PrimalItemStructure_SmallAnimalTrap",
+        "label": "Small Animal Trap"
+      },
+      {
+        "value": "/RandisAnimalTraps/MediumAnimalTrap/PrimalItemStructure_MediumAnimalTrap.PrimalItemStructure_MediumAnimalTrap",
+        "label": "Medium Animal Trap"
+      },
+      {
+        "value": "/RandisAnimalTraps/LargeAnimalTrap/PrimalItemStructure_LargeAnimalTrap.PrimalItemStructure_LargeAnimalTrap",
+        "label": "Large Animal Trap"
+      },
+      {
+        "value": "/RandisAnimalTraps/UnderwaterTrap/PrimalItemStructure_UnderwaterTrap.PrimalItemStructure_UnderwaterTrap",
+        "label": "Underwater Trap"
+      },
+      {
+        "value": "/RandisAnimalTraps/SkyAnimalTrap/PrimalItemStructure_SkyAnimalTrap.PrimalItemStructure_SkyAnimalTrap",
+        "label": "Sky Animal Trap"
+      },
+      {
+        "value": "/RandisAnimalTraps/SkyAnimalTrap/PrimalItemConsumable_BalloonHoney.PrimalItemConsumable_BalloonHoney",
+        "label": "Balloon Honey"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_SmallWoodenAnimalTrap_C",
+        "label": "Small Wooden Animal Trap"
+      },
+      {
+        "value": "EngramEntry_SmallAnimalTrap_C",
+        "label": "Small Animal Trap"
+      },
+      {
+        "value": "EngramEntry_MediumAnimalTrap_C",
+        "label": "Medium Animal Trap"
+      },
+      {
+        "value": "EngramEntry_LargeAnimalTrap_C",
+        "label": "Large Animal Trap"
+      },
+      {
+        "value": "EngramEntry_UnderwaterTrap_C",
+        "label": "Underwater Trap"
+      },
+      {
+        "value": "EngramEntry_SkyAnimalTrap_C",
+        "label": "Sky Animal Trap"
+      },
+      {
+        "value": "EngramEntry_BalloonHoneyBait_C",
+        "label": "Balloon Honey Bait"
+      }
+    ]
+  },
+  "_classnamesSource": {
+    "items": {
+      "url": "https://www.curseforge.com/ark-survival-ascended/mods/randisanimaltraps",
+      "fetchedAt": "2026-08-24",
+      "note": "Los 8 \"cheat giveitem\" de la pagina del autor (proyecto 948945), con su blueprint path verbatim. Corroborado contra arkcodes.com/mods/948945/randis-animal-traps/items el 2026-08-24: mismos 8 objetos, sin descartes. Los labels salen de ahi."
+    },
+    "engrams": {
+      "url": "https://www.curseforge.com/ark-survival-ascended/mods/randisanimaltraps",
+      "fetchedAt": "2026-08-24",
+      "note": "Bloque \"Engram Class Names\" de la pagina del autor, verbatim (7). Ojo que no hay uno por objeto: la mesa de crafteo no tiene engrama y la miel si tiene el suyo (BalloonHoneyBait)."
+    }
+  }
 }

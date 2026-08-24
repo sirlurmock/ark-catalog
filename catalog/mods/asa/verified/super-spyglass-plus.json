@@ -439,5 +439,35 @@
       },
       "i18nKey": "mods.super_spyglass_plus_asa.disable_stat_compare"
     }
-  ]
+  ],
+  "classNames": {
+    "items": [
+      {
+        "value": "/SuperSpyglassPlus/Spyglass/PrimalItemWeapon_SuperSpyglassPlus.PrimalItemWeapon_SuperSpyglassPlus",
+        "label": "Super Spyglass Plus"
+      },
+      {
+        "value": "/SuperSpyglassPlus/Spyglass/PrimalItemSkin_SSP.PrimalItemSkin_SSP",
+        "label": "Spyglass Skin (SSP)"
+      },
+      {
+        "value": "/SuperSpyglassPlus/Spyglass/PrimalItem_SSP_Consumable.PrimalItem_SSP_Consumable",
+        "label": "SSP Consumable"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_SuperSpyglassPlus_C",
+        "label": "Super Spyglass Plus"
+      },
+      {
+        "value": "EngramEntry_SSP_SpyglassSkin_C",
+        "label": "Spyglass Skin (SSP)"
+      },
+      {
+        "value": "EngramEntry_SuperSpyglassPlus_Consumable_C",
+        "label": "SSP Consumable"
+      }
+    ]
+  }
 }
