@@ -1,0 +1,281 @@
+{
+  "_source": "Mod de CRIATURAS (hibrido Desmodus/Wyvern): no expone ajustes de servidor propios en ninguna fuente citable. Su pagina de CurseForge (https://www.curseforge.com/ark-survival-ascended/mods/arkology-oe-sanguivern, proyecto 1386092, autor DragonHeart7998) manda toda la info al doc de la coleccion (https://docs.google.com/document/d/1DwVL5M4WIEPEDTIN2_rK70YldmuVLAIoAyZGvFaCRKk) y al Discord del autor (https://discord.gg/39usqU76ej). El doc se leyo entero el 2026-09-02 bajandolo por `https://docs.google.com/document/d/1DwVL5M4WIEPEDTIN2_rK70YldmuVLAIoAyZGvFaCRKk/export?format=txt` —la vista normal lo arma con JS y no se puede leer con curl—: trae lore, ataques, habilidades, taming, spawn locations y spawn codes, y NI UNA sola clave de .ini. La entrada existe por sus classnames.",
+  "_scope": "settings vacio A PROPOSITO: el doc del autor se leyo entero y no trae ninguna clave de GameUserSettings.ini ni de Game.ini, y CurseForge tampoco. Mismo pendiente que Desolatitan: preguntar en el Discord si la mod expone alguna seccion; si aparece, esta entrada puede pasar a verified porque el resto ya sale de fuente del autor.",
+  "_coleccion": "Es una de las tres mods de ARKOLOGY: Overseer's Experiments, todas de DragonHeart7998 y todas documentadas en el mismo doc. Las otras dos son Desolatitan (proyecto 1133222) y Hapipalus (1310904). Son mods aparte en CurseForge y por lo tanto entradas aparte.",
+  "_classnames": "Salen de arkcodes, proyecto 1386092 (la misma publicacion que esta entrada). Los labels son mios: arkcodes solo muestra el classname, sin nombre de pantalla. OJO con el prefijo del root, que en esta coleccion NO es uniforme: se transcribe tal cual lo publica arkcodes, no se normaliza.",
+  "_classnamesSource": {
+    "items": {
+      "url": "https://arkcodes.com/mods/1386092/arkology-oe-sanguivern/items",
+      "fetchedAt": "2026-09-02",
+      "note": "vía fetch-mod-classnames.mjs; labels humanizados del classname, revisados a mano"
+    },
+    "engrams": {
+      "url": "https://arkcodes.com/mods/1386092/arkology-oe-sanguivern/engrams",
+      "fetchedAt": "2026-09-02",
+      "note": "vía fetch-mod-classnames.mjs; labels humanizados del classname, revisados a mano"
+    },
+    "dinos": {
+      "url": "https://arkcodes.com/mods/1386092/arkology-oe-sanguivern/dinos",
+      "fetchedAt": "2026-09-02",
+      "note": "vía fetch-mod-classnames.mjs; labels humanizados del classname, revisados a mano"
+    }
+  },
+  "_spawnMaps": "Un solo mapa, textual del doc: 'Vanilla Variant (Lost Colony (Temporariliy spawns where Desmodus spawn with a 10% to replace)'. El 'Temporarily' es del autor y sugiere que el spawn definitivo esta por cambiar; se cataloga lo que documenta hoy. La variante Rockwell (R) en Genesis Part 2 NO va: el doc la rotula 'Future'. Sus classnames si se catalogan.",
+  "_nonlc": "El sufijo NONLC se lee como 'fuera de Lost Colony', y aca no es una deduccion floja: el doc dice que Sanguivern spawnea UNICAMENTE en Lost Colony, y los invocadores vienen en dos juegos paralelos —uno normal y uno NONLC— igual que el _NonIsland de Desolatitan (que spawnea en Island) y el _NonAB de Hapipalus (que spawnea en Aberration). LC = Lost Colony encaja con el patron de la coleccion.",
+  "_deduccion_alfa": "El set NONLC nombra sus cuatro niveles (ALPHA, BETA, GAMMA, LEGENDARY) pero el set normal solo nombra tres (Beta, Gamma, Legendary) y deja uno sin sufijo. Por paralelismo el sin sufijo seria el Alpha, pero NO se rotula asi: es la misma deduccion que se dejo sin catalogar en Desolatitan y conviene tratarla igual.",
+  "_dificultades": "Los invocadores usan Alpha/Beta/Gamma/Legendary y las criaturas del jefe usan Easy/Medium/Hard/Legendary. Es tentador mapear Gamma=Easy, Beta=Medium, Alpha=Hard, pero el doc no lo dice: los labels transcriben la palabra que trae cada classname y no cruzan las dos escalas.",
+  "_prefijo": "El root es /ARKOLOGYOESanguivern/Sanguivern/... SIN 'Content', al reves que Hapipalus y Desolatitan, que si lo llevan. Se transcribe tal cual lo publica arkcodes, no se normaliza.",
+  "modId": "ArkologyOESanguivern",
+  "name": "ARKOLOGY: OE - Sanguivern",
+  "game": "asa",
+  "source": "community",
+  "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/arkology-oe-sanguivern",
+  "curseforgeId": "1386092",
+  "prefix": "arkology_oe_sanguivern",
+  "searchAliases": [
+    "sanguivern",
+    "sangui",
+    "arkology",
+    "desmodus",
+    "murcielago",
+    "wyvern",
+    "criaturas"
+  ],
+  "settings": [],
+  "classNames": {
+    "items": [
+      {
+        "value": "/ARKOLOGYOESanguivern/Sanguivern/BOSS/PrimalItemConsumable_Summoner_SanguivernBoss.PrimalItemConsumable_Summoner_SanguivernBoss",
+        "label": "Sanguivern Boss Summoner"
+      },
+      {
+        "value": "/ARKOLOGYOESanguivern/Sanguivern/BOSS/PrimalItemConsumable_Summoner_SanguivernBoss_Beta.PrimalItemConsumable_Summoner_SanguivernBoss_Beta",
+        "label": "Sanguivern Boss Summoner (Beta)"
+      },
+      {
+        "value": "/ARKOLOGYOESanguivern/Sanguivern/BOSS/PrimalItemConsumable_Summoner_SanguivernBoss_Gamma.PrimalItemConsumable_Summoner_SanguivernBoss_Gamma",
+        "label": "Sanguivern Boss Summoner (Gamma)"
+      },
+      {
+        "value": "/ARKOLOGYOESanguivern/Sanguivern/BOSS/PrimalItemConsumable_Summoner_SanguivernBoss_Legendary.PrimalItemConsumable_Summoner_SanguivernBoss_Legendary",
+        "label": "Sanguivern Boss Summoner (Legendary)"
+      },
+      {
+        "value": "/ARKOLOGYOESanguivern/Sanguivern/BOSS/PrimalItemConsumable_Summoner_SanguivernBoss_NONLCALPHA.PrimalItemConsumable_Summoner_SanguivernBoss_NONLCALPHA",
+        "label": "Sanguivern Boss Summoner (Alpha, fuera de Lost Colony)"
+      },
+      {
+        "value": "/ARKOLOGYOESanguivern/Sanguivern/BOSS/PrimalItemConsumable_Summoner_SanguivernBoss_NONLCBETA.PrimalItemConsumable_Summoner_SanguivernBoss_NONLCBETA",
+        "label": "Sanguivern Boss Summoner (Beta, fuera de Lost Colony)"
+      },
+      {
+        "value": "/ARKOLOGYOESanguivern/Sanguivern/BOSS/PrimalItemConsumable_Summoner_SanguivernBoss_NONLCGAMMA.PrimalItemConsumable_Summoner_SanguivernBoss_NONLCGAMMA",
+        "label": "Sanguivern Boss Summoner (Gamma, fuera de Lost Colony)"
+      },
+      {
+        "value": "/ARKOLOGYOESanguivern/Sanguivern/BOSS/PrimalItemConsumable_Summoner_SanguivernBoss_NONLCLEGENDARY.PrimalItemConsumable_Summoner_SanguivernBoss_NONLCLEGENDARY",
+        "label": "Sanguivern Boss Summoner (Legendary, fuera de Lost Colony)"
+      },
+      {
+        "value": "/ARKOLOGYOESanguivern/Sanguivern/Egg/PrimalItemConsumable_Egg_Sanguivern.PrimalItemConsumable_Egg_Sanguivern",
+        "label": "Sanguivern Egg"
+      },
+      {
+        "value": "/ARKOLOGYOESanguivern/Sanguivern/Egg/PrimalItemConsumable_Egg_Sanguivern_Fertilized.PrimalItemConsumable_Egg_Sanguivern_Fertilized",
+        "label": "Sanguivern Egg (fertilizado)"
+      },
+      {
+        "value": "/ARKOLOGYOESanguivern/Sanguivern/Egg/PrimalItemConsumable_Egg_Sanguivern_Fertilized_ARKOLOGY.PrimalItemConsumable_Egg_Sanguivern_Fertilized_ARKOLOGY",
+        "label": "Sanguivern Egg (fertilizado, variante Arkology)"
+      },
+      {
+        "value": "/ARKOLOGYOESanguivern/Sanguivern/Items/PrimalItemConsumable_BatBlood.PrimalItemConsumable_BatBlood",
+        "label": "Sanguivern Blood"
+      },
+      {
+        "value": "/ARKOLOGYOESanguivern/Sanguivern/Items/PrimalItemConsumable_BatWyvernCocktail.PrimalItemConsumable_BatWyvernCocktail",
+        "label": "Sanguivern Cocktail"
+      },
+      {
+        "value": "/ARKOLOGYOESanguivern/Sanguivern/Items/PrimalItem_PerfectedSanguineElixir.PrimalItem_PerfectedSanguineElixir",
+        "label": "Perfected Sanguine Elixir"
+      },
+      {
+        "value": "/ARKOLOGYOESanguivern/Sanguivern/Items/PrimalItem_PurifiedSanguineElixir.PrimalItem_PurifiedSanguineElixir",
+        "label": "Purified Sanguine Elixir"
+      },
+      {
+        "value": "/ARKOLOGYOESanguivern/Sanguivern/Loot/Flag/PrimalItemStructure_Flag_Sanguivern.PrimalItemStructure_Flag_Sanguivern",
+        "label": "Sanguivern Flag"
+      },
+      {
+        "value": "/ARKOLOGYOESanguivern/Sanguivern/Loot/PrimalItemResource_ApexDrop_Sanguivern.PrimalItemResource_ApexDrop_Sanguivern",
+        "label": "Sanguivern Apex Drop"
+      },
+      {
+        "value": "/ARKOLOGYOESanguivern/Sanguivern/Loot/PrimalItemResource_ApexDrop_SanguivernBOSS.PrimalItemResource_ApexDrop_SanguivernBOSS",
+        "label": "Sanguivern Apex Drop (jefe)"
+      },
+      {
+        "value": "/ARKOLOGYOESanguivern/Sanguivern/Loot/PrimalItemStructure_Statue_Sanguivern.PrimalItemStructure_Statue_Sanguivern",
+        "label": "Sanguivern Statue"
+      },
+      {
+        "value": "/ARKOLOGYOESanguivern/Sanguivern/Loot/Trophy/PrimalItemTrophy_Sanguivern.PrimalItemTrophy_Sanguivern",
+        "label": "Sanguivern Trophy"
+      },
+      {
+        "value": "/ARKOLOGYOESanguivern/Sanguivern/Loot/Trophy/PrimalItemTrophy_Sanguivern_Beta.PrimalItemTrophy_Sanguivern_Beta",
+        "label": "Sanguivern Trophy (Beta)"
+      },
+      {
+        "value": "/ARKOLOGYOESanguivern/Sanguivern/Loot/Trophy/PrimalItemTrophy_Sanguivern_Gamma.PrimalItemTrophy_Sanguivern_Gamma",
+        "label": "Sanguivern Trophy (Gamma)"
+      },
+      {
+        "value": "/ARKOLOGYOESanguivern/Sanguivern/Loot/Trophy/PrimalItemTrophy_Sanguivern_Legendary.PrimalItemTrophy_Sanguivern_Legendary",
+        "label": "Sanguivern Trophy (Legendary)"
+      },
+      {
+        "value": "/ARKOLOGYOESanguivern/Sanguivern/Saddles/PrimalItemArmor_SanguivernSaddle.PrimalItemArmor_SanguivernSaddle",
+        "label": "Sanguivern Saddle"
+      },
+      {
+        "value": "/ARKOLOGYOESanguivern/Sanguivern/Saddles/PrimalItemArmor_SanguivernSaddle_Gothic.PrimalItemArmor_SanguivernSaddle_Gothic",
+        "label": "Sanguivern Saddle (Gothic)"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_BloodstarvedSummoner_C",
+        "label": "Sanguivern Boss Summoner"
+      },
+      {
+        "value": "EngramEntry_BloodstarvedSummoner_Beta_C",
+        "label": "Sanguivern Boss Summoner (Beta)"
+      },
+      {
+        "value": "EngramEntry_BloodstarvedSummoner_Beta_NONLC_C",
+        "label": "Sanguivern Boss Summoner (Beta, fuera de Lost Colony)"
+      },
+      {
+        "value": "EngramEntry_BloodstarvedSummoner_Gamma_C",
+        "label": "Sanguivern Boss Summoner (Gamma)"
+      },
+      {
+        "value": "EngramEntry_BloodstarvedSummoner_Gamma_NONLC_C",
+        "label": "Sanguivern Boss Summoner (Gamma, fuera de Lost Colony)"
+      },
+      {
+        "value": "EngramEntry_BloodstarvedSummoner_Legendary_C",
+        "label": "Sanguivern Boss Summoner (Legendary)"
+      },
+      {
+        "value": "EngramEntry_BloodstarvedSummoner_Legendary_NONLC_C",
+        "label": "Sanguivern Boss Summoner (Legendary, fuera de Lost Colony)"
+      },
+      {
+        "value": "EngramEntry_BloodstarvedSummoner_NONLC_C",
+        "label": "Sanguivern Boss Summoner (fuera de Lost Colony)"
+      },
+      {
+        "value": "EngramEntry_Cocktail_Sanguivern_C",
+        "label": "Sanguivern Cocktail"
+      },
+      {
+        "value": "EngramEntry_Saddle_Sanguivern_C",
+        "label": "Sanguivern Saddle"
+      }
+    ],
+    "dinos": [
+      {
+        "value": "ARKOLOGY_Sanguivern_Character_BP_C",
+        "label": "Sanguivern (variante Arkology)"
+      },
+      {
+        "value": "Bat_Character_BP_Aggressive_Minion_C",
+        "label": "Murcielago agresivo (esbirro del jefe)"
+      },
+      {
+        "value": "Bat_Character_BP_Aggressive_Minion_Easy_C",
+        "label": "Murcielago agresivo (esbirro del jefe, Easy)"
+      },
+      {
+        "value": "Bat_Character_BP_Aggressive_Minion_Hard_C",
+        "label": "Murcielago agresivo (esbirro del jefe, Hard)"
+      },
+      {
+        "value": "Bat_Character_BP_Aggressive_Minion_Legendary_C",
+        "label": "Murcielago agresivo (esbirro del jefe, Legendary)"
+      },
+      {
+        "value": "Bat_Character_BP_Aggressive_Minion_Medium_C",
+        "label": "Murcielago agresivo (esbirro del jefe, Medium)"
+      },
+      {
+        "value": "BossBat_Character_BP_Minion_C",
+        "label": "Murcielago del jefe (esbirro)"
+      },
+      {
+        "value": "Desmodus_Character_BP_Minion_C",
+        "label": "Desmodus (esbirro del jefe)"
+      },
+      {
+        "value": "Desmodus_Character_BP_Minion_Hard_C",
+        "label": "Desmodus (esbirro del jefe, Hard)"
+      },
+      {
+        "value": "Desmodus_Character_BP_Minion_Legendary_C",
+        "label": "Desmodus (esbirro del jefe, Legendary)"
+      },
+      {
+        "value": "Sanguivern_Character_BP_BOSS_C",
+        "label": "Sanguivern Boss"
+      },
+      {
+        "value": "Sanguivern_Character_BP_BOSS_Easy_C",
+        "label": "Sanguivern Boss (Easy)"
+      },
+      {
+        "value": "Sanguivern_Character_BP_BOSS_Hard_C",
+        "label": "Sanguivern Boss (Hard)"
+      },
+      {
+        "value": "Sanguivern_Character_BP_BOSS_Legendary_C",
+        "label": "Sanguivern Boss (Legendary)"
+      },
+      {
+        "value": "Sanguivern_Character_BP_BOSS_Medium_C",
+        "label": "Sanguivern Boss (Medium)"
+      },
+      {
+        "value": "Sanguivern_Character_BP_Minion_Hard_C",
+        "label": "Sanguivern (esbirro del jefe, Hard)"
+      },
+      {
+        "value": "Sanguivern_Character_BP_Minion_Legendary_C",
+        "label": "Sanguivern (esbirro del jefe, Legendary)"
+      },
+      {
+        "value": "MegaSanguivern_Character_BP_C",
+        "label": "Mega Sanguivern"
+      },
+      {
+        "value": "Sanguivern_Character_BP_C",
+        "label": "Sanguivern"
+      },
+      {
+        "value": "Zombie_Alpha_Sanguivern_Character_BP_C",
+        "label": "Sanguivern (variante Zombie, Alpha)"
+      }
+    ]
+  },
+  "spawnMaps": [
+    {
+      "label": "Sanguivern",
+      "maps": [
+        "lost_colony"
+      ]
+    }
+  ]
+}

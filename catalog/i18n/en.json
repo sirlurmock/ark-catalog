@@ -207,7 +207,9 @@
       "disable_friendly_fire": "Disable friendly fire",
       "disable_friendly_fire.description": "Prevents damage between tribe mates, their tames and their structures.",
       "only_allow_specified_engrams": "Only allow specified engrams",
-      "only_allow_specified_engrams.description": "When True, only engrams explicitly configured in the engram overrides can be learned; the rest stay hidden. For servers with fully curated progression. Default: disabled."
+      "only_allow_specified_engrams.description": "When True, only engrams explicitly configured in the engram overrides can be learned; the rest stay hidden. For servers with fully curated progression. Default: disabled.",
+      "cross_ark_allow_foreign_dino_downloads": "Allow foreign creatures on Aberration",
+      "cross_ark_allow_foreign_dino_downloads.description": "When True, allows downloading creatures from other maps on Aberration, which rejects them by default. Does not affect other maps. Default False."
     },
     "taming": {
       "taming_speed": "Taming speed multiplier",
@@ -666,7 +668,8 @@
     "footnote": "Data from ark.wiki.gg. The weight only compares against the other creatures in the same container: it is not the chance of finding it on the map. Vanilla creatures only — modded ones are missing because their authors do not publish which container they join.",
     "map_draft": "unreviewed outline",
     "map_alt": "Map of {map} with {count} spawn zones marked.",
-    "gps": "Lat {lat} · Lon {lon}"
+    "gps": "Lat {lat} · Lon {lon}",
+    "map_picker": "Pick a map"
   },
   "summary": {
     "title": "Server summary",
@@ -724,6 +727,9 @@
       "cryo_hospital_only_aberration": "Cryo Hospitals are Aberration structures. This setting may have no effect on other maps.",
       "bloodforge_only_aberration": "The Bloodforge is an Aberration structure. This setting may have no effect on other maps.",
       "outposts_only_extinction": "Outposts are territorial structures from Extinction. This setting may have no effect on other maps."
+    },
+    "general": {
+      "foreign_dinos_only_aberration": "The foreign-creature restriction is an Aberration rule. This setting may have no effect on other maps."
     }
   },
   "dashboard": {
@@ -976,7 +982,9 @@
       "resource_overrides.multiplier": "Multiplier",
       "resource_overrides.max_items": "Max items",
       "resource_overrides.enabled": "Enabled",
-      "resource_overrides.min_tier": "Min tier"
+      "resource_overrides.min_tier": "Min tier",
+      "max_gatherers_per_tribe": "Max gatherers per tribe",
+      "max_gatherers_per_tribe.description": "Caps how many gatherers a tribe can have placed. 0 disables the cap. Default 0."
     },
     "zytharian_critters": {
       "solo_chance": "Solo spawn chance (%)",
@@ -4118,7 +4126,9 @@
       "colossuscorpius_damage_multiplier.description": "Scales the damage the creature deals. The author documents a 0.1 to 1.0 range: it can only bring the damage down, never up. Default 1.0."
     },
     "moros_indomitable_duo": {},
-    "arkology_oe_desolatitan": {}
+    "arkology_oe_desolatitan": {},
+    "arkology_oe_hapipalus": {},
+    "arkology_oe_sanguivern": {}
   },
   "mods_structures_plus": {
     "category": "Structures Plus",

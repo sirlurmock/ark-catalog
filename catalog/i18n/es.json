@@ -207,7 +207,9 @@
       "disable_friendly_fire": "Desactivar fuego amigo",
       "disable_friendly_fire.description": "Impide el daño entre compañeros de tribu, sus criaturas y sus estructuras.",
       "only_allow_specified_engrams": "Solo engramas especificados",
-      "only_allow_specified_engrams.description": "En True, solo se pueden aprender los engramas configurados explícitamente en los overrides de engramas; el resto queda oculto. Para servidores con progresión totalmente curada. Default: desactivado."
+      "only_allow_specified_engrams.description": "En True, solo se pueden aprender los engramas configurados explícitamente en los overrides de engramas; el resto queda oculto. Para servidores con progresión totalmente curada. Default: desactivado.",
+      "cross_ark_allow_foreign_dino_downloads": "Permitir criaturas no nativas en Aberration",
+      "cross_ark_allow_foreign_dino_downloads.description": "En True permite descargar criaturas de otros mapas en Aberration, que por defecto las rechaza. No afecta a los demás mapas. Default False."
     },
     "taming": {
       "taming_speed": "Velocidad de doma",
@@ -666,7 +668,8 @@
     "footnote": "Datos de ark.wiki.gg. El peso se compara solo contra las demás criaturas del mismo contenedor: no es la probabilidad de encontrarla en el mapa. Solo criaturas vanilla — las de mods no están porque sus autores no publican en qué contenedor entran.",
     "map_draft": "trazado sin revisar",
     "map_alt": "Mapa de {map} con {count} zonas de spawn marcadas.",
-    "gps": "Lat {lat} · Lon {lon}"
+    "gps": "Lat {lat} · Lon {lon}",
+    "map_picker": "Elegir mapa"
   },
   "summary": {
     "title": "Resumen de tu servidor",
@@ -724,6 +727,9 @@
       "cryo_hospital_only_aberration": "Los Cryo Hospital son estructuras de Aberration. Este setting puede no tener efecto en otros mapas.",
       "bloodforge_only_aberration": "La Bloodforge es una estructura de Aberration. Este setting puede no tener efecto en otros mapas.",
       "outposts_only_extinction": "Los Outposts son territoriales de Extinction. Este setting puede no tener efecto en otros mapas."
+    },
+    "general": {
+      "foreign_dinos_only_aberration": "La restricción de criaturas no nativas es una regla de Aberration. Este setting puede no tener efecto en otros mapas."
     }
   },
   "dashboard": {
@@ -976,7 +982,9 @@
       "resource_overrides.multiplier": "Multiplicador",
       "resource_overrides.max_items": "Máximo de items",
       "resource_overrides.enabled": "Activado",
-      "resource_overrides.min_tier": "Tier mínimo"
+      "resource_overrides.min_tier": "Tier mínimo",
+      "max_gatherers_per_tribe": "Maximo de gatherers por tribu",
+      "max_gatherers_per_tribe.description": "Limita cuantos gatherers puede tener colocados una tribu. 0 lo desactiva: sin limite. Default 0."
     },
     "zytharian_critters": {
       "solo_chance": "% de chance de spawn solitario",
@@ -4118,7 +4126,9 @@
       "colossuscorpius_damage_multiplier.description": "Escala el daño que hace la criatura. El autor documenta un rango de 0.1 a 1.0: solo sirve para bajárselo, no para subirlo. Default 1.0."
     },
     "moros_indomitable_duo": {},
-    "arkology_oe_desolatitan": {}
+    "arkology_oe_desolatitan": {},
+    "arkology_oe_hapipalus": {},
+    "arkology_oe_sanguivern": {}
   },
   "mods_structures_plus": {
     "category": "Structures Plus",

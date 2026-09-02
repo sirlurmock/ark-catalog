@@ -1,0 +1,215 @@
+{
+  "modId": "ArkologyOEHapipalus",
+  "name": "ARKOLOGY: OE - Hapipalus",
+  "game": "asa",
+  "source": "community",
+  "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/arkology-oe-hapipalus",
+  "curseforgeId": "1310904",
+  "searchAliases": [
+    "hapipalus",
+    "hapi",
+    "arkology",
+    "spino mutado",
+    "spinosaurus",
+    "criaturas"
+  ],
+  "settings": [],
+  "classNames": {
+    "items": [
+      {
+        "value": "/ARKOLOGYOEHapipalus/Content/Boss/PrimalItemConsumable_Summoner_HapipalusQueen.PrimalItemConsumable_Summoner_HapipalusQueen",
+        "label": "Hapipalus Queen Summoner"
+      },
+      {
+        "value": "/ARKOLOGYOEHapipalus/Content/Boss/PrimalItemConsumable_Summoner_HapipalusQueen_Beta.PrimalItemConsumable_Summoner_HapipalusQueen_Beta",
+        "label": "Hapipalus Queen Summoner (Beta)"
+      },
+      {
+        "value": "/ARKOLOGYOEHapipalus/Content/Boss/PrimalItemConsumable_Summoner_HapipalusQueen_Beta_NonAB.PrimalItemConsumable_Summoner_HapipalusQueen_Beta_NonAB",
+        "label": "Hapipalus Queen Summoner (Beta, fuera de Aberration)"
+      },
+      {
+        "value": "/ARKOLOGYOEHapipalus/Content/Boss/PrimalItemConsumable_Summoner_HapipalusQueen_Gamma.PrimalItemConsumable_Summoner_HapipalusQueen_Gamma",
+        "label": "Hapipalus Queen Summoner (Gamma)"
+      },
+      {
+        "value": "/ARKOLOGYOEHapipalus/Content/Boss/PrimalItemConsumable_Summoner_HapipalusQueen_Gamma_NonAB.PrimalItemConsumable_Summoner_HapipalusQueen_Gamma_NonAB",
+        "label": "Hapipalus Queen Summoner (Gamma, fuera de Aberration)"
+      },
+      {
+        "value": "/ARKOLOGYOEHapipalus/Content/Boss/PrimalItemConsumable_Summoner_HapipalusQueen_Legendary.PrimalItemConsumable_Summoner_HapipalusQueen_Legendary",
+        "label": "Hapipalus Queen Summoner (Legendary)"
+      },
+      {
+        "value": "/ARKOLOGYOEHapipalus/Content/Boss/PrimalItemConsumable_Summoner_HapipalusQueen_Legendary_NonAB.PrimalItemConsumable_Summoner_HapipalusQueen_Legendary_NonAB",
+        "label": "Hapipalus Queen Summoner (Legendary, fuera de Aberration)"
+      },
+      {
+        "value": "/ARKOLOGYOEHapipalus/Content/Boss/PrimalItemConsumable_Summoner_HapipalusQueen_NonAB.PrimalItemConsumable_Summoner_HapipalusQueen_NonAB",
+        "label": "Hapipalus Queen Summoner (fuera de Aberration)"
+      },
+      {
+        "value": "/ARKOLOGYOEHapipalus/Content/Egg/PrimalItemConsumable_Egg_Hapipalus.PrimalItemConsumable_Egg_Hapipalus",
+        "label": "Hapipalus Egg"
+      },
+      {
+        "value": "/ARKOLOGYOEHapipalus/Content/Egg/PrimalItemConsumable_Egg_Hapipalus_Fertilized.PrimalItemConsumable_Egg_Hapipalus_Fertilized",
+        "label": "Hapipalus Egg (fertilizado)"
+      },
+      {
+        "value": "/ARKOLOGYOEHapipalus/Content/Egg/PrimalItemConsumable_Egg_Hapipalus_Fertilized_ARKOLOGY.PrimalItemConsumable_Egg_Hapipalus_Fertilized_ARKOLOGY",
+        "label": "Hapipalus Egg (fertilizado, variante Arkology)"
+      },
+      {
+        "value": "/ARKOLOGYOEHapipalus/Content/Egg/PrimalItemConsumable_Egg_Hapipalus_Fertilized_Bog.PrimalItemConsumable_Egg_Hapipalus_Fertilized_Bog",
+        "label": "Hapipalus Egg (fertilizado, variante Bog / X)"
+      },
+      {
+        "value": "/ARKOLOGYOEHapipalus/Content/Loot/PrimalItemResource_ApexDrop_Hapipalus.PrimalItemResource_ApexDrop_Hapipalus",
+        "label": "Hapipalus Apex Drop"
+      },
+      {
+        "value": "/ARKOLOGYOEHapipalus/Content/Loot/PrimalItemResource_ApexDrop_HapipalusBOSS.PrimalItemResource_ApexDrop_HapipalusBOSS",
+        "label": "Hapipalus Apex Drop (jefe)"
+      },
+      {
+        "value": "/ARKOLOGYOEHapipalus/Content/Loot/PrimalItemStructure_Flag_Hapipalus.PrimalItemStructure_Flag_Hapipalus",
+        "label": "Hapipalus Flag"
+      },
+      {
+        "value": "/ARKOLOGYOEHapipalus/Content/Loot/PrimalItemStructure_Statue_Hapipalus.PrimalItemStructure_Statue_Hapipalus",
+        "label": "Hapipalus Statue"
+      },
+      {
+        "value": "/ARKOLOGYOEHapipalus/Content/Loot/PrimalItemTrophy_Hapipalus.PrimalItemTrophy_Hapipalus",
+        "label": "Hapipalus Trophy"
+      },
+      {
+        "value": "/ARKOLOGYOEHapipalus/Content/Loot/PrimalItemTrophy_Hapipalus_Beta.PrimalItemTrophy_Hapipalus_Beta",
+        "label": "Hapipalus Trophy (Beta)"
+      },
+      {
+        "value": "/ARKOLOGYOEHapipalus/Content/Loot/PrimalItemTrophy_Hapipalus_Gamma.PrimalItemTrophy_Hapipalus_Gamma",
+        "label": "Hapipalus Trophy (Gamma)"
+      },
+      {
+        "value": "/ARKOLOGYOEHapipalus/Content/Loot/PrimalItemTrophy_Hapipalus_Legendary.PrimalItemTrophy_Hapipalus_Legendary",
+        "label": "Hapipalus Trophy (Legendary)"
+      },
+      {
+        "value": "/ARKOLOGYOEHapipalus/Content/Saddle/PrimalItemArmor_HapipalusSaddle.PrimalItemArmor_HapipalusSaddle",
+        "label": "Hapipalus Saddle"
+      },
+      {
+        "value": "/ARKOLOGYOEHapipalus/Content/Saddle/PrimalItemArmor_HapipalusSaddle_Aberrant.PrimalItemArmor_HapipalusSaddle_Aberrant",
+        "label": "Hapipalus Saddle (Aberrant)"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_QueenSummoner_C",
+        "label": "Hapipalus Queen Summoner"
+      },
+      {
+        "value": "EngramEntry_QueenSummoner_Beta_C",
+        "label": "Hapipalus Queen Summoner (Beta)"
+      },
+      {
+        "value": "EngramEntry_QueenSummoner_Beta_NonAB_C",
+        "label": "Hapipalus Queen Summoner (Beta, fuera de Aberration)"
+      },
+      {
+        "value": "EngramEntry_QueenSummoner_Gamma_C",
+        "label": "Hapipalus Queen Summoner (Gamma)"
+      },
+      {
+        "value": "EngramEntry_QueenSummoner_Gamma_NonAB_C",
+        "label": "Hapipalus Queen Summoner (Gamma, fuera de Aberration)"
+      },
+      {
+        "value": "EngramEntry_QueenSummoner_Legendary_C",
+        "label": "Hapipalus Queen Summoner (Legendary)"
+      },
+      {
+        "value": "EngramEntry_QueenSummoner_Legendary_NonAB_C",
+        "label": "Hapipalus Queen Summoner (Legendary, fuera de Aberration)"
+      },
+      {
+        "value": "EngramEntry_QueenSummoner_NonAB_C",
+        "label": "Hapipalus Queen Summoner (fuera de Aberration)"
+      },
+      {
+        "value": "EngramEntry_Saddle_Hapipalus_C",
+        "label": "Hapipalus Saddle"
+      }
+    ],
+    "dinos": [
+      {
+        "value": "ARKOLOGY_Hapipalus_Character_BP_C",
+        "label": "Hapipalus (variante Arkology)"
+      },
+      {
+        "value": "Bog_Hapipalus_Character_BP_C",
+        "label": "Hapipalus (variante Bog / X)"
+      },
+      {
+        "value": "Baryonyx_Character_BP_Aberrant_Minion_C",
+        "label": "Baryonyx aberrante (esbirro del jefe)"
+      },
+      {
+        "value": "Hapipalus_Character_BP_Minion_C",
+        "label": "Hapipalus (esbirro del jefe)"
+      },
+      {
+        "value": "Spino_Character_BP_Aberrant_Minion_C",
+        "label": "Spino aberrante (esbirro del jefe)"
+      },
+      {
+        "value": "Hapipalus_Character_BP_C",
+        "label": "Hapipalus"
+      },
+      {
+        "value": "Hapipalus_Character_BP_Queen_Alpha_C",
+        "label": "Hapipalus Queen (Alpha)"
+      },
+      {
+        "value": "Hapipalus_Character_BP_Queen_Base_C",
+        "label": "Hapipalus Queen (base)"
+      },
+      {
+        "value": "Hapipalus_Character_BP_Queen_Beta_C",
+        "label": "Hapipalus Queen (Beta)"
+      },
+      {
+        "value": "Hapipalus_Character_BP_Queen_Gamma_C",
+        "label": "Hapipalus Queen (Gamma)"
+      },
+      {
+        "value": "Hapipalus_Character_BP_Queen_Legendary_C",
+        "label": "Hapipalus Queen (Legendary)"
+      },
+      {
+        "value": "Zombie_Hapipalus_Character_BP_C",
+        "label": "Hapipalus (variante Zombie)"
+      }
+    ]
+  },
+  "spawnMaps": [
+    {
+      "label": "Hapipalus",
+      "maps": [
+        "the_island",
+        "the_center",
+        "ragnarok",
+        "aberration",
+        "extinction",
+        "valguero",
+        "astraeos",
+        "crystal_isles",
+        "genesis_part2",
+        "lost_island",
+        "fjordur"
+      ]
+    }
+  ]
+}

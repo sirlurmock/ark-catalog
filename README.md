@@ -12,8 +12,8 @@ programar, es **leer la documentación de cada mod y transcribirla bien**.
 <!-- stats:start -->
 | | |
 |---|---|
-| **252 ajustes** del juego base | en 11 categorías, con su archivo y sección verificados |
-| **1519 ajustes de 55 mods** | incluidas Structures Plus (288) y Super Structures (274) |
+| **253 ajustes** del juego base | en 11 categorías, con su archivo y sección verificados |
+| **1520 ajustes de 57 mods** | incluidas Structures Plus (288) y Super Structures (274) |
 | **118 comandos** de consola | con sus parámetros y advertencias de riesgo |
 | **16 presets** | velocidad, modo de juego, foco y calidad gráfica |
 | **14 mapas** oficiales | con sus juegos compatibles y características |

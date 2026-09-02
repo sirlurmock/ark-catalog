@@ -747,6 +747,31 @@
     "i18nKey": "settings.general.prevent_download_dinos"
   },
   {
+    "id": "cross_ark_allow_foreign_dino_downloads",
+    "key": "CrossARKAllowForeignDinoDownloads",
+    "category": "general",
+    "tier": "advanced",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["ase", "asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "applicableMaps": ["aberration"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.general.cross_ark_allow_foreign_dino_downloads",
+    "warnings": [
+      {
+        "condition": {
+          "and": [{ "userModified": true }, { "mapId": { "notIn": ["aberration"] } }]
+        },
+        "severity": "info",
+        "i18nKey": "warnings.general.foreign_dinos_only_aberration"
+      }
+    ]
+  },
+  {
     "id": "prevent_tribe_alliances",
     "key": "PreventTribeAlliances",
     "category": "general",
