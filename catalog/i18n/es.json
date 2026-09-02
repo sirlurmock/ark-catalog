@@ -652,6 +652,22 @@
     "empty": "Ninguna especie coincide con «{query}».",
     "source_note": "Fuente: tablas «Times for Breeding» de la wiki oficial (valores a 1×). La gestación se acelera con el mismo multiplicador que la eclosión de huevos. Las especies que la wiki no lista como criables (wyverns comunes, Rock Drake en ASE, etc.) no figuran."
   },
+  "spawn_finder": {
+    "open_button": "Buscar spawns",
+    "title": "¿Dónde spawnea cada criatura?",
+    "subtitle": "{count} criaturas vanilla, con el contenedor de spawn que hay que tocar para cambiarlas.",
+    "search_placeholder": "Buscar criatura (en inglés: Rex, Carbonemys…)",
+    "no_species": "Ninguna criatura coincide con la búsqueda.",
+    "pick_species": "Elegí una criatura de la lista para ver sus contenedores.",
+    "result_count": "{species} aparece en {count} contenedores",
+    "no_containers": "{species} no aparece en ningún contenedor de {game}.",
+    "weight": "Peso {weight} · {share}% del contenedor",
+    "copy": "Copiar el classname del contenedor",
+    "footnote": "Datos de ark.wiki.gg. El peso se compara solo contra las demás criaturas del mismo contenedor: no es la probabilidad de encontrarla en el mapa. Solo criaturas vanilla — las de mods no están porque sus autores no publican en qué contenedor entran.",
+    "map_draft": "trazado sin revisar",
+    "map_alt": "Mapa de {map} con {count} zonas de spawn marcadas.",
+    "gps": "Lat {lat} · Lon {lon}"
+  },
   "summary": {
     "title": "Resumen de tu servidor",
     "no_changes": "Sin cambios. Tu configuración está al default de ARK.",
@@ -3538,6 +3554,10 @@
     "moros_indominus": {},
     "marniimods_horses": {},
     "paleo_ark_legends": {},
+    "spawn_maps": {
+      "title": "Dónde spawnea",
+      "hint": "Según la documentación del autor de la mod. Las variantes que solo cambian el nivel o que se invocan con un objeto no aparecen acá."
+    },
     "classnames": {
       "title": "Classnames de esta mod",
       "hint": "{count} en total. Copiá el que necesites para pegarlo en un ajuste, un comando o el .ini.",
@@ -4097,7 +4117,8 @@
       "colossuscorpius_damage_multiplier": "Multiplicador de daño del Colossuscorpius",
       "colossuscorpius_damage_multiplier.description": "Escala el daño que hace la criatura. El autor documenta un rango de 0.1 a 1.0: solo sirve para bajárselo, no para subirlo. Default 1.0."
     },
-    "moros_indomitable_duo": {}
+    "moros_indomitable_duo": {},
+    "arkology_oe_desolatitan": {}
   },
   "mods_structures_plus": {
     "category": "Structures Plus",
@@ -4819,7 +4840,9 @@
     "fjordur": "Fjordur",
     "fjordur.description": "Mapa free de mitología nórdica con 4 reinos (Vannahem, Bolbjord, Vardiland, Asgard). Criaturas exclusivas: Fjordhawk, Andrewsarchus, Desmodus, Fenrir.",
     "astraeos": "Astraeos",
-    "astraeos.description": "Mapa free oficial de ASA (2025). Diseñado por la comunidad y promovido por Wildcard. Biomas variados y enfoque PvE."
+    "astraeos.description": "Mapa free oficial de ASA (2025). Diseñado por la comunidad y promovido por Wildcard. Biomas variados y enfoque PvE.",
+    "lost_colony": "Lost Colony",
+    "lost_colony.description": "Expansion de pago de ASA (diciembre de 2025). Necropolis gotica con la faccion Thrall, arbol de habilidades, misiones de puestos y zonas con radiacion. Solo ASA."
   },
   "tips": {
     "label": "Tip",

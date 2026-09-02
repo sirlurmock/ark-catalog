@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-24T19:59:41.863Z",
+  "generatedAt": "2026-09-02T14:31:52.176Z",
   "catalogVersion": "0.1.0",
   "coreSettings": 252,
   "categories": 11,
-  "mods": 54,
+  "mods": 55,
   "modSettings": 1519,
   "topMods": [
     {
@@ -29,6 +29,6 @@
   "items": 1542,
   "dinos": 167,
   "engrams": 536,
-  "maps": 13,
+  "maps": 14,
   "breedingSpecies": 130
 }

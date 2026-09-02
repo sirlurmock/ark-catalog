@@ -234,6 +234,18 @@ function runSpecMode(specPath) {
     }
   })();
 
+  /** Misma regla de conservacion que `existingClassNames`. */
+  const existingSpawnMaps = (() => {
+    if (spec.spawnMaps) return spec.spawnMaps;
+    if (!existsSync(dest)) return null;
+    try {
+      const current = JSON.parse(readFileSync(dest, "utf8"));
+      return current.spawnMaps ?? null;
+    } catch {
+      return null;
+    }
+  })();
+
   const modJson = {
     modId: spec.modId,
     name: spec.name,
@@ -260,6 +272,10 @@ function runSpecMode(specPath) {
     // fuente citable queda en `_classnamesSource` del spec, que como todo
     // campo con guion bajo no se publica.
     ...(existingClassNames ? { classNames: existingClassNames } : {}),
+    // Los mapas de spawn de una mod de criaturas. Se conservan igual que los
+    // classnames: agregarle ajustes a una mod ya catalogada no puede borrarle
+    // en silencio donde spawnea.
+    ...(existingSpawnMaps ? { spawnMaps: existingSpawnMaps } : {}),
   };
   const byTier = settings.reduce((acc, s) => {
     acc[s.tier] = (acc[s.tier] ?? 0) + 1;

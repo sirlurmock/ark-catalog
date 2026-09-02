@@ -652,6 +652,22 @@
     "empty": "No species matches \"{query}\".",
     "source_note": "Source: the official wiki's \"Times for Breeding\" tables (values at 1×). Gestation speeds up with the same multiplier as egg hatching. Species the wiki does not list as breedable (regular wyverns, Rock Drake in ASE, etc.) are absent."
   },
+  "spawn_finder": {
+    "open_button": "Find spawns",
+    "title": "Where does each creature spawn?",
+    "subtitle": "{count} vanilla creatures, with the spawn container you need to touch to change them.",
+    "search_placeholder": "Search a creature (Rex, Carbonemys…)",
+    "no_species": "No creature matches the search.",
+    "pick_species": "Pick a creature from the list to see its containers.",
+    "result_count": "{species} appears in {count} containers",
+    "no_containers": "{species} does not appear in any {game} container.",
+    "weight": "Weight {weight} · {share}% of the container",
+    "copy": "Copy the container classname",
+    "footnote": "Data from ark.wiki.gg. The weight only compares against the other creatures in the same container: it is not the chance of finding it on the map. Vanilla creatures only — modded ones are missing because their authors do not publish which container they join.",
+    "map_draft": "unreviewed outline",
+    "map_alt": "Map of {map} with {count} spawn zones marked.",
+    "gps": "Lat {lat} · Lon {lon}"
+  },
   "summary": {
     "title": "Server summary",
     "no_changes": "No changes. Your configuration is at ARK defaults.",
@@ -3538,6 +3554,10 @@
     "moros_indominus": {},
     "marniimods_horses": {},
     "paleo_ark_legends": {},
+    "spawn_maps": {
+      "title": "Where it spawns",
+      "hint": "From the mod author's own documentation. Variants that only change the level, or that are summoned with an item, are not listed here."
+    },
     "classnames": {
       "title": "This mod’s classnames",
       "hint": "{count} in total. Copy the one you need to paste into a setting, a command or the .ini.",
@@ -4097,7 +4117,8 @@
       "colossuscorpius_damage_multiplier": "Colossuscorpius damage multiplier",
       "colossuscorpius_damage_multiplier.description": "Scales the damage the creature deals. The author documents a 0.1 to 1.0 range: it can only bring the damage down, never up. Default 1.0."
     },
-    "moros_indomitable_duo": {}
+    "moros_indomitable_duo": {},
+    "arkology_oe_desolatitan": {}
   },
   "mods_structures_plus": {
     "category": "Structures Plus",
@@ -4819,7 +4840,9 @@
     "fjordur": "Fjordur",
     "fjordur.description": "Free Norse-mythology map with 4 realms (Vannahem, Bolbjord, Vardiland, Asgard). Exclusive creatures: Fjordhawk, Andrewsarchus, Desmodus, Fenrir.",
     "astraeos": "Astraeos",
-    "astraeos.description": "Official free map for ASA (2025). Community-designed and promoted by Wildcard. Varied biomes with PvE focus."
+    "astraeos.description": "Official free map for ASA (2025). Community-designed and promoted by Wildcard. Varied biomes with PvE focus.",
+    "lost_colony": "Lost Colony",
+    "lost_colony.description": "Paid ASA expansion (December 2025). Gothic necropolis with the Thrall faction, a skill tree, outpost missions and radiation zones. ASA only."
   },
   "tips": {
     "label": "Tip",

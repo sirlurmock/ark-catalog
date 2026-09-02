@@ -1,0 +1,111 @@
+{
+  "_source": "Mod de CRIATURAS: no expone ajustes de servidor propios en ninguna fuente citable. Su pagina de CurseForge (https://www.curseforge.com/ark-survival-ascended/mods/arkology-oe-desolatitan, proyecto 1133222, autor DragonHeart7998) manda toda la info a un Google Doc (https://docs.google.com/document/d/1DwVL5M4WIEPEDTIN2_rK70YldmuVLAIoAyZGvFaCRKk) y a su Discord (https://discord.gg/39usqU76ej). Ese doc se leyo entero el 2026-09-01: trae lore, ataques, habilidades, taming, mapas de spawn y spawn codes, y NI UNA sola clave de .ini. La entrada existe por sus classnames.",
+  "_scope": "settings vacio A PROPOSITO: no hay ninguna clave documentada, ni en CurseForge ni en el doc del autor. PENDIENTE: preguntar en el Discord si la mod expone alguna seccion de GameUserSettings.ini; si aparece, esta entrada puede pasar a verified porque el resto ya sale de fuente del autor.",
+  "_coleccion": "Es UNA de las mods de la coleccion ARKOLOGY: Overseer's Experiments. El mismo doc cubre tambien Hapipalus (Spino mutado) y Sanguivern (hibrido Desmodus/Wyvern), que son mods aparte en CurseForge y por lo tanto entradas aparte. Aca solo se cataloga Desolatitan.",
+  "_classnames": "Salen de arkcodes, proyecto 1133222 (la misma publicacion que esta entrada), leido el 2026-09-01. Los labels son mios: arkcodes solo muestra el classname, sin nombre de pantalla. OJO con el prefijo: aca el root es /ARKOLOGYOE-DESOLATITAN/Content/... y lleva Content, a diferencia de Colossuscorpius (/Colossuscorpius/...) o Moro's Indomitable Duo (/Moros_Indomitable_Duo/...), que no lo llevan. Se transcribe tal cual lo publica arkcodes, no se normaliza.",
+  "_deduccion_alfa": "El doc lista cuatro jefes (Alpha, Beta, Gamma, Legendary) pero los items sin sufijo (Summoner_PrimalDesolatitan, PrimalItemTrophy_Desolatitan) no dicen a cual corresponden. Lo mas probable es que el sin sufijo sea el Alpha, pero NO se rotula asi: se deja el label sin dificultad para no catalogar una deduccion.",
+  "_nonisland": "Los invocadores vienen en pares: uno normal y uno _NonIsland. El doc no lo explica; por el nombre son la version para mapas distintos de The Island. El label lo dice como lo que es, sin inventar mecanica.",
+  "_engramas_genericos": "EngramEntry_PrimalSummoner* no lleva el nombre de la mod en el classname. Si alguna vez otra mod usa el mismo nombre, hay colision. Se cataloga tal cual porque es lo que el juego espera.",
+  "modId": "ArkologyOEDesolatitan",
+  "name": "ARKOLOGY: OE - Desolatitan",
+  "game": "asa",
+  "source": "community",
+  "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/arkology-oe-desolatitan",
+  "curseforgeId": "1133222",
+  "prefix": "arkology_oe_desolatitan",
+  "searchAliases": [
+    "desolatitan",
+    "desola",
+    "arkology",
+    "rex mutado",
+    "trex mutante",
+    "jefe",
+    "criaturas"
+  ],
+  "settings": [],
+  "classNames": {
+    "items": [
+      { "value": "/ARKOLOGYOE-DESOLATITAN/Content/Desolatitan/Saddle/PrimalItemArmor_DesolatitanSaddle.PrimalItemArmor_DesolatitanSaddle", "label": "Desolatitan Saddle" },
+      { "value": "/ARKOLOGYOE-DESOLATITAN/Content/Desolatitan/Saddle/PrimalItemArmor_DesolatitanSaddle_Bone.PrimalItemArmor_DesolatitanSaddle_Bone", "label": "Desolatitan Saddle (Bone)" },
+      { "value": "/ARKOLOGYOE-DESOLATITAN/Content/Desolatitan/Egg/PrimalItemConsumable_Egg_Desolatitan.PrimalItemConsumable_Egg_Desolatitan", "label": "Desolatitan Egg" },
+      { "value": "/ARKOLOGYOE-DESOLATITAN/Content/Desolatitan/Egg/PrimalItemConsumable_Egg_Desolatitan_Fertilized.PrimalItemConsumable_Egg_Desolatitan_Fertilized", "label": "Desolatitan Egg (fertilizado)" },
+      { "value": "/ARKOLOGYOE-DESOLATITAN/Content/Desolatitan/Egg/PrimalItemConsumable_Egg_Desolatitan_Fertilized_ARKOLOGY.PrimalItemConsumable_Egg_Desolatitan_Fertilized_ARKOLOGY", "label": "Desolatitan Egg (fertilizado, variante Arkology)" },
+      { "value": "/ARKOLOGYOE-DESOLATITAN/Content/Desolatitan/Egg/PrimalItemConsumable_Egg_Desolatitan_Fertilized_Scorched.PrimalItemConsumable_Egg_Desolatitan_Fertilized_Scorched", "label": "Desolatitan Egg (fertilizado, variante Scorched)" },
+      { "value": "/ARKOLOGYOE-DESOLATITAN/Content/Desolatitan/Egg/PrimalItemConsumable_Egg_Desolatitan_Fertilized_Snow.PrimalItemConsumable_Egg_Desolatitan_Fertilized_Snow", "label": "Desolatitan Egg (fertilizado, variante Snow / X)" },
+      { "value": "/ARKOLOGYOE-DESOLATITAN/Content/Desolatitan/Egg/PrimalItemConsumable_Egg_Desolatitan_Fertilized_Eden.PrimalItemConsumable_Egg_Desolatitan_Fertilized_Eden", "label": "Desolatitan Egg (fertilizado, variante Eden / R)" },
+      { "value": "/ARKOLOGYOE-DESOLATITAN/Content/Desolatitan/PrimalItemConsumable_Summoner_PrimalDesolatitan.PrimalItemConsumable_Summoner_PrimalDesolatitan", "label": "Primal Desolatitan Summoner" },
+      { "value": "/ARKOLOGYOE-DESOLATITAN/Content/Desolatitan/PrimalItemConsumable_Summoner_PrimalDesolatitan_NonIsland.PrimalItemConsumable_Summoner_PrimalDesolatitan_NonIsland", "label": "Primal Desolatitan Summoner (fuera de The Island)" },
+      { "value": "/ARKOLOGYOE-DESOLATITAN/Content/Desolatitan/PrimalItemConsumable_Summoner_PrimalDesolatitan_Beta.PrimalItemConsumable_Summoner_PrimalDesolatitan_Beta", "label": "Primal Desolatitan Summoner (Beta)" },
+      { "value": "/ARKOLOGYOE-DESOLATITAN/Content/Desolatitan/PrimalItemConsumable_Summoner_PrimalDesolatitan_Beta_NonIsland.PrimalItemConsumable_Summoner_PrimalDesolatitan_Beta_NonIsland", "label": "Primal Desolatitan Summoner (Beta, fuera de The Island)" },
+      { "value": "/ARKOLOGYOE-DESOLATITAN/Content/Desolatitan/PrimalItemConsumable_Summoner_PrimalDesolatitan_Gamma.PrimalItemConsumable_Summoner_PrimalDesolatitan_Gamma", "label": "Primal Desolatitan Summoner (Gamma)" },
+      { "value": "/ARKOLOGYOE-DESOLATITAN/Content/Desolatitan/PrimalItemConsumable_Summoner_PrimalDesolatitan_Gamma_NonIsland.PrimalItemConsumable_Summoner_PrimalDesolatitan_Gamma_NonIsland", "label": "Primal Desolatitan Summoner (Gamma, fuera de The Island)" },
+      { "value": "/ARKOLOGYOE-DESOLATITAN/Content/Desolatitan/PrimalItemConsumable_Summoner_PrimalDesolatitan_Legendary.PrimalItemConsumable_Summoner_PrimalDesolatitan_Legendary", "label": "Primal Desolatitan Summoner (Legendary)" },
+      { "value": "/ARKOLOGYOE-DESOLATITAN/Content/Desolatitan/PrimalItemConsumable_Summoner_PrimalDesolatitan_Legendary_NonIsland.PrimalItemConsumable_Summoner_PrimalDesolatitan_Legendary_NonIsland", "label": "Primal Desolatitan Summoner (Legendary, fuera de The Island)" },
+      { "value": "/ARKOLOGYOE-DESOLATITAN/Content/Desolatitan/Loot/PrimalItemTrophy_Desolatitan.PrimalItemTrophy_Desolatitan", "label": "Desolatitan Trophy" },
+      { "value": "/ARKOLOGYOE-DESOLATITAN/Content/Desolatitan/Loot/PrimalItemTrophy_Desolatitan_Beta.PrimalItemTrophy_Desolatitan_Beta", "label": "Desolatitan Trophy (Beta)" },
+      { "value": "/ARKOLOGYOE-DESOLATITAN/Content/Desolatitan/Loot/PrimalItemTrophy_Desolatitan_Gamma.PrimalItemTrophy_Desolatitan_Gamma", "label": "Desolatitan Trophy (Gamma)" },
+      { "value": "/ARKOLOGYOE-DESOLATITAN/Content/Desolatitan/Loot/PrimalItemTrophy_Desolatitan_Legendary.PrimalItemTrophy_Desolatitan_Legendary", "label": "Desolatitan Trophy (Legendary)" },
+      { "value": "/ARKOLOGYOE-DESOLATITAN/Content/Desolatitan/Loot/PrimalItemResource_ApexDrop_Desola.PrimalItemResource_ApexDrop_Desola", "label": "Desolatitan Apex Drop" },
+      { "value": "/ARKOLOGYOE-DESOLATITAN/Content/Desolatitan/Loot/PrimalItemResource_ApexDrop_DesolaBOSS.PrimalItemResource_ApexDrop_DesolaBOSS", "label": "Desolatitan Apex Drop (jefe)" },
+      { "value": "/ARKOLOGYOE-DESOLATITAN/Content/Desolatitan/Loot/Flag/PrimalItemStructure_Flag_Desola.PrimalItemStructure_Flag_Desola", "label": "Desolatitan Flag" },
+      { "value": "/ARKOLOGYOE-DESOLATITAN/Content/Desolatitan/Loot/Flag/PrimalItemStructure_Statue_Desola.PrimalItemStructure_Statue_Desola", "label": "Desolatitan Statue" }
+    ],
+    "engrams": [
+      { "value": "EngramEntry_Saddle_Desolatitan_C", "label": "Desolatitan Saddle" },
+      { "value": "EngramEntry_PrimalSummoner_C", "label": "Primal Desolatitan Summoner" },
+      { "value": "EngramEntry_PrimalSummoner_NonIsland_C", "label": "Primal Desolatitan Summoner (fuera de The Island)" },
+      { "value": "EngramEntry_PrimalSummoner_Beta_C", "label": "Primal Desolatitan Summoner (Beta)" },
+      { "value": "EngramEntry_PrimalSummoner_Beta_NonIsland_C", "label": "Primal Desolatitan Summoner (Beta, fuera de The Island)" },
+      { "value": "EngramEntry_PrimalSummoner_Gamma_C", "label": "Primal Desolatitan Summoner (Gamma)" },
+      { "value": "EngramEntry_PrimalSummoner_Gamma_NonIsland_C", "label": "Primal Desolatitan Summoner (Gamma, fuera de The Island)" },
+      { "value": "EngramEntry_PrimalSummoner_Legendary_C", "label": "Primal Desolatitan Summoner (Legendary)" },
+      { "value": "EngramEntry_PrimalSummoner_Legendary_NonIsland_C", "label": "Primal Desolatitan Summoner (Legendary, fuera de The Island)" }
+    ],
+    "dinos": [
+      { "value": "Desolatitan_Character_BP_C", "label": "Desolatitan" },
+      { "value": "Scorched_Desolatitan_Character_BP_C", "label": "Desolatitan (variante Scorched)" },
+      { "value": "Snow_Desolatitan_Character_BP_C", "label": "Desolatitan (variante Snow / X)" },
+      { "value": "Eden_Desolatitan_Character_BP_C", "label": "Desolatitan (variante Eden / R)" },
+      { "value": "ARKOLOGY_Desolatitan_Character_BP_C", "label": "Desolatitan (variante Arkology)" },
+      { "value": "PRIMAL_Desolatitan_Character_BP_Alpha_C", "label": "Primal Desolatitan (Alpha)" },
+      { "value": "PRIMAL_Desolatitan_Character_BP_Beta_C", "label": "Primal Desolatitan (Beta)" },
+      { "value": "PRIMAL_Desolatitan_Character_BP_Gamma_C", "label": "Primal Desolatitan (Gamma)" },
+      { "value": "PRIMAL_Desolatitan_Character_BP_Legendary_C", "label": "Primal Desolatitan (Legendary)" },
+      { "value": "Desolatitan_Character_BP_Minion_C", "label": "Desolatitan (esbirro del jefe)" },
+      { "value": "Rex_Character_BP_Minion_C", "label": "Rex (esbirro del jefe)" },
+      { "value": "Gigant_Character_BP_Minion_C", "label": "Giganotosaurus (esbirro del jefe)" },
+      { "value": "Carcha_Character_BP_Minion_C", "label": "Carcharodontosaurus (esbirro del jefe)" },
+      { "value": "Acrocanthosaurus_Character_BP_Minion_C", "label": "Acrocanthosaurus (esbirro del jefe)" }
+    ]
+  },
+  "_classnamesSource": {
+    "items": { "url": "https://arkcodes.com/mods/1133222/arkology-oe-desolatitan/items", "fetchedAt": "2026-09-01", "note": "arkcodes, proyecto 1133222. 24 items. Labels puestos a mano." },
+    "engrams": { "url": "https://arkcodes.com/mods/1133222/arkology-oe-desolatitan/engrams", "fetchedAt": "2026-09-01", "note": "arkcodes, proyecto 1133222. 9 engramas. arkcodes los lista con y sin sufijo _C; se cataloga la forma con _C, igual que Colossuscorpius." },
+    "dinos": { "url": "https://arkcodes.com/mods/1133222/arkology-oe-desolatitan/dinos", "fetchedAt": "2026-09-01", "note": "arkcodes, proyecto 1133222. 14 criaturas. Los cuatro Minion con nombre vanilla (Rex, Gigant, Carcha, Acrocanthosaurus) SON de la mod: viven en Content/Desolatitan/Animations/BOSS_ANIMATIONS/ y son los adds que invoca el jefe, no los classnames del juego base." }
+  },
+  "_spawnMaps": "La enumeracion textual de mapas que da el doc del autor, encabezado 'Spawn Locations' de la seccion DESOLATITAN. Los mapas pintados que lo acompanan son IMAGENES suyas y no se transcriben ni se redistribuyen: para eso hace falta su permiso, y ademas el mapa base de abajo es de Wildcard.",
+  "_variantes_futuras": "El doc rotula las variantes Snow (X) y Eden (R) como 'Future ... Variants', o sea ANUNCIADAS, no publicadas, aunque sus classnames (Snow_Desolatitan_Character_BP_C, Eden_Desolatitan_Character_BP_C) ya existan en el pak. Por eso NO van en spawnMaps: decir que salen en Genesis seria mandar a alguien a buscar un bicho que todavia no spawnea. Los classnames si se catalogan, que para eso sirven aunque la variante no este activa.",
+  "_mapas_ports": "Cinco de los diez mapas de la variante base —Valguero, Crystal Isles, Lost Island, Fjordur y Genesis: Part 2— figuran en catalog/maps/maps.json como solo 'ase', porque Wildcard no los publico en ASA. El autor igual documenta spawns ahi: en ASA existen como ports de la comunidad. Se transcriben tal cual, y el test spawn-maps.test.ts lo permite a proposito (exige solo que la variante tenga UN mapa oficial del juego correcto).",
+  "_variantes_sin_mapa": "Otras dos quedan afuera de spawnMaps a proposito, porque no aportan un mapa nuevo: la Arkology es un 10% de reemplazo sobre cualquiera de las variantes (mismos mapas, niveles Tek) y la Primal solo aparece por item invocador.",
+  "spawnMaps": [
+    {
+      "label": "Desolatitan",
+      "maps": [
+        "the_island",
+        "the_center",
+        "ragnarok",
+        "extinction",
+        "valguero",
+        "astraeos",
+        "crystal_isles",
+        "lost_island",
+        "fjordur",
+        "genesis_part2"
+      ]
+    },
+    {
+      "label": "Scorched",
+      "maps": ["scorched_earth", "ragnarok", "lost_island"]
+    }
+  ]
+}
