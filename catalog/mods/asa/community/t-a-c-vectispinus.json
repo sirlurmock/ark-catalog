@@ -1,0 +1,84 @@
+{
+  "modId": "TACVectispinus",
+  "name": "[T.A.C] Vectispinus",
+  "game": "asa",
+  "source": "community",
+  "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/tristans-additional-creatures-vectispinus",
+  "curseforgeId": "1024911",
+  "searchAliases": [
+    "vectispinus",
+    "vecti",
+    "tac",
+    "tristans",
+    "spino soporte",
+    "criaturas"
+  ],
+  "settings": [],
+  "classNames": {
+    "items": [
+      {
+        "value": "/TA_Vecti/Content/Items/BluntHarpoonSpear/PrimalItemAmmo_BluntHarpoon.PrimalItemAmmo_BluntHarpoon",
+        "label": "Blunt Harpoon"
+      },
+      {
+        "value": "/TA_Vecti/Content/Items/Eggs/PrimalItemConsumable_Egg_Arkology_Vecti_Fertilized_TA.PrimalItemConsumable_Egg_Arkology_Vecti_Fertilized_TA",
+        "label": "Vectispinus Egg (fertilizado, variante Arkology)"
+      },
+      {
+        "value": "/TA_Vecti/Content/Items/Eggs/PrimalItemConsumable_Egg_PA_Vecti_Fertilized_TA.PrimalItemConsumable_Egg_PA_Vecti_Fertilized_TA",
+        "label": "Vectispinus Egg (fertilizado, variante Paleo ARK)"
+      },
+      {
+        "value": "/TA_Vecti/Content/Items/Eggs/PrimalItemConsumable_Egg_R-Vecti_Fertilized_TA.PrimalItemConsumable_Egg_R-Vecti_Fertilized_TA",
+        "label": "Vectispinus Egg (fertilizado, variante R)"
+      },
+      {
+        "value": "/TA_Vecti/Content/Items/Eggs/PrimalItemConsumable_Egg_SE_Vecti_Fertilized_TA1.PrimalItemConsumable_Egg_SE_Vecti_Fertilized_TA1",
+        "label": "Vectispinus Egg (fertilizado, variante Scorched)"
+      },
+      {
+        "value": "/TA_Vecti/Content/Items/Eggs/PrimalItemConsumable_Egg_Vecti_Fertilized_TA.PrimalItemConsumable_Egg_Vecti_Fertilized_TA",
+        "label": "Vectispinus Egg (fertilizado)"
+      },
+      {
+        "value": "/TA_Vecti/Content/Items/Eggs/PrimalItemConsumable_Egg_Vecti_Fertilized_TA_Ab.PrimalItemConsumable_Egg_Vecti_Fertilized_TA_Ab",
+        "label": "Vectispinus Egg (fertilizado, variante Aberration)"
+      },
+      {
+        "value": "/TA_Vecti/Content/Items/Eggs/PrimalItemConsumable_Egg_Vecti_TA.PrimalItemConsumable_Egg_Vecti_TA",
+        "label": "Vectispinus Egg"
+      },
+      {
+        "value": "/TA_Vecti/Content/Items/Eggs/PrimalItemConsumable_Egg_X_Vecti_Fertilized_TA1.PrimalItemConsumable_Egg_X_Vecti_Fertilized_TA1",
+        "label": "Vectispinus Egg (fertilizado, variante X)"
+      },
+      {
+        "value": "/TA_Vecti/Content/Items/Saddle/1/PrimalItemArmor_Vecti-1-Saddle.PrimalItemArmor_Vecti-1-Saddle",
+        "label": "Vectispinus Saddle (1)"
+      },
+      {
+        "value": "/TA_Vecti/Content/Items/Saddle/3/PrimalItemArmor_Vecti-MinigunSaddle.PrimalItemArmor_Vecti-MinigunSaddle",
+        "label": "Vectispinus Minigun Saddle"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_Vecti-1-Saddle_C",
+        "label": "Vectispinus Saddle (1)"
+      },
+      {
+        "value": "EngramEntry_Vecti-3-Saddle_C",
+        "label": "Vectispinus Saddle (3)"
+      },
+      {
+        "value": "EngramEntry_Vecti-Artillery_Shell_C",
+        "label": "Vectispinus Artillery Shell"
+      },
+      {
+        "value": "EngramEntry_Vecti-Blunt_Harpoon_C",
+        "label": "Blunt Harpoon"
+      }
+    ],
+    "dinos": []
+  }
+}

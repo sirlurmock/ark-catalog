@@ -209,7 +209,18 @@
       "only_allow_specified_engrams": "Solo engramas especificados",
       "only_allow_specified_engrams.description": "En True, solo se pueden aprender los engramas configurados explícitamente en los overrides de engramas; el resto queda oculto. Para servidores con progresión totalmente curada. Default: desactivado.",
       "cross_ark_allow_foreign_dino_downloads": "Permitir criaturas no nativas en Aberration",
-      "cross_ark_allow_foreign_dino_downloads.description": "En True permite descargar criaturas de otros mapas en Aberration, que por defecto las rechaza. No afecta a los demás mapas. Default False."
+      "cross_ark_allow_foreign_dino_downloads.description": "En True permite descargar criaturas de otros mapas en Aberration, que por defecto las rechaza. No afecta a los demás mapas. Default False.",
+      "photo_mode_range_limit": "Alcance del modo foto",
+      "photo_mode_range_limit.description": "Hasta qué distancia puede alejarse la cámara del modo foto, en unidades de ARK. Default 3000.",
+      "disable_photo_mode": "Desactivar el modo foto",
+      "disable_photo_mode.description": "En True nadie puede usar el modo foto en el servidor. Default False.",
+      "max_players": "Jugadores máximos",
+      "max_players.description": "Cuántos jugadores pueden estar conectados a la vez. Default 70. En ASA no se configura acá: va por la línea de arranque.",
+      "active_map_mod": "Mapa de mod activo",
+      "active_map_mod.description": "ID de la mod cuyo mapa carga el servidor. 0 = ninguna, se juega un mapa oficial.",
+      "session_name": "Nombre del servidor",
+      "session_name.description": "Con el que aparece en la lista de servidores del juego. Sin comillas: ARK toma la línea entera, así que las comillas quedarían dentro del nombre. Vacío = ARK inventa uno del tipo «ARK #123456».",
+      "session_name.placeholder": "Mi servidor de ARK"
     },
     "taming": {
       "taming_speed": "Velocidad de doma",
@@ -453,7 +464,9 @@
       "structure_damage_repair_cooldown": "Espera para reparar tras daño (segundos)",
       "structure_damage_repair_cooldown.description": "Segundos desde el último golpe hasta poder reparar la estructura. Con 0 se puede reparar en pleno raid.",
       "pvp_zone_structure_damage": "Daño a estructuras en cuevas (PvP)",
-      "pvp_zone_structure_damage.description": "Escala el daño que reciben las estructuras dentro de cuevas. Default 6 = seis veces más frágiles que afuera; bajalo para permitir bases de cueva más duras."
+      "pvp_zone_structure_damage.description": "Escala el daño que reciben las estructuras dentro de cuevas. Default 6 = seis veces más frágiles que afuera; bajalo para permitir bases de cueva más duras.",
+      "hard_limit_turrets_in_range": "Límite duro de torretas por zona",
+      "hard_limit_turrets_in_range.description": "En True aplica el límite retroactivo de 100 torretas en un radio de 10000 unidades. Default False."
     },
     "spawns": {
       "dino_spawn_weight": "Pesos de spawn de dinos",
@@ -633,7 +646,10 @@
     }
   },
   "controls": {
-    "struct.no_entries": "Sin entradas."
+    "struct.no_entries": "Sin entradas.",
+    "string": {
+      "quote_warning": "Las comillas dobles pasan tal cual al archivo y suelen no ser lo que uno quiere en el nombre."
+    }
   },
   "breeding_guide": {
     "title": "Guía de crianza",
@@ -4128,7 +4144,10 @@
     "moros_indomitable_duo": {},
     "arkology_oe_desolatitan": {},
     "arkology_oe_hapipalus": {},
-    "arkology_oe_sanguivern": {}
+    "arkology_oe_sanguivern": {},
+    "tac_vectispinus": {},
+    "tac_antrodemus": {},
+    "tac_eocarcharia": {}
   },
   "mods_structures_plus": {
     "category": "Structures Plus",

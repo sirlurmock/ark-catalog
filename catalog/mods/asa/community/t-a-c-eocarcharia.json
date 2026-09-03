@@ -1,0 +1,184 @@
+{
+  "modId": "TACEocarcharia",
+  "name": "[T.A.C] Eocarcharia",
+  "game": "asa",
+  "source": "community",
+  "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/tristans-additional-creatures-eocarcharia",
+  "curseforgeId": "963130",
+  "searchAliases": [
+    "eocarcharia",
+    "eocar",
+    "tac",
+    "tristans",
+    "criaturas"
+  ],
+  "settings": [],
+  "classNames": {
+    "items": [
+      {
+        "value": "/Eocarcharia-TA/Content/EocarchTLC/Autocannon/PrimalItemAmmo_AutocannonBullet.PrimalItemAmmo_AutocannonBullet",
+        "label": "Autocannon Bullet"
+      },
+      {
+        "value": "/Eocarcharia-TA/Content/Items/Eggs/PrimalItemConsumable_Egg_AK_Eocarch_Fertilized_TA.PrimalItemConsumable_Egg_AK_Eocarch_Fertilized_TA",
+        "label": "Eocarcharia Egg (fertilizado, variante AK)"
+      },
+      {
+        "value": "/Eocarcharia-TA/Content/Items/Eggs/PrimalItemConsumable_Egg_Eocarch_Fertilized_TA.PrimalItemConsumable_Egg_Eocarch_Fertilized_TA",
+        "label": "Eocarcharia Egg (fertilizado)"
+      },
+      {
+        "value": "/Eocarcharia-TA/Content/Items/Eggs/PrimalItemConsumable_Egg_Eocarch_Fertilized_TA_Ab.PrimalItemConsumable_Egg_Eocarch_Fertilized_TA_Ab",
+        "label": "Eocarcharia Egg (fertilizado, variante Aberration)"
+      },
+      {
+        "value": "/Eocarcharia-TA/Content/Items/Eggs/PrimalItemConsumable_Egg_Eocarch_TA.PrimalItemConsumable_Egg_Eocarch_TA",
+        "label": "Eocarcharia Egg"
+      },
+      {
+        "value": "/Eocarcharia-TA/Content/Items/Eggs/PrimalItemConsumable_Egg_PA_Eocarch_Fertilized_TA.PrimalItemConsumable_Egg_PA_Eocarch_Fertilized_TA",
+        "label": "Eocarcharia Egg (fertilizado, variante Paleo ARK)"
+      },
+      {
+        "value": "/Eocarcharia-TA/Content/Items/Eggs/PrimalItemConsumable_Egg_SE_Eocarch_Fertilized_TA.PrimalItemConsumable_Egg_SE_Eocarch_Fertilized_TA",
+        "label": "Eocarcharia Egg (fertilizado, variante Scorched)"
+      },
+      {
+        "value": "/Eocarcharia-TA/Content/Items/Eggs/PrimalItemConsumable_Egg_X_Eocarch_Fertilized_TA.PrimalItemConsumable_Egg_X_Eocarch_Fertilized_TA",
+        "label": "Eocarcharia Egg (fertilizado, variante X)"
+      },
+      {
+        "value": "/Eocarcharia-TA/Content/Items/Mushrooms/PrimalItemConsumable_Shroom.PrimalItemConsumable_Shroom",
+        "label": "Shroom"
+      },
+      {
+        "value": "/Eocarcharia-TA/Content/Items/Mushrooms/PrimalItemResource_BlueMushroom.PrimalItemResource_BlueMushroom",
+        "label": "Blue Mushroom"
+      },
+      {
+        "value": "/Eocarcharia-TA/Content/Items/Mushrooms/PrimalItemResource_GreenMushroom.PrimalItemResource_GreenMushroom",
+        "label": "Green Mushroom"
+      },
+      {
+        "value": "/Eocarcharia-TA/Content/Items/Mushrooms/PrimalItemResource_PurpleMushroom.PrimalItemResource_PurpleMushroom",
+        "label": "Purple Mushroom"
+      },
+      {
+        "value": "/Eocarcharia-TA/Content/Items/Mushrooms/PrimalItemResource_RedMushroom.PrimalItemResource_RedMushroom",
+        "label": "Red Mushroom"
+      },
+      {
+        "value": "/Eocarcharia-TA/Content/Items/Mushrooms/PrimalItem_Consumable_MushroomStew_Attack.PrimalItem_Consumable_MushroomStew_Attack",
+        "label": "Mushroom Stew (ataque)"
+      },
+      {
+        "value": "/Eocarcharia-TA/Content/Items/Mushrooms/PrimalItem_Consumable_MushroomStew_Defense.PrimalItem_Consumable_MushroomStew_Defense",
+        "label": "Mushroom Stew (defensa)"
+      },
+      {
+        "value": "/Eocarcharia-TA/Content/Items/Mushrooms/PrimalItem_Consumable_MushroomStew_Healing.PrimalItem_Consumable_MushroomStew_Healing",
+        "label": "Mushroom Stew (curación)"
+      },
+      {
+        "value": "/Eocarcharia-TA/Content/Items/Mushrooms/PrimalItem_Consumable_MushroomStew_Speed.PrimalItem_Consumable_MushroomStew_Speed",
+        "label": "Mushroom Stew (velocidad)"
+      },
+      {
+        "value": "/Eocarcharia-TA/Content/Items/Saddle/AutoCannon/PrimalItemArmor_Autocannon.PrimalItemArmor_Autocannon",
+        "label": "Autocannon"
+      },
+      {
+        "value": "/Eocarcharia-TA/Content/Items/Saddle/Base/PrimalItemArmor_Eocarcharia_Level0.PrimalItemArmor_Eocarcharia_Level0",
+        "label": "Eocarcharia Saddle (nivel 0)"
+      },
+      {
+        "value": "/Eocarcharia-TA/Content/Items/Saddle/Clown/PrimalItemArmor_Clown.PrimalItemArmor_Clown",
+        "label": "Clown"
+      },
+      {
+        "value": "/Eocarcharia-TA/Content/Items/Saddle/Metal/PrimalItemArmor_Eocarcharia_Level2.PrimalItemArmor_Eocarcharia_Level2",
+        "label": "Eocarcharia Saddle (nivel 2)"
+      },
+      {
+        "value": "/Eocarcharia-TA/Content/Items/Saddle/Raddie/PrimalItemArmor_Raddie.PrimalItemArmor_Raddie",
+        "label": "Raddie"
+      },
+      {
+        "value": "/Eocarcharia-TA/Content/Items/Saddle/leather/PrimalItemArmor_Eocarcharia_Level1.PrimalItemArmor_Eocarcharia_Level1",
+        "label": "Eocarcharia Saddle (nivel 1)"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_Attack_Mushroom_C",
+        "label": "Mushroom Stew (ataque)"
+      },
+      {
+        "value": "EngramEntry_Defense_Mushroom_C",
+        "label": "Mushroom Stew (defensa)"
+      },
+      {
+        "value": "EngramEntry_Healing_Mushroom_C",
+        "label": "Mushroom Stew (curación)"
+      },
+      {
+        "value": "EngramEntry_Shroom_C",
+        "label": "Shroom"
+      },
+      {
+        "value": "EngramEntry_Speed_Mushroom_C",
+        "label": "Mushroom Stew (velocidad)"
+      },
+      {
+        "value": "EngramEntry_Autocannon_C",
+        "label": "Autocannon"
+      },
+      {
+        "value": "EngramEntry_EocarchSaddle0_C",
+        "label": "Eocarcharia Saddle (0)"
+      },
+      {
+        "value": "EngramEntry_EocarchSaddle2_C",
+        "label": "Eocarcharia Saddle (2)"
+      },
+      {
+        "value": "EngramEntry_EocarchSaddle4_C",
+        "label": "Eocarcharia Saddle (4)"
+      },
+      {
+        "value": "EngramEntry_EocarchSaddle1_C",
+        "label": "Eocarcharia Saddle (1)"
+      }
+    ],
+    "dinos": [
+      {
+        "value": "AB_Eocarcharia_TA_Chartacter_BP_C_Child_C",
+        "label": "Eocarcharia (variante Aberration)"
+      },
+      {
+        "value": "Alpha_Eocarcharia_TA_Chartacter_BP_C_Child_C",
+        "label": "Eocarcharia (Alpha)"
+      },
+      {
+        "value": "AK_Eocarcharia_TA_Chartacter_BP_C_Child_C",
+        "label": "Eocarcharia (variante AK)"
+      },
+      {
+        "value": "Eocarcharia_TA_Chartacter_BP_C_C",
+        "label": "Eocarcharia"
+      },
+      {
+        "value": "X_Eocarcharia_TA_Chartacter_BP_C_Child_C",
+        "label": "Eocarcharia (variante X)"
+      },
+      {
+        "value": "paleo_Eocarcharia_TA_Chartacter_BP_C_C",
+        "label": "Eocarcharia (variante Paleo ARK)"
+      },
+      {
+        "value": "SE_Eocarcharia_TA_Chartacter_BP_C_Child_C",
+        "label": "Eocarcharia (variante Scorched)"
+      }
+    ]
+  }
+}

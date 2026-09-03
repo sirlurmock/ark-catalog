@@ -169,8 +169,14 @@
       {
         "condition": {
           "and": [
-            { "userModified": true },
-            { "mapId": { "notIn": ["aberration"] } }
+            {
+              "userModified": true
+            },
+            {
+              "mapId": {
+                "notIn": ["aberration"]
+              }
+            }
           ]
         },
         "severity": "info",
@@ -308,8 +314,14 @@
       {
         "condition": {
           "and": [
-            { "userModified": true },
-            { "mapId": { "notIn": ["aberration"] } }
+            {
+              "userModified": true
+            },
+            {
+              "mapId": {
+                "notIn": ["aberration"]
+              }
+            }
           ]
         },
         "severity": "info",
@@ -396,8 +408,14 @@
       {
         "condition": {
           "and": [
-            { "userModified": true },
-            { "mapId": { "notIn": ["aberration"] } }
+            {
+              "userModified": true
+            },
+            {
+              "mapId": {
+                "notIn": ["aberration"]
+              }
+            }
           ]
         },
         "severity": "info",
@@ -465,8 +483,14 @@
       {
         "condition": {
           "and": [
-            { "userModified": true },
-            { "mapId": { "notIn": ["extinction"] } }
+            {
+              "userModified": true
+            },
+            {
+              "mapId": {
+                "notIn": ["extinction"]
+              }
+            }
           ]
         },
         "severity": "info",
@@ -731,7 +755,10 @@
     "section": "/script/shootergame.shootergamemode",
     "games": ["ase", "asa"],
     "validIn": ["single_player", "host_local", "dedicated"],
-    "control": { "kind": "boolean", "default": false },
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
     "i18nKey": "settings.structures.disable_structure_placement_collision"
   },
   {
@@ -743,7 +770,10 @@
     "section": "/script/shootergame.shootergamemode",
     "games": ["ase", "asa"],
     "validIn": ["single_player", "host_local", "dedicated"],
-    "control": { "kind": "boolean", "default": false },
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
     "i18nKey": "settings.structures.allow_platform_saddle_multi_floors"
   },
   {
@@ -755,7 +785,12 @@
     "section": "/script/shootergame.shootergamemode",
     "games": ["ase", "asa"],
     "validIn": ["single_player", "host_local", "dedicated"],
-    "control": { "kind": "integer", "default": 180, "min": 0, "step": 10 },
+    "control": {
+      "kind": "integer",
+      "default": 180,
+      "min": 0,
+      "step": 10
+    },
     "i18nKey": "settings.structures.structure_damage_repair_cooldown"
   },
   {
@@ -767,7 +802,28 @@
     "section": "/script/shootergame.shootergamemode",
     "games": ["ase", "asa"],
     "validIn": ["single_player", "host_local", "dedicated"],
-    "control": { "kind": "float_multiplier", "default": 6, "min": 0, "max": 20, "step": 0.5 },
+    "control": {
+      "kind": "float_multiplier",
+      "default": 6,
+      "min": 0,
+      "max": 20,
+      "step": 0.5
+    },
     "i18nKey": "settings.structures.pvp_zone_structure_damage"
+  },
+  {
+    "id": "hard_limit_turrets_in_range",
+    "key": "bHardLimitTurretsInRange",
+    "category": "structures",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["ase"],
+    "validIn": ["host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.structures.hard_limit_turrets_in_range"
   }
 ]

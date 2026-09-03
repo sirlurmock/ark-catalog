@@ -265,7 +265,12 @@
       "kind": "struct_collection",
       "default": [],
       "fields": [
-        { "name": "ItemClassString", "type": "string", "required": true, "suggestions": "items_classnames" },
+        {
+          "name": "ItemClassString",
+          "type": "string",
+          "required": true,
+          "suggestions": "items_classnames"
+        },
         {
           "name": "Quantity",
           "type": "struct",

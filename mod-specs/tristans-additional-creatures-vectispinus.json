@@ -1,0 +1,103 @@
+{
+  "_source": "Mod de CRIATURAS (Spinosaurio de soporte): no expone ajustes de servidor propios. Su pagina de CurseForge (https://www.curseforge.com/ark-survival-ascended/mods/tristans-additional-creatures-vectispinus, proyecto 1024911, autor Tristans_Modding) enlaza su Discord (https://discord.gg/eZgby2bntn) pero no documenta ni una clave de GameUserSettings.ini ni de Game.ini — solo spawn codes y engramas. La entrada existe por sus classnames. Leido el 2026-09-02.",
+  "_scope": "settings vacio A PROPOSITO: no hay ninguna clave documentada. Es el mismo caso que las tres de ARKOLOGY. Si algun dia el autor publica una seccion de .ini, la entrada puede subir a verified porque el resto ya sale de fuente citable.",
+  "_coleccion": "Una de las tres de Tristan's Additional Creatures que el autor de la app tiene instaladas: Vectispinus (1024911), Antrodemus (1058624) y Eocarcharia (963130). Son mods separadas en CurseForge y por lo tanto entradas separadas.",
+  "_classnames": "Salen de arkcodes, proyecto 1024911 (la misma publicacion que esta entrada). Los labels son mios: arkcodes solo muestra el classname, sin nombre de pantalla. El prefijo del root se transcribe tal cual lo publica arkcodes, no se normaliza.",
+  "_classnamesSource": {
+    "items": {
+      "url": "https://arkcodes.com/mods/1024911/tristans-additional-creatures-vectispinus/items",
+      "fetchedAt": "2026-09-03",
+      "note": "vía fetch-mod-classnames.mjs; labels humanizados del classname, revisados a mano"
+    },
+    "engrams": {
+      "url": "https://arkcodes.com/mods/1024911/tristans-additional-creatures-vectispinus/engrams",
+      "fetchedAt": "2026-09-03",
+      "note": "vía fetch-mod-classnames.mjs; labels humanizados del classname, revisados a mano"
+    }
+  },
+  "_sin_criaturas": "OJO: esta entrada NO trae classnames de criatura, y no es un descuido. Arkcodes publica la seccion de dinos VACIA para esta mod, y la pagina del autor solo da atajos de SDF (`Cheat SDF TAC_Vecti 1 1 1 1`), que no son classnames: SDF acepta un fragmento del nombre, no el `_C` que piden `summon` y los contenedores de spawn. Poner `TAC_Vecti` en la lista de dinos seria ofrecer algo que no funciona donde la app lo usa. Si el autor publica los blueprint paths —como si hizo con Antrodemus— se agregan y listo.",
+  "_spawnMaps": "Sin spawnMaps A PROPOSITO. CurseForge lista 'Monster Island, Inland Water, Shallow Water, Swamps, Bog, Scorched Earth, Reborn Sulfer Water, Blue Zone on Aberration': son casi todos BIOMAS y zonas, no mapas, y mezclarlos con los dos que si son mapas seria inventar la mitad. El campo es por mapa; sin una lista de mapas no se llena.",
+  "modId": "TACVectispinus",
+  "name": "[T.A.C] Vectispinus",
+  "game": "asa",
+  "source": "community",
+  "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/tristans-additional-creatures-vectispinus",
+  "curseforgeId": "1024911",
+  "prefix": "tac_vectispinus",
+  "searchAliases": [
+    "vectispinus",
+    "vecti",
+    "tac",
+    "tristans",
+    "spino soporte",
+    "criaturas"
+  ],
+  "settings": [],
+  "classNames": {
+    "items": [
+      {
+        "value": "/TA_Vecti/Content/Items/BluntHarpoonSpear/PrimalItemAmmo_BluntHarpoon.PrimalItemAmmo_BluntHarpoon",
+        "label": "Blunt Harpoon"
+      },
+      {
+        "value": "/TA_Vecti/Content/Items/Eggs/PrimalItemConsumable_Egg_Arkology_Vecti_Fertilized_TA.PrimalItemConsumable_Egg_Arkology_Vecti_Fertilized_TA",
+        "label": "Vectispinus Egg (fertilizado, variante Arkology)"
+      },
+      {
+        "value": "/TA_Vecti/Content/Items/Eggs/PrimalItemConsumable_Egg_PA_Vecti_Fertilized_TA.PrimalItemConsumable_Egg_PA_Vecti_Fertilized_TA",
+        "label": "Vectispinus Egg (fertilizado, variante Paleo ARK)"
+      },
+      {
+        "value": "/TA_Vecti/Content/Items/Eggs/PrimalItemConsumable_Egg_R-Vecti_Fertilized_TA.PrimalItemConsumable_Egg_R-Vecti_Fertilized_TA",
+        "label": "Vectispinus Egg (fertilizado, variante R)"
+      },
+      {
+        "value": "/TA_Vecti/Content/Items/Eggs/PrimalItemConsumable_Egg_SE_Vecti_Fertilized_TA1.PrimalItemConsumable_Egg_SE_Vecti_Fertilized_TA1",
+        "label": "Vectispinus Egg (fertilizado, variante Scorched)"
+      },
+      {
+        "value": "/TA_Vecti/Content/Items/Eggs/PrimalItemConsumable_Egg_Vecti_Fertilized_TA.PrimalItemConsumable_Egg_Vecti_Fertilized_TA",
+        "label": "Vectispinus Egg (fertilizado)"
+      },
+      {
+        "value": "/TA_Vecti/Content/Items/Eggs/PrimalItemConsumable_Egg_Vecti_Fertilized_TA_Ab.PrimalItemConsumable_Egg_Vecti_Fertilized_TA_Ab",
+        "label": "Vectispinus Egg (fertilizado, variante Aberration)"
+      },
+      {
+        "value": "/TA_Vecti/Content/Items/Eggs/PrimalItemConsumable_Egg_Vecti_TA.PrimalItemConsumable_Egg_Vecti_TA",
+        "label": "Vectispinus Egg"
+      },
+      {
+        "value": "/TA_Vecti/Content/Items/Eggs/PrimalItemConsumable_Egg_X_Vecti_Fertilized_TA1.PrimalItemConsumable_Egg_X_Vecti_Fertilized_TA1",
+        "label": "Vectispinus Egg (fertilizado, variante X)"
+      },
+      {
+        "value": "/TA_Vecti/Content/Items/Saddle/1/PrimalItemArmor_Vecti-1-Saddle.PrimalItemArmor_Vecti-1-Saddle",
+        "label": "Vectispinus Saddle (1)"
+      },
+      {
+        "value": "/TA_Vecti/Content/Items/Saddle/3/PrimalItemArmor_Vecti-MinigunSaddle.PrimalItemArmor_Vecti-MinigunSaddle",
+        "label": "Vectispinus Minigun Saddle"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_Vecti-1-Saddle_C",
+        "label": "Vectispinus Saddle (1)"
+      },
+      {
+        "value": "EngramEntry_Vecti-3-Saddle_C",
+        "label": "Vectispinus Saddle (3)"
+      },
+      {
+        "value": "EngramEntry_Vecti-Artillery_Shell_C",
+        "label": "Vectispinus Artillery Shell"
+      },
+      {
+        "value": "EngramEntry_Vecti-Blunt_Harpoon_C",
+        "label": "Blunt Harpoon"
+      }
+    ],
+    "dinos": []
+  }
+}

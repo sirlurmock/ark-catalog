@@ -209,7 +209,18 @@
       "only_allow_specified_engrams": "Only allow specified engrams",
       "only_allow_specified_engrams.description": "When True, only engrams explicitly configured in the engram overrides can be learned; the rest stay hidden. For servers with fully curated progression. Default: disabled.",
       "cross_ark_allow_foreign_dino_downloads": "Allow foreign creatures on Aberration",
-      "cross_ark_allow_foreign_dino_downloads.description": "When True, allows downloading creatures from other maps on Aberration, which rejects them by default. Does not affect other maps. Default False."
+      "cross_ark_allow_foreign_dino_downloads.description": "When True, allows downloading creatures from other maps on Aberration, which rejects them by default. Does not affect other maps. Default False.",
+      "photo_mode_range_limit": "Photo mode range",
+      "photo_mode_range_limit.description": "How far the photo mode camera can travel from the player, in ARK units. Default 3000.",
+      "disable_photo_mode": "Disable photo mode",
+      "disable_photo_mode.description": "When True, nobody can use photo mode on the server. Default False.",
+      "max_players": "Max players",
+      "max_players.description": "How many players can be connected at once. Default 70. Not configured here on ASA: it goes on the command line.",
+      "active_map_mod": "Active map mod",
+      "active_map_mod.description": "ID of the mod whose map the server loads. 0 = none, an official map is used.",
+      "session_name": "Server name",
+      "session_name.description": "How the server shows up in the in-game browser. No quotes: ARK takes the whole line, so quotes would end up inside the name. Empty = ARK makes one up like «ARK #123456».",
+      "session_name.placeholder": "My ARK server"
     },
     "taming": {
       "taming_speed": "Taming speed multiplier",
@@ -453,7 +464,9 @@
       "structure_damage_repair_cooldown": "Repair cooldown after damage (seconds)",
       "structure_damage_repair_cooldown.description": "Seconds from the last hit until the structure can be repaired. At 0 you can repair mid-raid.",
       "pvp_zone_structure_damage": "Cave structure damage (PvP)",
-      "pvp_zone_structure_damage.description": "Scales damage taken by structures inside caves. Default 6 = six times more fragile than outside; lower it to allow tougher cave bases."
+      "pvp_zone_structure_damage.description": "Scales damage taken by structures inside caves. Default 6 = six times more fragile than outside; lower it to allow tougher cave bases.",
+      "hard_limit_turrets_in_range": "Hard turret limit per area",
+      "hard_limit_turrets_in_range.description": "When True, enforces the retroactive limit of 100 turrets within a 10000-unit radius. Default False."
     },
     "spawns": {
       "dino_spawn_weight": "Dino spawn weights",
@@ -633,7 +646,10 @@
     }
   },
   "controls": {
-    "struct.no_entries": "No entries."
+    "struct.no_entries": "No entries.",
+    "string": {
+      "quote_warning": "Double quotes go into the file as-is, and are usually not what you want in the name."
+    }
   },
   "breeding_guide": {
     "title": "Breeding guide",
@@ -4128,7 +4144,10 @@
     "moros_indomitable_duo": {},
     "arkology_oe_desolatitan": {},
     "arkology_oe_hapipalus": {},
-    "arkology_oe_sanguivern": {}
+    "arkology_oe_sanguivern": {},
+    "tac_vectispinus": {},
+    "tac_antrodemus": {},
+    "tac_eocarcharia": {}
   },
   "mods_structures_plus": {
     "category": "Structures Plus",

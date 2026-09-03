@@ -1,0 +1,128 @@
+{
+  "modId": "TACAntrodemus",
+  "name": "[T.A.C] Antrodemus",
+  "game": "asa",
+  "source": "community",
+  "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/tristans-additional-creatures-antrodemus-beta",
+  "curseforgeId": "1058624",
+  "searchAliases": [
+    "antrodemus",
+    "antro",
+    "tac",
+    "tristans",
+    "criaturas"
+  ],
+  "settings": [],
+  "classNames": {
+    "items": [
+      {
+        "value": "/TAC_Antrodemus/Content/Antrodemus/Brain/PrimalItemConsumable_Allosaurus_Head.PrimalItemConsumable_Allosaurus_Head",
+        "label": "Allosaurus Head"
+      },
+      {
+        "value": "/TAC_Antrodemus/Content/Antrodemus/Eggs/PrimalItemConsumable_Egg_Antro_Fertilized_TA.PrimalItemConsumable_Egg_Antro_Fertilized_TA",
+        "label": "Antrodemus Egg (fertilizado)"
+      },
+      {
+        "value": "/TAC_Antrodemus/Content/Antrodemus/Eggs/PrimalItemConsumable_Egg_Antro_Fertilized_TA_AB.PrimalItemConsumable_Egg_Antro_Fertilized_TA_AB",
+        "label": "Antrodemus Egg (fertilizado, variante Aberration)"
+      },
+      {
+        "value": "/TAC_Antrodemus/Content/Antrodemus/Eggs/PrimalItemConsumable_Egg_Antro_Fertilized_TA_SE.PrimalItemConsumable_Egg_Antro_Fertilized_TA_SE",
+        "label": "Antrodemus Egg (fertilizado, variante Scorched)"
+      },
+      {
+        "value": "/TAC_Antrodemus/Content/Antrodemus/Eggs/PrimalItemConsumable_Egg_Antro_TA.PrimalItemConsumable_Egg_Antro_TA",
+        "label": "Antrodemus Egg"
+      },
+      {
+        "value": "/TAC_Antrodemus/Content/Antrodemus/Saddle/Armor/Arms/PrimalItemArmor_Antro_Armor-Arms.PrimalItemArmor_Antro_Armor-Arms",
+        "label": "Antrodemus Armor: Arms"
+      },
+      {
+        "value": "/TAC_Antrodemus/Content/Antrodemus/Saddle/Armor/Body/PrimalItemArmor_Antro_Body.PrimalItemArmor_Antro_Body",
+        "label": "Antrodemus Armor: Body"
+      },
+      {
+        "value": "/TAC_Antrodemus/Content/Antrodemus/Saddle/Armor/Helm/PrimalItemArmor_Antro_Helm.PrimalItemArmor_Antro_Helm",
+        "label": "Antrodemus Armor: Helm"
+      },
+      {
+        "value": "/TAC_Antrodemus/Content/Antrodemus/Saddle/Armor/Pants/PrimalItemArmor_Antro_Pants.PrimalItemArmor_Antro_Pants",
+        "label": "Antrodemus Armor: Pants"
+      },
+      {
+        "value": "/TAC_Antrodemus/Content/Antrodemus/Saddle/Attachments/PrimalItemArmor_Antro_Pestal.PrimalItemArmor_Antro_Pestal",
+        "label": "Antrodemus Pestal"
+      },
+      {
+        "value": "/TAC_Antrodemus/Content/Antrodemus/Saddle/Attachments/PrimalItemArmor_Antro_Storage.PrimalItemArmor_Antro_Storage",
+        "label": "Antrodemus Storage"
+      },
+      {
+        "value": "/TAC_Antrodemus/Content/Antrodemus/Saddle/PrimalItemArmor_Antro.PrimalItemArmor_Antro",
+        "label": "Antrodemus"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_Aberrant-Skin_C",
+        "label": "Aberrant Skin"
+      },
+      {
+        "value": "EngramEntry_Allosaurus-Brain_C",
+        "label": "Allosaurus Brain"
+      },
+      {
+        "value": "EngramEntry_Antro-Arms_C",
+        "label": "Antrodemus Armor: Arms"
+      },
+      {
+        "value": "EngramEntry_Antro-Body_C",
+        "label": "Antrodemus Armor: Body"
+      },
+      {
+        "value": "EngramEntry_Antro-Helm_C",
+        "label": "Antrodemus Armor: Helm"
+      },
+      {
+        "value": "EngramEntry_Antro-Pants_C",
+        "label": "Antrodemus Armor: Pants"
+      },
+      {
+        "value": "EngramEntry_Antro-Pestal_C",
+        "label": "Antrodemus Pestal"
+      },
+      {
+        "value": "EngramEntry_Antro-Saddle_T0_C",
+        "label": "Antrodemus Saddle (T0)"
+      },
+      {
+        "value": "EngramEntry_Antro-Smithy_C",
+        "label": "Antrodemus Smithy"
+      },
+      {
+        "value": "EngramEntry_Antro-Storage_C",
+        "label": "Antrodemus Storage"
+      },
+      {
+        "value": "EngramEntry_Scorched-Skin_C",
+        "label": "Scorched Skin"
+      }
+    ],
+    "dinos": [
+      {
+        "value": "TAC_Antrodemus_Character_Bp_C",
+        "label": "Antrodemus"
+      },
+      {
+        "value": "TAC_SE_Antrodemus_Character_Bp_C",
+        "label": "Antrodemus (variante Scorched)"
+      },
+      {
+        "value": "TAC_AB_Antrodemus_Character_Bp_C",
+        "label": "Antrodemus (variante Aberration)"
+      }
+    ]
+  }
+}

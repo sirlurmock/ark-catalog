@@ -212,11 +212,30 @@
       "kind": "struct_collection",
       "default": [],
       "fields": [
-        { "name": "EngramClassName", "type": "string", "required": true, "suggestions": "engrams" },
-        { "name": "EngramHidden", "type": "boolean", "default": false },
-        { "name": "EngramPointsCost", "type": "integer" },
-        { "name": "EngramLevelRequirement", "type": "integer" },
-        { "name": "RemoveEngramPreReq", "type": "boolean", "default": false }
+        {
+          "name": "EngramClassName",
+          "type": "string",
+          "required": true,
+          "suggestions": "engrams"
+        },
+        {
+          "name": "EngramHidden",
+          "type": "boolean",
+          "default": false
+        },
+        {
+          "name": "EngramPointsCost",
+          "type": "integer"
+        },
+        {
+          "name": "EngramLevelRequirement",
+          "type": "integer"
+        },
+        {
+          "name": "RemoveEngramPreReq",
+          "type": "boolean",
+          "default": false
+        }
       ]
     },
     "i18nKey": "settings.general.engram_overrides"
@@ -764,7 +783,16 @@
     "warnings": [
       {
         "condition": {
-          "and": [{ "userModified": true }, { "mapId": { "notIn": ["aberration"] } }]
+          "and": [
+            {
+              "userModified": true
+            },
+            {
+              "mapId": {
+                "notIn": ["aberration"]
+              }
+            }
+          ]
         },
         "severity": "info",
         "i18nKey": "warnings.general.foreign_dinos_only_aberration"
@@ -848,7 +876,10 @@
     "section": "/script/shootergame.shootergamemode",
     "games": ["ase", "asa"],
     "validIn": ["single_player", "host_local", "dedicated"],
-    "control": { "kind": "boolean", "default": false },
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
     "i18nKey": "settings.general.use_singleplayer_settings"
   },
   {
@@ -860,7 +891,10 @@
     "section": "/script/shootergame.shootergamemode",
     "games": ["ase", "asa"],
     "validIn": ["single_player", "host_local", "dedicated"],
-    "control": { "kind": "boolean", "default": false },
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
     "i18nKey": "settings.general.show_creative_mode"
   },
   {
@@ -872,7 +906,10 @@
     "section": "/script/shootergame.shootergamemode",
     "games": ["ase", "asa"],
     "validIn": ["single_player", "host_local", "dedicated"],
-    "control": { "kind": "boolean", "default": true },
+    "control": {
+      "kind": "boolean",
+      "default": true
+    },
     "i18nKey": "settings.general.allow_custom_recipes"
   },
   {
@@ -884,7 +921,12 @@
     "section": "/script/shootergame.shootergamemode",
     "games": ["ase", "asa"],
     "validIn": ["single_player", "host_local", "dedicated"],
-    "control": { "kind": "integer", "default": 0, "min": 0, "step": 1 },
+    "control": {
+      "kind": "integer",
+      "default": 0,
+      "min": 0,
+      "step": 1
+    },
     "i18nKey": "settings.general.max_players_in_tribe"
   },
   {
@@ -896,7 +938,10 @@
     "section": "/script/shootergame.shootergamemode",
     "games": ["ase", "asa"],
     "validIn": ["single_player", "host_local", "dedicated"],
-    "control": { "kind": "boolean", "default": true },
+    "control": {
+      "kind": "boolean",
+      "default": true
+    },
     "i18nKey": "settings.general.pve_allow_tribe_war"
   },
   {
@@ -908,7 +953,10 @@
     "section": "/script/shootergame.shootergamemode",
     "games": ["ase", "asa"],
     "validIn": ["single_player", "host_local", "dedicated"],
-    "control": { "kind": "boolean", "default": false },
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
     "i18nKey": "settings.general.pve_allow_tribe_war_cancel"
   },
   {
@@ -920,7 +968,10 @@
     "section": "/script/shootergame.shootergamemode",
     "games": ["ase", "asa"],
     "validIn": ["single_player", "host_local", "dedicated"],
-    "control": { "kind": "boolean", "default": false },
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
     "i18nKey": "settings.general.auto_pve_timer"
   },
   {
@@ -932,7 +983,10 @@
     "section": "/script/shootergame.shootergamemode",
     "games": ["ase", "asa"],
     "validIn": ["single_player", "host_local", "dedicated"],
-    "control": { "kind": "boolean", "default": false },
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
     "i18nKey": "settings.general.auto_pve_use_system_time"
   },
   {
@@ -944,7 +998,13 @@
     "section": "/script/shootergame.shootergamemode",
     "games": ["ase", "asa"],
     "validIn": ["single_player", "host_local", "dedicated"],
-    "control": { "kind": "float_multiplier", "default": 0, "min": 0, "max": 86400, "step": 60 },
+    "control": {
+      "kind": "float_multiplier",
+      "default": 0,
+      "min": 0,
+      "max": 86400,
+      "step": 60
+    },
     "i18nKey": "settings.general.auto_pve_start_time"
   },
   {
@@ -956,7 +1016,13 @@
     "section": "/script/shootergame.shootergamemode",
     "games": ["ase", "asa"],
     "validIn": ["single_player", "host_local", "dedicated"],
-    "control": { "kind": "float_multiplier", "default": 0, "min": 0, "max": 86400, "step": 60 },
+    "control": {
+      "kind": "float_multiplier",
+      "default": 0,
+      "min": 0,
+      "max": 86400,
+      "step": 60
+    },
     "i18nKey": "settings.general.auto_pve_stop_time"
   },
   {
@@ -968,7 +1034,10 @@
     "section": "/script/shootergame.shootergamemode",
     "games": ["ase", "asa"],
     "validIn": ["single_player", "host_local", "dedicated"],
-    "control": { "kind": "boolean", "default": false },
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
     "i18nKey": "settings.general.disable_friendly_fire"
   },
   {
@@ -980,7 +1049,92 @@
     "section": "serversettings",
     "games": ["ase", "asa"],
     "validIn": ["single_player", "host_local", "dedicated"],
-    "control": { "kind": "boolean", "default": false },
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
     "i18nKey": "settings.general.only_allow_specified_engrams"
+  },
+  {
+    "id": "photo_mode_range_limit",
+    "key": "PhotoModeRangeLimit",
+    "category": "general",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "integer",
+      "default": 3000,
+      "min": 0,
+      "max": 100000
+    },
+    "i18nKey": "settings.general.photo_mode_range_limit"
+  },
+  {
+    "id": "disable_photo_mode",
+    "key": "bDisablePhotoMode",
+    "category": "general",
+    "tier": "advanced",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": ["asa"],
+    "validIn": ["single_player", "host_local", "dedicated"],
+    "control": {
+      "kind": "boolean",
+      "default": false
+    },
+    "i18nKey": "settings.general.disable_photo_mode"
+  },
+  {
+    "id": "max_players",
+    "key": "MaxPlayers",
+    "category": "general",
+    "tier": "basic",
+    "file": "GameUserSettings.ini",
+    "section": "/Script/Engine.GameSession",
+    "games": ["ase"],
+    "validIn": ["dedicated"],
+    "control": {
+      "kind": "integer",
+      "default": 70,
+      "min": 1,
+      "max": 255
+    },
+    "i18nKey": "settings.general.max_players"
+  },
+  {
+    "id": "active_map_mod",
+    "key": "ActiveMapMod",
+    "category": "general",
+    "tier": "expert",
+    "file": "GameUserSettings.ini",
+    "section": "serversettings",
+    "games": ["asa"],
+    "validIn": ["dedicated"],
+    "control": {
+      "kind": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "i18nKey": "settings.general.active_map_mod"
+  },
+  {
+    "id": "session_name",
+    "key": "SessionName",
+    "category": "general",
+    "tier": "basic",
+    "file": "GameUserSettings.ini",
+    "section": "SessionSettings",
+    "games": ["ase", "asa"],
+    "validIn": ["dedicated"],
+    "control": {
+      "kind": "string",
+      "default": "",
+      "maxLength": 63,
+      "placeholderI18nKey": "settings.general.session_name.placeholder"
+    },
+    "i18nKey": "settings.general.session_name"
   }
 ]

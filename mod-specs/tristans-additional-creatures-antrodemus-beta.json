@@ -1,0 +1,147 @@
+{
+  "_source": "Mod de CRIATURAS (carnivoro terrestre): no expone ajustes de servidor propios. Su pagina de CurseForge (https://www.curseforge.com/ark-survival-ascended/mods/tristans-additional-creatures-antrodemus-beta, proyecto 1058624, autor Tristans_Modding) enlaza su Discord (https://discord.gg/RF3azbnr) pero no documenta ni una clave de GameUserSettings.ini ni de Game.ini — solo spawn codes y engramas. La entrada existe por sus classnames. Leido el 2026-09-02.",
+  "_scope": "settings vacio A PROPOSITO: no hay ninguna clave documentada. Es el mismo caso que las tres de ARKOLOGY. Si algun dia el autor publica una seccion de .ini, la entrada puede subir a verified porque el resto ya sale de fuente citable.",
+  "_coleccion": "Una de las tres de Tristan's Additional Creatures que el autor de la app tiene instaladas: Vectispinus (1024911), Antrodemus (1058624) y Eocarcharia (963130). Son mods separadas en CurseForge y por lo tanto entradas separadas.",
+  "_classnames": "Salen de arkcodes, proyecto 1058624 (la misma publicacion que esta entrada). Los labels son mios: arkcodes solo muestra el classname, sin nombre de pantalla. El prefijo del root se transcribe tal cual lo publica arkcodes, no se normaliza.",
+  "_classnamesSource": {
+    "items": {
+      "url": "https://arkcodes.com/mods/1058624/tristans-additional-creatures-antrodemus-beta/items",
+      "fetchedAt": "2026-09-03",
+      "note": "vía fetch-mod-classnames.mjs; labels humanizados del classname, revisados a mano"
+    },
+    "engrams": {
+      "url": "https://arkcodes.com/mods/1058624/tristans-additional-creatures-antrodemus-beta/engrams",
+      "fetchedAt": "2026-09-03",
+      "note": "vía fetch-mod-classnames.mjs; labels humanizados del classname, revisados a mano"
+    }
+  },
+  "_criaturas": "Las tres criaturas NO salen de arkcodes —su seccion de dinos esta vacia para esta mod— sino de los `cheat spawnactor` que el propio autor publica en CurseForge, que traen el blueprint path entero. Se transcribe el classname `_C` tal cual, incluida la capitalizacion rara: el autor escribe `_Character_Bp_C` con 'Bp' minuscula, no `_BP_C`. NO se normaliza: si el juego compara literalmente, 'arreglarlo' lo rompe.",
+  "_spawnMaps": "Sin spawnMaps A PROPOSITO. CurseForge dice 'Vanilla (Grasslands), Scorched Earth (Dunes), Aberration (Red and Blue Zones)'. Scorched y Aberration son mapas, pero 'Vanilla' no nombra ninguno —podria ser Island, Center, Ragnarok…— y llenar el campo con dos de tres seria decir que NO sale en los demas, que es peor que no decir nada.",
+  "modId": "TACAntrodemus",
+  "name": "[T.A.C] Antrodemus",
+  "game": "asa",
+  "source": "community",
+  "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/tristans-additional-creatures-antrodemus-beta",
+  "curseforgeId": "1058624",
+  "prefix": "tac_antrodemus",
+  "searchAliases": [
+    "antrodemus",
+    "antro",
+    "tac",
+    "tristans",
+    "criaturas"
+  ],
+  "settings": [],
+  "classNames": {
+    "items": [
+      {
+        "value": "/TAC_Antrodemus/Content/Antrodemus/Brain/PrimalItemConsumable_Allosaurus_Head.PrimalItemConsumable_Allosaurus_Head",
+        "label": "Allosaurus Head"
+      },
+      {
+        "value": "/TAC_Antrodemus/Content/Antrodemus/Eggs/PrimalItemConsumable_Egg_Antro_Fertilized_TA.PrimalItemConsumable_Egg_Antro_Fertilized_TA",
+        "label": "Antrodemus Egg (fertilizado)"
+      },
+      {
+        "value": "/TAC_Antrodemus/Content/Antrodemus/Eggs/PrimalItemConsumable_Egg_Antro_Fertilized_TA_AB.PrimalItemConsumable_Egg_Antro_Fertilized_TA_AB",
+        "label": "Antrodemus Egg (fertilizado, variante Aberration)"
+      },
+      {
+        "value": "/TAC_Antrodemus/Content/Antrodemus/Eggs/PrimalItemConsumable_Egg_Antro_Fertilized_TA_SE.PrimalItemConsumable_Egg_Antro_Fertilized_TA_SE",
+        "label": "Antrodemus Egg (fertilizado, variante Scorched)"
+      },
+      {
+        "value": "/TAC_Antrodemus/Content/Antrodemus/Eggs/PrimalItemConsumable_Egg_Antro_TA.PrimalItemConsumable_Egg_Antro_TA",
+        "label": "Antrodemus Egg"
+      },
+      {
+        "value": "/TAC_Antrodemus/Content/Antrodemus/Saddle/Armor/Arms/PrimalItemArmor_Antro_Armor-Arms.PrimalItemArmor_Antro_Armor-Arms",
+        "label": "Antrodemus Armor: Arms"
+      },
+      {
+        "value": "/TAC_Antrodemus/Content/Antrodemus/Saddle/Armor/Body/PrimalItemArmor_Antro_Body.PrimalItemArmor_Antro_Body",
+        "label": "Antrodemus Armor: Body"
+      },
+      {
+        "value": "/TAC_Antrodemus/Content/Antrodemus/Saddle/Armor/Helm/PrimalItemArmor_Antro_Helm.PrimalItemArmor_Antro_Helm",
+        "label": "Antrodemus Armor: Helm"
+      },
+      {
+        "value": "/TAC_Antrodemus/Content/Antrodemus/Saddle/Armor/Pants/PrimalItemArmor_Antro_Pants.PrimalItemArmor_Antro_Pants",
+        "label": "Antrodemus Armor: Pants"
+      },
+      {
+        "value": "/TAC_Antrodemus/Content/Antrodemus/Saddle/Attachments/PrimalItemArmor_Antro_Pestal.PrimalItemArmor_Antro_Pestal",
+        "label": "Antrodemus Pestal"
+      },
+      {
+        "value": "/TAC_Antrodemus/Content/Antrodemus/Saddle/Attachments/PrimalItemArmor_Antro_Storage.PrimalItemArmor_Antro_Storage",
+        "label": "Antrodemus Storage"
+      },
+      {
+        "value": "/TAC_Antrodemus/Content/Antrodemus/Saddle/PrimalItemArmor_Antro.PrimalItemArmor_Antro",
+        "label": "Antrodemus"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_Aberrant-Skin_C",
+        "label": "Aberrant Skin"
+      },
+      {
+        "value": "EngramEntry_Allosaurus-Brain_C",
+        "label": "Allosaurus Brain"
+      },
+      {
+        "value": "EngramEntry_Antro-Arms_C",
+        "label": "Antrodemus Armor: Arms"
+      },
+      {
+        "value": "EngramEntry_Antro-Body_C",
+        "label": "Antrodemus Armor: Body"
+      },
+      {
+        "value": "EngramEntry_Antro-Helm_C",
+        "label": "Antrodemus Armor: Helm"
+      },
+      {
+        "value": "EngramEntry_Antro-Pants_C",
+        "label": "Antrodemus Armor: Pants"
+      },
+      {
+        "value": "EngramEntry_Antro-Pestal_C",
+        "label": "Antrodemus Pestal"
+      },
+      {
+        "value": "EngramEntry_Antro-Saddle_T0_C",
+        "label": "Antrodemus Saddle (T0)"
+      },
+      {
+        "value": "EngramEntry_Antro-Smithy_C",
+        "label": "Antrodemus Smithy"
+      },
+      {
+        "value": "EngramEntry_Antro-Storage_C",
+        "label": "Antrodemus Storage"
+      },
+      {
+        "value": "EngramEntry_Scorched-Skin_C",
+        "label": "Scorched Skin"
+      }
+    ],
+    "dinos": [
+      {
+        "value": "TAC_Antrodemus_Character_Bp_C",
+        "label": "Antrodemus"
+      },
+      {
+        "value": "TAC_SE_Antrodemus_Character_Bp_C",
+        "label": "Antrodemus (variante Scorched)"
+      },
+      {
+        "value": "TAC_AB_Antrodemus_Character_Bp_C",
+        "label": "Antrodemus (variante Aberration)"
+      }
+    ]
+  }
+}
