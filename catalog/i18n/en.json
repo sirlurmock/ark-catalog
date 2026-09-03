@@ -371,6 +371,8 @@
       "global_corpse_decomposition_time.description": "How long dino or player corpses take to disappear. Higher value = last longer. Default 1.0 (vanilla).",
       "item_stack_size": "Item stack size multiplier",
       "item_stack_size.description": "How many items fit per inventory slot. x10 = stacks of 100 wood, etc. Default 1.0 (vanilla).",
+      "config_override_supply_crate_items": "Supply crate contents",
+      "config_override_supply_crate_items.description": "Replaces what a specific drop or beacon contains: pick the container in SupplyCrateClassString and add one or more ItemSets, each with its ItemEntries. bAppendItemSets set to True ADDS your sets on top of the vanilla loot; False replaces it entirely. There are two ways to name items and ARK takes both: ItemClassStrings with the classname (PrimalItem…_C), or Items with the full Unreal reference, which is what the game itself writes and is stored verbatim. ItemsWeights is parallel to the item list, one position per item.",
       "config_override_item_max_quantity": "Per-item stack size",
       "config_override_item_max_quantity.description": "Sets the stack size of a specific item, overriding the global multiplier. With bIgnoreMultiplier True the quantity is used as-is; with False it gets multiplied by the global stack size multiplier.",
       "disable_loot_crates": "Disable loot crates",
@@ -646,6 +648,7 @@
     }
   },
   "controls": {
+    "struct.object_ref_hint": "Unreal references — they go into the file verbatim, unquoted. They look like BlueprintGeneratedClass'/Game/…/Item.Item_C'.",
     "struct.no_entries": "No entries.",
     "string": {
       "quote_warning": "Double quotes go into the file as-is, and are usually not what you want in the name."

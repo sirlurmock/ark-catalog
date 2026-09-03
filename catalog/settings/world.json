@@ -285,6 +285,150 @@
     "i18nKey": "settings.world.config_override_item_max_quantity"
   },
   {
+    "id": "config_override_supply_crate_items",
+    "key": "ConfigOverrideSupplyCrateItems",
+    "category": "world",
+    "tier": "expert",
+    "file": "Game.ini",
+    "section": "/script/shootergame.shootergamemode",
+    "games": [
+      "ase"
+    ],
+    "validIn": [
+      "single_player",
+      "host_local",
+      "dedicated"
+    ],
+    "strictLocation": true,
+    "control": {
+      "kind": "struct_collection",
+      "default": [],
+      "fields": [
+        {
+          "name": "SupplyCrateClassString",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "MinItemSets",
+          "type": "integer"
+        },
+        {
+          "name": "MaxItemSets",
+          "type": "integer"
+        },
+        {
+          "name": "NumItemSetsPower",
+          "type": "float"
+        },
+        {
+          "name": "bSetsRandomWithoutReplacement",
+          "type": "boolean"
+        },
+        {
+          "name": "bAppendItemSets",
+          "type": "boolean"
+        },
+        {
+          "name": "bAppendPreventIncreasingMinMaxItemSets",
+          "type": "boolean"
+        },
+        {
+          "name": "ItemSets",
+          "type": "struct_list",
+          "fields": [
+            {
+              "name": "SetName",
+              "type": "string"
+            },
+            {
+              "name": "MinNumItems",
+              "type": "integer"
+            },
+            {
+              "name": "MaxNumItems",
+              "type": "integer"
+            },
+            {
+              "name": "NumItemsPower",
+              "type": "float"
+            },
+            {
+              "name": "SetWeight",
+              "type": "float",
+              "default": 1.0
+            },
+            {
+              "name": "bItemsRandomWithoutReplacement",
+              "type": "boolean"
+            },
+            {
+              "name": "ItemEntries",
+              "type": "struct_list",
+              "fields": [
+                {
+                  "name": "ItemEntryName",
+                  "type": "string"
+                },
+                {
+                  "name": "EntryWeight",
+                  "type": "float",
+                  "default": 1.0
+                },
+                {
+                  "name": "Items",
+                  "type": "object_ref_list"
+                },
+                {
+                  "name": "ItemClassStrings",
+                  "type": "string_list",
+                  "suggestions": "items_classnames"
+                },
+                {
+                  "name": "ItemsWeights",
+                  "type": "float_list"
+                },
+                {
+                  "name": "MinQuantity",
+                  "type": "float"
+                },
+                {
+                  "name": "MaxQuantity",
+                  "type": "float"
+                },
+                {
+                  "name": "MinQuality",
+                  "type": "float"
+                },
+                {
+                  "name": "MaxQuality",
+                  "type": "float"
+                },
+                {
+                  "name": "RequiresMinQuality",
+                  "type": "float"
+                },
+                {
+                  "name": "bForceBlueprint",
+                  "type": "boolean"
+                },
+                {
+                  "name": "ChanceToBeBlueprintOverride",
+                  "type": "float"
+                },
+                {
+                  "name": "ChanceToActuallyGiveItem",
+                  "type": "float"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "i18nKey": "settings.world.config_override_supply_crate_items"
+  },
+  {
     "id": "day_cycle_speed_scale",
     "key": "DayCycleSpeedScale",
     "category": "world",

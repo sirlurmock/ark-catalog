@@ -371,6 +371,8 @@
       "global_corpse_decomposition_time.description": "Cuánto tarda en desaparecer el cuerpo de un dino o jugador muerto. Mayor valor = duran más. Default 1.0 (vanilla).",
       "item_stack_size": "Multiplicador de tamaño de stack de items",
       "item_stack_size.description": "Cuántos items entran por slot del inventario. x10 = stacks de 100 madera, etc. Default 1.0 (vanilla).",
+      "config_override_supply_crate_items": "Contenido de un supply crate",
+      "config_override_supply_crate_items.description": "Reemplaza lo que trae un drop o beacon concreto: elegís el contenedor en SupplyCrateClassString y cargás uno o más ItemSets, cada uno con sus ItemEntries. bAppendItemSets en True SUMA tus sets al loot vanilla; en False lo reemplaza entero. Hay dos formas de nombrar los items y ARK acepta las dos: ItemClassStrings con el classname (PrimalItem…_C) o Items con la referencia completa de Unreal, que es la que escribe el propio juego y se guarda tal cual. ItemsWeights va en paralelo a la lista de items, una posición por item.",
       "config_override_item_max_quantity": "Tamaño de pila por item",
       "config_override_item_max_quantity.description": "Fija el tamaño de pila de un item concreto, por encima del multiplicador global. Con bIgnoreMultiplier en True usa la cantidad tal cual; en False, la cantidad se multiplica por el multiplicador global de pilas.",
       "disable_loot_crates": "Desactivar los drops de loot",
@@ -646,6 +648,7 @@
     }
   },
   "controls": {
+    "struct.object_ref_hint": "Referencias de Unreal — van al archivo tal cual, sin comillas. Se escriben BlueprintGeneratedClass'/Game/…/Item.Item_C'.",
     "struct.no_entries": "Sin entradas.",
     "string": {
       "quote_warning": "Las comillas dobles pasan tal cual al archivo y suelen no ser lo que uno quiere en el nombre."
