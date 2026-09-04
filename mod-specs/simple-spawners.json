@@ -5,17 +5,11 @@
   "name": "Simple Spawners",
   "game": "ase",
   "source": "verified",
-  "verifiedBy": [
-    "sirlurmock"
-  ],
+  "verifiedBy": ["sirlurmock"],
   "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1295978823",
   "prefix": "simple_spawners",
-  "searchAliases": [
-    "spawners",
-    "aparición de criaturas",
-    "crear spawns"
-  ],
+  "searchAliases": ["spawners", "aparición de criaturas", "crear spawns"],
   "settings": [
     {
       "key": "RestartResetsTimers",

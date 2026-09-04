@@ -7,11 +7,7 @@
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2003934830",
   "prefix": "prehistoric_beasts",
-  "searchAliases": [
-    "criaturas",
-    "bestias prehistóricas",
-    "dinos nuevos"
-  ],
+  "searchAliases": ["criaturas", "bestias prehistóricas", "dinos nuevos"],
   "settings": [],
   "classNames": {
     "dinos": [

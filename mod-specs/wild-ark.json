@@ -7,11 +7,7 @@
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1373744537",
   "prefix": "wild_ark",
-  "searchAliases": [
-    "criaturas",
-    "dinos nuevos",
-    "additional creatures"
-  ],
+  "searchAliases": ["criaturas", "dinos nuevos", "additional creatures"],
   "settings": [],
   "classNames": {
     "dinos": [

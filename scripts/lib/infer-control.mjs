@@ -74,10 +74,17 @@ export function snake(key) {
 }
 
 export function slugify(name) {
-  return name
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "");
+  return (
+    name
+      .toLowerCase()
+      .normalize("NFD")
+      // El rango ES lo que se quiere borrar: después de normalize("NFD") cada
+      // acento queda como un combinante suelto, y esta clase los saca. Es el
+      // idioma canónico para comparar sin acentos; la regla avisa de clases que
+      // mezclan base y combinante sin querer, que no es el caso.
+      // biome-ignore lint/suspicious/noMisleadingCharacterClass: es el rango que se quiere borrar
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, "")
+  );
 }

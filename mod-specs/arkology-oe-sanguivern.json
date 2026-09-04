@@ -273,9 +273,7 @@
   "spawnMaps": [
     {
       "label": "Sanguivern",
-      "maps": [
-        "lost_colony"
-      ]
+      "maps": ["lost_colony"]
     }
   ]
 }

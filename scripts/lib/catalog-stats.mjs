@@ -11,7 +11,7 @@
  * archivo chico: contar desde el navegador implicaría bajar el catálogo entero.
  */
 
-import { readdirSync, readFileSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { pathToFileURL } from "node:url";
 
@@ -110,7 +110,5 @@ export function computeCatalogStats(root, { generatedAt } = {}) {
 
 /** Para correrlo suelto y mirar las cifras: `node scripts/lib/catalog-stats.mjs` */
 if (import.meta.url === pathToFileURL(process.argv[1] ?? "").href) {
-  console.log(
-    JSON.stringify(computeCatalogStats(join(import.meta.dirname, "..", "..")), null, 2),
-  );
+  console.log(JSON.stringify(computeCatalogStats(join(import.meta.dirname, "..", "..")), null, 2));
 }

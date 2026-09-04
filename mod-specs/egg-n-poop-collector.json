@@ -6,17 +6,11 @@
   "name": "Egg N Poop Collector / Incubator",
   "game": "ase",
   "source": "verified",
-  "verifiedBy": [
-    "sirlurmock"
-  ],
+  "verifiedBy": ["sirlurmock"],
   "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=554678442",
   "prefix": "egg_n_poop",
-  "searchAliases": [
-    "recolector de huevos",
-    "incubadora",
-    "recolector de caca"
-  ],
+  "searchAliases": ["recolector de huevos", "incubadora", "recolector de caca"],
   "settings": [
     {
       "key": "MaxPoopStacks",
@@ -60,12 +54,7 @@
       "min": 0.1,
       "max": 20,
       "step": 0.1,
-      "presets": [
-        1,
-        1.5,
-        3,
-        5
-      ],
+      "presets": [1, 1.5, 3, 5],
       "es": {
         "label": "Multiplicador de velocidad de incubación",
         "description": "Cuánto más rápido eclosionan los huevos que están dentro del radio de la incubadora. Con 1 van a la velocidad normal de ARK; el default del mod es 1,5. Se multiplica con el multiplicador de eclosión del servidor, así que ojo con acumular los dos."

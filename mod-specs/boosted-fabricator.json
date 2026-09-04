@@ -7,16 +7,11 @@
   "name": "Boosted Fabricator+",
   "game": "ase",
   "source": "verified",
-  "verifiedBy": [
-    "sirlurmock"
-  ],
+  "verifiedBy": ["sirlurmock"],
   "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=778345456",
   "prefix": "boosted_fab",
-  "searchAliases": [
-    "fabricador mejorado",
-    "fabricador"
-  ],
+  "searchAliases": ["fabricador mejorado", "fabricador"],
   "settings": [
     {
       "key": "SmithyCraftSpeed",

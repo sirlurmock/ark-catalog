@@ -40,7 +40,7 @@
  *     --folder Indominus --out scripts/mod-specs/_scraped/domination-rex.json
  */
 
-import { writeFileSync, mkdirSync } from "node:fs";
+import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 
 const API = "https://ark.fandom.com/api.php";
@@ -176,6 +176,7 @@ mkdirSync(dirname(resolve(out)), { recursive: true });
 writeFileSync(resolve(out), `${JSON.stringify(deduped, null, 2)}\n`);
 console.log(`escrito ${out}: ${deduped.length} entradas`);
 console.log(
-  `  ${titles.length} páginas del prefijo "${prefix}" · ${pagesWithoutPath} sin blueprintpath` +
-    (folder ? ` · filtradas por carpeta /Game/Mods/${folder}/` : ""),
+  `  ${titles.length} páginas del prefijo "${prefix}" · ${pagesWithoutPath} sin blueprintpath${
+    folder ? ` · filtradas por carpeta /Game/Mods/${folder}/` : ""
+  }`,
 );

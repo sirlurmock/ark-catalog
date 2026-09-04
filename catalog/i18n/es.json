@@ -684,6 +684,7 @@
     "no_containers": "{species} no aparece en ningún contenedor de {game}.",
     "weight": "Peso {weight} · {share}% del contenedor",
     "copy": "Copiar el classname del contenedor",
+    "copy_failed": "No se pudo copiar",
     "footnote": "Datos de ark.wiki.gg. El peso se compara solo contra las demás criaturas del mismo contenedor: no es la probabilidad de encontrarla en el mapa. Solo criaturas vanilla — las de mods no están porque sus autores no publican en qué contenedor entran.",
     "map_draft": "trazado sin revisar",
     "map_alt": "Mapa de {map} con {count} zonas de spawn marcadas.",

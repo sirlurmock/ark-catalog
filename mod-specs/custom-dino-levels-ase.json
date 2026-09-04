@@ -8,18 +8,11 @@
   "name": "Custom Dino Levels",
   "game": "ase",
   "source": "verified",
-  "verifiedBy": [
-    "sirlurmock"
-  ],
+  "verifiedBy": ["sirlurmock"],
   "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2182894352",
   "prefix": "custom_dino_levels_ase",
-  "searchAliases": [
-    "niveles",
-    "niveles de dinos",
-    "level distribution",
-    "custom levels"
-  ],
+  "searchAliases": ["niveles", "niveles de dinos", "level distribution", "custom levels"],
   "settings": [
     {
       "key": "WantsEqualLevels",

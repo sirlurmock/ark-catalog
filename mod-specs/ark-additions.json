@@ -7,11 +7,7 @@
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1522327484",
   "prefix": "ark_additions",
-  "searchAliases": [
-    "criaturas",
-    "additions",
-    "dinos nuevos"
-  ],
+  "searchAliases": ["criaturas", "additions", "dinos nuevos"],
   "settings": [
     {
       "key": "AddBuffOverlay",
@@ -36,12 +32,7 @@
       "default": 1,
       "min": 0,
       "max": 10,
-      "presets": [
-        1,
-        2,
-        3,
-        5
-      ],
+      "presets": [1, 2, 3, 5],
       "es": {
         "label": "Multiplicador de cosecha del Brachiosaurus",
         "description": "Multiplica lo que recolecta el Brachiosaurus. x3 = tres veces mas recursos por golpe. Solo afecta a esta criatura, no al resto del servidor. Default 1.0."
@@ -335,9 +326,7 @@
     ]
   },
   "_classnamesSource": "Spawn codes del autor (prompt 22) para dinos/items/engramas. Las etiquetas de los 8 dino_name_tags salen de Mod:ARK Additions/Name Tags de Fandom: antes la etiqueta repetia el tag (Acro -> Acro) y ahora nombra a la criatura (Acro -> Acrocanthosaurus).",
-  "alsoWorkshopIds": [
-    "1445395055"
-  ],
+  "alsoWorkshopIds": ["1445395055"],
   "_alsoWorkshopIds": "ARK Additions: Domination Rex! (1445395055) es una mod aparte en el Workshop, pero sus 5 criaturas (Indominus_Character_*) y su tag Indom son EXACTAMENTE los que documenta la wiki de The Collection y ya están en esta entrada. Sin el alias, quien tuviera solo la standalone instalada no encontraría nada.",
   "_defaults": "Los dos son los declarados en la columna Default de la tabla del autor: AddBuffOverlay=True, HarvestingMultiplier=1.0.",
   "_sections": "Cada ajuste va en SU PROPIA seccion de GameUserSettings.ini ([ARK_Additions_Acrocanthosaurus] y [ARK_Additions_Brachiosaurus]), como dice la pagina. Precedente multi-seccion: Weapons+ (3) y Boosted Fabricator+ (2)."

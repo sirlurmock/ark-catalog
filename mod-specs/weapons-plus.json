@@ -5,15 +5,11 @@
   "name": "Weapons+",
   "game": "ase",
   "source": "verified",
-  "verifiedBy": [
-    "sirlurmock"
-  ],
+  "verifiedBy": ["sirlurmock"],
   "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=812639416",
   "prefix": "weapons_plus",
-  "searchAliases": [
-    "armas"
-  ],
+  "searchAliases": ["armas"],
   "settings": [
     {
       "key": "BoomerangDamage",
@@ -1418,12 +1414,7 @@
       "min": 0,
       "max": 50,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Cosecha con la motosierra",
         "description": "Multiplica lo que se recolecta con la motosierra. Valor por defecto de la mod: 1."
@@ -1442,12 +1433,7 @@
       "min": 0,
       "max": 50,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Cosecha con el taladro minero",
         "description": "Multiplica lo que se recolecta con el taladro minero. Valor por defecto de la mod: 2."
@@ -1466,12 +1452,7 @@
       "min": 0,
       "max": 50,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Cosecha con el pico de metal",
         "description": "Multiplica lo que se recolecta con el pico de metal. Valor por defecto de la mod: 2."
@@ -1490,12 +1471,7 @@
       "min": 0,
       "max": 50,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Cosecha con el hacha de metal",
         "description": "Multiplica lo que se recolecta con el hacha de metal. Valor por defecto de la mod: 2."
@@ -1514,12 +1490,7 @@
       "min": 0,
       "max": 50,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Cosecha con la hoz de metal",
         "description": "Multiplica lo que se recolecta con la hoz de metal. Valor por defecto de la mod: 2."
@@ -1607,12 +1578,7 @@
       "min": 0,
       "max": 20,
       "step": 0.1,
-      "presets": [
-        0.5,
-        1,
-        2,
-        5
-      ],
+      "presets": [0.5, 1, 2, 5],
       "es": {
         "label": "Multiplicador de daño de torretas automáticas",
         "description": "Escala el daño de todas las torretas automáticas. Valor por defecto: 1."
@@ -1631,12 +1597,7 @@
       "min": 0,
       "max": 20,
       "step": 0.1,
-      "presets": [
-        0.5,
-        1,
-        2,
-        5
-      ],
+      "presets": [0.5, 1, 2, 5],
       "es": {
         "label": "Multiplicador de daño de torretas pesadas",
         "description": "Escala el daño de todas las torretas pesadas. Valor por defecto: 1."
@@ -1673,12 +1634,7 @@
       "min": 0.01,
       "max": 10,
       "step": 0.05,
-      "presets": [
-        0.1,
-        0.2,
-        0.5,
-        1
-      ],
+      "presets": [0.1, 0.2, 0.5, 1],
       "es": {
         "label": "Cadencia de las torretas automáticas (segundos)",
         "description": "Segundos entre disparo y disparo. Más bajo dispara más rápido. Valor por defecto: 0.2."
@@ -1715,12 +1671,7 @@
       "min": 0.01,
       "max": 10,
       "step": 0.05,
-      "presets": [
-        0.1,
-        0.2,
-        0.5,
-        1
-      ],
+      "presets": [0.1, 0.2, 0.5, 1],
       "es": {
         "label": "Cadencia de las torretas pesadas (segundos)",
         "description": "Segundos entre disparo y disparo. Valor por defecto: 0.2."
@@ -1757,12 +1708,7 @@
       "min": 0.01,
       "max": 10,
       "step": 0.05,
-      "presets": [
-        0.1,
-        0.2,
-        0.5,
-        1
-      ],
+      "presets": [0.1, 0.2, 0.5, 1],
       "es": {
         "label": "Cadencia de las torretas tek (segundos)",
         "description": "Segundos entre disparo y disparo. Valor por defecto: 0.2."

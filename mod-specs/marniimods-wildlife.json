@@ -7,12 +7,7 @@
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1984936918",
   "prefix": "marniimods_wildlife",
-  "searchAliases": [
-    "criaturas",
-    "animales",
-    "fauna",
-    "wildlife"
-  ],
+  "searchAliases": ["criaturas", "animales", "fauna", "wildlife"],
   "settings": [],
   "classNames": {
     "dinos": [

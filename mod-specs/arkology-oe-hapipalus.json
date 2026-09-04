@@ -31,14 +31,7 @@
   "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/arkology-oe-hapipalus",
   "curseforgeId": "1310904",
   "prefix": "arkology_oe_hapipalus",
-  "searchAliases": [
-    "hapipalus",
-    "hapi",
-    "arkology",
-    "spino mutado",
-    "spinosaurus",
-    "criaturas"
-  ],
+  "searchAliases": ["hapipalus", "hapi", "arkology", "spino mutado", "spinosaurus", "criaturas"],
   "settings": [],
   "classNames": {
     "items": [

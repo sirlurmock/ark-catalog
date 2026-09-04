@@ -684,6 +684,7 @@
     "no_containers": "{species} does not appear in any {game} container.",
     "weight": "Weight {weight} · {share}% of the container",
     "copy": "Copy the container classname",
+    "copy_failed": "Couldn't copy",
     "footnote": "Data from ark.wiki.gg. The weight only compares against the other creatures in the same container: it is not the chance of finding it on the map. Vanilla creatures only — modded ones are missing because their authors do not publish which container they join.",
     "map_draft": "unreviewed outline",
     "map_alt": "Map of {map} with {count} spawn zones marked.",

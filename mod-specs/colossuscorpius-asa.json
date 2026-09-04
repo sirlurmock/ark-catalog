@@ -8,19 +8,13 @@
   "name": "Colossuscorpius",
   "game": "asa",
   "source": "verified",
-  "verifiedBy": [
-    "sirlurmock"
-  ],
+  "verifiedBy": ["sirlurmock"],
   "verifiedAt": "2026-08-24",
   "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/colossuscorpius",
   "curseforgeId": "950891",
   "prefix": "colossuscorpius_asa",
   "section": "Colossuscorpius",
-  "searchAliases": [
-    "escorpion",
-    "escorpion gigante",
-    "colossus"
-  ],
+  "searchAliases": ["escorpion", "escorpion gigante", "colossus"],
   "settings": [
     {
       "key": "ColossuscorpiusBreeding",
@@ -44,12 +38,7 @@
       "min": 0.1,
       "max": 1,
       "step": 0.05,
-      "presets": [
-        1,
-        0.5,
-        0.25,
-        0.1
-      ],
+      "presets": [1, 0.5, 0.25, 0.1],
       "es": {
         "label": "Multiplicador de daño del Colossuscorpius",
         "description": "Escala el daño que hace la criatura. El autor documenta un rango de 0.1 a 1.0: solo sirve para bajárselo, no para subirlo. Default 1.0."

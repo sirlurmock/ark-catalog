@@ -7,12 +7,7 @@
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1696957410",
   "prefix": "marniimods_horses",
-  "searchAliases": [
-    "criaturas",
-    "caballos",
-    "equinos",
-    "horses"
-  ],
+  "searchAliases": ["criaturas", "caballos", "equinos", "horses"],
   "settings": [],
   "classNames": {
     "dinos": [

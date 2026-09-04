@@ -4,16 +4,11 @@
   "name": "Creature Finder Deluxe",
   "game": "ase",
   "source": "verified",
-  "verifiedBy": [
-    "sirlurmock"
-  ],
+  "verifiedBy": ["sirlurmock"],
   "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1591643730",
   "prefix": "creature_finder_deluxe",
-  "searchAliases": [
-    "buscar criaturas",
-    "encontrar dinos"
-  ],
+  "searchAliases": ["buscar criaturas", "encontrar dinos"],
   "settings": [
     {
       "key": "FindAllCreatures",
@@ -92,10 +87,7 @@
       "key": "OPEN",
       "section": "CFD",
       "file": "Game.ini",
-      "validIn": [
-        "single_player",
-        "host_local"
-      ],
+      "validIn": ["single_player", "host_local"],
       "kind": "enum",
       "tier": "advanced",
       "default": "Structure17",
@@ -214,10 +206,7 @@
       "key": "PREV",
       "section": "CFD",
       "file": "Game.ini",
-      "validIn": [
-        "single_player",
-        "host_local"
-      ],
+      "validIn": ["single_player", "host_local"],
       "kind": "enum",
       "tier": "advanced",
       "default": "Structure5",
@@ -336,10 +325,7 @@
       "key": "NEXT",
       "section": "CFD",
       "file": "Game.ini",
-      "validIn": [
-        "single_player",
-        "host_local"
-      ],
+      "validIn": ["single_player", "host_local"],
       "kind": "enum",
       "tier": "advanced",
       "default": "Structure6",
@@ -458,10 +444,7 @@
       "key": "TOGGLE",
       "section": "CFD",
       "file": "Game.ini",
-      "validIn": [
-        "single_player",
-        "host_local"
-      ],
+      "validIn": ["single_player", "host_local"],
       "kind": "enum",
       "tier": "advanced",
       "default": "Structure7",

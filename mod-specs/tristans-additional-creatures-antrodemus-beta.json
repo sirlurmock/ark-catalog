@@ -24,13 +24,7 @@
   "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/tristans-additional-creatures-antrodemus-beta",
   "curseforgeId": "1058624",
   "prefix": "tac_antrodemus",
-  "searchAliases": [
-    "antrodemus",
-    "antro",
-    "tac",
-    "tristans",
-    "criaturas"
-  ],
+  "searchAliases": ["antrodemus", "antro", "tac", "tristans", "criaturas"],
   "settings": [],
   "classNames": {
     "items": [

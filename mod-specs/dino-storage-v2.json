@@ -7,11 +7,7 @@
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1609138312",
   "prefix": "dino_storage_v2",
-  "searchAliases": [
-    "guardar dinos",
-    "almacenamiento de dinos",
-    "bolas de alma"
-  ],
+  "searchAliases": ["guardar dinos", "almacenamiento de dinos", "bolas de alma"],
   "settings": [
     {
       "key": "BabyGrowthMultiplier",
@@ -21,12 +17,7 @@
       "min": 0,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        0,
-        1,
-        10,
-        50
-      ],
+      "presets": [0, 1, 10, 50],
       "es": {
         "label": "Crecimiento de bebés guardados",
         "description": "Los bebés siguen creciendo dentro del alma a esta tasa. 0 = no crecen; 1 = igual que en el mundo."
@@ -86,12 +77,7 @@
       "min": 0,
       "max": 50,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de incubación en la terminal",
         "description": "Multiplica la tasa del servidor para incubar huevos fertilizados dentro de la terminal."
@@ -137,12 +123,7 @@
       "min": 0,
       "max": 20,
       "step": 0.05,
-      "presets": [
-        1,
-        1.05,
-        2,
-        5
-      ],
+      "presets": [1, 1.05, 2, 5],
       "es": {
         "label": "Regeneración de vida guardado",
         "description": "Multiplica la vida que recupera el dino mientras está dentro del alma."
@@ -160,12 +141,7 @@
       "min": 0,
       "max": 20,
       "step": 0.05,
-      "presets": [
-        1,
-        1.05,
-        2,
-        5
-      ],
+      "presets": [1, 1.05, 2, 5],
       "es": {
         "label": "Recuperación de estamina guardado",
         "description": "Multiplica la estamina que recupera el dino mientras está guardado."
@@ -183,11 +159,7 @@
       "min": 0,
       "max": 20,
       "step": 0.05,
-      "presets": [
-        0,
-        1,
-        2
-      ],
+      "presets": [0, 1, 2],
       "es": {
         "label": "Regeneración de comida guardado",
         "description": "Multiplica la comida que recupera el dino guardado. En 0 no come, que es el default."
@@ -205,12 +177,7 @@
       "min": 0,
       "max": 20,
       "step": 0.05,
-      "presets": [
-        0,
-        1,
-        1.05,
-        2
-      ],
+      "presets": [0, 1, 1.05, 2],
       "es": {
         "label": "Experiencia ganada guardado",
         "description": "Multiplica la experiencia que acumula el dino mientras está dentro del alma."
@@ -228,12 +195,7 @@
       "min": 0,
       "max": 20,
       "step": 0.05,
-      "presets": [
-        0,
-        1,
-        1.05,
-        2
-      ],
+      "presets": [0, 1, 1.05, 2],
       "es": {
         "label": "Recarga de mascotas de luz guardadas",
         "description": "Multiplica la recarga de las mascotas de luz (Shinehorn, Bulbdog, Featherlight) mientras están guardadas."
@@ -251,12 +213,7 @@
       "min": 0,
       "max": 20,
       "step": 0.05,
-      "presets": [
-        0,
-        1,
-        1.05,
-        2
-      ],
+      "presets": [0, 1, 1.05, 2],
       "es": {
         "label": "Crecimiento de lana guardado",
         "description": "Multiplica el crecimiento de lana de las ovejas mientras están dentro del alma."
@@ -274,12 +231,7 @@
       "min": 0,
       "max": 20,
       "step": 0.05,
-      "presets": [
-        0,
-        1,
-        1.05,
-        2
-      ],
+      "presets": [0, 1, 1.05, 2],
       "es": {
         "label": "Recuperación de torpor guardado",
         "description": "Multiplica la velocidad a la que baja el torpor mientras el dino está guardado."
@@ -325,12 +277,7 @@
       "min": 0,
       "max": 60,
       "step": 0.5,
-      "presets": [
-        0,
-        1,
-        5,
-        10
-      ],
+      "presets": [0, 1, 5, 10],
       "es": {
         "label": "Duración de la enfermedad (minutos)",
         "description": "Cuántos minutos queda enfermo el dino después de liberarlo. Solo aplica si la enfermedad está activada."
@@ -348,11 +295,7 @@
       "min": 0,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        1,
-        10,
-        25
-      ],
+      "presets": [1, 10, 25],
       "es": {
         "label": "Multiplicador de daño recibido enfermo",
         "description": "Cuánto más daño recibe un dino mientras está enfermo por haber sido liberado."
@@ -510,12 +453,7 @@
       "min": 0,
       "max": 20,
       "step": 0.05,
-      "presets": [
-        1,
-        1.05,
-        2,
-        5
-      ],
+      "presets": [1, 1.05, 2, 5],
       "es": {
         "label": "Velocidad de conversión del escarabajo",
         "description": "Multiplica lo rápido que el escarabajo pelotero convierte caca en fertilizante."
@@ -606,12 +544,7 @@
       "min": 0,
       "max": 100,
       "step": 1,
-      "presets": [
-        0,
-        10,
-        50,
-        100
-      ],
+      "presets": [0, 10, 50, 100],
       "es": {
         "label": "Vida con la que revive (%)",
         "description": "Porcentaje de vida con el que sale un dino revivido desde su cadáver."
@@ -643,12 +576,7 @@
       "min": 0,
       "max": 100,
       "step": 1,
-      "presets": [
-        0,
-        50,
-        90,
-        100
-      ],
+      "presets": [0, 50, 90, 100],
       "es": {
         "label": "Vida mínima para poder guardar (%)",
         "description": "Exige que el dino tenga al menos este porcentaje de vida para poder atraparlo. 0 = sin requisito."
@@ -1304,12 +1232,7 @@
       "min": 0,
       "max": 120,
       "step": 1,
-      "presets": [
-        0,
-        5,
-        30,
-        60
-      ],
+      "presets": [0, 5, 30, 60],
       "tier": "expert",
       "es": {
         "label": "Espera tras domar para poder guardar (minutos)",
@@ -1327,12 +1250,7 @@
       "min": 0,
       "max": 120,
       "step": 1,
-      "presets": [
-        0,
-        5,
-        15,
-        30
-      ],
+      "presets": [0, 5, 15, 30],
       "tier": "expert",
       "es": {
         "label": "Espera tras recibir daño para guardar (minutos)",
@@ -1350,11 +1268,7 @@
       "min": 0,
       "max": 200,
       "step": 5,
-      "presets": [
-        0,
-        10,
-        50
-      ],
+      "presets": [0, 10, 50],
       "tier": "expert",
       "es": {
         "label": "Guardar solo cerca de la base (fundaciones)",
@@ -1372,11 +1286,7 @@
       "min": 0,
       "max": 200,
       "step": 5,
-      "presets": [
-        0,
-        10,
-        50
-      ],
+      "presets": [0, 10, 50],
       "tier": "expert",
       "es": {
         "label": "Guardar solo cerca de una terminal (fundaciones)",
@@ -1425,11 +1335,7 @@
       "min": 0,
       "max": 200,
       "step": 5,
-      "presets": [
-        0,
-        10,
-        50
-      ],
+      "presets": [0, 10, 50],
       "tier": "expert",
       "es": {
         "label": "Liberar solo cerca de la base (fundaciones)",
@@ -1447,11 +1353,7 @@
       "min": 0,
       "max": 200,
       "step": 5,
-      "presets": [
-        0,
-        10,
-        50
-      ],
+      "presets": [0, 10, 50],
       "tier": "expert",
       "es": {
         "label": "Liberar solo cerca de una terminal (fundaciones)",
@@ -1525,11 +1427,7 @@
       "min": 0,
       "max": 240,
       "step": 5,
-      "presets": [
-        5,
-        30,
-        60
-      ],
+      "presets": [5, 30, 60],
       "tier": "advanced",
       "es": {
         "label": "Duración de la bolsa de loot (minutos)",
@@ -1575,11 +1473,7 @@
       "min": 0,
       "max": 200,
       "step": 5,
-      "presets": [
-        0,
-        10,
-        50
-      ],
+      "presets": [0, 10, 50],
       "tier": "expert",
       "es": {
         "label": "Distancia mínima a estructuras enemigas (fundaciones)",
@@ -1712,11 +1606,7 @@
       "min": 0,
       "max": 200,
       "step": 5,
-      "presets": [
-        0,
-        10,
-        50
-      ],
+      "presets": [0, 10, 50],
       "tier": "expert",
       "es": {
         "label": "Sin enfermedad cerca de la base (fundaciones)",
@@ -1734,11 +1624,7 @@
       "min": 0,
       "max": 200,
       "step": 5,
-      "presets": [
-        0,
-        10,
-        50
-      ],
+      "presets": [0, 10, 50],
       "tier": "expert",
       "es": {
         "label": "Sin enfermedad cerca de una terminal (fundaciones)",
@@ -1756,11 +1642,7 @@
       "min": 0,
       "max": 120,
       "step": 1,
-      "presets": [
-        0,
-        5,
-        15
-      ],
+      "presets": [0, 5, 15],
       "tier": "advanced",
       "es": {
         "label": "Cooldown del jugador tras liberar (minutos)",
@@ -1960,12 +1842,7 @@
       "min": 0,
       "max": 20,
       "step": 0.05,
-      "presets": [
-        1,
-        1.05,
-        2,
-        5
-      ],
+      "presets": [1, 1.05, 2, 5],
       "tier": "expert",
       "es": {
         "label": "Multiplicador de caca fertilizante",
@@ -1983,12 +1860,7 @@
       "min": 0,
       "max": 20,
       "step": 0.05,
-      "presets": [
-        1,
-        1.05,
-        2,
-        5
-      ],
+      "presets": [1, 1.05, 2, 5],
       "tier": "expert",
       "es": {
         "label": "Multiplicador de caca no fertilizante",
@@ -2006,12 +1878,7 @@
       "min": 0,
       "max": 20,
       "step": 0.05,
-      "presets": [
-        1,
-        1.05,
-        2,
-        5
-      ],
+      "presets": [1, 1.05, 2, 5],
       "tier": "expert",
       "es": {
         "label": "Multiplicador de huevos",
@@ -2029,12 +1896,7 @@
       "min": 0,
       "max": 20,
       "step": 0.05,
-      "presets": [
-        1,
-        1.05,
-        2,
-        5
-      ],
+      "presets": [1, 1.05, 2, 5],
       "tier": "expert",
       "es": {
         "label": "Multiplicador de miel",
@@ -2052,12 +1914,7 @@
       "min": 0,
       "max": 20,
       "step": 0.05,
-      "presets": [
-        1,
-        1.05,
-        2,
-        5
-      ],
+      "presets": [1, 1.05, 2, 5],
       "tier": "expert",
       "es": {
         "label": "Multiplicador de lana",
@@ -2075,12 +1932,7 @@
       "min": 0,
       "max": 20,
       "step": 0.05,
-      "presets": [
-        1,
-        1.05,
-        2,
-        5
-      ],
+      "presets": [1, 1.05, 2, 5],
       "tier": "expert",
       "es": {
         "label": "Multiplicador de generación pasiva",
@@ -2098,11 +1950,7 @@
       "min": 0,
       "max": 20,
       "step": 0.1,
-      "presets": [
-        1,
-        1.5,
-        3
-      ],
+      "presets": [1, 1.5, 3],
       "tier": "expert",
       "es": {
         "label": "Bonus del Oviraptor",
@@ -2151,11 +1999,7 @@
       "min": 0,
       "max": 200,
       "step": 5,
-      "presets": [
-        0,
-        30,
-        100
-      ],
+      "presets": [0, 30, 100],
       "tier": "expert",
       "es": {
         "label": "Alcance para repartir fertilizante (fundaciones)",
@@ -2173,11 +2017,7 @@
       "min": 0,
       "max": 200,
       "step": 5,
-      "presets": [
-        0,
-        30,
-        100
-      ],
+      "presets": [0, 30, 100],
       "tier": "expert",
       "es": {
         "label": "Alcance para repartir pellets (fundaciones)",
@@ -2195,12 +2035,7 @@
       "min": 0,
       "max": 30,
       "step": 0.25,
-      "presets": [
-        0,
-        0.25,
-        1,
-        5
-      ],
+      "presets": [0, 0.25, 1, 5],
       "tier": "advanced",
       "es": {
         "label": "Tiempo para atrapar (segundos)",
@@ -2218,11 +2053,7 @@
       "min": 0,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        0,
-        1,
-        10
-      ],
+      "presets": [0, 1, 10],
       "tier": "expert",
       "es": {
         "label": "Peso del alma vacía",
@@ -2240,11 +2071,7 @@
       "min": 0,
       "max": 10,
       "step": 0.25,
-      "presets": [
-        1,
-        2,
-        5
-      ],
+      "presets": [1, 2, 5],
       "tier": "expert",
       "es": {
         "label": "Alcance al lanzar el alma",
@@ -2262,11 +2089,7 @@
       "min": 0,
       "max": 10,
       "step": 0.1,
-      "presets": [
-        0,
-        1,
-        2
-      ],
+      "presets": [0, 1, 2],
       "tier": "expert",
       "es": {
         "label": "Peso del alma según el dino",
@@ -2284,11 +2107,7 @@
       "min": 0,
       "max": 500,
       "step": 1,
-      "presets": [
-        0,
-        1,
-        10
-      ],
+      "presets": [0, 1, 10],
       "tier": "expert",
       "es": {
         "label": "Peso mínimo del alma llena",
@@ -2306,11 +2125,7 @@
       "min": 0,
       "max": 1000,
       "step": 5,
-      "presets": [
-        0,
-        50,
-        200
-      ],
+      "presets": [0, 50, 200],
       "tier": "expert",
       "es": {
         "label": "Peso máximo del alma llena",
@@ -2328,11 +2143,7 @@
       "min": 0,
       "max": 365,
       "step": 1,
-      "presets": [
-        0,
-        7,
-        30
-      ],
+      "presets": [0, 7, 30],
       "tier": "expert",
       "es": {
         "label": "Caducidad del alma (días)",
@@ -2350,11 +2161,7 @@
       "min": 0,
       "max": 600,
       "step": 5,
-      "presets": [
-        0,
-        30,
-        120
-      ],
+      "presets": [0, 30, 120],
       "tier": "expert",
       "es": {
         "label": "Carga en la terminal (segundos)",
@@ -2372,12 +2179,7 @@
       "min": 0,
       "max": 20,
       "step": 0.05,
-      "presets": [
-        0,
-        1,
-        1.05,
-        5
-      ],
+      "presets": [0, 1, 1.05, 5],
       "tier": "expert",
       "es": {
         "label": "Experiencia al destruir almas",
@@ -2440,11 +2242,7 @@
       "min": 0,
       "max": 500,
       "step": 1,
-      "presets": [
-        1,
-        20,
-        50
-      ],
+      "presets": [1, 20, 50],
       "tier": "expert",
       "es": {
         "label": "Peso de la terminal",
@@ -2462,11 +2260,7 @@
       "min": 1,
       "max": 500000,
       "step": 1000,
-      "presets": [
-        10000,
-        50000,
-        100000
-      ],
+      "presets": [10000, 50000, 100000],
       "tier": "expert",
       "es": {
         "label": "Vida de la terminal",
@@ -2518,11 +2312,7 @@
       "min": 0,
       "max": 200,
       "step": 5,
-      "presets": [
-        0,
-        10,
-        50
-      ],
+      "presets": [0, 10, 50],
       "tier": "expert",
       "es": {
         "label": "Radio de proximidad entre terminales (fundaciones)",

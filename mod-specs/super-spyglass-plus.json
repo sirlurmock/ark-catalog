@@ -5,17 +5,11 @@
   "name": "Super Spyglass Plus",
   "game": "ase",
   "source": "verified",
-  "verifiedBy": [
-    "sirlurmock"
-  ],
+  "verifiedBy": ["sirlurmock"],
   "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2594067220",
   "prefix": "super_spyglass_plus",
-  "searchAliases": [
-    "catalejo",
-    "spyglass",
-    "mirilla"
-  ],
+  "searchAliases": ["catalejo", "spyglass", "mirilla"],
   "settings": [
     {
       "key": "DisableNightVision",

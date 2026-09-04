@@ -77,7 +77,10 @@ export function parseArkcodesItems(html) {
     const path = pathMatch?.[1]?.trim() ?? "";
 
     if (!className || !path) {
-      discarded.push({ className: className || "(sin classname)", reason: "bloque sin classname o sin blueprint path" });
+      discarded.push({
+        className: className || "(sin classname)",
+        reason: "bloque sin classname o sin blueprint path",
+      });
       continue;
     }
     if (!className.endsWith("_C")) {

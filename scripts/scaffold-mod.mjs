@@ -35,14 +35,9 @@
  *   --write-i18n     inserta las claves en catalog/i18n/{es,en}.json (default: solo las imprime)
  *   --dry-run        no escribe nada
  */
-import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from "node:fs";
-import {
-  inferControl,
-  inferTier,
-  slugify,
-  snake,
-} from "./lib/infer-control.mjs";
+import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
+import { inferControl, inferTier, slugify, snake } from "./lib/infer-control.mjs";
 
 // ---------------------------------------------------------------- argumentos
 
@@ -69,7 +64,7 @@ if (!args.spec) {
   const required = ["ini", "section", "game", "name"];
   const missing = required.filter((k) => !args[k]);
   if (missing.length > 0) {
-    console.error(`Faltan flags: ${missing.map((m) => "--" + m).join(", ")}`);
+    console.error(`Faltan flags: ${missing.map((m) => `--${m}`).join(", ")}`);
     console.error("Ver el encabezado del script para el uso completo.");
     process.exit(1);
   }
@@ -195,7 +190,13 @@ function runSpecMode(specPath) {
         const { es: _fes, en: _fen, ...ff } = f;
         return { ...ff, i18nKey: `mods.${ns}.${snake(key)}.${snake(f.suffix)}` };
       });
+      // `control` se arma mutando y se serializa a JSON una sola vez, en un
+      // script que corre a mano: la desoptimización que la regla evita no
+      // existe acá, y sacar las dos claves del spec donde se traducen se lee
+      // mejor que reconstruir el objeto entero abajo.
+      // biome-ignore lint/performance/noDelete: script de un tiro, no hay forma caliente
       delete control.keyEs;
+      // biome-ignore lint/performance/noDelete: idem
       delete control.keyEn;
     }
     return {
@@ -213,7 +214,10 @@ function runSpecMode(specPath) {
     };
   });
 
-  const dest = args.out ?? existingEntryFor(spec) ?? `catalog/mods/${spec.game}/community/${slugify(spec.name)}.json`;
+  const dest =
+    args.out ??
+    existingEntryFor(spec) ??
+    `catalog/mods/${spec.game}/community/${slugify(spec.name)}.json`;
 
   /**
    * Los classnames de una entrada que ya existe se CONSERVAN si el spec no
@@ -340,9 +344,7 @@ if (args.spec) {
 
 const entries = readSection(args.ini, args.section);
 if (entries.length === 0) {
-  console.error(
-    `No encontre claves en la seccion [${args.section}] de ${args.ini}`,
-  );
+  console.error(`No encontre claves en la seccion [${args.section}] de ${args.ini}`);
   process.exit(1);
 }
 
@@ -387,8 +389,7 @@ const modJson = {
   settings,
 };
 
-const outPath =
-  args.out ?? `catalog/mods/${args.game}/community/${slug}.json`;
+const outPath = args.out ?? `catalog/mods/${args.game}/community/${slug}.json`;
 
 // ------------------------------------------------------------------- salida
 
@@ -451,6 +452,6 @@ console.log("Repasar a mano antes de commitear:");
 console.log("  - etiquetas y descripciones (salen como placeholder)");
 console.log("  - min/max de cada control (heuristica conservadora)");
 console.log("  - si el valor del dump es el default real de la mod");
-if (!existsSync(`catalog/i18n/es.json`)) {
+if (!existsSync("catalog/i18n/es.json")) {
   console.log("  - OJO: no encontre catalog/i18n/es.json, corriste desde la raiz?");
 }

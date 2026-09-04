@@ -6,16 +6,11 @@
   "name": "Awesome Admin Tool",
   "game": "ase",
   "source": "verified",
-  "verifiedBy": [
-    "sirlurmock"
-  ],
+  "verifiedBy": ["sirlurmock"],
   "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2885772943",
   "prefix": "awesome_admin_tool",
-  "searchAliases": [
-    "herramienta de administración",
-    "administrar tribus"
-  ],
+  "searchAliases": ["herramienta de administración", "administrar tribus"],
   "settings": [
     {
       "key": "MaxBasesPerTribe",
@@ -101,11 +96,7 @@
       "min": 0.1,
       "max": 10,
       "step": 0.1,
-      "presets": [
-        0.5,
-        1,
-        2
-      ],
+      "presets": [0.5, 1, 2],
       "es": {
         "label": "Velocidad de compilado de tribus",
         "description": "Multiplica la velocidad del compilado del modo Destroy Tribe. Subirlo lo hace más rápido pero carga más al servidor; bajarlo reparte el trabajo."
@@ -123,11 +114,7 @@
       "min": 0.1,
       "max": 10,
       "step": 0.1,
-      "presets": [
-        0.5,
-        1,
-        2
-      ],
+      "presets": [0.5, 1, 2],
       "es": {
         "label": "Velocidad de compilado de dinos",
         "description": "Multiplica la velocidad con la que la herramienta compila los dinos del mapa. Mismo trade-off que el compilado de tribus."
@@ -145,11 +132,7 @@
       "min": 0,
       "max": 10,
       "step": 0.1,
-      "presets": [
-        0.5,
-        1,
-        2
-      ],
+      "presets": [0.5, 1, 2],
       "es": {
         "label": "Fuerza del empuje",
         "description": "Multiplica la fuerza del modo Push. x2 = empuja el doble de fuerte al objetivo."
@@ -167,11 +150,7 @@
       "min": 0,
       "max": 10,
       "step": 0.1,
-      "presets": [
-        0.5,
-        1,
-        2
-      ],
+      "presets": [0.5, 1, 2],
       "es": {
         "label": "Fuerza del lanzamiento",
         "description": "Multiplica la fuerza del modo Launch. x2 = lanza el doble de lejos."
@@ -189,11 +168,7 @@
       "min": 0,
       "max": 10,
       "step": 0.1,
-      "presets": [
-        0.5,
-        1,
-        2
-      ],
+      "presets": [0.5, 1, 2],
       "es": {
         "label": "Alcance de la herramienta",
         "description": "Multiplica el alcance de todos los modos de la herramienta. x2 = apunta al doble de distancia."

@@ -5,16 +5,11 @@
   "name": "Super Structures",
   "game": "ase",
   "source": "verified",
-  "verifiedBy": [
-    "sirlurmock"
-  ],
+  "verifiedBy": ["sirlurmock"],
   "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1999447172",
   "prefix": "super_structures",
-  "searchAliases": [
-    "super estructuras",
-    "estructuras"
-  ],
+  "searchAliases": ["super estructuras", "estructuras"],
   "settings": [
     {
       "key": "AmmoBoxResourceAdditions",
@@ -287,12 +282,7 @@
       "min": 0.1,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de Beer Barrel",
         "description": "Multiplica la velocidad de fabricación de Beer Barrel. Por defecto 1; el autor acepta hasta 100."
@@ -344,12 +334,7 @@
       "min": 0.1,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de Campfire",
         "description": "Multiplica la velocidad de fabricación de Campfire. Por defecto 1; el autor acepta hasta 100."
@@ -432,12 +417,7 @@
       "min": 0.1,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de Chemistry Bench",
         "description": "Multiplica la velocidad de fabricación de Chemistry Bench. Por defecto 4; el autor acepta hasta 100."
@@ -455,12 +435,7 @@
       "min": 0.1,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de Tek Chem Bench",
         "description": "Multiplica la velocidad de fabricación de Tek Chem Bench. Por defecto 1; el autor acepta hasta 100."
@@ -526,12 +501,7 @@
       "min": 0,
       "max": 10,
       "step": 0.1,
-      "presets": [
-        0.5,
-        1,
-        2,
-        5
-      ],
+      "presets": [0.5, 1, 2, 5],
       "tier": "basic",
       "es": {
         "label": "Costo de clonado",
@@ -549,11 +519,7 @@
       "min": 0,
       "max": 1000,
       "step": 0.1,
-      "presets": [
-        1,
-        2,
-        5
-      ],
+      "presets": [1, 2, 5],
       "tier": "basic",
       "es": {
         "label": "Velocidad de clonado",
@@ -614,12 +580,7 @@
       "min": 0.1,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de Compost Bin",
         "description": "Multiplica la velocidad de fabricación de Compost Bin. Por defecto 1; el autor acepta hasta 100."
@@ -710,12 +671,7 @@
       "min": 0.1,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de Cooking Pot",
         "description": "Multiplica la velocidad de fabricación de Cooking Pot. Por defecto 1; el autor acepta hasta 100."
@@ -767,12 +723,7 @@
       "min": 0.1,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de Industrial Cooking Pot",
         "description": "Multiplica la velocidad de fabricación de Industrial Cooking Pot. Por defecto 12; el autor acepta hasta 100."
@@ -790,12 +741,7 @@
       "min": 0.1,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de Tek Cooking Pot",
         "description": "Multiplica la velocidad de fabricación de Tek Cooking Pot. Por defecto 25; el autor acepta hasta 100."
@@ -830,12 +776,7 @@
       "min": 0.1,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de Fabricator",
         "description": "Multiplica la velocidad de fabricación de Fabricator. Por defecto 1; el autor acepta hasta 100."
@@ -870,12 +811,7 @@
       "min": 0.1,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de Replicator",
         "description": "Multiplica la velocidad de fabricación de Replicator. Por defecto 12; el autor acepta hasta 100."
@@ -910,12 +846,7 @@
       "min": 0.1,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de Smithy",
         "description": "Multiplica la velocidad de fabricación de Smithy. Por defecto 1; el autor acepta hasta 100."
@@ -950,12 +881,7 @@
       "min": 0.1,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de SS Crafting Station",
         "description": "Multiplica la velocidad de fabricación de SS Crafting Station. Por defecto 1; el autor acepta hasta 100."
@@ -1209,12 +1135,7 @@
       "min": 0.1,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de Drone Terminal",
         "description": "Multiplica la velocidad de fabricación de Drone Terminal. Por defecto 1; el autor acepta hasta 100."
@@ -1249,12 +1170,7 @@
       "min": 0.1,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de Dyeria",
         "description": "Multiplica la velocidad de fabricación de Dyeria. Por defecto 25; el autor acepta hasta 100."
@@ -1393,12 +1309,7 @@
       "min": 0.1,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de Element Catalyzer",
         "description": "Multiplica la velocidad de fabricación de Element Catalyzer. Por defecto 1; el autor acepta hasta 100."
@@ -1432,12 +1343,7 @@
       "min": 0,
       "max": 10,
       "step": 0.1,
-      "presets": [
-        0,
-        1,
-        2,
-        5
-      ],
+      "presets": [0, 1, 2, 5],
       "tier": "advanced",
       "es": {
         "label": "Peso que levanta el ascensor",
@@ -1609,12 +1515,7 @@
       "min": 0.1,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de Fireplace",
         "description": "Multiplica la velocidad de fabricación de Fireplace. Por defecto 2; el autor acepta hasta 100."
@@ -1726,11 +1627,7 @@
       "min": 0,
       "max": 5,
       "step": 0.1,
-      "presets": [
-        1,
-        2,
-        5
-      ],
+      "presets": [1, 2, 5],
       "tier": "advanced",
       "es": {
         "label": "Radio del escudo",
@@ -1783,12 +1680,7 @@
       "min": 0.1,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de Forge",
         "description": "Multiplica la velocidad de fabricación de Forge. Por defecto 1; el autor acepta hasta 100."
@@ -1823,12 +1715,7 @@
       "min": 0.1,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de Industrial Forge",
         "description": "Multiplica la velocidad de fabricación de Industrial Forge. Por defecto 1; el autor acepta hasta 100."
@@ -1863,12 +1750,7 @@
       "min": 0.1,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de Tek Forge",
         "description": "Multiplica la velocidad de fabricación de Tek Forge. Por defecto 1; el autor acepta hasta 100."
@@ -1948,12 +1830,7 @@
       "min": 0.1,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de Fridge",
         "description": "Multiplica la velocidad de fabricación de Fridge. Por defecto 1; el autor acepta hasta 100."
@@ -2189,11 +2066,7 @@
       "min": 0,
       "max": 10,
       "step": 0.1,
-      "presets": [
-        1,
-        2,
-        5
-      ],
+      "presets": [1, 2, 5],
       "tier": "expert",
       "es": {
         "label": "Tiempo límite de los jefes de raid",
@@ -2301,12 +2174,7 @@
       "min": 0,
       "max": 1,
       "step": 0.1,
-      "presets": [
-        0,
-        1,
-        2,
-        5
-      ],
+      "presets": [0, 1, 2, 5],
       "tier": "advanced",
       "es": {
         "label": "Transparencia mínima del vidrio",
@@ -2325,12 +2193,7 @@
       "min": 0.1,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de Industrial Grill",
         "description": "Multiplica la velocidad de fabricación de Industrial Grill. Por defecto 1; el autor acepta hasta 100."
@@ -2365,12 +2228,7 @@
       "min": 0.1,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de Tek Stove",
         "description": "Multiplica la velocidad de fabricación de Tek Stove. Por defecto 1; el autor acepta hasta 100."
@@ -2433,12 +2291,7 @@
       "min": 0.1,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de Grinder",
         "description": "Multiplica la velocidad de fabricación de Grinder. Por defecto 1; el autor acepta hasta 100."
@@ -2562,11 +2415,7 @@
       "min": 0,
       "max": 10,
       "step": 0.1,
-      "presets": [
-        1,
-        2,
-        5
-      ],
+      "presets": [1, 2, 5],
       "tier": "advanced",
       "es": {
         "label": "Velocidad de incubación de la Hatchery",
@@ -2808,12 +2657,7 @@
       "min": 0.1,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de Mortar And Pestle",
         "description": "Multiplica la velocidad de fabricación de Mortar And Pestle. Por defecto 1; el autor acepta hasta 100."
@@ -3205,12 +3049,7 @@
       "min": 0.1,
       "max": 100,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de Preserving Bin",
         "description": "Multiplica la velocidad de fabricación de Preserving Bin. Por defecto 1; el autor acepta hasta 100."
@@ -3322,11 +3161,7 @@
       "min": 0.1,
       "max": 10,
       "step": 0.1,
-      "presets": [
-        1,
-        2,
-        5
-      ],
+      "presets": [1, 2, 5],
       "tier": "advanced",
       "es": {
         "label": "Espera entre transferencias (segundos)",
@@ -4083,11 +3918,7 @@
       "min": 0,
       "max": 100,
       "step": 0.1,
-      "presets": [
-        0.5,
-        1,
-        2
-      ],
+      "presets": [0.5, 1, 2],
       "es": {
         "label": "Daño de SS Auto Turret",
         "description": "Multiplica el daño de SS Auto Turret. Por defecto 1."
@@ -4122,11 +3953,7 @@
       "min": 0,
       "max": 100,
       "step": 0.1,
-      "presets": [
-        0.5,
-        1,
-        2
-      ],
+      "presets": [0.5, 1, 2],
       "es": {
         "label": "Daño de SS Ballista Turret",
         "description": "Multiplica el daño de SS Ballista Turret. Por defecto 1."
@@ -4161,11 +3988,7 @@
       "min": 0,
       "max": 100,
       "step": 0.1,
-      "presets": [
-        0.5,
-        1,
-        2
-      ],
+      "presets": [0.5, 1, 2],
       "es": {
         "label": "Daño de SS Cannon Turret",
         "description": "Multiplica el daño de SS Cannon Turret. Por defecto 1."
@@ -4200,11 +4023,7 @@
       "min": 0,
       "max": 100,
       "step": 0.1,
-      "presets": [
-        0.5,
-        1,
-        2
-      ],
+      "presets": [0.5, 1, 2],
       "es": {
         "label": "Daño de SS Flame Turret",
         "description": "Multiplica el daño de SS Flame Turret. Por defecto 1."
@@ -4239,11 +4058,7 @@
       "min": 0,
       "max": 100,
       "step": 0.1,
-      "presets": [
-        0.5,
-        1,
-        2
-      ],
+      "presets": [0.5, 1, 2],
       "es": {
         "label": "Daño de SS Heavy Turret",
         "description": "Multiplica el daño de SS Heavy Turret. Por defecto 1."
@@ -4278,11 +4093,7 @@
       "min": 0,
       "max": 100,
       "step": 0.1,
-      "presets": [
-        0.5,
-        1,
-        2
-      ],
+      "presets": [0.5, 1, 2],
       "es": {
         "label": "Daño de SS Laser Turret",
         "description": "Multiplica el daño de SS Laser Turret. Por defecto 1."
@@ -4317,11 +4128,7 @@
       "min": 0,
       "max": 100,
       "step": 0.1,
-      "presets": [
-        0.5,
-        1,
-        2
-      ],
+      "presets": [0.5, 1, 2],
       "es": {
         "label": "Daño de SS Minigun Turret",
         "description": "Multiplica el daño de SS Minigun Turret. Por defecto 1."
@@ -4356,11 +4163,7 @@
       "min": 0,
       "max": 100,
       "step": 0.1,
-      "presets": [
-        0.5,
-        1,
-        2
-      ],
+      "presets": [0.5, 1, 2],
       "es": {
         "label": "Daño de SS Plant Turret",
         "description": "Multiplica el daño de SS Plant Turret. Por defecto 1."
@@ -4378,11 +4181,7 @@
       "min": 0,
       "max": 100,
       "step": 0.1,
-      "presets": [
-        0.5,
-        1,
-        2
-      ],
+      "presets": [0.5, 1, 2],
       "es": {
         "label": "Daño de SS Rocket Turret",
         "description": "Multiplica el daño de SS Rocket Turret. Por defecto 1."
@@ -4417,11 +4216,7 @@
       "min": 0,
       "max": 100,
       "step": 0.1,
-      "presets": [
-        0.5,
-        1,
-        2
-      ],
+      "presets": [0.5, 1, 2],
       "es": {
         "label": "Daño de SS Tek Turret",
         "description": "Multiplica el daño de SS Tek Turret. Por defecto 1."
@@ -4439,11 +4234,7 @@
       "min": 0,
       "max": 100,
       "step": 0.1,
-      "presets": [
-        0.5,
-        1,
-        2
-      ],
+      "presets": [0.5, 1, 2],
       "es": {
         "label": "Daño de SS Tranq Turret",
         "description": "Multiplica el daño de SS Tranq Turret. Por defecto 1."

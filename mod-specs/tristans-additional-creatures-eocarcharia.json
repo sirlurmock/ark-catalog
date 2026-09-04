@@ -30,13 +30,7 @@
   "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/tristans-additional-creatures-eocarcharia",
   "curseforgeId": "963130",
   "prefix": "tac_eocarcharia",
-  "searchAliases": [
-    "eocarcharia",
-    "eocar",
-    "tac",
-    "tristans",
-    "criaturas"
-  ],
+  "searchAliases": ["eocarcharia", "eocar", "tac", "tristans", "criaturas"],
   "settings": [],
   "classNames": {
     "items": [

@@ -82,7 +82,10 @@ export function parseSpawncodeText(text) {
       // rotulan los bloques con dos puntos ("Hen:"), que no son parte del
       // nombre; el índice del documento repite títulos con su número de
       // página al final ("Lion Saddle 10") y esos no sirven de nombre.
-      const clean = line.replace(/\s*\d+$/, "").replace(/\s*[::]\s*$/, "").trim();
+      const clean = line
+        .replace(/\s*\d+$/, "")
+        .replace(/\s*[::]\s*$/, "")
+        .trim();
       if (SECTION_LABELS.test(clean)) continue; // conserva el nombre anterior
       heading = clean.length > 0 && clean.length <= 60 && !/[.!?]$/.test(clean) ? clean : null;
       continue;

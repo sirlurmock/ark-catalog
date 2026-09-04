@@ -6,20 +6,12 @@
   "name": "Castles, Keeps and Forts (Remastered + Sci-Fi)",
   "game": "ase",
   "source": "verified",
-  "verifiedBy": [
-    "sirlurmock"
-  ],
+  "verifiedBy": ["sirlurmock"],
   "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1814953878",
-  "alsoWorkshopIds": [
-    "2121156303"
-  ],
+  "alsoWorkshopIds": ["2121156303"],
   "prefix": "ckf",
-  "searchAliases": [
-    "castillos",
-    "fuertes",
-    "construcción medieval"
-  ],
+  "searchAliases": ["castillos", "fuertes", "construcción medieval"],
   "settings": [
     {
       "key": "DisablePickup",
@@ -71,12 +63,7 @@
       "min": 0.1,
       "max": 50,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de fabricación de las estructuras CKF",
         "description": "Multiplica la velocidad de la mesa de cantería y demás estaciones del mod. Solo afecta a las estructuras de CKF, no a las de vanilla."
@@ -164,12 +151,7 @@
       "min": 0.1,
       "max": 50,
       "step": 0.5,
-      "presets": [
-        1,
-        2,
-        5,
-        10
-      ],
+      "presets": [1, 2, 5, 10],
       "es": {
         "label": "Velocidad de cocción de las estructuras CKF",
         "description": "Multiplica la velocidad de las estructuras del mod que cocinan o funden. Solo afecta a las de CKF."

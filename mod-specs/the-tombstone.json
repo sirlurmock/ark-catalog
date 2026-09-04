@@ -6,16 +6,11 @@
   "name": "The Tombstone",
   "game": "ase",
   "source": "verified",
-  "verifiedBy": [
-    "sirlurmock"
-  ],
+  "verifiedBy": ["sirlurmock"],
   "verifiedAt": "2026-08-24",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=1139981401",
   "prefix": "tombstone",
-  "searchAliases": [
-    "lápida",
-    "tumba"
-  ],
+  "searchAliases": ["lápida", "tumba"],
   "settings": [
     {
       "key": "KeepInventoryOnDeath",

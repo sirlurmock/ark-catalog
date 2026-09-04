@@ -7,12 +7,7 @@
   "source": "community",
   "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2804332920",
   "prefix": "paleo_ark_legends",
-  "searchAliases": [
-    "criaturas",
-    "paleo",
-    "variantes",
-    "evo"
-  ],
+  "searchAliases": ["criaturas", "paleo", "variantes", "evo"],
   "settings": [],
   "classNames": {
     "dinos": [
