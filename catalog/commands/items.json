@@ -43,7 +43,7 @@
     "category": "items",
     "i18nKey": "commands.items.give_resource.label",
     "descriptionI18nKey": "commands.items.give_resource.description",
-    "template": "GiveItem \"Blueprint'/Game/{blueprintPath}'\" {qty} 0 0",
+    "template": "GiveItem \"Blueprint'{blueprintPath}'\" {qty} 0 0",
     "params": [
       {
         "name": "blueprintPath",
