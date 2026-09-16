@@ -4176,7 +4176,8 @@
     "arkology_oe_sanguivern": {},
     "tac_vectispinus": {},
     "tac_antrodemus": {},
-    "tac_eocarcharia": {}
+    "tac_eocarcharia": {},
+    "nanohs_spyglass": {}
   },
   "mods_structures_plus": {
     "category": "Structures Plus",
@@ -4985,6 +4986,31 @@
     "tier_high": "High",
     "tier_ultra": "Ultra",
     "tier_epic": "Epic"
+  },
+  "remote": {
+    "dialog_title": "Rented server (FTP)",
+    "dialog_description": "Upload your .ini files straight to your hosting (Nitrado, GPortal…) using the FTP credentials from its panel.",
+    "protocol": "Protocol",
+    "host": "Server (host)",
+    "port": "Port",
+    "username": "Username",
+    "password": "Password",
+    "password_hint": "Stored on your machine, in the profile file, UNENCRYPTED. Use the FTP password from the hosting panel, not your account password.",
+    "remote_dir": "Remote folder of the .ini files",
+    "remote_dir_hint": "The server folder where Game.ini and GameUserSettings.ini live. “Test connection” confirms whether they are there.",
+    "test_button": "Test connection",
+    "test_ok_with_inis": "Connects — and the .ini files are there ✓",
+    "test_ok_no_inis": "Connects, but no .ini files in that folder — check the path",
+    "remove_button": "Remove server",
+    "configure_button": "Rented server (FTP)…",
+    "configure_short": "Configure…",
+    "upload_button": "Upload to server",
+    "uploading": "Uploading…",
+    "upload_done_title": "Uploaded to server",
+    "upload_done_files": "Files uploaded: {files} → {host}:{dir}",
+    "upload_done_backup": "What the server had was backed up on your machine: {dir}",
+    "upload_done_restart": "ARK reads these files at startup: restart the server from the hosting panel for the changes to take effect.",
+    "upload_error_title": "Could not upload to the server"
   },
   "editor": {
     "back_to_dashboard": "Back to dashboard",

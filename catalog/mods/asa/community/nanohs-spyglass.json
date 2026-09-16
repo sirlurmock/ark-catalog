@@ -1,0 +1,60 @@
+{
+  "modId": "NanohsSpyglass",
+  "name": "Nanoh's Spyglass",
+  "game": "asa",
+  "source": "community",
+  "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/nanohs-spyglass",
+  "curseforgeId": "949623",
+  "searchAliases": [
+    "catalejo",
+    "spyglass",
+    "mirilla",
+    "nanoh",
+    "nano",
+    "stats de dinos"
+  ],
+  "settings": [],
+  "_source": "Mod SIN ajustes de `.ini`, y con el motivo en palabras del autor. Su pagina de CurseForge (https://www.curseforge.com/ark-survival-ascended/mods/nanohs-spyglass, consultada el 2026-09-15) no documenta ninguna seccion ni clave: toda la configuracion se toca in-game desde el icono \"Nanoh's Spyglass Config\" de la rueda de uso multiple, y para el servidor dice \"There's also admin override support, so server owners can control settings globally\" — o sea, un override de admin TAMBIEN in-game, no un archivo. Se revisaron ademas los changelogs de los archivos publicados (p. ej. files/7721361, que habla de \"user config settings\" y de un boton \"Reset to default\", nunca de un .ini) y una busqueda web abierta; ninguna fuente menciona GameUserSettings.ini, Game.ini ni una seccion entre corchetes. Inventar claves aca seria escribir lineas muertas en el .ini del usuario. Si el autor publica una config de servidor por archivo (su Discord es https://discord.com/invite/bzczt7cNfu), esta entrada se completa y puede pasar a verified.",
+  "_classnamesSource": {
+    "items": {
+      "url": "https://arkcodes.com/mods/949623/nanohs-spyglass/items",
+      "fetchedAt": "2026-09-15",
+      "note": "arkcodes, proyecto 949623. Trae los 5 objetos con blueprint path completo. Los labels de los 4 traits se REESCRIBIERON: arkcodes los humaniza en el orden del classname ('Weapon Spyglass Trait') y el orden real es el que usa el autor en sus propios engramas (EngramEntry_NanohsSpyglassWeaponTrait_C), o sea 'Spyglass Weapon Trait'. El sufijo '(item)' distingue los PrimalItem_ItemTrait_* de los PrimalItemTrait_*."
+    },
+    "engrams": {
+      "url": "https://arkcodes.com/mods/949623/nanohs-spyglass/engrams",
+      "fetchedAt": "2026-09-15",
+      "note": "arkcodes, proyecto 949623. OJO con la asimetria: hay un EngramEntry_NanohsSpyglassSkin_C pero la pagina de items NO lista el objeto del skin, asi que su blueprint path queda pendiente de una fuente que lo traiga (no se deduce)."
+    }
+  },
+  "classNames": {
+    "items": [
+      {
+        "value": "/NanohsSpyGlass/NanohSpyglass/PrimalItemConsumableNanohSpyglass.PrimalItemConsumableNanohSpyglass",
+        "label": "Nanoh's Spyglass"
+      },
+      {
+        "value": "/NanohsSpyGlass/NanohSpyglass/Trait/PrimalItemTrait_ArmorSpyglass.PrimalItemTrait_ArmorSpyglass",
+        "label": "Spyglass Armor Trait"
+      },
+      {
+        "value": "/NanohsSpyGlass/NanohSpyglass/Trait/PrimalItemTrait_WeaponSpyglass.PrimalItemTrait_WeaponSpyglass",
+        "label": "Spyglass Weapon Trait"
+      },
+      {
+        "value": "/NanohsSpyGlass/NanohSpyglass/Trait/PrimalItem_ItemTrait_ArmorSpyglass.PrimalItem_ItemTrait_ArmorSpyglass",
+        "label": "Spyglass Armor Trait (item)"
+      },
+      {
+        "value": "/NanohsSpyGlass/NanohSpyglass/Trait/PrimalItem_ItemTrait_WeaponSpyglass.PrimalItem_ItemTrait_WeaponSpyglass",
+        "label": "Spyglass Weapon Trait (item)"
+      }
+    ],
+    "engrams": [
+      { "value": "EngramEntry_NanohsSpyglass_C", "label": "Nanoh's Spyglass" },
+      { "value": "EngramEntry_NanohsSpyglassSkin_C", "label": "Nanoh's Spyglass Skin" },
+      { "value": "EngramEntry_NanohsSpyglassArmorTrait_C", "label": "Nanoh's Spyglass Armor Trait" },
+      { "value": "EngramEntry_NanohsSpyglassWeaponTrait_C", "label": "Nanoh's Spyglass Weapon Trait" }
+    ]
+  }
+}

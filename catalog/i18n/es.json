@@ -4176,7 +4176,8 @@
     "arkology_oe_sanguivern": {},
     "tac_vectispinus": {},
     "tac_antrodemus": {},
-    "tac_eocarcharia": {}
+    "tac_eocarcharia": {},
+    "nanohs_spyglass": {}
   },
   "mods_structures_plus": {
     "category": "Structures Plus",
@@ -4985,6 +4986,31 @@
     "tier_high": "Alta",
     "tier_ultra": "Ultra",
     "tier_epic": "Épica"
+  },
+  "remote": {
+    "dialog_title": "Servidor alquilado (FTP)",
+    "dialog_description": "Subí tus .ini directo al hosting (Nitrado, GPortal…) con las credenciales FTP que te da su panel.",
+    "protocol": "Protocolo",
+    "host": "Servidor (host)",
+    "port": "Puerto",
+    "username": "Usuario",
+    "password": "Contraseña",
+    "password_hint": "Se guarda en tu equipo, en el archivo del perfil, SIN cifrar. Usá la contraseña FTP del panel del hosting, no la de tu cuenta.",
+    "remote_dir": "Carpeta remota de los .ini",
+    "remote_dir_hint": "La carpeta del servidor donde viven Game.ini y GameUserSettings.ini. «Probar conexión» te confirma si están ahí.",
+    "test_button": "Probar conexión",
+    "test_ok_with_inis": "Conecta — y los .ini están ahí ✓",
+    "test_ok_no_inis": "Conecta, pero en esa carpeta no se ven los .ini — revisá la ruta",
+    "remove_button": "Quitar servidor",
+    "configure_button": "Servidor alquilado (FTP)…",
+    "configure_short": "Configurar…",
+    "upload_button": "Subir al servidor",
+    "uploading": "Subiendo…",
+    "upload_done_title": "Subido al servidor",
+    "upload_done_files": "Archivos subidos: {files} → {host}:{dir}",
+    "upload_done_backup": "Lo que había en el servidor quedó respaldado en tu equipo: {dir}",
+    "upload_done_restart": "ARK lee estos archivos al arrancar: reiniciá el servidor desde el panel del hosting para que los cambios tengan efecto.",
+    "upload_error_title": "No se pudo subir al servidor"
   },
   "editor": {
     "back_to_dashboard": "Volver al dashboard",
