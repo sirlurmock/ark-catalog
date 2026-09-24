@@ -4177,7 +4177,16 @@
     "tac_vectispinus": {},
     "tac_antrodemus": {},
     "tac_eocarcharia": {},
-    "nanohs_spyglass": {}
+    "nanohs_spyglass": {},
+    "feras_tlcs_megalodon": {},
+    "auto_fishery_asa": {
+      "production_quantity": "Cantidad producida por ciclo",
+      "production_quantity.description": "Cuántas unidades de recurso (aceite, perlas negras, perlas de sílice, gel de anglerfish, sangre de sanguijuela, sangre de amonite) genera la almeja en cada ciclo. Default: 1.",
+      "production_interval": "Intervalo de producción (segundos)",
+      "production_interval.description": "Cada cuántos segundos la almeja produce. Más bajo = produce más seguido. Default: 1800 (30 minutos).",
+      "disable_fish_spawns": "Desactivar los peces que aparecen",
+      "disable_fish_spawns.description": "Si está activado, la almeja deja de hacer aparecer criaturas acuáticas mientras produce (los defensores agresivos). Default: desactivado — los peces aparecen."
+    }
   },
   "mods_structures_plus": {
     "category": "Structures Plus",

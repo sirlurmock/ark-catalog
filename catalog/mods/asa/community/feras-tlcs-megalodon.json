@@ -1,0 +1,100 @@
+{
+  "modId": "FerasTLCsMegalodon",
+  "name": "Feras TLCs: Megalodon",
+  "game": "asa",
+  "source": "community",
+  "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/feras-tlcs-megalodon",
+  "curseforgeId": "1642234",
+  "searchAliases": [
+    "megalodon",
+    "mega",
+    "tiburon",
+    "tiburón",
+    "tlc",
+    "fera",
+    "criaturas"
+  ],
+  "settings": [],
+  "classNames": {
+    "items": [
+      {
+        "value": "/FerasTLCs_Megalodon/Saddle/PrimalItemArmor_TLCMegalodonSaddle.PrimalItemArmor_TLCMegalodonSaddle",
+        "label": "TLC Megalodon Saddle"
+      },
+      {
+        "value": "/FerasTLCs_Megalodon/Saddle/PrimalItemArmor_TLCMegalodonSaddle_Tek.PrimalItemArmor_TLCMegalodonSaddle_Tek",
+        "label": "TLC Megalodon Tek Saddle"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_Saddle_TLCMegalodonSaddle_C",
+        "label": "TLC Megalodon Saddle"
+      },
+      {
+        "value": "EngramEntry_TLCTekMegalodonSaddle_C",
+        "label": "TLC Megalodon Tek Saddle"
+      }
+    ],
+    "dinos": [
+      {
+        "value": "TLCOcean_Megalodon_Character_BP_Escort_C",
+        "label": "TLC Megalodon (misión Escort de Genesis)"
+      },
+      {
+        "value": "TLCOcean_Megalodon_Character_BP_Gauntlet_C",
+        "label": "TLC Megalodon (misión Gauntlet de Genesis)"
+      },
+      {
+        "value": "TLCOcean_Megalodon_Character_BP_Hunt_C",
+        "label": "TLC Megalodon (misión Hunt de Genesis)"
+      },
+      {
+        "value": "TLCOcean_Megalodon_Character_BP_Retrieve_C",
+        "label": "TLC Megalodon (misión Retrieve de Genesis)"
+      },
+      {
+        "value": "TLCOcean_Megalodon_Character_BP_Retrieve_Brute_C",
+        "label": "TLC Megalodon (misión Retrieve de Genesis, Brute)"
+      },
+      {
+        "value": "tlcOcean_Megalodon_Character_BP_RetrieveNonTarget_C",
+        "label": "TLC Megalodon (misión Retrieve de Genesis, no objetivo)"
+      },
+      {
+        "value": "GreatMegalodon_Character_BP_C",
+        "label": "Great Megalodon"
+      },
+      {
+        "value": "MegaTLCMegalodon_Character_BP_C",
+        "label": "TLC Megalodon (Alpha)"
+      },
+      {
+        "value": "Ocean_TLCMegalodon_Character_BP_C",
+        "label": "TLC Megalodon (variante océano de Genesis)"
+      },
+      {
+        "value": "TLCMegalodon_Character_BP_C",
+        "label": "TLC Megalodon"
+      }
+    ]
+  },
+  "_classnamesSource": {
+    "items": {
+      "url": "https://arkcodes.com/mods/1642234/feras-tlcs-megalodon/items",
+      "fetchedAt": "2026-09-23",
+      "note": "arkcodes, proyecto 1642234. Los 2 objetos con blueprint path completo; el label de la Tek se reordeno a 'TLC Megalodon Tek Saddle', como la vanilla 'Megalodon Tek Saddle'."
+    },
+    "engrams": {
+      "url": "https://arkcodes.com/mods/1642234/feras-tlcs-megalodon/engrams",
+      "fetchedAt": "2026-09-23",
+      "note": "arkcodes, proyecto 1642234. Labels reescritos: arkcodes humaniza 'Saddle TLC Megalodon Saddle' (el orden del classname); se usa el nombre del objeto que desbloquean."
+    },
+    "dinos": {
+      "url": "https://arkcodes.com/mods/1642234/feras-tlcs-megalodon/dinos",
+      "fetchedAt": "2026-09-23",
+      "note": "arkcodes, proyecto 1642234. Labels reescritos con la convencion vanilla: prefijo 'Mega' = Alpha, 'Ocean_' = variante oceano de Genesis, sufijos Escort/Gauntlet/Hunt/Retrieve = las misiones de Genesis. GreatMegalodon queda con el nombre tal cual: ninguna fuente dice que variante es y no se deduce."
+    }
+  },
+  "_source": "Mod SIN ajustes de `.ini`. Su pagina de CurseForge (https://www.curseforge.com/ark-survival-ascended/mods/feras-tlcs-megalodon, proyecto 1642234, autor fera_spielt, consultada el 2026-09-23) no documenta ninguna seccion ni clave de GameUserSettings.ini ni de Game.ini: la mod rehace el Megalodon vanilla (modelo, animaciones, silla y cinco habilidades nuevas) y lo REEMPLAZA junto a sus variantes Alpha y de oceano de Genesis. La entrada aporta los classnames (nombre en vez de ID y autocompletado con la mod activa); inventar claves seria escribir lineas muertas en el .ini del usuario — mismo criterio que Nanoh's Spyglass y las de T.A.C."
+}

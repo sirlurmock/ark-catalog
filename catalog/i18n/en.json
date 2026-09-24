@@ -4177,7 +4177,16 @@
     "tac_vectispinus": {},
     "tac_antrodemus": {},
     "tac_eocarcharia": {},
-    "nanohs_spyglass": {}
+    "nanohs_spyglass": {},
+    "feras_tlcs_megalodon": {},
+    "auto_fishery_asa": {
+      "production_quantity": "Quantity produced per cycle",
+      "production_quantity.description": "How many units of resource (oil, black pearls, silica pearls, angler gel, leech blood, ammonite blood) the clam produces each cycle. Default: 1.",
+      "production_interval": "Production interval (seconds)",
+      "production_interval.description": "How often, in seconds, the clam produces. Lower = more frequent. Default: 1800 (30 minutes).",
+      "disable_fish_spawns": "Disable fish spawns",
+      "disable_fish_spawns.description": "When on, the clam stops spawning aquatic creatures while producing (the aggressive defenders). Default: off — fish do spawn."
+    }
   },
   "mods_structures_plus": {
     "category": "Structures Plus",

@@ -1,0 +1,123 @@
+{
+  "_source": "Descripcion oficial del autor en CurseForge (https://www.curseforge.com/ark-survival-ascended/mods/auto-fishery, proyecto 931626, autor GaiaStudios), bloque 'INI Settings': seccion [GaiaFishery] con ProductionQuantity=1, ProductionInterval=1800 y DisableFishSpawns=true/false. Transcrito el 2026-09-23.",
+  "_archivo": "El autor NO dice en que archivo va la seccion. Se usa GameUserSettings.ini, que es donde leen su seccion propia las demas mods de ASA del catalogo (Colossuscorpius, Awesome Teleporters, etc.). Es deduccion, y por eso la entrada queda en community.",
+  "_defaults": "El autor no titula el bloque como defaults (regla del README). ProductionQuantity=1 y ProductionInterval=1800 se toman como default porque son los unicos valores concretos que muestra y coinciden con lo que describe (un recurso cada 30 min). DisableFishSpawns aparece como 'true/false', sin valor: se modela default false porque la descripcion presenta a los defensores acuaticos como parte normal de la mod ('beware - aggressive aquatic defenders rise!') y la clave existe para APAGARLOS.",
+  "_rango": "Ningun rango sale del autor. Los min/max son de usabilidad: cantidad 1-100 por ciclo, intervalo de 60 s a 24 h. La unidad 'segundos' del intervalo tampoco la dice el autor; se deduce de 1800 = 30 min, la convencion de ARK para timers de estructuras.",
+  "modId": "GaiaFishery",
+  "name": "Auto Fishery | Gaia Studios",
+  "game": "asa",
+  "source": "community",
+  "curseforgeUrl": "https://www.curseforge.com/ark-survival-ascended/mods/auto-fishery",
+  "curseforgeId": "931626",
+  "prefix": "auto_fishery_asa",
+  "section": "GaiaFishery",
+  "searchAliases": [
+    "pesca",
+    "pesqueria",
+    "almeja",
+    "clam",
+    "perlas",
+    "aceite",
+    "gaia",
+    "fishery"
+  ],
+  "settings": [
+    {
+      "key": "ProductionQuantity",
+      "kind": "integer",
+      "tier": "basic",
+      "default": 1,
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "es": {
+        "label": "Cantidad producida por ciclo",
+        "description": "Cuántas unidades de recurso (aceite, perlas negras, perlas de sílice, gel de anglerfish, sangre de sanguijuela, sangre de amonite) genera la almeja en cada ciclo. Default: 1."
+      },
+      "en": {
+        "label": "Quantity produced per cycle",
+        "description": "How many units of resource (oil, black pearls, silica pearls, angler gel, leech blood, ammonite blood) the clam produces each cycle. Default: 1."
+      }
+    },
+    {
+      "key": "ProductionInterval",
+      "kind": "integer",
+      "tier": "basic",
+      "default": 1800,
+      "min": 60,
+      "max": 86400,
+      "step": 60,
+      "es": {
+        "label": "Intervalo de producción (segundos)",
+        "description": "Cada cuántos segundos la almeja produce. Más bajo = produce más seguido. Default: 1800 (30 minutos)."
+      },
+      "en": {
+        "label": "Production interval (seconds)",
+        "description": "How often, in seconds, the clam produces. Lower = more frequent. Default: 1800 (30 minutes)."
+      }
+    },
+    {
+      "key": "DisableFishSpawns",
+      "kind": "boolean",
+      "tier": "basic",
+      "default": false,
+      "es": {
+        "label": "Desactivar los peces que aparecen",
+        "description": "Si está activado, la almeja deja de hacer aparecer criaturas acuáticas mientras produce (los defensores agresivos). Default: desactivado — los peces aparecen."
+      },
+      "en": {
+        "label": "Disable fish spawns",
+        "description": "When on, the clam stops spawning aquatic creatures while producing (the aggressive defenders). Default: off — fish do spawn."
+      }
+    }
+  ],
+  "classNames": {
+    "items": [
+      {
+        "value": "/GaiaFishery/BPs/PrimalItemStructure_GaiaFishery.PrimalItemStructure_GaiaFishery",
+        "label": "Gaia Fishery (almeja)"
+      }
+    ],
+    "engrams": [
+      {
+        "value": "EngramEntry_GaiaFishery_C",
+        "label": "Gaia Fishery (almeja)"
+      }
+    ],
+    "dinos": [
+      {
+        "value": "Gaia_Cnidaria_Character_BP_FF_C",
+        "label": "Cnidaria (defensor de la almeja)"
+      },
+      {
+        "value": "Gaia_Coel_Character_BP_FF_C",
+        "label": "Coelacanth (defensor de la almeja)"
+      },
+      {
+        "value": "Gaia_Eel_Character_BP_FF_C",
+        "label": "Electrophorus (defensor de la almeja)"
+      },
+      {
+        "value": "Gaia_Piranha_Character_BP_FF_C",
+        "label": "Piranha (defensor de la almeja)"
+      }
+    ]
+  },
+  "_classnamesSource": {
+    "items": {
+      "url": "https://arkcodes.com/mods/931626/auto-fishery/items",
+      "fetchedAt": "2026-09-23",
+      "note": "vía fetch-mod-classnames.mjs; labels humanizados del classname, revisados a mano"
+    },
+    "engrams": {
+      "url": "https://arkcodes.com/mods/931626/auto-fishery/engrams",
+      "fetchedAt": "2026-09-23",
+      "note": "vía fetch-mod-classnames.mjs; labels humanizados del classname, revisados a mano"
+    },
+    "dinos": {
+      "url": "https://arkcodes.com/mods/931626/auto-fishery/dinos",
+      "fetchedAt": "2026-09-23",
+      "note": "arkcodes, proyecto 931626. Son las 4 criaturas que la almeja hace aparecer (sufijo _FF), presumiblemente las que apaga DisableFishSpawns (el autor no las enumera). Labels con el nombre vanilla de cada especie (Cnidaria, Coel = Coelacanth, Eel = Electrophorus, Piranha)."
+    }
+  }
+}
